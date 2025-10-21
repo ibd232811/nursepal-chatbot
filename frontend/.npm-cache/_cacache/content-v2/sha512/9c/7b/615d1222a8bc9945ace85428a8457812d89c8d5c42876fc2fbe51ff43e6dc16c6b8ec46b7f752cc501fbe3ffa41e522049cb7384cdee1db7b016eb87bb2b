@@ -1,0 +1,2473 @@
+{
+  "_id" : "@babel/helper-validator-option",
+  "_rev" : "46-27ee7e8c54dd7eed79019b59c72c67e2",
+  "name" : "@babel/helper-validator-option",
+  "description" : "Validate plugin/preset options",
+  "dist-tags" : {
+    "next" : "8.0.0-beta.2",
+    "esm" : "7.21.4-esm.4",
+    "latest" : "7.27.1"
+  },
+  "versions" : {
+    "7.12.1" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.12.1",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.12.1.tgz",
+        "shasum" : "175567380c3e77d60ff98a54bb015fe78f2178d9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.12.1",
+      "exports" : "./lib/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.12.1_1602801559451_0.8035683032542031",
+        "host" : "s3://npm-registry-packages"
+      }
+    },
+    "7.12.0" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.12.0",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.12.0.tgz",
+        "shasum" : "1d1fc48a9b69763da61b892774b0df89aee1c969"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.12.0",
+      "exports" : "./lib/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.12.0_1602705754883_0.3419333339795487",
+        "host" : "s3://npm-registry-packages"
+      }
+    },
+    "8.0.0-beta.1" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-beta.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^20.19.0 || >=22.12.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-beta.1.tgz",
+        "shasum" : "7545f55ec96df12651b36201606037d5bb574776"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "actor" : {
+          "name" : "nicolo-ribaudo",
+          "type" : "user",
+          "email" : "nicolo.ribaudo@gmail.com"
+        },
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-beta.1",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-beta.1_1751447035176_0.15278505699804978",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module"
+    },
+    "8.0.0-beta.2" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-beta.2",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^20.19.0 || >=22.12.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-beta.2.tgz",
+        "shasum" : "c7f61ca8910aadb02839b38fbcd02fdf978c9e56"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-beta.2",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/helper-validator-option_8.0.0-beta.2_1757084739271_0.9284500935284437"
+      },
+      "type" : "module"
+    },
+    "8.0.0-beta.0" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-beta.0",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^20.19.0 || >=22.12.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-beta.0.tgz",
+        "shasum" : "72ff1ef1bc72b0f6d52a15a8ea797072137349c9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-beta.0",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-beta.0_1748620239356_0.514875007957537",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module"
+    },
+    "7.22.15" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.22.15",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.22.15.tgz",
+        "shasum" : "694c30dfa1d09a6534cdfcafbe56789d36aba040"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.22.15",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.22.15_1693830303205_0.4955042253922126",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "7.24.7" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.24.7",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.24.7.tgz",
+        "shasum" : "24c3bb77c7a425d1742eec8fb433b5a1b38e62f6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.24.7",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.24.7_1717593295574_0.8773665569874407",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.13" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.13",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.17.0 || >=22.8.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.13.tgz",
+        "shasum" : "73661256805d19b3808206eb76dbefedcdac2ce4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.13",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.13_1729864423422_0.4981112689388758",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.24.8" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.24.8",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.24.8.tgz",
+        "shasum" : "3725cdeea8b480e86d34df15304806a06975e33d"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.24.8",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.24.8_1720709682829_0.3778232233419805",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.12" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.12",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.10.0 || >=21.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.12.tgz",
+        "shasum" : "f06cf04bf810bdd49930a9c08406164578ca5632"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.12",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.12_1722015186166_0.9725822422296617",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.25.7" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.25.7",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.25.7.tgz",
+        "shasum" : "97d1d684448228b30b506d90cace495d6f492729"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.25.7",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.25.7_1727882064096_0.7050201856293006",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.11" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.11",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.10.0 || >=21.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.11.tgz",
+        "shasum" : "6359db8c8e6d1624a3142cd8cdeb89a5efbd1cac"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.11",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.11_1717751710656_0.4924720561014255",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.24.6" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.24.6",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.24.6.tgz",
+        "shasum" : "59d8e81c40b7d9109ab7e74457393442177f460a"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.24.6",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.24.6_1716553449291_0.4040615925712441",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.10" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.10",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.10.0 || >=21.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.10.tgz",
+        "shasum" : "deef0d4736d6985d6eb5c224e330fc4581e82f32"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.10",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.10_1717499979136_0.9800003312971777",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.17" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.17",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.17.0 || >=22.8.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.17.tgz",
+        "shasum" : "6404bbb1482280d78243c3f71fd2b8790fe01343"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.17",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.17_1741717466637_0.08445923919888987",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.16" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.16",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.17.0 || >=22.8.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.16.tgz",
+        "shasum" : "435aa662884ebe76bceeb9160d5c46d8a418b1ad"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.16",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.16_1739534316783_0.41560775009710804",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.15" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.15",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.17.0 || >=22.8.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.15.tgz",
+        "shasum" : "14cce959f2b58ac87c6a1cfe8c7290ca51888641"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.15",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.15_1736529838852_0.6179853342352306",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.21.4-esm",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.21.4-esm.tgz",
+        "shasum" : "24a17e53b12d3cc66853e47343d06ba4ae4d1487"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.21.4-esm",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.21.4-esm_1680617341987_0.4926551554542071",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "7.25.9" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.25.9",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.25.9.tgz",
+        "shasum" : "86e45bd8a49ab7e03f276577f96179653d41da72"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.25.9",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.25.9_1729610439263_0.2767879583019994",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.14" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.14",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.17.0 || >=22.8.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.14.tgz",
+        "shasum" : "239725f75b598e6abd223ed982a736e168865371"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.14",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.14_1733504014959_0.044351054287718794",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.6" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.6",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.6.tgz",
+        "shasum" : "de6c868fb5fd7c5e914dd944a04581c6efa7d468"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.6",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.6_1706285621737_0.9249739011169058",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.5" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.5.tgz",
+        "shasum" : "6455cc901fbcb1a4fc89a5765e33b842857a379f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.5",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.5_1702307896136_0.1102311097560369",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.21.0" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.21.0",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.21.0.tgz",
+        "shasum" : "8224c7e13ace4bafdc4004da2cf064ef42673180"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.21.0",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.21.0_1676907054156_0.22800137202459014",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.8" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.8",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.8.tgz",
+        "shasum" : "8fea1c6b102be95b0f0979d838f8aa592ffd38f2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.8",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.8_1712236764348_0.04270564907493157",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.12.17" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.12.17",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.12.17.tgz",
+        "shasum" : "d1fbf012e1a79b7eebbfdc6d270baaf8d9eb9831"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.12.17",
+      "exports" : "./lib/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.12.17_1613661142004_0.8397554078087612",
+        "host" : "s3://npm-registry-packages"
+      }
+    },
+    "8.0.0-alpha.7" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.7",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.7.tgz",
+        "shasum" : "2c06780521a18e7fb1be31fb570e5065cd0369b2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.7",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.7_1709129047038_0.7107207480290392",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.12.16" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.12.16",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.12.16.tgz",
+        "shasum" : "f73cbd3bbba51915216c5dea908e9b206bb10051"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.12.16",
+      "exports" : "./lib/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.12.16_1613083614266_0.46375468923971197",
+        "host" : "s3://npm-registry-packages"
+      }
+    },
+    "7.22.5" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.22.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.22.5.tgz",
+        "shasum" : "de52000a15a177413c8234fa3a8af4ee8102d0ac"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.22.5",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.22.5_1686248462245_0.7947985807639784",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.2" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.2",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.2.tgz",
+        "shasum" : "2fc8ca5eb91b1729390ce71e776d5c533f33201f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.2",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.2_1691594072225_0.040633448423662566",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.1" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.1.tgz",
+        "shasum" : "3b6387be63e248fee77bffdaae3e81188023d5a7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.1",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.1_1690221055807_0.9125753344617533",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.23.5" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.23.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.23.5.tgz",
+        "shasum" : "907a3fbd4523426285365d1206c423c4c5520307"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.23.5",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.23.5_1701253538741_0.7198352630403453",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "7.27.1" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.27.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.27.1.tgz",
+        "shasum" : "fa52f5b1e7db1ab049445b421c4471303897702f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.27.1",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.27.1_1746025707618_0.8003633949488422",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.4" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.4",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.4.tgz",
+        "shasum" : "6c7c81999cab944b1cda8997112f66fb24504017"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.4",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.4_1697076353408_0.031753636580835076",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.3" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.3",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.3.tgz",
+        "shasum" : "65dd6f5c80448548a1290ba8f412423faaaf5ca6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.3",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.3_1695740185493_0.3682568523496823",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.12.11" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.12.11",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.12.11.tgz",
+        "shasum" : "d66cb8b7a3e7fe4c6962b32020a131ecf0847f4f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.12.11",
+      "exports" : "./lib/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.12.11_1608076755419_0.7592676030810566",
+        "host" : "s3://npm-registry-packages"
+      }
+    },
+    "7.21.4-esm.4" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.21.4-esm.4",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.21.4-esm.4.tgz",
+        "shasum" : "5094e3818aa4429e0da6428abf0fed02dc9b125f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.21.4-esm.4",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.21.4-esm.4_1680621182434_0.6285578562105565",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.1" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.21.4-esm.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.21.4-esm.1.tgz",
+        "shasum" : "db7ab06f2efe92d282aa6104a28740d8b04ebc46"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.21.4-esm.1",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.21.4-esm.1_1680618053440_0.419701059565323",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.9" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.9",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.10.0 || >=21.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.9.tgz",
+        "shasum" : "01bc58ddba42473660f6ee3f5262cc5be6b81920"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.9",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.9_1717423425714_0.43738375222314496",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.3" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.21.4-esm.3",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.21.4-esm.3.tgz",
+        "shasum" : "12e4605d38187494cc2256dee192e8a540c80812"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.21.4-esm.3",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.21.4-esm.3_1680620148181_0.43520900201492574",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.2" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.21.4-esm.2",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.21.4-esm.2.tgz",
+        "shasum" : "21d9131d1f7e60b74f5849fd5cebff9dc6d0cd4d"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.21.4-esm.2",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.21.4-esm.2_1680619115382_0.23783931188667595",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.14.5" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.14.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.14.5.tgz",
+        "shasum" : "6e72a1fff18d5dfcb878e1e62f1a021c4b72d5a3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.14.5",
+      "exports" : "./lib/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.14.5_1623280279696_0.3098651585220653",
+        "host" : "s3://npm-registry-packages"
+      }
+    },
+    "8.0.0-alpha.0" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "8.0.0-alpha.0",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-8.0.0-alpha.0.tgz",
+        "shasum" : "ea9e38129b52ad69ea6c3cb444206017467da1d3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@8.0.0-alpha.0",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_8.0.0-alpha.0_1689861575036_0.9143823781620128",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.16.7" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.16.7",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.16.7.tgz",
+        "shasum" : "b203ce62ce5fe153899b617c08957de860de4d23"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.16.7",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.16.7_1640910079899_0.060843454454916124",
+        "host" : "s3://npm-registry-packages"
+      }
+    },
+    "7.18.6" : {
+      "name" : "@babel/helper-validator-option",
+      "description" : "Validate plugin/preset options",
+      "version" : "7.18.6",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-validator-option"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-validator-option/-/helper-validator-option-7.18.6.tgz",
+        "shasum" : "bf0d2b5a509b1f336099e4ff36e1a63aa5db4db8"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-option@7.18.6",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-validator-option_7.18.6_1656359385134_0.34619892373215233",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "name" : "hzoo",
+    "email" : "hi@henryzoo.com"
+  }, {
+    "name" : "existentialism",
+    "email" : "bng412@gmail.com"
+  }, {
+    "name" : "nicolo-ribaudo",
+    "email" : "nicolo.ribaudo@gmail.com"
+  }, {
+    "name" : "jlhwung",
+    "email" : "jlhwung@gmail.com"
+  } ],
+  "author" : "The Babel Team (https://babel.dev/team)",
+  "time" : {
+    "7.12.1" : "2020-10-15T22:39:19.635Z",
+    "7.12.0" : "2020-10-14T20:02:35.036Z",
+    "8.0.0-beta.1" : "2025-07-02T09:03:55.361Z",
+    "8.0.0-beta.2" : "2025-09-05T15:05:39.467Z",
+    "8.0.0-beta.0" : "2025-05-30T15:50:39.514Z",
+    "7.22.15" : "2023-09-04T12:25:03.466Z",
+    "7.24.7" : "2024-06-05T13:14:55.735Z",
+    "8.0.0-alpha.13" : "2024-10-25T13:53:43.620Z",
+    "modified" : "2025-09-05T15:05:39.716Z",
+    "7.24.8" : "2024-07-11T14:54:42.982Z",
+    "8.0.0-alpha.12" : "2024-07-26T17:33:06.322Z",
+    "7.25.7" : "2024-10-02T15:14:24.416Z",
+    "8.0.0-alpha.11" : "2024-06-07T09:15:10.791Z",
+    "7.24.6" : "2024-05-24T12:24:09.446Z",
+    "8.0.0-alpha.10" : "2024-06-04T11:19:39.287Z",
+    "8.0.0-alpha.17" : "2025-03-11T18:24:26.820Z",
+    "8.0.0-alpha.16" : "2025-02-14T11:58:36.993Z",
+    "8.0.0-alpha.15" : "2025-01-10T17:23:59.055Z",
+    "7.21.4-esm" : "2023-04-04T14:09:02.172Z",
+    "7.25.9" : "2024-10-22T15:20:39.426Z",
+    "8.0.0-alpha.14" : "2024-12-06T16:53:35.167Z",
+    "8.0.0-alpha.6" : "2024-01-26T16:13:41.871Z",
+    "8.0.0-alpha.5" : "2023-12-11T15:18:16.318Z",
+    "7.21.0" : "2023-02-20T15:30:54.382Z",
+    "8.0.0-alpha.8" : "2024-04-04T13:19:24.522Z",
+    "7.12.17" : "2021-02-18T15:12:22.221Z",
+    "8.0.0-alpha.7" : "2024-02-28T14:04:07.175Z",
+    "7.12.16" : "2021-02-11T22:46:54.429Z",
+    "7.22.5" : "2023-06-08T18:21:02.413Z",
+    "8.0.0-alpha.2" : "2023-08-09T15:14:32.404Z",
+    "8.0.0-alpha.1" : "2023-07-24T17:50:55.964Z",
+    "7.23.5" : "2023-11-29T10:25:38.928Z",
+    "7.27.1" : "2025-04-30T15:08:27.857Z",
+    "created" : "2020-10-14T20:02:34.621Z",
+    "8.0.0-alpha.4" : "2023-10-12T02:05:53.642Z",
+    "8.0.0-alpha.3" : "2023-09-26T14:56:25.684Z",
+    "7.12.11" : "2020-12-15T23:59:15.651Z",
+    "7.21.4-esm.4" : "2023-04-04T15:13:02.594Z",
+    "7.21.4-esm.1" : "2023-04-04T14:20:53.606Z",
+    "8.0.0-alpha.9" : "2024-06-03T14:03:45.888Z",
+    "7.21.4-esm.3" : "2023-04-04T14:55:48.447Z",
+    "7.21.4-esm.2" : "2023-04-04T14:38:35.534Z",
+    "7.14.5" : "2021-06-09T23:11:19.822Z",
+    "8.0.0-alpha.0" : "2023-07-20T13:59:35.236Z",
+    "7.16.7" : "2021-12-31T00:21:20.034Z",
+    "7.18.6" : "2022-06-27T19:49:45.284Z"
+  },
+  "repository" : {
+    "url" : "https://github.com/babel/babel.git",
+    "type" : "git",
+    "directory" : "packages/babel-helper-validator-option"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "license" : "MIT"
+}

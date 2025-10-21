@@ -1,0 +1,2874 @@
+{
+  "_id" : "flatted",
+  "_rev" : "40-9d4b0a51d5a50ca23fd993981a0c8188",
+  "name" : "flatted",
+  "description" : "A super light and fast circular JSON parser.",
+  "dist-tags" : {
+    "latest" : "3.3.3"
+  },
+  "versions" : {
+    "0.2.2" : {
+      "name" : "flatted",
+      "description" : "A fast and minimal circular JSON parser.",
+      "version" : "0.2.2",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-0.2.2.tgz",
+        "shasum" : "267f8f687693d8411aefc81df662c1f07646f128"
+      },
+      "devDependencies" : {
+        "jsan" : "latest",
+        "istanbul" : "^0.4.5",
+        "coveralls" : "^3.0.0",
+        "uglify-js" : "^3.3.22",
+        "circular-json" : "latest",
+        "circular-json-es6" : "latest"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "cp index.js cjs/index.js; echo 'module.exports = Flatted;' >> cjs/index.js",
+        "esm" : "cp index.js esm/index.js; echo 'export default Flatted;' >> esm/index.js; echo 'export const parse = Flatted.parse;' >> esm/index.js; echo 'export const stringify = Flatted.stringify;' >> esm/index.js",
+        "min" : "echo '/*! (c) 2018, Andrea Giammarchi, (ISC) */'>min.js && uglifyjs index.js --support-ie8 -c -m >> min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c",
+        "test" : "istanbul cover test/index.js",
+        "bench" : "node test/bench.js",
+        "build" : "npm run cjs && npm test && npm run esm && npm run min && npm run size",
+        "coveralls" : "cat ./coverage/lcov.info | coveralls"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@0.2.2",
+      "gitHead" : "9cae0ad266fb7cae71890fde15bd5166e35e485d",
+      "module" : "esm/index.js",
+      "browser" : "min.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_0.2.2_1527612864352_0.7945905209511002",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "0.2.3" : {
+      "name" : "flatted",
+      "description" : "A fast and minimal circular JSON parser.",
+      "version" : "0.2.3",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-0.2.3.tgz",
+        "shasum" : "2373f329b476e4362ed4a69a7233b42d6f93365b"
+      },
+      "devDependencies" : {
+        "jsan" : "latest",
+        "istanbul" : "^0.4.5",
+        "coveralls" : "^3.0.0",
+        "uglify-js" : "^3.3.22",
+        "circular-json" : "latest",
+        "circular-json-es6" : "latest"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "cp index.js cjs/index.js; echo 'module.exports = Flatted;' >> cjs/index.js",
+        "esm" : "cp index.js esm/index.js; echo 'export default Flatted;' >> esm/index.js; echo 'export const parse = Flatted.parse;' >> esm/index.js; echo 'export const stringify = Flatted.stringify;' >> esm/index.js",
+        "min" : "echo '/*! (c) 2018, Andrea Giammarchi, (ISC) */'>min.js && uglifyjs index.js --support-ie8 -c -m >> min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c",
+        "test" : "istanbul cover test/index.js",
+        "bench" : "node test/bench.js",
+        "build" : "npm run cjs && npm test && npm run esm && npm run min && npm run size",
+        "coveralls" : "cat ./coverage/lcov.info | coveralls"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@0.2.3",
+      "gitHead" : "c05cae20632f2661d2d7687739fd7d1c7cb33046",
+      "unpkg" : "min.js",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_0.2.3_1530638556391_0.8362260439330385",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "0.2.0" : {
+      "name" : "flatted",
+      "description" : "A fast and minimal circular JSON parser.",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-0.2.0.tgz",
+        "shasum" : "4bc5f317f90bc4d05816f48bb9141989dbf33a88"
+      },
+      "dependencies" : {
+        "istanbul" : "^0.4.5",
+        "coveralls" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "uglify-js" : "^3.3.22"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "cp index.js cjs/index.js; echo 'module.exports = Flatted;' >> cjs/index.js",
+        "esm" : "cp index.js esm/index.js; echo 'export default Flatted;' >> esm/index.js; echo 'export const parse = Flatted.parse;' >> esm/index.js; echo 'export const stringify = Flatted.stringify;' >> esm/index.js",
+        "min" : "echo '/*! (c) 2018, Andrea Giammarchi, (ISC) */'>min.js && uglifyjs index.js --support-ie8 -c -m >> min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c",
+        "test" : "istanbul cover test/index.js",
+        "build" : "npm run cjs && npm test && npm run esm && npm run min && npm run size",
+        "coveralls" : "cat ./coverage/lcov.info | coveralls"
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@0.2.0",
+      "gitHead" : "2859ab2a286a81476cacd05ca221ac6de8f047c4",
+      "module" : "esm/index.js",
+      "browser" : "min.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_0.2.0_1524743930314_0.6022769067462244",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "0.2.1" : {
+      "name" : "flatted",
+      "description" : "A fast and minimal circular JSON parser.",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-0.2.1.tgz",
+        "shasum" : "b398f3bbec2287ed7917b3e9bd3c5dfafc9faaf6"
+      },
+      "dependencies" : {
+        "istanbul" : "^0.4.5",
+        "coveralls" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "jsan" : "latest",
+        "uglify-js" : "^3.3.22",
+        "circular-json" : "latest",
+        "circular-json-es6" : "latest"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "cp index.js cjs/index.js; echo 'module.exports = Flatted;' >> cjs/index.js",
+        "esm" : "cp index.js esm/index.js; echo 'export default Flatted;' >> esm/index.js; echo 'export const parse = Flatted.parse;' >> esm/index.js; echo 'export const stringify = Flatted.stringify;' >> esm/index.js",
+        "min" : "echo '/*! (c) 2018, Andrea Giammarchi, (ISC) */'>min.js && uglifyjs index.js --support-ie8 -c -m >> min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c",
+        "test" : "istanbul cover test/index.js",
+        "bench" : "node test/bench.js",
+        "build" : "npm run cjs && npm test && npm run esm && npm run min && npm run size",
+        "coveralls" : "cat ./coverage/lcov.info | coveralls"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@0.2.1",
+      "gitHead" : "9763d390f9a27559622b7efff6f007cd64c9bbe5",
+      "module" : "esm/index.js",
+      "browser" : "min.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_0.2.1_1524848604541_0.7940000656957966",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "0.1.0" : {
+      "name" : "flatted",
+      "description" : "A fast and minimal circular JSON parser.",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-0.1.0.tgz",
+        "shasum" : "bca4ac63170ac8f8d549af4843b0a6d622106bd8"
+      },
+      "dependencies" : {
+        "istanbul" : "^0.4.5",
+        "coveralls" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "uglify-js" : "^3.3.22"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "cp index.js cjs/index.js; echo 'module.exports = Flatted;' >> cjs/index.js",
+        "esm" : "cp index.js esm/index.js; echo 'export default Flatted;' >> esm/index.js; echo 'export const parse = Flatted.parse;' >> esm/index.js; echo 'export const stringify = Flatted.stringify;' >> esm/index.js",
+        "min" : "uglifyjs index.js --support-ie8 --comments=/^!/ -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c",
+        "test" : "istanbul cover test/index.js",
+        "build" : "npm run cjs && npm test && npm run esm && npm run min && npm run size",
+        "coveralls" : "cat ./coverage/lcov.info | coveralls"
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@0.1.0",
+      "gitHead" : "3979ba71d6b54a4694957303e0582d15079279bd",
+      "module" : "esm/index.js",
+      "browser" : "min.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_0.1.0_1524736237331_0.3625106952344921",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "3.2.10" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.2.10",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.2.10.tgz",
+        "shasum" : "b4afc0fc288e39b97dc3843b0941a71ffc11c941"
+      },
+      "devDependencies" : {
+        "c8" : "^9.1.0",
+        "jsan" : "^3.1.14",
+        "ascjs" : "^6.0.3",
+        "rollup" : "^4.11.0",
+        "terser" : "^5.27.0",
+        "@babel/core" : "^7.23.9",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.23.9",
+        "circular-json-es6" : "^2.0.2",
+        "@rollup/plugin-babel" : "^6.0.4",
+        "@rollup/plugin-terser" : "^0.4.4",
+        "@ungap/structured-clone" : "^1.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c; cat esm.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "build" : "npm run cjs && npm run rollup:esm && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "test:py" : "python python/test.py",
+        "coverage" : "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info",
+        "test:php" : "php php/test.php",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:esm" : "rollup --config rollup/esm.config.js",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck"
+      },
+      "_npmVersion" : "10.4.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.2.10",
+      "gitHead" : "fd04ee37a97c79c0effefb9edcc0511b2b6a2864",
+      "types" : "types.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./types.d.ts",
+          "import" : "./esm/index.js",
+          "default" : "./cjs/index.js"
+        },
+        "./esm" : "./esm.js",
+        "./package.json" : "./package.json"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.2.10_1708425659270_0.30244033279795124",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "21.6.2"
+    },
+    "3.2.11" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.2.11",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.2.11.tgz",
+        "shasum" : "d8ddf6d214b78e88aef1589dedf8fc638bec1c9b"
+      },
+      "devDependencies" : {
+        "c8" : "^9.1.0",
+        "jsan" : "^3.1.14",
+        "ascjs" : "^6.0.3",
+        "rollup" : "^4.11.0",
+        "terser" : "^5.27.0",
+        "typescript" : "^5.3.3",
+        "@babel/core" : "^7.23.9",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.23.9",
+        "circular-json-es6" : "^2.0.2",
+        "@rollup/plugin-babel" : "^6.0.4",
+        "@rollup/plugin-terser" : "^0.4.4",
+        "@ungap/structured-clone" : "^1.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ts" : "tsc -p .",
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c; cat esm.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "build" : "npm run cjs && npm run rollup:esm && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run ts && npm run size",
+        "test:py" : "python python/test.py",
+        "coverage" : "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info",
+        "test:php" : "php php/test.php",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:esm" : "rollup --config rollup/esm.config.js",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck"
+      },
+      "_npmVersion" : "10.4.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.2.11",
+      "gitHead" : "a22589f3d65e7cdae8e7896c35c70833b390d3fa",
+      "exports" : {
+        "." : {
+          "types" : "./types/index.d.ts",
+          "import" : "./esm/index.js",
+          "default" : "./cjs/index.js"
+        },
+        "./esm" : "./esm.js",
+        "./package.json" : "./package.json"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.2.11_1708427517466_0.977528301404438",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "21.6.2"
+    },
+    "3.0.0" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.0.0.tgz",
+        "shasum" : "04d77cf9400cba52d4ac6c15d2b9bf4a87e59b97"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.0.1",
+        "jsan" : "^3.1.13",
+        "coveralls" : "^3.0.11",
+        "uglify-js" : "^3.8.1",
+        "circular-json" : "^0.5.9",
+        "circular-json-es6" : "^2.0.2"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "cp index.js cjs/index.js; echo 'module.exports = Flatted;' >> cjs/index.js",
+        "esm" : "cp index.js esm/index.js; echo 'export default Flatted;' >> esm/index.js; echo 'export var parse = Flatted.parse;' >> esm/index.js; echo 'export var stringify = Flatted.stringify;' >> esm/index.js",
+        "min" : "echo '/*! (c) 2018, Andrea Giammarchi, (ISC) */'>min.js && uglifyjs index.js --support-ie8 -c -m >> min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c",
+        "test" : "nyc node test/index.js",
+        "bench" : "node test/bench.js",
+        "build" : "npm run cjs && npm test && npm run esm && npm run min && npm run size",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.0.0",
+      "gitHead" : "1fe32677a2f60adbd2a19df4fde62b93bc231a7b",
+      "types" : "types.d.ts",
+      "exports" : {
+        "import" : "./esm/index.js",
+        "default" : "./cjs/index.js"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.0.0_1590513260692_0.8230788793981227",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "14.3.0"
+    },
+    "3.0.5" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.0.5",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.0.5.tgz",
+        "shasum" : "2db8faa9fc50b48b7c4ba3d6399846538fdab9f6"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.1.0",
+        "jsan" : "^3.1.13",
+        "ascjs" : "^4.0.1",
+        "rollup" : "^2.26.11",
+        "terser" : "^5.3.0",
+        "coveralls" : "^3.1.0",
+        "@babel/core" : "^7.11.6",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.11.5",
+        "circular-json-es6" : "^2.0.2",
+        "drop-babel-typeof" : "^1.0.3",
+        "rollup-plugin-babel" : "^4.4.0",
+        "rollup-plugin-terser" : "^7.0.2",
+        "rollup-plugin-node-resolve" : "^5.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c",
+        "test" : "nyc node test/index.js",
+        "build" : "npm run cjs && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck && drop-babel-typeof index.js"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.0.5",
+      "gitHead" : "91e28b150597051c6ff2ad33b4d79a2e50de8fea",
+      "types" : "types.d.ts",
+      "exports" : {
+        "import" : "./esm/index.js",
+        "default" : "./cjs/index.js"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.0.5_1599727949555_0.9502094292911789",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "14.10.0"
+    },
+    "3.2.3" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.2.3",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.2.3.tgz",
+        "shasum" : "bdeda4891574a460e0a0f9c73105491650bd1770"
+      },
+      "devDependencies" : {
+        "c8" : "^7.10.0",
+        "jsan" : "^3.1.13",
+        "ascjs" : "^5.0.1",
+        "rollup" : "^2.59.0",
+        "terser" : "^5.9.0",
+        "@babel/core" : "^7.16.0",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.16.0",
+        "circular-json-es6" : "^2.0.2",
+        "drop-babel-typeof" : "^1.0.3",
+        "rollup-plugin-babel" : "^4.4.0",
+        "rollup-plugin-terser" : "^7.0.2",
+        "@ungap/structured-clone" : "^0.3.4",
+        "rollup-plugin-node-resolve" : "^5.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "build" : "npm run cjs && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "coverage" : "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info",
+        "test:php" : "php php/test.php",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck && drop-babel-typeof index.js"
+      },
+      "_npmVersion" : "8.1.3",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.2.3",
+      "gitHead" : "d5c32c8b5ba2780785024efd59a43578f2fa81f4",
+      "types" : "types.d.ts",
+      "exports" : {
+        "import" : "./esm/index.js",
+        "default" : "./cjs/index.js"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.2.3_1636473579344_0.5380644773205254",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.11.1"
+    },
+    "3.3.2" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.3.2",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.3.2.tgz",
+        "shasum" : "adba1448a9841bec72b42c532ea23dbbedef1a27"
+      },
+      "devDependencies" : {
+        "c8" : "^9.1.0",
+        "jsan" : "^3.1.14",
+        "ascjs" : "^6.0.3",
+        "rollup" : "^4.12.0",
+        "terser" : "^5.27.2",
+        "typescript" : "^5.3.3",
+        "@babel/core" : "^7.23.9",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.23.9",
+        "circular-json-es6" : "^2.0.2",
+        "@rollup/plugin-babel" : "^6.0.4",
+        "@rollup/plugin-terser" : "^0.4.4",
+        "@ungap/structured-clone" : "^1.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ts" : "tsc -p .",
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c; cat esm.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "build" : "npm run cjs && npm run rollup:esm && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "test:py" : "python python/test.py",
+        "coverage" : "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info",
+        "test:php" : "php php/test.php",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:esm" : "rollup --config rollup/esm.config.js",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck"
+      },
+      "_npmVersion" : "10.9.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.3.2",
+      "gitHead" : "e63f8c0f81bb71e8aa0a0ef7933288289889863b",
+      "types" : "./types/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./types/index.d.ts",
+          "import" : "./esm/index.js",
+          "default" : "./cjs/index.js"
+        },
+        "./esm" : "./esm.js",
+        "./package.json" : "./package.json"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.3.2_1731942067532_0.5888918623027448",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "23.1.0"
+    },
+    "3.2.4" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.2.4",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.2.4.tgz",
+        "shasum" : "28d9969ea90661b5134259f312ab6aa7929ac5e2"
+      },
+      "devDependencies" : {
+        "c8" : "^7.10.0",
+        "jsan" : "^3.1.13",
+        "ascjs" : "^5.0.1",
+        "rollup" : "^2.59.0",
+        "terser" : "^5.9.0",
+        "@babel/core" : "^7.16.0",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.16.0",
+        "circular-json-es6" : "^2.0.2",
+        "drop-babel-typeof" : "^1.0.3",
+        "rollup-plugin-babel" : "^4.4.0",
+        "rollup-plugin-terser" : "^7.0.2",
+        "@ungap/structured-clone" : "^0.3.4",
+        "rollup-plugin-node-resolve" : "^5.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "build" : "npm run cjs && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "coverage" : "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info",
+        "test:php" : "php php/test.php",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck && drop-babel-typeof index.js"
+      },
+      "_npmVersion" : "8.1.3",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.2.4",
+      "gitHead" : "914d9b838cb26011fb4ec78b84053660ea68e8e1",
+      "types" : "types.d.ts",
+      "exports" : {
+        "import" : "./esm/index.js",
+        "default" : "./cjs/index.js"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.2.4_1636473781287_0.8325970873364479",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.11.1"
+    },
+    "3.3.3" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.3.3",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/WebReflection/flatted.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.3.3.tgz",
+        "shasum" : "67c8fad95454a7c7abebf74bb78ee74a44023358"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.26.9",
+        "@babel/preset-env" : "^7.26.9",
+        "@rollup/plugin-babel" : "^6.0.4",
+        "@rollup/plugin-terser" : "^0.4.4",
+        "@ungap/structured-clone" : "^1.3.0",
+        "ascjs" : "^6.0.3",
+        "c8" : "^10.1.3",
+        "circular-json" : "^0.5.9",
+        "circular-json-es6" : "^2.0.2",
+        "jsan" : "^3.1.14",
+        "rollup" : "^4.34.8",
+        "terser" : "^5.39.0",
+        "typescript" : "^5.7.3"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run cjs && npm run rollup:esm && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "cjs" : "ascjs esm cjs",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:esm" : "rollup --config rollup/esm.config.js",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c; cat esm.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "test:php" : "php php/test.php",
+        "test:py" : "python python/test.py",
+        "ts" : "tsc -p .",
+        "coverage" : "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info"
+      },
+      "_npmVersion" : "11.1.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.3.3",
+      "gitHead" : "888baa03952c37b9b517c7baf25b1e0bcad5f5ec",
+      "types" : "./types/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./types/index.d.ts",
+          "import" : "./esm/index.js",
+          "default" : "./cjs/index.js"
+        },
+        "./esm" : "./esm.js",
+        "./package.json" : "./package.json"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/flatted_3.3.3_1739868906986_0.23025613844808235"
+      },
+      "type" : "module",
+      "_nodeVersion" : "23.8.0"
+    },
+    "3.2.5" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.2.5",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.2.5.tgz",
+        "shasum" : "76c8584f4fc843db64702a6bd04ab7a8bd666da3"
+      },
+      "devDependencies" : {
+        "c8" : "^7.10.0",
+        "jsan" : "^3.1.13",
+        "ascjs" : "^5.0.1",
+        "rollup" : "^2.59.0",
+        "terser" : "^5.9.0",
+        "@babel/core" : "^7.16.0",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.16.0",
+        "circular-json-es6" : "^2.0.2",
+        "drop-babel-typeof" : "^1.0.3",
+        "rollup-plugin-babel" : "^4.4.0",
+        "rollup-plugin-terser" : "^7.0.2",
+        "@ungap/structured-clone" : "^0.3.4",
+        "rollup-plugin-node-resolve" : "^5.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "build" : "npm run cjs && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "coverage" : "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info",
+        "test:php" : "php php/test.php",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck && drop-babel-typeof index.js"
+      },
+      "_npmVersion" : "8.3.2",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.2.5",
+      "gitHead" : "1a5e3453707b65fe9143829307627177c93225d8",
+      "types" : "types.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./esm/index.js",
+          "default" : "./cjs/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.2.5_1643216564034_0.6428261374642106",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "17.3.0"
+    },
+    "3.2.6" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.2.6",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.2.6.tgz",
+        "shasum" : "022e9218c637f9f3fc9c35ab9c9193f05add60b2"
+      },
+      "devDependencies" : {
+        "c8" : "^7.11.3",
+        "jsan" : "^3.1.14",
+        "ascjs" : "^5.0.1",
+        "rollup" : "^2.75.7",
+        "terser" : "^5.14.1",
+        "@babel/core" : "^7.18.5",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.18.2",
+        "circular-json-es6" : "^2.0.2",
+        "rollup-plugin-babel" : "^4.4.0",
+        "rollup-plugin-terser" : "^7.0.2",
+        "@ungap/structured-clone" : "^1.0.1",
+        "rollup-plugin-node-resolve" : "^5.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c; cat esm.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "build" : "npm run cjs && npm run rollup:esm && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "coverage" : "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info",
+        "test:php" : "php php/test.php",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:esm" : "rollup --config rollup/esm.config.js",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck"
+      },
+      "_npmVersion" : "8.8.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.2.6",
+      "gitHead" : "e43a61b8f4dc14a2f70cdf61fc8cfe30b9fe7af3",
+      "types" : "types.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./types.d.ts",
+          "import" : "./esm/index.js",
+          "default" : "./cjs/index.js"
+        },
+        "./esm" : "./esm.js",
+        "./package.json" : "./package.json"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.2.6_1656317002543_0.7480992545529512",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "18.1.0"
+    },
+    "3.0.1" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.0.1.tgz",
+        "shasum" : "6c44102e4d994b9f2403a73c9599c8255b6d2a77"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.0.1",
+        "jsan" : "^3.1.13",
+        "coveralls" : "^3.1.0",
+        "uglify-js" : "^3.9.3",
+        "circular-json" : "^0.5.9",
+        "circular-json-es6" : "^2.0.2"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "cp index.js cjs/index.js; echo 'module.exports = Flatted;' >> cjs/index.js",
+        "esm" : "cp index.js esm/index.js; echo 'export var parse = Flatted.parse;' >> esm/index.js; echo 'export var stringify = Flatted.stringify;' >> esm/index.js",
+        "min" : "echo '/*! (c) 2018, Andrea Giammarchi, (ISC) */'>min.js && uglifyjs index.js --support-ie8 -c -m >> min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c",
+        "test" : "nyc node test/index.js",
+        "bench" : "node test/bench.js",
+        "build" : "npm run cjs && npm test && npm run esm && npm run min && npm run size",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.0.1",
+      "gitHead" : "a27e2c8492a930126974cd41ee542dd10ac99f05",
+      "types" : "types.d.ts",
+      "exports" : {
+        "import" : "./esm/index.js",
+        "default" : "./cjs/index.js"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.0.1_1590513596793_0.8960297782013495",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "14.3.0"
+    },
+    "3.1.0" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.1.0.tgz",
+        "shasum" : "a5d06b4a8b01e3a63771daa5cb7a1903e2e57067"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.1.0",
+        "jsan" : "^3.1.13",
+        "ascjs" : "^4.0.1",
+        "rollup" : "^2.26.11",
+        "terser" : "^5.3.0",
+        "coveralls" : "^3.1.0",
+        "@babel/core" : "^7.11.6",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.11.5",
+        "circular-json-es6" : "^2.0.2",
+        "drop-babel-typeof" : "^1.0.3",
+        "rollup-plugin-babel" : "^4.4.0",
+        "rollup-plugin-terser" : "^7.0.2",
+        "rollup-plugin-node-resolve" : "^5.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c",
+        "test" : "nyc node test/index.js",
+        "build" : "npm run cjs && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck && drop-babel-typeof index.js"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.1.0",
+      "gitHead" : "ae1739d6914c12fb042bab4dcdc2631295a8d866",
+      "types" : "types.d.ts",
+      "exports" : {
+        "import" : "./esm/index.js",
+        "default" : "./cjs/index.js"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.1.0_1601444265882_0.01625762601305114",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "14.12.0"
+    },
+    "3.0.2" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.0.2",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.0.2.tgz",
+        "shasum" : "b07f9c6f349f6b7fd0d49d70704c11d8f850bb9a"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.0.1",
+        "jsan" : "^3.1.13",
+        "ascjs" : "^4.0.1",
+        "rollup" : "^2.10.9",
+        "coveralls" : "^3.1.0",
+        "uglify-js" : "^3.9.3",
+        "@babel/core" : "^7.9.6",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.9.6",
+        "circular-json-es6" : "^2.0.2",
+        "drop-babel-typeof" : "^1.0.3",
+        "rollup-plugin-babel" : "^4.4.0",
+        "rollup-plugin-terser" : "^6.1.0",
+        "rollup-plugin-node-resolve" : "^5.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "uglifyjs index.js --support-ie8 --comments=/^!/ -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c",
+        "test" : "nyc node test/index.js",
+        "build" : "npm run cjs && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck && drop-babel-typeof index.js"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.0.2",
+      "gitHead" : "3138eaa407130f0c58d93f3fef98623787856cb0",
+      "types" : "types.d.ts",
+      "exports" : {
+        "import" : "./esm/index.js",
+        "default" : "./cjs/index.js"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.0.2_1590517127582_0.6362302099088213",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "14.3.0"
+    },
+    "3.1.1" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.1.1",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.1.1.tgz",
+        "shasum" : "c4b489e80096d9df1dfc97c79871aea7c617c469"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.1.0",
+        "jsan" : "^3.1.13",
+        "ascjs" : "^4.0.1",
+        "rollup" : "^2.26.11",
+        "terser" : "^5.3.0",
+        "coveralls" : "^3.1.0",
+        "@babel/core" : "^7.11.6",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.11.5",
+        "circular-json-es6" : "^2.0.2",
+        "drop-babel-typeof" : "^1.0.3",
+        "rollup-plugin-babel" : "^4.4.0",
+        "rollup-plugin-terser" : "^7.0.2",
+        "rollup-plugin-node-resolve" : "^5.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c",
+        "test" : "nyc node test/index.js",
+        "build" : "npm run cjs && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck && drop-babel-typeof index.js"
+      },
+      "_npmVersion" : "6.14.11",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.1.1",
+      "gitHead" : "edfbbb01aee03036ad411ee5c392bc7f722bc471",
+      "types" : "types.d.ts",
+      "exports" : {
+        "import" : "./esm/index.js",
+        "default" : "./cjs/index.js"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.1.1_1611061254409_0.3236331547384701",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "15.6.0"
+    },
+    "3.2.0" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.2.0.tgz",
+        "shasum" : "da07fb8808050aba6fdeac2294542e5043583f05"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.1.0",
+        "jsan" : "^3.1.13",
+        "ascjs" : "^5.0.1",
+        "rollup" : "^2.52.6",
+        "terser" : "^5.7.1",
+        "coveralls" : "^3.1.1",
+        "@babel/core" : "^7.14.6",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.14.7",
+        "circular-json-es6" : "^2.0.2",
+        "drop-babel-typeof" : "^1.0.3",
+        "rollup-plugin-babel" : "^4.4.0",
+        "rollup-plugin-terser" : "^7.0.2",
+        "rollup-plugin-node-resolve" : "^5.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c",
+        "test" : "nyc node test/index.js",
+        "build" : "npm run cjs && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck && drop-babel-typeof index.js"
+      },
+      "_npmVersion" : "7.17.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.2.0",
+      "gitHead" : "58aa0e1b2ff7ed82381df630bce1932f83fdcbe6",
+      "types" : "types.d.ts",
+      "exports" : {
+        "import" : "./esm/index.js",
+        "default" : "./cjs/index.js"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.2.0_1625176804220_0.8484969195545145",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.4.0"
+    },
+    "3.0.3" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.0.3",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.0.3.tgz",
+        "shasum" : "ef4057805bcbc2baaff880a891f8b4dcc85385e0"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.1.0",
+        "jsan" : "^3.1.13",
+        "ascjs" : "^4.0.1",
+        "rollup" : "^2.19.0",
+        "coveralls" : "^3.1.0",
+        "uglify-js" : "^3.10.0",
+        "@babel/core" : "^7.10.4",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.10.4",
+        "circular-json-es6" : "^2.0.2",
+        "drop-babel-typeof" : "^1.0.3",
+        "rollup-plugin-babel" : "^4.4.0",
+        "rollup-plugin-terser" : "^6.1.0",
+        "rollup-plugin-node-resolve" : "^5.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "uglifyjs index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c",
+        "test" : "nyc node test/index.js",
+        "build" : "npm run cjs && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck && drop-babel-typeof index.js"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.0.3",
+      "gitHead" : "a679b7e763aea199690a2eeb5fbc6b6b0a90a0aa",
+      "types" : "types.d.ts",
+      "exports" : {
+        "import" : "./esm/index.js",
+        "default" : "./cjs/index.js"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.0.3_1593951030152_0.8337030311704958",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "14.5.0"
+    },
+    "3.2.1" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.2.1",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.2.1.tgz",
+        "shasum" : "bbef080d95fca6709362c73044a1634f7c6e7d05"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "jsan" : "^3.1.13",
+        "ascjs" : "^5.0.1",
+        "rollup" : "^2.52.8",
+        "terser" : "^5.7.1",
+        "coveralls" : "^3.1.1",
+        "@babel/core" : "^7.14.6",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.14.7",
+        "circular-json-es6" : "^2.0.2",
+        "drop-babel-typeof" : "^1.0.3",
+        "rollup-plugin-babel" : "^4.4.0",
+        "rollup-plugin-terser" : "^7.0.2",
+        "rollup-plugin-node-resolve" : "^5.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "build" : "npm run cjs && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "test:php" : "php php/test.php",
+        "coveralls" : "c8 report --reporter=text-lcov | coveralls",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck && drop-babel-typeof index.js"
+      },
+      "_npmVersion" : "7.17.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.2.1",
+      "gitHead" : "05d2eafcf72ec3a39671bf0626686d6aa673bf18",
+      "types" : "types.d.ts",
+      "exports" : {
+        "import" : "./esm/index.js",
+        "default" : "./cjs/index.js"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.2.1_1625742912781_0.4288916419151654",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.4.2"
+    },
+    "3.2.12" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.2.12",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.2.12.tgz",
+        "shasum" : "e69e66be89476c6b6f0e11f236d5222fa3601114"
+      },
+      "devDependencies" : {
+        "c8" : "^9.1.0",
+        "jsan" : "^3.1.14",
+        "ascjs" : "^6.0.3",
+        "rollup" : "^4.11.0",
+        "terser" : "^5.27.0",
+        "typescript" : "^5.3.3",
+        "@babel/core" : "^7.23.9",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.23.9",
+        "circular-json-es6" : "^2.0.2",
+        "@rollup/plugin-babel" : "^6.0.4",
+        "@rollup/plugin-terser" : "^0.4.4",
+        "@ungap/structured-clone" : "^1.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ts" : "tsc -p .",
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c; cat esm.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "build" : "npm run cjs && npm run rollup:esm && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "test:py" : "python python/test.py",
+        "coverage" : "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info",
+        "test:php" : "php php/test.php",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:esm" : "rollup --config rollup/esm.config.js",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck"
+      },
+      "_npmVersion" : "10.4.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.2.12",
+      "gitHead" : "49f5eff3913bdfc490aeb833ceb2348750b15de0",
+      "exports" : {
+        "." : {
+          "types" : "./types/index.d.ts",
+          "import" : "./esm/index.js",
+          "default" : "./cjs/index.js"
+        },
+        "./esm" : "./esm.js",
+        "./package.json" : "./package.json"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.2.12_1708427666774_0.5201153655067086",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "21.6.2"
+    },
+    "3.3.0" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.3.0",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.3.0.tgz",
+        "shasum" : "5fdca2b5e671cd38d1537427a10e02a2caa8257e"
+      },
+      "devDependencies" : {
+        "c8" : "^9.1.0",
+        "jsan" : "^3.1.14",
+        "ascjs" : "^6.0.3",
+        "rollup" : "^4.12.0",
+        "terser" : "^5.27.2",
+        "typescript" : "^5.3.3",
+        "@babel/core" : "^7.23.9",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.23.9",
+        "circular-json-es6" : "^2.0.2",
+        "@rollup/plugin-babel" : "^6.0.4",
+        "@rollup/plugin-terser" : "^0.4.4",
+        "@ungap/structured-clone" : "^1.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ts" : "tsc -p .",
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c; cat esm.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "build" : "npm run cjs && npm run rollup:esm && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "test:py" : "python python/test.py",
+        "coverage" : "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info",
+        "test:php" : "php php/test.php",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:esm" : "rollup --config rollup/esm.config.js",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck"
+      },
+      "_npmVersion" : "10.4.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.3.0",
+      "gitHead" : "a4e42fcbcb2bf9f82d8976cc092239ad24dacf6f",
+      "types" : "./types/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./types/index.d.ts",
+          "import" : "./esm/index.js",
+          "default" : "./cjs/index.js"
+        },
+        "./esm" : "./esm.js",
+        "./package.json" : "./package.json"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.3.0_1708428799242_0.43814239950709766",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "21.6.2"
+    },
+    "3.0.4" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.0.4",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.0.4.tgz",
+        "shasum" : "f75ed043c803c8ca43a4d0bbc05f2bf20b5d9656"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.1.0",
+        "jsan" : "^3.1.13",
+        "ascjs" : "^4.0.1",
+        "rollup" : "^2.19.0",
+        "coveralls" : "^3.1.0",
+        "uglify-js" : "^3.10.0",
+        "@babel/core" : "^7.10.4",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.10.4",
+        "circular-json-es6" : "^2.0.2",
+        "drop-babel-typeof" : "^1.0.3",
+        "rollup-plugin-babel" : "^4.4.0",
+        "rollup-plugin-terser" : "^6.1.0",
+        "rollup-plugin-node-resolve" : "^5.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "uglifyjs index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c",
+        "test" : "nyc node test/index.js",
+        "build" : "npm run cjs && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck && drop-babel-typeof index.js"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.0.4",
+      "gitHead" : "d41b9737f0b36c2d849ab4b673968f966cfb15fd",
+      "types" : "types.d.ts",
+      "exports" : {
+        "import" : "./esm/index.js",
+        "default" : "./cjs/index.js"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.0.4_1593951448812_0.58719320755659",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "14.5.0"
+    },
+    "3.2.2" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.2.2",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.2.2.tgz",
+        "shasum" : "64bfed5cb68fe3ca78b3eb214ad97b63bedce561"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "jsan" : "^3.1.13",
+        "ascjs" : "^5.0.1",
+        "rollup" : "^2.52.8",
+        "terser" : "^5.7.1",
+        "coveralls" : "^3.1.1",
+        "@babel/core" : "^7.14.6",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.14.7",
+        "circular-json-es6" : "^2.0.2",
+        "drop-babel-typeof" : "^1.0.3",
+        "rollup-plugin-babel" : "^4.4.0",
+        "rollup-plugin-terser" : "^7.0.2",
+        "rollup-plugin-node-resolve" : "^5.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "build" : "npm run cjs && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "test:php" : "php php/test.php",
+        "coveralls" : "c8 report --reporter=text-lcov | coveralls",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck && drop-babel-typeof index.js"
+      },
+      "_npmVersion" : "7.20.2",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.2.2",
+      "gitHead" : "e15a7c3ae8bb13e1726c699e88e6902827daebe7",
+      "types" : "types.d.ts",
+      "exports" : {
+        "import" : "./esm/index.js",
+        "default" : "./cjs/index.js"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.2.2_1627541220590_0.3829722140999341",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.5.0"
+    },
+    "3.2.13" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.2.13",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.2.13.tgz",
+        "shasum" : "7c952605508c972b154440d8ec7574e91d06c809"
+      },
+      "devDependencies" : {
+        "c8" : "^9.1.0",
+        "jsan" : "^3.1.14",
+        "ascjs" : "^6.0.3",
+        "rollup" : "^4.11.0",
+        "terser" : "^5.27.0",
+        "typescript" : "^5.3.3",
+        "@babel/core" : "^7.23.9",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.23.9",
+        "circular-json-es6" : "^2.0.2",
+        "@rollup/plugin-babel" : "^6.0.4",
+        "@rollup/plugin-terser" : "^0.4.4",
+        "@ungap/structured-clone" : "^1.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ts" : "tsc -p .",
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c; cat esm.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "build" : "npm run cjs && npm run rollup:esm && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "test:py" : "python python/test.py",
+        "coverage" : "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info",
+        "test:php" : "php php/test.php",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:esm" : "rollup --config rollup/esm.config.js",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck"
+      },
+      "_npmVersion" : "10.4.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.2.13",
+      "gitHead" : "ff64696e024606699f496fb8a8b53e8d1bc93672",
+      "exports" : {
+        "." : {
+          "types" : "./types/index.d.ts",
+          "import" : "./esm/index.js",
+          "default" : "./cjs/index.js"
+        },
+        "./esm" : "./esm.js",
+        "./package.json" : "./package.json"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.2.13_1708427875815_0.5021713751873098",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "21.6.2"
+    },
+    "3.3.1" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.3.1",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.3.1.tgz",
+        "shasum" : "21db470729a6734d4997002f439cb308987f567a"
+      },
+      "devDependencies" : {
+        "c8" : "^9.1.0",
+        "jsan" : "^3.1.14",
+        "ascjs" : "^6.0.3",
+        "rollup" : "^4.12.0",
+        "terser" : "^5.27.2",
+        "typescript" : "^5.3.3",
+        "@babel/core" : "^7.23.9",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.23.9",
+        "circular-json-es6" : "^2.0.2",
+        "@rollup/plugin-babel" : "^6.0.4",
+        "@rollup/plugin-terser" : "^0.4.4",
+        "@ungap/structured-clone" : "^1.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ts" : "tsc -p .",
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c; cat esm.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "build" : "npm run cjs && npm run rollup:esm && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "test:py" : "python python/test.py",
+        "coverage" : "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info",
+        "test:php" : "php php/test.php",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:esm" : "rollup --config rollup/esm.config.js",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck"
+      },
+      "_npmVersion" : "10.1.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.3.1",
+      "gitHead" : "8eb4d905951ad59c46cd0a0a0635aeb2d03bb879",
+      "types" : "./types/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./types/index.d.ts",
+          "import" : "./esm/index.js",
+          "default" : "./cjs/index.js"
+        },
+        "./esm" : "./esm.js",
+        "./package.json" : "./package.json"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.3.1_1708514595567_0.20415869669503572",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.9.0"
+    },
+    "2.0.0" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-2.0.0.tgz",
+        "shasum" : "55122b6536ea496b4b44893ee2608141d10d9916"
+      },
+      "devDependencies" : {
+        "jsan" : "latest",
+        "istanbul" : "latest",
+        "coveralls" : "latest",
+        "uglify-js" : "latest",
+        "circular-json" : "latest",
+        "circular-json-es6" : "latest"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "cp index.js cjs/index.js; echo 'module.exports = Flatted;' >> cjs/index.js",
+        "esm" : "cp index.js esm/index.js; echo 'export default Flatted;' >> esm/index.js; echo 'export const parse = Flatted.parse;' >> esm/index.js; echo 'export const stringify = Flatted.stringify;' >> esm/index.js",
+        "min" : "echo '/*! (c) 2018, Andrea Giammarchi, (ISC) */'>min.js && uglifyjs index.js --support-ie8 -c -m >> min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c",
+        "test" : "istanbul cover test/index.js",
+        "bench" : "node test/bench.js",
+        "build" : "npm run cjs && npm test && npm run esm && npm run min && npm run size",
+        "coveralls" : "cat ./coverage/lcov.info | coveralls"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@2.0.0",
+      "gitHead" : "508c9c5a1358d8d6c484066de30082e8a43f10b3",
+      "types" : "types.d.ts",
+      "unpkg" : "min.js",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_2.0.0_1540194546439_0.49900973575187746",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "2.0.1" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-2.0.1.tgz",
+        "shasum" : "69e57caa8f0eacbc281d2e2cb458d46fdb449e08"
+      },
+      "devDependencies" : {
+        "jsan" : "latest",
+        "istanbul" : "latest",
+        "coveralls" : "latest",
+        "uglify-js" : "latest",
+        "circular-json" : "latest",
+        "circular-json-es6" : "latest"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "cp index.js cjs/index.js; echo 'module.exports = Flatted;' >> cjs/index.js",
+        "esm" : "cp index.js esm/index.js; echo 'export default Flatted;' >> esm/index.js; echo 'export var parse = Flatted.parse;' >> esm/index.js; echo 'export var stringify = Flatted.stringify;' >> esm/index.js",
+        "min" : "echo '/*! (c) 2018, Andrea Giammarchi, (ISC) */'>min.js && uglifyjs index.js --support-ie8 -c -m >> min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c",
+        "test" : "istanbul cover test/index.js",
+        "bench" : "node test/bench.js",
+        "build" : "npm run cjs && npm test && npm run esm && npm run min && npm run size",
+        "coveralls" : "cat ./coverage/lcov.info | coveralls"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@2.0.1",
+      "gitHead" : "2b36649b6a314337559bf9cf7dee6fcc104c5e3d",
+      "types" : "types.d.ts",
+      "unpkg" : "min.js",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_2.0.1_1561466204334_0.04946069871974412",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "11.15.0"
+    },
+    "3.2.7" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.2.7",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.2.7.tgz",
+        "shasum" : "609f39207cb614b89d0765b477cb2d437fbf9787"
+      },
+      "devDependencies" : {
+        "c8" : "^7.12.0",
+        "jsan" : "^3.1.14",
+        "ascjs" : "^5.0.1",
+        "rollup" : "^2.78.1",
+        "terser" : "^5.14.2",
+        "@babel/core" : "^7.18.10",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.18.10",
+        "circular-json-es6" : "^2.0.2",
+        "rollup-plugin-babel" : "^4.4.0",
+        "rollup-plugin-terser" : "^7.0.2",
+        "@ungap/structured-clone" : "^1.0.1",
+        "rollup-plugin-node-resolve" : "^5.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c; cat esm.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "build" : "npm run cjs && npm run rollup:esm && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "coverage" : "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info",
+        "test:php" : "php php/test.php",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:esm" : "rollup --config rollup/esm.config.js",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck"
+      },
+      "_npmVersion" : "8.8.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.2.7",
+      "gitHead" : "2ffe0c8f513b86d51159460a1a91561df9ba60fe",
+      "types" : "types.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./types.d.ts",
+          "import" : "./esm/index.js",
+          "default" : "./cjs/index.js"
+        },
+        "./esm" : "./esm.js",
+        "./package.json" : "./package.json"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.2.7_1660919053107_0.22488185115015003",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "18.1.0"
+    },
+    "3.2.8" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.2.8",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.2.8.tgz",
+        "shasum" : "ca82465e036332d78c78c9f9759ca9d77e9ece43"
+      },
+      "devDependencies" : {
+        "c8" : "^7.12.0",
+        "jsan" : "^3.1.14",
+        "ascjs" : "^5.0.1",
+        "rollup" : "^2.78.1",
+        "terser" : "^5.14.2",
+        "@babel/core" : "^7.18.10",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.18.10",
+        "circular-json-es6" : "^2.0.2",
+        "rollup-plugin-babel" : "^4.4.0",
+        "rollup-plugin-terser" : "^7.0.2",
+        "@ungap/structured-clone" : "^1.0.1",
+        "rollup-plugin-node-resolve" : "^5.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c; cat esm.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "build" : "npm run cjs && npm run rollup:esm && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "coverage" : "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info",
+        "test:php" : "php php/test.php",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:esm" : "rollup --config rollup/esm.config.js",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck"
+      },
+      "_npmVersion" : "10.1.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.2.8",
+      "gitHead" : "c8c965b3deec76e5a85b99bf08fd53758580b812",
+      "types" : "types.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./types.d.ts",
+          "import" : "./esm/index.js",
+          "default" : "./cjs/index.js"
+        },
+        "./esm" : "./esm.js",
+        "./package.json" : "./package.json"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.2.8_1694847710379_0.5406799716503419",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.6.1"
+    },
+    "3.2.9" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "3.2.9",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "./cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-3.2.9.tgz",
+        "shasum" : "7eb4c67ca1ba34232ca9d2d93e9886e611ad7daf"
+      },
+      "devDependencies" : {
+        "c8" : "^7.12.0",
+        "jsan" : "^3.1.14",
+        "ascjs" : "^5.0.1",
+        "rollup" : "^2.78.1",
+        "terser" : "^5.14.2",
+        "@babel/core" : "^7.18.10",
+        "circular-json" : "^0.5.9",
+        "@babel/preset-env" : "^7.18.10",
+        "circular-json-es6" : "^2.0.2",
+        "rollup-plugin-babel" : "^4.4.0",
+        "rollup-plugin-terser" : "^7.0.2",
+        "@ungap/structured-clone" : "^1.0.1",
+        "rollup-plugin-node-resolve" : "^5.2.0"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "ascjs esm cjs",
+        "min" : "terser index.js -c -m -o min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c; cat esm.js | brotli | wc -c",
+        "test" : "c8 node test/index.js",
+        "build" : "npm run cjs && npm run rollup:esm && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+        "test:py" : "python python/test.py",
+        "coverage" : "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info",
+        "test:php" : "php php/test.php",
+        "rollup:es" : "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+        "rollup:esm" : "rollup --config rollup/esm.config.js",
+        "rollup:babel" : "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck"
+      },
+      "_npmVersion" : "10.1.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@3.2.9",
+      "gitHead" : "cbcb2bbde642caae4ea4959f416dd6bcc473fdcd",
+      "types" : "types.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./types.d.ts",
+          "import" : "./esm/index.js",
+          "default" : "./cjs/index.js"
+        },
+        "./esm" : "./esm.js",
+        "./package.json" : "./package.json"
+      },
+      "unpkg" : "min.js",
+      "module" : "./esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_3.2.9_1694862282087_0.4812883751735313",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.6.1"
+    },
+    "2.0.2" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-2.0.2.tgz",
+        "shasum" : "4575b21e2bcee7434aa9be662f4b7b5f9c2b5138"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.0.0",
+        "jsan" : "^3.1.13",
+        "coveralls" : "^3.0.11",
+        "uglify-js" : "^3.8.1",
+        "circular-json" : "^0.5.9",
+        "circular-json-es6" : "^2.0.2"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "cp index.js cjs/index.js; echo 'module.exports = Flatted;' >> cjs/index.js",
+        "esm" : "cp index.js esm/index.js; echo 'export default Flatted;' >> esm/index.js; echo 'export var parse = Flatted.parse;' >> esm/index.js; echo 'export var stringify = Flatted.stringify;' >> esm/index.js",
+        "min" : "echo '/*! (c) 2018, Andrea Giammarchi, (ISC) */'>min.js && uglifyjs index.js --support-ie8 -c -m >> min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c",
+        "test" : "nyc node test/index.js",
+        "bench" : "node test/bench.js",
+        "build" : "npm run cjs && npm test && npm run esm && npm run min && npm run size",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@2.0.2",
+      "gitHead" : "5e3ec39a3e613e70c56f3775c790ddebdbc363a6",
+      "types" : "types.d.ts",
+      "unpkg" : "min.js",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_2.0.2_1585469156747_0.9739132405400666",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "13.12.0"
+    },
+    "1.0.3" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-1.0.3.tgz",
+        "shasum" : "18dc8704f89e757d88d7048e9d77b316f91705c2"
+      },
+      "devDependencies" : {
+        "jsan" : "latest",
+        "istanbul" : "latest",
+        "coveralls" : "latest",
+        "uglify-js" : "latest",
+        "circular-json" : "latest",
+        "circular-json-es6" : "latest"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "cp index.js cjs/index.js; echo 'module.exports = Flatted;' >> cjs/index.js",
+        "esm" : "cp index.js esm/index.js; echo 'export default Flatted;' >> esm/index.js; echo 'export const parse = Flatted.parse;' >> esm/index.js; echo 'export const stringify = Flatted.stringify;' >> esm/index.js",
+        "min" : "echo '/*! (c) 2018, Andrea Giammarchi, (ISC) */'>min.js && uglifyjs index.js --support-ie8 -c -m >> min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c",
+        "test" : "istanbul cover test/index.js",
+        "bench" : "node test/bench.js",
+        "build" : "npm run cjs && npm test && npm run esm && npm run min && npm run size",
+        "coveralls" : "cat ./coverage/lcov.info | coveralls"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@1.0.3",
+      "gitHead" : "a37526dce9e8f47636c82833b0d09a7e7359f22a",
+      "types" : "types.d.ts",
+      "unpkg" : "min.js",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_1.0.3_1539246932410_0.3260183809046755",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "1.0.0" : {
+      "name" : "flatted",
+      "description" : "A fast and minimal circular JSON parser.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-1.0.0.tgz",
+        "shasum" : "25c4cf913345bf1bfc391d415afee1412d8470ff"
+      },
+      "devDependencies" : {
+        "jsan" : "latest",
+        "istanbul" : "latest",
+        "coveralls" : "latest",
+        "uglify-js" : "latest",
+        "circular-json" : "latest",
+        "circular-json-es6" : "latest"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "cp index.js cjs/index.js; echo 'module.exports = Flatted;' >> cjs/index.js",
+        "esm" : "cp index.js esm/index.js; echo 'export default Flatted;' >> esm/index.js; echo 'export const parse = Flatted.parse;' >> esm/index.js; echo 'export const stringify = Flatted.stringify;' >> esm/index.js",
+        "min" : "echo '/*! (c) 2018, Andrea Giammarchi, (ISC) */'>min.js && uglifyjs index.js --support-ie8 -c -m >> min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c",
+        "test" : "istanbul cover test/index.js",
+        "bench" : "node test/bench.js",
+        "build" : "npm run cjs && npm test && npm run esm && npm run min && npm run size",
+        "coveralls" : "cat ./coverage/lcov.info | coveralls"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@1.0.0",
+      "gitHead" : "0f8cecb636c0c3c83e9cf26b3d4c4e8f46c53459",
+      "unpkg" : "min.js",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_1.0.0_1537290140354_0.03954508127013345",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "1.0.1" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-1.0.1.tgz",
+        "shasum" : "eefd9a6418e9e70845380418400e573076b253d9"
+      },
+      "devDependencies" : {
+        "jsan" : "latest",
+        "istanbul" : "latest",
+        "coveralls" : "latest",
+        "uglify-js" : "latest",
+        "circular-json" : "latest",
+        "circular-json-es6" : "latest"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "cp index.js cjs/index.js; echo 'module.exports = Flatted;' >> cjs/index.js",
+        "esm" : "cp index.js esm/index.js; echo 'export default Flatted;' >> esm/index.js; echo 'export const parse = Flatted.parse;' >> esm/index.js; echo 'export const stringify = Flatted.stringify;' >> esm/index.js",
+        "min" : "echo '/*! (c) 2018, Andrea Giammarchi, (ISC) */'>min.js && uglifyjs index.js --support-ie8 -c -m >> min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c",
+        "test" : "istanbul cover test/index.js",
+        "bench" : "node test/bench.js",
+        "build" : "npm run cjs && npm test && npm run esm && npm run min && npm run size",
+        "coveralls" : "cat ./coverage/lcov.info | coveralls"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@1.0.1",
+      "gitHead" : "6951a32f4ae0b11ead66c4dc15511cba58bd30bf",
+      "unpkg" : "min.js",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_1.0.1_1537340784246_0.06912057319422837",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "1.0.2" : {
+      "name" : "flatted",
+      "description" : "A super light and fast circular JSON parser.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Andrea Giammarchi"
+      },
+      "homepage" : "https://github.com/WebReflection/flatted#readme",
+      "repository" : {
+        "url" : "git+https://github.com/WebReflection/flatted.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/WebReflection/flatted/issues"
+      },
+      "main" : "cjs/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/flatted/-/flatted-1.0.2.tgz",
+        "shasum" : "43f615c21f67a578e3e1d2eeee4e68af5e3d7630"
+      },
+      "devDependencies" : {
+        "jsan" : "latest",
+        "istanbul" : "latest",
+        "coveralls" : "latest",
+        "uglify-js" : "latest",
+        "circular-json" : "latest",
+        "circular-json-es6" : "latest"
+      },
+      "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "cjs" : "cp index.js cjs/index.js; echo 'module.exports = Flatted;' >> cjs/index.js",
+        "esm" : "cp index.js esm/index.js; echo 'export default Flatted;' >> esm/index.js; echo 'export const parse = Flatted.parse;' >> esm/index.js; echo 'export const stringify = Flatted.stringify;' >> esm/index.js",
+        "min" : "echo '/*! (c) 2018, Andrea Giammarchi, (ISC) */'>min.js && uglifyjs index.js --support-ie8 -c -m >> min.js",
+        "size" : "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c",
+        "test" : "istanbul cover test/index.js",
+        "bench" : "node test/bench.js",
+        "build" : "npm run cjs && npm test && npm run esm && npm run min && npm run size",
+        "coveralls" : "cat ./coverage/lcov.info | coveralls"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "webreflection",
+        "email" : "andrea.giammarchi@gmail.com"
+      },
+      "_id" : "flatted@1.0.2",
+      "gitHead" : "acc9f9317b540dc9a7935fffdc6d89dec07df197",
+      "types" : "types.d.ts",
+      "unpkg" : "min.js",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/flatted_1.0.2_1537501610313_0.7785051819579907",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "9.11.1"
+    }
+  },
+  "readme" : "# flatted\n\n[![Downloads](https://img.shields.io/npm/dm/flatted.svg)](https://www.npmjs.com/package/flatted) [![Coverage Status](https://coveralls.io/repos/github/WebReflection/flatted/badge.svg?branch=main)](https://coveralls.io/github/WebReflection/flatted?branch=main) [![Build Status](https://travis-ci.com/WebReflection/flatted.svg?branch=main)](https://travis-ci.com/WebReflection/flatted) [![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/ISC) ![WebReflection status](https://offline.report/status/webreflection.svg)\n\n![snow flake](./flatted.jpg)\n\n<sup>**Social Media Photo by [Matt Seymour](https://unsplash.com/@mattseymour) on [Unsplash](https://unsplash.com/)**</sup>\n\nA super light (0.5K) and fast circular JSON parser, directly from the creator of [CircularJSON](https://github.com/WebReflection/circular-json/#circularjson).\n\nAvailable also for **[PHP](./php/flatted.php)**.\n\nAvailable also for **[Python](./python/flatted.py)**.\n\n- - -\n\n## Announcement \uD83D\uDCE3\n\nThere is a standard approach to recursion and more data-types than what JSON allows, and it's part of the [Structured Clone polyfill](https://github.com/ungap/structured-clone/#readme).\n\nBeside acting as a polyfill, its `@ungap/structured-clone/json` export provides both `stringify` and `parse`, and it's been tested for being faster than *flatted*, but its produced output is also smaller than *flatted* in general.\n\nThe *@ungap/structured-clone* module is, in short, a drop in replacement for *flatted*, but it's not compatible with *flatted* specialized syntax.\n\nHowever, if recursion, as well as more data-types, are what you are after, or interesting for your projects/use cases, consider switching to this new module whenever you can \uD83D\uDC4D\n\n- - -\n\n```js\nnpm i flatted\n```\n\nUsable via [CDN](https://unpkg.com/flatted) or as regular module.\n\n```js\n// ESM\nimport {parse, stringify, toJSON, fromJSON} from 'flatted';\n\n// CJS\nconst {parse, stringify, toJSON, fromJSON} = require('flatted');\n\nconst a = [{}];\na[0].a = a;\na.push(a);\n\nstringify(a); // [[\"1\",\"0\"],{\"a\":\"0\"}]\n```\n\n## toJSON and fromJSON\n\nIf you'd like to implicitly survive JSON serialization, these two helpers helps:\n\n```js\nimport {toJSON, fromJSON} from 'flatted';\n\nclass RecursiveMap extends Map {\n  static fromJSON(any) {\n    return new this(fromJSON(any));\n  }\n  toJSON() {\n    return toJSON([...this.entries()]);\n  }\n}\n\nconst recursive = new RecursiveMap;\nconst same = {};\nsame.same = same;\nrecursive.set('same', same);\n\nconst asString = JSON.stringify(recursive);\nconst asMap = RecursiveMap.fromJSON(JSON.parse(asString));\nasMap.get('same') === asMap.get('same').same;\n// true\n```\n\n\n## Flatted VS JSON\n\nAs it is for every other specialized format capable of serializing and deserializing circular data, you should never `JSON.parse(Flatted.stringify(data))`, and you should never `Flatted.parse(JSON.stringify(data))`.\n\nThe only way this could work is to `Flatted.parse(Flatted.stringify(data))`, as it is also for _CircularJSON_ or any other, otherwise there's no granted data integrity.\n\nAlso please note this project serializes and deserializes only data compatible with JSON, so that sockets, or anything else with internal classes different from those allowed by JSON standard, won't be serialized and unserialized as expected.\n\n\n### New in V1: Exact same JSON API\n\n  * Added a [reviver](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse#Syntax) parameter to `.parse(string, reviver)` and revive your own objects.\n  * Added a [replacer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify#Syntax) and a `space` parameter to `.stringify(object, replacer, space)` for feature parity with JSON signature.\n\n\n### Compatibility\nAll ECMAScript engines compatible with `Map`, `Set`, `Object.keys`, and `Array.prototype.reduce` will work, even if polyfilled.\n\n\n### How does it work ?\nWhile stringifying, all Objects, including Arrays, and strings, are flattened out and replaced as unique index. `*`\n\nOnce parsed, all indexes will be replaced through the flattened collection.\n\n<sup><sub>`*` represented as string to avoid conflicts with numbers</sub></sup>\n\n```js\n// logic example\nvar a = [{one: 1}, {two: '2'}];\na[0].a = a;\n// a is the main object, will be at index '0'\n// {one: 1} is the second object, index '1'\n// {two: '2'} the third, in '2', and it has a string\n// which will be found at index '3'\n\nFlatted.stringify(a);\n// [[\"1\",\"2\"],{\"one\":1,\"a\":\"0\"},{\"two\":\"3\"},\"2\"]\n// a[one,two]    {one: 1, a}    {two: '2'}  '2'\n```\n",
+  "maintainers" : [ {
+    "name" : "webreflection",
+    "email" : "andrea.giammarchi@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Andrea Giammarchi"
+  },
+  "time" : {
+    "0.2.2" : "2018-05-29T16:54:24.427Z",
+    "0.2.3" : "2018-07-03T17:22:36.473Z",
+    "0.2.0" : "2018-04-26T11:58:50.371Z",
+    "0.2.1" : "2018-04-27T17:03:24.657Z",
+    "0.1.0" : "2018-04-26T09:50:37.595Z",
+    "3.2.10" : "2024-02-20T10:40:59.410Z",
+    "3.2.11" : "2024-02-20T11:11:57.622Z",
+    "3.0.0" : "2020-05-26T17:14:20.822Z",
+    "3.0.5" : "2020-09-10T08:52:29.670Z",
+    "3.2.3" : "2021-11-09T15:59:39.566Z",
+    "3.3.2" : "2024-11-18T15:01:07.763Z",
+    "modified" : "2025-02-18T08:55:07.324Z",
+    "3.2.4" : "2021-11-09T16:03:01.505Z",
+    "3.3.3" : "2025-02-18T08:55:07.168Z",
+    "3.2.5" : "2022-01-26T17:02:44.203Z",
+    "3.2.6" : "2022-06-27T08:03:22.829Z",
+    "3.0.1" : "2020-05-26T17:19:57.029Z",
+    "3.1.0" : "2020-09-30T05:37:46.008Z",
+    "3.0.2" : "2020-05-26T18:18:47.701Z",
+    "3.1.1" : "2021-01-19T13:00:54.666Z",
+    "3.2.0" : "2021-07-01T22:00:04.369Z",
+    "3.0.3" : "2020-07-05T12:10:30.364Z",
+    "3.2.1" : "2021-07-08T11:15:12.965Z",
+    "3.2.12" : "2024-02-20T11:14:26.913Z",
+    "3.3.0" : "2024-02-20T11:33:19.450Z",
+    "3.0.4" : "2020-07-05T12:17:28.985Z",
+    "3.2.2" : "2021-07-29T06:47:00.747Z",
+    "3.2.13" : "2024-02-20T11:17:55.960Z",
+    "3.3.1" : "2024-02-21T11:23:15.725Z",
+    "2.0.0" : "2018-10-22T07:49:06.657Z",
+    "2.0.1" : "2019-06-25T12:36:44.430Z",
+    "3.2.7" : "2022-08-19T14:24:13.328Z",
+    "3.2.8" : "2023-09-16T07:01:50.524Z",
+    "created" : "2018-04-26T09:50:37.331Z",
+    "3.2.9" : "2023-09-16T11:04:42.263Z",
+    "2.0.2" : "2020-03-29T08:05:56.847Z",
+    "1.0.3" : "2018-10-11T08:35:32.528Z",
+    "1.0.0" : "2018-09-18T17:02:20.547Z",
+    "1.0.1" : "2018-09-19T07:06:24.413Z",
+    "1.0.2" : "2018-09-21T03:46:50.505Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/WebReflection/flatted.git"
+  },
+  "users" : {
+    "flumpus-dev" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/WebReflection/flatted#readme",
+  "keywords" : [ "circular", "JSON", "fast", "parser", "minimal" ],
+  "bugs" : {
+    "url" : "https://github.com/WebReflection/flatted/issues"
+  },
+  "license" : "ISC"
+}

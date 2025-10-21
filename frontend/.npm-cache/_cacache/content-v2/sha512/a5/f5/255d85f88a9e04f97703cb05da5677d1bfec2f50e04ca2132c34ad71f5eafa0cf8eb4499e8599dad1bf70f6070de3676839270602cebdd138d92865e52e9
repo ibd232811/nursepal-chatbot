@@ -1,0 +1,1255 @@
+{
+  "_id" : "fast-levenshtein",
+  "_rev" : "53-e6bb9791c1d75ace1601456b6c7a5c38",
+  "name" : "fast-levenshtein",
+  "description" : "Efficient implementation of Levenshtein algorithm  with locale-specific collator support.",
+  "dist-tags" : {
+    "latest" : "3.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm with asynchronous callback support",
+      "version" : "2.0.0",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein#readme",
+      "repository" : {
+        "url" : "git+https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-2.0.0.tgz",
+        "shasum" : "0e833c3710f11982027e23963dc48c03c31a81b5"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "^4.0.1",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "MIT",
+      "files" : [ "levenshtein.js" ],
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@2.0.0",
+      "gitHead" : "c69f41f8c41b34cb53013afa7f82bbca98849149",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/fast-levenshtein-2.0.0.tgz_1472192613292_0.7607214960735291",
+        "host" : "packages-16-east.internal.npmjs.com"
+      },
+      "_shasum" : "0e833c3710f11982027e23963dc48c03c31a81b5",
+      "_nodeVersion" : "4.4.5"
+    },
+    "2.0.1" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm with asynchronous callback support",
+      "version" : "2.0.1",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein#readme",
+      "repository" : {
+        "url" : "git+https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-2.0.1.tgz",
+        "shasum" : "3fa8823203529e8453f2ed8f2852bd2a6db182a6"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "^4.0.1",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "MIT",
+      "files" : [ "levenshtein.js" ],
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@2.0.1",
+      "gitHead" : "d4ccf25d63974280bd62924d29ab4ccf9567517c",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/fast-levenshtein-2.0.1.tgz_1472201643290_0.96603913907893",
+        "host" : "packages-16-east.internal.npmjs.com"
+      },
+      "_shasum" : "3fa8823203529e8453f2ed8f2852bd2a6db182a6",
+      "_nodeVersion" : "4.4.5"
+    },
+    "2.0.6" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm  with locale-specific collator support.",
+      "version" : "2.0.6",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein#readme",
+      "repository" : {
+        "url" : "git+https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz",
+        "shasum" : "3d8a5c66883a16a30ca8643e851f19baa7797917"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "^4.0.1",
+        "grunt-cli" : "^1.2.0",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "MIT",
+      "files" : [ "levenshtein.js" ],
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark",
+        "prepublish" : "npm run build"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@2.0.6",
+      "gitHead" : "5bffe7151f99fb02f319f70a004e653105a760fb",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/fast-levenshtein-2.0.6.tgz_1482873305730_0.48711988772265613",
+        "host" : "packages-12-west.internal.npmjs.com"
+      },
+      "_shasum" : "3d8a5c66883a16a30ca8643e851f19baa7797917",
+      "_nodeVersion" : "6.9.1"
+    },
+    "2.0.4" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm  with locale-specific collator support.",
+      "version" : "2.0.4",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein#readme",
+      "repository" : {
+        "url" : "git+https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-2.0.4.tgz",
+        "shasum" : "e31e729eea62233c60a7bc9dce2bdcc88b4fffe3"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "^4.0.1",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "MIT",
+      "files" : [ "levenshtein.js" ],
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark",
+        "prepublish" : "npm run build"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@2.0.4",
+      "gitHead" : "8eac08c77caa7e77deaea37ad20b66c1ef660fd3",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/fast-levenshtein-2.0.4.tgz_1473223237736_0.9074071520008147",
+        "host" : "packages-12-west.internal.npmjs.com"
+      },
+      "_shasum" : "e31e729eea62233c60a7bc9dce2bdcc88b4fffe3",
+      "_nodeVersion" : "4.4.5"
+    },
+    "2.0.5" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm  with locale-specific collator support.",
+      "version" : "2.0.5",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein#readme",
+      "repository" : {
+        "url" : "git+https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-2.0.5.tgz",
+        "shasum" : "bd33145744519ab1c36c3ee9f31f08e9079b67f2"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "^4.0.1",
+        "grunt-cli" : "^1.2.0",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "MIT",
+      "files" : [ "levenshtein.js" ],
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark",
+        "prepublish" : "npm run build"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@2.0.5",
+      "gitHead" : "7c41122f8725a63587ec34bb19b12dd91f12465f",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/fast-levenshtein-2.0.5.tgz_1475102215149_0.23410583310760558",
+        "host" : "packages-16-east.internal.npmjs.com"
+      },
+      "_shasum" : "bd33145744519ab1c36c3ee9f31f08e9079b67f2",
+      "_nodeVersion" : "4.4.5"
+    },
+    "2.0.2" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm",
+      "version" : "2.0.2",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein#readme",
+      "repository" : {
+        "url" : "git+https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-2.0.2.tgz",
+        "shasum" : "8b7a7c9b135353941b5283e4cb1e3e16831c0719"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "^4.0.1",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "MIT",
+      "files" : [ "levenshtein.js" ],
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@2.0.2",
+      "gitHead" : "1e611abfb4a2110ef16d934e7bcbbcf7f7f3d5c8",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/fast-levenshtein-2.0.2.tgz_1472203513561_0.8094956018030643",
+        "host" : "packages-12-west.internal.npmjs.com"
+      },
+      "_shasum" : "8b7a7c9b135353941b5283e4cb1e3e16831c0719",
+      "_nodeVersion" : "4.4.5"
+    },
+    "2.0.3" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm  with locale-specific collator support.",
+      "version" : "2.0.3",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein#readme",
+      "repository" : {
+        "url" : "git+https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-2.0.3.tgz",
+        "shasum" : "2e4b613e0a0a2f53df583c765a816b97b0c98a9e"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "^4.0.1",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "MIT",
+      "files" : [ "levenshtein.js" ],
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@2.0.3",
+      "gitHead" : "7d2dacdf375a12793e105ea38cdba002af12ef77",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/fast-levenshtein-2.0.3.tgz_1472203622853_0.8779530352912843",
+        "host" : "packages-16-east.internal.npmjs.com"
+      },
+      "_shasum" : "2e4b613e0a0a2f53df583c765a816b97b0c98a9e",
+      "_nodeVersion" : "4.4.5"
+    },
+    "1.0.3" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm with asynchronous callback support",
+      "version" : "1.0.3",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein",
+      "repository" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-1.0.3.tgz",
+        "shasum" : "fcee403eaa08374e9028b8bd11d09a4d2f75e62b"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "~1.2.0",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "BSD",
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.22",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@1.0.3"
+    },
+    "1.1.2" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm with asynchronous callback support",
+      "version" : "1.1.2",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein#readme",
+      "repository" : {
+        "url" : "git+https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-1.1.2.tgz",
+        "shasum" : "5df059fc7a131a7471eff164e6884e5993f72777"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "^4.0.1",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "MIT",
+      "files" : [ "levenshtein.js" ],
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.9",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@1.1.2",
+      "gitHead" : "0cd8ad5c8e23c219261f8cdde875e79ee4c06f3f",
+      "_shasum" : "5df059fc7a131a7471eff164e6884e5993f72777",
+      "_nodeVersion" : "0.12.9"
+    },
+    "1.0.4" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm with asynchronous callback support",
+      "version" : "1.0.4",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein",
+      "repository" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-1.0.4.tgz",
+        "shasum" : "4d48aabd04a9e5790b2851f93ea84cf4634eeb0c"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "~1.2.0",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@1.0.4",
+      "_shasum" : "4d48aabd04a9e5790b2851f93ea84cf4634eeb0c"
+    },
+    "1.1.3" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm with asynchronous callback support",
+      "version" : "1.1.3",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein#readme",
+      "repository" : {
+        "url" : "git+https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-1.1.3.tgz",
+        "shasum" : "2ae7b32abc1e612da48a4e13849b888a2f61e7e9"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "^4.0.1",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "MIT",
+      "files" : [ "levenshtein.js" ],
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.9",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@1.1.3",
+      "gitHead" : "bce911eb885fb52e37b1be793c22cfaf88d580d2",
+      "_shasum" : "2ae7b32abc1e612da48a4e13849b888a2f61e7e9",
+      "_nodeVersion" : "0.12.9"
+    },
+    "1.0.5" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm with asynchronous callback support",
+      "version" : "1.0.5",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein",
+      "repository" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-1.0.5.tgz",
+        "shasum" : "d21e2fa0a784a4d2147476df5b8b5048f9d67a5d"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "~1.2.0",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@1.0.5",
+      "_shasum" : "d21e2fa0a784a4d2147476df5b8b5048f9d67a5d"
+    },
+    "1.1.4" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm with asynchronous callback support",
+      "version" : "1.1.4",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein#readme",
+      "repository" : {
+        "url" : "git+https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-1.1.4.tgz",
+        "shasum" : "e6a754cc8f15e58987aa9cbd27af66fd6f4e5af9"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "^4.0.1",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "MIT",
+      "files" : [ "levenshtein.js" ],
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@1.1.4",
+      "gitHead" : "80874a9c0cd8d9f5aee9d73aa39d9ab0a9d51435",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/fast-levenshtein-1.1.4.tgz_1469168840025_0.9637497058138251",
+        "host" : "packages-16-east.internal.npmjs.com"
+      },
+      "_shasum" : "e6a754cc8f15e58987aa9cbd27af66fd6f4e5af9",
+      "_nodeVersion" : "4.4.5"
+    },
+    "1.0.6" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm with asynchronous callback support",
+      "version" : "1.0.6",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein",
+      "repository" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-1.0.6.tgz",
+        "shasum" : "3bedb184e39f95cb0d88928688e6b1ee3273446a"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "~1.2.0",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@1.0.6",
+      "_shasum" : "3bedb184e39f95cb0d88928688e6b1ee3273446a"
+    },
+    "3.0.0" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm  with locale-specific collator support.",
+      "version" : "3.0.0",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein#readme",
+      "repository" : {
+        "url" : "git+https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-3.0.0.tgz",
+        "shasum" : "37b899ae47e1090e40e3fd2318e4d5f0142ca912"
+      },
+      "dependencies" : {
+        "fastest-levenshtein" : "^1.0.7"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "^4.0.1",
+        "grunt-cli" : "^1.2.0",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark",
+        "prepublish" : "npm run build"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@3.0.0",
+      "gitHead" : "d2434d324e56c9ef70d6f8330382e7ff758f9911",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/fast-levenshtein_3.0.0_1595427981926_0.6198370966231346",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "1.0.7" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm with asynchronous callback support",
+      "version" : "1.0.7",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein",
+      "repository" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-1.0.7.tgz",
+        "shasum" : "0178dcdee023b92905193af0959e8a7639cfdcb9"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "~1.2.0",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "MIT",
+      "files" : [ "levenshtein.js" ],
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.6",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@1.0.7",
+      "gitHead" : "321ca56691c248823bbdb73b6fda57d6973f7f8c",
+      "_shasum" : "0178dcdee023b92905193af0959e8a7639cfdcb9",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.0.0" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm with asynchronous callback support",
+      "version" : "1.0.0",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "repository" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-1.0.0.tgz",
+        "shasum" : "0370eda31cff867c88745cdb89921e4c76ae8393"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "~1.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "BSD",
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "_npmVersion" : "1.1.49",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@1.0.0"
+    },
+    "1.0.1" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm with asynchronous callback support",
+      "version" : "1.0.1",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein",
+      "repository" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-1.0.1.tgz",
+        "shasum" : "0548ef9dd6f2578b1ad22dc64515807eba2247b5"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "~1.2.0",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "BSD",
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.22",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@1.0.1"
+    },
+    "1.1.0" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm with asynchronous callback support",
+      "version" : "1.1.0",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein#readme",
+      "repository" : {
+        "url" : "git+https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-1.1.0.tgz",
+        "shasum" : "87fa00416ee6b80fc326ca61993bce3b93974469"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : ">=3.0.0",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "MIT",
+      "files" : [ "levenshtein.js" ],
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.9",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@1.1.0",
+      "gitHead" : "428c87160f18d7b6867a0d37cdebb44471658ed3",
+      "_shasum" : "87fa00416ee6b80fc326ca61993bce3b93974469",
+      "_nodeVersion" : "0.12.9"
+    },
+    "1.0.2" : {
+      "name" : "fast-levenshtein",
+      "description" : "Efficient implementation of Levenshtein algorithm with asynchronous callback support",
+      "version" : "1.0.2",
+      "author" : {
+        "url" : "http://www.hiddentao.com/",
+        "name" : "Ramesh Nair",
+        "email" : "ram@hiddentao.com"
+      },
+      "homepage" : "https://github.com/hiddentao/fast-levenshtein",
+      "repository" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+      },
+      "main" : "levenshtein.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/fast-levenshtein/-/fast-levenshtein-1.0.2.tgz",
+        "shasum" : "cf564134f8339d92125a7b2634aab2a885d7df39"
+      },
+      "devDependencies" : {
+        "chai" : "~1.5.0",
+        "grunt" : "~0.4.1",
+        "mocha" : "~1.9.0",
+        "lodash" : "~1.2.0",
+        "grunt-benchmark" : "~0.2.0",
+        "grunt-mocha-test" : "~0.2.2",
+        "load-grunt-tasks" : "~0.6.0",
+        "grunt-npm-install" : "~0.1.0",
+        "grunt-contrib-jshint" : "~0.4.3",
+        "grunt-contrib-uglify" : "~0.2.0"
+      },
+      "keywords" : [ "levenshtein", "distance", "string" ],
+      "license" : "BSD",
+      "maintainers" : [ {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "grunt build",
+        "benchmark" : "grunt benchmark"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.22",
+      "_npmUser" : {
+        "name" : "hiddentao",
+        "email" : "ram@hiddentao.com"
+      },
+      "_id" : "fast-levenshtein@1.0.2"
+    }
+  },
+  "readme" : "# fast-levenshtein - Levenshtein algorithm in Javascript\n\n[![Build Status](https://secure.travis-ci.org/hiddentao/fast-levenshtein.png)](http://travis-ci.org/hiddentao/fast-levenshtein)\n[![NPM module](https://badge.fury.io/js/fast-levenshtein.png)](https://badge.fury.io/js/fast-levenshtein)\n[![NPM downloads](https://img.shields.io/npm/dm/fast-levenshtein.svg?maxAge=2592000)](https://www.npmjs.com/package/fast-levenshtein)\n[![Follow on Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Follow&maxAge=2592000)](https://twitter.com/hiddentao)\n\nA Javascript implementation of the [Levenshtein algorithm](http://en.wikipedia.org/wiki/Levenshtein_distance) with locale-specific collator support. This uses [fastest-levenshtein](https://github.com/ka-weihe/fastest-levenshtein) under the hood.\n\n## Features\n\n* Works in node.js and in the browser.\n* Locale-sensitive string comparisons if needed.\n* Comprehensive test suite.\n\n## Installation\n\n```bash\n$ npm install fast-levenshtein\n```\n**CDN**\n\nThe latest version is now also always available at https://npm-cdn.com/pkg/fast-levenshtein/ \n\n## Examples\n\n**Default usage**\n\n```javascript\nvar levenshtein = require('fast-levenshtein');\n\nvar distance = levenshtein.get('back', 'book');   // 2\nvar distance = levenshtein.get('我愛你', '我叫你');   // 1\n```\n\n**Locale-sensitive string comparisons**\n\nIt supports using [Intl.Collator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator) for locale-sensitive  string comparisons:\n\n```javascript\nvar levenshtein = require('fast-levenshtein');\n\nlevenshtein.get('mikailovitch', 'Mikhaïlovitch', { useCollator: true});\n// 1\n```\n\n## Building and Testing\n\nTo build the code and run the tests:\n\n```bash\n$ npm install -g grunt-cli\n$ npm install\n$ npm run build\n```\n\n## Performance\n\nThis uses [fastest-levenshtein](https://github.com/ka-weihe/fastest-levenshtein) under the hood.\n\n## Contributing\n\nIf you wish to submit a pull request please update and/or create new tests for any changes you make and ensure the grunt build passes.\n\nSee [CONTRIBUTING.md](https://github.com/hiddentao/fast-levenshtein/blob/master/CONTRIBUTING.md) for details.\n\n## License\n\nMIT - see [LICENSE.md](https://github.com/hiddentao/fast-levenshtein/blob/master/LICENSE.md)\n",
+  "maintainers" : [ {
+    "name" : "hiddentao",
+    "email" : "ram@hiddentao.com"
+  } ],
+  "author" : {
+    "url" : "http://www.hiddentao.com/",
+    "name" : "Ramesh Nair",
+    "email" : "ram@hiddentao.com"
+  },
+  "time" : {
+    "2.0.0" : "2016-08-26T06:23:35.146Z",
+    "2.0.1" : "2016-08-26T08:54:04.982Z",
+    "created" : "2013-04-18T05:57:10.372Z",
+    "2.0.6" : "2016-12-27T21:15:07.820Z",
+    "2.0.4" : "2016-09-07T04:40:37.975Z",
+    "2.0.5" : "2016-09-28T22:36:57.195Z",
+    "2.0.2" : "2016-08-26T09:25:13.798Z",
+    "2.0.3" : "2016-08-26T09:27:04.507Z",
+    "1.0.3" : "2014-07-10T05:07:35.370Z",
+    "1.1.2" : "2016-01-26T10:27:10.654Z",
+    "1.0.4" : "2014-09-15T06:06:35.043Z",
+    "1.1.3" : "2016-01-26T19:21:05.750Z",
+    "1.0.5" : "2014-12-06T03:04:03.113Z",
+    "1.1.4" : "2016-07-22T06:27:22.895Z",
+    "1.0.6" : "2014-12-17T16:32:54.020Z",
+    "3.0.0" : "2020-07-22T14:26:22.114Z",
+    "1.0.7" : "2015-08-13T01:08:40.011Z",
+    "modified" : "2024-11-04T19:13:47.279Z",
+    "1.0.0" : "2013-04-18T05:57:15.181Z",
+    "1.0.1" : "2014-07-10T03:39:50.757Z",
+    "1.1.0" : "2015-12-29T10:52:41.779Z",
+    "1.0.2" : "2014-07-10T04:19:05.817Z"
+  },
+  "repository" : {
+    "url" : "git+https://github.com/hiddentao/fast-levenshtein.git",
+    "type" : "git"
+  },
+  "users" : {
+    "zambon" : true,
+    "cgraff" : true,
+    "heartnett" : true,
+    "keenwon" : true,
+    "mimmo1" : true,
+    "dwayneford" : true,
+    "rocket0191" : true,
+    "karbunkul" : true,
+    "seangenabe" : true,
+    "christangga" : true,
+    "ganeshkbhat" : true,
+    "nskondratev" : true,
+    "morphar" : true,
+    "flumpus-dev" : true,
+    "kreshikhin" : true,
+    "wolfram77" : true,
+    "hasyee" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/hiddentao/fast-levenshtein#readme",
+  "keywords" : [ "levenshtein", "distance", "string" ],
+  "bugs" : {
+    "url" : "https://github.com/hiddentao/fast-levenshtein/issues"
+  },
+  "license" : "MIT"
+}

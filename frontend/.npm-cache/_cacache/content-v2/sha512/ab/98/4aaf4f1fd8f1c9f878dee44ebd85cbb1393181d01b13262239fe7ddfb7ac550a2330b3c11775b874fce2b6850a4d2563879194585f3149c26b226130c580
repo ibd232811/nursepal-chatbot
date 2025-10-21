@@ -1,0 +1,2487 @@
+{
+  "_id" : "json5",
+  "_rev" : "74-a0d632332cdc73bcd33e3ab78bcf56c2",
+  "name" : "json5",
+  "description" : "JSON for Humans",
+  "dist-tags" : {
+    "previous" : "1.0.2",
+    "latest" : "2.2.3"
+  },
+  "versions" : {
+    "0.5.1" : {
+      "name" : "json5",
+      "description" : "JSON for the ES5 era.",
+      "version" : "0.5.1",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/aseemk/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/aseemk/json5/issues"
+      },
+      "main" : "lib/json5.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-0.5.1.tgz",
+        "shasum" : "1eade7acc012034ad84e2396767ead9fa5495821"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "gulp" : "^3.9.1",
+        "gulp-jshint" : "^2.0.1",
+        "jshint" : "^2.9.3",
+        "jshint-stylish" : "^2.2.1",
+        "mocha" : "^3.1.0"
+      },
+      "keywords" : [ "json", "es5" ],
+      "license" : "MIT",
+      "files" : [ "lib/" ],
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node ./lib/cli.js -c package.json5",
+        "test" : "mocha --ui exports --reporter spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.9",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@0.5.1",
+      "gitHead" : "6be6a70e250e6fbbf42db75cd1f6a1aadeeeeb07",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/json5-0.5.1.tgz_1480284434295_0.5308296058792621"
+      },
+      "_shasum" : "1eade7acc012034ad84e2396767ead9fa5495821",
+      "_nodeVersion" : "6.9.1"
+    },
+    "0.4.0" : {
+      "name" : "json5",
+      "description" : "JSON for the ES5 era.",
+      "version" : "0.4.0",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/aseemk/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/aseemk/json5/issues"
+      },
+      "main" : "lib/json5.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-0.4.0.tgz",
+        "shasum" : "054352e4c4c80c86c0923877d449de176a732c8d"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "~1.0.3"
+      },
+      "keywords" : [ "json", "es5" ],
+      "license" : "MIT",
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "./lib/cli.js -c package.json5",
+        "test" : "mocha --ui exports --reporter spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.21",
+      "_npmUser" : {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "_id" : "json5@0.4.0"
+    },
+    "0.5.0" : {
+      "name" : "json5",
+      "description" : "JSON for the ES5 era.",
+      "version" : "0.5.0",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/aseemk/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/aseemk/json5/issues"
+      },
+      "main" : "lib/json5.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-0.5.0.tgz",
+        "shasum" : "9b20715b026cbe3778fd769edccd822d8332a5b2"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "gulp" : "^3.9.1",
+        "gulp-jshint" : "^2.0.0",
+        "jshint" : "^2.9.1",
+        "jshint-stylish" : "^2.1.0",
+        "mocha" : "^2.4.5"
+      },
+      "keywords" : [ "json", "es5" ],
+      "license" : "MIT",
+      "files" : [ "lib/" ],
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node ./lib/cli.js -c package.json5",
+        "test" : "mocha --ui exports --reporter spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.3",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@0.5.0",
+      "gitHead" : "c58c026a58dd0b71401f7aa99e891291a60820e3",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/json5-0.5.0.tgz_1458238912216_0.23146007652394474"
+      },
+      "_shasum" : "9b20715b026cbe3778fd769edccd822d8332a5b2",
+      "_nodeVersion" : "5.9.0"
+    },
+    "1.0.0-dates" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "1.0.0-dates",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-1.0.0-dates.tgz",
+        "shasum" : "dbaef53fb06f3cc1868d280805240642d9672d2d"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-plugin-external-helpers" : "^6.22.0",
+        "babel-plugin-istanbul" : "^4.1.5",
+        "babel-preset-env" : "^1.6.0",
+        "babel-register" : "^6.26.0",
+        "babelrc-rollup" : "^3.0.0",
+        "cross-env" : "^5.0.5",
+        "del" : "^3.0.0",
+        "eslint" : "^4.7.1",
+        "eslint-config-standard" : "^10.2.1",
+        "eslint-plugin-import" : "^2.7.0",
+        "eslint-plugin-node" : "^5.1.1",
+        "eslint-plugin-promise" : "^3.5.0",
+        "eslint-plugin-standard" : "^3.0.1",
+        "mocha" : "^3.5.3",
+        "nyc" : "^11.2.1",
+        "regenerate" : "^1.3.3",
+        "rollup" : "^0.50.0",
+        "rollup-plugin-babel" : "^3.0.2",
+        "rollup-plugin-commonjs" : "^8.2.1",
+        "rollup-plugin-node-resolve" : "^3.0.0",
+        "rollup-plugin-uglify" : "^2.0.1",
+        "sinon" : "^3.3.0",
+        "unicode-9.0.0" : "^0.7.4"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "files" : [ "lib/", "dist/" ],
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel-node build/build.js && babel src -d lib && rollup -c",
+        "lint" : "eslint --fix build src",
+        "prepublishOnly" : "npm run lint && npm test && npm run production",
+        "pretest" : "cross-env NODE_ENV=test npm run build",
+        "preversion" : "npm run lint && npm test && npm run production",
+        "production" : "cross-env NODE_ENV=production npm run build && babel-node build/check-package.js",
+        "test" : "nyc --reporter=html --reporter=text mocha"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@1.0.0-dates",
+      "gitHead" : "0e39932e5cbf843bb8b55968316a301fc805d3cc",
+      "browser" : "dist/index.js",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5-1.0.0-dates.tgz_1506214104567_0.6818019594065845"
+      },
+      "_nodeVersion" : "6.11.2"
+    },
+    "1.0.0-regexps" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "1.0.0-regexps",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-1.0.0-regexps.tgz",
+        "shasum" : "b9104fab83c81ee0e6f375ed1a191ed6d16af6f5"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-plugin-external-helpers" : "^6.22.0",
+        "babel-plugin-istanbul" : "^4.1.5",
+        "babel-preset-env" : "^1.6.0",
+        "babel-register" : "^6.26.0",
+        "babelrc-rollup" : "^3.0.0",
+        "cross-env" : "^5.0.5",
+        "del" : "^3.0.0",
+        "eslint" : "^4.7.1",
+        "eslint-config-standard" : "^10.2.1",
+        "eslint-plugin-import" : "^2.7.0",
+        "eslint-plugin-node" : "^5.1.1",
+        "eslint-plugin-promise" : "^3.5.0",
+        "eslint-plugin-standard" : "^3.0.1",
+        "mocha" : "^3.5.3",
+        "nyc" : "^11.2.1",
+        "regenerate" : "^1.3.3",
+        "rollup" : "^0.50.0",
+        "rollup-plugin-babel" : "^3.0.2",
+        "rollup-plugin-commonjs" : "^8.2.1",
+        "rollup-plugin-node-resolve" : "^3.0.0",
+        "rollup-plugin-uglify" : "^2.0.1",
+        "sinon" : "^3.3.0",
+        "unicode-9.0.0" : "^0.7.4"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "files" : [ "lib/", "dist/" ],
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel-node build/build.js && babel src -d lib && rollup -c",
+        "lint" : "eslint --fix build src",
+        "prepublishOnly" : "npm run lint && npm test && npm run production",
+        "pretest" : "cross-env NODE_ENV=test npm run build",
+        "preversion" : "npm run lint && npm test && npm run production",
+        "production" : "cross-env NODE_ENV=production npm run build && babel-node build/check-package.js",
+        "test" : "nyc --reporter=html --reporter=text mocha"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@1.0.0-regexps",
+      "gitHead" : "6bafe5a11e87bcd36e713bfb962b818906301770",
+      "browser" : "dist/index.js",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5-1.0.0-regexps.tgz_1506216081686_0.4857315414119512"
+      },
+      "_nodeVersion" : "6.11.2"
+    },
+    "1.0.0-beta" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "1.0.0-beta",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-1.0.0-beta.tgz",
+        "shasum" : "ae83de99802cef1fa29b7b60a9330658b898eb1e"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-plugin-external-helpers" : "^6.22.0",
+        "babel-plugin-istanbul" : "^4.1.5",
+        "babel-preset-env" : "^1.6.0",
+        "babel-register" : "^6.26.0",
+        "babelrc-rollup" : "^3.0.0",
+        "cross-env" : "^5.0.5",
+        "del" : "^3.0.0",
+        "eslint" : "^4.7.1",
+        "eslint-config-standard" : "^10.2.1",
+        "eslint-plugin-import" : "^2.7.0",
+        "eslint-plugin-node" : "^5.1.1",
+        "eslint-plugin-promise" : "^3.5.0",
+        "eslint-plugin-standard" : "^3.0.1",
+        "mocha" : "^3.5.3",
+        "nyc" : "^11.2.1",
+        "regenerate" : "^1.3.3",
+        "rollup" : "^0.50.0",
+        "rollup-plugin-babel" : "^3.0.2",
+        "rollup-plugin-commonjs" : "^8.2.1",
+        "rollup-plugin-node-resolve" : "^3.0.0",
+        "rollup-plugin-uglify" : "^2.0.1",
+        "sinon" : "^3.3.0",
+        "unicode-9.0.0" : "^0.7.4"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "files" : [ "lib/", "dist/" ],
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel-node build/build.js && babel src -d lib && rollup -c",
+        "lint" : "eslint --fix build src",
+        "prepublishOnly" : "npm run lint && npm test && npm run production",
+        "pretest" : "cross-env NODE_ENV=test npm run build",
+        "preversion" : "npm run lint && npm test && npm run production",
+        "production" : "cross-env NODE_ENV=production npm run build && babel-node build/check-package.js",
+        "test" : "nyc --reporter=html --reporter=text mocha"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@1.0.0-beta",
+      "gitHead" : "cc8fd89487f0107014c214ce593f84947e011798",
+      "browser" : "dist/index.js",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5-1.0.0-beta.tgz_1506326565554_0.24072266649454832"
+      },
+      "_nodeVersion" : "6.11.2"
+    },
+    "0.2.0" : {
+      "name" : "json5",
+      "description" : "JSON for the ES5 era.",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/aseemk/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      } ],
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "lib/json5.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-0.2.0.tgz",
+        "shasum" : "b6d7035c70c4570f883c7edc759de3ae03db3343"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "~1.0.3"
+      },
+      "keywords" : [ "json", "es5" ],
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "./lib/cli.js -c package.json5",
+        "test" : "mocha --ui exports --reporter spec"
+      },
+      "_npmVersion" : "1.1.19",
+      "_npmUser" : {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "_id" : "json5@0.2.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.16"
+    },
+    "0.0.0" : {
+      "name" : "json5",
+      "description" : "Modern JSON.",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "json5",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-0.0.0.tgz",
+        "shasum" : "f6e55f0133dc3b2c66c1fd3a51707b8bb6149f11"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "_id" : "json5@0.0.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.16"
+    },
+    "0.0.1" : {
+      "name" : "json5",
+      "description" : "Modern JSON.",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "https://github.com/aseemk/json5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/aseemk/json5.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "json5",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-0.0.1.tgz",
+        "shasum" : "d9611910a4a438138b3ff4c9de68f1fa63cbde5b"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "~1.0.3"
+      },
+      "keywords" : [ "json", "json5" ],
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --ui exports --reporter list"
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "_id" : "json5@0.0.1",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.16"
+    },
+    "0.1.0" : {
+      "name" : "json5",
+      "description" : "JSON for the ES5 era.",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/aseemk/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      } ],
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "lib/json5.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-0.1.0.tgz",
+        "shasum" : "b23045f81f720422b0f3c7f3842be035765ccf2b"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "~1.0.3"
+      },
+      "keywords" : [ "json", "es5" ],
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --ui exports --reporter spec"
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "_id" : "json5@0.1.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.16"
+    },
+    "1.0.0-beta.4" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "1.0.0-beta.4",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-1.0.0-beta.4.tgz",
+        "shasum" : "32cd529f822b28574dce7458502b05e1fa78a311"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-plugin-external-helpers" : "^6.22.0",
+        "babel-plugin-istanbul" : "^4.1.5",
+        "babel-preset-env" : "^1.6.0",
+        "babel-register" : "^6.26.0",
+        "babelrc-rollup" : "^3.0.0",
+        "cross-env" : "^5.0.5",
+        "del" : "^3.0.0",
+        "eslint" : "^4.7.1",
+        "eslint-config-standard" : "^10.2.1",
+        "eslint-plugin-import" : "^2.7.0",
+        "eslint-plugin-node" : "^5.1.1",
+        "eslint-plugin-promise" : "^3.5.0",
+        "eslint-plugin-standard" : "^3.0.1",
+        "mocha" : "^3.5.3",
+        "nyc" : "^11.2.1",
+        "regenerate" : "^1.3.3",
+        "rollup" : "^0.50.0",
+        "rollup-plugin-babel" : "^3.0.2",
+        "rollup-plugin-commonjs" : "^8.2.1",
+        "rollup-plugin-node-resolve" : "^3.0.0",
+        "rollup-plugin-uglify" : "^2.0.1",
+        "sinon" : "^3.3.0",
+        "unicode-9.0.0" : "^0.7.4"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "files" : [ "lib/", "dist/" ],
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel-node build/build.js && babel src -d lib && rollup -c",
+        "lint" : "eslint --fix build src",
+        "prepublishOnly" : "npm run lint && npm test && npm run production",
+        "pretest" : "cross-env NODE_ENV=test npm run build",
+        "preversion" : "npm run lint && npm test && npm run production",
+        "production" : "cross-env NODE_ENV=production npm run build && babel-node build/check-package.js",
+        "test" : "nyc --reporter=html --reporter=text mocha"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@1.0.0-beta.4",
+      "gitHead" : "f4123c513692f51cc71dcd4ff7eeb470c90ec51d",
+      "browser" : "dist/index.js",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5-1.0.0-beta.4.tgz_1510685717699_0.614513021428138"
+      },
+      "_nodeVersion" : "8.9.0"
+    },
+    "1.0.0-dates-2" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "1.0.0-dates-2",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-1.0.0-dates-2.tgz",
+        "shasum" : "87452e3f68b42fa8e7dfd51ad504cf54fc70397e"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-plugin-external-helpers" : "^6.22.0",
+        "babel-plugin-istanbul" : "^4.1.5",
+        "babel-preset-env" : "^1.6.0",
+        "babel-register" : "^6.26.0",
+        "babelrc-rollup" : "^3.0.0",
+        "cross-env" : "^5.0.5",
+        "del" : "^3.0.0",
+        "eslint" : "^4.7.1",
+        "eslint-config-standard" : "^10.2.1",
+        "eslint-plugin-import" : "^2.7.0",
+        "eslint-plugin-node" : "^5.1.1",
+        "eslint-plugin-promise" : "^3.5.0",
+        "eslint-plugin-standard" : "^3.0.1",
+        "mocha" : "^3.5.3",
+        "nyc" : "^11.2.1",
+        "regenerate" : "^1.3.3",
+        "rollup" : "^0.50.0",
+        "rollup-plugin-babel" : "^3.0.2",
+        "rollup-plugin-commonjs" : "^8.2.1",
+        "rollup-plugin-node-resolve" : "^3.0.0",
+        "rollup-plugin-uglify" : "^2.0.1",
+        "sinon" : "^3.3.0",
+        "unicode-9.0.0" : "^0.7.4"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "files" : [ "lib/", "dist/" ],
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel-node build/build.js && babel src -d lib && rollup -c",
+        "lint" : "eslint --fix build src",
+        "prepublishOnly" : "npm run lint && npm test && npm run production",
+        "pretest" : "cross-env NODE_ENV=test npm run build",
+        "preversion" : "npm run lint && npm test && npm run production",
+        "production" : "cross-env NODE_ENV=production npm run build && babel-node build/check-package.js",
+        "test" : "nyc --reporter=html --reporter=text mocha"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@1.0.0-dates-2",
+      "gitHead" : "29a9a53d10c06525bcf9debc9046c6b2c29d8bc4",
+      "browser" : "dist/index.js",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5-1.0.0-dates-2.tgz_1506360666057_0.23160419380292296"
+      },
+      "_nodeVersion" : "6.11.2"
+    },
+    "2.0.0" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-2.0.0.tgz",
+        "shasum" : "b61abf97aa178c4b5853a66cc8eecafd03045d78"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.3.0",
+        "eslint-config-standard" : "^11.0.0",
+        "eslint-plugin-import" : "^2.14.0",
+        "eslint-plugin-node" : "^7.0.1",
+        "eslint-plugin-promise" : "^3.8.0",
+        "eslint-plugin-standard" : "^3.1.0",
+        "regenerate" : "^1.4.0",
+        "rollup" : "^0.64.1",
+        "rollup-plugin-commonjs" : "^9.1.5",
+        "rollup-plugin-node-resolve" : "^3.3.0",
+        "rollup-plugin-terser" : "^1.0.1",
+        "sinon" : "^6.1.5",
+        "tap" : "^12.0.1",
+        "unicode-10.0.0" : "^0.7.5"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "files" : [ "lib/", "dist/" ],
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rollup -c",
+        "build-package" : "node build/package.js",
+        "build-unicode" : "node build/unicode.js",
+        "coverage" : "tap --coverage-report html test",
+        "lint" : "eslint --fix .",
+        "prepublishOnly" : "npm run production",
+        "preversion" : "npm run production",
+        "production" : "npm run lint && npm test && npm run build",
+        "test" : "tap -Rspec --100 test",
+        "version" : "npm run build-package && git add package.json5"
+      },
+      "_npmVersion" : "6.4.0",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@2.0.0",
+      "gitHead" : "3b44f2e496a2cec54ce0c01fa37897c7906836c8",
+      "browser" : "dist/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5_2.0.0_1534479204287_0.22685984380044588"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "2.0.1" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-2.0.1.tgz",
+        "shasum" : "3d6d0d1066039eb50984e66a7840e4f4b7a2c660"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.0"
+      },
+      "devDependencies" : {
+        "core-js" : "^2.5.7",
+        "eslint" : "^5.3.0",
+        "eslint-config-standard" : "^11.0.0",
+        "eslint-plugin-import" : "^2.14.0",
+        "eslint-plugin-node" : "^7.0.1",
+        "eslint-plugin-promise" : "^3.8.0",
+        "eslint-plugin-standard" : "^3.1.0",
+        "regenerate" : "^1.4.0",
+        "rollup" : "^0.64.1",
+        "rollup-plugin-buble" : "^0.19.2",
+        "rollup-plugin-commonjs" : "^9.1.5",
+        "rollup-plugin-node-resolve" : "^3.3.0",
+        "rollup-plugin-terser" : "^1.0.1",
+        "sinon" : "^6.1.5",
+        "tap" : "^12.0.1",
+        "unicode-10.0.0" : "^0.7.5"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "files" : [ "lib/", "dist/" ],
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rollup -c",
+        "build-package" : "node build/package.js",
+        "build-unicode" : "node build/unicode.js",
+        "coverage" : "tap --coverage-report html test",
+        "lint" : "eslint --fix .",
+        "prepublishOnly" : "npm run production",
+        "preversion" : "npm run production",
+        "production" : "npm run lint && npm test && npm run build",
+        "test" : "tap -Rspec --100 test",
+        "version" : "npm run build-package && git add package.json5"
+      },
+      "_npmVersion" : "6.3.0",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@2.0.1",
+      "gitHead" : "59eee02b882351268b88ac3b018ae26281240e8b",
+      "browser" : "dist/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5_2.0.1_1534617695246_0.8986631311655922"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "2.1.0" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-2.1.0.tgz",
+        "shasum" : "e7a0c62c48285c628d20a10b85c89bb807c32850"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.0"
+      },
+      "devDependencies" : {
+        "core-js" : "^2.5.7",
+        "eslint" : "^5.3.0",
+        "eslint-config-standard" : "^11.0.0",
+        "eslint-plugin-import" : "^2.14.0",
+        "eslint-plugin-node" : "^7.0.1",
+        "eslint-plugin-promise" : "^3.8.0",
+        "eslint-plugin-standard" : "^3.1.0",
+        "regenerate" : "^1.4.0",
+        "rollup" : "^0.64.1",
+        "rollup-plugin-buble" : "^0.19.2",
+        "rollup-plugin-commonjs" : "^9.1.5",
+        "rollup-plugin-node-resolve" : "^3.3.0",
+        "rollup-plugin-terser" : "^1.0.1",
+        "sinon" : "^6.1.5",
+        "tap" : "^12.0.1",
+        "unicode-10.0.0" : "^0.7.5"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rollup -c",
+        "build-package" : "node build/package.js",
+        "build-unicode" : "node build/unicode.js",
+        "coverage" : "tap --coverage-report html test",
+        "lint" : "eslint --fix .",
+        "prepublishOnly" : "npm run production",
+        "preversion" : "npm run production",
+        "production" : "npm run lint && npm test && npm run build",
+        "test" : "tap -Rspec --100 test",
+        "version" : "npm run build-package && git add package.json5"
+      },
+      "_npmVersion" : "6.4.0",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@2.1.0",
+      "gitHead" : "69c4a75d345a58a773148dd9c05ce74e668dc87d",
+      "browser" : "dist/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5_2.1.0_1538111508433_0.060465334055555875"
+      },
+      "_nodeVersion" : "8.12.0"
+    },
+    "1.0.0-regexps-2" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "1.0.0-regexps-2",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-1.0.0-regexps-2.tgz",
+        "shasum" : "a631fc69924f9494f14ebf4ba037c871f2e38349"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-plugin-external-helpers" : "^6.22.0",
+        "babel-plugin-istanbul" : "^4.1.5",
+        "babel-preset-env" : "^1.6.0",
+        "babel-register" : "^6.26.0",
+        "babelrc-rollup" : "^3.0.0",
+        "cross-env" : "^5.0.5",
+        "del" : "^3.0.0",
+        "eslint" : "^4.7.1",
+        "eslint-config-standard" : "^10.2.1",
+        "eslint-plugin-import" : "^2.7.0",
+        "eslint-plugin-node" : "^5.1.1",
+        "eslint-plugin-promise" : "^3.5.0",
+        "eslint-plugin-standard" : "^3.0.1",
+        "mocha" : "^3.5.3",
+        "nyc" : "^11.2.1",
+        "regenerate" : "^1.3.3",
+        "rollup" : "^0.50.0",
+        "rollup-plugin-babel" : "^3.0.2",
+        "rollup-plugin-commonjs" : "^8.2.1",
+        "rollup-plugin-node-resolve" : "^3.0.0",
+        "rollup-plugin-uglify" : "^2.0.1",
+        "sinon" : "^3.3.0",
+        "unicode-9.0.0" : "^0.7.4"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "files" : [ "lib/", "dist/" ],
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel-node build/build.js && babel src -d lib && rollup -c",
+        "lint" : "eslint --fix build src",
+        "prepublishOnly" : "npm run lint && npm test && npm run production",
+        "pretest" : "cross-env NODE_ENV=test npm run build",
+        "preversion" : "npm run lint && npm test && npm run production",
+        "production" : "cross-env NODE_ENV=production npm run build && babel-node build/check-package.js",
+        "test" : "nyc --reporter=html --reporter=text mocha"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@1.0.0-regexps-2",
+      "gitHead" : "da36c192b92455fef3f3cd181260173e16f07b21",
+      "browser" : "dist/index.js",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5-1.0.0-regexps-2.tgz_1506360743120_0.1735003616195172"
+      },
+      "_nodeVersion" : "6.11.2"
+    },
+    "2.1.3" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "2.1.3",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-2.1.3.tgz",
+        "shasum" : "c9b0f7fa9233bfe5807fe66fcf3a5617ed597d43"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.5"
+      },
+      "devDependencies" : {
+        "core-js" : "^2.6.5",
+        "eslint" : "^5.15.3",
+        "eslint-config-standard" : "^12.0.0",
+        "eslint-plugin-import" : "^2.16.0",
+        "eslint-plugin-node" : "^8.0.1",
+        "eslint-plugin-promise" : "^4.0.1",
+        "eslint-plugin-standard" : "^4.0.0",
+        "regenerate" : "^1.4.0",
+        "rollup" : "^0.64.1",
+        "rollup-plugin-buble" : "^0.19.6",
+        "rollup-plugin-commonjs" : "^9.2.1",
+        "rollup-plugin-node-resolve" : "^3.4.0",
+        "rollup-plugin-terser" : "^1.0.1",
+        "sinon" : "^6.3.5",
+        "tap" : "^12.6.0",
+        "unicode-10.0.0" : "^0.7.5"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rollup -c",
+        "build-package" : "node build/package.js",
+        "build-unicode" : "node build/unicode.js",
+        "coverage" : "tap --coverage-report html test",
+        "lint" : "eslint --fix .",
+        "prepublishOnly" : "npm run production",
+        "preversion" : "npm run production",
+        "production" : "npm run lint && npm test && npm run build",
+        "test" : "tap -Rspec --100 test",
+        "version" : "npm run build-package && git add package.json5"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@2.1.3",
+      "gitHead" : "32bb2cdae4864b2ac80a6d9b4045efc4cc54f47a",
+      "module" : "dist/index.mjs",
+      "browser" : "dist/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5_2.1.3_1586041132131_0.5302923352394322"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "2.2.2" : {
+      "name" : "json5",
+      "description" : "JSON for Humans",
+      "version" : "2.2.2",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-2.2.2.tgz",
+        "shasum" : "64471c5bdcc564c18f7c1d4df2e2297f2457c5ab"
+      },
+      "devDependencies" : {
+        "core-js" : "^2.6.5",
+        "eslint" : "^5.15.3",
+        "eslint-config-standard" : "^12.0.0",
+        "eslint-plugin-import" : "^2.16.0",
+        "eslint-plugin-node" : "^8.0.1",
+        "eslint-plugin-promise" : "^4.0.1",
+        "eslint-plugin-standard" : "^4.0.0",
+        "npm-run-all" : "^4.1.5",
+        "regenerate" : "^1.4.0",
+        "rollup" : "^0.64.1",
+        "rollup-plugin-buble" : "^0.19.6",
+        "rollup-plugin-commonjs" : "^9.2.1",
+        "rollup-plugin-node-resolve" : "^3.4.0",
+        "rollup-plugin-terser" : "^1.0.1",
+        "sinon" : "^6.3.5",
+        "tap" : "^12.6.0",
+        "unicode-10.0.0" : "^0.7.5"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      }, {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rollup -c",
+        "build-package" : "node build/package.js",
+        "build-unicode" : "node build/unicode.js",
+        "coverage" : "tap --coverage-report html test",
+        "lint" : "eslint --fix .",
+        "lint-report" : "eslint .",
+        "prepublishOnly" : "npm run production",
+        "preversion" : "npm run production",
+        "production" : "run-s test build",
+        "tap" : "tap -Rspec --100 test",
+        "test" : "run-s lint-report tap",
+        "version" : "npm run build-package && git add package.json5"
+      },
+      "_npmVersion" : "8.18.0",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@2.2.2",
+      "gitHead" : "14f8cb186e8abdfaccf6527171da7b1224374650",
+      "types" : "lib/index.d.ts",
+      "module" : "dist/index.mjs",
+      "browser" : "dist/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5_2.2.2_1671172710839_0.5338538472578511"
+      },
+      "_nodeVersion" : "16.16.0"
+    },
+    "2.2.3" : {
+      "name" : "json5",
+      "description" : "JSON for Humans",
+      "version" : "2.2.3",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-2.2.3.tgz",
+        "shasum" : "78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
+      },
+      "devDependencies" : {
+        "core-js" : "^2.6.5",
+        "eslint" : "^5.15.3",
+        "eslint-config-standard" : "^12.0.0",
+        "eslint-plugin-import" : "^2.16.0",
+        "eslint-plugin-node" : "^8.0.1",
+        "eslint-plugin-promise" : "^4.0.1",
+        "eslint-plugin-standard" : "^4.0.0",
+        "npm-run-all" : "^4.1.5",
+        "regenerate" : "^1.4.0",
+        "rollup" : "^0.64.1",
+        "rollup-plugin-buble" : "^0.19.6",
+        "rollup-plugin-commonjs" : "^9.2.1",
+        "rollup-plugin-node-resolve" : "^3.4.0",
+        "rollup-plugin-terser" : "^1.0.1",
+        "sinon" : "^6.3.5",
+        "tap" : "^12.6.0",
+        "unicode-10.0.0" : "^0.7.5"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      }, {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rollup -c",
+        "build-package" : "node build/package.js",
+        "build-unicode" : "node build/unicode.js",
+        "coverage" : "tap --coverage-report html test",
+        "lint" : "eslint --fix .",
+        "lint-report" : "eslint .",
+        "prepublishOnly" : "npm run production",
+        "preversion" : "npm run production",
+        "production" : "run-s test build",
+        "tap" : "tap -Rspec --100 test",
+        "test" : "run-s lint-report tap",
+        "version" : "npm run build-package && git add package.json5"
+      },
+      "_npmVersion" : "9.2.0",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@2.2.3",
+      "gitHead" : "c3a75242772a5026a49c4017a16d9b3543b62776",
+      "types" : "lib/index.d.ts",
+      "module" : "dist/index.mjs",
+      "browser" : "dist/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5_2.2.3_1672506691888_0.8752285018523356"
+      },
+      "_nodeVersion" : "18.12.1"
+    },
+    "2.1.1" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-2.1.1.tgz",
+        "shasum" : "81b6cb04e9ba496f1c7005d07b4368a2638f90b6"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.0"
+      },
+      "devDependencies" : {
+        "core-js" : "^2.6.5",
+        "eslint" : "^5.15.3",
+        "eslint-config-standard" : "^12.0.0",
+        "eslint-plugin-import" : "^2.16.0",
+        "eslint-plugin-node" : "^8.0.1",
+        "eslint-plugin-promise" : "^4.0.1",
+        "eslint-plugin-standard" : "^4.0.0",
+        "regenerate" : "^1.4.0",
+        "rollup" : "^0.64.1",
+        "rollup-plugin-buble" : "^0.19.6",
+        "rollup-plugin-commonjs" : "^9.2.1",
+        "rollup-plugin-node-resolve" : "^3.4.0",
+        "rollup-plugin-terser" : "^1.0.1",
+        "sinon" : "^6.3.5",
+        "tap" : "^12.6.0",
+        "unicode-10.0.0" : "^0.7.5"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rollup -c",
+        "build-package" : "node build/package.js",
+        "build-unicode" : "node build/unicode.js",
+        "coverage" : "tap --coverage-report html test",
+        "lint" : "eslint --fix .",
+        "prepublishOnly" : "npm run production",
+        "preversion" : "npm run production",
+        "production" : "npm run lint && npm test && npm run build",
+        "test" : "tap -Rspec --100 test",
+        "version" : "npm run build-package && git add package.json5"
+      },
+      "_npmVersion" : "6.11.2",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@2.1.1",
+      "gitHead" : "4425e8e422e05f5925a88f1f370cff9486281b51",
+      "module" : "dist/index.mjs",
+      "browser" : "dist/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5_2.1.1_1570049433724_0.02392821940890033"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "2.2.0" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-2.2.0.tgz",
+        "shasum" : "2dfefe720c6ba525d9ebd909950f0515316c89a3"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.5"
+      },
+      "devDependencies" : {
+        "core-js" : "^2.6.5",
+        "eslint" : "^5.15.3",
+        "eslint-config-standard" : "^12.0.0",
+        "eslint-plugin-import" : "^2.16.0",
+        "eslint-plugin-node" : "^8.0.1",
+        "eslint-plugin-promise" : "^4.0.1",
+        "eslint-plugin-standard" : "^4.0.0",
+        "regenerate" : "^1.4.0",
+        "rollup" : "^0.64.1",
+        "rollup-plugin-buble" : "^0.19.6",
+        "rollup-plugin-commonjs" : "^9.2.1",
+        "rollup-plugin-node-resolve" : "^3.4.0",
+        "rollup-plugin-terser" : "^1.0.1",
+        "sinon" : "^6.3.5",
+        "tap" : "^12.6.0",
+        "unicode-10.0.0" : "^0.7.5"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      }, {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rollup -c",
+        "build-package" : "node build/package.js",
+        "build-unicode" : "node build/unicode.js",
+        "coverage" : "tap --coverage-report html test",
+        "lint" : "eslint --fix .",
+        "prepublishOnly" : "npm run production",
+        "preversion" : "npm run production",
+        "production" : "npm run lint && npm test && npm run build",
+        "test" : "tap -Rspec --100 test",
+        "version" : "npm run build-package && git add package.json5"
+      },
+      "_npmVersion" : "6.14.10",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@2.2.0",
+      "gitHead" : "4cf57da675f55c619f959132eb58a5683ca4a9c7",
+      "types" : "lib/index.d.ts",
+      "module" : "dist/index.mjs",
+      "browser" : "dist/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5_2.2.0_1612144714333_0.3778284592428618"
+      },
+      "_nodeVersion" : "14.15.4"
+    },
+    "2.1.2" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "2.1.2",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-2.1.2.tgz",
+        "shasum" : "43ef1f0af9835dd624751a6b7fa48874fb2d608e"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.5"
+      },
+      "devDependencies" : {
+        "core-js" : "^2.6.5",
+        "eslint" : "^5.15.3",
+        "eslint-config-standard" : "^12.0.0",
+        "eslint-plugin-import" : "^2.16.0",
+        "eslint-plugin-node" : "^8.0.1",
+        "eslint-plugin-promise" : "^4.0.1",
+        "eslint-plugin-standard" : "^4.0.0",
+        "regenerate" : "^1.4.0",
+        "rollup" : "^0.64.1",
+        "rollup-plugin-buble" : "^0.19.6",
+        "rollup-plugin-commonjs" : "^9.2.1",
+        "rollup-plugin-node-resolve" : "^3.4.0",
+        "rollup-plugin-terser" : "^1.0.1",
+        "sinon" : "^6.3.5",
+        "tap" : "^12.6.0",
+        "unicode-10.0.0" : "^0.7.5"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rollup -c",
+        "build-package" : "node build/package.js",
+        "build-unicode" : "node build/unicode.js",
+        "coverage" : "tap --coverage-report html test",
+        "lint" : "eslint --fix .",
+        "prepublishOnly" : "npm run production",
+        "preversion" : "npm run production",
+        "production" : "npm run lint && npm test && npm run build",
+        "test" : "tap -Rspec --100 test",
+        "version" : "npm run build-package && git add package.json5"
+      },
+      "_npmVersion" : "6.14.1",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@2.1.2",
+      "gitHead" : "d2796dd2a4db42313d755bf6b62e16110f9c0627",
+      "module" : "dist/index.mjs",
+      "browser" : "dist/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5_2.1.2_1584388209027_0.5538679380467166"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "2.2.1" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "2.2.1",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-2.2.1.tgz",
+        "shasum" : "655d50ed1e6f95ad1a3caababd2b0efda10b395c"
+      },
+      "devDependencies" : {
+        "core-js" : "^2.6.5",
+        "eslint" : "^5.15.3",
+        "eslint-config-standard" : "^12.0.0",
+        "eslint-plugin-import" : "^2.16.0",
+        "eslint-plugin-node" : "^8.0.1",
+        "eslint-plugin-promise" : "^4.0.1",
+        "eslint-plugin-standard" : "^4.0.0",
+        "regenerate" : "^1.4.0",
+        "rollup" : "^0.64.1",
+        "rollup-plugin-buble" : "^0.19.6",
+        "rollup-plugin-commonjs" : "^9.2.1",
+        "rollup-plugin-node-resolve" : "^3.4.0",
+        "rollup-plugin-terser" : "^1.0.1",
+        "sinon" : "^6.3.5",
+        "tap" : "^12.6.0",
+        "unicode-10.0.0" : "^0.7.5"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      }, {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rollup -c",
+        "build-package" : "node build/package.js",
+        "build-unicode" : "node build/unicode.js",
+        "coverage" : "tap --coverage-report html test",
+        "lint" : "eslint --fix .",
+        "prepublishOnly" : "npm run production",
+        "preversion" : "npm run production",
+        "production" : "npm run lint && npm test && npm run build",
+        "test" : "tap -Rspec --100 test",
+        "version" : "npm run build-package && git add package.json5"
+      },
+      "_npmVersion" : "8.1.3",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@2.2.1",
+      "gitHead" : "502da86f8e8e2168e301dc5157919935082d0f7b",
+      "types" : "lib/index.d.ts",
+      "module" : "dist/index.mjs",
+      "browser" : "dist/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5_2.2.1_1647880340028_0.4886187859668456"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "1.0.0-beta-2" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "1.0.0-beta-2",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-1.0.0-beta-2.tgz",
+        "shasum" : "49302613041a604cc5de1f53c500e5e3e8bcd3a4"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-plugin-external-helpers" : "^6.22.0",
+        "babel-plugin-istanbul" : "^4.1.5",
+        "babel-preset-env" : "^1.6.0",
+        "babel-register" : "^6.26.0",
+        "babelrc-rollup" : "^3.0.0",
+        "cross-env" : "^5.0.5",
+        "del" : "^3.0.0",
+        "eslint" : "^4.7.1",
+        "eslint-config-standard" : "^10.2.1",
+        "eslint-plugin-import" : "^2.7.0",
+        "eslint-plugin-node" : "^5.1.1",
+        "eslint-plugin-promise" : "^3.5.0",
+        "eslint-plugin-standard" : "^3.0.1",
+        "mocha" : "^3.5.3",
+        "nyc" : "^11.2.1",
+        "regenerate" : "^1.3.3",
+        "rollup" : "^0.50.0",
+        "rollup-plugin-babel" : "^3.0.2",
+        "rollup-plugin-commonjs" : "^8.2.1",
+        "rollup-plugin-node-resolve" : "^3.0.0",
+        "rollup-plugin-uglify" : "^2.0.1",
+        "sinon" : "^3.3.0",
+        "unicode-9.0.0" : "^0.7.4"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "files" : [ "lib/", "dist/" ],
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel-node build/build.js && babel src -d lib && rollup -c",
+        "lint" : "eslint --fix build src",
+        "prepublishOnly" : "npm run lint && npm test && npm run production",
+        "pretest" : "cross-env NODE_ENV=test npm run build",
+        "preversion" : "npm run lint && npm test && npm run production",
+        "production" : "cross-env NODE_ENV=production npm run build && babel-node build/check-package.js",
+        "test" : "nyc --reporter=html --reporter=text mocha"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@1.0.0-beta-2",
+      "gitHead" : "92e1ef7d278605be76348b2c80b1af1d36eada86",
+      "browser" : "dist/index.js",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5-1.0.0-beta-2.tgz_1506748952512_0.3764345832169056"
+      },
+      "_nodeVersion" : "6.11.2"
+    },
+    "1.0.0" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-1.0.0.tgz",
+        "shasum" : "45f7f2db63d918e468a13197df6cfd9c06448054"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-plugin-external-helpers" : "^6.22.0",
+        "babel-plugin-istanbul" : "^4.1.5",
+        "babel-preset-env" : "^1.6.1",
+        "babel-register" : "^6.26.0",
+        "babelrc-rollup" : "^3.0.0",
+        "coveralls" : "^3.0.0",
+        "cross-env" : "^5.1.4",
+        "del" : "^3.0.0",
+        "eslint" : "^4.18.2",
+        "eslint-config-standard" : "^11.0.0",
+        "eslint-plugin-import" : "^2.9.0",
+        "eslint-plugin-node" : "^6.0.1",
+        "eslint-plugin-promise" : "^3.7.0",
+        "eslint-plugin-standard" : "^3.0.1",
+        "mocha" : "^5.0.4",
+        "nyc" : "^11.4.1",
+        "regenerate" : "^1.3.3",
+        "rollup" : "^0.56.5",
+        "rollup-plugin-babel" : "^3.0.3",
+        "rollup-plugin-commonjs" : "^9.0.0",
+        "rollup-plugin-node-resolve" : "^3.2.0",
+        "rollup-plugin-uglify" : "^3.0.0",
+        "sinon" : "^4.4.2",
+        "unicode-9.0.0" : "^0.7.5"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "files" : [ "lib/", "dist/" ],
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel-node build/build.js && babel src -d lib && rollup -c",
+        "coverage" : "nyc report --reporter=text-lcov | coveralls",
+        "lint" : "eslint --fix build src",
+        "prepublishOnly" : "npm run lint && npm test && npm run production",
+        "pretest" : "cross-env NODE_ENV=test npm run build",
+        "preversion" : "npm run lint && npm test && npm run production",
+        "production" : "cross-env NODE_ENV=production npm run build && babel-node build/check-package.js",
+        "test" : "nyc --reporter=html --reporter=text mocha"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@1.0.0",
+      "gitHead" : "1d64ece245f33d714938bf8513f65f71886b9941",
+      "browser" : "dist/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5_1.0.0_1520805436077_0.14153615220362936"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "1.0.1" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-1.0.1.tgz",
+        "shasum" : "779fb0018604fa854eacbf6252180d83543e3dbe"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-plugin-external-helpers" : "^6.22.0",
+        "babel-plugin-istanbul" : "^4.1.5",
+        "babel-preset-env" : "^1.6.1",
+        "babel-register" : "^6.26.0",
+        "babelrc-rollup" : "^3.0.0",
+        "coveralls" : "^3.0.0",
+        "cross-env" : "^5.1.4",
+        "del" : "^3.0.0",
+        "eslint" : "^4.18.2",
+        "eslint-config-standard" : "^11.0.0",
+        "eslint-plugin-import" : "^2.9.0",
+        "eslint-plugin-node" : "^6.0.1",
+        "eslint-plugin-promise" : "^3.7.0",
+        "eslint-plugin-standard" : "^3.0.1",
+        "mocha" : "^5.0.4",
+        "nyc" : "^11.4.1",
+        "regenerate" : "^1.3.3",
+        "rollup" : "^0.56.5",
+        "rollup-plugin-babel" : "^3.0.3",
+        "rollup-plugin-commonjs" : "^9.0.0",
+        "rollup-plugin-node-resolve" : "^3.2.0",
+        "rollup-plugin-uglify" : "^3.0.0",
+        "sinon" : "^4.4.2",
+        "unicode-9.0.0" : "^0.7.5"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "files" : [ "lib/", "dist/" ],
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      }, {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel-node build/build.js && babel src -d lib && rollup -c",
+        "coverage" : "nyc report --reporter=text-lcov | coveralls",
+        "lint" : "eslint --fix build src",
+        "prepublishOnly" : "npm run lint && npm test && npm run production",
+        "pretest" : "cross-env NODE_ENV=test npm run build",
+        "preversion" : "npm run lint && npm test && npm run production",
+        "production" : "cross-env NODE_ENV=production npm run build",
+        "test" : "nyc --reporter=html --reporter=text mocha"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@1.0.1",
+      "gitHead" : "072eb402fc107a2f568ba78962d3d99de95032a9",
+      "browser" : "dist/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5_1.0.1_1521344408616_0.5838247870477473"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "1.0.2" : {
+      "name" : "json5",
+      "description" : "JSON for humans.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Aseem Kishore",
+        "email" : "aseem.kishore@gmail.com"
+      },
+      "homepage" : "http://json5.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/json5/json5.git"
+      },
+      "contributors" : [ {
+        "name" : "Max Nanasy",
+        "email" : "max.nanasy@gmail.com"
+      }, {
+        "name" : "Andrew Eisenberg",
+        "email" : "andrew@eisenberg.as"
+      }, {
+        "name" : "Jordan Tucker",
+        "email" : "jordanbtucker@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/json5/json5/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/json5/-/json5-1.0.2.tgz",
+        "shasum" : "63d98d60f21b313b77c4d6da18bfa69d80e1d593"
+      },
+      "dependencies" : {
+        "minimist" : "^1.2.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-plugin-external-helpers" : "^6.22.0",
+        "babel-plugin-istanbul" : "^4.1.5",
+        "babel-preset-env" : "^1.6.1",
+        "babel-register" : "^6.26.0",
+        "babelrc-rollup" : "^3.0.0",
+        "coveralls" : "^3.0.0",
+        "cross-env" : "^5.1.4",
+        "del" : "^3.0.0",
+        "eslint" : "^4.18.2",
+        "eslint-config-standard" : "^11.0.0",
+        "eslint-plugin-import" : "^2.9.0",
+        "eslint-plugin-node" : "^6.0.1",
+        "eslint-plugin-promise" : "^3.7.0",
+        "eslint-plugin-standard" : "^3.0.1",
+        "mocha" : "^5.0.4",
+        "nyc" : "^11.4.1",
+        "regenerate" : "^1.3.3",
+        "rollup" : "^0.56.5",
+        "rollup-plugin-babel" : "^3.0.3",
+        "rollup-plugin-commonjs" : "^9.0.0",
+        "rollup-plugin-node-resolve" : "^3.2.0",
+        "rollup-plugin-uglify" : "^3.0.0",
+        "sinon" : "^4.4.2",
+        "unicode-9.0.0" : "^0.7.5"
+      },
+      "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+      "license" : "MIT",
+      "bin" : {
+        "json5" : "lib/cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      }, {
+        "name" : "aseemk",
+        "email" : "aseem.kishore@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel-node build/build.js && babel src -d lib && rollup -c",
+        "coverage" : "nyc report --reporter=text-lcov | coveralls",
+        "lint" : "eslint --fix build src",
+        "prepublishOnly" : "npm run lint && npm test && npm run production",
+        "pretest" : "cross-env NODE_ENV=test npm run build",
+        "preversion" : "npm run lint && npm test && npm run production",
+        "production" : "cross-env NODE_ENV=production npm run build",
+        "test" : "nyc --reporter=html --reporter=text mocha"
+      },
+      "_npmVersion" : "9.2.0",
+      "_npmUser" : {
+        "name" : "jordanbtucker",
+        "email" : "jordanbtucker@gmail.com"
+      },
+      "_id" : "json5@1.0.2",
+      "gitHead" : "a62db1e51e1031d92ac260f5bb38bbed1fdbc754",
+      "browser" : "dist/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json5_1.0.2_1672420181972_0.5277952929599428"
+      },
+      "_nodeVersion" : "18.12.1"
+    }
+  },
+  "readme" : "# JSON5 – JSON for Humans\n\n[![Build Status](https://app.travis-ci.com/json5/json5.svg?branch=main)][Build\nStatus] [![Coverage\nStatus](https://coveralls.io/repos/github/json5/json5/badge.svg)][Coverage\nStatus]\n\nJSON5 is an extension to the popular [JSON] file format that aims to be\neasier to **write and maintain _by hand_ (e.g. for config files)**.\nIt is _not intended_ to be used for machine-to-machine communication.\n(Keep using JSON or other file formats for that. \uD83D\uDE42)\n\nJSON5 was started in 2012, and as of 2022, now gets **[>65M downloads/week](https://www.npmjs.com/package/json5)**,\nranks in the **[top 0.1%](https://gist.github.com/anvaka/8e8fa57c7ee1350e3491)** of the most depended-upon packages on npm,\nand has been adopted by major projects like\n**[Chromium](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/platform/runtime_enabled_features.json5;drc=5de823b36e68fd99009a29281b17bc3a1d6b329c),\n[Next.js](https://github.com/vercel/next.js/blob/b88f20c90bf4659b8ad5cb2a27956005eac2c7e8/packages/next/lib/find-config.ts#L43-L46),\n[Babel](https://babeljs.io/docs/en/config-files#supported-file-extensions),\n[Retool](https://community.retool.com/t/i-am-attempting-to-append-several-text-fields-to-a-google-sheet-but-receiving-a-json5-invalid-character-error/7626),\n[WebStorm](https://www.jetbrains.com/help/webstorm/json.html),\nand [more](https://github.com/json5/json5/wiki/In-the-Wild)**.\nIt's also natively supported on **[Apple platforms](https://developer.apple.com/documentation/foundation/jsondecoder/3766916-allowsjson5)**\nlike **MacOS** and **iOS**.\n\nFormally, the **[JSON5 Data Interchange Format](https://spec.json5.org/)** is a superset of JSON\n(so valid JSON files will always be valid JSON5 files)\nthat expands its syntax to include some productions from [ECMAScript 5.1] (ES5).\nIt's also a strict _subset_ of ES5, so valid JSON5 files will always be valid ES5.\n\nThis JavaScript library is a reference implementation for JSON5 parsing and serialization,\nand is directly used in many of the popular projects mentioned above\n(where e.g. extreme performance isn't necessary),\nbut others have created [many other libraries](https://github.com/json5/json5/wiki/In-the-Wild)\nacross many other platforms.\n\n[Build Status]: https://app.travis-ci.com/json5/json5\n\n[Coverage Status]: https://coveralls.io/github/json5/json5\n\n[JSON]: https://tools.ietf.org/html/rfc7159\n\n[ECMAScript 5.1]: https://www.ecma-international.org/ecma-262/5.1/\n\n## Summary of Features\nThe following ECMAScript 5.1 features, which are not supported in JSON, have\nbeen extended to JSON5.\n\n### Objects\n- Object keys may be an ECMAScript 5.1 _[IdentifierName]_.\n- Objects may have a single trailing comma.\n\n### Arrays\n- Arrays may have a single trailing comma.\n\n### Strings\n- Strings may be single quoted.\n- Strings may span multiple lines by escaping new line characters.\n- Strings may include character escapes.\n\n### Numbers\n- Numbers may be hexadecimal.\n- Numbers may have a leading or trailing decimal point.\n- Numbers may be [IEEE 754] positive infinity, negative infinity, and NaN.\n- Numbers may begin with an explicit plus sign.\n\n### Comments\n- Single and multi-line comments are allowed.\n\n### White Space\n- Additional white space characters are allowed.\n\n[IdentifierName]: https://www.ecma-international.org/ecma-262/5.1/#sec-7.6\n\n[IEEE 754]: http://ieeexplore.ieee.org/servlet/opac?punumber=4610933\n\n## Example\nKitchen-sink example:\n\n```js\n{\n  // comments\n  unquoted: 'and you can quote me on that',\n  singleQuotes: 'I can use \"double quotes\" here',\n  lineBreaks: \"Look, Mom! \\\nNo \\\\n's!\",\n  hexadecimal: 0xdecaf,\n  leadingDecimalPoint: .8675309, andTrailing: 8675309.,\n  positiveSign: +1,\n  trailingComma: 'in objects', andIn: ['arrays',],\n  \"backwardsCompatible\": \"with JSON\",\n}\n```\n\nA more real-world example is [this config file](https://github.com/chromium/chromium/blob/feb3c9f670515edf9a88f185301cbd7794ee3e52/third_party/blink/renderer/platform/runtime_enabled_features.json5)\nfrom the Chromium/Blink project.\n\n## Specification\nFor a detailed explanation of the JSON5 format, please read the [official\nspecification](https://json5.github.io/json5-spec/).\n\n## Installation and Usage\n### Node.js\n```sh\nnpm install json5\n```\n\n#### CommonJS\n```js\nconst JSON5 = require('json5')\n```\n\n#### Modules\n```js\nimport JSON5 from 'json5'\n```\n\n### Browsers\n#### UMD\n```html\n<!-- This will create a global `JSON5` variable. -->\n<script src=\"https://unpkg.com/json5@2/dist/index.min.js\"></script>\n```\n\n#### Modules\n```html\n<script type=\"module\">\n  import JSON5 from 'https://unpkg.com/json5@2/dist/index.min.mjs'\n</script>\n```\n\n## API\nThe JSON5 API is compatible with the [JSON API].\n\n[JSON API]:\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON\n\n### JSON5.parse()\nParses a JSON5 string, constructing the JavaScript value or object described by\nthe string. An optional reviver function can be provided to perform a\ntransformation on the resulting object before it is returned.\n\n#### Syntax\n    JSON5.parse(text[, reviver])\n\n#### Parameters\n- `text`: The string to parse as JSON5.\n- `reviver`: If a function, this prescribes how the value originally produced by\n  parsing is transformed, before being returned.\n\n#### Return value\nThe object corresponding to the given JSON5 text.\n\n### JSON5.stringify()\nConverts a JavaScript value to a JSON5 string, optionally replacing values if a\nreplacer function is specified, or optionally including only the specified\nproperties if a replacer array is specified.\n\n#### Syntax\n    JSON5.stringify(value[, replacer[, space]])\n    JSON5.stringify(value[, options])\n\n#### Parameters\n- `value`: The value to convert to a JSON5 string.\n- `replacer`: A function that alters the behavior of the stringification\n  process, or an array of String and Number objects that serve as a whitelist\n  for selecting/filtering the properties of the value object to be included in\n  the JSON5 string. If this value is null or not provided, all properties of the\n  object are included in the resulting JSON5 string.\n- `space`: A String or Number object that's used to insert white space into the\n  output JSON5 string for readability purposes. If this is a Number, it\n  indicates the number of space characters to use as white space; this number is\n  capped at 10 (if it is greater, the value is just 10). Values less than 1\n  indicate that no space should be used. If this is a String, the string (or the\n  first 10 characters of the string, if it's longer than that) is used as white\n  space. If this parameter is not provided (or is null), no white space is used.\n  If white space is used, trailing commas will be used in objects and arrays.\n- `options`: An object with the following properties:\n  - `replacer`: Same as the `replacer` parameter.\n  - `space`: Same as the `space` parameter.\n  - `quote`: A String representing the quote character to use when serializing\n    strings.\n\n#### Return value\nA JSON5 string representing the value.\n\n### Node.js `require()` JSON5 files\nWhen using Node.js, you can `require()` JSON5 files by adding the following\nstatement.\n\n```js\nrequire('json5/lib/register')\n```\n\nThen you can load a JSON5 file with a Node.js `require()` statement. For\nexample:\n\n```js\nconst config = require('./config.json5')\n```\n\n## CLI\nSince JSON is more widely used than JSON5, this package includes a CLI for\nconverting JSON5 to JSON and for validating the syntax of JSON5 documents.\n\n### Installation\n```sh\nnpm install --global json5\n```\n\n### Usage\n```sh\njson5 [options] <file>\n```\n\nIf `<file>` is not provided, then STDIN is used.\n\n#### Options:\n- `-s`, `--space`: The number of spaces to indent or `t` for tabs\n- `-o`, `--out-file [file]`: Output to the specified file, otherwise STDOUT\n- `-v`, `--validate`: Validate JSON5 but do not output JSON\n- `-V`, `--version`: Output the version number\n- `-h`, `--help`: Output usage information\n\n## Contributing\n### Development\n```sh\ngit clone https://github.com/json5/json5\ncd json5\nnpm install\n```\n\nWhen contributing code, please write relevant tests and run `npm test` and `npm\nrun lint` before submitting pull requests. Please use an editor that supports\n[EditorConfig](http://editorconfig.org/).\n\n### Issues\nTo report bugs or request features regarding the JSON5 **data format**,\nplease submit an issue to the official\n**[_specification_ repository](https://github.com/json5/json5-spec)**.\n\nNote that we will never add any features that make JSON5 incompatible with ES5;\nthat compatibility is a fundamental premise of JSON5.\n\nTo report bugs or request features regarding this **JavaScript implementation**\nof JSON5, please submit an issue to **_this_ repository**.\n\n### Security Vulnerabilities and Disclosures\nTo report a security vulnerability, please follow the follow the guidelines\ndescribed in our [security policy](./SECURITY.md).\n\n## License\nMIT. See [LICENSE.md](./LICENSE.md) for details.\n\n## Credits\n[Aseem Kishore](https://github.com/aseemk) founded this project.\nHe wrote a [blog post](https://aseemk.substack.com/p/ignore-the-f-ing-haters-json5)\nabout the journey and lessons learned 10 years in.\n\n[Michael Bolin](http://bolinfest.com/) independently arrived at and published\nsome of these same ideas with awesome explanations and detail. Recommended\nreading: [Suggested Improvements to JSON](http://bolinfest.com/essays/json.html)\n\n[Douglas Crockford](http://www.crockford.com/) of course designed and built\nJSON, but his state machine diagrams on the [JSON website](http://json.org/), as\ncheesy as it may sound, gave us motivation and confidence that building a new\nparser to implement these ideas was within reach! The original\nimplementation of JSON5 was also modeled directly off of Doug’s open-source\n[json_parse.js] parser. We’re grateful for that clean and well-documented\ncode.\n\n[json_parse.js]:\nhttps://github.com/douglascrockford/JSON-js/blob/03157639c7a7cddd2e9f032537f346f1a87c0f6d/json_parse.js\n\n[Max Nanasy](https://github.com/MaxNanasy) has been an early and prolific\nsupporter, contributing multiple patches and ideas.\n\n[Andrew Eisenberg](https://github.com/aeisenberg) contributed the original\n`stringify` method.\n\n[Jordan Tucker](https://github.com/jordanbtucker) has aligned JSON5 more closely\nwith ES5, wrote the official JSON5 specification, completely rewrote the\ncodebase from the ground up, and is actively maintaining this project.\n",
+  "maintainers" : [ {
+    "name" : "jordanbtucker",
+    "email" : "jordanbtucker@gmail.com"
+  }, {
+    "name" : "aseemk",
+    "email" : "aseem.kishore@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Aseem Kishore",
+    "email" : "aseem.kishore@gmail.com"
+  },
+  "time" : {
+    "0.5.1" : "2016-11-27T22:07:14.862Z",
+    "0.4.0" : "2014-11-05T03:27:01.312Z",
+    "0.5.0" : "2016-03-17T18:21:52.997Z",
+    "1.0.0-dates" : "2017-09-24T00:48:25.674Z",
+    "1.0.0-regexps" : "2017-09-24T01:21:22.755Z",
+    "1.0.0-beta" : "2017-09-25T08:02:46.557Z",
+    "0.2.0" : "2013-01-28T05:33:40.777Z",
+    "0.0.0" : "2012-05-27T20:32:41.061Z",
+    "0.0.1" : "2012-05-28T02:13:56.934Z",
+    "0.1.0" : "2012-06-03T17:05:09.050Z",
+    "1.0.0-beta.4" : "2017-11-14T18:55:18.837Z",
+    "1.0.0-dates-2" : "2017-09-25T17:31:07.206Z",
+    "modified" : "2023-03-04T17:04:33.373Z",
+    "2.0.0" : "2018-08-17T04:13:24.376Z",
+    "2.0.1" : "2018-08-18T18:41:35.320Z",
+    "2.1.0" : "2018-09-28T05:11:48.600Z",
+    "created" : "2012-05-27T20:32:39.534Z",
+    "1.0.0-regexps-2" : "2017-09-25T17:32:24.109Z",
+    "2.1.3" : "2020-04-04T22:58:52.387Z",
+    "2.2.2" : "2022-12-16T06:38:31.044Z",
+    "2.2.3" : "2022-12-31T17:11:32.047Z",
+    "2.1.1" : "2019-10-02T20:50:33.832Z",
+    "2.2.0" : "2021-02-01T01:58:34.482Z",
+    "2.1.2" : "2020-03-16T19:50:09.154Z",
+    "2.2.1" : "2022-03-21T16:32:20.181Z",
+    "1.0.0-beta-2" : "2017-09-30T05:22:33.708Z",
+    "1.0.0" : "2018-03-11T21:57:16.159Z",
+    "1.0.1" : "2018-03-18T03:40:08.742Z",
+    "1.0.2" : "2022-12-30T17:09:42.178Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/json5/json5.git"
+  },
+  "users" : {
+    "bsnote" : true,
+    "xfloops" : true,
+    "raycharles" : true,
+    "bcowgi11" : true,
+    "shuoshubao" : true,
+    "serge-nikitin" : true,
+    "chinawolf_wyp" : true,
+    "antixrist" : true,
+    "nmccready" : true,
+    "kontrax" : true,
+    "dwqs" : true,
+    "anoubis" : true,
+    "xueboren" : true,
+    "kangas" : true,
+    "erikvold" : true,
+    "dopustimvladimir" : true,
+    "delapouite" : true,
+    "froguard" : true,
+    "rochejul" : true,
+    "lestad" : true,
+    "leonzhao" : true,
+    "d-band" : true,
+    "flumpus-dev" : true,
+    "darkylin" : true,
+    "nilz" : true,
+    "kakaman" : true,
+    "zeke" : true,
+    "qingleili" : true,
+    "icognivator" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "http://json5.org/",
+  "keywords" : [ "json", "json5", "es5", "es2015", "ecmascript" ],
+  "contributors" : [ {
+    "name" : "Max Nanasy",
+    "email" : "max.nanasy@gmail.com"
+  }, {
+    "name" : "Andrew Eisenberg",
+    "email" : "andrew@eisenberg.as"
+  }, {
+    "name" : "Jordan Tucker",
+    "email" : "jordanbtucker@gmail.com"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/json5/json5/issues"
+  },
+  "license" : "MIT"
+}

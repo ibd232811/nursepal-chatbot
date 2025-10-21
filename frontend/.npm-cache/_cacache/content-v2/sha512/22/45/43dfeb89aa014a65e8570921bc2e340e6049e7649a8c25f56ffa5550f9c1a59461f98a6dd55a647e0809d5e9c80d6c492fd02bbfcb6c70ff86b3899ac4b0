@@ -1,0 +1,4723 @@
+{
+  "_id" : "@esbuild/linux-mips64el",
+  "_rev" : "101-6648e40a3c9ed25ffc998fd54e2b79f3",
+  "name" : "@esbuild/linux-mips64el",
+  "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+  "dist-tags" : {
+    "latest" : "0.25.11"
+  },
+  "versions" : {
+    "0.20.2" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.20.2.tgz",
+        "shasum" : "d08e39ce86f45ef8fc88549d29c62b8acf5649aa"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.20.2",
+      "gitHead" : "617eddaa32b7649ad23ddd15257816df3f0f544c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.20.2_1710445808841_0.6725050842521323",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.24.0" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.24.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.24.0.tgz",
+        "shasum" : "3f720ccd4d59bfeb4c2ce276a46b77ad380fa1f3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.24.0",
+      "gitHead" : "d34e79e2a998c21bb71d57b92b0017ca11756912",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.24.0_1726970810850_0.02294302588147845",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.24.1" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.24.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.24.1.tgz",
+        "shasum" : "e875a73cb836e82e167346545a3a62fd031c222b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.24.1",
+      "gitHead" : "de9598f42dc3ffc395e3fd3672a4804f6b4e5c09",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.24.1_1734673315723_0.5525950018384447",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.24.2" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.24.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.24.2.tgz",
+        "shasum" : "0846edeefbc3d8d50645c51869cc64401d9239cb"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.24.2",
+      "gitHead" : "745abd9f0c06f73ca40fbe198546a9bc36c23b81",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.24.2_1734717435809_0.44230976956384027",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.19.10" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.19.10.tgz",
+        "shasum" : "b011a96924773d60ebab396fbd7a08de66668179"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.19.10",
+      "gitHead" : "55e1127a49db0c26f1abd97f1b180bbc728aa95a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.19.10_1702945328885_0.2794207256396415",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.12" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.19.12.tgz",
+        "shasum" : "4ddebd4e6eeba20b509d8e74c8e30d8ace0b89ec"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.19.12",
+      "gitHead" : "d7fd1ad35715cda76eb33343b7c07b275e402a2e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.19.12_1706031662307_0.3148366469510877",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.19.11" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.19.11.tgz",
+        "shasum" : "38eecf1cbb8c36a616261de858b3c10d03419af9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.19.11",
+      "gitHead" : "6ee82255bdfdffef2de60827e9d35a425a7cbff6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.19.11_1703881957804_0.5894200504820573",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.16.2" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.2.tgz",
+        "shasum" : "5c76d385d68189336b78dfc933a77d13465eee5c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.2",
+      "gitHead" : "0829d74c0b3a913c0cf6d3f59902871bf63e0d16",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.2_1670482822491_0.012626628966390108",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.1" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.1.tgz",
+        "shasum" : "9b5ecec04f308d7e9951cd11bad607ced1b25ab5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.1",
+      "gitHead" : "3b62a3680cdd1c9d76bed3e2e60841e371670c35",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.1_1670388537579_0.5792502629696679",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.0" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.0.tgz",
+        "shasum" : "1bfcfd12dfcd34618826ce9dcd3bee5b07716d02"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.0",
+      "gitHead" : "6c8d15d404874fd939d7f4062cc6a660dffdabcb",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.0_1670385329825_0.41016367318382985",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.17" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.17.tgz",
+        "shasum" : "4e5967a665c38360b0a8205594377d4dcf9c3726"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.17",
+      "gitHead" : "d751dfb82002d332aa4dbfa89c74d25203d28123",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.17_1673474305458_0.737153172461436",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.16" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.16.tgz",
+        "shasum" : "e85b7e3c25000be2ae373e5208e55e282a9763e0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.16",
+      "gitHead" : "edede3c49ad6adddc6ea5b3c78c6ea7507e03020",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.16_1673217859761_0.9802422092971923",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.9" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.9.tgz",
+        "shasum" : "492605f13f19dc06c350d94e4048c21478b9dec4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.9",
+      "gitHead" : "29ae56a2ca081ed980ac9c73fcced1fdbc479f90",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.9_1671337915237_0.36737523478349265",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.8" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.8.tgz",
+        "shasum" : "6cf093dd9706e8f078868ffb91b602c1dc7f135e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.8",
+      "gitHead" : "0ddb995d7d9bbcefa8e74c5a29c700111427bf18",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.8_1671233962592_0.6807329366039567",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.7" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.7.tgz",
+        "shasum" : "7c1c8f3de254b4e975ac2580bba187b87b959256"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.7",
+      "gitHead" : "be16d813dfaca257af7ba99e458f54d1abdc31a4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.7_1671058044210_0.25155997059027846",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.6" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.6.tgz",
+        "shasum" : "cfcb7bcae8fbc91d07c93f3c2e26779ddaa7c738"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.6",
+      "gitHead" : "ee8e0ddc78114b73836ee1c520d255fd28c1ab1a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.6_1670995424101_0.16160573765668285",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.5" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.5.tgz",
+        "shasum" : "ef9ee33e33c13771055f3726a3350cb0a4e1e550"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.5",
+      "gitHead" : "bb9639c3e1f57a3fdfaadf073a35d87020253f70",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.5_1670953688787_0.2746737521327054",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.4" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.4.tgz",
+        "shasum" : "9ab77e31cf3be1e35572afff94b51df8149d15bd"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.4",
+      "gitHead" : "643af8ed12345b3a249f1d4c7643c261d95c098c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.4_1670644262748_0.5079386332776128",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.3" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.3.tgz",
+        "shasum" : "5dd5e118071c3912df69beedbfd11fb117f0fe5e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.3",
+      "gitHead" : "8ef19fefc9bfdd28fab95dec3783d3f100f25e3e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.3_1670530418205_0.6565249304688134",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.13" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.13.tgz",
+        "shasum" : "30d8571b71e0b8bf25fc5ef11422221ed23cdacc"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.13",
+      "gitHead" : "0db0b46399de81fb29f6fcb65dfb5fad3638b6d8",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.13_1672700270784_0.0018627458709348232",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.12" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.12.tgz",
+        "shasum" : "9616c378ca76f12d06ffaf242da68a58be966a18"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.12",
+      "gitHead" : "ddda86edaae10abdc759601da6198b33e61c1220",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.12_1672193332039_0.2440081490790278",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.15" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.15.tgz",
+        "shasum" : "41e325ccd6432f952c674d763d9e5acc25a00267"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.15",
+      "gitHead" : "33a515951c626e56addc1dd4c6561a1514559fd0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.15_1673065179265_0.8738351989790727",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.14" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.14.tgz",
+        "shasum" : "8af86bdc6ee937c8a2803b3c197b28824f48df8e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.14",
+      "gitHead" : "93328af7dcf842f750c3e782bd83997e4f817e8d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.14_1672863218228_0.6849873400703377",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.11" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.11.tgz",
+        "shasum" : "0935896b7b44992e5d539cc2eff8939c12e554bd"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.11",
+      "gitHead" : "17555921cbe672f6327f49a2436df1a69124623b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.11_1672105173133_0.6953303734701075",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.10" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.16.10.tgz",
+        "shasum" : "574725ad2ea81b7783b7ba7d1ab3475f8fdd8d32"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.16.10",
+      "gitHead" : "0fea6aea59845d1c0bef9dc16dfff636c3f721d4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.16.10_1671492428351_0.7344973925479892",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.23.0" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.23.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.23.0.tgz",
+        "shasum" : "9a57386c926262ae9861c929a6023ed9d43f73e5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.23.0",
+      "gitHead" : "9d506806bdd963b02b3d6edf45e717e03dcba785",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.23.0_1719891249876_0.8034291736449752",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.23.1" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.23.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.23.1.tgz",
+        "shasum" : "e11a2806346db8375b18f5e104c5a9d4e81807f6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.23.1",
+      "gitHead" : "332727499e62315cff4ecaff9fa8b86336555e46",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.23.1_1723846423936_0.9259430237300357",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.18.20" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.20",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.20.tgz",
+        "shasum" : "eeff3a937de9c2310de30622a957ad1bd9183231"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.20",
+      "gitHead" : "22f0818cf81024b63752d815c51fe737612b43ec",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.20_1691468138502_0.07065505528481864",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.18" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.18.tgz",
+        "shasum" : "e6525b60ae9d8c3bdc652a773e6ebf66caa3fdd3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.18",
+      "gitHead" : "e8e43ad19359f0b29d84607c89c6aa95a4d1637d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.18_1691255213726_0.5002103818144337",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.19" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.19",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.19.tgz",
+        "shasum" : "b25b352e7645885fa1d01182116c506a78fe4733"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.19",
+      "gitHead" : "e08ee8990905f24b987a7ddffde89e20cbf3cf6a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.19_1691376707490_0.7786440100971428",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.7" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.19.7.tgz",
+        "shasum" : "f63c022a71a3d70c482d1943a27cb8997021e230"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.19.7",
+      "gitHead" : "a7773b340bb216d053df91b7479b5aa2a152b0de",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.19.7_1700528510475_0.12589946005506336",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.6" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.19.6.tgz",
+        "shasum" : "5a922dad90fc8a83fd0631c136b46128153ffb6f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.19.6",
+      "gitHead" : "6073a3a9a02909d54cedbaf9c06f5fa501f9f337",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.19.6_1700377922486_0.21558074126556126",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.5" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.19.5.tgz",
+        "shasum" : "ae36fb86c7d5f641f3a0c8472e83dcb6ea36a408"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.19.5",
+      "gitHead" : "a7fcc43fdb6b6edc58f781fe96328f4867f4b33e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.19.5_1697519465890_0.0782724711249454",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.4" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.19.4.tgz",
+        "shasum" : "76eae4e88d2ce9f4f1b457e93892e802851b6807"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.19.4",
+      "gitHead" : "a75b16ec09e76a050cea8ad43588172dc297784d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.19.4_1695865706085_0.3343881594497824",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.3" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.19.3.tgz",
+        "shasum" : "4530fc416651eadeb1acc27003c00eac769eb8fd"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.19.3",
+      "gitHead" : "673ad10ff752486aa90749b63ebeb952c29106a1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.19.3_1694653969506_0.4711491238783627",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.2" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.19.2.tgz",
+        "shasum" : "e0bff2898c46f52be7d4dbbcca8b887890805823"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.19.2",
+      "gitHead" : "09a100124e9daef9e0be57d21cc7729c6f3516e7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.19.2_1691978328695_0.7597975076633559",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.1" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.19.1.tgz",
+        "shasum" : "92b242fde2d7d9875d3aa249d57f3508f9058934"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.19.1",
+      "gitHead" : "49801f761347d53bd1f6a88767bb79e257f9fbb9",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.19.1_1691769480192_0.46398715305302085",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.0" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.19.0.tgz",
+        "shasum" : "a918b310f9bf31fced3853ca52fee6e7acc09824"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.19.0",
+      "gitHead" : "c337498cdad8cac87517ec49c923441b2dc67bf2",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.19.0_1691509978807_0.13495820040375062",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.9" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.19.9.tgz",
+        "shasum" : "4c2f7c5d901015e3faf1563c4a89a50776cb07fd"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.19.9",
+      "gitHead" : "9edc9d44c3d0480c27f68a71365f18e688b6184a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.19.9_1702184992508_0.8960000753743833",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.8" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.19.8.tgz",
+        "shasum" : "1359331e6f6214f26f4b08db9b9df661c57cfa24"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.19.8",
+      "gitHead" : "e97bd6706c7aaddb3770ae31b164d7ccaec8056c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.19.8_1701040114506_0.378234131872607",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.16" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.16.tgz",
+        "shasum" : "2d47ace539257896865d243641bd6716684a1e82"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.16",
+      "gitHead" : "22920366954b4d18aed77dfc2b5961f339d4e318",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.16_1690087713829_0.9128691428177766",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.17" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.17.tgz",
+        "shasum" : "c367b2855bb0902f5576291a2049812af2088086"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.17",
+      "gitHead" : "1771c7109f7f5d17d96543d6b17a6ab12d9d38d0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.17_1690335683103_0.3536373150588856",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.14" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.14.tgz",
+        "shasum" : "c635b6c0b8b4f9b4bff3aaafad59fa8cc07b354a"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.14",
+      "gitHead" : "af0fe32eaea8112de45e17cb8d0ad487b2123132",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.14_1689656448548_0.6046704966682412",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.15" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.15.tgz",
+        "shasum" : "b63cfe356c33807c4d8ee5a75452922e98502073"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.15",
+      "gitHead" : "daf64732be2e05d1258023b5b7d5389e08e291a9",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.15_1689857638453_0.2265844447233658",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.12" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.12.tgz",
+        "shasum" : "2313a1b0528ebe24d1c5eab010e0e2427b54ca24"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.12",
+      "gitHead" : "d196e4c4898fc46dc553124e28b1b29829ef7f7d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.12_1689212078662_0.9087206560404231",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.13" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.13.tgz",
+        "shasum" : "2123a54b49ddc1a1dff057bba8a9a5e9f26e5009"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.13",
+      "gitHead" : "12a8a25b4ca8b650d7c96046b8a3e76491a119f5",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.13_1689388663322_0.15597323079030678",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.10" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.10.tgz",
+        "shasum" : "99801b17fe2bffcce5cf9375731adf3025e7aee9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.10",
+      "gitHead" : "cdb6c7ce3f9419e51bd855fd61d07d2c615fb30e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.10_1687814452702_0.2545357022381647",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.11" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.11.tgz",
+        "shasum" : "a3125eb48538ac4932a9d05089b157f94e443165"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.11",
+      "gitHead" : "2703f90d47fd96f425fedcfd2a5c318a43b04d45",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.11_1688191463988_0.6072649912046657",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.15.18" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.15.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.15.18.tgz",
+        "shasum" : "026c0d0c2f58924019785944e3d8aa2fba39f106"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.15.18",
+      "gitHead" : "07e607164c880e03e13f86aa50a58cd6d44ec084",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.15.18_1670284127290_0.21732486118219185",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.22.0" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.22.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.22.0.tgz",
+        "shasum" : "3a2877a78f6719e5eed4cfdded5121c5ab9305a4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.22.0",
+      "gitHead" : "80c6e6ea094a71691ab1644ab61494cc67729365",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.22.0_1719779894914_0.3976880878393161",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.18.0" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.0.tgz",
+        "shasum" : "a1e040a758d80dce29368702e6d431a64f9e9ba0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.0",
+      "gitHead" : "4dda49d4ea86afcbe715bdca5e8f4b13659e0c2f",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.0_1686345885959_0.8502489771133264",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.8" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.8.tgz",
+        "shasum" : "f644e8bfbffc75aaeaf8efa9e9d67dbf22a3605c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.8",
+      "gitHead" : "9b233a4f670a73173dcc7e83ebf7648d0007b082",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.8_1687663180442_0.9445812293969462",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.7" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.7.tgz",
+        "shasum" : "2f27021be14d7dd2a6286996c4337c705a8c2c5f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.7",
+      "gitHead" : "adb8d19b56d2ae2d65128305c875b577476fac93",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.7_1687574812483_0.5171346534465977",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.6" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.6.tgz",
+        "shasum" : "db30368c6f827f0eb9600a165df4c93d6d8ccee6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.6",
+      "gitHead" : "f0b5803694c3d74c1d84851a518e3e25916ec005",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.6_1687303522168_0.6692759161748258",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.5" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.5.tgz",
+        "shasum" : "b172cc90b54047f078289d06d539feab9e175dc0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.5",
+      "gitHead" : "931be1b9b2312609c5214812671b0d2a21cfe92b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.5_1687222389151_0.5606201147597827",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.4" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.4.tgz",
+        "shasum" : "f57cef70de4147df9efb761ff0056509d8d1ba87"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.4",
+      "gitHead" : "bfc5a0fe07b6f6855ff3ff11a91894066378c5dd",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.4_1686929942772_0.6114983524951287",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.3" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.3.tgz",
+        "shasum" : "088aa0f909509adb5ea086255f7f654ce8d88074"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.3",
+      "gitHead" : "9224cce93632b0fc6db8767676211fb44ac642a7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.3_1686831707611_0.4947895512303624",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.2" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.2.tgz",
+        "shasum" : "09034b507c0625d5dfc4026183ac8d3b3d62c0ff"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.2",
+      "gitHead" : "a7a909605b1387b5c74d1bd0217af3fb4a843461",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.2_1686624072572_0.8750790206568448",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.1" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.1.tgz",
+        "shasum" : "5e01859f27d455582e094bff666836881e4348bd"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.1",
+      "gitHead" : "3aa3ec2da489dad64d90aa965c9782984defc904",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.1_1686545530515_0.8693069736522903",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.9" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.18.9.tgz",
+        "shasum" : "cc734a77fa17118060dc45e9c5500626b5ba72e7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.18.9",
+      "gitHead" : "d568ff038d012a7894a9d4334b75f8559bf2532e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.18.9_1687757329656_0.4954325028361515",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.21.0" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.21.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.21.0.tgz",
+        "shasum" : "38ee99147956b924345c79b294d31a9cb13f9b21"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.21.0",
+      "gitHead" : "c6da2c3aa2b1321be3fdacd1e53566c5f24ee702",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.21.0_1715050371166_0.8510390925017624",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.25.5" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.25.5.tgz",
+        "shasum" : "5cbcc7fd841b4cd53358afd33527cd394e325d96"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.25.5",
+      "gitHead" : "ea453bf687c8e5cf3c5f11aae372c5ca33be0c98",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.25.5_1748315603487_0.4955395185835516",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.6" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.25.6.tgz",
+        "shasum" : "9960631c9fd61605b0939c19043acf4ef2b51718"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "actor" : {
+          "name" : "evanw",
+          "type" : "user",
+          "email" : "evan.exe@gmail.com"
+        },
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.25.6",
+      "gitHead" : "d38c1f0bc580b4a8a93f23559d0cd9085d7ba31f",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.25.6_1751907580752_0.8178306324338402",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.7" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.25.7.tgz",
+        "shasum" : "9809b5ea6659dd5032d196e5605246a376e3172e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.25.7",
+      "gitHead" : "9b42f68f9b1fecf16e72dbcfc5c46504239d6fe6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.25.7_1752879076890_0.20559992821979023",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.8" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.25.8.tgz",
+        "shasum" : "837d1449517791e3fa7d82675a2d06d9f56cb340"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.25.8",
+      "gitHead" : "8c71947edbe5a158fec3a6d1cbfea1e8d5cdee70",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.25.8_1752953032412_0.20913150759267674",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.17.19" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.19",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.19.tgz",
+        "shasum" : "f5d2a0b8047ea9a5d9f592a178ea054053a70289"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.19",
+      "gitHead" : "d47ab43980c457db27d2671ab618cd5c40a618a7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.19_1683936418023_0.2500425217789539",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.25.9" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.25.9.tgz",
+        "shasum" : "a4d4cc693d185f66a6afde94f772b38ce5d64eb5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.25.9",
+      "gitHead" : "195e05c16f03a341390feef38b8ebf17d3075e14",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.25.9_1755041205889_0.9337999900730187",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.17.17" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.17.tgz",
+        "shasum" : "4784efb1c3f0eac8133695fa89253d558149ee1b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.17",
+      "gitHead" : "0776a4be2bb80980482b123a9a05dbf55cc35683",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.17_1681680242760_0.36756123871443314",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.18" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.18.tgz",
+        "shasum" : "9d896d8f3c75f6c226cbeb840127462e37738226"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.18",
+      "gitHead" : "ee646b4ed8d3b9567e1a0ce2e478241b68a2a2e4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.18_1682196114394_0.5024816200548485",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.21.1" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.21.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.21.1.tgz",
+        "shasum" : "754d533a4fef4b0790d82bfe1e82d6876f18370e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.21.1",
+      "gitHead" : "e87639417e47ba5db160f105785dc10bde0999cf",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.21.1_1715100959020_0.8053919473130169",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.21.2" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.21.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.21.2.tgz",
+        "shasum" : "0adac2cc3451c25817b0c93bf160cd19008ed03a"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.21.2",
+      "gitHead" : "b24180e4fbd07504e91cb922948870d5467072e0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.21.2_1715545996862_0.8183283325181565",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.21.3" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.21.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.21.3.tgz",
+        "shasum" : "b97543f3d8655365729f3702ed07f6e41be5e48e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.21.3",
+      "gitHead" : "efa3dd2d8e895f7f9a9bef0d588560bbae7d776e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.21.3_1715806376067_0.2603946041485188",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.21.4" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.21.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.21.4.tgz",
+        "shasum" : "fec73cd39490a0c45d052bef03e011a0ad366c06"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.21.4",
+      "gitHead" : "67cbf87a4909d87a902ca8c3b69ab5330defab0a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.21.4_1716603072164_0.9493535193966074",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.25.0" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.25.0.tgz",
+        "shasum" : "4cababb14eede09248980a2d2d8b966464294ff1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.25.0",
+      "gitHead" : "e9174d671b1882758cd32ac5e146200f5bee3e45",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.25.0_1738983769980_0.5024262794286167",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.21.5" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.21.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.21.5.tgz",
+        "shasum" : "e79b8eb48bf3b106fadec1ac8240fb97b4e64cbe"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.21.5",
+      "gitHead" : "fc37c2fa9de2ad77476a6d4a8f1516196b90187e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.21.5_1717967843932_0.29646386569534",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.25.1" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.25.1.tgz",
+        "shasum" : "530574b9e1bc5d20f7a4f44c5f045e26f3783d57"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.25.1",
+      "gitHead" : "6bfc1c13b4d986b86e8bc2035f00c337b0c1d007",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.25.1_1741578362998_0.6574006986815921",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.2" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.25.2.tgz",
+        "shasum" : "afbe380b6992e7459bf7c2c3b9556633b2e47f30"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.25.2",
+      "gitHead" : "4475787eef4c4923b92b9fa37ebba1c88b9e1d9b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.25.2_1743356005928_0.5480771659627255",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.3" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.25.3.tgz",
+        "shasum" : "1dfe2a5d63702db9034cc6b10b3087cc0424ec26"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.25.3",
+      "gitHead" : "677910b073194b64d5ae01aefd7a7465bbf5b27b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.25.3_1745380606058_0.9732459975118783",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.4" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.25.4.tgz",
+        "shasum" : "2a198e5a458c9f0e75881a4e63d26ba0cf9df39f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.25.4",
+      "gitHead" : "218d29e9da018d60cf87b8fb496bb8167936ff54",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.25.4_1746491478694_0.35500361520397083",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.17.15" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.15.tgz",
+        "shasum" : "af12bde0d775a318fad90eb13a0455229a63987c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.15",
+      "gitHead" : "ef912892181e27386205d110c622c55c4c1df856",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.15_1680388045078_0.9702820085542068",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.16" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.16.tgz",
+        "shasum" : "e1e9687bbdaa831d7c34edc9278200982c1a4bf4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.16",
+      "gitHead" : "f0704baa38ef9a808b7e34cac75aa4ac285bb087",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.16_1681101331932_0.38087841258129007",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.13" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.13.tgz",
+        "shasum" : "4d80d34c1ab79c57f5df819e45e555a695c840ab"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.13",
+      "gitHead" : "8dbb85531a9971058f4d8739cb52e98fa43b40a1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.13_1679684254388_0.9452019785536818",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.14" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.14.tgz",
+        "shasum" : "a602e85c51b2f71d2aedfe7f4143b2f92f97f3f5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.14",
+      "gitHead" : "b2b897870564a6b8e8bc802a140c55bf602de31b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.14_1679798891651_0.24690689028129897",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.11" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.11.tgz",
+        "shasum" : "0e18ca039dc7e4645efd8edc1b10952933eb6b1b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.11",
+      "gitHead" : "38cfd53020d9e0454bae0956e549546c55a66aed",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.11_1677883248750_0.3809014569556157",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.12" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.12.tgz",
+        "shasum" : "6ef170b974ddf5e6acdfa5b05f22b6e9dfd2b003"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.12",
+      "gitHead" : "495216dbea685cd0e10172a866eeb8ca4764a0bf",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.12_1679033858883_0.18403834830040156",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.10" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.10.tgz",
+        "shasum" : "14f7d50c40fe7f7ee545a9bd07c6f6e4cba5570e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.10",
+      "gitHead" : "996d400a7ab25b67b80122e2d4a8515575918e79",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.10_1676915722241_0.2114148994346141",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.1" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.1.tgz",
+        "shasum" : "920d6f203da3b89bf868f7b3f6eb66374c24f92e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.1",
+      "gitHead" : "002ef9522a4103132cefb075aee3e09b0e4fa3f1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.1_1673892378794_0.8703083572523147",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.0" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.0.tgz",
+        "shasum" : "94b50097a3421ff538eb6a41cd4fb5db4c4993ff"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.0",
+      "gitHead" : "2a18b3d6ab3d1003afbcfcb4a6ffca61e04fcb57",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.0_1673671044583_0.13405956116377116",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.9" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.9.tgz",
+        "shasum" : "e12f789e606b6bd239c69a56c50869b1c73bc7cb"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.9",
+      "gitHead" : "3765e880ed0a55b8e62bfa17b7e004e656eaf914",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.9_1676828746866_0.09457387355958558",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.8" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.8.tgz",
+        "shasum" : "f2b0d36e63fb26bc3f95b203b6a80638292101ca"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.8",
+      "gitHead" : "5e0b1cd2ce6297cf31b132e413134ffe2576c668",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.8_1676270167766_0.6092210106254401",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.7" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.7.tgz",
+        "shasum" : "ae751365cdf967dfa89dd59cdb0dcc8723a66f9a"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.7",
+      "gitHead" : "e345b13687bc3ac86f18f4a266a162653544ad31",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.7_1675981631828_0.71678678851812",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.6" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.6.tgz",
+        "shasum" : "15fbbe04648d944ec660ee5797febdf09a9bd6af"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.6",
+      "gitHead" : "e1143a75dd5e7d9fb8591096edfa123f6eedbe44",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.6_1675702871762_0.6239857652733074",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.5" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.5.tgz",
+        "shasum" : "fc98be741e8080ecd13b404d5fca5302d3835bf4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.5",
+      "gitHead" : "a8b660d85a0a57087a0f188857519f194f52b84c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.5_1674837499275_0.8462200956059218",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.4" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.4.tgz",
+        "shasum" : "3dbd897bd8f047fef35e69bd253b8f07ca7fe483"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.4",
+      "gitHead" : "3c83a84d01e22664923b543998b5c03c0c5d8654",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.4_1674368040964_0.029890700917523993",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.3" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.3.tgz",
+        "shasum" : "fa38833cfc8bfaadaa12b243257fe6d19d0f6f79"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.3",
+      "gitHead" : "acc5becf4d4e81473761091fc340efe16325da4a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.3_1674069301447_0.9805309463707106",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.25.11" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.25.11.tgz",
+        "shasum" : "b7d447ff0676b8ab247d69dac40a5cf08e5eeaf5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.25.11",
+      "gitHead" : "6b7c4f2dcbcaa1238bca0f7a4a1d95918296c82e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/linux-mips64el_0.25.11_1760494390640_0.58945426938644"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.17.2" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.17.2.tgz",
+        "shasum" : "98f0e25b86153d725d4379bc267a2cd4c9bcdd24"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.17.2",
+      "gitHead" : "a98870a2fa9f7af7024be24cb6833e638aa71da3",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.17.2_1673937615511_0.6555170640567534",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.25.10" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.25.10.tgz",
+        "shasum" : "3052f5436b0c0c67a25658d5fc87f045e7def9e6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.25.10",
+      "gitHead" : "d6b668f96fb00d6a6d035f058e38b6bd2507beb6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.25.10_1758125934508_0.7222443636333382",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.20.0" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.20.0.tgz",
+        "shasum" : "7ca1bd9df3f874d18dbf46af009aebdb881188fe"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.20.0",
+      "gitHead" : "2af5ccf478812d2d7226ad4435d46fbbb3419a8c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.20.0_1706374202133_0.4502385557758781",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.20.1" : {
+      "name" : "@esbuild/linux-mips64el",
+      "description" : "The Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/linux-mips64el/-/linux-mips64el-0.20.1.tgz",
+        "shasum" : "c44f6f0d7d017c41ad3bb15bfdb69b690656b5ea"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "linux" ],
+      "cpu" : [ "mips64el" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-mips64el@0.20.1",
+      "gitHead" : "9f9e4f85e6e28a58727531458663afd157b8b415",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/linux-mips64el_0.20.1_1708324754212_0.6002569179712993",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    }
+  },
+  "readme" : "# esbuild\n\nThis is the Linux MIPS 64-bit Little Endian binary for esbuild, a JavaScript bundler and minifier. See https://github.com/evanw/esbuild for details.\n",
+  "maintainers" : [ {
+    "name" : "evanw",
+    "email" : "evan.exe@gmail.com"
+  }, {
+    "name" : "esbuild",
+    "email" : "evan.exe+esbuild@gmail.com"
+  } ],
+  "time" : {
+    "0.20.2" : "2024-03-14T19:50:09.079Z",
+    "0.24.0" : "2024-09-22T02:06:51.216Z",
+    "0.24.1" : "2024-12-20T05:41:55.976Z",
+    "0.24.2" : "2024-12-20T17:57:16.312Z",
+    "0.19.10" : "2023-12-19T00:22:09.164Z",
+    "0.19.12" : "2024-01-23T17:41:02.587Z",
+    "0.19.11" : "2023-12-29T20:32:38.066Z",
+    "0.16.2" : "2022-12-08T07:00:22.759Z",
+    "0.16.1" : "2022-12-07T04:48:57.843Z",
+    "0.16.0" : "2022-12-07T03:55:30.076Z",
+    "0.16.17" : "2023-01-11T21:58:25.774Z",
+    "0.16.16" : "2023-01-08T22:44:20.039Z",
+    "0.16.9" : "2022-12-18T04:31:55.527Z",
+    "0.16.8" : "2022-12-16T23:39:22.880Z",
+    "0.16.7" : "2022-12-14T22:47:24.456Z",
+    "0.16.6" : "2022-12-14T05:23:44.415Z",
+    "0.16.5" : "2022-12-13T17:48:09.066Z",
+    "0.16.4" : "2022-12-10T03:51:03.034Z",
+    "0.16.3" : "2022-12-08T20:13:38.469Z",
+    "0.16.13" : "2023-01-02T22:57:51.004Z",
+    "0.16.12" : "2022-12-28T02:08:52.254Z",
+    "0.16.15" : "2023-01-07T04:19:39.566Z",
+    "0.16.14" : "2023-01-04T20:13:38.522Z",
+    "0.16.11" : "2022-12-27T01:39:33.352Z",
+    "0.16.10" : "2022-12-19T23:27:08.663Z",
+    "0.23.0" : "2024-07-02T03:34:10.108Z",
+    "0.23.1" : "2024-08-16T22:13:44.215Z",
+    "0.18.20" : "2023-08-08T04:15:38.765Z",
+    "0.18.18" : "2023-08-05T17:06:54.035Z",
+    "0.18.19" : "2023-08-07T02:51:47.763Z",
+    "0.19.7" : "2023-11-21T01:01:50.832Z",
+    "0.19.6" : "2023-11-19T07:12:02.824Z",
+    "0.19.5" : "2023-10-17T05:11:06.282Z",
+    "0.19.4" : "2023-09-28T01:48:26.361Z",
+    "0.19.3" : "2023-09-14T01:12:49.782Z",
+    "0.19.2" : "2023-08-14T01:58:48.959Z",
+    "0.19.1" : "2023-08-11T15:58:00.464Z",
+    "0.19.0" : "2023-08-08T15:52:59.054Z",
+    "0.19.9" : "2023-12-10T05:09:52.776Z",
+    "0.19.8" : "2023-11-26T23:08:34.773Z",
+    "0.18.16" : "2023-07-23T04:48:34.067Z",
+    "0.18.17" : "2023-07-26T01:41:23.413Z",
+    "0.18.14" : "2023-07-18T05:00:48.828Z",
+    "0.18.15" : "2023-07-20T12:53:58.642Z",
+    "0.18.12" : "2023-07-13T01:34:39.045Z",
+    "0.18.13" : "2023-07-15T02:37:43.598Z",
+    "0.18.10" : "2023-06-26T21:20:53.046Z",
+    "0.18.11" : "2023-07-01T06:04:24.319Z",
+    "0.15.18" : "2022-12-05T23:48:47.605Z",
+    "0.22.0" : "2024-06-30T20:38:15.179Z",
+    "modified" : "2025-10-15T02:13:11.224Z",
+    "0.18.0" : "2023-06-09T21:24:46.260Z",
+    "created" : "2022-12-05T23:48:47.238Z",
+    "0.18.8" : "2023-06-25T03:19:40.677Z",
+    "0.18.7" : "2023-06-24T02:46:52.778Z",
+    "0.18.6" : "2023-06-20T23:25:22.425Z",
+    "0.18.5" : "2023-06-20T00:53:09.371Z",
+    "0.18.4" : "2023-06-16T15:39:03.087Z",
+    "0.18.3" : "2023-06-15T12:21:47.852Z",
+    "0.18.2" : "2023-06-13T02:41:12.797Z",
+    "0.18.1" : "2023-06-12T04:52:10.752Z",
+    "0.18.9" : "2023-06-26T05:28:49.954Z",
+    "0.21.0" : "2024-05-07T02:52:51.416Z",
+    "0.25.5" : "2025-05-27T03:13:23.737Z",
+    "0.25.6" : "2025-07-07T16:59:40.993Z",
+    "0.25.7" : "2025-07-18T22:51:17.149Z",
+    "0.25.8" : "2025-07-19T19:23:52.688Z",
+    "0.17.19" : "2023-05-13T00:06:58.346Z",
+    "0.25.9" : "2025-08-12T23:26:46.160Z",
+    "0.17.17" : "2023-04-16T21:24:03.018Z",
+    "0.17.18" : "2023-04-22T20:41:54.675Z",
+    "0.21.1" : "2024-05-07T16:55:59.260Z",
+    "0.21.2" : "2024-05-12T20:33:17.110Z",
+    "0.21.3" : "2024-05-15T20:52:56.313Z",
+    "0.21.4" : "2024-05-25T02:11:12.444Z",
+    "0.25.0" : "2025-02-08T03:02:50.253Z",
+    "0.21.5" : "2024-06-09T21:17:24.155Z",
+    "0.25.1" : "2025-03-10T03:46:03.242Z",
+    "0.25.2" : "2025-03-30T17:33:26.176Z",
+    "0.25.3" : "2025-04-23T03:56:46.282Z",
+    "0.25.4" : "2025-05-06T00:31:18.973Z",
+    "0.17.15" : "2023-04-01T22:27:25.378Z",
+    "0.17.16" : "2023-04-10T04:35:32.246Z",
+    "0.17.13" : "2023-03-24T18:57:34.632Z",
+    "0.17.14" : "2023-03-26T02:48:11.892Z",
+    "0.17.11" : "2023-03-03T22:40:48.992Z",
+    "0.17.12" : "2023-03-17T06:17:39.157Z",
+    "0.17.10" : "2023-02-20T17:55:22.504Z",
+    "0.17.1" : "2023-01-16T18:06:19.023Z",
+    "0.17.0" : "2023-01-14T04:37:24.880Z",
+    "0.17.9" : "2023-02-19T17:45:47.136Z",
+    "0.17.8" : "2023-02-13T06:36:08.080Z",
+    "0.17.7" : "2023-02-09T22:27:12.133Z",
+    "0.17.6" : "2023-02-06T17:01:12.071Z",
+    "0.17.5" : "2023-01-27T16:38:19.517Z",
+    "0.17.4" : "2023-01-22T06:14:01.245Z",
+    "0.17.3" : "2023-01-18T19:15:01.749Z",
+    "0.25.11" : "2025-10-15T02:13:10.973Z",
+    "0.17.2" : "2023-01-17T06:40:15.825Z",
+    "0.25.10" : "2025-09-17T16:18:54.787Z",
+    "0.20.0" : "2024-01-27T16:50:02.365Z",
+    "0.20.1" : "2024-02-19T06:39:14.450Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/evanw/esbuild.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/evanw/esbuild#readme",
+  "bugs" : {
+    "url" : "https://github.com/evanw/esbuild/issues"
+  },
+  "license" : "MIT"
+}

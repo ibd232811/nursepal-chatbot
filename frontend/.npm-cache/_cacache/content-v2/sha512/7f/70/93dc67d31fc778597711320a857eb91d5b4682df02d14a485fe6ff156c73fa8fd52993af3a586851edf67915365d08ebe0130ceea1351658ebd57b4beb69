@@ -1,0 +1,1354 @@
+{
+  "_id" : "@eslint/core",
+  "_rev" : "19-df289e33827045271c6c25873ecc1a72",
+  "name" : "@eslint/core",
+  "description" : "Runtime-agnostic core of ESLint",
+  "dist-tags" : {
+    "latest" : "0.16.0"
+  },
+  "versions" : {
+    "0.6.0" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.6.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.6.0.tgz",
+        "shasum" : "9930b5ba24c406d67a1760e94cdbac616a6eb674"
+      },
+      "devDependencies" : {
+        "typescript" : "^5.4.5"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc && npm run build:cts",
+        "test:jsr" : "npx jsr@latest publish --dry-run",
+        "build:cts" : "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\""
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      },
+      "_id" : "@eslint/core@0.6.0",
+      "gitHead" : "8743a5b0f176f548d6f5abd9fdaee9269a06df8b",
+      "types" : "./dist/esm/types.d.ts",
+      "exports" : {
+        "types" : {
+          "import" : "./dist/esm/types.d.ts",
+          "require" : "./dist/cjs/types.d.cts"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.6.0_1725029152790_0.39927001461109835",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.17.0"
+    },
+    "0.7.0" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.7.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.7.0.tgz",
+        "shasum" : "a1bb4b6a4e742a5ff1894b7ee76fbf884ec72bd3"
+      },
+      "devDependencies" : {
+        "typescript" : "^5.4.5"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc && npm run build:cts",
+        "test:jsr" : "npx jsr@latest publish --dry-run",
+        "build:cts" : "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\""
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      },
+      "_id" : "@eslint/core@0.7.0",
+      "gitHead" : "80eb5455aa5e021fc8c514a11d67c59c583ae2a1",
+      "types" : "./dist/esm/types.d.ts",
+      "exports" : {
+        "types" : {
+          "import" : "./dist/esm/types.d.ts",
+          "require" : "./dist/cjs/types.d.cts"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.7.0_1729282293636_0.10955624569859679",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.18.0"
+    },
+    "0.15.2" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.15.2",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite/tree/main/packages/core#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git",
+        "directory" : "packages/core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.15.2.tgz",
+        "shasum" : "59386327d7862cc3603ebc7c78159d2dcc4a868f"
+      },
+      "dependencies" : {
+        "@types/json-schema" : "^7.0.15"
+      },
+      "devDependencies" : {
+        "json-schema" : "^0.4.0"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "contact@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc && npm run build:cts",
+        "test:jsr" : "npx jsr@latest publish --dry-run",
+        "build:cts" : "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\"",
+        "test:types" : "tsc -p tests/types/tsconfig.json"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "contact@eslint.org"
+      },
+      "_id" : "@eslint/core@0.15.2",
+      "gitHead" : "9e68ab61df9c4ebc082b603fb5e3dfe2dcf98666",
+      "types" : "./dist/esm/types.d.ts",
+      "exports" : {
+        "types" : {
+          "import" : "./dist/esm/types.d.ts",
+          "require" : "./dist/cjs/types.d.cts"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.15.2_1754648484426_0.2720638326225031",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "_nodeVersion" : "22.17.1"
+    },
+    "0.4.0" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.4.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.4.0.tgz",
+        "shasum" : "a90c2e339018621ff8b191770d74af0a49b27743"
+      },
+      "devDependencies" : {
+        "typescript" : "^5.4.5"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc && npm run build:cts",
+        "test:jsr" : "npx jsr@latest publish --dry-run",
+        "build:cts" : "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\""
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.8.1",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      },
+      "_id" : "@eslint/core@0.4.0",
+      "gitHead" : "e2a7ec809db20e638abbad250d105ddbde88a8d5",
+      "types" : "./dist/esm/types.d.ts",
+      "exports" : {
+        "types" : {
+          "import" : "./dist/esm/types.d.ts",
+          "require" : "./dist/cjs/types.d.cts"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.4.0_1723476048121_0.5257498534627234",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.16.0"
+    },
+    "0.15.1" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.15.1",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite/tree/main/packages/core#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git",
+        "directory" : "packages/core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.15.1.tgz",
+        "shasum" : "d530d44209cbfe2f82ef86d6ba08760196dd3b60"
+      },
+      "dependencies" : {
+        "@types/json-schema" : "^7.0.15"
+      },
+      "devDependencies" : {
+        "json-schema" : "^0.4.0"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "contact@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc && npm run build:cts",
+        "test:jsr" : "npx jsr@latest publish --dry-run",
+        "build:cts" : "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\"",
+        "test:types" : "tsc -p tests/types/tsconfig.json"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "actor" : {
+          "name" : "eslintbot",
+          "type" : "user",
+          "email" : "contact@eslint.org"
+        },
+        "email" : "contact@eslint.org"
+      },
+      "_id" : "@eslint/core@0.15.1",
+      "gitHead" : "0496201974aad87fdcf3aa2a63ec74e91b54825e",
+      "types" : "./dist/esm/types.d.ts",
+      "exports" : {
+        "types" : {
+          "import" : "./dist/esm/types.d.ts",
+          "require" : "./dist/cjs/types.d.cts"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.15.1_1750860260171_0.9826067115568171",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "_nodeVersion" : "22.16.0"
+    },
+    "0.16.0" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.16.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite/tree/main/packages/core#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "directory" : "packages/core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.16.0.tgz",
+        "shasum" : "490254f275ba9667ddbab344f4f0a6b7a7bd7209"
+      },
+      "dependencies" : {
+        "@types/json-schema" : "^7.0.15"
+      },
+      "devDependencies" : {
+        "json-schema" : "^0.4.0"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "contact@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build:cts" : "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\"",
+        "build" : "tsc && npm run build:cts",
+        "test:jsr" : "npx jsr@latest publish --dry-run",
+        "test:types" : "tsc -p tests/types/tsconfig.json"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.9.3",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "contact@eslint.org"
+      },
+      "_id" : "@eslint/core@0.16.0",
+      "gitHead" : "7f592e3b60dd0a3b38d891a80aeeb92cf78d8e86",
+      "types" : "./dist/esm/types.d.ts",
+      "exports" : {
+        "types" : {
+          "import" : "./dist/esm/types.d.ts",
+          "require" : "./dist/cjs/types.d.cts"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/core_0.16.0_1758563571360_0.924698456581365"
+      },
+      "type" : "module",
+      "_nodeVersion" : "22.19.0"
+    },
+    "0.5.0" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.5.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.5.0.tgz",
+        "shasum" : "590b2d16013a785504924e618d76e5671d6d5b0f"
+      },
+      "devDependencies" : {
+        "typescript" : "^5.4.5"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc && npm run build:cts",
+        "test:jsr" : "npx jsr@latest publish --dry-run",
+        "build:cts" : "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\""
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.8.1",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      },
+      "_id" : "@eslint/core@0.5.0",
+      "gitHead" : "3c54b2b01476ff533811d7745e5a81b4aa72326e",
+      "types" : "./dist/esm/types.d.ts",
+      "exports" : {
+        "types" : {
+          "import" : "./dist/esm/types.d.ts",
+          "require" : "./dist/cjs/types.d.cts"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.5.0_1724767118725_0.2866167218812783",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.16.0"
+    },
+    "0.15.0" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.15.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite/tree/main/packages/core#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git",
+        "directory" : "packages/core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.15.0.tgz",
+        "shasum" : "8fc04709a7b9a179d9f7d93068fc000cb8c5603d"
+      },
+      "dependencies" : {
+        "@types/json-schema" : "^7.0.15"
+      },
+      "devDependencies" : {
+        "typescript" : "^5.8.3",
+        "json-schema" : "^0.4.0"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "contact@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc && npm run build:cts",
+        "test:jsr" : "npx jsr@latest publish --dry-run",
+        "build:cts" : "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\"",
+        "test:types" : "tsc -p tests/types/tsconfig.json"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "contact@eslint.org"
+      },
+      "_id" : "@eslint/core@0.15.0",
+      "gitHead" : "48b1f849476582257e1b6a110c4af55adbbec2e8",
+      "types" : "./dist/esm/types.d.ts",
+      "exports" : {
+        "types" : {
+          "import" : "./dist/esm/types.d.ts",
+          "require" : "./dist/cjs/types.d.cts"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.15.0_1749674175235_0.41163838148205056",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "_nodeVersion" : "22.16.0"
+    },
+    "0.9.1" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.9.1",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.9.1.tgz",
+        "shasum" : "31763847308ef6b7084a4505573ac9402c51f9d1"
+      },
+      "dependencies" : {
+        "@types/json-schema" : "^7.0.15"
+      },
+      "devDependencies" : {
+        "typescript" : "^5.4.5",
+        "json-schema" : "^0.4.0"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc && npm run build:cts",
+        "test:jsr" : "npx jsr@latest publish --dry-run",
+        "build:cts" : "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\"",
+        "test:types" : "tsc -p tests/types/tsconfig.json"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.9.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      },
+      "_id" : "@eslint/core@0.9.1",
+      "gitHead" : "dd8d161c635450f3e37109f833737bf69f54db55",
+      "types" : "./dist/esm/types.d.ts",
+      "exports" : {
+        "types" : {
+          "import" : "./dist/esm/types.d.ts",
+          "require" : "./dist/cjs/types.d.cts"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.9.1_1733347387719_0.22048904246572487",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "22.11.0"
+    },
+    "0.14.0" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.14.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.14.0.tgz",
+        "shasum" : "326289380968eaf7e96f364e1e4cf8f3adf2d003"
+      },
+      "dependencies" : {
+        "@types/json-schema" : "^7.0.15"
+      },
+      "devDependencies" : {
+        "typescript" : "^5.8.3"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "contact@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc && npm run build:cts",
+        "test:jsr" : "npx jsr@latest publish --dry-run",
+        "build:cts" : "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\"",
+        "test:types" : "tsc -p tests/types/tsconfig.json"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "contact@eslint.org"
+      },
+      "_id" : "@eslint/core@0.14.0",
+      "gitHead" : "0fa78612cb4d26e2de812e776ba749b882a64548",
+      "types" : "./dist/esm/types.d.ts",
+      "exports" : {
+        "types" : {
+          "import" : "./dist/esm/types.d.ts",
+          "require" : "./dist/cjs/types.d.cts"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.14.0_1746127255429_0.3613343844590302",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "_nodeVersion" : "22.15.0"
+    },
+    "0.13.0" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.13.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.13.0.tgz",
+        "shasum" : "bf02f209846d3bf996f9e8009db62df2739b458c"
+      },
+      "dependencies" : {
+        "@types/json-schema" : "^7.0.15"
+      },
+      "devDependencies" : {
+        "typescript" : "^5.4.5",
+        "json-schema" : "^0.4.0"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "contact@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc && npm run build:cts",
+        "test:jsr" : "npx jsr@latest publish --dry-run",
+        "build:cts" : "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\"",
+        "test:types" : "tsc -p tests/types/tsconfig.json"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "contact@eslint.org"
+      },
+      "_id" : "@eslint/core@0.13.0",
+      "gitHead" : "1615a01d9e5c637dfb4d19bb53968185462fadb3",
+      "types" : "./dist/esm/types.d.ts",
+      "exports" : {
+        "types" : {
+          "import" : "./dist/esm/types.d.ts",
+          "require" : "./dist/cjs/types.d.cts"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.13.0_1743532231592_0.846297969649791",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.8.0" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.8.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.8.0.tgz",
+        "shasum" : "54b6591e4799b2c0e363da5b607e3686a6d8d893"
+      },
+      "devDependencies" : {
+        "typescript" : "^5.4.5",
+        "json-schema" : "^0.4.0"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc && npm run build:cts",
+        "test:jsr" : "npx jsr@latest publish --dry-run",
+        "build:cts" : "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\""
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      },
+      "_id" : "@eslint/core@0.8.0",
+      "gitHead" : "0dc78d335a98ef680b579851026438473147750e",
+      "types" : "./dist/esm/types.d.ts",
+      "exports" : {
+        "types" : {
+          "import" : "./dist/esm/types.d.ts",
+          "require" : "./dist/cjs/types.d.cts"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.8.0_1730136228084_0.3528833445594328",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.18.0"
+    },
+    "0.12.0" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.12.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.12.0.tgz",
+        "shasum" : "5f960c3d57728be9f6c65bd84aa6aa613078798e"
+      },
+      "dependencies" : {
+        "@types/json-schema" : "^7.0.15"
+      },
+      "devDependencies" : {
+        "typescript" : "^5.4.5",
+        "json-schema" : "^0.4.0"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc && npm run build:cts",
+        "test:jsr" : "npx jsr@latest publish --dry-run",
+        "build:cts" : "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\"",
+        "test:types" : "tsc -p tests/types/tsconfig.json"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      },
+      "_id" : "@eslint/core@0.12.0",
+      "gitHead" : "3e9b0eb2b87b46842f157421001cc58ba007be56",
+      "types" : "./dist/esm/types.d.ts",
+      "exports" : {
+        "types" : {
+          "import" : "./dist/esm/types.d.ts",
+          "require" : "./dist/cjs/types.d.cts"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.12.0_1740140395313_0.03820680254617903",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "_nodeVersion" : "22.13.1"
+    },
+    "0.9.0" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.9.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.9.0.tgz",
+        "shasum" : "168ee076f94b152c01ca416c3e5cf82290ab4fcd"
+      },
+      "devDependencies" : {
+        "typescript" : "^5.4.5",
+        "json-schema" : "^0.4.0"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc && npm run build:cts",
+        "test:jsr" : "npx jsr@latest publish --dry-run",
+        "build:cts" : "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\""
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.9.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      },
+      "_id" : "@eslint/core@0.9.0",
+      "gitHead" : "a957ee351c27ac1bf22966768cf8aac8c12ce0d2",
+      "types" : "./dist/esm/types.d.ts",
+      "exports" : {
+        "types" : {
+          "import" : "./dist/esm/types.d.ts",
+          "require" : "./dist/cjs/types.d.cts"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.9.0_1731602788076_0.7381323205432995",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "22.10.0"
+    },
+    "0.11.0" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.11.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.11.0.tgz",
+        "shasum" : "7a9226e850922e42cbd2ba71361eacbe74352a12"
+      },
+      "dependencies" : {
+        "@types/json-schema" : "^7.0.15"
+      },
+      "devDependencies" : {
+        "typescript" : "^5.4.5",
+        "json-schema" : "^0.4.0"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc && npm run build:cts",
+        "test:jsr" : "npx jsr@latest publish --dry-run",
+        "build:cts" : "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\"",
+        "test:types" : "tsc -p tests/types/tsconfig.json"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      },
+      "_id" : "@eslint/core@0.11.0",
+      "gitHead" : "e1cb6037bc237313dbf3f6a7b9f5cd3c3105b668",
+      "types" : "./dist/esm/types.d.ts",
+      "exports" : {
+        "types" : {
+          "import" : "./dist/esm/types.d.ts",
+          "require" : "./dist/cjs/types.d.cts"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.11.0_1738344147827_0.5342692799245619",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "_nodeVersion" : "22.13.1"
+    },
+    "0.2.0" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.2.0.tgz",
+        "shasum" : "be35e5b5e26dcae33b9bab38e7ef49b313b516f0"
+      },
+      "devDependencies" : {
+        "mocha" : "^10.4.0",
+        "eslint" : "^9.0.0",
+        "typescript" : "^5.4.5",
+        "@types/eslint" : "^8.56.10"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+        "test" : "tests"
+      },
+      "scripts" : {
+        "build" : "tsc",
+        "test:jsr" : "npx jsr@latest publish --dry-run"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.7.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/core@0.2.0",
+      "gitHead" : "20ba992f0eac1af2d6e29b30a5b6612d4f552210",
+      "types" : "./src/types.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.2.0_1720729621488_0.9050538461196806",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.15.0"
+    },
+    "0.3.0" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.3.0.tgz",
+        "shasum" : "198782123d0132b420a1a52edfb0ab1a39760762"
+      },
+      "devDependencies" : {
+        "mocha" : "^10.4.0",
+        "eslint" : "^9.0.0",
+        "typescript" : "^5.4.5",
+        "@types/eslint" : "^8.56.10"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+        "test" : "tests"
+      },
+      "scripts" : {
+        "build" : "tsc",
+        "test:jsr" : "npx jsr@latest publish --dry-run"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.7.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/core@0.3.0",
+      "gitHead" : "7342e1ae8720e58d61f0aebdfb9f1407d9177d2d",
+      "types" : "./src/types.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.3.0_1721662067160_0.7463899113922114",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.15.1"
+    },
+    "0.1.0" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.1.0.tgz",
+        "shasum" : "cf6bf14ce7112cb0af306ba1cea3bc216fa77341"
+      },
+      "devDependencies" : {
+        "mocha" : "^10.4.0",
+        "eslint" : "^9.0.0",
+        "typescript" : "^5.4.5",
+        "@types/eslint" : "^8.56.10"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "directories" : {
+        "test" : "tests"
+      },
+      "scripts" : {
+        "build" : "tsc",
+        "test:jsr" : "npx jsr@latest publish --dry-run"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.7.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/core@0.1.0",
+      "gitHead" : "fac14b8cad5a8119dee73d2c5eec8e5f01af2a43",
+      "types" : "./src/types.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.1.0_1719418410849_0.005592107480270725",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.14.0"
+    },
+    "0.10.0" : {
+      "name" : "@eslint/core",
+      "description" : "Runtime-agnostic core of ESLint",
+      "version" : "0.10.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/rewrite#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/rewrite.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/rewrite/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/core/-/core-0.10.0.tgz",
+        "shasum" : "23727063c21b335f752dbb3a16450f6f9cbc9091"
+      },
+      "dependencies" : {
+        "@types/json-schema" : "^7.0.15"
+      },
+      "devDependencies" : {
+        "typescript" : "^5.4.5",
+        "json-schema" : "^0.4.0"
+      },
+      "keywords" : [ "eslint", "core" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc && npm run build:cts",
+        "test:jsr" : "npx jsr@latest publish --dry-run",
+        "build:cts" : "node -e \"fs.cpSync('dist/esm/types.d.ts', 'dist/cjs/types.d.cts')\"",
+        "test:types" : "tsc -p tests/types/tsconfig.json"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      },
+      "_id" : "@eslint/core@0.10.0",
+      "gitHead" : "7f291c70eafb050420d86092f7cd03f9c6a96207",
+      "types" : "./dist/esm/types.d.ts",
+      "exports" : {
+        "types" : {
+          "import" : "./dist/esm/types.d.ts",
+          "require" : "./dist/cjs/types.d.cts"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/core_0.10.0_1736533642626_0.11580830723717628",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "_nodeVersion" : "22.13.0"
+    }
+  },
+  "readme" : "# ESLint Core\n\n## Overview\n\nThis package is the future home of the rewritten, runtime-agnostic ESLint core.\n\nRight now, it exports the core types necessary to implement language plugins.\n\n## License\n\nApache 2.0\n\n<!-- NOTE: This section is autogenerated. Do not manually edit.-->\n<!--sponsorsstart-->\n\n## Sponsors\n\nThe following companies, organizations, and individuals support ESLint's ongoing maintenance and development. [Become a Sponsor](https://eslint.org/donate)\nto get your logo on our READMEs and [website](https://eslint.org/sponsors).\n\n<h3>Platinum Sponsors</h3>\n<p><a href=\"https://automattic.com\"><img src=\"https://images.opencollective.com/automattic/d0ef3e1/logo.png\" alt=\"Automattic\" height=\"128\"></a> <a href=\"https://www.airbnb.com/\"><img src=\"https://images.opencollective.com/airbnb/d327d66/logo.png\" alt=\"Airbnb\" height=\"128\"></a></p><h3>Gold Sponsors</h3>\n<p><a href=\"https://qlty.sh/\"><img src=\"https://images.opencollective.com/qltysh/33d157d/logo.png\" alt=\"Qlty Software\" height=\"96\"></a> <a href=\"https://trunk.io/\"><img src=\"https://images.opencollective.com/trunkio/fb92d60/avatar.png\" alt=\"trunk.io\" height=\"96\"></a> <a href=\"https://shopify.engineering/\"><img src=\"https://avatars.githubusercontent.com/u/8085\" alt=\"Shopify\" height=\"96\"></a></p><h3>Silver Sponsors</h3>\n<p><a href=\"https://vite.dev/\"><img src=\"https://images.opencollective.com/vite/e6d15e1/logo.png\" alt=\"Vite\" height=\"64\"></a> <a href=\"https://liftoff.io/\"><img src=\"https://images.opencollective.com/liftoff/5c4fa84/logo.png\" alt=\"Liftoff\" height=\"64\"></a> <a href=\"https://americanexpress.io\"><img src=\"https://avatars.githubusercontent.com/u/3853301\" alt=\"American Express\" height=\"64\"></a> <a href=\"https://stackblitz.com\"><img src=\"https://avatars.githubusercontent.com/u/28635252\" alt=\"StackBlitz\" height=\"64\"></a></p><h3>Bronze Sponsors</h3>\n<p><a href=\"https://syntax.fm\"><img src=\"https://github.com/syntaxfm.png\" alt=\"Syntax\" height=\"32\"></a> <a href=\"https://cybozu.co.jp/\"><img src=\"https://images.opencollective.com/cybozu/933e46d/logo.png\" alt=\"Cybozu\" height=\"32\"></a> <a href=\"https://sentry.io\"><img src=\"https://github.com/getsentry.png\" alt=\"Sentry\" height=\"32\"></a> <a href=\"https://discord.com\"><img src=\"https://images.opencollective.com/discordapp/f9645d9/logo.png\" alt=\"Discord\" height=\"32\"></a> <a href=\"https://www.gitbook.com\"><img src=\"https://avatars.githubusercontent.com/u/7111340\" alt=\"GitBook\" height=\"32\"></a> <a href=\"https://nx.dev\"><img src=\"https://avatars.githubusercontent.com/u/23692104\" alt=\"Nx\" height=\"32\"></a> <a href=\"https://opensource.mercedes-benz.com/\"><img src=\"https://avatars.githubusercontent.com/u/34240465\" alt=\"Mercedes-Benz Group\" height=\"32\"></a> <a href=\"https://herocoders.com\"><img src=\"https://avatars.githubusercontent.com/u/37549774\" alt=\"HeroCoders\" height=\"32\"></a> <a href=\"https://www.lambdatest.com\"><img src=\"https://avatars.githubusercontent.com/u/171592363\" alt=\"LambdaTest\" height=\"32\"></a></p>\n<h3>Technology Sponsors</h3>\nTechnology sponsors allow us to use their products and services for free as part of a contribution to the open source ecosystem and our work.\n<p><a href=\"https://netlify.com\"><img src=\"https://raw.githubusercontent.com/eslint/eslint.org/main/src/assets/images/techsponsors/netlify-icon.svg\" alt=\"Netlify\" height=\"32\"></a> <a href=\"https://algolia.com\"><img src=\"https://raw.githubusercontent.com/eslint/eslint.org/main/src/assets/images/techsponsors/algolia-icon.svg\" alt=\"Algolia\" height=\"32\"></a> <a href=\"https://1password.com\"><img src=\"https://raw.githubusercontent.com/eslint/eslint.org/main/src/assets/images/techsponsors/1password-icon.svg\" alt=\"1Password\" height=\"32\"></a></p>\n<!--sponsorsend-->\n",
+  "maintainers" : [ {
+    "name" : "openjsfoundation",
+    "email" : "npm@openjsf.org"
+  }, {
+    "name" : "eslintbot",
+    "email" : "contact@eslint.org"
+  } ],
+  "author" : {
+    "name" : "Nicholas C. Zakas"
+  },
+  "time" : {
+    "0.6.0" : "2024-08-30T14:45:53.003Z",
+    "0.7.0" : "2024-10-18T20:11:33.804Z",
+    "0.15.2" : "2025-08-08T10:21:24.592Z",
+    "0.4.0" : "2024-08-12T15:20:48.399Z",
+    "0.15.1" : "2025-06-25T14:04:20.335Z",
+    "0.16.0" : "2025-09-22T17:52:51.567Z",
+    "0.5.0" : "2024-08-27T13:58:38.940Z",
+    "0.15.0" : "2025-06-11T20:36:15.471Z",
+    "0.9.1" : "2024-12-04T21:23:07.893Z",
+    "0.14.0" : "2025-05-01T19:20:55.603Z",
+    "0.13.0" : "2025-04-01T18:30:31.774Z",
+    "created" : "2024-06-26T16:13:30.730Z",
+    "0.8.0" : "2024-10-28T17:23:48.313Z",
+    "0.12.0" : "2025-02-21T12:19:55.537Z",
+    "0.9.0" : "2024-11-14T16:46:28.379Z",
+    "0.11.0" : "2025-01-31T17:22:28.062Z",
+    "0.2.0" : "2024-07-11T20:27:01.688Z",
+    "0.3.0" : "2024-07-22T15:27:47.309Z",
+    "0.1.0" : "2024-06-26T16:13:31.031Z",
+    "0.10.0" : "2025-01-10T18:27:22.857Z",
+    "modified" : "2025-09-22T17:52:52.042Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/eslint/rewrite.git",
+    "directory" : "packages/core"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/eslint/rewrite/tree/main/packages/core#readme",
+  "keywords" : [ "eslint", "core" ],
+  "bugs" : {
+    "url" : "https://github.com/eslint/rewrite/issues"
+  },
+  "license" : "Apache-2.0"
+}

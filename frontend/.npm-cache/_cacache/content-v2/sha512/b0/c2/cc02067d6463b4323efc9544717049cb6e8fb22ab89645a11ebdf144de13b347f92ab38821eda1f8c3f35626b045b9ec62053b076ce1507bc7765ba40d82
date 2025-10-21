@@ -1,0 +1,912 @@
+{
+  "_id" : "@esbuild/openbsd-arm64",
+  "_rev" : "20-b2bcb8ff70dc823f7cab6faf402284bf",
+  "name" : "@esbuild/openbsd-arm64",
+  "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+  "dist-tags" : {
+    "latest" : "0.25.11"
+  },
+  "versions" : {
+    "0.25.5" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.5.tgz",
+        "shasum" : "2a796c87c44e8de78001d808c77d948a21ec22fd"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.25.5",
+      "gitHead" : "ea453bf687c8e5cf3c5f11aae372c5ca33be0c98",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.25.5_1748315548074_0.1502666641047985",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.6" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.6.tgz",
+        "shasum" : "a51be60c425b85c216479b8c344ad0511635f2d2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "actor" : {
+          "name" : "evanw",
+          "type" : "user",
+          "email" : "evan.exe@gmail.com"
+        },
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.25.6",
+      "gitHead" : "d38c1f0bc580b4a8a93f23559d0cd9085d7ba31f",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.25.6_1751907522029_0.5602833565985634",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.7" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.7.tgz",
+        "shasum" : "88562540db7a4a23d6141a4a8fe5584d4b059022"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.25.7",
+      "gitHead" : "9b42f68f9b1fecf16e72dbcfc5c46504239d6fe6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.25.7_1752879025065_0.8923129917531414",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.8" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.8.tgz",
+        "shasum" : "89c3b998c6de739db38ab7fb71a8a76b3fa84a45"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.25.8",
+      "gitHead" : "8c71947edbe5a158fec3a6d1cbfea1e8d5cdee70",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.25.8_1752952935572_0.8952649598128914",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.9" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.9.tgz",
+        "shasum" : "afb886c867e36f9d86bb21e878e1185f5d5a0935"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.25.9",
+      "gitHead" : "195e05c16f03a341390feef38b8ebf17d3075e14",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.25.9_1755041154478_0.1038941946635219",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.22.0" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.22.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.22.0.tgz",
+        "shasum" : "7cb42e3a0d3da039d1a4b7ccbd0c19b0f71ae453"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.22.0",
+      "gitHead" : "80c6e6ea094a71691ab1644ab61494cc67729365",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.22.0_1719779860284_0.2356870049158184",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.23.0" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.23.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.23.0.tgz",
+        "shasum" : "72fc55f0b189f7a882e3cf23f332370d69dfd5db"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.23.0",
+      "gitHead" : "9d506806bdd963b02b3d6edf45e717e03dcba785",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.23.0_1719891215960_0.8947388456607726",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.23.1" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.23.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.23.1.tgz",
+        "shasum" : "05c5a1faf67b9881834758c69f3e51b7dee015d7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.23.1",
+      "gitHead" : "332727499e62315cff4ecaff9fa8b86336555e46",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.23.1_1723846387061_0.14930368564966812",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.24.0" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.24.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.24.0.tgz",
+        "shasum" : "5d904a4f5158c89859fd902c427f96d6a9e632e2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.24.0",
+      "gitHead" : "d34e79e2a998c21bb71d57b92b0017ca11756912",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.24.0_1726970775778_0.6290145734894095",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.24.1" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.24.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.24.1.tgz",
+        "shasum" : "117fe1658cab3f2b42c10ed1fae908f571acf4af"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.24.1",
+      "gitHead" : "de9598f42dc3ffc395e3fd3672a4804f6b4e5c09",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.24.1_1734673229821_0.07682383815466376",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.25.0" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.0.tgz",
+        "shasum" : "8fd55a4d08d25cdc572844f13c88d678c84d13f7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.25.0",
+      "gitHead" : "e9174d671b1882758cd32ac5e146200f5bee3e45",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.25.0_1738983719684_0.4493517058259433",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.24.2" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.24.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.24.2.tgz",
+        "shasum" : "58b00238dd8f123bfff68d3acc53a6ee369af89f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.24.2",
+      "gitHead" : "745abd9f0c06f73ca40fbe198546a9bc36c23b81",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.24.2_1734717352096_0.08728590777037071",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.25.1" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.1.tgz",
+        "shasum" : "d9021b884233673a05dc1cc26de0bf325d824217"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.25.1",
+      "gitHead" : "6bfc1c13b4d986b86e8bc2035f00c337b0c1d007",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.25.1_1741578309761_0.8475919071009486",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.2" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.2.tgz",
+        "shasum" : "f9caf987e3e0570500832b487ce3039ca648ce9f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.25.2",
+      "gitHead" : "4475787eef4c4923b92b9fa37ebba1c88b9e1d9b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.25.2_1743355963347_0.9675726175568138",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.3" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.3.tgz",
+        "shasum" : "ca078dad4a34df192c60233b058db2ca3d94bc5c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.25.3",
+      "gitHead" : "677910b073194b64d5ae01aefd7a7465bbf5b27b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.25.3_1745380532085_0.10621904759230372",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.11" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.11.tgz",
+        "shasum" : "b4ae93c75aec48bc1e8a0154957a05f0641f2dad"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.25.11",
+      "gitHead" : "6b7c4f2dcbcaa1238bca0f7a4a1d95918296c82e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/openbsd-arm64_0.25.11_1760494299858_0.8320473814412213"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.0.1" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.0.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.0.1.tgz",
+        "shasum" : "3ec74f7714d53b7069710d0665fd629e2d43d840"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.0.1",
+      "gitHead" : "b7220009d0fde2e89917ed3ea97c6b8ca04adbf1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.0.1_1719769543264_0.3644942174725192",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.25.4" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.4.tgz",
+        "shasum" : "f272c2f41cfea1d91b93d487a51b5c5ca7a8c8c4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.25.4",
+      "gitHead" : "218d29e9da018d60cf87b8fb496bb8167936ff54",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.25.4_1746491428551_0.26728045581262605",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.10" : {
+      "name" : "@esbuild/openbsd-arm64",
+      "description" : "The OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.10.tgz",
+        "shasum" : "8faa6aa1afca0c6d024398321d6cb1c18e72a1c3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "openbsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/openbsd-arm64@0.25.10",
+      "gitHead" : "d6b668f96fb00d6a6d035f058e38b6bd2507beb6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/openbsd-arm64_0.25.10_1758125889249_0.18145842460918793",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    }
+  },
+  "readme" : "# esbuild\n\nThis is the OpenBSD ARM 64-bit binary for esbuild, a JavaScript bundler and minifier. See https://github.com/evanw/esbuild for details.\n",
+  "maintainers" : [ {
+    "name" : "evanw",
+    "email" : "evan.exe@gmail.com"
+  }, {
+    "name" : "esbuild",
+    "email" : "evan.exe+esbuild@gmail.com"
+  } ],
+  "time" : {
+    "0.25.5" : "2025-05-27T03:12:28.338Z",
+    "0.25.6" : "2025-07-07T16:58:42.288Z",
+    "0.25.7" : "2025-07-18T22:50:25.316Z",
+    "0.25.8" : "2025-07-19T19:22:15.873Z",
+    "0.25.9" : "2025-08-12T23:25:54.749Z",
+    "created" : "2024-06-30T17:45:43.172Z",
+    "0.22.0" : "2024-06-30T20:37:40.512Z",
+    "0.23.0" : "2024-07-02T03:33:36.244Z",
+    "0.23.1" : "2024-08-16T22:13:07.339Z",
+    "0.24.0" : "2024-09-22T02:06:16.033Z",
+    "0.24.1" : "2024-12-20T05:40:30.055Z",
+    "0.25.0" : "2025-02-08T03:01:59.985Z",
+    "0.24.2" : "2024-12-20T17:55:52.372Z",
+    "0.25.1" : "2025-03-10T03:45:10.042Z",
+    "0.25.2" : "2025-03-30T17:32:43.603Z",
+    "0.25.3" : "2025-04-23T03:55:32.356Z",
+    "0.25.11" : "2025-10-15T02:11:40.153Z",
+    "0.0.1" : "2024-06-30T17:45:43.452Z",
+    "0.25.4" : "2025-05-06T00:30:28.840Z",
+    "0.25.10" : "2025-09-17T16:18:09.583Z",
+    "modified" : "2025-10-15T02:11:40.369Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/evanw/esbuild.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/evanw/esbuild#readme",
+  "bugs" : {
+    "url" : "https://github.com/evanw/esbuild/issues"
+  },
+  "license" : "MIT"
+}

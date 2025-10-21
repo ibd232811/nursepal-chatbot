@@ -1,0 +1,2 @@
+
+7399251db5ea2a5afe979f609c0f2d2128a7c27e	{"key":"make-fetch-happen:request-cache:https://repo.socrata.com/artifactory/api/npm/npm-virtual/yaml","integrity":"sha512-QOj6ax7MpN0Y4d46PtJNqaxMTB/hjgluXc0R6CdanskYjsV+kc8UmtqVm6IoSP6mliVTTg/O9R+anwHb3Dw8Rg==","time":1760820410068,"size":381222,"metadata":{"time":1760820409979,"url":"https://repo.socrata.com/artifactory/api/npm/npm-virtual/yaml","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-encoding":"gzip","content-type":"application/json","date":"Sat, 18 Oct 2025 20:46:49 GMT"},"options":{"compress":true}}}

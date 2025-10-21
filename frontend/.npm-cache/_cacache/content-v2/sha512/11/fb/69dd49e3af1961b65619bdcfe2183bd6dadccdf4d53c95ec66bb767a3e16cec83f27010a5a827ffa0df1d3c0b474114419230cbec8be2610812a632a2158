@@ -1,0 +1,363 @@
+{
+  "_id" : "resolve-from",
+  "_rev" : "19-6441605e158d39c45054d1bc737f30cd",
+  "name" : "resolve-from",
+  "description" : "Resolve the path of a module like `require.resolve()` but from a given path",
+  "dist-tags" : {
+    "latest" : "5.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "resolve-from",
+      "description" : "Resolve the path of a module like require.resolve() but from a given path",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/resolve-from",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/resolve-from"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/resolve-from/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/resolve-from/-/resolve-from-2.0.0.tgz",
+        "shasum" : "9480ab20e94ffa1d9e80a804c7ea147611966b57"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "require", "resolve", "path", "module", "from", "like", "path" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "resolve-from@2.0.0",
+      "gitHead" : "583e0f8df06e1bc4d1c96d8d4f2484c745f522c3",
+      "_shasum" : "9480ab20e94ffa1d9e80a804c7ea147611966b57",
+      "_nodeVersion" : "4.2.1"
+    },
+    "3.0.0" : {
+      "name" : "resolve-from",
+      "description" : "Resolve the path of a module like `require.resolve()` but from a given path",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/resolve-from#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/resolve-from.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/resolve-from/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/resolve-from/-/resolve-from-3.0.0.tgz",
+        "shasum" : "b22c7af7d9d6881bc8b6e653335eebcb0a188748"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "require", "resolve", "path", "module", "from", "like", "import", "path" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "resolve-from@3.0.0",
+      "gitHead" : "c3a318d7144b9cc22488f5d2f3884b6c8c05a05a",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/resolve-from-3.0.0.tgz_1493366293559_0.5914990743622184"
+      },
+      "_shasum" : "b22c7af7d9d6881bc8b6e653335eebcb0a188748",
+      "_nodeVersion" : "4.7.3"
+    },
+    "5.0.0" : {
+      "name" : "resolve-from",
+      "description" : "Resolve the path of a module like `require.resolve()` but from a given path",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/resolve-from#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/resolve-from.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/resolve-from/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/resolve-from/-/resolve-from-5.0.0.tgz",
+        "shasum" : "c35225843df8f776df21c57557bc087e9dfdfc69"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "require", "resolve", "path", "module", "from", "like", "import" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "resolve-from@5.0.0",
+      "gitHead" : "53f4a1b40f972dbfc4dda9627d24068000eae897",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/resolve-from_5.0.0_1555301185445_0.996189064165252"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "4.0.0" : {
+      "name" : "resolve-from",
+      "description" : "Resolve the path of a module like `require.resolve()` but from a given path",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/resolve-from#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/resolve-from.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/resolve-from/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/resolve-from/-/resolve-from-4.0.0.tgz",
+        "shasum" : "4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "require", "resolve", "path", "module", "from", "like", "import" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "resolve-from@4.0.0",
+      "gitHead" : "60cd04e69135b96b98b848fff719b1276a5610c0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/resolve-from-4.0.0.tgz_1506160096801_0.3549803947098553"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "1.0.0" : {
+      "name" : "resolve-from",
+      "description" : "Resolve the path of a module like require.resolve() but from a given path",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/resolve-from",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/resolve-from"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/resolve-from/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/resolve-from/-/resolve-from-1.0.0.tgz",
+        "shasum" : "dedda6f6f6346f0211ce4bc25aca0ca7826bb367"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.3"
+      },
+      "keywords" : [ "require", "resolve", "path", "module", "from", "like", "path" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "resolve-from@1.0.0",
+      "_shasum" : "dedda6f6f6346f0211ce4bc25aca0ca7826bb367"
+    },
+    "1.0.1" : {
+      "name" : "resolve-from",
+      "description" : "Resolve the path of a module like require.resolve() but from a given path",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/resolve-from",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/resolve-from"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/resolve-from/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/resolve-from/-/resolve-from-1.0.1.tgz",
+        "shasum" : "26cbfe935d1aeeeabb29bc3fe5aeb01e93d44226"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "require", "resolve", "path", "module", "from", "like", "path" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "resolve-from@1.0.1",
+      "gitHead" : "bae2cf1d66c616ad2eb27e0fe85a10ff0f2dfc92",
+      "_shasum" : "26cbfe935d1aeeeabb29bc3fe5aeb01e93d44226",
+      "_nodeVersion" : "4.1.1"
+    }
+  },
+  "readme" : "# resolve-from [![Build Status](https://travis-ci.org/sindresorhus/resolve-from.svg?branch=master)](https://travis-ci.org/sindresorhus/resolve-from)\n\n> Resolve the path of a module like [`require.resolve()`](https://nodejs.org/api/globals.html#globals_require_resolve) but from a given path\n\n\n## Install\n\n```\n$ npm install resolve-from\n```\n\n\n## Usage\n\n```js\nconst resolveFrom = require('resolve-from');\n\n// There is a file at `./foo/bar.js`\n\nresolveFrom('foo', './bar');\n//=> '/Users/sindresorhus/dev/test/foo/bar.js'\n```\n\n\n## API\n\n### resolveFrom(fromDirectory, moduleId)\n\nLike `require()`, throws when the module can't be found.\n\n### resolveFrom.silent(fromDirectory, moduleId)\n\nReturns `undefined` instead of throwing when the module can't be found.\n\n#### fromDirectory\n\nType: `string`\n\nDirectory to resolve from.\n\n#### moduleId\n\nType: `string`\n\nWhat you would use in `require()`.\n\n\n## Tip\n\nCreate a partial using a bound function if you want to resolve from the same `fromDirectory` multiple times:\n\n```js\nconst resolveFromFoo = resolveFrom.bind(null, 'foo');\n\nresolveFromFoo('./bar');\nresolveFromFoo('./baz');\n```\n\n\n## Related\n\n- [resolve-cwd](https://github.com/sindresorhus/resolve-cwd) - Resolve the path of a module from the current working directory\n- [import-from](https://github.com/sindresorhus/import-from) - Import a module from a given path\n- [import-cwd](https://github.com/sindresorhus/import-cwd) - Import a module from the current working directory\n- [resolve-pkg](https://github.com/sindresorhus/resolve-pkg) - Resolve the path of a package regardless of it having an entry point\n- [import-lazy](https://github.com/sindresorhus/import-lazy) - Import a module lazily\n- [resolve-global](https://github.com/sindresorhus/resolve-global) - Resolve the path of a globally installed module\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2015-11-29T05:09:13.029Z",
+    "3.0.0" : "2017-04-28T07:58:15.268Z",
+    "created" : "2014-07-20T00:34:24.210Z",
+    "modified" : "2023-06-22T16:33:46.245Z",
+    "5.0.0" : "2019-04-15T04:06:25.601Z",
+    "4.0.0" : "2017-09-23T09:48:16.876Z",
+    "1.0.0" : "2014-07-20T00:34:24.210Z",
+    "1.0.1" : "2015-10-05T14:33:18.756Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/resolve-from.git"
+  },
+  "users" : {
+    "stringparser" : true,
+    "arcticicestudio" : true,
+    "gggauravgandhi" : true,
+    "flumpus-dev" : true,
+    "max_devjs" : true,
+    "robmcguinness" : true,
+    "jlsjonas" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/resolve-from#readme",
+  "keywords" : [ "require", "resolve", "path", "module", "from", "like", "import" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/resolve-from/issues"
+  },
+  "license" : "MIT"
+}

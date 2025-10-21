@@ -1,0 +1,2 @@
+
+62a6401871a350533d5c6dc6ad1f96f6049f86b5	{"key":"make-fetch-happen:request-cache:https://repo.socrata.com/artifactory/api/npm/npm-virtual/keyv","integrity":"sha512-30yolFqpW2W8j5ZPW8yoW3mIfkIZnGVB1g3raiIxb/V9i+oNwZ9t4xzO3lLop9X4VkN29s47cJ03+pmqOMIepQ==","time":1760820454351,"size":238007,"metadata":{"time":1760820454345,"url":"https://repo.socrata.com/artifactory/api/npm/npm-virtual/keyv","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-encoding":"gzip","content-type":"application/json","date":"Sat, 18 Oct 2025 20:47:34 GMT"},"options":{"compress":true}}}

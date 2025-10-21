@@ -1,0 +1,2 @@
+
+77ff25e13b19a9b0a4929288c357d3eb89549ec1	{"key":"make-fetch-happen:request-cache:https://repo.socrata.com/artifactory/api/npm/npm-virtual/levn","integrity":"sha512-ciRhIIyxj6CfRbzH8raUP7Ozbx/7aUxqXkBxkbS/xyCTjOmFnGB830LZLhlRlde4af/TAfjGIw5vfVEQWbNhcg==","time":1760820451758,"size":29335,"metadata":{"time":1760820451756,"url":"https://repo.socrata.com/artifactory/api/npm/npm-virtual/levn","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-encoding":"gzip","content-type":"application/json","date":"Sat, 18 Oct 2025 20:47:31 GMT"},"options":{"compress":true}}}

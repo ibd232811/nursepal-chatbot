@@ -1,0 +1,4150 @@
+{
+  "_id" : "chalk",
+  "_rev" : "1237-f768e09f12eb4a8184dcebebbb1890d5",
+  "name" : "chalk",
+  "description" : "Terminal string styling done right",
+  "dist-tags" : {
+    "next" : "3.0.0-beta.2",
+    "chalk-chalk-master.tar.gz-art-external" : "1.0.0-art-external1",
+    "latest" : "5.6.2"
+  },
+  "versions" : {
+    "0.5.1" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right. Created because the `colors` module does some really horrible things.",
+      "version" : "0.5.1",
+      "homepage" : "https://github.com/sindresorhus/chalk",
+      "repository" : {
+        "url" : "git://github.com/sindresorhus/chalk",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-0.5.1.tgz",
+        "shasum" : "663b3a648b68b55d04690d49167aa837858f2174"
+      },
+      "dependencies" : {
+        "has-ansi" : "^0.1.0",
+        "strip-ansi" : "^0.3.0",
+        "ansi-styles" : "^1.1.0",
+        "supports-color" : "^0.2.0",
+        "escape-string-regexp" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "matcha" : "^0.5.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "bench" : "matcha benchmark.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      },
+      "_id" : "chalk@0.5.1",
+      "gitHead" : "994758f01293f1fdcf63282e9917cb9f2cfbdaac",
+      "_shasum" : "663b3a648b68b55d04690d49167aa837858f2174"
+    },
+    "5.6.2" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "5.6.2",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : "^12.17.0 || ^14.13 || >=16.0.0"
+      },
+      "main" : "./source/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-5.6.2.tgz",
+        "shasum" : "b1238b6e23ea337af71c7f8a295db5af0c158aea"
+      },
+      "devDependencies" : {
+        "c8" : "^7.10.0",
+        "xo" : "^0.57.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.19.0",
+        "execa" : "^6.0.0",
+        "matcha" : "^0.7.0",
+        "log-update" : "^5.0.0",
+        "yoctodelay" : "^2.0.0",
+        "@types/node" : "^16.11.10",
+        "color-convert" : "^2.0.1"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && c8 ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@5.6.2",
+      "gitHead" : "51557784b829c87ff8d138206598764f2eb957b1",
+      "types" : "./source/index.d.ts",
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "imports" : {
+        "#ansi-styles" : "./source/vendor/ansi-styles/index.js",
+        "#supports-color" : {
+          "node" : "./source/vendor/supports-color/index.js",
+          "default" : "./source/vendor/supports-color/browser.js"
+        }
+      },
+      "c8" : {
+        "exclude" : [ "source/vendor" ],
+        "reporter" : [ "text", "lcov" ]
+      },
+      "exports" : "./source/index.js",
+      "xo" : {
+        "rules" : {
+          "unicorn/prefer-string-slice" : "off",
+          "unicorn/expiring-todo-comments" : "off",
+          "@typescript-eslint/consistent-type-exports" : "off",
+          "@typescript-eslint/consistent-type-imports" : "off",
+          "@typescript-eslint/consistent-type-definitions" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_5.6.2_1757342874299_0.9496636300891743",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "22.12.0"
+    },
+    "0.4.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right. Created because the `colors` module does some really horrible things.",
+      "version" : "0.4.0",
+      "author" : {
+        "url" : "http://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/chalk",
+      "repository" : {
+        "url" : "git://github.com/sindresorhus/chalk",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-0.4.0.tgz",
+        "shasum" : "5199a3ddcd0c1efe23bc08c1b027b06176e0c64f"
+      },
+      "dependencies" : {
+        "has-color" : "~0.1.0",
+        "strip-ansi" : "~0.1.0",
+        "ansi-styles" : "~1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "~1.x"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.17",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@0.4.0"
+    },
+    "0.5.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right. Created because the `colors` module does some really horrible things.",
+      "version" : "0.5.0",
+      "homepage" : "https://github.com/sindresorhus/chalk",
+      "repository" : {
+        "url" : "git://github.com/sindresorhus/chalk",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-0.5.0.tgz",
+        "shasum" : "375dfccbc21c0a60a8b61bc5b78f3dc2a55c212f"
+      },
+      "dependencies" : {
+        "has-ansi" : "^0.1.0",
+        "strip-ansi" : "^0.3.0",
+        "ansi-styles" : "^1.1.0",
+        "supports-color" : "^0.2.0",
+        "escape-string-regexp" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "matcha" : "^0.5.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "bench" : "matcha benchmark.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@0.5.0",
+      "_shasum" : "375dfccbc21c0a60a8b61bc5b78f3dc2a55c212f"
+    },
+    "1.0.0-art-external1" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "4.0.0",
+      "repository" : "chalk/chalk",
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "source",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/_external/chalk-chalk-master.tar.gz",
+        "shasum" : "9a3035faed6de71d7d24318640dc725ad8c1e88f"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^4.1.0",
+        "supports-color" : "^7.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "^2.4.0",
+        "coveralls" : "^3.0.7",
+        "execa" : "^4.0.0",
+        "import-fresh" : "^3.1.0",
+        "matcha" : "^0.7.0",
+        "nyc" : "^15.0.0",
+        "resolve-from" : "^5.0.0",
+        "tsd" : "^0.7.4",
+        "xo" : "^0.28.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "source", "index.d.ts" ],
+      "scripts" : {
+        "test" : "xo && nyc ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "xo" : {
+        "rules" : {
+          "unicorn/prefer-string-slice" : "off",
+          "unicorn/prefer-includes" : "off",
+          "@typescript-eslint/member-ordering" : "off",
+          "no-redeclare" : "off",
+          "unicorn/string-content" : "off",
+          "unicorn/better-regex" : "off"
+        }
+      }
+    },
+    "4.1.1" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "4.1.1",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "source",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-4.1.1.tgz",
+        "shasum" : "c80b3fab28bf6371e6863325eee67e618b77e6ad"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^4.1.0",
+        "supports-color" : "^7.1.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.28.2",
+        "ava" : "^2.4.0",
+        "nyc" : "^15.0.0",
+        "tsd" : "^0.7.4",
+        "execa" : "^4.0.0",
+        "matcha" : "^0.7.0",
+        "coveralls" : "^3.0.7",
+        "import-fresh" : "^3.1.0",
+        "resolve-from" : "^5.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "7.5.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@4.1.1",
+      "gitHead" : "89e9e3a5b0601f4eda4c3a92acd887ec836d0175",
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "xo" : {
+        "rules" : {
+          "no-redeclare" : "off",
+          "unicorn/better-regex" : "off",
+          "unicorn/string-content" : "off",
+          "unicorn/prefer-includes" : "off",
+          "unicorn/prefer-string-slice" : "off",
+          "@typescript-eslint/member-ordering" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_4.1.1_1618995257952_0.8528874341897312",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.22.1"
+    },
+    "4.1.2" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "4.1.2",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "source",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-4.1.2.tgz",
+        "shasum" : "aac4e2b7734a740867aeb16bf02aad556a1e7a01"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^4.1.0",
+        "supports-color" : "^7.1.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.28.2",
+        "ava" : "^2.4.0",
+        "nyc" : "^15.0.0",
+        "tsd" : "^0.7.4",
+        "execa" : "^4.0.0",
+        "matcha" : "^0.7.0",
+        "coveralls" : "^3.0.7",
+        "import-fresh" : "^3.1.0",
+        "resolve-from" : "^5.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "7.5.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@4.1.2",
+      "gitHead" : "95d74cbe8d3df3674dec1445a4608d3288d8b73c",
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "xo" : {
+        "rules" : {
+          "no-redeclare" : "off",
+          "unicorn/better-regex" : "off",
+          "unicorn/string-content" : "off",
+          "unicorn/prefer-includes" : "off",
+          "unicorn/prefer-string-slice" : "off",
+          "@typescript-eslint/member-ordering" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_4.1.2_1627646572658_0.5829286157088185",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.22.1"
+    },
+    "4.0.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "4.0.0",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "source",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-4.0.0.tgz",
+        "shasum" : "6e98081ed2d17faab615eb52ac66ec1fe6209e72"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^4.1.0",
+        "supports-color" : "^7.1.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.28.2",
+        "ava" : "^2.4.0",
+        "nyc" : "^15.0.0",
+        "tsd" : "^0.7.4",
+        "execa" : "^4.0.0",
+        "matcha" : "^0.7.0",
+        "coveralls" : "^3.0.7",
+        "import-fresh" : "^3.1.0",
+        "resolve-from" : "^5.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@4.0.0",
+      "gitHead" : "31fa94208034cb7581a81b06045ff2cf51057b40",
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "xo" : {
+        "rules" : {
+          "no-redeclare" : "off",
+          "unicorn/better-regex" : "off",
+          "unicorn/string-content" : "off",
+          "unicorn/prefer-includes" : "off",
+          "unicorn/prefer-string-slice" : "off",
+          "@typescript-eslint/member-ordering" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_4.0.0_1585815633587_0.14399738942582263",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.19.0"
+    },
+    "4.1.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "4.1.0",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "source",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-4.1.0.tgz",
+        "shasum" : "4e14870a618d9e2edd97dd8345fd9d9dc315646a"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^4.1.0",
+        "supports-color" : "^7.1.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.28.2",
+        "ava" : "^2.4.0",
+        "nyc" : "^15.0.0",
+        "tsd" : "^0.7.4",
+        "execa" : "^4.0.0",
+        "matcha" : "^0.7.0",
+        "coveralls" : "^3.0.7",
+        "import-fresh" : "^3.1.0",
+        "resolve-from" : "^5.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@4.1.0",
+      "gitHead" : "4c3df8847256f9f2471f0af74100b21afc12949f",
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "xo" : {
+        "rules" : {
+          "no-redeclare" : "off",
+          "unicorn/better-regex" : "off",
+          "unicorn/string-content" : "off",
+          "unicorn/prefer-includes" : "off",
+          "unicorn/prefer-string-slice" : "off",
+          "@typescript-eslint/member-ordering" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_4.1.0_1591688622018_0.2681914768782716",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "0.1.1" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "0.1.1",
+      "author" : {
+        "url" : "http://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/chalk",
+      "repository" : {
+        "url" : "git://github.com/sindresorhus/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "main" : "chalk",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-0.1.1.tgz",
+        "shasum" : "fe6d90ae2c270424720c87ed92d36490b7d36ea0"
+      },
+      "dependencies" : {
+        "has-color" : "~0.1.0",
+        "ansi-styles" : "~0.1.0"
+      },
+      "devDependencies" : {
+        "mocha" : "~1.12.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "chalk.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.32",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@0.1.1"
+    },
+    "0.2.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "0.2.0",
+      "author" : {
+        "url" : "http://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/chalk",
+      "repository" : {
+        "url" : "git://github.com/sindresorhus/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "main" : "chalk",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-0.2.0.tgz",
+        "shasum" : "47270e80edce0e219911af65479d17db525ff5db"
+      },
+      "dependencies" : {
+        "has-color" : "~0.1.0",
+        "ansi-styles" : "~0.2.0"
+      },
+      "devDependencies" : {
+        "mocha" : "~1.12.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "chalk.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.32",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@0.2.0"
+    },
+    "0.2.1" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "0.2.1",
+      "author" : {
+        "url" : "http://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/chalk",
+      "repository" : {
+        "url" : "git://github.com/sindresorhus/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "main" : "chalk",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-0.2.1.tgz",
+        "shasum" : "7613e1575145b21386483f7f485aa5ffa8cbd10c"
+      },
+      "dependencies" : {
+        "has-color" : "~0.1.0",
+        "ansi-styles" : "~0.2.0"
+      },
+      "devDependencies" : {
+        "mocha" : "~1.12.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "chalk.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@0.2.1"
+    },
+    "0.3.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "0.3.0",
+      "author" : {
+        "url" : "http://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/chalk",
+      "repository" : {
+        "url" : "git://github.com/sindresorhus/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "main" : "chalk",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-0.3.0.tgz",
+        "shasum" : "1c98437737f1199ebcc1d4c48fd41b9f9c8e8f23"
+      },
+      "dependencies" : {
+        "has-color" : "~0.1.0",
+        "ansi-styles" : "~0.2.0"
+      },
+      "devDependencies" : {
+        "mocha" : "~1.12.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "chalk.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.10",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@0.3.0"
+    },
+    "0.1.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "0.1.0",
+      "author" : {
+        "url" : "http://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/chalk",
+      "repository" : {
+        "url" : "git://github.com/sindresorhus/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "main" : "chalk",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-0.1.0.tgz",
+        "shasum" : "69afbee2ffab5e0db239450767a6125cbea50fa2"
+      },
+      "dependencies" : {
+        "has-color" : "~0.1.0",
+        "ansi-styles" : "~0.1.0"
+      },
+      "devDependencies" : {
+        "mocha" : "~1.12.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "chalk.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.32",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@0.1.0"
+    },
+    "3.0.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "3.0.0",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "source",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-3.0.0.tgz",
+        "shasum" : "3f73c2bf526591f574cc492c51e2456349f844e4"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^4.1.0",
+        "supports-color" : "^7.1.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.25.3",
+        "ava" : "^2.4.0",
+        "nyc" : "^14.1.1",
+        "tsd" : "^0.7.4",
+        "execa" : "^3.2.0",
+        "matcha" : "^0.7.0",
+        "coveralls" : "^3.0.7",
+        "import-fresh" : "^3.1.0",
+        "resolve-from" : "^5.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "6.13.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@3.0.0",
+      "gitHead" : "20002d8bd1dfd6f68bfa8bdacba520ff6027a450",
+      "xo" : {
+        "rules" : {
+          "unicorn/prefer-includes" : "off",
+          "unicorn/prefer-string-slice" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_3.0.0_1573282748902_0.03099002657701666",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.17.0"
+    },
+    "2.0.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right. Much color",
+      "version" : "2.0.0",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-2.0.0.tgz",
+        "shasum" : "c25c5b823fedff921aa5d83da3ecb5392e84e533"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^3.1.0",
+        "supports-color" : "^4.0.0",
+        "escape-string-regexp" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "nyc" : "^11.0.2",
+        "mocha" : "*",
+        "matcha" : "^0.7.0",
+        "coveralls" : "^2.11.2",
+        "import-fresh" : "^2.0.0",
+        "resolve-from" : "^3.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "templates.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "unicorn",
+        "email" : "sindresorhus+unicorn@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc mocha",
+        "bench" : "matcha benchmark.js",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@2.0.0",
+      "gitHead" : "3fca6150e23439e783409f5c8f948f767c2ddc5a",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk-2.0.0.tgz_1498780161964_0.21432337583974004",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "2.0.1" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right. Much color",
+      "version" : "2.0.1",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-2.0.1.tgz",
+        "shasum" : "dbec49436d2ae15f536114e76d14656cdbc0f44d"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^3.1.0",
+        "supports-color" : "^4.0.0",
+        "escape-string-regexp" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "nyc" : "^11.0.2",
+        "mocha" : "*",
+        "matcha" : "^0.7.0",
+        "coveralls" : "^2.11.2",
+        "import-fresh" : "^2.0.0",
+        "resolve-from" : "^3.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "templates.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "unicorn",
+        "email" : "sindresorhus+unicorn@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc mocha",
+        "bench" : "matcha benchmark.js",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      },
+      "_id" : "chalk@2.0.1",
+      "gitHead" : "5827081719944a2f903b52a88baeec1ec8581f82",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "deprecated" : "Please upgrade to Chalk 2.1.0 - template literals in this version (2.0.1) are quite buggy.",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk-2.0.1.tgz_1498793206623_0.8611406192649156",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "2.1.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "2.1.0",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-2.1.0.tgz",
+        "shasum" : "ac5becf14fa21b99c6c92ca7a7d7cfd5b17e743e"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^3.1.0",
+        "supports-color" : "^4.0.0",
+        "escape-string-regexp" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "nyc" : "^11.0.2",
+        "execa" : "^0.7.0",
+        "matcha" : "^0.7.0",
+        "coveralls" : "^2.11.2",
+        "import-fresh" : "^2.0.0",
+        "resolve-from" : "^3.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "templates.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "unicorn",
+        "email" : "sindresorhus+unicorn@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava",
+        "bench" : "matcha benchmark.js",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      },
+      "_id" : "chalk@2.1.0",
+      "gitHead" : "38f641a222d7ee0e607e4e5209d3931d2af1e409",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk-2.1.0.tgz_1502078203099_0.6595528507605195",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "2.4.2" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "2.4.2",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-2.4.2.tgz",
+        "shasum" : "cd42541677a54333cf541a49108c1432b44c9424"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^3.2.1",
+        "supports-color" : "^5.3.0",
+        "escape-string-regexp" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "nyc" : "^11.0.2",
+        "execa" : "^0.9.0",
+        "matcha" : "^0.7.0",
+        "flow-bin" : "^0.68.0",
+        "coveralls" : "^3.0.0",
+        "typescript" : "^2.5.3",
+        "import-fresh" : "^2.0.0",
+        "resolve-from" : "^4.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsc --project types && flow --max-warnings=0 && nyc ava",
+        "bench" : "matcha benchmark.js",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@2.4.2",
+      "gitHead" : "9776a2ae5b5b1712ccf16416b55f47e575a81fb9",
+      "types" : "types/index.d.ts",
+      "xo" : {
+        "envs" : [ "node", "mocha" ],
+        "ignores" : [ "test/_flow.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_2.4.2_1546703152138_0.5501232329596948",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "2.2.2" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "2.2.2",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-2.2.2.tgz",
+        "shasum" : "4403f5cf18f35c05f51fbdf152bf588f956cf7cb"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^3.1.0",
+        "supports-color" : "^4.0.0",
+        "escape-string-regexp" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "nyc" : "^11.0.2",
+        "execa" : "^0.8.0",
+        "matcha" : "^0.7.0",
+        "coveralls" : "^3.0.0",
+        "typescript" : "^2.5.3",
+        "import-fresh" : "^2.0.0",
+        "resolve-from" : "^4.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "templates.js", "types/index.d.ts" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "unicorn",
+        "email" : "sindresorhus+unicorn@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsc --project types && nyc ava",
+        "bench" : "matcha benchmark.js",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      },
+      "_id" : "chalk@2.2.2",
+      "gitHead" : "e1177ec3628f6d0d37489c1e1accd2c389a376a8",
+      "types" : "types/index.d.ts",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk-2.2.2.tgz_1508815246099_0.3707860491704196",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "2.3.1" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "2.3.1",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-2.3.1.tgz",
+        "shasum" : "523fe2678aec7b04e8041909292fe8b17059b796"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^3.2.0",
+        "supports-color" : "^5.2.0",
+        "escape-string-regexp" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "nyc" : "^11.0.2",
+        "execa" : "^0.9.0",
+        "matcha" : "^0.7.0",
+        "coveralls" : "^3.0.0",
+        "typescript" : "^2.5.3",
+        "import-fresh" : "^2.0.0",
+        "resolve-from" : "^4.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "templates.js", "types/index.d.ts" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "unicorn",
+        "email" : "sindresorhus+unicorn@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsc --project types && nyc ava",
+        "bench" : "matcha benchmark.js",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@2.3.1",
+      "gitHead" : "ae8a03f2c5c49896adeb3dd4ec5350e4ab9449a2",
+      "types" : "types/index.d.ts",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_2.3.1_1518355108425_0.3816906865374552",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "2.4.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "2.4.0",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-2.4.0.tgz",
+        "shasum" : "a060a297a6b57e15b61ca63ce84995daa0fe6e52"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^3.2.1",
+        "supports-color" : "^5.3.0",
+        "escape-string-regexp" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "nyc" : "^11.0.2",
+        "execa" : "^0.9.0",
+        "matcha" : "^0.7.0",
+        "flow-bin" : "^0.68.0",
+        "coveralls" : "^3.0.0",
+        "typescript" : "^2.5.3",
+        "import-fresh" : "^2.0.0",
+        "resolve-from" : "^4.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "templates.js", "types/index.d.ts", "index.js.flow" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "unicorn",
+        "email" : "sindresorhus+unicorn@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsc --project types && flow --max-warnings=0 && nyc ava",
+        "bench" : "matcha benchmark.js",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@2.4.0",
+      "gitHead" : "af8b3657e96a0a6ca5190fb0d0a1345797148320",
+      "types" : "types/index.d.ts",
+      "xo" : {
+        "envs" : [ "node", "mocha" ],
+        "ignores" : [ "test/_flow.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_2.4.0_1523939317754_0.3039215958746819",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "2.3.2" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "2.3.2",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-2.3.2.tgz",
+        "shasum" : "250dc96b07491bfd601e648d66ddf5f60c7a5c65"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^3.2.1",
+        "supports-color" : "^5.3.0",
+        "escape-string-regexp" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "nyc" : "^11.0.2",
+        "execa" : "^0.9.0",
+        "matcha" : "^0.7.0",
+        "coveralls" : "^3.0.0",
+        "typescript" : "^2.5.3",
+        "import-fresh" : "^2.0.0",
+        "resolve-from" : "^4.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "templates.js", "types/index.d.ts" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "unicorn",
+        "email" : "sindresorhus+unicorn@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsc --project types && nyc ava",
+        "bench" : "matcha benchmark.js",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@2.3.2",
+      "gitHead" : "84f27d4bd86f7f482a32652ae536cd996ad204bd",
+      "types" : "types/index.d.ts",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_2.3.2_1520012630405_0.9222977073145247",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "2.4.1" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "2.4.1",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-2.4.1.tgz",
+        "shasum" : "18c49ab16a037b6eb0152cc83e3471338215b66e"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^3.2.1",
+        "supports-color" : "^5.3.0",
+        "escape-string-regexp" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "nyc" : "^11.0.2",
+        "execa" : "^0.9.0",
+        "matcha" : "^0.7.0",
+        "flow-bin" : "^0.68.0",
+        "coveralls" : "^3.0.0",
+        "typescript" : "^2.5.3",
+        "import-fresh" : "^2.0.0",
+        "resolve-from" : "^4.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "templates.js", "types/index.d.ts", "index.js.flow" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "unicorn",
+        "email" : "sindresorhus+unicorn@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsc --project types && flow --max-warnings=0 && nyc ava",
+        "bench" : "matcha benchmark.js",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@2.4.1",
+      "gitHead" : "48ba5b0b9beadcabd9fc406ac4d9337d8fa6b36d",
+      "types" : "types/index.d.ts",
+      "xo" : {
+        "envs" : [ "node", "mocha" ],
+        "ignores" : [ "test/_flow.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_2.4.1_1524719751701_0.7780175911150953",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.11.1"
+    },
+    "2.2.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "2.2.0",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-2.2.0.tgz",
+        "shasum" : "477b3bf2f9b8fd5ca9e429747e37f724ee7af240"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^3.1.0",
+        "supports-color" : "^4.0.0",
+        "escape-string-regexp" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "nyc" : "^11.0.2",
+        "execa" : "^0.8.0",
+        "matcha" : "^0.7.0",
+        "coveralls" : "^3.0.0",
+        "typescript" : "^2.5.3",
+        "import-fresh" : "^2.0.0",
+        "resolve-from" : "^4.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "templates.js", "types/index.d.ts" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "unicorn",
+        "email" : "sindresorhus+unicorn@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsc --project types && nyc ava",
+        "bench" : "matcha benchmark.js",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@2.2.0",
+      "gitHead" : "d86db88e778fa856f4d6f5f68c588750ca06b822",
+      "types" : "types/index.d.ts",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk-2.2.0.tgz_1508296541817_0.8590951061341912",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.7.0"
+    },
+    "2.3.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "2.3.0",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-2.3.0.tgz",
+        "shasum" : "b5ea48efc9c1793dccc9b4767c93914d3f2d52ba"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^3.1.0",
+        "supports-color" : "^4.0.0",
+        "escape-string-regexp" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "nyc" : "^11.0.2",
+        "execa" : "^0.8.0",
+        "matcha" : "^0.7.0",
+        "coveralls" : "^3.0.0",
+        "typescript" : "^2.5.3",
+        "import-fresh" : "^2.0.0",
+        "resolve-from" : "^4.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "templates.js", "types/index.d.ts" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "unicorn",
+        "email" : "sindresorhus+unicorn@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsc --project types && nyc ava",
+        "bench" : "matcha benchmark.js",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@2.3.0",
+      "gitHead" : "14e0aa97727019b22f0a003fdc631aeec5e2e24c",
+      "types" : "types/index.d.ts",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk-2.3.0.tgz_1508818375657_0.9021007190458477",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.7.0"
+    },
+    "1.1.2" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right. Much color.",
+      "version" : "1.1.2",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-1.1.2.tgz",
+        "shasum" : "53e9f9e7742f7edf23065c29c0219175a7869155"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^2.2.1",
+        "supports-color" : "^3.1.2",
+        "escape-string-regexp" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "nyc" : "^5.2.0",
+        "mocha" : "*",
+        "matcha" : "^0.6.0",
+        "semver" : "^5.1.0",
+        "coveralls" : "^2.11.2",
+        "resolve-from" : "^2.0.0",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "unicorn",
+        "email" : "sindresorhus+unicorn@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && mocha",
+        "bench" : "matcha benchmark.js",
+        "coverage" : "nyc npm test && nyc report",
+        "coveralls" : "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      },
+      "_id" : "chalk@1.1.2",
+      "gitHead" : "a838948dcbf2674dd28adfbb78e791900ae741e9",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "deprecated" : "chalk@1.1.2 introduces breaking changes. Please use 1.1.3 or above.",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk-1.1.2.tgz_1459207923607_0.6091341155115515",
+        "host" : "packages-12-west.internal.npmjs.com"
+      },
+      "_shasum" : "53e9f9e7742f7edf23065c29c0219175a7869155",
+      "_nodeVersion" : "0.10.32"
+    },
+    "1.1.3" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right. Much color.",
+      "version" : "1.1.3",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-1.1.3.tgz",
+        "shasum" : "a8115c55e4a702fe4d150abd3872822a7e09fc98"
+      },
+      "dependencies" : {
+        "has-ansi" : "^2.0.0",
+        "strip-ansi" : "^3.0.0",
+        "ansi-styles" : "^2.2.1",
+        "supports-color" : "^2.0.0",
+        "escape-string-regexp" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "nyc" : "^3.0.0",
+        "mocha" : "*",
+        "matcha" : "^0.6.0",
+        "semver" : "^4.3.3",
+        "coveralls" : "^2.11.2",
+        "resolve-from" : "^1.0.0",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "unicorn",
+        "email" : "sindresorhus+unicorn@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && mocha",
+        "bench" : "matcha benchmark.js",
+        "coverage" : "nyc npm test && nyc report",
+        "coveralls" : "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      },
+      "_id" : "chalk@1.1.3",
+      "gitHead" : "0d8d8c204eb87a4038219131ad4d8369c9f59d24",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk-1.1.3.tgz_1459210604109_0.3892582862172276",
+        "host" : "packages-12-west.internal.npmjs.com"
+      },
+      "_shasum" : "a8115c55e4a702fe4d150abd3872822a7e09fc98",
+      "_nodeVersion" : "0.10.32"
+    },
+    "3.0.0-beta.2" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "3.0.0-beta.2",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "source",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-3.0.0-beta.2.tgz",
+        "shasum" : "d6a422d12828314a6f2ecad6863c68b706598a22"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^4.1.0",
+        "supports-color" : "^7.1.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.25.3",
+        "ava" : "^2.4.0",
+        "nyc" : "^14.1.1",
+        "tsd" : "^0.7.4",
+        "execa" : "^2.0.3",
+        "matcha" : "^0.7.0",
+        "coveralls" : "^3.0.5",
+        "import-fresh" : "^3.1.0",
+        "resolve-from" : "^5.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@3.0.0-beta.2",
+      "gitHead" : "4de1841129cf3d0a1db7a5d6638402b7828e1731",
+      "xo" : {
+        "rules" : {
+          "unicorn/prefer-includes" : "off",
+          "unicorn/prefer-string-slice" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_3.0.0-beta.2_1570527167016_0.8251191799502275",
+        "host" : "s3://npm-registry-packages"
+      },
+      "readmeFilename" : "readme.md",
+      "_nodeVersion" : "10.16.3"
+    },
+    "3.0.0-beta.1" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "3.0.0-beta.1",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "source",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-3.0.0-beta.1.tgz",
+        "shasum" : "328a0eccc051d6e50787fe112cbcf85b5d5e4d88"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^4.1.0",
+        "supports-color" : "^7.1.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.25.3",
+        "ava" : "^2.4.0",
+        "nyc" : "^14.1.1",
+        "tsd" : "^0.7.4",
+        "execa" : "^2.0.3",
+        "matcha" : "^0.7.0",
+        "coveralls" : "^3.0.5",
+        "import-fresh" : "^3.1.0",
+        "resolve-from" : "^5.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@3.0.0-beta.1",
+      "gitHead" : "48905d08052aad4c8ba53bbd9fbcd8a9faf4f6e5",
+      "xo" : {
+        "rules" : {
+          "unicorn/prefer-includes" : "off",
+          "unicorn/prefer-string-slice" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_3.0.0-beta.1_1569560889303_0.3449501496211118",
+        "host" : "s3://npm-registry-packages"
+      },
+      "readmeFilename" : "readme.md",
+      "_nodeVersion" : "8.16.1"
+    },
+    "5.0.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "5.0.0",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : "^12.17.0 || ^14.13 || >=16.0.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-5.0.0.tgz",
+        "shasum" : "bd96c6bb8e02b96e08c0c3ee2a9d90e050c7b832"
+      },
+      "devDependencies" : {
+        "c8" : "^7.10.0",
+        "xo" : "^0.47.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.19.0",
+        "execa" : "^6.0.0",
+        "matcha" : "^0.7.0",
+        "log-update" : "^5.0.0",
+        "yoctodelay" : "^2.0.0",
+        "@types/node" : "^16.11.10",
+        "color-convert" : "^2.0.1"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && c8 ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@5.0.0",
+      "gitHead" : "4d5c4795ad24c326ae16bfe0c39c826c732716a9",
+      "types" : "./source/index.d.ts",
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "imports" : {
+        "#ansi-styles" : "./source/vendor/ansi-styles/index.js",
+        "#supports-color" : {
+          "node" : "./source/vendor/supports-color/index.js",
+          "default" : "./source/vendor/supports-color/browser.js"
+        }
+      },
+      "c8" : {
+        "exclude" : [ "source/vendor" ],
+        "reporter" : [ "text", "lcov" ]
+      },
+      "exports" : "./source/index.js",
+      "xo" : {
+        "rules" : {
+          "unicorn/prefer-string-slice" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_5.0.0_1637920655740_0.2838492953241636",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "12.22.1"
+    },
+    "5.0.1" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "5.0.1",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : "^12.17.0 || ^14.13 || >=16.0.0"
+      },
+      "main" : "./source/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-5.0.1.tgz",
+        "shasum" : "ca57d71e82bb534a296df63bbacc4a1c22b2a4b6"
+      },
+      "devDependencies" : {
+        "c8" : "^7.10.0",
+        "xo" : "^0.47.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.19.0",
+        "execa" : "^6.0.0",
+        "matcha" : "^0.7.0",
+        "log-update" : "^5.0.0",
+        "yoctodelay" : "^2.0.0",
+        "@types/node" : "^16.11.10",
+        "color-convert" : "^2.0.1"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && c8 ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "8.3.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@5.0.1",
+      "gitHead" : "bccde97f8a1bb125d4fe99e8fd355182101ff4f2",
+      "types" : "./source/index.d.ts",
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "imports" : {
+        "#ansi-styles" : "./source/vendor/ansi-styles/index.js",
+        "#supports-color" : {
+          "node" : "./source/vendor/supports-color/index.js",
+          "default" : "./source/vendor/supports-color/browser.js"
+        }
+      },
+      "c8" : {
+        "exclude" : [ "source/vendor" ],
+        "reporter" : [ "text", "lcov" ]
+      },
+      "exports" : "./source/index.js",
+      "xo" : {
+        "rules" : {
+          "unicorn/prefer-string-slice" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_5.0.1_1646765076079_0.31760153530326884",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.14.0"
+    },
+    "5.1.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "5.1.0",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : "^12.17.0 || ^14.13 || >=16.0.0"
+      },
+      "main" : "./source/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-5.1.0.tgz",
+        "shasum" : "c4b4a62bfb6df0eeeb5dbc52e6a9ecaff14b9976"
+      },
+      "devDependencies" : {
+        "c8" : "^7.10.0",
+        "xo" : "^0.52.4",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.19.0",
+        "execa" : "^6.0.0",
+        "matcha" : "^0.7.0",
+        "log-update" : "^5.0.0",
+        "yoctodelay" : "^2.0.0",
+        "@types/node" : "^16.11.10",
+        "color-convert" : "^2.0.1"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && c8 ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "8.3.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@5.1.0",
+      "gitHead" : "92c55db46f2396c18764e55e6a52dcb49884a42b",
+      "types" : "./source/index.d.ts",
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "imports" : {
+        "#ansi-styles" : "./source/vendor/ansi-styles/index.js",
+        "#supports-color" : {
+          "node" : "./source/vendor/supports-color/index.js",
+          "default" : "./source/vendor/supports-color/browser.js"
+        }
+      },
+      "c8" : {
+        "exclude" : [ "source/vendor" ],
+        "reporter" : [ "text", "lcov" ]
+      },
+      "exports" : "./source/index.js",
+      "xo" : {
+        "rules" : {
+          "unicorn/prefer-string-slice" : "off",
+          "@typescript-eslint/consistent-type-exports" : "off",
+          "@typescript-eslint/consistent-type-imports" : "off",
+          "@typescript-eslint/consistent-type-definitions" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_5.1.0_1664981180277_0.8837577780411197",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "14.19.3"
+    },
+    "5.1.1" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "5.1.1",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : "^12.17.0 || ^14.13 || >=16.0.0"
+      },
+      "main" : "./source/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-5.1.1.tgz",
+        "shasum" : "546fb2b8fc5b7dad0991ef81b2a98b265fa71e02"
+      },
+      "devDependencies" : {
+        "c8" : "^7.10.0",
+        "xo" : "^0.52.4",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.19.0",
+        "execa" : "^6.0.0",
+        "matcha" : "^0.7.0",
+        "log-update" : "^5.0.0",
+        "yoctodelay" : "^2.0.0",
+        "@types/node" : "^16.11.10",
+        "color-convert" : "^2.0.1"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && c8 ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "8.3.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@5.1.1",
+      "gitHead" : "1b4cd21fb15ca441ab8ff1fc4ce9fcd1365e4b7d",
+      "types" : "./source/index.d.ts",
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "imports" : {
+        "#ansi-styles" : "./source/vendor/ansi-styles/index.js",
+        "#supports-color" : {
+          "node" : "./source/vendor/supports-color/index.js",
+          "default" : "./source/vendor/supports-color/browser.js"
+        }
+      },
+      "c8" : {
+        "exclude" : [ "source/vendor" ],
+        "reporter" : [ "text", "lcov" ]
+      },
+      "exports" : "./source/index.js",
+      "xo" : {
+        "rules" : {
+          "unicorn/prefer-string-slice" : "off",
+          "@typescript-eslint/consistent-type-exports" : "off",
+          "@typescript-eslint/consistent-type-imports" : "off",
+          "@typescript-eslint/consistent-type-definitions" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_5.1.1_1665567464573_0.20876003648435004",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.15.0"
+    },
+    "5.2.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "5.2.0",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : "^12.17.0 || ^14.13 || >=16.0.0"
+      },
+      "main" : "./source/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-5.2.0.tgz",
+        "shasum" : "249623b7d66869c673699fb66d65723e54dfcfb3"
+      },
+      "devDependencies" : {
+        "c8" : "^7.10.0",
+        "xo" : "^0.53.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.19.0",
+        "execa" : "^6.0.0",
+        "matcha" : "^0.7.0",
+        "log-update" : "^5.0.0",
+        "yoctodelay" : "^2.0.0",
+        "@types/node" : "^16.11.10",
+        "color-convert" : "^2.0.1"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && c8 ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@5.2.0",
+      "gitHead" : "a370f468a43999e4397094ff5c3d17aadcc4860e",
+      "types" : "./source/index.d.ts",
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "imports" : {
+        "#ansi-styles" : "./source/vendor/ansi-styles/index.js",
+        "#supports-color" : {
+          "node" : "./source/vendor/supports-color/index.js",
+          "default" : "./source/vendor/supports-color/browser.js"
+        }
+      },
+      "c8" : {
+        "exclude" : [ "source/vendor" ],
+        "reporter" : [ "text", "lcov" ]
+      },
+      "exports" : "./source/index.js",
+      "xo" : {
+        "rules" : {
+          "unicorn/prefer-string-slice" : "off",
+          "@typescript-eslint/consistent-type-exports" : "off",
+          "@typescript-eslint/consistent-type-imports" : "off",
+          "@typescript-eslint/consistent-type-definitions" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_5.2.0_1670525187006_0.6054411598751666",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "14.21.1"
+    },
+    "5.1.2" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "5.1.2",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : "^12.17.0 || ^14.13 || >=16.0.0"
+      },
+      "main" : "./source/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-5.1.2.tgz",
+        "shasum" : "d957f370038b75ac572471e83be4c5ca9f8e8c45"
+      },
+      "devDependencies" : {
+        "c8" : "^7.10.0",
+        "xo" : "^0.52.4",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.19.0",
+        "execa" : "^6.0.0",
+        "matcha" : "^0.7.0",
+        "log-update" : "^5.0.0",
+        "yoctodelay" : "^2.0.0",
+        "@types/node" : "^16.11.10",
+        "color-convert" : "^2.0.1"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && c8 ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "8.3.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@5.1.2",
+      "gitHead" : "158bf4429ee5c40fd23d45b7d43e5cbbbdf6795e",
+      "types" : "./source/index.d.ts",
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "imports" : {
+        "#ansi-styles" : "./source/vendor/ansi-styles/index.js",
+        "#supports-color" : {
+          "node" : "./source/vendor/supports-color/index.js",
+          "default" : "./source/vendor/supports-color/browser.js"
+        }
+      },
+      "c8" : {
+        "exclude" : [ "source/vendor" ],
+        "reporter" : [ "text", "lcov" ]
+      },
+      "exports" : "./source/index.js",
+      "xo" : {
+        "rules" : {
+          "unicorn/prefer-string-slice" : "off",
+          "@typescript-eslint/consistent-type-exports" : "off",
+          "@typescript-eslint/consistent-type-imports" : "off",
+          "@typescript-eslint/consistent-type-definitions" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_5.1.2_1665592311613_0.6166299016608878",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.16.0"
+    },
+    "5.3.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "5.3.0",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : "^12.17.0 || ^14.13 || >=16.0.0"
+      },
+      "main" : "./source/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-5.3.0.tgz",
+        "shasum" : "67c20a7ebef70e7f3970a01f90fa210cb6860385"
+      },
+      "devDependencies" : {
+        "c8" : "^7.10.0",
+        "xo" : "^0.53.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.19.0",
+        "execa" : "^6.0.0",
+        "matcha" : "^0.7.0",
+        "log-update" : "^5.0.0",
+        "yoctodelay" : "^2.0.0",
+        "@types/node" : "^16.11.10",
+        "color-convert" : "^2.0.1"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && c8 ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "9.2.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@5.3.0",
+      "gitHead" : "72c742d4716b1f94bb24bbda86d96fbb247ca646",
+      "types" : "./source/index.d.ts",
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "imports" : {
+        "#ansi-styles" : "./source/vendor/ansi-styles/index.js",
+        "#supports-color" : {
+          "node" : "./source/vendor/supports-color/index.js",
+          "default" : "./source/vendor/supports-color/browser.js"
+        }
+      },
+      "c8" : {
+        "exclude" : [ "source/vendor" ],
+        "reporter" : [ "text", "lcov" ]
+      },
+      "exports" : "./source/index.js",
+      "xo" : {
+        "rules" : {
+          "unicorn/prefer-string-slice" : "off",
+          "unicorn/expiring-todo-comments" : "off",
+          "@typescript-eslint/consistent-type-exports" : "off",
+          "@typescript-eslint/consistent-type-imports" : "off",
+          "@typescript-eslint/consistent-type-definitions" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_5.3.0_1688036291769_0.9519443644747436",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "16.20.0"
+    },
+    "1.0.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right. Much color.",
+      "version" : "1.0.0",
+      "homepage" : "https://github.com/sindresorhus/chalk",
+      "repository" : {
+        "url" : "https://github.com/sindresorhus/chalk",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-1.0.0.tgz",
+        "shasum" : "b3cf4ed0ff5397c99c75b8f679db2f52831f96dc"
+      },
+      "dependencies" : {
+        "has-ansi" : "^1.0.3",
+        "strip-ansi" : "^2.0.1",
+        "ansi-styles" : "^2.0.1",
+        "supports-color" : "^1.3.0",
+        "escape-string-regexp" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "matcha" : "^0.6.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "bench" : "matcha benchmark.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@1.0.0",
+      "gitHead" : "8864d3563313ed15574a38dd5c9d5966080c46ce",
+      "_shasum" : "b3cf4ed0ff5397c99c75b8f679db2f52831f96dc",
+      "_nodeVersion" : "0.12.0"
+    },
+    "5.4.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "5.4.0",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : "^12.17.0 || ^14.13 || >=16.0.0"
+      },
+      "main" : "./source/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-5.4.0.tgz",
+        "shasum" : "846fdb5d5d939d6fa3d565cd5545697b6f8b6923"
+      },
+      "devDependencies" : {
+        "c8" : "^7.10.0",
+        "xo" : "^0.57.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.19.0",
+        "execa" : "^6.0.0",
+        "matcha" : "^0.7.0",
+        "log-update" : "^5.0.0",
+        "yoctodelay" : "^2.0.0",
+        "@types/node" : "^16.11.10",
+        "color-convert" : "^2.0.1"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "npm@josh.junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && c8 ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "10.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@5.4.0",
+      "gitHead" : "83acfcf8cb17437b63beceb027180399da74f0a7",
+      "types" : "./source/index.d.ts",
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "imports" : {
+        "#ansi-styles" : "./source/vendor/ansi-styles/index.js",
+        "#supports-color" : {
+          "node" : "./source/vendor/supports-color/index.js",
+          "default" : "./source/vendor/supports-color/browser.js"
+        }
+      },
+      "c8" : {
+        "exclude" : [ "source/vendor" ],
+        "reporter" : [ "text", "lcov" ]
+      },
+      "exports" : "./source/index.js",
+      "xo" : {
+        "rules" : {
+          "unicorn/prefer-string-slice" : "off",
+          "unicorn/expiring-todo-comments" : "off",
+          "@typescript-eslint/consistent-type-exports" : "off",
+          "@typescript-eslint/consistent-type-imports" : "off",
+          "@typescript-eslint/consistent-type-definitions" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_5.4.0_1734544841544_0.4959266765700201",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "23.3.0"
+    },
+    "1.1.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right. Much color.",
+      "version" : "1.1.0",
+      "homepage" : "https://github.com/chalk/chalk",
+      "repository" : {
+        "url" : "https://github.com/chalk/chalk",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-1.1.0.tgz",
+        "shasum" : "09b453cec497a75520e4a60ae48214a8700e0921"
+      },
+      "dependencies" : {
+        "has-ansi" : "^2.0.0",
+        "strip-ansi" : "^3.0.0",
+        "ansi-styles" : "^2.1.0",
+        "supports-color" : "^2.0.0",
+        "escape-string-regexp" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "nyc" : "^3.0.0",
+        "mocha" : "*",
+        "matcha" : "^0.6.0",
+        "semver" : "^4.3.3",
+        "coveralls" : "^2.11.2",
+        "resolve-from" : "^1.0.0",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      }, {
+        "name" : "unicorn",
+        "email" : "sindresorhus+unicorn@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "bench" : "matcha benchmark.js",
+        "coverage" : "nyc npm test && nyc report",
+        "coveralls" : "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      },
+      "_id" : "chalk@1.1.0",
+      "gitHead" : "e9bb6e6000b1c5d4508afabfdc85dd70f582f515",
+      "_shasum" : "09b453cec497a75520e4a60ae48214a8700e0921",
+      "_nodeVersion" : "0.12.4"
+    },
+    "5.4.1" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "5.4.1",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : "^12.17.0 || ^14.13 || >=16.0.0"
+      },
+      "main" : "./source/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-5.4.1.tgz",
+        "shasum" : "1b48bf0963ec158dce2aacf69c093ae2dd2092d8"
+      },
+      "devDependencies" : {
+        "c8" : "^7.10.0",
+        "xo" : "^0.57.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.19.0",
+        "execa" : "^6.0.0",
+        "matcha" : "^0.7.0",
+        "log-update" : "^5.0.0",
+        "yoctodelay" : "^2.0.0",
+        "@types/node" : "^16.11.10",
+        "color-convert" : "^2.0.1"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "npm@josh.junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && c8 ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "10.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@5.4.1",
+      "gitHead" : "5dbc1e2633f3874f43c144fa4919934bc934c495",
+      "types" : "./source/index.d.ts",
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "imports" : {
+        "#ansi-styles" : "./source/vendor/ansi-styles/index.js",
+        "#supports-color" : {
+          "node" : "./source/vendor/supports-color/index.js",
+          "default" : "./source/vendor/supports-color/browser.js"
+        }
+      },
+      "c8" : {
+        "exclude" : [ "source/vendor" ],
+        "reporter" : [ "text", "lcov" ]
+      },
+      "exports" : "./source/index.js",
+      "xo" : {
+        "rules" : {
+          "unicorn/prefer-string-slice" : "off",
+          "unicorn/expiring-todo-comments" : "off",
+          "@typescript-eslint/consistent-type-exports" : "off",
+          "@typescript-eslint/consistent-type-imports" : "off",
+          "@typescript-eslint/consistent-type-definitions" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_5.4.1_1734800692821_0.33369100320867306",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "23.3.0"
+    },
+    "5.5.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "5.5.0",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : "^12.17.0 || ^14.13 || >=16.0.0"
+      },
+      "main" : "./source/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-5.5.0.tgz",
+        "shasum" : "67ada1df5ca809dc84c9b819d76418ddcf128428"
+      },
+      "devDependencies" : {
+        "c8" : "^7.10.0",
+        "xo" : "^0.57.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.19.0",
+        "execa" : "^6.0.0",
+        "matcha" : "^0.7.0",
+        "log-update" : "^5.0.0",
+        "yoctodelay" : "^2.0.0",
+        "@types/node" : "^16.11.10",
+        "color-convert" : "^2.0.1"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "npm@josh.junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && c8 ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@5.5.0",
+      "gitHead" : "67db246ae0a2bbcc57c190d641c5d767e5275160",
+      "types" : "./source/index.d.ts",
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "imports" : {
+        "#ansi-styles" : "./source/vendor/ansi-styles/index.js",
+        "#supports-color" : {
+          "node" : "./source/vendor/supports-color/index.js",
+          "default" : "./source/vendor/supports-color/browser.js"
+        }
+      },
+      "c8" : {
+        "exclude" : [ "source/vendor" ],
+        "reporter" : [ "text", "lcov" ]
+      },
+      "exports" : "./source/index.js",
+      "xo" : {
+        "rules" : {
+          "unicorn/prefer-string-slice" : "off",
+          "unicorn/expiring-todo-comments" : "off",
+          "@typescript-eslint/consistent-type-exports" : "off",
+          "@typescript-eslint/consistent-type-imports" : "off",
+          "@typescript-eslint/consistent-type-definitions" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_5.5.0_1754263329622_0.07389803706521159",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "20.19.1"
+    },
+    "1.1.1" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right. Much color.",
+      "version" : "1.1.1",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-1.1.1.tgz",
+        "shasum" : "509afb67066e7499f7eb3535c77445772ae2d019"
+      },
+      "dependencies" : {
+        "has-ansi" : "^2.0.0",
+        "strip-ansi" : "^3.0.0",
+        "ansi-styles" : "^2.1.0",
+        "supports-color" : "^2.0.0",
+        "escape-string-regexp" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "nyc" : "^3.0.0",
+        "mocha" : "*",
+        "matcha" : "^0.6.0",
+        "semver" : "^4.3.3",
+        "coveralls" : "^2.11.2",
+        "resolve-from" : "^1.0.0",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "str", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      }, {
+        "name" : "unicorn",
+        "email" : "sindresorhus+unicorn@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && mocha",
+        "bench" : "matcha benchmark.js",
+        "coverage" : "nyc npm test && nyc report",
+        "coveralls" : "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.5",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@1.1.1",
+      "gitHead" : "8b554e254e89c85c1fd04dcc444beeb15824e1a5",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "_shasum" : "509afb67066e7499f7eb3535c77445772ae2d019",
+      "_nodeVersion" : "0.12.7"
+    },
+    "5.6.0" : {
+      "name" : "chalk",
+      "description" : "Terminal string styling done right",
+      "version" : "5.6.0",
+      "homepage" : "https://github.com/chalk/chalk#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/chalk.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/chalk/issues"
+      },
+      "engines" : {
+        "node" : "^12.17.0 || ^14.13 || >=16.0.0"
+      },
+      "main" : "./source/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/chalk/-/chalk-5.6.0.tgz",
+        "shasum" : "a1a8d294ea3526dbb77660f12649a08490e33ab8"
+      },
+      "devDependencies" : {
+        "c8" : "^7.10.0",
+        "xo" : "^0.57.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.19.0",
+        "execa" : "^6.0.0",
+        "matcha" : "^0.7.0",
+        "log-update" : "^5.0.0",
+        "yoctodelay" : "^2.0.0",
+        "@types/node" : "^16.11.10",
+        "color-convert" : "^2.0.1"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "npm@josh.junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && c8 ava && tsd",
+        "bench" : "matcha benchmark.js"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "chalk@5.6.0",
+      "gitHead" : "5c91505e184aff4609c0a7fb235770c2f71db4a3",
+      "types" : "./source/index.d.ts",
+      "funding" : "https://github.com/chalk/chalk?sponsor=1",
+      "imports" : {
+        "#ansi-styles" : "./source/vendor/ansi-styles/index.js",
+        "#supports-color" : {
+          "node" : "./source/vendor/supports-color/index.js",
+          "default" : "./source/vendor/supports-color/browser.js"
+        }
+      },
+      "c8" : {
+        "exclude" : [ "source/vendor" ],
+        "reporter" : [ "text", "lcov" ]
+      },
+      "exports" : "./source/index.js",
+      "xo" : {
+        "rules" : {
+          "unicorn/prefer-string-slice" : "off",
+          "unicorn/expiring-todo-comments" : "off",
+          "@typescript-eslint/consistent-type-exports" : "off",
+          "@typescript-eslint/consistent-type-imports" : "off",
+          "@typescript-eslint/consistent-type-definitions" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/chalk_5.6.0_1755415667378_0.8747575983878675",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "20.19.1"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "time" : {
+    "0.5.1" : "2014-07-09T20:24:36.498Z",
+    "5.6.1" : "2025-09-08T13:13:05.239Z",
+    "5.6.2" : "2025-09-08T14:47:54.486Z",
+    "0.4.0" : "2013-12-13T19:30:32.742Z",
+    "0.5.0" : "2014-07-04T21:23:48.003Z",
+    "4.1.1" : "2021-04-21T08:54:18.124Z",
+    "4.1.2" : "2021-07-30T12:02:52.839Z",
+    "4.0.0" : "2020-04-02T08:20:33.785Z",
+    "4.1.0" : "2020-06-09T07:43:42.525Z",
+    "0.1.1" : "2013-08-03T01:38:53.881Z",
+    "0.2.0" : "2013-08-03T16:48:31.308Z",
+    "0.2.1" : "2013-08-29T14:15:49.234Z",
+    "0.3.0" : "2013-10-19T15:58:20.344Z",
+    "0.1.0" : "2013-08-03T00:21:59.499Z",
+    "3.0.0" : "2019-11-09T06:59:09.065Z",
+    "modified" : "2025-10-14T04:55:04.078Z",
+    "2.0.0" : "2017-06-29T23:49:22.932Z",
+    "2.0.1" : "2017-06-30T03:26:46.721Z",
+    "2.1.0" : "2017-08-07T03:56:43.217Z",
+    "created" : "2013-08-03T00:21:56.318Z",
+    "2.4.2" : "2019-01-05T15:45:52.349Z",
+    "2.2.2" : "2017-10-24T03:20:46.238Z",
+    "2.3.1" : "2018-02-11T13:18:28.596Z",
+    "2.4.0" : "2018-04-17T04:28:37.857Z",
+    "2.3.2" : "2018-03-02T17:43:52.786Z",
+    "2.4.1" : "2018-04-26T05:15:51.877Z",
+    "2.2.0" : "2017-10-18T03:15:41.898Z",
+    "2.3.0" : "2017-10-24T04:12:55.953Z",
+    "1.1.2" : "2016-03-28T23:32:04.003Z",
+    "1.1.3" : "2016-03-29T00:16:44.512Z",
+    "3.0.0-beta.2" : "2019-10-08T09:32:47.141Z",
+    "3.0.0-beta.1" : "2019-09-27T05:08:09.440Z",
+    "5.0.0" : "2021-11-26T09:57:35.917Z",
+    "5.0.1" : "2022-03-08T18:44:36.269Z",
+    "5.1.0" : "2022-10-05T14:46:20.465Z",
+    "5.1.1" : "2022-10-12T09:37:44.826Z",
+    "5.2.0" : "2022-12-08T18:46:27.169Z",
+    "5.1.2" : "2022-10-12T16:31:51.839Z",
+    "5.3.0" : "2023-06-29T10:58:11.887Z",
+    "1.0.0" : "2015-02-23T07:41:35.421Z",
+    "5.4.0" : "2024-12-18T18:00:41.792Z",
+    "1.1.0" : "2015-07-01T13:32:13.906Z",
+    "5.4.1" : "2024-12-21T17:04:53.006Z",
+    "5.5.0" : "2025-08-03T23:22:09.818Z",
+    "1.1.1" : "2015-08-19T20:10:58.495Z",
+    "5.6.0" : "2025-08-17T07:27:47.572Z"
+  },
+  "repository" : {
+    "url" : "git+https://github.com/chalk/chalk.git",
+    "type" : "git"
+  },
+  "users" : {
+    "cmdaniels" : true,
+    "godion" : true,
+    "mat2ja" : true,
+    "tangweikun" : true,
+    "kss" : true,
+    "ashokramcse" : true,
+    "emircanok" : true,
+    "goblindegook" : true,
+    "jetthiago" : true,
+    "edwingeng" : true,
+    "bsdprojects" : true,
+    "owaz" : true,
+    "kahboom" : true,
+    "exromany" : true,
+    "ahmetertem" : true,
+    "alexdreptu" : true,
+    "stone_breaker" : true,
+    "kremr" : true,
+    "anoubis" : true,
+    "ejmason" : true,
+    "nasser-torabzade" : true,
+    "mygoare" : true,
+    "raisiqueira" : true,
+    "leapm" : true,
+    "restuta" : true,
+    "viz" : true,
+    "feya" : true,
+    "inderdeep" : true,
+    "shenbin" : true,
+    "mestar" : true,
+    "rocket0191" : true,
+    "qddegtya" : true,
+    "zchunxiao" : true,
+    "limingv5" : true,
+    "colageno" : true,
+    "illuminator" : true,
+    "jclem" : true,
+    "bstevenson" : true,
+    "philosec" : true,
+    "granhermandadblanca" : true,
+    "rickbergfalk" : true,
+    "maxime1992" : true,
+    "karzanosman984" : true,
+    "ehrig" : true,
+    "harumambur" : true,
+    "dpjayasekara" : true,
+    "iori20091101" : true,
+    "simplyianm" : true,
+    "xiaobing" : true,
+    "cedx" : true,
+    "monjer" : true,
+    "joinjoohny" : true,
+    "chrishonniball" : true,
+    "bapinney" : true,
+    "abg" : true,
+    "demoive" : true,
+    "rhaynel" : true,
+    "zhen" : true,
+    "vboctor" : true,
+    "edosrecki" : true,
+    "washiba" : true,
+    "jlertle" : true,
+    "icirellik" : true,
+    "cslasher" : true,
+    "zlatip" : true,
+    "makediff" : true,
+    "federico-garcia" : true,
+    "spenceralger" : true,
+    "rsosenke" : true,
+    "rnbwd" : true,
+    "jerkovicl" : true,
+    "josudoey" : true,
+    "pramodht" : true,
+    "krabello" : true,
+    "geassor" : true,
+    "merdars" : true,
+    "lukvonstrom" : true,
+    "nguyenmanhdat2903" : true,
+    "sanusart" : true,
+    "theamazingfedex" : true,
+    "dntx" : true,
+    "fantasy" : true,
+    "flftfqwxf" : true,
+    "yangtze" : true,
+    "kappuccino" : true,
+    "highgravity" : true,
+    "ruzzll" : true,
+    "d-band" : true,
+    "spywhere" : true,
+    "ninozhang" : true,
+    "arcticicestudio" : true,
+    "piixiiees" : true,
+    "behnameghorbani" : true,
+    "scotttesler" : true,
+    "flozz" : true,
+    "monkeyyy11" : true,
+    "eijs" : true,
+    "nilz3ro" : true,
+    "tcauduro" : true,
+    "patrickkraaij" : true,
+    "jolg42" : true,
+    "passy" : true,
+    "marianoviola" : true,
+    "mseminatore" : true,
+    "henrytseng" : true,
+    "fredev" : true,
+    "xerullian" : true,
+    "wangfeia" : true,
+    "starfox64" : true,
+    "soenkekluth" : true,
+    "ni-p" : true,
+    "sadsenpai" : true,
+    "greenbud-seeds" : true,
+    "ohyeah02" : true,
+    "ephigenia" : true,
+    "yanghcc" : true,
+    "sopov" : true,
+    "scaffrey" : true,
+    "alexreg" : true,
+    "willwolffmyren" : true,
+    "mrahmadawais" : true,
+    "bpatel" : true,
+    "kiandrajayne" : true,
+    "sammyteahan" : true,
+    "razr9" : true,
+    "hehaiyang" : true,
+    "neilor" : true,
+    "xdream86" : true,
+    "lensi" : true,
+    "184455" : true,
+    "carloseduardo" : true,
+    "tstringer" : true,
+    "seangenabe" : true,
+    "gestoria-madrid" : true,
+    "leonweecs" : true,
+    "db6edr" : true,
+    "xuu" : true,
+    "thebespokepixel" : true,
+    "sonhuytran" : true,
+    "pauljmartinez" : true,
+    "balazserdos" : true,
+    "rkoksulics" : true,
+    "largepuma" : true,
+    "andrewtlove" : true,
+    "noyobo" : true,
+    "muhammedyousrii" : true,
+    "buzuli" : true,
+    "langdon-holly" : true,
+    "praxiq" : true,
+    "iuykza" : true,
+    "71emj1" : true,
+    "jonkemp" : true,
+    "carloshpds" : true,
+    "chrisdevwords" : true,
+    "chinaqstar" : true,
+    "leonardorb" : true,
+    "fearnbuster" : true,
+    "kaybeard" : true,
+    "rangzf" : true,
+    "karlbateman" : true,
+    "dbck" : true,
+    "rlgomes" : true,
+    "jesusgoku" : true,
+    "meetravi" : true,
+    "yitzchak" : true,
+    "swapnil_mishra" : true,
+    "andr" : true,
+    "zhbyak47" : true,
+    "yashprit" : true,
+    "ryanwarsaw" : true,
+    "yeming" : true,
+    "daskepon" : true,
+    "gvn" : true,
+    "ierceg" : true,
+    "derflatulator" : true,
+    "subfuzion" : true,
+    "ngpixel" : true,
+    "fabiodr" : true,
+    "necanicum" : true,
+    "justinliao" : true,
+    "gableroux" : true,
+    "fabioricali" : true,
+    "aurium" : true,
+    "dr-benton" : true,
+    "mahume" : true,
+    "rbartoli" : true,
+    "neaker15668" : true,
+    "binnng" : true,
+    "shan" : true,
+    "kmck" : true,
+    "myorkgitis" : true,
+    "taylorpzreal" : true,
+    "ferchoriverar" : true,
+    "scronide" : true,
+    "ljmf00" : true,
+    "codeshrew" : true,
+    "ziflex" : true,
+    "silverwind" : true,
+    "kenlimmj" : true,
+    "mysticatea" : true,
+    "azaritech" : true,
+    "magicmind" : true,
+    "gor0n" : true,
+    "jmoser-amr" : true,
+    "xueboren" : true,
+    "3creatives" : true,
+    "csbun" : true,
+    "luckyulin" : true,
+    "yanrivera" : true,
+    "lijinghust" : true,
+    "nfd" : true,
+    "alexreg90" : true,
+    "dracochou" : true,
+    "abdullahceylan" : true,
+    "pddivine" : true,
+    "yinfxs" : true,
+    "drew.brokke" : true,
+    "alphatr" : true,
+    "rocksynth" : true,
+    "edgardoalz" : true,
+    "hq229075284" : true,
+    "gabeio" : true,
+    "michaeljwilliams" : true,
+    "sasquatch" : true,
+    "danyadsmith" : true,
+    "rizowski" : true,
+    "dwqs" : true,
+    "alexbudin" : true,
+    "yakumat" : true,
+    "oleynikd" : true,
+    "lagora" : true,
+    "akiva" : true,
+    "yikuo" : true,
+    "ctesniere" : true,
+    "mrdain" : true,
+    "thetwosents" : true,
+    "iwaffles" : true,
+    "azevedo" : true,
+    "iainhallam" : true,
+    "blund" : true,
+    "xavierharrell" : true,
+    "qisong" : true,
+    "mdemo" : true,
+    "ivangaravito" : true,
+    "l0gin" : true,
+    "pnolasco" : true,
+    "guananddu" : true,
+    "jsmootiv" : true,
+    "bashkernel" : true,
+    "vapeadores" : true,
+    "dudley" : true,
+    "fintanak" : true,
+    "insomniaqc" : true,
+    "supan_20220713" : true,
+    "chiefy" : true,
+    "severen" : true,
+    "micaelsouza" : true,
+    "masonwan" : true,
+    "cy476571" : true,
+    "zhouanbo" : true,
+    "geekforbrains" : true,
+    "gracelee" : true,
+    "decal" : true,
+    "danday74" : true,
+    "valenwave" : true,
+    "genediazjr" : true,
+    "hitalos" : true,
+    "maniprojs" : true,
+    "masiorama" : true,
+    "jasonnic" : true,
+    "jsimck" : true,
+    "davidnyhuis" : true,
+    "adrien.d" : true,
+    "junyeong" : true,
+    "daniel-lewis-bsc-hons" : true,
+    "prochafilho" : true,
+    "andygreenegrass" : true,
+    "arnold-almeida" : true,
+    "ealen" : true,
+    "leonardodavinci" : true,
+    "allenmoore" : true,
+    "tebb" : true,
+    "c_ogoo" : true,
+    "adrienhobbs" : true,
+    "fassetar" : true,
+    "koalaylj" : true,
+    "jamlen" : true,
+    "nexflo" : true,
+    "isayme" : true,
+    "kikobeats" : true,
+    "wallenberg12" : true,
+    "kontrax" : true,
+    "ivanempire" : true,
+    "liigo" : true,
+    "jedaisaboteur" : true,
+    "slints" : true,
+    "gavinning" : true,
+    "qubyte" : true,
+    "bitfed" : true,
+    "ekmpls" : true,
+    "karlas" : true,
+    "jondotsoy" : true,
+    "ptallen63" : true,
+    "devnka" : true,
+    "vhflat" : true,
+    "tjfwalker" : true,
+    "iceriver2" : true,
+    "flitrue" : true,
+    "davequick" : true,
+    "itonyyo" : true,
+    "ericwbailey" : true,
+    "abuelwafa" : true,
+    "barenko" : true,
+    "alexboorman" : true,
+    "dog1245" : true,
+    "deerflow" : true,
+    "sternelee" : true,
+    "ddffx" : true,
+    "stursby" : true,
+    "avantassel" : true,
+    "miguelprovencio" : true,
+    "krzych93" : true,
+    "russleyshaw" : true,
+    "ifeature" : true,
+    "chaofeis" : true,
+    "nalindak" : true,
+    "adammacias" : true,
+    "iamninad" : true,
+    "taskone" : true,
+    "mjurincic" : true,
+    "macmladen" : true,
+    "subchen" : true,
+    "faraoman" : true,
+    "aamnah" : true,
+    "maycon_ribeiro" : true,
+    "madsummer" : true,
+    "smokinhuzi" : true,
+    "peter.forgacs" : true,
+    "dg1an3" : true,
+    "solygen" : true,
+    "nice_body" : true,
+    "adriasb" : true,
+    "jakedalus" : true,
+    "hibrahimsafak" : true,
+    "gavatron" : true,
+    "romelyus" : true,
+    "ajduke" : true,
+    "michalskuza" : true,
+    "froguard" : true,
+    "ddkothari" : true,
+    "slurm" : true,
+    "dukewan" : true,
+    "brianchung808" : true,
+    "sprying" : true,
+    "rubiadias" : true,
+    "felixgarciasanchez" : true,
+    "jream" : true,
+    "hobord" : true,
+    "pmbenjamin" : true,
+    "voyga" : true,
+    "jasonwang1888" : true,
+    "jamesallured" : true,
+    "three" : true,
+    "chinawolf_wyp" : true,
+    "deubaka" : true,
+    "leonardothibes" : true,
+    "sfpharmaplus" : true,
+    "silentcloud" : true,
+    "tbremer" : true,
+    "ramkrish2079" : true,
+    "thechori" : true,
+    "valentin_h" : true,
+    "cyandev" : true,
+    "tcrowe" : true,
+    "vlasterx" : true,
+    "ctd1500" : true,
+    "jarrodhroberson" : true,
+    "sammihansen" : true,
+    "dzhou777" : true,
+    "ragex1337" : true,
+    "leejefon" : true,
+    "saidgeek" : true,
+    "aereobarato" : true,
+    "youxiachai" : true,
+    "croogie" : true,
+    "arnoldstoba" : true,
+    "omidnikrah" : true,
+    "sewillia" : true,
+    "alexpk" : true,
+    "mattray0295" : true,
+    "pwn" : true,
+    "mattthewcbelanger" : true,
+    "sahilsk" : true,
+    "thegreatrazz" : true,
+    "blackoperat" : true,
+    "cocorax" : true,
+    "sahlzen" : true,
+    "citguy" : true,
+    "demod" : true,
+    "kikna" : true,
+    "brightchen" : true,
+    "manikantag" : true,
+    "questioneer" : true,
+    "qqcome110" : true,
+    "serdar2nc" : true,
+    "ramzesucr" : true,
+    "markthethomas" : true,
+    "oussoulessou" : true,
+    "azz" : true,
+    "mdedirudianto" : true,
+    "sametsisartenep" : true,
+    "eseath" : true,
+    "brubrant" : true,
+    "dexteryy" : true,
+    "alanerzhao" : true,
+    "gurunate" : true,
+    "judlup" : true,
+    "shaomingquan" : true,
+    "damianopetrungaro" : true,
+    "bojand" : true,
+    "myjustify" : true,
+    "gauravmehla" : true,
+    "frknbasaran" : true,
+    "humantriangle" : true,
+    "mmork" : true,
+    "ristostevcev" : true,
+    "ezodude" : true,
+    "volkanongun" : true,
+    "l3au" : true,
+    "wisecolt" : true,
+    "sujeet555" : true,
+    "tg-z" : true,
+    "papb" : true,
+    "santihbc" : true,
+    "kparkov" : true,
+    "lusai" : true,
+    "ksketo" : true,
+    "richardleggett" : true,
+    "boto" : true,
+    "djamseed" : true,
+    "mistkafka" : true,
+    "dkimot" : true,
+    "junos" : true,
+    "demigodliu" : true,
+    "kreshikhin" : true,
+    "nelix" : true,
+    "suryasaripalli" : true,
+    "yorts52" : true,
+    "bursalia-gestion" : true,
+    "oboochin" : true,
+    "waiwaiku" : true,
+    "podlebar" : true,
+    "franksansc" : true,
+    "deyvisonsouto" : true,
+    "z164" : true,
+    "gamr" : true,
+    "iwasawafag" : true,
+    "theodor.lindekaer" : true,
+    "puranjayjain" : true,
+    "ymk" : true,
+    "xiaoqiang.yang" : true,
+    "kphillycat" : true,
+    "coolhanddev" : true,
+    "micahjonas" : true,
+    "owillo" : true,
+    "usex" : true,
+    "ddaversa" : true,
+    "jalik" : true,
+    "davidazullo" : true,
+    "glab" : true,
+    "crashtheuniverse" : true,
+    "jruif" : true,
+    "xfloops" : true,
+    "abeldu" : true,
+    "kazem1" : true,
+    "j3kz" : true,
+    "456wyc" : true,
+    "nicksnell" : true,
+    "alek-s" : true,
+    "letecitanjir" : true,
+    "lourenzo" : true,
+    "avivharuzi" : true,
+    "adrtho4" : true,
+    "kprasha" : true,
+    "mdang8" : true,
+    "nohomey" : true,
+    "smd4" : true,
+    "dannynemer" : true,
+    "shanewholloway" : true,
+    "spinlock" : true,
+    "robotomize" : true,
+    "ripdash" : true,
+    "partsunknown" : true,
+    "thangakumar" : true,
+    "antanst" : true,
+    "openam" : true,
+    "smituk" : true,
+    "stoneren" : true,
+    "antoinelnr" : true,
+    "uniquevn" : true,
+    "anpdx" : true,
+    "fistynuts" : true,
+    "codeprowong" : true,
+    "fengmiaosen" : true,
+    "omegga" : true,
+    "heartnett" : true,
+    "growlybear" : true,
+    "tazjel" : true,
+    "jovenbarola" : true,
+    "landy2014" : true,
+    "instazapas" : true,
+    "prometheas" : true,
+    "sqrtthree" : true,
+    "guumaster" : true,
+    "mgebundy" : true,
+    "robba.jt" : true,
+    "akarem" : true,
+    "jaenqn" : true,
+    "dosevader" : true,
+    "markfknight" : true,
+    "codeandcats" : true,
+    "cueedee" : true,
+    "chinmay2893" : true,
+    "edjroz" : true,
+    "forbeslindesay" : true,
+    "binq" : true,
+    "axelrindle" : true,
+    "morewry" : true,
+    "scottfreecode" : true,
+    "lwdthe1" : true,
+    "allen_lyu" : true,
+    "davask" : true,
+    "nicocube" : true,
+    "kungkk" : true,
+    "semencov" : true,
+    "battlemidget" : true,
+    "mastayoda" : true,
+    "arttse" : true,
+    "popc0rn" : true,
+    "modao" : true,
+    "jorycn" : true,
+    "suissa" : true,
+    "vishwasc" : true,
+    "lekkas" : true,
+    "arkanciscan" : true,
+    "zollero" : true,
+    "becarchal" : true,
+    "amdsouza92" : true,
+    "moimikey" : true,
+    "jysun" : true,
+    "jcottam" : true,
+    "yuxichina" : true,
+    "yfyhsoft" : true,
+    "megeo" : true,
+    "yokiming" : true,
+    "isenricho" : true,
+    "icaliman" : true,
+    "lfilipowicz" : true,
+    "raphaelchaib" : true,
+    "alectic" : true,
+    "evan2x" : true,
+    "djk" : true,
+    "vitre" : true,
+    "tylerhaun" : true,
+    "gochomugo" : true,
+    "liu946" : true,
+    "anhulife" : true,
+    "xgheaven" : true,
+    "craigpatten" : true,
+    "justdomepaul" : true,
+    "ubenzer" : true,
+    "walexstevens" : true,
+    "devxleo" : true,
+    "suchipi" : true,
+    "stefanb" : true,
+    "dm7" : true,
+    "ldq-first" : true,
+    "namhyun-gu" : true,
+    "hexcola" : true,
+    "theaklair" : true,
+    "vyder" : true,
+    "jonathanbergson" : true,
+    "dotnil" : true,
+    "jbnicolai" : true,
+    "brani.djuric" : true,
+    "michaelsbradleyjr" : true,
+    "eserozvataf" : true,
+    "brandonmowat" : true,
+    "pr-anoop" : true,
+    "tpkn" : true,
+    "richardcfelix" : true,
+    "t1st3" : true,
+    "henriesteves" : true,
+    "dlpowless" : true,
+    "sgaim" : true,
+    "gindis" : true,
+    "evanlovely" : true,
+    "mahnunchik" : true,
+    "marco.jahn" : true,
+    "travm" : true,
+    "susuaung" : true,
+    "keybouh" : true,
+    "timwzou" : true,
+    "trocafone" : true,
+    "myterminal" : true,
+    "cbeulke" : true,
+    "davenchy" : true,
+    "egantz" : true,
+    "kleintobe" : true,
+    "muroc" : true,
+    "johnohara" : true,
+    "zapastore" : true,
+    "majgis" : true,
+    "undre4m" : true,
+    "edwin_estrada" : true,
+    "nraibaud" : true,
+    "piecioshka" : true,
+    "jbob" : true,
+    "pedroteosousa" : true,
+    "toddtreece" : true,
+    "jessaustin" : true,
+    "tunnckocore" : true,
+    "strathausen" : true,
+    "colleowino" : true,
+    "mgthomas99" : true,
+    "zhadongmin" : true,
+    "nogirev" : true,
+    "hugovila" : true,
+    "bobxuyang" : true,
+    "robinblomberg" : true,
+    "indooorsman" : true,
+    "williamsando" : true,
+    "fyockm" : true,
+    "bengarrett" : true,
+    "leizongmin" : true,
+    "brentlintner" : true,
+    "cxftj" : true,
+    "behumble" : true,
+    "kurozero" : true,
+    "pandao" : true,
+    "joylobo" : true,
+    "he313572052" : true,
+    "lewisbrown" : true,
+    "glebec" : true,
+    "alquilerargentina" : true,
+    "lqweb" : true,
+    "krocon" : true,
+    "luukmoret" : true,
+    "thibauts" : true,
+    "taber" : true,
+    "giussa_dan" : true,
+    "jasonyikuai" : true,
+    "zhizhunbao995" : true,
+    "conzi" : true,
+    "inhji" : true,
+    "dwayneford" : true,
+    "kikar" : true,
+    "fill" : true,
+    "manojkhannakm" : true,
+    "simoyw" : true,
+    "a3.ivanenko" : true,
+    "bryan.ygf" : true,
+    "shidhincr" : true,
+    "yrocq" : true,
+    "oakley349" : true,
+    "werninator" : true,
+    "logeshpaul" : true,
+    "charlietango592" : true,
+    "shahyar" : true,
+    "jason0518" : true,
+    "bsara" : true,
+    "superchenney" : true,
+    "kaashin" : true,
+    "josejaguirre" : true,
+    "bernardhamann" : true,
+    "drdanryan" : true,
+    "maxblock" : true,
+    "alex-the-dev" : true,
+    "rpnna" : true,
+    "lius971125" : true,
+    "manishrc" : true,
+    "justintormey" : true,
+    "wfalkwallace" : true,
+    "jeffreysbrother" : true,
+    "zuojiang" : true,
+    "srbdev" : true,
+    "tedyhy" : true,
+    "alnafie" : true,
+    "ali1k" : true,
+    "wenjul" : true,
+    "aidenzou" : true,
+    "gillstrom" : true,
+    "klombomb" : true,
+    "german1608" : true,
+    "gamingcoder" : true,
+    "bcoe" : true,
+    "tosbodes" : true,
+    "charlie.wilson" : true,
+    "lachriz" : true,
+    "jamescostian" : true,
+    "rkmedia" : true,
+    "shoresh319" : true,
+    "xyyjk" : true,
+    "alanchenchen" : true,
+    "mjwilliams" : true,
+    "gberto" : true,
+    "azulejosmetrosubway" : true,
+    "karthickt" : true,
+    "qqqppp9998" : true,
+    "alexandru.vasile" : true,
+    "jasonwbsg" : true,
+    "sparkbuzz" : true,
+    "knoja4" : true,
+    "ocd_lionel" : true,
+    "hmsk" : true,
+    "rdcl" : true,
+    "vincentlau" : true,
+    "frenchbread" : true,
+    "flumpus-dev" : true,
+    "shangsinian" : true,
+    "wenbing" : true,
+    "sua" : true,
+    "sshrike" : true,
+    "fakefarm" : true,
+    "yang.shao" : true,
+    "burl.bn" : true,
+    "rylan_yan" : true,
+    "avenida14" : true,
+    "bluelovers" : true,
+    "liqiang0335" : true,
+    "xlaoyu" : true,
+    "hehehai" : true,
+    "sushiifox" : true,
+    "troels.trvo.dk" : true,
+    "johniexu" : true,
+    "winglonelion" : true,
+    "studi11" : true,
+    "joshdoescode" : true,
+    "duncup" : true,
+    "joaquin.briceno" : true,
+    "prestorondo" : true,
+    "hitesh" : true,
+    "jasoncmcg" : true,
+    "yuvalblass" : true,
+    "dyakovk" : true,
+    "duartemendes" : true,
+    "nackjicholson" : true,
+    "jameskrill" : true,
+    "ruchirgodura" : true,
+    "hemanth" : true,
+    "asfrom30" : true,
+    "amio" : true,
+    "marinru" : true,
+    "thiagowittmann" : true,
+    "podviaznikov" : true,
+    "seanjh" : true,
+    "bcowgi11" : true,
+    "usingthesystem" : true,
+    "cranndarach" : true,
+    "artjacob" : true,
+    "thcheetah777" : true,
+    "vwal" : true,
+    "rockad" : true,
+    "subinvarghesein" : true,
+    "zwwggg" : true,
+    "syaning" : true,
+    "sunnylost" : true,
+    "behrangsa" : true,
+    "danielknaust" : true,
+    "tengisb" : true,
+    "aegypius" : true,
+    "echaouchna" : true,
+    "aim97" : true,
+    "morsellif" : true,
+    "ungurys" : true,
+    "phoward8020" : true,
+    "d9k" : true,
+    "zousandian" : true,
+    "unitetheclans" : true,
+    "nanxing" : true,
+    "levmast" : true,
+    "ftornik" : true,
+    "rshaw" : true,
+    "geeksunny" : true,
+    "old9" : true,
+    "beytek" : true,
+    "pigram" : true,
+    "lorn" : true,
+    "wkaifang" : true,
+    "winjeysong" : true,
+    "kiinlam" : true,
+    "hyanghai" : true,
+    "saadbinsaeed" : true,
+    "laomu" : true,
+    "shriek" : true,
+    "trquoccuong" : true,
+    "rioli" : true,
+    "guioconnor" : true,
+    "hewenxuan" : true,
+    "davidchase" : true,
+    "furzeface" : true,
+    "pirxpilot" : true,
+    "markstos" : true,
+    "tonerbarato" : true,
+    "vision_tecnologica" : true,
+    "shiva127" : true,
+    "sixertoy" : true,
+    "wmcmurray" : true,
+    "mutantspew" : true,
+    "yl2014" : true,
+    "eliasargandara" : true,
+    "hypnoglow" : true,
+    "bigslycat" : true,
+    "andriecool" : true,
+    "dasilvacontin" : true,
+    "shuoshubao" : true,
+    "hugojosefson" : true,
+    "nketchum" : true,
+    "mhaidarh" : true,
+    "zzzze" : true,
+    "django_wong" : true,
+    "sebastian1118" : true,
+    "lefthandhacker" : true,
+    "wisetc" : true,
+    "tmurngon" : true,
+    "nguru" : true,
+    "kodekracker" : true,
+    "yujiikebata" : true,
+    "gabriel.zoroaster" : true,
+    "igorsetsfire" : true,
+    "paulomcnally" : true,
+    "langjun" : true,
+    "mklabs" : true,
+    "liunian" : true,
+    "andi-oxidant" : true,
+    "imaginegenesis" : true,
+    "solodu" : true,
+    "domjtalbot" : true,
+    "rchanaud" : true,
+    "princetoad" : true,
+    "mrzmmr" : true,
+    "chinjon" : true,
+    "lvivier" : true,
+    "mustak" : true,
+    "dyaa" : true,
+    "anticom" : true,
+    "archcorsair" : true,
+    "someok" : true,
+    "angrykoala" : true,
+    "chriscalo" : true,
+    "mrxf" : true,
+    "narven" : true,
+    "sunny.zhouy" : true,
+    "sgpr" : true,
+    "aquafadas" : true,
+    "brainmurder" : true,
+    "wangnan0610" : true,
+    "alimaster" : true,
+    "joni3k" : true,
+    "ferx" : true,
+    "bianlongting" : true,
+    "shaddyhm" : true,
+    "trackds" : true,
+    "kakaman" : true,
+    "ginof" : true,
+    "lijsh" : true,
+    "axelav" : true,
+    "fnouama" : true,
+    "tttai" : true,
+    "vlados" : true,
+    "jonatasnona" : true,
+    "drossman" : true,
+    "leelee.echo" : true,
+    "eb.coder" : true,
+    "gresite_piscinas" : true,
+    "altus" : true,
+    "heyimeugene" : true,
+    "hemstreet" : true,
+    "codyschindler" : true,
+    "saoskia" : true,
+    "m80126colin" : true,
+    "phydo" : true,
+    "tsxuehu" : true,
+    "thomasmeadows" : true,
+    "bicienzu" : true,
+    "shakakira" : true,
+    "cuidapeng" : true,
+    "curcuz" : true,
+    "powellmedia" : true,
+    "liangtongzhuo" : true,
+    "rbecheras" : true,
+    "zguillez" : true,
+    "kaycee" : true,
+    "gdbtek" : true,
+    "jtfu" : true,
+    "rethinkflash" : true,
+    "nak2k" : true,
+    "dd-dxq" : true,
+    "crwnvr" : true,
+    "esundahl" : true,
+    "bvaccc" : true,
+    "demon-php" : true,
+    "iotale" : true,
+    "goodseller" : true,
+    "shaunieb" : true,
+    "schwartzman" : true,
+    "marcfiedler" : true,
+    "fabioper" : true,
+    "junjiansyu" : true,
+    "kobleistvan" : true,
+    "natterstefan" : true,
+    "ericteng177" : true,
+    "nadimix" : true,
+    "brpaz" : true,
+    "abdus" : true,
+    "akic4op4" : true,
+    "brandonb927" : true,
+    "professorcoal" : true,
+    "jits" : true,
+    "cestrensem" : true,
+    "icodeforcookies" : true,
+    "jimnox" : true,
+    "zeroknight" : true,
+    "mohsen" : true,
+    "pedroparra" : true,
+    "clementoh" : true,
+    "alanshaw" : true,
+    "wesleylhandy" : true,
+    "jonnymaceachern" : true,
+    "ahsanshafiq" : true,
+    "zoxon" : true,
+    "minghe" : true,
+    "vampirkod" : true,
+    "leodutra" : true,
+    "lacodda" : true,
+    "hisokader" : true,
+    "backnight" : true,
+    "lucasmciruzzi" : true,
+    "sermir" : true,
+    "xtx1130" : true,
+    "dralc" : true,
+    "isik" : true,
+    "belirafon" : true,
+    "jackvial" : true,
+    "npm-packages" : true,
+    "zplus" : true
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://github.com/chalk/chalk#readme",
+  "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "string", "ansi", "style", "styles", "tty", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+  "bugs" : {
+    "url" : "https://github.com/chalk/chalk/issues"
+  },
+  "license" : "MIT"
+}

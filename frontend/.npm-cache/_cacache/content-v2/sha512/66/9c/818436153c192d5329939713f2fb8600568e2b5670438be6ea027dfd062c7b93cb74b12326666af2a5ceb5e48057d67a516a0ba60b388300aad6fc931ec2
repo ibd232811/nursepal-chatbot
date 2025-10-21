@@ -1,0 +1,2429 @@
+{
+  "_id" : "picomatch",
+  "_rev" : "37-ee5c59102db71aa6cde2de37d4a606c2",
+  "name" : "picomatch",
+  "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+  "dist-tags" : {
+    "latest" : "4.0.3"
+  },
+  "versions" : {
+    "4.0.2" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "4.0.2",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-4.0.2.tgz",
+        "shasum" : "77c742931e8f3b8820946c76cd0c1f13730d1dab"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.1.0",
+        "mocha" : "^10.4.0",
+        "eslint" : "^8.57.0",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives --ignore-path .gitignore .",
+        "test" : "npm run lint && npm run mocha",
+        "mocha" : "mocha --reporter dot",
+        "test:ci" : "npm run test:cover",
+        "test:cover" : "nyc npm run mocha"
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@4.0.2",
+      "gitHead" : "d958901678e12fb10c4e65dfe31e245931e719b3",
+      "funding" : "https://github.com/sponsors/jonschlinkert",
+      "verb" : {
+        "toc" : {
+          "method" : "preWrite",
+          "render" : true,
+          "maxdepth" : 3
+        },
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : "empty",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "braces", "micromatch" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "reporter" : [ "html", "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_4.0.2_1711596191194_0.31621911647882506",
+        "host" : "s3://npm-registry-packages"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "18.16.1"
+    },
+    "4.0.3" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "4.0.3",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/micromatch/picomatch.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-4.0.3.tgz",
+        "shasum" : "796c76136d1eead715db1e7bad785dedd695a042"
+      },
+      "devDependencies" : {
+        "eslint" : "^8.57.0",
+        "fill-range" : "^7.0.1",
+        "gulp-format-md" : "^2.0.0",
+        "mocha" : "^10.4.0",
+        "nyc" : "^15.1.0",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives --ignore-path .gitignore .",
+        "mocha" : "mocha --reporter dot",
+        "test" : "npm run lint && npm run mocha",
+        "test:ci" : "npm run test:cover",
+        "test:cover" : "nyc npm run mocha"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@4.0.3",
+      "gitHead" : "eec6f0bab6a05de4ffb6cf65357f4b5226a58dd9",
+      "funding" : "https://github.com/sponsors/jonschlinkert",
+      "verb" : {
+        "toc" : {
+          "render" : true,
+          "method" : "preWrite",
+          "maxdepth" : 3
+        },
+        "layout" : "empty",
+        "tasks" : [ "readme" ],
+        "plugins" : [ "gulp-format-md" ],
+        "lint" : {
+          "reflinks" : true
+        },
+        "related" : {
+          "list" : [ "braces", "micromatch" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "reporter" : [ "html", "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/picomatch_4.0.3_1752608366305_0.6848992028639387"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "22.13.0"
+    },
+    "4.0.0" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "4.0.0",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-4.0.0.tgz",
+        "shasum" : "8410b450c046948141ca7bd8adfc8cf753a4652a"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.1.0",
+        "mocha" : "^10.2.0",
+        "eslint" : "^8.56.0",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives --ignore-path .gitignore .",
+        "test" : "npm run lint && npm run mocha",
+        "mocha" : "mocha --reporter dot",
+        "test:ci" : "npm run test:cover",
+        "test:cover" : "nyc npm run mocha"
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@4.0.0",
+      "gitHead" : "9db2a4ad919d7dd0182513d7d211393a021bb91e",
+      "funding" : "https://github.com/sponsors/jonschlinkert",
+      "verb" : {
+        "toc" : {
+          "method" : "preWrite",
+          "render" : true,
+          "maxdepth" : 3
+        },
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : "empty",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "braces", "micromatch" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "reporter" : [ "html", "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_4.0.0_1707358931964_0.759314750403971",
+        "host" : "s3://npm-registry-packages"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "18.16.1"
+    },
+    "4.0.1" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "4.0.1",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-4.0.1.tgz",
+        "shasum" : "68c26c8837399e5819edce48590412ea07f17a07"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.1.0",
+        "mocha" : "^10.2.0",
+        "eslint" : "^8.56.0",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives --ignore-path .gitignore .",
+        "test" : "npm run lint && npm run mocha",
+        "mocha" : "mocha --reporter dot",
+        "test:ci" : "npm run test:cover",
+        "test:cover" : "nyc npm run mocha"
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@4.0.1",
+      "gitHead" : "6ce95f5e008590510adac57d1910e574aa65845f",
+      "funding" : "https://github.com/sponsors/jonschlinkert",
+      "verb" : {
+        "toc" : {
+          "method" : "preWrite",
+          "render" : true,
+          "maxdepth" : 3
+        },
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : "empty",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "braces", "micromatch" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "reporter" : [ "html", "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_4.0.1_1707359513149_0.6004248698501251",
+        "host" : "s3://npm-registry-packages"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "18.16.1"
+    },
+    "3.0.0" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "3.0.0",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8.6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-3.0.0.tgz",
+        "shasum" : "95ce1a281a24a340c3ddc981a63d89360c6dab9b"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.0.0",
+        "mocha" : "^6.2.2",
+        "eslint" : "^6.8.0",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives --ignore-path .gitignore .",
+        "test" : "npm run lint && npm run mocha",
+        "mocha" : "mocha --reporter dot",
+        "test:ci" : "npm run test:cover",
+        "test:cover" : "nyc npm run mocha"
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@3.0.0",
+      "gitHead" : "bc719c4c7ee0b1f7e1d1bdd27d60ae1779a43d89",
+      "funding" : "https://github.com/sponsors/jonschlinkert",
+      "verb" : {
+        "toc" : {
+          "method" : "preWrite",
+          "render" : true,
+          "maxdepth" : 3
+        },
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : "empty",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "braces", "micromatch" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "reporter" : [ "html", "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_3.0.0_1698541101595_0.18540257320350095",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "3.0.1" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "3.0.1",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-3.0.1.tgz",
+        "shasum" : "817033161def55ec9638567a2f3bbc876b3e7516"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.0.0",
+        "mocha" : "^6.2.2",
+        "eslint" : "^6.8.0",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives --ignore-path .gitignore .",
+        "test" : "npm run lint && npm run mocha",
+        "mocha" : "mocha --reporter dot",
+        "test:ci" : "npm run test:cover",
+        "test:cover" : "nyc npm run mocha"
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@3.0.1",
+      "gitHead" : "bc719c4c7ee0b1f7e1d1bdd27d60ae1779a43d89",
+      "funding" : "https://github.com/sponsors/jonschlinkert",
+      "verb" : {
+        "toc" : {
+          "method" : "preWrite",
+          "render" : true,
+          "maxdepth" : 3
+        },
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : "empty",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "braces", "micromatch" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "reporter" : [ "html", "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_3.0.1_1698567169869_0.4683729438350761",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "2.0.0" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "2.0.0",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/folder/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/folder/folder.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/folder/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-2.0.0.tgz",
+        "shasum" : "2500b6aa582f98f9f30c6d671bd48f288045f977"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.3.0",
+        "mocha" : "^6.0.2",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@2.0.0",
+      "gitHead" : "8212a2e641ab1365cadeab2110334e268b2a4762",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "micromatch", "braces" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_2.0.0_1554894208830_0.7281662890740057",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "11.9.0"
+    },
+    "2.0.1" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "2.0.1",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/folder/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/folder/folder.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/folder/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-2.0.1.tgz",
+        "shasum" : "5eb60e9bc20eba769e6bce404d0d4f7c5f5d099a"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.3.0",
+        "mocha" : "^6.0.2",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@2.0.1",
+      "gitHead" : "fbdeb893beb223fdc4084797c33ff88049321543",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "micromatch", "braces" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_2.0.1_1554897006577_0.6770058205351768",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "11.9.0"
+    },
+    "2.1.0" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "2.1.0",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8.6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-2.1.0.tgz",
+        "shasum" : "0fd042f568d08b1ad9ff2d3ec0f0bfb3cb80e177"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.3.0",
+        "mocha" : "^6.0.2",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@2.1.0",
+      "gitHead" : "8ba5215c7e4a69bc3ce371bdb559d21553f3518f",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "micromatch", "braces" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_2.1.0_1572509008306_0.7569108006631269",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "13.0.1"
+    },
+    "2.0.6" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "2.0.6",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-2.0.6.tgz",
+        "shasum" : "f39cfedd26213982733ae6b819d3da0e736598d5"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.3.0",
+        "mocha" : "^6.0.2",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@2.0.6",
+      "gitHead" : "49148dc56587afd78ae3467af859e1f8ac49160c",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "micromatch", "braces" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_2.0.6_1556957847393_0.5211348957818349",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.0.0"
+    },
+    "2.0.7" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "2.0.7",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-2.0.7.tgz",
+        "shasum" : "514169d8c7cd0bdbeecc8a2609e34a7163de69f6"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.3.0",
+        "mocha" : "^6.0.2",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      },
+      "_id" : "picomatch@2.0.7",
+      "gitHead" : "9eb9a71780035c5c3e2c1e67eafa3d967f2289b2",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "micromatch", "braces" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_2.0.7_1557855682387_0.9874545198503017",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.15.2"
+    },
+    "2.0.4" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "2.0.4",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-2.0.4.tgz",
+        "shasum" : "b972630d6ba532d905a4d6524c095d0d2140b4ed"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.3.0",
+        "mocha" : "^6.0.2",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@2.0.4",
+      "gitHead" : "c7020d80433bd3a87195cff9c5fe4f261cea0f9f",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "micromatch", "braces" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_2.0.4_1555223690896_0.8356264220137732",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "11.9.0"
+    },
+    "2.2.2" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "2.2.2",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8.6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-2.2.2.tgz",
+        "shasum" : "21f333e9b6b8eaff02468f5146ea406d345f4dad"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.0.0",
+        "mocha" : "^6.2.2",
+        "eslint" : "^6.8.0",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives --ignore-path .gitignore .",
+        "test" : "npm run lint && npm run mocha",
+        "mocha" : "mocha --reporter dot",
+        "test:ci" : "npm run test:cover",
+        "test:cover" : "nyc npm run mocha"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      },
+      "_id" : "picomatch@2.2.2",
+      "gitHead" : "aed790f037736f5c760f7b120935714d21503fe9",
+      "funding" : "https://github.com/sponsors/jonschlinkert",
+      "verb" : {
+        "toc" : {
+          "method" : "preWrite",
+          "render" : true,
+          "maxdepth" : 3
+        },
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : "empty",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "braces", "micromatch" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "reporter" : [ "html", "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_2.2.2_1584790334576_0.87664955346259",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "2.3.1" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "2.3.1",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8.6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-2.3.1.tgz",
+        "shasum" : "3ba3833733646d9d3e4995946c1365a67fb07a42"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.0.0",
+        "mocha" : "^6.2.2",
+        "eslint" : "^6.8.0",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives --ignore-path .gitignore .",
+        "test" : "npm run lint && npm run mocha",
+        "mocha" : "mocha --reporter dot",
+        "test:ci" : "npm run test:cover",
+        "test:cover" : "nyc npm run mocha"
+      },
+      "_npmVersion" : "6.14.15",
+      "_npmUser" : {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      },
+      "_id" : "picomatch@2.3.1",
+      "gitHead" : "5467a5a9638472610de4f30709991b9a56bb5613",
+      "funding" : "https://github.com/sponsors/jonschlinkert",
+      "verb" : {
+        "toc" : {
+          "method" : "preWrite",
+          "render" : true,
+          "maxdepth" : 3
+        },
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : "empty",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "braces", "micromatch" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "reporter" : [ "html", "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_2.3.1_1641143904045_0.8104619493917313",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.22.8"
+    },
+    "2.0.5" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "2.0.5",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-2.0.5.tgz",
+        "shasum" : "067456ff321d6447ca3dc32273d7bbf19ab2face"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.3.0",
+        "mocha" : "^6.0.2",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@2.0.5",
+      "gitHead" : "f364c5bc3412bf029a60540cfdd5c85dcbd6a2a9",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "micromatch", "braces" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_2.0.5_1555774971490_0.37326703747523826",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "11.14.0"
+    },
+    "2.2.3" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "2.2.3",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8.6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-2.2.3.tgz",
+        "shasum" : "465547f359ccc206d3c48e46a1bcb89bf7ee619d"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.0.0",
+        "mocha" : "^6.2.2",
+        "eslint" : "^6.8.0",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives --ignore-path .gitignore .",
+        "test" : "npm run lint && npm run mocha",
+        "mocha" : "mocha --reporter dot",
+        "test:ci" : "npm run test:cover",
+        "test:cover" : "nyc npm run mocha"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      },
+      "_id" : "picomatch@2.2.3",
+      "gitHead" : "8839c01247bc39a5837428dbdf381fd47c564f1f",
+      "funding" : "https://github.com/sponsors/jonschlinkert",
+      "verb" : {
+        "toc" : {
+          "method" : "preWrite",
+          "render" : true,
+          "maxdepth" : 3
+        },
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : "empty",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "braces", "micromatch" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "reporter" : [ "html", "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_2.2.3_1618049680785_0.34621149383553895",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.15.0"
+    },
+    "2.0.2" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "2.0.2",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/folder/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/folder/folder.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/folder/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-2.0.2.tgz",
+        "shasum" : "7369a814568197e8bfaab6a53d6a2f989cb09e3f"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.3.0",
+        "mocha" : "^6.0.2",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@2.0.2",
+      "gitHead" : "64a4660ca62b5718dd4b440242cf914fbac000e4",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "micromatch", "braces" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_2.0.2_1554898596496_0.06921179849650527",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "11.9.0"
+    },
+    "2.1.1" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "2.1.1",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8.6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-2.1.1.tgz",
+        "shasum" : "ecdfbea7704adb5fe6fb47f9866c4c0e15e905c5"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.3.0",
+        "mocha" : "^6.0.2",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      },
+      "_id" : "picomatch@2.1.1",
+      "gitHead" : "7944dd0f7d174b067c6f3fddbaefb0a8ae9900c9",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "micromatch", "braces" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_2.1.1_1573079005960_0.8760210690317336",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "2.2.0" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "2.2.0",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8.6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-2.2.0.tgz",
+        "shasum" : "e16e8587cb70cb515a698ee4a0f2df1edb0c9aa3"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.0.0",
+        "mocha" : "^6.2.2",
+        "eslint" : "^6.8.0",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives --ignore-path .gitignore .",
+        "test" : "npm run lint && npm run mocha",
+        "mocha" : "mocha --reporter dot",
+        "test:ci" : "npm run lint && npm run test:cover",
+        "test:cover" : "nyc npm run mocha"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@2.2.0",
+      "gitHead" : "002e806951ddadc7b27c9d8e8f92d6709d34d1d7",
+      "funding" : "https://github.com/sponsors/jonschlinkert",
+      "verb" : {
+        "toc" : {
+          "method" : "preWrite",
+          "render" : true,
+          "maxdepth" : 3
+        },
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : "empty",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "braces", "micromatch" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "reporter" : [ "html", "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_2.2.0_1578169900719_0.35959725130594666",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "13.5.0"
+    },
+    "2.0.3" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "2.0.3",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/folder/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/folder/folder.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/folder/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-2.0.3.tgz",
+        "shasum" : "8523b368260e5f6fb5da5e45fc7a582f9a0a15e2"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.3.0",
+        "mocha" : "^6.0.2",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@2.0.3",
+      "gitHead" : "818cd93b8172663acd19d17c18b5059d5130a031",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "micromatch", "braces" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_2.0.3_1554900219249_0.170282712670206",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "11.9.0"
+    },
+    "2.2.1" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "2.2.1",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8.6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-2.2.1.tgz",
+        "shasum" : "21bac888b6ed8601f831ce7816e335bc779f0a4a"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.0.0",
+        "mocha" : "^6.2.2",
+        "eslint" : "^6.8.0",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives --ignore-path .gitignore .",
+        "test" : "npm run lint && npm run mocha",
+        "mocha" : "mocha --reporter dot",
+        "test:ci" : "npm run lint && npm run test:cover",
+        "test:cover" : "nyc npm run mocha"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@2.2.1",
+      "gitHead" : "1d546ea22efa8ff3ca15b4848a2dffdb53aaef9a",
+      "funding" : "https://github.com/sponsors/jonschlinkert",
+      "verb" : {
+        "toc" : {
+          "method" : "preWrite",
+          "render" : true,
+          "maxdepth" : 3
+        },
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : "empty",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "braces", "micromatch" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "reporter" : [ "html", "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_2.2.1_1578172787892_0.37797747768464274",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "13.5.0"
+    },
+    "2.3.0" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "2.3.0",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/micromatch/picomatch.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/micromatch/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8.6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-2.3.0.tgz",
+        "shasum" : "f1f061de8f6a4bf022892e2d128234fb98302972"
+      },
+      "devDependencies" : {
+        "nyc" : "^15.0.0",
+        "mocha" : "^6.2.2",
+        "eslint" : "^6.8.0",
+        "fill-range" : "^7.0.1",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives --ignore-path .gitignore .",
+        "test" : "npm run lint && npm run mocha",
+        "mocha" : "mocha --reporter dot",
+        "test:ci" : "npm run test:cover",
+        "test:cover" : "nyc npm run mocha"
+      },
+      "_npmVersion" : "7.10.0",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@2.3.0",
+      "gitHead" : "68797253c84ffaf3c5386cdeb5325920fd96726a",
+      "funding" : "https://github.com/sponsors/jonschlinkert",
+      "verb" : {
+        "toc" : {
+          "method" : "preWrite",
+          "render" : true,
+          "maxdepth" : 3
+        },
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : "empty",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "braces", "micromatch" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "fill-range", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "reporter" : [ "html", "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_2.3.0_1621648160214_0.689432455944144",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.0.0"
+    },
+    "1.1.2" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "1.1.2",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/folder/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/folder/folder.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/folder/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-1.1.2.tgz",
+        "shasum" : "122f5efb555576410acc4bc328fb1a1eb69ae537"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.0.1",
+        "mocha" : "^3.5.3",
+        "minimist" : "^1.2.0",
+        "minimatch" : "^3.0.4",
+        "bash-match" : "^1.0.2",
+        "fill-range" : "^6.0.0",
+        "multimatch" : "^2.1.0",
+        "ansi-colors" : "^3.2.1",
+        "gulp-format-md" : "^1.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@1.1.2",
+      "gitHead" : "c50cb8b2d61976e8ae4244c6aedeef63c0fc474c",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "micromatch", "braces" ]
+        },
+        "reflinks" : [ "bash", "fill-range", "micromatch", "minimatch", "braces", "expand-brackets", "extglob", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_1.1.2_1544843580410_0.9152113891811657",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "11.4.0"
+    },
+    "1.0.0" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "1.0.0",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/folder/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/folder/folder.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/folder/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-1.0.0.tgz",
+        "shasum" : "ad8e4b63ed9ec16ecce02e55b7cca6eb1933e0f8"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.0.1",
+        "mocha" : "^3.5.3",
+        "minimist" : "^1.2.0",
+        "minimatch" : "^3.0.4",
+        "bash-match" : "file:../bash-match",
+        "fill-range" : "^6.0.0",
+        "multimatch" : "^2.1.0",
+        "ansi-colors" : "^3.0.5",
+        "gulp-format-md" : "^1.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@1.0.0",
+      "gitHead" : "e31190a5be26c1d69651db566792878e18a6a1ed",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ ]
+        },
+        "reflinks" : [ "bash", "fill-range", "micromatch", "minimatch", "braces", "expand-brackets", "extglob", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_1.0.0_1541419628561_0.6850721941651912",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "1.0.1" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "1.0.1",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/folder/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/folder/folder.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/folder/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-1.0.1.tgz",
+        "shasum" : "299734ea87cc808a76fd173bee0ae32ea38e0a39"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.0.1",
+        "mocha" : "^3.5.3",
+        "minimist" : "^1.2.0",
+        "minimatch" : "^3.0.4",
+        "bash-match" : "^1.0.2",
+        "fill-range" : "^6.0.0",
+        "multimatch" : "^2.1.0",
+        "ansi-colors" : "^3.0.5",
+        "gulp-format-md" : "^1.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@1.0.1",
+      "gitHead" : "087aa19296fb4b5bba0baf8e63535573b6f7e8f5",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ ]
+        },
+        "reflinks" : [ "bash", "fill-range", "micromatch", "minimatch", "braces", "expand-brackets", "extglob", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_1.0.1_1541419920246_0.36685476241990167",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "1.1.0" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "1.1.0",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/folder/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/folder/folder.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/folder/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-1.1.0.tgz",
+        "shasum" : "5e32a8576929be2cd3a0ce94b5b9e35efe2adb07"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.0.1",
+        "mocha" : "^3.5.3",
+        "minimist" : "^1.2.0",
+        "minimatch" : "^3.0.4",
+        "bash-match" : "^1.0.2",
+        "fill-range" : "^6.0.0",
+        "multimatch" : "^2.1.0",
+        "ansi-colors" : "^3.2.1",
+        "gulp-format-md" : "^1.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@1.1.0",
+      "gitHead" : "77bd2d05830b10e8bac557beeb54d201fb007f2c",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "micromatch", "braces" ]
+        },
+        "reflinks" : [ "bash", "fill-range", "micromatch", "minimatch", "braces", "expand-brackets", "extglob", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_1.1.0_1544807904081_0.47910854865565145",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "11.4.0"
+    },
+    "1.0.2" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "1.0.2",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/folder/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/folder/folder.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/folder/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-1.0.2.tgz",
+        "shasum" : "47a605ba6b76f20305331302b5d4ed731c69bdc9"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.0.1",
+        "mocha" : "^3.5.3",
+        "minimist" : "^1.2.0",
+        "minimatch" : "^3.0.4",
+        "bash-match" : "^1.0.2",
+        "fill-range" : "^6.0.0",
+        "multimatch" : "^2.1.0",
+        "ansi-colors" : "^3.0.5",
+        "gulp-format-md" : "^1.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@1.0.2",
+      "gitHead" : "6e17e8982e83965f0d9f468a83e945ad7da92c1b",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ ]
+        },
+        "reflinks" : [ "bash", "fill-range", "micromatch", "minimatch", "braces", "expand-brackets", "extglob", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_1.0.2_1541425529166_0.3812978102395246",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "1.1.1" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "1.1.1",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/folder/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/folder/folder.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/folder/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-1.1.1.tgz",
+        "shasum" : "ddd4fd27472e8d558bfb6a8f7ef36b1c1a338d8b"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.0.1",
+        "mocha" : "^3.5.3",
+        "minimist" : "^1.2.0",
+        "minimatch" : "^3.0.4",
+        "bash-match" : "^1.0.2",
+        "fill-range" : "^6.0.0",
+        "multimatch" : "^2.1.0",
+        "ansi-colors" : "^3.2.1",
+        "gulp-format-md" : "^1.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@1.1.1",
+      "gitHead" : "77bd2d05830b10e8bac557beeb54d201fb007f2c",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "micromatch", "braces" ]
+        },
+        "reflinks" : [ "bash", "fill-range", "micromatch", "minimatch", "braces", "expand-brackets", "extglob", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_1.1.1_1544843388115_0.8869841129031935",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "11.4.0"
+    },
+    "1.2.0" : {
+      "name" : "picomatch",
+      "description" : "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+      "version" : "1.2.0",
+      "author" : {
+        "url" : "https://github.com/jonschlinkert",
+        "name" : "Jon Schlinkert"
+      },
+      "homepage" : "https://github.com/folder/picomatch",
+      "repository" : {
+        "url" : "git+https://github.com/folder/folder.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/folder/picomatch/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picomatch/-/picomatch-1.2.0.tgz",
+        "shasum" : "ac60ec8b6ff5953a505de2fd5b2b0a1e1d7287e0"
+      },
+      "devDependencies" : {
+        "nyc" : "^13.3.0",
+        "mocha" : "^6.0.2",
+        "fill-range" : "^6.0.0",
+        "time-require" : "jonschlinkert-time-require-master.tar.gz-art-external",
+        "gulp-format-md" : "^2.0.0"
+      },
+      "keywords" : [ "glob", "match", "picomatch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "cover" : "nyc --reporter=text --reporter=html mocha"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "picomatch@1.2.0",
+      "gitHead" : "15a5d0e85cf411d1331078e896e764fc102533d2",
+      "verb" : {
+        "toc" : false,
+        "lint" : {
+          "reflinks" : true
+        },
+        "tasks" : [ "readme" ],
+        "layout" : false,
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "micromatch", "braces" ]
+        },
+        "reflinks" : [ "braces", "expand-brackets", "extglob", "micromatch", "minimatch", "nanomatch", "picomatch" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picomatch_1.2.0_1553912422567_0.7493384972833748",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "11.9.0"
+    }
+  },
+  "readme" : "<h1 align=\"center\">Picomatch</h1>\n\n<p align=\"center\">\n<a href=\"https://npmjs.org/package/picomatch\">\n<img src=\"https://img.shields.io/npm/v/picomatch.svg\" alt=\"version\">\n</a>\n<a href=\"https://github.com/micromatch/picomatch/actions?workflow=Tests\">\n<img src=\"https://github.com/micromatch/picomatch/workflows/Tests/badge.svg\" alt=\"test status\">\n</a>\n<a href=\"https://coveralls.io/github/micromatch/picomatch\">\n<img src=\"https://img.shields.io/coveralls/github/micromatch/picomatch/master.svg\" alt=\"coverage status\">\n</a>\n<a href=\"https://npmjs.org/package/picomatch\">\n<img src=\"https://img.shields.io/npm/dm/picomatch.svg\" alt=\"downloads\">\n</a>\n</p>\n\n<br>\n<br>\n\n<p align=\"center\">\n<strong>Blazing fast and accurate glob matcher written in JavaScript.</strong></br>\n<em>No dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.</em>\n</p>\n\n<br>\n<br>\n\n## Why picomatch?\n\n* **Lightweight** - No dependencies\n* **Minimal** - Tiny API surface. Main export is a function that takes a glob pattern and returns a matcher function.\n* **Fast** - Loads in about 2ms (that's several times faster than a [single frame of a HD movie](http://www.endmemo.com/sconvert/framespersecondframespermillisecond.php) at 60fps)\n* **Performant** - Use the returned matcher function to speed up repeat matching (like when watching files)\n* **Accurate matching** - Using wildcards (`*` and `?`), globstars (`**`) for nested directories, [advanced globbing](#advanced-globbing) with extglobs, braces, and POSIX brackets, and support for escaping special characters with `\\` or quotes.\n* **Well tested** - Thousands of unit tests\n\nSee the [library comparison](#library-comparisons) to other libraries.\n\n<br>\n<br>\n\n## Table of Contents\n\n<details><summary> Click to expand </summary>\n\n- [Install](#install)\n- [Usage](#usage)\n- [API](#api)\n  * [picomatch](#picomatch)\n  * [.test](#test)\n  * [.matchBase](#matchbase)\n  * [.isMatch](#ismatch)\n  * [.parse](#parse)\n  * [.scan](#scan)\n  * [.compileRe](#compilere)\n  * [.makeRe](#makere)\n  * [.toRegex](#toregex)\n- [Options](#options)\n  * [Picomatch options](#picomatch-options)\n  * [Scan Options](#scan-options)\n  * [Options Examples](#options-examples)\n- [Globbing features](#globbing-features)\n  * [Basic globbing](#basic-globbing)\n  * [Advanced globbing](#advanced-globbing)\n  * [Braces](#braces)\n  * [Matching special characters as literals](#matching-special-characters-as-literals)\n- [Library Comparisons](#library-comparisons)\n- [Benchmarks](#benchmarks)\n- [Philosophies](#philosophies)\n- [About](#about)\n  * [Author](#author)\n  * [License](#license)\n\n_(TOC generated by [verb](https://github.com/verbose/verb) using [markdown-toc](https://github.com/jonschlinkert/markdown-toc))_\n\n</details>\n\n<br>\n<br>\n\n## Install\n\nInstall with [npm](https://www.npmjs.com/):\n\n```sh\nnpm install --save picomatch\n```\n\n<br>\n\n## Usage\n\nThe main export is a function that takes a glob pattern and an options object and returns a function for matching strings.\n\n```js\nconst pm = require('picomatch');\nconst isMatch = pm('*.js');\n\nconsole.log(isMatch('abcd')); //=> false\nconsole.log(isMatch('a.js')); //=> true\nconsole.log(isMatch('a.md')); //=> false\nconsole.log(isMatch('a/b.js')); //=> false\n```\n\n<br>\n\n## API\n\n### [picomatch](lib/picomatch.js#L31)\n\nCreates a matcher function from one or more glob patterns. The returned function takes a string to match as its first argument, and returns true if the string is a match. The returned matcher function also takes a boolean as the second argument that, when true, returns an object with additional information.\n\n**Params**\n\n* `globs` **{String|Array}**: One or more glob patterns.\n* `options` **{Object=}**\n* `returns` **{Function=}**: Returns a matcher function.\n\n**Example**\n\n```js\nconst picomatch = require('picomatch');\n// picomatch(glob[, options]);\n\nconst isMatch = picomatch('*.!(*a)');\nconsole.log(isMatch('a.a')); //=> false\nconsole.log(isMatch('a.b')); //=> true\n```\n\n**Example without node.js**\n\nFor environments without `node.js`, `picomatch/posix` provides you a dependency-free matcher, without automatic OS detection.\n\n```js\nconst picomatch = require('picomatch/posix');\n// the same API, defaulting to posix paths\nconst isMatch = picomatch('a/*');\nconsole.log(isMatch('a\\\\b')); //=> false\nconsole.log(isMatch('a/b')); //=> true\n\n// you can still configure the matcher function to accept windows paths\nconst isMatch = picomatch('a/*', { options: windows });\nconsole.log(isMatch('a\\\\b')); //=> true\nconsole.log(isMatch('a/b')); //=> true\n```\n\n### [.test](lib/picomatch.js#L116)\n\nTest `input` with the given `regex`. This is used by the main `picomatch()` function to test the input string.\n\n**Params**\n\n* `input` **{String}**: String to test.\n* `regex` **{RegExp}**\n* `returns` **{Object}**: Returns an object with matching info.\n\n**Example**\n\n```js\nconst picomatch = require('picomatch');\n// picomatch.test(input, regex[, options]);\n\nconsole.log(picomatch.test('foo/bar', /^(?:([^/]*?)\\/([^/]*?))$/));\n// { isMatch: true, match: [ 'foo/', 'foo', 'bar' ], output: 'foo/bar' }\n```\n\n### [.matchBase](lib/picomatch.js#L160)\n\nMatch the basename of a filepath.\n\n**Params**\n\n* `input` **{String}**: String to test.\n* `glob` **{RegExp|String}**: Glob pattern or regex created by [.makeRe](#makeRe).\n* `returns` **{Boolean}**\n\n**Example**\n\n```js\nconst picomatch = require('picomatch');\n// picomatch.matchBase(input, glob[, options]);\nconsole.log(picomatch.matchBase('foo/bar.js', '*.js'); // true\n```\n\n### [.isMatch](lib/picomatch.js#L182)\n\nReturns true if **any** of the given glob `patterns` match the specified `string`.\n\n**Params**\n\n* **{String|Array}**: str The string to test.\n* **{String|Array}**: patterns One or more glob patterns to use for matching.\n* **{Object}**: See available [options](#options).\n* `returns` **{Boolean}**: Returns true if any patterns match `str`\n\n**Example**\n\n```js\nconst picomatch = require('picomatch');\n// picomatch.isMatch(string, patterns[, options]);\n\nconsole.log(picomatch.isMatch('a.a', ['b.*', '*.a'])); //=> true\nconsole.log(picomatch.isMatch('a.a', 'b.*')); //=> false\n```\n\n### [.parse](lib/picomatch.js#L198)\n\nParse a glob pattern to create the source string for a regular expression.\n\n**Params**\n\n* `pattern` **{String}**\n* `options` **{Object}**\n* `returns` **{Object}**: Returns an object with useful properties and output to be used as a regex source string.\n\n**Example**\n\n```js\nconst picomatch = require('picomatch');\nconst result = picomatch.parse(pattern[, options]);\n```\n\n### [.scan](lib/picomatch.js#L230)\n\nScan a glob pattern to separate the pattern into segments.\n\n**Params**\n\n* `input` **{String}**: Glob pattern to scan.\n* `options` **{Object}**\n* `returns` **{Object}**: Returns an object with\n\n**Example**\n\n```js\nconst picomatch = require('picomatch');\n// picomatch.scan(input[, options]);\n\nconst result = picomatch.scan('!./foo/*.js');\nconsole.log(result);\n{ prefix: '!./',\n  input: '!./foo/*.js',\n  start: 3,\n  base: 'foo',\n  glob: '*.js',\n  isBrace: false,\n  isBracket: false,\n  isGlob: true,\n  isExtglob: false,\n  isGlobstar: false,\n  negated: true }\n```\n\n### [.compileRe](lib/picomatch.js#L244)\n\nCompile a regular expression from the `state` object returned by the\n[parse()](#parse) method.\n\n**Params**\n\n* `state` **{Object}**\n* `options` **{Object}**\n* `returnOutput` **{Boolean}**: Intended for implementors, this argument allows you to return the raw output from the parser.\n* `returnState` **{Boolean}**: Adds the state to a `state` property on the returned regex. Useful for implementors and debugging.\n* `returns` **{RegExp}**\n\n### [.makeRe](lib/picomatch.js#L285)\n\nCreate a regular expression from a parsed glob pattern.\n\n**Params**\n\n* `state` **{String}**: The object returned from the `.parse` method.\n* `options` **{Object}**\n* `returnOutput` **{Boolean}**: Implementors may use this argument to return the compiled output, instead of a regular expression. This is not exposed on the options to prevent end-users from mutating the result.\n* `returnState` **{Boolean}**: Implementors may use this argument to return the state from the parsed glob with the returned regular expression.\n* `returns` **{RegExp}**: Returns a regex created from the given pattern.\n\n**Example**\n\n```js\nconst picomatch = require('picomatch');\nconst state = picomatch.parse('*.js');\n// picomatch.compileRe(state[, options]);\n\nconsole.log(picomatch.compileRe(state));\n//=> /^(?:(?!\\.)(?=.)[^/]*?\\.js)$/\n```\n\n### [.toRegex](lib/picomatch.js#L320)\n\nCreate a regular expression from the given regex source string.\n\n**Params**\n\n* `source` **{String}**: Regular expression source string.\n* `options` **{Object}**\n* `returns` **{RegExp}**\n\n**Example**\n\n```js\nconst picomatch = require('picomatch');\n// picomatch.toRegex(source[, options]);\n\nconst { output } = picomatch.parse('*.js');\nconsole.log(picomatch.toRegex(output));\n//=> /^(?:(?!\\.)(?=.)[^/]*?\\.js)$/\n```\n\n<br>\n\n## Options\n\n### Picomatch options\n\nThe following options may be used with the main `picomatch()` function or any of the methods on the picomatch API.\n\n| **Option** | **Type** | **Default value** | **Description** |\n| --- | --- | --- | --- |\n| `basename`            | `boolean`      | `false`     | If set, then patterns without slashes will be matched against the basename of the path if it contains slashes.  For example, `a?b` would match the path `/xyz/123/acb`, but not `/xyz/acb/123`. |\n| `bash`                | `boolean`      | `false`     | Follow bash matching rules more strictly - disallows backslashes as escape characters, and treats single stars as globstars (`**`). |\n| `capture`             | `boolean`      | `undefined` | Return regex matches in supporting methods. |\n| `contains`            | `boolean`      | `undefined` | Allows glob to match any part of the given string(s). |\n| `cwd`                 | `string`       | `process.cwd()` | Current working directory. Used by `picomatch.split()` |\n| `debug`               | `boolean`      | `undefined` | Debug regular expressions when an error is thrown. |\n| `dot`                 | `boolean`      | `false`     | Enable dotfile matching. By default, dotfiles are ignored unless a `.` is explicitly defined in the pattern, or `options.dot` is true |\n| `expandRange`         | `function`     | `undefined` | Custom function for expanding ranges in brace patterns, such as `{a..z}`. The function receives the range values as two arguments, and it must return a string to be used in the generated regex. It's recommended that returned strings be wrapped in parentheses. |\n| `failglob`            | `boolean`      | `false`     | Throws an error if no matches are found. Based on the bash option of the same name. |\n| `fastpaths`           | `boolean`      | `true`      | To speed up processing, full parsing is skipped for a handful common glob patterns. Disable this behavior by setting this option to `false`. |\n| `flags`               | `string`      | `undefined` | Regex flags to use in the generated regex. If defined, the `nocase` option will be overridden. |\n| [format](#optionsformat) | `function` | `undefined` | Custom function for formatting the returned string. This is useful for removing leading slashes, converting Windows paths to Posix paths, etc. |\n| `ignore`              | `array\\|string` | `undefined` | One or more glob patterns for excluding strings that should not be matched from the result. |\n| `keepQuotes`          | `boolean`      | `false`     | Retain quotes in the generated regex, since quotes may also be used as an alternative to backslashes.  |\n| `literalBrackets`     | `boolean`      | `undefined` | When `true`, brackets in the glob pattern will be escaped so that only literal brackets will be matched. |\n| `matchBase`           | `boolean`      | `false`     | Alias for `basename` |\n| `maxLength`           | `number`      | `65536`     | Limit the max length of the input string. An error is thrown if the input string is longer than this value. |\n| `nobrace`             | `boolean`      | `false`     | Disable brace matching, so that `{a,b}` and `{1..3}` would be treated as literal characters. |\n| `nobracket`           | `boolean`      | `undefined` | Disable matching with regex brackets. |\n| `nocase`              | `boolean`      | `false`     | Make matching case-insensitive. Equivalent to the regex `i` flag. Note that this option is overridden by the `flags` option. |\n| `nodupes`             | `boolean`      | `true`      | Deprecated, use `nounique` instead. This option will be removed in a future major release. By default duplicates are removed. Disable uniquification by setting this option to false. |\n| `noext`               | `boolean`      | `false`     | Alias for `noextglob` |\n| `noextglob`           | `boolean`      | `false`     | Disable support for matching with extglobs (like `+(a\\|b)`) |\n| `noglobstar`          | `boolean`      | `false`     | Disable support for matching nested directories with globstars (`**`) |\n| `nonegate`            | `boolean`      | `false`     | Disable support for negating with leading `!` |\n| `noquantifiers`       | `boolean`      | `false`     | Disable support for regex quantifiers (like `a{1,2}`) and treat them as brace patterns to be expanded. |\n| [onIgnore](#optionsonIgnore) | `function` | `undefined` | Function to be called on ignored items. |\n| [onMatch](#optionsonMatch) | `function` | `undefined` | Function to be called on matched items. |\n| [onResult](#optionsonResult) | `function` | `undefined` | Function to be called on all items, regardless of whether or not they are matched or ignored. |\n| `posix`               | `boolean`      | `false`     | Support POSIX character classes (\"posix brackets\"). |\n| `posixSlashes`        | `boolean`      | `undefined` | Convert all slashes in file paths to forward slashes. This does not convert slashes in the glob pattern itself |\n| `prepend`             | `boolean`      | `undefined` | String to prepend to the generated regex used for matching. |\n| `regex`               | `boolean`      | `false`     | Use regular expression rules for `+` (instead of matching literal `+`), and for stars that follow closing parentheses or brackets (as in `)*` and `]*`). |\n| `strictBrackets`      | `boolean`      | `undefined` | Throw an error if brackets, braces, or parens are imbalanced. |\n| `strictSlashes`       | `boolean`      | `undefined` | When true, picomatch won't match trailing slashes with single stars. |\n| `unescape`            | `boolean`      | `undefined` | Remove backslashes preceding escaped characters in the glob pattern. By default, backslashes are retained. |\n| `unixify`             | `boolean`      | `undefined` | Alias for `posixSlashes`, for backwards compatibility. |\n| `windows`             | `boolean`      | `false`     | Also accept backslashes as the path separator. |\n\n### Scan Options\n\nIn addition to the main [picomatch options](#picomatch-options), the following options may also be used with the [.scan](#scan) method.\n\n| **Option** | **Type** | **Default value** | **Description** |\n| --- | --- | --- | --- |\n| `tokens` | `boolean` | `false` | When `true`, the returned object will include an array of tokens (objects), representing each path \"segment\" in the scanned glob pattern |\n| `parts` | `boolean` | `false` | When `true`, the returned object will include an array of strings representing each path \"segment\" in the scanned glob pattern. This is automatically enabled when `options.tokens` is true |\n\n**Example**\n\n```js\nconst picomatch = require('picomatch');\nconst result = picomatch.scan('!./foo/*.js', { tokens: true });\nconsole.log(result);\n// {\n//   prefix: '!./',\n//   input: '!./foo/*.js',\n//   start: 3,\n//   base: 'foo',\n//   glob: '*.js',\n//   isBrace: false,\n//   isBracket: false,\n//   isGlob: true,\n//   isExtglob: false,\n//   isGlobstar: false,\n//   negated: true,\n//   maxDepth: 2,\n//   tokens: [\n//     { value: '!./', depth: 0, isGlob: false, negated: true, isPrefix: true },\n//     { value: 'foo', depth: 1, isGlob: false },\n//     { value: '*.js', depth: 1, isGlob: true }\n//   ],\n//   slashes: [ 2, 6 ],\n//   parts: [ 'foo', '*.js' ]\n// }\n```\n\n<br>\n\n### Options Examples\n\n#### options.expandRange\n\n**Type**: `function`\n\n**Default**: `undefined`\n\nCustom function for expanding ranges in brace patterns. The [fill-range](https://github.com/jonschlinkert/fill-range) library is ideal for this purpose, or you can use custom code to do whatever you need.\n\n**Example**\n\nThe following example shows how to create a glob that matches a folder\n\n```js\nconst fill = require('fill-range');\nconst regex = pm.makeRe('foo/{01..25}/bar', {\n  expandRange(a, b) {\n    return `(${fill(a, b, { toRegex: true })})`;\n  }\n});\n\nconsole.log(regex);\n//=> /^(?:foo\\/((?:0[1-9]|1[0-9]|2[0-5]))\\/bar)$/\n\nconsole.log(regex.test('foo/00/bar'))  // false\nconsole.log(regex.test('foo/01/bar'))  // true\nconsole.log(regex.test('foo/10/bar')) // true\nconsole.log(regex.test('foo/22/bar')) // true\nconsole.log(regex.test('foo/25/bar')) // true\nconsole.log(regex.test('foo/26/bar')) // false\n```\n\n#### options.format\n\n**Type**: `function`\n\n**Default**: `undefined`\n\nCustom function for formatting strings before they're matched.\n\n**Example**\n\n```js\n// strip leading './' from strings\nconst format = str => str.replace(/^\\.\\//, '');\nconst isMatch = picomatch('foo/*.js', { format });\nconsole.log(isMatch('./foo/bar.js')); //=> true\n```\n\n#### options.onMatch\n\n```js\nconst onMatch = ({ glob, regex, input, output }) => {\n  console.log({ glob, regex, input, output });\n};\n\nconst isMatch = picomatch('*', { onMatch });\nisMatch('foo');\nisMatch('bar');\nisMatch('baz');\n```\n\n#### options.onIgnore\n\n```js\nconst onIgnore = ({ glob, regex, input, output }) => {\n  console.log({ glob, regex, input, output });\n};\n\nconst isMatch = picomatch('*', { onIgnore, ignore: 'f*' });\nisMatch('foo');\nisMatch('bar');\nisMatch('baz');\n```\n\n#### options.onResult\n\n```js\nconst onResult = ({ glob, regex, input, output }) => {\n  console.log({ glob, regex, input, output });\n};\n\nconst isMatch = picomatch('*', { onResult, ignore: 'f*' });\nisMatch('foo');\nisMatch('bar');\nisMatch('baz');\n```\n\n<br>\n<br>\n\n## Globbing features\n\n* [Basic globbing](#basic-globbing) (Wildcard matching)\n* [Advanced globbing](#advanced-globbing) (extglobs, posix brackets, brace matching)\n\n### Basic globbing\n\n| **Character** | **Description** |\n| --- | --- |\n| `*` | Matches any character zero or more times, excluding path separators. Does _not match_ path separators or hidden files or directories (\"dotfiles\"), unless explicitly enabled by setting the `dot` option to `true`. |\n| `**` | Matches any character zero or more times, including path separators. Note that `**` will only match path separators (`/`, and `\\\\` with the `windows` option) when they are the only characters in a path segment. Thus, `foo**/bar` is equivalent to `foo*/bar`, and `foo/a**b/bar` is equivalent to `foo/a*b/bar`, and _more than two_ consecutive stars in a glob path segment are regarded as _a single star_. Thus, `foo/***/bar` is equivalent to `foo/*/bar`. |\n| `?` | Matches any character excluding path separators one time. Does _not match_ path separators or leading dots.  |\n| `[abc]` | Matches any characters inside the brackets. For example, `[abc]` would match the characters `a`, `b` or `c`, and nothing else. |\n\n#### Matching behavior vs. Bash\n\nPicomatch's matching features and expected results in unit tests are based on Bash's unit tests and the Bash 4.3 specification, with the following exceptions:\n\n* Bash will match `foo/bar/baz` with `*`. Picomatch only matches nested directories with `**`.\n* Bash greedily matches with negated extglobs. For example, Bash 4.3 says that `!(foo)*` should match `foo` and `foobar`, since the trailing `*` bracktracks to match the preceding pattern. This is very memory-inefficient, and IMHO, also incorrect. Picomatch would return `false` for both `foo` and `foobar`.\n\n<br>\n\n### Advanced globbing\n\n* [extglobs](#extglobs)\n* [POSIX brackets](#posix-brackets)\n* [Braces](#brace-expansion)\n\n#### Extglobs\n\n| **Pattern** | **Description** |\n| --- | --- |\n| `@(pattern)` | Match _only one_ consecutive occurrence of `pattern` |\n| `*(pattern)` | Match _zero or more_ consecutive occurrences of `pattern` |\n| `+(pattern)` | Match _one or more_ consecutive occurrences of `pattern` |\n| `?(pattern)` | Match _zero or **one**_ consecutive occurrences of `pattern` |\n| `!(pattern)` | Match _anything but_ `pattern` |\n\n**Examples**\n\n```js\nconst pm = require('picomatch');\n\n// *(pattern) matches ZERO or more of \"pattern\"\nconsole.log(pm.isMatch('a', 'a*(z)')); // true\nconsole.log(pm.isMatch('az', 'a*(z)')); // true\nconsole.log(pm.isMatch('azzz', 'a*(z)')); // true\n\n// +(pattern) matches ONE or more of \"pattern\"\nconsole.log(pm.isMatch('a', 'a+(z)')); // false\nconsole.log(pm.isMatch('az', 'a+(z)')); // true\nconsole.log(pm.isMatch('azzz', 'a+(z)')); // true\n\n// supports multiple extglobs\nconsole.log(pm.isMatch('foo.bar', '!(foo).!(bar)')); // false\n\n// supports nested extglobs\nconsole.log(pm.isMatch('foo.bar', '!(!(foo)).!(!(bar))')); // true\n```\n\n#### POSIX brackets\n\nPOSIX classes are disabled by default. Enable this feature by setting the `posix` option to true.\n\n**Enable POSIX bracket support**\n\n```js\nconsole.log(pm.makeRe('[[:word:]]+', { posix: true }));\n//=> /^(?:(?=.)[A-Za-z0-9_]+\\/?)$/\n```\n\n**Supported POSIX classes**\n\nThe following named POSIX bracket expressions are supported:\n\n* `[:alnum:]` - Alphanumeric characters, equ `[a-zA-Z0-9]`\n* `[:alpha:]` - Alphabetical characters, equivalent to `[a-zA-Z]`.\n* `[:ascii:]` - ASCII characters, equivalent to `[\\\\x00-\\\\x7F]`.\n* `[:blank:]` - Space and tab characters, equivalent to `[ \\\\t]`.\n* `[:cntrl:]` - Control characters, equivalent to `[\\\\x00-\\\\x1F\\\\x7F]`.\n* `[:digit:]` - Numerical digits, equivalent to `[0-9]`.\n* `[:graph:]` - Graph characters, equivalent to `[\\\\x21-\\\\x7E]`.\n* `[:lower:]` - Lowercase letters, equivalent to `[a-z]`.\n* `[:print:]` - Print characters, equivalent to `[\\\\x20-\\\\x7E ]`.\n* `[:punct:]` - Punctuation and symbols, equivalent to `[\\\\-!\"#$%&\\'()\\\\*+,./:;<=>?@[\\\\]^_`{|}~]`.\n* `[:space:]` - Extended space characters, equivalent to `[ \\\\t\\\\r\\\\n\\\\v\\\\f]`.\n* `[:upper:]` - Uppercase letters, equivalent to `[A-Z]`.\n* `[:word:]` -  Word characters (letters, numbers and underscores), equivalent to `[A-Za-z0-9_]`.\n* `[:xdigit:]` - Hexadecimal digits, equivalent to `[A-Fa-f0-9]`.\n\nSee the [Bash Reference Manual](https://www.gnu.org/software/bash/manual/html_node/Pattern-Matching.html) for more information.\n\n### Braces\n\nPicomatch does not do brace expansion. For [brace expansion](https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html) and advanced matching with braces, use [micromatch](https://github.com/micromatch/micromatch) instead. Picomatch has very basic support for braces.\n\n### Matching special characters as literals\n\nIf you wish to match the following special characters in a filepath, and you want to use these characters in your glob pattern, they must be escaped with backslashes or quotes:\n\n**Special Characters**\n\nSome characters that are used for matching in regular expressions are also regarded as valid file path characters on some platforms.\n\nTo match any of the following characters as literals: `$^*+?()[]\n\nExamples:\n\n```js\nconsole.log(pm.makeRe('foo/bar \\\\(1\\\\)'));\nconsole.log(pm.makeRe('foo/bar \\\\(1\\\\)'));\n```\n\n<br>\n<br>\n\n## Library Comparisons\n\nThe following table shows which features are supported by [minimatch](https://github.com/isaacs/minimatch), [micromatch](https://github.com/micromatch/micromatch), [picomatch](https://github.com/micromatch/picomatch), [nanomatch](https://github.com/micromatch/nanomatch), [extglob](https://github.com/micromatch/extglob), [braces](https://github.com/micromatch/braces), and [expand-brackets](https://github.com/micromatch/expand-brackets).\n\n| **Feature** | `minimatch` | `micromatch` | `picomatch` | `nanomatch` | `extglob` | `braces` | `expand-brackets` |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Wildcard matching (`*?+`) | ✔ | ✔ | ✔ | ✔ | - | - | - |\n| Advancing globbing        | ✔ | ✔ | ✔ | - | - | - | - |\n| Brace _matching_          | ✔ | ✔ | ✔ | - | - | ✔ | - |\n| Brace _expansion_         | ✔ | ✔ | - | - | - | ✔ | - |\n| Extglobs                  | partial | ✔ | ✔ | - | ✔ | - | - |\n| Posix brackets            | - | ✔ | ✔ | - | - | - | ✔ |\n| Regular expression syntax | - | ✔ | ✔ | ✔ | ✔ | - | ✔ |\n| File system operations    | - | - | - | - | - | - | - |\n\n<br>\n<br>\n\n## Benchmarks\n\nPerformance comparison of picomatch and minimatch.\n\n_(Pay special attention to the last three benchmarks. Minimatch freezes on long ranges.)_\n\n```\n# .makeRe star (*)\n  picomatch x 4,449,159 ops/sec ±0.24% (97 runs sampled)\n  minimatch x 632,772 ops/sec ±0.14% (98 runs sampled)\n\n# .makeRe star; dot=true (*)\n  picomatch x 3,500,079 ops/sec ±0.26% (99 runs sampled)\n  minimatch x 564,916 ops/sec ±0.23% (96 runs sampled)\n\n# .makeRe globstar (**)\n  picomatch x 3,261,000 ops/sec ±0.27% (98 runs sampled)\n  minimatch x 1,664,766 ops/sec ±0.20% (100 runs sampled)\n\n# .makeRe globstars (**/**/**)\n  picomatch x 3,284,469 ops/sec ±0.18% (97 runs sampled)\n  minimatch x 1,435,880 ops/sec ±0.34% (95 runs sampled)\n\n# .makeRe with leading star (*.txt)\n  picomatch x 3,100,197 ops/sec ±0.35% (99 runs sampled)\n  minimatch x 428,347 ops/sec ±0.42% (94 runs sampled)\n\n# .makeRe - basic braces ({a,b,c}*.txt)\n  picomatch x 443,578 ops/sec ±1.33% (89 runs sampled)\n  minimatch x 107,143 ops/sec ±0.35% (94 runs sampled)\n\n# .makeRe - short ranges ({a..z}*.txt)\n  picomatch x 415,484 ops/sec ±0.76% (96 runs sampled)\n  minimatch x 14,299 ops/sec ±0.26% (96 runs sampled)\n\n# .makeRe - medium ranges ({1..100000}*.txt)\n  picomatch x 395,020 ops/sec ±0.87% (89 runs sampled)\n  minimatch x 2 ops/sec ±4.59% (10 runs sampled)\n\n# .makeRe - long ranges ({1..10000000}*.txt)\n  picomatch x 400,036 ops/sec ±0.83% (90 runs sampled)\n  minimatch (FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory)\n```\n\n<br>\n<br>\n\n## Philosophies\n\nThe goal of this library is to be blazing fast, without compromising on accuracy.\n\n**Accuracy**\n\nThe number one of goal of this library is accuracy. However, it's not unusual for different glob implementations to have different rules for matching behavior, even with simple wildcard matching. It gets increasingly more complicated when combinations of different features are combined, like when extglobs are combined with globstars, braces, slashes, and so on: `!(**/{a,b,*/c})`.\n\nThus, given that there is no canonical glob specification to use as a single source of truth when differences of opinion arise regarding behavior, sometimes we have to implement our best judgement and rely on feedback from users to make improvements.\n\n**Performance**\n\nAlthough this library performs well in benchmarks, and in most cases it's faster than other popular libraries we benchmarked against, we will always choose accuracy over performance. It's not helpful to anyone if our library is faster at returning the wrong answer.\n\n<br>\n<br>\n\n## About\n\n<details>\n<summary><strong>Contributing</strong></summary>\n\nPull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).\n\nPlease read the [contributing guide](.github/contributing.md) for advice on opening issues, pull requests, and coding standards.\n\n</details>\n\n<details>\n<summary><strong>Running Tests</strong></summary>\n\nRunning and reviewing unit tests is a great way to get familiarized with a library and its API. You can install dependencies and run tests with the following command:\n\n```sh\nnpm install && npm test\n```\n\n</details>\n\n<details>\n<summary><strong>Building docs</strong></summary>\n\n_(This project's readme.md is generated by [verb](https://github.com/verbose/verb-generate-readme), please don't edit the readme directly. Any changes to the readme must be made in the [.verb.md](.verb.md) readme template.)_\n\nTo generate the readme, run the following command:\n\n```sh\nnpm install -g verbose/verb#dev verb-generate-readme && verb\n```\n\n</details>\n\n### Author\n\n**Jon Schlinkert**\n\n* [GitHub Profile](https://github.com/jonschlinkert)\n* [Twitter Profile](https://twitter.com/jonschlinkert)\n* [LinkedIn Profile](https://linkedin.com/in/jonschlinkert)\n\n### License\n\nCopyright © 2017-present, [Jon Schlinkert](https://github.com/jonschlinkert).\nReleased under the [MIT License](LICENSE).\n",
+  "maintainers" : [ {
+    "name" : "mrmlnc",
+    "email" : "dmalinochkin@rambler.ru"
+  }, {
+    "name" : "jonschlinkert",
+    "email" : "github@sellside.com"
+  }, {
+    "name" : "doowb",
+    "email" : "brian.woodward@gmail.com"
+  }, {
+    "name" : "danez",
+    "email" : "npm@tschinder.de"
+  } ],
+  "author" : {
+    "name" : "Jon Schlinkert",
+    "url" : "https://github.com/jonschlinkert"
+  },
+  "time" : {
+    "4.0.2" : "2024-03-28T03:23:11.348Z",
+    "4.0.3" : "2025-07-15T19:39:26.492Z",
+    "4.0.0" : "2024-02-08T02:22:12.147Z",
+    "4.0.1" : "2024-02-08T02:31:53.301Z",
+    "3.0.0" : "2023-10-29T00:58:21.803Z",
+    "modified" : "2025-07-15T19:39:26.657Z",
+    "3.0.1" : "2023-10-29T08:12:50.118Z",
+    "2.0.0" : "2019-04-10T11:03:29.057Z",
+    "2.0.1" : "2019-04-10T11:50:06.709Z",
+    "2.1.0" : "2019-10-31T08:03:28.846Z",
+    "created" : "2018-11-05T12:07:08.561Z",
+    "2.0.6" : "2019-05-04T08:17:27.543Z",
+    "2.0.7" : "2019-05-14T17:41:22.540Z",
+    "2.0.4" : "2019-04-14T06:34:51.007Z",
+    "2.2.2" : "2020-03-21T11:32:14.696Z",
+    "2.3.1" : "2022-01-02T17:18:24.430Z",
+    "2.0.5" : "2019-04-20T15:42:51.621Z",
+    "2.2.3" : "2021-04-10T10:14:40.929Z",
+    "2.0.2" : "2019-04-10T12:16:36.700Z",
+    "2.1.1" : "2019-11-06T22:23:26.115Z",
+    "2.2.0" : "2020-01-04T20:31:40.843Z",
+    "2.0.3" : "2019-04-10T12:43:39.432Z",
+    "2.2.1" : "2020-01-04T21:19:48.019Z",
+    "2.3.0" : "2021-05-22T01:49:20.438Z",
+    "1.1.2" : "2018-12-15T03:13:01.124Z",
+    "1.0.0" : "2018-11-05T12:07:08.695Z",
+    "1.0.1" : "2018-11-05T12:12:00.358Z",
+    "1.1.0" : "2018-12-14T17:18:24.238Z",
+    "1.0.2" : "2018-11-05T13:45:29.274Z",
+    "1.1.1" : "2018-12-15T03:09:48.333Z",
+    "1.2.0" : "2019-03-30T02:20:22.763Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/micromatch/picomatch.git"
+  },
+  "users" : {
+    "yanrivera" : true,
+    "flumpus-dev" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/micromatch/picomatch",
+  "keywords" : [ "glob", "match", "picomatch" ],
+  "bugs" : {
+    "url" : "https://github.com/micromatch/picomatch/issues"
+  },
+  "license" : "MIT"
+}

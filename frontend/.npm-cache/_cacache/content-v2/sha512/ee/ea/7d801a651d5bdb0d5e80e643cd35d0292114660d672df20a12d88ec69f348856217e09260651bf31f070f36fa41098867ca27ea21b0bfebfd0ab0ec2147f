@@ -1,0 +1,2306 @@
+{
+  "_id" : "@babel/helper-string-parser",
+  "_rev" : "39-bf9ce7d50bf083382fadfcfbfcfa4762",
+  "name" : "@babel/helper-string-parser",
+  "description" : "A utility package to parse strings",
+  "dist-tags" : {
+    "next" : "8.0.0-beta.2",
+    "esm" : "7.21.4-esm.4",
+    "latest" : "7.27.1"
+  },
+  "versions" : {
+    "7.18.10" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.18.10",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.18.10.tgz",
+        "shasum" : "181f22d28ebe1b3857fa575f5c290b1aaf659b56"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.18.10",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.18.10_1659379599990_0.6858281308708796",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-beta.1" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-beta.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^20.19.0 || >=22.12.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-beta.1.tgz",
+        "shasum" : "e63ac0e4171e6c62f86e320ec87b89a7b639dc97"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "actor" : {
+          "name" : "nicolo-ribaudo",
+          "type" : "user",
+          "email" : "nicolo.ribaudo@gmail.com"
+        },
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-beta.1",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-beta.1_1751447034233_0.49128271729955797",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module"
+    },
+    "8.0.0-beta.2" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-beta.2",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^20.19.0 || >=22.12.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-beta.2.tgz",
+        "shasum" : "2b757d2569d175bc880b348723f85fb27ba628fe"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-beta.2",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/helper-string-parser_8.0.0-beta.2_1757084738060_0.44446045233426634"
+      },
+      "type" : "module"
+    },
+    "8.0.0-beta.0" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-beta.0",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^20.19.0 || >=22.12.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-beta.0.tgz",
+        "shasum" : "d74eef7dfecab578c24c15f4458be458c50c0cf4"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-beta.0",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-beta.0_1748620238945_0.7910076181510206",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module"
+    },
+    "7.24.7" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.24.7",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.24.7.tgz",
+        "shasum" : "4d2d0f14820ede3b9807ea5fc36dfc8cd7da07f2"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.24.7",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.24.7_1717593293881_0.15311361468560158",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.13" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.13",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.17.0 || >=22.8.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.13.tgz",
+        "shasum" : "69edf50ba78de8738efdf8dd06e34daf70ddfdab"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.13",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.13_1729864422562_0.0477688950600319",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.24.8" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.24.8",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.24.8.tgz",
+        "shasum" : "5b3329c9a58803d5df425e5785865881a81ca48d"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.24.8",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.24.8_1720709683190_0.39330265695791833",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.12" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.12",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.10.0 || >=21.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.12.tgz",
+        "shasum" : "3c26b703a8e5b5ee5d3ec329e6c0d74bde3a6a8e"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.12",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.12_1722015185469_0.4512075487185039",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.25.7" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.25.7",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.25.7.tgz",
+        "shasum" : "d50e8d37b1176207b4fe9acedec386c565a44a54"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.25.7",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.25.7_1727882062458_0.6487874981394777",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.11" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.11",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.10.0 || >=21.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.11.tgz",
+        "shasum" : "411b082b1ea4ae55b7d925d700d981c2dc8b3a67"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.11",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.11_1717751710438_0.9731656774441191",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.24.6" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.24.6",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.24.6.tgz",
+        "shasum" : "28583c28b15f2a3339cfafafeaad42f9a0e828df"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.24.6",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.24.6_1716553449244_0.19547238669354772",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.10" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.10",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.10.0 || >=21.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.10.tgz",
+        "shasum" : "1ed110ec29f93970a3829447dc025f30f8bb9623"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.10",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.10_1717499979030_0.8733222648876693",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.17" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.17",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.17.0 || >=22.8.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.17.tgz",
+        "shasum" : "f062609c1686c0c501b837caabf847d38306739f"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.17",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.17_1741717466341_0.4876507513617492",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.16" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.16",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.17.0 || >=22.8.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.16.tgz",
+        "shasum" : "65a37317ba75493f387eebeb0e99ca6ce91e68d7"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.16",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.16_1739534316196_0.5490463824444056",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.15" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.15",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.17.0 || >=22.8.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.15.tgz",
+        "shasum" : "7c4887d3db175c2dbf46265f3301eabf92c77fa0"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.15",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.15_1736529838055_0.614186305452268",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.21.4-esm",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.21.4-esm.tgz",
+        "shasum" : "43450ca97c577dff8327e0214a1c8be56aba1d3d"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.21.4-esm",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.21.4-esm_1680617340545_0.05958139356944647",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "7.25.9" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.25.9",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.25.9.tgz",
+        "shasum" : "1aabb72ee72ed35789b4bbcad3ca2862ce614e8c"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.25.9",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.25.9_1729610436094_0.10802570480826423",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.14" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.14",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.17.0 || >=22.8.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.14.tgz",
+        "shasum" : "89fe4b09619eccea980d99c2d1dd6ad907631bb2"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.14",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.14_1733504014308_0.5400386669047115",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.6" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.6",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.6.tgz",
+        "shasum" : "92f09a33448c8ee7e5636f8728a4db68b0149d07"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.6",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.6_1706285620785_0.44669853203978205",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.5" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.5.tgz",
+        "shasum" : "103cb4e5f27336d2836f685117cdb58c0db43bf4"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.5",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.5_1702307895174_0.17655165475629597",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.8" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.8",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.8.tgz",
+        "shasum" : "6fd5976b2544f1ac7965a6a1eeab0b18dab0c8a0"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.8",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.8_1712236763743_0.5057664809183964",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.7" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.7",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.7.tgz",
+        "shasum" : "632b1a8862172789e00048190e5687fb1a6d3c86"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.7",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.7_1709129045807_0.2511004373024355",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.22.5" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.22.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.22.5.tgz",
+        "shasum" : "533f36457a25814cf1df6488523ad547d784a99f"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.22.5",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.22.5_1686248461711_0.07696094748124493",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.2" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.2",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.2.tgz",
+        "shasum" : "eba62765ec6e7fb0adfb5f135b908e1139e06da4"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.2",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.2_1691594070298_0.23930701364739893",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.23.4" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.23.4",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.23.4.tgz",
+        "shasum" : "9478c707febcbbe1ddb38a3d91a2e054ae622d83"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.23.4",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.23.4_1700490124194_0.8964375809717471",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.1" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.1.tgz",
+        "shasum" : "dbe7830bb8e718bd48e9d24fb60b1ec1a8f3eeee"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.1",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.1_1690221055201_0.03888512190734694",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.27.1" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.27.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.27.1.tgz",
+        "shasum" : "54da796097ab19ce67ed9f88b47bb2ec49367687"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.27.1",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.27.1_1746025706305_0.3426444705888576",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.4" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.4",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.4.tgz",
+        "shasum" : "159e4136802e7448f53546dcb724564305ddb7bc"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.4",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.4_1697076352468_0.5845820343086949",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.24.1" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.24.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.24.1.tgz",
+        "shasum" : "f99c36d3593db9540705d0739a1f10b5e20c696e"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.24.1",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.24.1_1710841656548_0.6823253757980454",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "7.21.5" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.21.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.21.5.tgz",
+        "shasum" : "2b3eea65443c6bdc31c22d037c65f6d323b6b2bd"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.21.5",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.21.5_1682711415508_0.7431285826705882",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.3" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.3",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.3.tgz",
+        "shasum" : "276fed5819f7d337879df28ab885e76b30608c6b"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.3",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.3_1695740184357_0.9805347525566515",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.4" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.21.4-esm.4",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.21.4-esm.4.tgz",
+        "shasum" : "71c3acbd8d4e58be51f5cce62550a330dfeb2b2f"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.21.4-esm.4",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.21.4-esm.4_1680621181427_0.3069852712641239",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.1" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.21.4-esm.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.21.4-esm.1.tgz",
+        "shasum" : "37c2ac921e93d36d54b384a751c7897f10746e7a"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.21.4-esm.1",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.21.4-esm.1_1680618052418_0.8237560109666802",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.9" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.9",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^18.20.0 || ^20.10.0 || >=21.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.9.tgz",
+        "shasum" : "4a550719b61454904b650efcb147b3b1cb76054d"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.9",
+      "exports" : {
+        "." : {
+          "types" : "./lib/index.d.ts",
+          "default" : "./lib/index.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.9_1717423425311_0.11785285608248453",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.3" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.21.4-esm.3",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.21.4-esm.3.tgz",
+        "shasum" : "2a2010e2fd4a706ecbec54639eed633eb0320d6a"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.21.4-esm.3",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.21.4-esm.3_1680620146930_0.7078159548981517",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.2" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.21.4-esm.2",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.21.4-esm.2.tgz",
+        "shasum" : "0ec7d0fc667ee6c387898bcb4d508e4da36d0b31"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.21.4-esm.2",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.21.4-esm.2_1680619114629_0.08082890561026979",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.0" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "8.0.0-alpha.0",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-8.0.0-alpha.0.tgz",
+        "shasum" : "9e66db8bad6dae3584e5481407827e685d122edf"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@8.0.0-alpha.0",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_8.0.0-alpha.0_1689861573747_0.39956783556563824",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module"
+    },
+    "7.19.4" : {
+      "name" : "@babel/helper-string-parser",
+      "description" : "A utility package to parse strings",
+      "version" : "7.19.4",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-string-parser"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-string-parser/-/helper-string-parser-7.19.4.tgz",
+        "shasum" : "38d3acb654b4701a9b77fb0615a96f775c3a9e63"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-string-parser@7.19.4",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-string-parser_7.19.4_1665398839181_0.801877268694329",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "name" : "hzoo",
+    "email" : "hi@henryzoo.com"
+  }, {
+    "name" : "existentialism",
+    "email" : "bng412@gmail.com"
+  }, {
+    "name" : "nicolo-ribaudo",
+    "email" : "nicolo.ribaudo@gmail.com"
+  }, {
+    "name" : "jlhwung",
+    "email" : "jlhwung@gmail.com"
+  } ],
+  "author" : "The Babel Team (https://babel.dev/team)",
+  "time" : {
+    "7.18.10" : "2022-08-01T18:46:40.216Z",
+    "8.0.0-beta.1" : "2025-07-02T09:03:54.395Z",
+    "8.0.0-beta.2" : "2025-09-05T15:05:38.235Z",
+    "8.0.0-beta.0" : "2025-05-30T15:50:39.117Z",
+    "7.24.7" : "2024-06-05T13:14:54.052Z",
+    "8.0.0-alpha.13" : "2024-10-25T13:53:42.803Z",
+    "modified" : "2025-09-05T15:05:38.487Z",
+    "7.24.8" : "2024-07-11T14:54:43.345Z",
+    "8.0.0-alpha.12" : "2024-07-26T17:33:05.637Z",
+    "7.25.7" : "2024-10-02T15:14:22.678Z",
+    "8.0.0-alpha.11" : "2024-06-07T09:15:10.582Z",
+    "7.24.6" : "2024-05-24T12:24:09.434Z",
+    "8.0.0-alpha.10" : "2024-06-04T11:19:39.279Z",
+    "8.0.0-alpha.17" : "2025-03-11T18:24:26.542Z",
+    "8.0.0-alpha.16" : "2025-02-14T11:58:36.399Z",
+    "8.0.0-alpha.15" : "2025-01-10T17:23:58.270Z",
+    "7.21.4-esm" : "2023-04-04T14:09:00.713Z",
+    "7.25.9" : "2024-10-22T15:20:36.317Z",
+    "8.0.0-alpha.14" : "2024-12-06T16:53:34.508Z",
+    "8.0.0-alpha.6" : "2024-01-26T16:13:40.980Z",
+    "8.0.0-alpha.5" : "2023-12-11T15:18:15.394Z",
+    "8.0.0-alpha.8" : "2024-04-04T13:19:23.902Z",
+    "8.0.0-alpha.7" : "2024-02-28T14:04:06.035Z",
+    "7.22.5" : "2023-06-08T18:21:01.985Z",
+    "8.0.0-alpha.2" : "2023-08-09T15:14:30.532Z",
+    "7.23.4" : "2023-11-20T14:22:04.431Z",
+    "8.0.0-alpha.1" : "2023-07-24T17:50:55.415Z",
+    "7.27.1" : "2025-04-30T15:08:26.501Z",
+    "created" : "2022-08-01T18:46:39.945Z",
+    "8.0.0-alpha.4" : "2023-10-12T02:05:52.705Z",
+    "7.24.1" : "2024-03-19T09:47:36.696Z",
+    "7.21.5" : "2023-04-28T19:50:15.669Z",
+    "8.0.0-alpha.3" : "2023-09-26T14:56:24.750Z",
+    "7.21.4-esm.4" : "2023-04-04T15:13:01.621Z",
+    "7.21.4-esm.1" : "2023-04-04T14:20:52.561Z",
+    "8.0.0-alpha.9" : "2024-06-03T14:03:45.460Z",
+    "7.21.4-esm.3" : "2023-04-04T14:55:47.089Z",
+    "7.21.4-esm.2" : "2023-04-04T14:38:34.794Z",
+    "8.0.0-alpha.0" : "2023-07-20T13:59:33.973Z",
+    "7.19.4" : "2022-10-10T10:47:19.355Z"
+  },
+  "repository" : {
+    "url" : "https://github.com/babel/babel.git",
+    "type" : "git",
+    "directory" : "packages/babel-helper-string-parser"
+  },
+  "users" : {
+    "flumpus-dev" : true
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://babel.dev/docs/en/next/babel-helper-string-parser",
+  "license" : "MIT"
+}

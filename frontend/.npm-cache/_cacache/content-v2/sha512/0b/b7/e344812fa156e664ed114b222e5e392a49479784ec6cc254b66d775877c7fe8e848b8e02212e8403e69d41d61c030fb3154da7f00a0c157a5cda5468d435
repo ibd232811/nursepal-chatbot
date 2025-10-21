@@ -1,0 +1,228 @@
+{
+  "_id" : "@babel/helper-globals",
+  "_rev" : "3-a508bd0b2e8029e933fe5bb8b0f51e69",
+  "name" : "@babel/helper-globals",
+  "description" : "A collection of JavaScript globals for Babel internal usage",
+  "dist-tags" : {
+    "next" : "8.0.0-beta.2",
+    "latest" : "7.28.0"
+  },
+  "versions" : {
+    "8.0.0-beta.1" : {
+      "name" : "@babel/helper-globals",
+      "description" : "A collection of JavaScript globals for Babel internal usage",
+      "version" : "8.0.0-beta.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-globals"
+      },
+      "engines" : {
+        "node" : "^20.19.0 || >=22.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-globals/-/helper-globals-8.0.0-beta.1.tgz",
+        "shasum" : "74ef8c2d120b5751f6283095aab3b91df515b480"
+      },
+      "devDependencies" : {
+        "globals" : "^16.1.0"
+      },
+      "keywords" : [ "babel", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "actor" : {
+          "name" : "nicolo-ribaudo",
+          "type" : "user",
+          "email" : "nicolo.ribaudo@gmail.com"
+        },
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-globals@8.0.0-beta.1",
+      "exports" : {
+        "./package.json" : "./package.json",
+        "./data/browser-upper.json" : "./data/browser-upper.json",
+        "./data/builtin-lower.json" : "./data/builtin-lower.json",
+        "./data/builtin-upper.json" : "./data/builtin-upper.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-globals_8.0.0-beta.1_1751447033683_0.7656886366859723",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module"
+    },
+    "8.0.0-beta.2" : {
+      "name" : "@babel/helper-globals",
+      "description" : "A collection of JavaScript globals for Babel internal usage",
+      "version" : "8.0.0-beta.2",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-globals"
+      },
+      "engines" : {
+        "node" : "^20.19.0 || >=22.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-globals/-/helper-globals-8.0.0-beta.2.tgz",
+        "shasum" : "f2cff5be155e833253e3a18a747b0bd8ef88e7cb"
+      },
+      "devDependencies" : {
+        "globals" : "^16.1.0"
+      },
+      "keywords" : [ "babel", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-globals@8.0.0-beta.2",
+      "exports" : {
+        "./data/browser-upper.json" : "./data/browser-upper.json",
+        "./data/builtin-lower.json" : "./data/builtin-lower.json",
+        "./data/builtin-upper.json" : "./data/builtin-upper.json",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/helper-globals_8.0.0-beta.2_1757084737786_0.3914154326573209"
+      },
+      "type" : "module"
+    },
+    "7.28.0" : {
+      "name" : "@babel/helper-globals",
+      "description" : "A collection of JavaScript globals for Babel internal usage",
+      "version" : "7.28.0",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "repository" : {
+        "url" : "https://github.com/babel/babel.git",
+        "type" : "git",
+        "directory" : "packages/babel-helper-globals"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@babel/helper-globals/-/helper-globals-7.28.0.tgz",
+        "shasum" : "b9430df2aa4e17bc28665eadeae8aa1d985e6674"
+      },
+      "devDependencies" : {
+        "globals" : "^16.1.0"
+      },
+      "keywords" : [ "babel", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "actor" : {
+          "name" : "nicolo-ribaudo",
+          "type" : "user",
+          "email" : "nicolo.ribaudo@gmail.com"
+        },
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-globals@7.28.0",
+      "exports" : {
+        "./package.json" : "./package.json",
+        "./data/browser-upper.json" : "./data/browser-upper.json",
+        "./data/builtin-lower.json" : "./data/builtin-lower.json",
+        "./data/builtin-upper.json" : "./data/builtin-upper.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/helper-globals_7.28.0_1751445494725_0.058501235644816685",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "commonjs"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "name" : "hzoo",
+    "email" : "hi@henryzoo.com"
+  }, {
+    "name" : "existentialism",
+    "email" : "bng412@gmail.com"
+  }, {
+    "name" : "nicolo-ribaudo",
+    "email" : "nicolo.ribaudo@gmail.com"
+  }, {
+    "name" : "jlhwung",
+    "email" : "jlhwung@gmail.com"
+  } ],
+  "author" : "The Babel Team (https://babel.dev/team)",
+  "time" : {
+    "8.0.0-beta.1" : "2025-07-02T09:03:53.852Z",
+    "8.0.0-beta.2" : "2025-09-05T15:05:37.992Z",
+    "7.28.0" : "2025-07-02T08:38:14.923Z",
+    "created" : "2025-07-02T08:38:14.638Z",
+    "modified" : "2025-09-05T15:05:38.200Z"
+  },
+  "repository" : {
+    "url" : "https://github.com/babel/babel.git",
+    "type" : "git",
+    "directory" : "packages/babel-helper-globals"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "keywords" : [ "babel", "globals" ],
+  "license" : "MIT"
+}

@@ -1,0 +1,446 @@
+{
+  "_id" : "yocto-queue",
+  "_rev" : "9-3a8405ee8825ff18f2b0b4e4723a3497",
+  "name" : "yocto-queue",
+  "description" : "Tiny queue data structure",
+  "dist-tags" : {
+    "latest" : "1.2.1"
+  },
+  "versions" : {
+    "1.2.1" : {
+      "name" : "yocto-queue",
+      "description" : "Tiny queue data structure",
+      "version" : "1.2.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "https://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/yocto-queue#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/yocto-queue.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/yocto-queue/issues"
+      },
+      "engines" : {
+        "node" : ">=12.20"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/yocto-queue/-/yocto-queue-1.2.1.tgz",
+        "shasum" : "36d7c4739f775b3cbc28e6136e21aa057adec418"
+      },
+      "devDependencies" : {
+        "ava" : "^3.15.0",
+        "tsd" : "^0.17.0",
+        "xo" : "^0.44.0"
+      },
+      "keywords" : [ "queue", "data", "structure", "algorithm", "queues", "queuing", "list", "array", "linkedlist", "fifo", "enqueue", "dequeue", "data-structure" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "//test" : "xo && ava && tsd",
+        "test" : "ava && tsd"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "yocto-queue@1.2.1",
+      "gitHead" : "ce72d41de87b2a4ec7c50e10480300bee674d845",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "types" : "./index.d.ts",
+      "exports" : "./index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/yocto-queue_1.2.1_1742622578234_0.5609364464617448"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "23.6.1"
+    },
+    "1.0.0" : {
+      "name" : "yocto-queue",
+      "description" : "Tiny queue data structure",
+      "version" : "1.0.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/yocto-queue#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/yocto-queue.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/yocto-queue/issues"
+      },
+      "engines" : {
+        "node" : ">=12.20"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/yocto-queue/-/yocto-queue-1.0.0.tgz",
+        "shasum" : "7f816433fb2cbc511ec8bf7d263c3b58a1a3c251"
+      },
+      "devDependencies" : {
+        "xo" : "^0.44.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.17.0"
+      },
+      "keywords" : [ "queue", "data", "structure", "algorithm", "queues", "queuing", "list", "array", "linkedlist", "fifo", "enqueue", "dequeue", "data-structure" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "ava && tsd",
+        "//test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "7.10.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "yocto-queue@1.0.0",
+      "gitHead" : "2e57f8c95e5e1f40379c6f85d18aee962662eb22",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "exports" : "./index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/yocto-queue_1.0.0_1628812112939_0.12892570466581454",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "12.22.1"
+    },
+    "0.0.0" : {
+      "name" : "yocto-queue",
+      "description" : "Tiny queue data structure",
+      "version" : "0.0.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/nano-queue#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/nano-queue.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/nano-queue/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/yocto-queue/-/yocto-queue-0.0.0.tgz",
+        "shasum" : "97d0fce807d9e50873aec71074e895788e327cf3"
+      },
+      "devDependencies" : {
+        "xo" : "^0.35.0",
+        "ava" : "^2.4.0",
+        "tsd" : "^0.13.1"
+      },
+      "keywords" : [ "queue", "data", "structure", "algorithm", "queues", "queuing", "list", "array", "linkedlist", "fifo", "enqueue", "dequeue", "data-structure" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.14.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "yocto-queue@0.0.0",
+      "gitHead" : "d0c1a94cb05a698f8e2a99555f8cf8585e9869d2",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/yocto-queue_0.0.0_1606197588704_0.1585882120213571",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.22.1"
+    },
+    "1.1.0" : {
+      "name" : "yocto-queue",
+      "description" : "Tiny queue data structure",
+      "version" : "1.1.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/yocto-queue#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/yocto-queue.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/yocto-queue/issues"
+      },
+      "engines" : {
+        "node" : ">=12.20"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/yocto-queue/-/yocto-queue-1.1.0.tgz",
+        "shasum" : "1c567759666a1b3bd4af7897551bacb488f482b9"
+      },
+      "devDependencies" : {
+        "xo" : "^0.44.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.17.0"
+      },
+      "keywords" : [ "queue", "data", "structure", "algorithm", "queues", "queuing", "list", "array", "linkedlist", "fifo", "enqueue", "dequeue", "data-structure" ],
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "ava && tsd",
+        "//test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "10.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "yocto-queue@1.1.0",
+      "gitHead" : "812e5ed7f3334637922f4cd6ac6c2ce8f5c70c75",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "exports" : "./index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/yocto-queue_1.1.0_1719607810647_0.20351033896965798",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "22.2.0"
+    },
+    "0.1.0" : {
+      "name" : "yocto-queue",
+      "description" : "Tiny queue data structure",
+      "version" : "0.1.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/yocto-queue#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/yocto-queue.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/yocto-queue/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/yocto-queue/-/yocto-queue-0.1.0.tgz",
+        "shasum" : "0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
+      },
+      "devDependencies" : {
+        "xo" : "^0.35.0",
+        "ava" : "^2.4.0",
+        "tsd" : "^0.13.1"
+      },
+      "keywords" : [ "queue", "data", "structure", "algorithm", "queues", "queuing", "list", "array", "linkedlist", "fifo", "enqueue", "dequeue", "data-structure" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.14.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "yocto-queue@0.1.0",
+      "gitHead" : "af91c37f51aecf607ca2261b907b9d86b6a69e77",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/yocto-queue_0.1.0_1606197935700_0.6375493777344527",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.22.1"
+    },
+    "1.1.1" : {
+      "name" : "yocto-queue",
+      "description" : "Tiny queue data structure",
+      "version" : "1.1.1",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/yocto-queue#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/yocto-queue.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/yocto-queue/issues"
+      },
+      "engines" : {
+        "node" : ">=12.20"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/yocto-queue/-/yocto-queue-1.1.1.tgz",
+        "shasum" : "fef65ce3ac9f8a32ceac5a634f74e17e5b232110"
+      },
+      "devDependencies" : {
+        "xo" : "^0.44.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.17.0"
+      },
+      "keywords" : [ "queue", "data", "structure", "algorithm", "queues", "queuing", "list", "array", "linkedlist", "fifo", "enqueue", "dequeue", "data-structure" ],
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "ava && tsd",
+        "//test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "10.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "yocto-queue@1.1.1",
+      "gitHead" : "0ac610dfa4e5cbd929b2e9b8fc34f5417f2f788b",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "exports" : "./index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/yocto-queue_1.1.1_1719699170246_0.38023407968029876",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "18.20.2"
+    },
+    "1.2.0" : {
+      "name" : "yocto-queue",
+      "description" : "Tiny queue data structure",
+      "version" : "1.2.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/yocto-queue#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/yocto-queue.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/yocto-queue/issues"
+      },
+      "engines" : {
+        "node" : ">=12.20"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/yocto-queue/-/yocto-queue-1.2.0.tgz",
+        "shasum" : "4a29a93e7591328fa31768701e6ea66962401f79"
+      },
+      "devDependencies" : {
+        "xo" : "^0.44.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.17.0"
+      },
+      "keywords" : [ "queue", "data", "structure", "algorithm", "queues", "queuing", "list", "array", "linkedlist", "fifo", "enqueue", "dequeue", "data-structure" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "ava && tsd",
+        "//test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "yocto-queue@1.2.0",
+      "gitHead" : "6f20a6fad9323285e9f7c04dd1232ccc5e931e7e",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "exports" : "./index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/yocto-queue_1.2.0_1741264180240_0.4540003960919774",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "23.6.1"
+    }
+  },
+  "readme" : "# yocto-queue [![](https://badgen.net/bundlephobia/minzip/yocto-queue)](https://bundlephobia.com/result?p=yocto-queue)\n\n> Tiny queue data structure\n\nYou should use this package instead of an array if you do a lot of `Array#push()` and `Array#shift()` on large arrays, since `Array#shift()` has [linear time complexity](https://medium.com/@ariel.salem1989/an-easy-to-use-guide-to-big-o-time-complexity-5dcf4be8a444#:~:text=O(N)%E2%80%94Linear%20Time) *O(n)* while `Queue#dequeue()` has [constant time complexity](https://medium.com/@ariel.salem1989/an-easy-to-use-guide-to-big-o-time-complexity-5dcf4be8a444#:~:text=O(1)%20%E2%80%94%20Constant%20Time) *O(1)*. That makes a huge difference for large arrays.\n\n> A [queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) is an ordered list of elements where an element is inserted at the end of the queue and is removed from the front of the queue. A queue works based on the first-in, first-out ([FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics))) principle.\n\n## Install\n\n```sh\nnpm install yocto-queue\n```\n\n## Usage\n\n```js\nimport Queue from 'yocto-queue';\n\nconst queue = new Queue();\n\nqueue.enqueue('\uD83E\uDD84');\nqueue.enqueue('\uD83C\uDF08');\n\nconsole.log(queue.size);\n//=> 2\n\nconsole.log(...queue);\n//=> '\uD83E\uDD84 \uD83C\uDF08'\n\nconsole.log(queue.dequeue());\n//=> '\uD83E\uDD84'\n\nconsole.log(queue.dequeue());\n//=> '\uD83C\uDF08'\n```\n\n## API\n\n### `queue = new Queue()`\n\nThe instance is an [`Iterable`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols), which means you can iterate over the queue front to back with a “for…of” loop. Using the iterator will not remove the items from the queue. If you want that, use [`drain()`](#drain) instead.\n\nYou can also use spreading to convert the queue to an array. Don't do this unless you really need to though, since it's slow.\n\n#### `.enqueue(value)`\n\nAdd a value to the queue.\n\n#### `.dequeue()`\n\nRemove the next value in the queue.\n\nReturns the removed value or `undefined` if the queue is empty.\n\n#### `.peek()`\n\nGet the next value in the queue without removing it.\n\nReturns the value or `undefined` if the queue is empty.\n\n#### `.drain()`\n\nReturns an iterator that dequeues items as you consume it.\n\nThis allows you to empty the queue while processing its items.\n\nIf you want to not remove items as you consume it, use the `Queue` object as an iterator.\n\n#### `.clear()`\n\nClear the queue.\n\n#### `.size`\n\nThe size of the queue.\n\n## Related\n\n- [quick-lru](https://github.com/sindresorhus/quick-lru) - Simple “Least Recently Used” (LRU) cache\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "https://sindresorhus.com"
+  },
+  "time" : {
+    "1.2.1" : "2025-03-22T05:49:38.400Z",
+    "created" : "2020-11-24T05:59:48.704Z",
+    "modified" : "2025-03-22T05:49:38.583Z",
+    "1.0.0" : "2021-08-12T23:48:33.113Z",
+    "0.0.0" : "2020-11-24T05:59:48.904Z",
+    "1.1.0" : "2024-06-28T20:50:10.833Z",
+    "0.1.0" : "2020-11-24T06:05:35.875Z",
+    "1.1.1" : "2024-06-29T22:12:50.399Z",
+    "1.2.0" : "2025-03-06T12:29:40.450Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/yocto-queue.git"
+  },
+  "users" : {
+    "flumpus-dev" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/yocto-queue#readme",
+  "keywords" : [ "queue", "data", "structure", "algorithm", "queues", "queuing", "list", "array", "linkedlist", "fifo", "enqueue", "dequeue", "data-structure" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/yocto-queue/issues"
+  },
+  "license" : "MIT"
+}

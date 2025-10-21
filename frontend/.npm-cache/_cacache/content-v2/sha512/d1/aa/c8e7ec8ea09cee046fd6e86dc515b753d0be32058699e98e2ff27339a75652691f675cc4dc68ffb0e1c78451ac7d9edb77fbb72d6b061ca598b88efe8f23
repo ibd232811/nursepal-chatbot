@@ -1,0 +1,4816 @@
+{
+  "_id" : "@rollup/rollup-freebsd-arm64",
+  "_rev" : "89-571ea869f46fc40f862085f1b2528440",
+  "name" : "@rollup/rollup-freebsd-arm64",
+  "description" : "Native bindings for Rollup",
+  "dist-tags" : {
+    "beta" : "4.52.4-3",
+    "latest" : "4.52.5"
+  },
+  "versions" : {
+    "4.29.0-0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.29.0-0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.29.0-0.tgz",
+        "shasum" : "526c5937276e3a1f21da3e5d54bf23ddda694a24"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.29.0-0",
+      "gitHead" : "879d03d68890f365f880e30c69b58377b8743407",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.29.0-0_1734331196059_0.5398526291513026",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.32.1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.32.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.32.1.tgz",
+        "shasum" : "3bdf18d4ef32dcfe9b20bba18d7a53a101ed79d9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.32.1",
+      "gitHead" : "abcf4febe11f3d313fae41ddca35fc60670b9ff8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.32.1_1738053200407_0.25055201552460327",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.1"
+    },
+    "4.29.0-1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.29.0-1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.29.0-1.tgz",
+        "shasum" : "dcfa108267a9c3a8c2b1761bbdc9a708ffdbe46f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.29.0-1",
+      "gitHead" : "fa5064084196636acd98263f95ffea59f8362e32",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.29.0-1_1734590253976_0.4865412973258627",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.34.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.34.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.34.0.tgz",
+        "shasum" : "04f4220ee8662749acfa44b34eb05f3bea3ecb11"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.34.0",
+      "gitHead" : "979d62888dbe75f92e50fdd64246c737c52f5f1f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.34.0_1738399226281_0.7181465800111415",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.2"
+    },
+    "4.34.1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.34.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.34.1.tgz",
+        "shasum" : "43f75cb686a23fc0aef3ce6bfe44501bf934e412"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.34.1",
+      "gitHead" : "0f20524ad9ecd166a900d43af93f05a3405d2a45",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.34.1_1738565896539_0.001080259507130421",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.2"
+    },
+    "4.34.2" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.34.2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.34.2.tgz",
+        "shasum" : "d30e642542d82423628e06841a3a0704b5a1be37"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.34.2",
+      "gitHead" : "615efa045779fae70c4fd5fe64fdb08a039c0442",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.34.2_1738656605002_0.7866572677737118",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.2"
+    },
+    "4.36.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.36.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.36.0.tgz",
+        "shasum" : "6aee296cd6b8c39158d377c89b7e0cd0851dd7c7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.36.0",
+      "gitHead" : "ab7bfa8fe9c25e41cc62058fa2dcde6b321fd51d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.36.0_1742200546407_0.6008674161126191",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.3"
+    },
+    "4.30.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.30.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.30.0.tgz",
+        "shasum" : "3e13b5d4d44ea87598d5d4db97181db1174fb3c8"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.30.0",
+      "gitHead" : "958d5ebabd49297e9a4b78ad34ac0a0132305dea",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.30.0_1736145403776_0.8127564782723862",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.51.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.51.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.51.0.tgz",
+        "shasum" : "64b9cdc97b2220f3226e1d6231366d5151d14b0c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.51.0",
+      "gitHead" : "1748736f5baae39b9560399606bba137747df048",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.51.0_1758272343483_0.4138650439264091",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.5"
+    },
+    "4.30.1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.30.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.30.1.tgz",
+        "shasum" : "233f8e4c2f54ad9b719cd9645887dcbd12b38003"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.30.1",
+      "gitHead" : "94917087deb9103fbf605c68670ceb3e71a67bf7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.30.1_1736246155570_0.527929441540772",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.1"
+    },
+    "4.32.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.32.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.32.0.tgz",
+        "shasum" : "8ad634f462a6b7e338257cf64c7baff99618a08e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.32.0",
+      "gitHead" : "2538304efdc05ecb7c52e6376d5777565139f075",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.32.0_1737707257978_0.8711805467054181",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.1"
+    },
+    "4.29.0-2" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.29.0-2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.29.0-2.tgz",
+        "shasum" : "307d037efbafcae50e30c6f17e6de3bf1e8ef235"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.29.0-2",
+      "gitHead" : "bbb7e7b1d4e208a923b0f18ceb8dd886838e1a01",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.29.0-2_1734677765934_0.6732528973372245",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.27.2" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.27.2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.27.2.tgz",
+        "shasum" : "ee5421bd8b3b9e1e9402c0328c3b02cde7869404"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.27.2",
+      "gitHead" : "a503a4dd9982bf20fd38aeb171882a27828906ae",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.27.2_1731691206158_0.8701076523807665",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.29.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.29.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.29.0.tgz",
+        "shasum" : "55386ff9e62a98e43c62bb6d79e582516dfcd9dd"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.29.0",
+      "gitHead" : "dadd4882c4984d7875af799ad56e506784d50e1c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.29.0_1734719847339_0.6555587775045908",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.27.1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.27.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.27.1.tgz",
+        "shasum" : "b103ea5daf4cfdb25cad49b60968baea93571f33"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.27.1",
+      "gitHead" : "aaf38b725dd142b1da4190a91de8b04c006fead5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.27.1_1731686864125_0.10185112787620376",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.27.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.27.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.27.0.tgz",
+        "shasum" : "4fa07aa44c9404c5ee4c4cfa7a41c61465a307c1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.27.0",
+      "gitHead" : "c035068dfebeb959a35a8acf3ff008a249e2af73",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.27.0_1731667238247_0.017704298030575938",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.46.2" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.46.2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.46.2.tgz",
+        "shasum" : "41e1fbdc1f8c3dc9afb6bc1d6e3fb3104bd81eee"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.46.2",
+      "gitHead" : "4e19badeda6f116a13a2f617ae3c6e1e14606023",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.46.2_1753818325919_0.4593722946566621",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.4"
+    },
+    "4.48.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.48.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.48.0.tgz",
+        "shasum" : "fa75b7cd3d37fdb9ae53b92d4709c4edc638e9a4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.48.0",
+      "gitHead" : "77bb1ae9293a35036cdccfc2ba34faa0fe703b05",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.48.0_1755929997545_0.0817985858238568",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.4"
+    },
+    "4.46.3" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.46.3",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.46.3.tgz",
+        "shasum" : "d272eed9c14efc149bab316de364c04f236c544f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.46.3",
+      "gitHead" : "f74df5e171bf9ba0e281e09be9de041afa2f4f12",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.46.3_1755496734631_0.6402554056438012",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.4"
+    },
+    "4.48.1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.48.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.48.1.tgz",
+        "shasum" : "1e5aca23d8171313f408759c71342bbee7889f22"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.48.1",
+      "gitHead" : "8b6b06b16c2198f1e61749f17cbdbc25f2d3d214",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.48.1_1756100597129_0.1304345807615308",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.4"
+    },
+    "4.27.4" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.27.4",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.27.4.tgz",
+        "shasum" : "662f808d2780e4e91021ac9ee7ed800862bb9a57"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.27.4",
+      "gitHead" : "e805b546405a4e6cfccd3fe73e9f4df770023824",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.27.4_1732345223954_0.20826637417945726",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.29.2" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.29.2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.29.2.tgz",
+        "shasum" : "1c11650970c4b52d7fb077f5a4a6e16ba5e6db4f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.29.2",
+      "gitHead" : "f5c349e5bb4cb40b0cc1a1b2a3fb5de415946406",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.29.2_1736078865665_0.24438194540407387",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.46.4" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.46.4",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.46.4.tgz",
+        "shasum" : "a8cbe48964d903cd41539a2085b8312027eef9f8"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.46.4",
+      "gitHead" : "bc353578bbde60d644d0d4ed5fb3b121aec19fd7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.46.4_1755668003110_0.013027576465227453",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.4"
+    },
+    "4.27.3" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.27.3",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.27.3.tgz",
+        "shasum" : "bcb4112cb7e68a12d148b03cbc21dde43772f4bc"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.27.3",
+      "gitHead" : "7c0b1f8810013b5a351a976df30a6a5da4fa164b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.27.3_1731947978353_0.997406143070313",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.29.1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.29.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.29.1.tgz",
+        "shasum" : "83178315c0be4b4c8c1fd835e1952d2dc1eb4e6e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.29.1",
+      "gitHead" : "5d3777803404c67ce14c62b8b05d6e26e46856f5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.29.1_1734765365395_0.1641554108968195",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.45.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.45.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.45.0.tgz",
+        "shasum" : "2cc4bd3ba7026cd5374e902285ce76e8fae0f6eb"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.45.0",
+      "gitHead" : "b7c7c1159f70ebe8ad6f94c942ebab2fa59c7982",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.45.0_1752299646429_0.6277986330656595",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.3"
+    },
+    "4.45.1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.45.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.45.1.tgz",
+        "shasum" : "5a6af0a9acf82162d2910933649ae24fc0ea3ecb"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.45.1",
+      "gitHead" : "a9b04957eac7803e61390d4387e3e96dbe4118c4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.45.1_1752584985493_0.46703199935591133",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.3"
+    },
+    "4.47.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.47.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.47.0.tgz",
+        "shasum" : "7b21a9211e4b0196a2632bfabe16b3c8b9d9872d"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.47.0",
+      "gitHead" : "4a5d2da37018c4d0666fd0c9cda4071f2d1b7090",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.47.0_1755754984404_0.5952270885494033",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.4"
+    },
+    "4.41.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.41.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.41.0.tgz",
+        "shasum" : "a52b58852c9cec9255e382a2f335b08bc8c6111d"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.41.0",
+      "gitHead" : "0928185cd544907dab472754634ddf988452aae6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.41.0_1747546415250_0.5325983129391756",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.1"
+    },
+    "4.41.1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.41.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.41.1.tgz",
+        "shasum" : "df10a7b6316a0ef1028c6ca71a081124c537e30d"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.41.1",
+      "gitHead" : "7c469dc4eb8e1cb6def9fdc04581fdfce9975da3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.41.1_1748067274644_0.18962104980937822",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.1"
+    },
+    "4.41.2" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.41.2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.41.2.tgz",
+        "shasum" : "8a2162e1b360135194d7306e0426debcdaa01efb"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.41.2",
+      "gitHead" : "13b4669dbc21cb738551cd725d2a18c77b3cea11",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.41.2_1749210034916_0.18170995292201297",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.1"
+    },
+    "4.43.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.43.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.43.0.tgz",
+        "shasum" : "b128dbe7b353922ddd729a4fc4e408ddcbf338b5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.43.0",
+      "gitHead" : "72858cb1474b81c91902794ab7d28c79f34b8ca8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.43.0_1749619361128_0.5067709517719536",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.2"
+    },
+    "4.27.0-0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.27.0-0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.27.0-0.tgz",
+        "shasum" : "a65da1df18d428fc04854cc11a4546421f738eb1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.7.0",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.27.0-0",
+      "gitHead" : "5e6074f07843bcbcf26b916c557fdfd81d2adece",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.27.0-0_1731481396213_0.5838473623101974",
+        "host" : "s3://npm-registry-packages"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.20.4"
+    },
+    "4.27.0-1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.27.0-1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.27.0-1.tgz",
+        "shasum" : "a3658078914c9f11f704617f80aa6b7424c7b9bc"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.27.0-1",
+      "gitHead" : "81f5021d7d7e2a488639dc036f2334995b3761fc",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.27.0-1_1731565993784_0.4541492842764223",
+        "host" : "s3://npm-registry-packages"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.33.0-0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.33.0-0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.33.0-0.tgz",
+        "shasum" : "8dee11e844acf615236572c276d446cf0f19bf7d"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.33.0-0",
+      "gitHead" : "f854e1988542d09f9691923eddd80888e92240d3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.33.0-0_1738053011840_0.6599526295418567",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.18.1"
+    },
+    "4.34.7" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.34.7",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.34.7.tgz",
+        "shasum" : "7a028357cbd12c5869c446ad18177c89f3405102"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.34.7",
+      "gitHead" : "f9c52f80074e33f5b0799e8ca215e3bfac7d2755",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.34.7_1739526842399_0.2500024778238201",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.2"
+    },
+    "4.50.2-2" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.50.2-2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.50.2-2.tgz",
+        "shasum" : "4e206cb7816abc3378f0844e0b3ca441dbe4c83c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.50.2-2",
+      "gitHead" : "625576c5398dc1041f0069fc644ff97029eafa96",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.50.2-2_1757914406009_0.618661370765154",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.19.5"
+    },
+    "4.34.8" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.34.8",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.34.8.tgz",
+        "shasum" : "cf74f8113b5a83098a5c026c165742277cbfb88b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.34.8",
+      "gitHead" : "8f667b7c15b176728449a4917cb29fe5ee3a1c0c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.34.8_1739773588315_0.7208894129307681",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.2"
+    },
+    "4.34.9" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.34.9",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.34.9.tgz",
+        "shasum" : "d95bd8f6eaaf829781144fc8bd2d5d71d9f6a9f5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.34.9",
+      "gitHead" : "0ab9b9772e24dfe9ef08bfce3132e99a15b793f6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.34.9_1740814359509_0.47756051904530006",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.3"
+    },
+    "4.34.3" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.34.3",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.34.3.tgz",
+        "shasum" : "a54caebb98ab71aaf67e826cc9e6a145fb30ffb5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.34.3",
+      "gitHead" : "ac8b06a2b5406f694c38c416912cc2b18ba13355",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.34.3_1738747328067_0.9514944113362798",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.2"
+    },
+    "4.34.4" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.34.4",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.34.4.tgz",
+        "shasum" : "38d0db29f2fafa64fc6d082fd952617684742bf7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.34.4",
+      "gitHead" : "19312a762c3cda56a0f6dc80a0887a4499db2257",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.34.4_1738791074185_0.6412113204669074",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.2"
+    },
+    "4.38.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.38.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.38.0.tgz",
+        "shasum" : "ac8028c99221d1cef22788adda465077d5926911"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.38.0",
+      "gitHead" : "22b64bcc511dfc40ce463e3f662a928915908713",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.38.0_1743229749486_0.432717029086809",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.0"
+    },
+    "4.34.5" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.34.5",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.34.5.tgz",
+        "shasum" : "791ae6793c4f18e2afaa630bf45366120b9151e3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.34.5",
+      "gitHead" : "3426b026e95319048dd5b703f2a0330c1c924e52",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.34.5_1738918384996_0.2635847380759244",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.2"
+    },
+    "4.34.6" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.34.6",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.34.6.tgz",
+        "shasum" : "29c54617e0929264dcb6416597d6d7481696e49f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.34.6",
+      "gitHead" : "4b8745922d37d8325197d5a6613ffbf231163c7d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.34.6_1738945930227_0.44993734400018925",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.2"
+    },
+    "4.33.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.33.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.33.0.tgz",
+        "shasum" : "5f09ad4a475137b5bb427cde27f9c9f9c4f79e55"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.33.0",
+      "gitHead" : "494483e8df7b5d04796b30e37f54d7e96fa91a97",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.33.0_1738393922975_0.3935420721327434",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.2"
+    },
+    "4.52.4" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.52.4",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.52.4.tgz",
+        "shasum" : "bc8e640e28abe52450baf3fc80d9b26d9bb6587d"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "11.6.1",
+      "_npmUser" : {
+        "name" : "GitHub Actions",
+        "email" : "npm-oidc-no-reply@github.com",
+        "trustedPublisher" : {
+          "id" : "github",
+          "oidcConfigId" : "oidc:4f4898ec-ab80-4192-a991-13f278d8211f"
+        }
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.52.4",
+      "gitHead" : "cd81da74af1d11fda0ee1752cc26f6dc8217e9ca",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.52.4_1759470491355_0.2552819704706666",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "24.9.0"
+    },
+    "4.52.3" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.52.3",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.52.3.tgz",
+        "shasum" : "8a2bda997faa1d7e335ce1961ce71d1a76ac6288"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.52.3",
+      "gitHead" : "74c555c8e9ef7b62c2f57925bb2a5c0627ef8ae1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.52.3_1758956775603_0.39154349972948865",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.5"
+    },
+    "4.35.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.35.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.35.0.tgz",
+        "shasum" : "be3d39e3441df5d6e187c83d158c60656c82e203"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.35.0",
+      "gitHead" : "70ef1cce7c740030cc2935b563d13950cc1511f5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.35.0_1741415087757_0.9913694763773271",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.3"
+    },
+    "4.52.5" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.52.5",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.52.5.tgz",
+        "shasum" : "0e7027054493f3409b1f219a3eac5efd128ef899"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "11.6.2",
+      "_npmUser" : {
+        "name" : "GitHub Actions",
+        "email" : "npm-oidc-no-reply@github.com",
+        "trustedPublisher" : {
+          "id" : "github",
+          "oidcConfigId" : "oidc:4f4898ec-ab80-4192-a991-13f278d8211f"
+        }
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.52.5",
+      "gitHead" : "55a8fd5a70820f274921edf394efbbaa620f0962",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/rollup-freebsd-arm64_4.52.5_1760770421465_0.9381469566877993"
+      },
+      "_nodeVersion" : "24.10.0"
+    },
+    "4.50.2" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.50.2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.50.2.tgz",
+        "shasum" : "d35afb9f66154b557b3387d12450920f8a954b96"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.50.2",
+      "gitHead" : "76a3b8ede4729a71eb522fc29f7d550a4358827b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.50.2_1757920469200_0.08535643912514557",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.5"
+    },
+    "4.52.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.52.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.52.0.tgz",
+        "shasum" : "2b3ee9028493fd58245ded2137de0bc5d6b8f1e4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.52.0",
+      "gitHead" : "2029f639f983289619538c60bc14eebc638c6926",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.52.0_1758311182789_0.4542591313479558",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.5"
+    },
+    "4.50.1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.50.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.50.1.tgz",
+        "shasum" : "46c22a16d18180e99686647543335567221caa9c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.50.1",
+      "gitHead" : "79d5563ab4787f9425a5fa317bad0d6ae4be480b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.50.1_1757242341643_0.8751484250766106",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.4"
+    },
+    "4.31.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.31.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.31.0.tgz",
+        "shasum" : "96ce1a241c591ec3e068f4af765d94eddb24e60c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.31.0",
+      "gitHead" : "15c264d59e0768b7d283a7bb8ded0519d1b5199e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.31.0_1737291410049_0.29906194493933214",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.18.1"
+    },
+    "4.52.2" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.52.2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.52.2.tgz",
+        "shasum" : "63fa5783edd02a7aae141fc718e1f26882736c2b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.52.2",
+      "gitHead" : "fa2315c4a53670775dd1074af131873dd37f828c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.52.2_1758615594566_0.4688848608253551",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.5"
+    },
+    "4.52.1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.52.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.52.1.tgz",
+        "shasum" : "6fc826181f0114ce7ecdb5e4b87885fd2453c76f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.52.1",
+      "gitHead" : "69b5dd3e3edc03ab02cf948ea5278226fc9e60c8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.52.1_1758601791460_0.8056827596123362",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.5"
+    },
+    "4.50.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.50.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.50.0.tgz",
+        "shasum" : "a96b4ad8346229f6fcbd9d57f1c53040b037c2da"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.50.0",
+      "gitHead" : "592e7d78f726bb038881f3c9ab4450d26c3db8c7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.50.0_1756625898881_0.6308246818642342",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.4"
+    },
+    "4.25.0-0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.25.0-0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.25.0-0.tgz",
+        "shasum" : "274f152156fa123ad740089adb81073be2607ab3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.7.0",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.25.0-0",
+      "gitHead" : "b7fcaba12e863db516f39de74c1eacfe5329a5c3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.25.0-0_1730182512918_0.018030162767572744",
+        "host" : "s3://npm-registry-packages"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.20.4"
+    },
+    "4.31.0-0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.31.0-0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.31.0-0.tgz",
+        "shasum" : "88461a6f93f14a3d11c92b3d68ae352a6b67ccc4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.31.0-0",
+      "gitHead" : "8c80d5f657f0777d14bd75d446fee3fa4b7639fc",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.31.0-0_1736834264949_0.6374128818114608",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.18.1"
+    },
+    "4.28.1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.28.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.28.1.tgz",
+        "shasum" : "30ed247e0df6e8858cdc6ae4090e12dbeb8ce946"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.28.1",
+      "gitHead" : "e60fb1c5d4e54ed5257495215eeda1bb43cf54ba",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.28.1_1733485498910_0.539572699736236",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.24.4" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.24.4",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.24.4.tgz",
+        "shasum" : "c54b2373ec5bcf71f08c4519c7ae80a0b6c8e03b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.7.0",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.24.4",
+      "gitHead" : "cdf34ab5411aac6ac3f6cd21b10d2e58427e88ec",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.24.4_1730710031572_0.480813924363644",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.20.4"
+    },
+    "4.28.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.28.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.28.0.tgz",
+        "shasum" : "3c919dff72b2fe344811a609c674a8347b033f62"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.28.0",
+      "gitHead" : "0595e433edec3608bfc0331d8f02912374e7f7f7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.28.0_1732972550535_0.8582790675607659",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.24.3" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.24.3",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.24.3.tgz",
+        "shasum" : "27145e414986e216e0d9b9a8d488028f33c39566"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.7.0",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.24.3",
+      "gitHead" : "69353a84d70294ecfcd5e1ab8e372e21e94c9f8e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.24.3_1730211250285_0.3817818438676088",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.20.4"
+    },
+    "4.24.2" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.24.2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.24.2.tgz",
+        "shasum" : "15fe184ecfafc635879500f6985c954e57697c44"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.7.0",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.24.2",
+      "gitHead" : "32d0e7dae85121ac0850ec28576a10a6302f84a9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.24.2_1730043610688_0.489279229986765",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.20.4"
+    },
+    "4.26.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.26.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.26.0.tgz",
+        "shasum" : "550a0ebf5bea6ceee79dc2f75a0bcef7d660de2c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.7.0",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.26.0",
+      "gitHead" : "ae1d14b7855ff6568a6697d37271a5eb4d8e2d3e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.26.0_1731480301941_0.35150139821575666",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.20.4"
+    },
+    "4.45.3" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.45.3",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.45.3.tgz",
+        "shasum" : "2043d93cecb444248989b37615b3113c977a439b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.45.3",
+      "gitHead" : "d6908c90c26220f490ff43b226e61288c864d06a",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.45.3_1753537332622_0.7474040488291493",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.4"
+    },
+    "4.47.1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.47.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.47.1.tgz",
+        "shasum" : "9fc804264f7b7a7cdad3747950299f990163be1f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.47.1",
+      "gitHead" : "21d5c5b74ec8c2cddef08a4122c3411e83f3d62f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.47.1_1755765830994_0.6572144736608894",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.4"
+    },
+    "4.49.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.49.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.49.0.tgz",
+        "shasum" : "107786b4d604495224c3543bfd2cae33ddf76500"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.49.0",
+      "gitHead" : "b12c061d27d63062b91c1830a698de53fd6c2067",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.49.0_1756279526920_0.8100434332997344",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.4"
+    },
+    "4.30.0-0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.30.0-0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.30.0-0.tgz",
+        "shasum" : "1cdf1ce770e4d0168653c7b515a15e2f9c90f209"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.30.0-0",
+      "gitHead" : "2339f1d8384a8999645823f83f9042a9fc7b3bf7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.30.0-0_1734765437360_0.6263093419773342",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.44.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.44.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.44.0.tgz",
+        "shasum" : "d5d4c6cd3b8acb7493b76227d8b2b4a2d732a37b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "actor" : {
+          "name" : "lukastaegert",
+          "type" : "user",
+          "email" : "lukas.taegert@tngtech.com"
+        },
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.44.0",
+      "gitHead" : "fa4b2842c823f6a61f6b994a28b7fcb54419b6c6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.44.0_1750314179910_0.06108032789723694",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.2"
+    },
+    "4.52.4-2" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.52.4-2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.52.4-2.tgz",
+        "shasum" : "e21ae0ea5dbcbe8358563bbdb34f8158e049519c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "11.6.1",
+      "_npmUser" : {
+        "name" : "GitHub Actions",
+        "email" : "npm-oidc-no-reply@github.com",
+        "trustedPublisher" : {
+          "id" : "github",
+          "oidcConfigId" : "oidc:4f4898ec-ab80-4192-a991-13f278d8211f"
+        }
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.52.4-2",
+      "gitHead" : "26cf0109887532e9f0b3709a2bf854b3e6498959",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.52.4-2_1759074069443_0.1737485544184727",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "24.9.0"
+    },
+    "4.30.0-1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.30.0-1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.30.0-1.tgz",
+        "shasum" : "18388f0221d3820c1323147cda192597472462c9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.30.0-1",
+      "gitHead" : "41ab39a6e4a5181e9be21e816dd6f11c57e1c52a",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.30.0-1_1735541539166_0.7177044691816639",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.44.1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.44.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.44.1.tgz",
+        "shasum" : "d199d8eaef830179c0c95b7a6e5455e893d1102c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "actor" : {
+          "name" : "lukastaegert",
+          "type" : "user",
+          "email" : "lukas.taegert@tngtech.com"
+        },
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.44.1",
+      "gitHead" : "5a7f9e215a11de165b85dafd64350474847ec6db",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.44.1_1750912459045_0.6150142609008151",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.2"
+    },
+    "4.48.0-0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.48.0-0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.48.0-0.tgz",
+        "shasum" : "e653d3c522ff4a48d7ed48a6ba9be30d63addcc7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.48.0-0",
+      "gitHead" : "a0526c875c719459b7587b7f980bf34faee3b590",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.48.0-0_1755844866970_0.6831339926632247",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.19.4"
+    },
+    "4.52.4-3" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.52.4-3",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.52.4-3.tgz",
+        "shasum" : "78133d0c12fae75c6aa8e0643c6de2ce44fc0595"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "11.6.1",
+      "_npmUser" : {
+        "name" : "GitHub Actions",
+        "email" : "npm-oidc-no-reply@github.com",
+        "trustedPublisher" : {
+          "id" : "github",
+          "oidcConfigId" : "oidc:4f4898ec-ab80-4192-a991-13f278d8211f"
+        }
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.52.4-3",
+      "gitHead" : "31d43dd46a25ecf2cf3bef6843f9dcff03db07af",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.52.4-3_1759075756795_0.643757100935505",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "24.9.0"
+    },
+    "4.44.2" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.44.2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.44.2.tgz",
+        "shasum" : "4880f9769f1a7eec436b9c146e1d714338c26567"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "actor" : {
+          "name" : "lukastaegert",
+          "type" : "user",
+          "email" : "lukas.taegert@tngtech.com"
+        },
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.44.2",
+      "gitHead" : "d6dd1e7c6ee3f8fcfd77e5b8082cc62387a8ac4f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.44.2_1751633771198_0.4755465050827963",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.2"
+    },
+    "4.46.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.46.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.46.0.tgz",
+        "shasum" : "5ce48e85792cb149117ebc7e77907762532d1849"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.46.0",
+      "gitHead" : "09794f1bf24473e63b3ff10daa7e9f4d5d50ce1e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.46.0_1753599140192_0.9758420991732937",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.4"
+    },
+    "4.46.1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.46.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.46.1.tgz",
+        "shasum" : "6634478a78a0c17dcf55adb621fa66faa58a017b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.46.1",
+      "gitHead" : "244dc20bab1cd59221b70cd759e0a0ec15044c2e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.46.1_1753678143770_0.6994615157277835",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.4"
+    },
+    "4.52.4-1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.52.4-1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.52.4-1.tgz",
+        "shasum" : "f94c090529d76ca6304f3a748795d2a45905e32c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "11.6.1",
+      "_npmUser" : {
+        "name" : "GitHub Actions",
+        "email" : "npm-oidc-no-reply@github.com",
+        "trustedPublisher" : {
+          "id" : "github",
+          "oidcConfigId" : "oidc:4f4898ec-ab80-4192-a991-13f278d8211f"
+        }
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.52.4-1",
+      "gitHead" : "e2a2f6a3c809dd7dda3bda2f7622c4c7cb2e154b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.52.4-1_1759068747003_0.5875610292774869",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.19.5"
+    },
+    "4.25.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.25.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.25.0.tgz",
+        "shasum" : "99e9173b8aef3d1ef086983da70413988206e530"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.7.0",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.25.0",
+      "gitHead" : "42e587e0e37bc0661aa39fe7ad6f1d7fd33f825c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.25.0_1731141444656_0.15598835615346784",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.20.4"
+    },
+    "4.40.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.40.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.40.0.tgz",
+        "shasum" : "cbcbd7248823c6b430ce543c59906dd3c6df0936"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.40.0",
+      "gitHead" : "1f2d579ccd4b39f223fed14ac7d031a6c848cd80",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.40.0_1744447178466_0.7386738362301122",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.0"
+    },
+    "4.40.1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.40.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.40.1.tgz",
+        "shasum" : "04c892d9ff864d66e31419634726ab0bebb33707"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.40.1",
+      "gitHead" : "1e6c40f49c428b7657fe3b9a2026f705acd39da1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.40.1_1745814926955_0.7016286897474149",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.0"
+    },
+    "4.40.2" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.40.2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.40.2.tgz",
+        "shasum" : "91a28dc527d5bed7f9ecf0e054297b3012e19618"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.40.2",
+      "gitHead" : "02da7efedcf373f0f819b78e3acbe50de05d9a5b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.40.2_1746516416026_0.46450550526841883",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.1"
+    },
+    "4.42.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.42.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.42.0.tgz",
+        "shasum" : "0ebdb3b470ccf6acf0eacae8177f34e27477559f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.42.0",
+      "gitHead" : "f76339428586620ff3e4c32fce48f923e7be7b05",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.42.0_1749221295543_0.9500489560533014",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.1"
+    },
+    "4.51.1-0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.51.1-0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.51.1-0.tgz",
+        "shasum" : "a69ef24349a0d2d722ae8523f0a21f8034f7941c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.51.1-0",
+      "gitHead" : "04b4b56d20a1702ee95b518e0f623baa64ed4a89",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.51.1-0_1758283702009_0.7813009749105588",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.19.5"
+    },
+    "4.27.1-1" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.27.1-1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.27.1-1.tgz",
+        "shasum" : "98c7500c7eb8d19dbaa13efe50a19b1a2e9c5a51"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.27.1-1",
+      "gitHead" : "892ce0206dbf4fbf656b2f0563ef803c5e5a0016",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.27.1-1_1731685086008_0.03602295036312486",
+        "host" : "s3://npm-registry-packages"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.27.1-0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.27.1-0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.27.1-0.tgz",
+        "shasum" : "3941e0208a390c3c155b7c7b18b2175f6b3a1b66"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.27.1-0",
+      "gitHead" : "a80f6a94d720224a44331d5a50745e9887619703",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.27.1-0_1731677290489_0.49137998275386763",
+        "host" : "s3://npm-registry-packages"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.20.5"
+    },
+    "4.50.3-0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.50.3-0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.50.3-0.tgz",
+        "shasum" : "abbbd3197d836d08b644a2305cb4de03e363ef6b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.50.3-0",
+      "gitHead" : "d43171cfc96cc464ce1b96a7f42490d53002b615",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.50.3-0_1758256873903_0.5818830539449291",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.19.5"
+    },
+    "4.37.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.37.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.37.0.tgz",
+        "shasum" : "18113e8e133ccb6de4b9dc9d3e09f7acff344cb7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.37.0",
+      "gitHead" : "8b1c634d945dda9294cf579de68c4b223c618e7f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.37.0_1742741829807_0.9468752537438239",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.0"
+    },
+    "4.39.0" : {
+      "name" : "@rollup/rollup-freebsd-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.39.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "url" : "git+https://github.com/rollup/rollup.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.freebsd-arm64.node",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.39.0.tgz",
+        "shasum" : "2b60c81ac01ff7d1bc8df66aee7808b6690c6d19"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-freebsd-arm64@4.39.0",
+      "gitHead" : "5c001245779063abac3899aa9d25294ab003581b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/rollup-freebsd-arm64_4.39.0_1743569375010_0.3143982821043336",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.19.0"
+    }
+  },
+  "readme" : "# `@rollup/rollup-freebsd-arm64`\n\nThis is the **aarch64-unknown-freebsd** binary for `rollup`\n",
+  "maintainers" : [ {
+    "name" : "shellscape",
+    "email" : "andrew@shellscape.org"
+  }, {
+    "name" : "rich_harris",
+    "email" : "richard.a.harris@gmail.com"
+  }, {
+    "name" : "guybedford",
+    "email" : "guybedford@gmail.com"
+  }, {
+    "name" : "lukastaegert",
+    "email" : "lukas.taegert@tngtech.com"
+  } ],
+  "author" : {
+    "name" : "Lukas Taegert-Atkinson"
+  },
+  "time" : {
+    "4.29.0-0" : "2024-12-16T06:39:56.266Z",
+    "4.32.1" : "2025-01-28T08:33:20.600Z",
+    "4.29.0-1" : "2024-12-19T06:37:34.224Z",
+    "4.34.0" : "2025-02-01T08:40:26.514Z",
+    "4.34.1" : "2025-02-03T06:58:16.767Z",
+    "4.34.2" : "2025-02-04T08:10:05.302Z",
+    "4.36.0" : "2025-03-17T08:35:46.648Z",
+    "4.30.0" : "2025-01-06T06:36:43.988Z",
+    "4.51.0" : "2025-09-19T08:59:03.696Z",
+    "4.30.1" : "2025-01-07T10:35:55.814Z",
+    "4.32.0" : "2025-01-24T08:27:38.195Z",
+    "4.29.0-2" : "2024-12-20T06:56:06.153Z",
+    "4.27.2" : "2024-11-15T17:20:06.476Z",
+    "4.29.0" : "2024-12-20T18:37:27.693Z",
+    "modified" : "2025-10-18T06:53:42.138Z",
+    "4.27.1" : "2024-11-15T16:07:44.396Z",
+    "4.27.0" : "2024-11-15T10:40:38.526Z",
+    "4.46.2" : "2025-07-29T19:45:26.429Z",
+    "4.48.0" : "2025-08-23T06:19:57.775Z",
+    "4.46.3" : "2025-08-18T05:58:54.830Z",
+    "4.48.1" : "2025-08-25T05:43:17.356Z",
+    "4.27.4" : "2024-11-23T07:00:24.182Z",
+    "4.29.2" : "2025-01-05T12:07:45.948Z",
+    "4.46.4" : "2025-08-20T05:33:23.334Z",
+    "4.27.3" : "2024-11-18T16:39:38.661Z",
+    "4.29.1" : "2024-12-21T07:16:05.691Z",
+    "4.45.0" : "2025-07-12T05:54:06.617Z",
+    "4.45.1" : "2025-07-15T13:09:45.730Z",
+    "4.47.0" : "2025-08-21T05:43:04.613Z",
+    "4.41.0" : "2025-05-18T05:33:35.461Z",
+    "created" : "2024-10-27T15:40:10.545Z",
+    "4.41.1" : "2025-05-24T06:14:34.887Z",
+    "4.41.2" : "2025-06-06T11:40:35.147Z",
+    "4.43.0" : "2025-06-11T05:22:41.397Z",
+    "4.27.0-0" : "2024-11-13T07:03:16.472Z",
+    "4.27.0-1" : "2024-11-14T06:33:14.060Z",
+    "4.33.0-0" : "2025-01-28T08:30:12.076Z",
+    "4.34.7" : "2025-02-14T09:54:02.629Z",
+    "4.50.2-2" : "2025-09-15T05:33:26.201Z",
+    "4.34.8" : "2025-02-17T06:26:28.558Z",
+    "4.34.9" : "2025-03-01T07:32:39.803Z",
+    "4.34.3" : "2025-02-05T09:22:08.297Z",
+    "4.34.4" : "2025-02-05T21:31:14.420Z",
+    "4.38.0" : "2025-03-29T06:29:09.735Z",
+    "4.34.5" : "2025-02-07T08:53:05.182Z",
+    "4.34.6" : "2025-02-07T16:32:10.517Z",
+    "4.33.0" : "2025-02-01T07:12:03.223Z",
+    "4.52.4" : "2025-10-03T05:48:11.640Z",
+    "4.52.3" : "2025-09-27T07:06:15.866Z",
+    "4.35.0" : "2025-03-08T06:24:48.020Z",
+    "4.52.5" : "2025-10-18T06:53:41.695Z",
+    "4.50.2" : "2025-09-15T07:14:29.453Z",
+    "4.52.0" : "2025-09-19T19:46:23.074Z",
+    "4.50.1" : "2025-09-07T10:52:21.869Z",
+    "4.31.0" : "2025-01-19T12:56:50.339Z",
+    "4.52.2" : "2025-09-23T08:19:54.839Z",
+    "4.52.1" : "2025-09-23T04:29:51.677Z",
+    "4.50.0" : "2025-08-31T07:38:19.096Z",
+    "4.25.0-0" : "2024-10-29T06:15:13.200Z",
+    "4.31.0-0" : "2025-01-14T05:57:45.157Z",
+    "4.28.1" : "2024-12-06T11:44:59.135Z",
+    "4.24.4" : "2024-11-04T08:47:11.853Z",
+    "4.28.0" : "2024-11-30T13:15:50.788Z",
+    "4.24.3" : "2024-10-29T14:14:10.508Z",
+    "4.24.2" : "2024-10-27T15:40:10.982Z",
+    "4.26.0" : "2024-11-13T06:45:02.223Z",
+    "4.45.3" : "2025-07-26T13:42:12.903Z",
+    "4.47.1" : "2025-08-21T08:43:51.203Z",
+    "4.49.0" : "2025-08-27T07:25:27.127Z",
+    "4.30.0-0" : "2024-12-21T07:17:17.593Z",
+    "4.44.0" : "2025-06-19T06:23:00.132Z",
+    "4.52.4-2" : "2025-09-28T15:41:09.672Z",
+    "4.30.0-1" : "2024-12-30T06:52:19.378Z",
+    "4.44.1" : "2025-06-26T04:34:19.316Z",
+    "4.48.0-0" : "2025-08-22T06:41:07.180Z",
+    "4.52.4-3" : "2025-09-28T16:09:17.038Z",
+    "4.44.2" : "2025-07-04T12:56:11.489Z",
+    "4.46.0" : "2025-07-27T06:52:20.393Z",
+    "4.46.1" : "2025-07-28T04:49:03.992Z",
+    "4.52.4-1" : "2025-09-28T14:12:27.267Z",
+    "4.25.0" : "2024-11-09T08:37:24.817Z",
+    "4.40.0" : "2025-04-12T08:39:38.708Z",
+    "4.40.1" : "2025-04-28T04:35:27.196Z",
+    "4.40.2" : "2025-05-06T07:26:56.258Z",
+    "4.42.0" : "2025-06-06T14:48:15.740Z",
+    "4.51.1-0" : "2025-09-19T12:08:22.255Z",
+    "4.27.1-1" : "2024-11-15T15:38:06.277Z",
+    "4.27.1-0" : "2024-11-15T13:28:10.835Z",
+    "4.50.3-0" : "2025-09-19T04:41:14.121Z",
+    "4.37.0" : "2025-03-23T14:57:10.041Z",
+    "4.39.0" : "2025-04-02T04:49:35.347Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/rollup/rollup.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://rollupjs.org/",
+  "bugs" : {
+    "url" : "https://github.com/rollup/rollup/issues"
+  },
+  "license" : "MIT"
+}

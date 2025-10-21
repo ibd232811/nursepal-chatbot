@@ -1,0 +1,1483 @@
+{
+  "_id" : "p-limit",
+  "_rev" : "37-2637d64557e3615146fddc5ef170bdb7",
+  "name" : "p-limit",
+  "description" : "Run multiple promise-returning & async functions with limited concurrency",
+  "dist-tags" : {
+    "latest" : "7.1.1"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "2.0.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-2.0.0.tgz",
+        "shasum" : "e624ed54ee8c460a778b3c9f3670496ff8a57aec"
+      },
+      "dependencies" : {
+        "p-try" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "delay" : "^3.0.0",
+        "in-range" : "^1.0.0",
+        "time-span" : "^2.0.0",
+        "random-int" : "^1.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@2.0.0",
+      "gitHead" : "0eef70fffc6503a84d8a768b6efe42e227169dc6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_2.0.0_1528998260071_0.8291032578012119",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.11.2"
+    },
+    "7.1.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "7.1.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=20"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-7.1.0.tgz",
+        "shasum" : "eb9721142d36e03b50f37fc06de0ba6788380dee"
+      },
+      "dependencies" : {
+        "yocto-queue" : "^1.2.1"
+      },
+      "devDependencies" : {
+        "xo" : "^1.2.1",
+        "ava" : "^6.4.1",
+        "tsd" : "^0.33.0",
+        "delay" : "^6.0.0",
+        "in-range" : "^3.0.0",
+        "time-span" : "^5.1.0",
+        "random-int" : "^3.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd",
+        "benchmark" : "node benchmark.js"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@7.1.0",
+      "gitHead" : "c944e4a4363ff41a7202d5dec346cc174c3ecf49",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "exports" : {
+        "types" : "./index.d.ts",
+        "default" : "./index.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_7.1.0_1755615826160_0.746253507339651",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "20.19.1"
+    },
+    "2.1.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "2.1.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-2.1.0.tgz",
+        "shasum" : "1d5a0d20fb12707c758a655f6bbc4386b5930d68"
+      },
+      "dependencies" : {
+        "p-try" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.23.0",
+        "ava" : "^1.0.1",
+        "delay" : "^4.1.0",
+        "in-range" : "^1.0.0",
+        "time-span" : "^2.0.0",
+        "random-int" : "^1.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@2.1.0",
+      "gitHead" : "8517860c047c5fc485d92879bfc01952e1417d19",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_2.1.0_1545747377882_0.09658731145738386",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "11.5.0"
+    },
+    "7.1.1" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "7.1.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "https://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/p-limit.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=20"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-7.1.1.tgz",
+        "shasum" : "1f349332b179e370ede603078d975048b9e904a2"
+      },
+      "dependencies" : {
+        "yocto-queue" : "^1.2.1"
+      },
+      "devDependencies" : {
+        "ava" : "^6.4.1",
+        "delay" : "^6.0.0",
+        "in-range" : "^3.0.0",
+        "random-int" : "^3.0.0",
+        "time-span" : "^5.1.0",
+        "tsd" : "^0.33.0",
+        "xo" : "^1.2.1"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd",
+        "benchmark" : "node benchmark.js"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@7.1.1",
+      "gitHead" : "25655a000c5179f6d3732243b2d069d8073eaf71",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "types" : "./index.d.ts",
+      "exports" : {
+        "types" : "./index.d.ts",
+        "default" : "./index.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/p-limit_7.1.1_1756377713224_0.5609581321824095"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "20.19.1"
+    },
+    "7.0.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "7.0.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=20"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-7.0.0.tgz",
+        "shasum" : "18e2aab64e87718f96b2fcfd70f598bbd1d847a8"
+      },
+      "dependencies" : {
+        "yocto-queue" : "^1.2.1"
+      },
+      "devDependencies" : {
+        "xo" : "^1.2.1",
+        "ava" : "^6.4.1",
+        "tsd" : "^0.33.0",
+        "delay" : "^6.0.0",
+        "in-range" : "^3.0.0",
+        "time-span" : "^5.1.0",
+        "random-int" : "^3.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd",
+        "benchmark" : "node benchmark.js"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@7.0.0",
+      "gitHead" : "2b14c23295d271eb73396a1d4bdd8d816017421c",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "exports" : {
+        "types" : "./index.d.ts",
+        "default" : "./index.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_7.0.0_1755204664044_0.9538718323678221",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "24.5.0"
+    },
+    "4.0.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "4.0.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : "^12.20.0 || ^14.13.1 || >=16.0.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-4.0.0.tgz",
+        "shasum" : "914af6544ed32bfa54670b061cafcbd04984b644"
+      },
+      "dependencies" : {
+        "yocto-queue" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.44.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.17.0",
+        "delay" : "^5.0.0",
+        "in-range" : "^3.0.0",
+        "time-span" : "^5.0.0",
+        "random-int" : "^3.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "7.10.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@4.0.0",
+      "gitHead" : "38a6773e552d24f4c9eb2d79d57b6cff017c587d",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "exports" : "./index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_4.0.0_1628812703302_0.6491971469999389",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "12.22.1"
+    },
+    "2.2.2" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "2.2.2",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-2.2.2.tgz",
+        "shasum" : "61279b67721f5287aa1c13a9a7fbbc48c9291b1e"
+      },
+      "dependencies" : {
+        "p-try" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.24.0",
+        "ava" : "^1.2.1",
+        "delay" : "^4.1.0",
+        "in-range" : "^1.0.0",
+        "time-span" : "^2.0.0",
+        "tsd-check" : "^0.3.0",
+        "random-int" : "^1.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd-check"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@2.2.2",
+      "gitHead" : "6d7a2253a33248572aa87a56bc4af9e3fe247232",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_2.2.2_1577904151691_0.7571350708733962",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.17.0"
+    },
+    "2.2.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "2.2.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-2.2.0.tgz",
+        "shasum" : "417c9941e6027a9abcba5092dd2904e255b5fbc2"
+      },
+      "dependencies" : {
+        "p-try" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.24.0",
+        "ava" : "^1.2.1",
+        "delay" : "^4.1.0",
+        "in-range" : "^1.0.0",
+        "time-span" : "^2.0.0",
+        "tsd-check" : "^0.3.0",
+        "random-int" : "^1.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd-check"
+      },
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@2.2.0",
+      "gitHead" : "0320e8b5e9b9ff66db20f98aa4cf235146768bcd",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_2.2.0_1551554473384_0.12635434710499815",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "2.2.1" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "2.2.1",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-2.2.1.tgz",
+        "shasum" : "aa07a788cc3151c939b5131f63570f0dd2009537"
+      },
+      "dependencies" : {
+        "p-try" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.24.0",
+        "ava" : "^1.2.1",
+        "delay" : "^4.1.0",
+        "in-range" : "^1.0.0",
+        "time-span" : "^2.0.0",
+        "tsd-check" : "^0.3.0",
+        "random-int" : "^1.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd-check"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@2.2.1",
+      "gitHead" : "056c0f3674041b90ecfb69c808ec1b910eb1e993",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_2.2.1_1566154339491_0.7648657346726373",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "2.3.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "2.3.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-2.3.0.tgz",
+        "shasum" : "3dd33c647a214fdfffd835933eb086da0dc21db1"
+      },
+      "dependencies" : {
+        "p-try" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.24.0",
+        "ava" : "^1.2.1",
+        "delay" : "^4.1.0",
+        "in-range" : "^1.0.0",
+        "time-span" : "^2.0.0",
+        "tsd-check" : "^0.3.0",
+        "random-int" : "^1.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd-check"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@2.3.0",
+      "gitHead" : "a11f02bc5c04490b7c3de2663d866c211fb915ea",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_2.3.0_1586101245000_0.8128440121358671",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.19.0"
+    },
+    "1.3.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "1.3.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-1.3.0.tgz",
+        "shasum" : "b86bd5f0c25690911c7590fcbfc2010d54b3ccb8"
+      },
+      "dependencies" : {
+        "p-try" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "delay" : "^2.0.0",
+        "in-range" : "^1.0.0",
+        "time-span" : "^2.0.0",
+        "random-int" : "^1.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@1.3.0",
+      "gitHead" : "cf076d73844ebbfda8ae4e184fc436396998ecb2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_1.3.0_1528300898695_0.9429035390514915",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.11.2"
+    },
+    "6.2.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "6.2.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-6.2.0.tgz",
+        "shasum" : "c254d22ba6aeef441a3564c5e6c2f2da59268a0f"
+      },
+      "dependencies" : {
+        "yocto-queue" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "xo" : "^0.58.0",
+        "ava" : "^6.1.3",
+        "tsd" : "^0.31.1",
+        "delay" : "^6.0.0",
+        "in-range" : "^3.0.0",
+        "time-span" : "^5.1.0",
+        "random-int" : "^3.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "10.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@6.2.0",
+      "gitHead" : "7d14b3f04aa990f621a853e24e2a4b796baf1ec9",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "exports" : {
+        "types" : "./index.d.ts",
+        "default" : "./index.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_6.2.0_1734623197970_0.6282986687976977",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "23.3.0"
+    },
+    "3.0.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "3.0.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-3.0.0.tgz",
+        "shasum" : "8a9da09ee359017af6a3aa6b8ede13f5894224ec"
+      },
+      "dependencies" : {
+        "p-try" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.26.0",
+        "ava" : "^2.4.0",
+        "tsd" : "^0.11.0",
+        "delay" : "^4.1.0",
+        "in-range" : "^2.0.0",
+        "time-span" : "^4.0.0",
+        "random-int" : "^2.0.1"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@3.0.0",
+      "gitHead" : "0038c559658ad75445de4b3a8c6e0167129e813c",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_3.0.0_1591444383325_0.9378092234424682",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "6.0.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "6.0.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-6.0.0.tgz",
+        "shasum" : "c1e3aae949b4c53a2936b2d7e38a40bb87720011"
+      },
+      "dependencies" : {
+        "yocto-queue" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "xo" : "^0.58.0",
+        "ava" : "^6.1.3",
+        "tsd" : "^0.31.1",
+        "delay" : "^6.0.0",
+        "in-range" : "^3.0.0",
+        "time-span" : "^5.1.0",
+        "random-int" : "^3.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "10.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@6.0.0",
+      "gitHead" : "850768f5655dc46547802789e13af3cf35c3d7b0",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "exports" : {
+        "types" : "./index.d.ts",
+        "default" : "./index.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_6.0.0_1720094153626_0.8405826224508739",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "18.20.2"
+    },
+    "6.1.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "6.1.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-6.1.0.tgz",
+        "shasum" : "d91f9364d3fdff89b0a45c70d04ad4e0df30a0e8"
+      },
+      "dependencies" : {
+        "yocto-queue" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "xo" : "^0.58.0",
+        "ava" : "^6.1.3",
+        "tsd" : "^0.31.1",
+        "delay" : "^6.0.0",
+        "in-range" : "^3.0.0",
+        "time-span" : "^5.1.0",
+        "random-int" : "^3.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "10.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@6.1.0",
+      "gitHead" : "98c8fef5562fabd900dfd9172013962889e13df6",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "exports" : {
+        "types" : "./index.d.ts",
+        "default" : "./index.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_6.1.0_1720440244518_0.8585718405141409",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "18.20.2"
+    },
+    "5.0.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "5.0.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-5.0.0.tgz",
+        "shasum" : "6946d5b7140b649b7a33a027d89b4c625b3a5985"
+      },
+      "dependencies" : {
+        "yocto-queue" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.56.0",
+        "ava" : "^5.3.1",
+        "tsd" : "^0.29.0",
+        "delay" : "^6.0.0",
+        "in-range" : "^3.0.0",
+        "time-span" : "^5.1.0",
+        "random-int" : "^3.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "9.2.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@5.0.0",
+      "gitHead" : "f53bdb5f464ae112b2859e834fdebedc0745199b",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "imports" : {
+        "#async_hooks" : {
+          "node" : "async_hooks",
+          "default" : "./async-hooks-stub.js"
+        }
+      },
+      "exports" : {
+        "types" : "./index.d.ts",
+        "default" : "./index.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_5.0.0_1698820264163_0.08717723629406482",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "18.18.2"
+    },
+    "3.0.1" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "3.0.1",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-3.0.1.tgz",
+        "shasum" : "584784ac0722d1aed09f19f90ed2999af6ce2839"
+      },
+      "dependencies" : {
+        "p-try" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.26.0",
+        "ava" : "^2.4.0",
+        "tsd" : "^0.11.0",
+        "delay" : "^4.1.0",
+        "in-range" : "^2.0.0",
+        "time-span" : "^4.0.0",
+        "random-int" : "^2.0.1"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@3.0.1",
+      "gitHead" : "824edb836eedc9929ea383457cd82d8367f7322e",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_3.0.1_1591460497710_0.05351684556450653",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "3.1.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "3.1.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-3.1.0.tgz",
+        "shasum" : "e1daccbe78d0d1388ca18c64fea38e3e57e3706b"
+      },
+      "dependencies" : {
+        "yocto-queue" : "^0.1.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.35.0",
+        "ava" : "^2.4.0",
+        "tsd" : "^0.13.1",
+        "delay" : "^4.4.0",
+        "in-range" : "^2.0.0",
+        "time-span" : "^4.0.0",
+        "random-int" : "^2.0.1"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.14.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@3.1.0",
+      "gitHead" : "e316fac4e7aeede98beeb87e3a7de4ffc3d8eebf",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_3.1.0_1606290157244_0.5907879843343353",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "14.15.1"
+    },
+    "1.0.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "1.0.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-1.0.0.tgz",
+        "shasum" : "1b6d069a70cbb89c54c172765680eff803a1e0ec"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "delay" : "^1.3.1",
+        "in-range" : "^1.0.0",
+        "time-span" : "^1.0.0",
+        "random-int" : "^1.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@1.0.0",
+      "gitHead" : "b364100fada683f5d43640fec2fd48b6ab4978dd",
+      "xo" : {
+        "esnext" : true
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit-1.0.0.tgz_1477036781404_0.05086738429963589",
+        "host" : "packages-12-west.internal.npmjs.com"
+      },
+      "_shasum" : "1b6d069a70cbb89c54c172765680eff803a1e0ec",
+      "_nodeVersion" : "4.6.0"
+    },
+    "3.0.2" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "3.0.2",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-3.0.2.tgz",
+        "shasum" : "1664e010af3cadc681baafd3e2a437be7b0fb5fe"
+      },
+      "dependencies" : {
+        "p-try" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.26.0",
+        "ava" : "^2.4.0",
+        "tsd" : "^0.11.0",
+        "delay" : "^4.1.0",
+        "in-range" : "^2.0.0",
+        "time-span" : "^4.0.0",
+        "random-int" : "^2.0.1"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@3.0.2",
+      "gitHead" : "b702cc1aa737ae834b4deaf87a537812d8d5418f",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit_3.0.2_1594561193541_0.8922591638953525",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "14.5.0"
+    },
+    "1.1.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "1.1.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-1.1.0.tgz",
+        "shasum" : "b07ff2d9a5d88bec806035895a2bab66a27988bc"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "delay" : "^1.3.1",
+        "in-range" : "^1.0.0",
+        "time-span" : "^1.0.0",
+        "random-int" : "^1.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@1.1.0",
+      "gitHead" : "276b0aeef73ac9fe0b80622d8261a2bbe4f9f74c",
+      "xo" : {
+        "esnext" : true
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit-1.1.0.tgz_1479711587647_0.4504568234551698",
+        "host" : "packages-12-west.internal.npmjs.com"
+      },
+      "_shasum" : "b07ff2d9a5d88bec806035895a2bab66a27988bc",
+      "_nodeVersion" : "4.6.2"
+    },
+    "1.2.0" : {
+      "name" : "p-limit",
+      "description" : "Run multiple promise-returning & async functions with limited concurrency",
+      "version" : "1.2.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/p-limit.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-limit/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/p-limit/-/p-limit-1.2.0.tgz",
+        "shasum" : "0e92b6bedcb59f022c13d0f1949dc82d15909f1c"
+      },
+      "dependencies" : {
+        "p-try" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "delay" : "^2.0.0",
+        "in-range" : "^1.0.0",
+        "time-span" : "^2.0.0",
+        "random-int" : "^1.0.0"
+      },
+      "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-limit@1.2.0",
+      "gitHead" : "4b3ecd3e9b43de4ae687505bc946b41d496065f1",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/p-limit-1.2.0.tgz_1515025456369_0.8515273337252438",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.9.0"
+    }
+  },
+  "readme" : "# p-limit\n\n> Run multiple promise-returning & async functions with limited concurrency\n\n*Works in Node.js and browsers.*\n\n## Install\n\n```sh\nnpm install p-limit\n```\n\n## Usage\n\n```js\nimport pLimit from 'p-limit';\n\nconst limit = pLimit(1);\n\nconst input = [\n\tlimit(() => fetchSomething('foo')),\n\tlimit(() => fetchSomething('bar')),\n\tlimit(() => doSomething())\n];\n\n// Only one promise is run at once\nconst result = await Promise.all(input);\nconsole.log(result);\n```\n\n## API\n\n### pLimit(concurrency) <sup>default export</sup>\n\nReturns a `limit` function.\n\n#### concurrency\n\nType: `number`\\\nMinimum: `1`\n\nConcurrency limit.\n\n### limit(fn, ...args)\n\nReturns the promise returned by calling `fn(...args)`.\n\n#### fn\n\nType: `Function`\n\nPromise-returning/async function.\n\n#### args\n\nAny arguments to pass through to `fn`.\n\nSupport for passing arguments on to the `fn` is provided in order to be able to avoid creating unnecessary closures. You probably don't need this optimization unless you're pushing a *lot* of functions.\n\n### limit.map(array, mapperFunction)\n\nProcess an array of inputs with limited concurrency.\n\nThe mapper function receives the item value and its index.\n\nReturns a promise equivalent to `Promise.all(array.map((item, index) => limit(mapperFunction, item, index)))`.\n\nThis is a convenience function for processing inputs that arrive in batches. For more complex use cases, see [p-map](https://github.com/sindresorhus/p-map).\n\n### limit.activeCount\n\nThe number of promises that are currently running.\n\n### limit.pendingCount\n\nThe number of promises that are waiting to run (i.e. their internal `fn` was not called yet).\n\n### limit.clearQueue()\n\nDiscard pending promises that are waiting to run.\n\nThis might be useful if you want to teardown the queue at the end of your program's lifecycle or discard any function calls referencing an intermediary state of your app.\n\nNote: This does not cancel promises that are already running.\n\n### limit.concurrency\n\nGet or set the concurrency limit.\n\n### limitFunction(fn, options) <sup>named export</sup>\n\nReturns a function with limited concurrency.\n\nThe returned function manages its own concurrent executions, allowing you to call it multiple times without exceeding the specified concurrency limit.\n\nIdeal for scenarios where you need to control the number of simultaneous executions of a single function, rather than managing concurrency across multiple functions.\n\n```js\nimport {limitFunction} from 'p-limit';\n\nconst limitedFunction = limitFunction(async () => {\n\treturn doSomething();\n}, {concurrency: 1});\n\nconst input = Array.from({length: 10}, limitedFunction);\n\n// Only one promise is run at once.\nawait Promise.all(input);\n```\n\n#### fn\n\nType: `Function`\n\nPromise-returning/async function.\n\n#### options\n\nType: `object`\n\n#### concurrency\n\nType: `number`\\\nMinimum: `1`\n\nConcurrency limit.\n\n## FAQ\n\n### How is this different from the [`p-queue`](https://github.com/sindresorhus/p-queue) package?\n\nThis package is only about limiting the number of concurrent executions, while `p-queue` is a fully featured queue implementation with lots of different options, introspection, and ability to pause the queue.\n\n## Related\n\n- [p-throttle](https://github.com/sindresorhus/p-throttle) - Throttle promise-returning & async functions\n- [p-debounce](https://github.com/sindresorhus/p-debounce) - Debounce promise-returning & async functions\n- [p-map](https://github.com/sindresorhus/p-map) - Run promise-returning & async functions concurrently with different inputs\n- [p-all](https://github.com/sindresorhus/p-all) - Run promise-returning & async functions concurrently with optional limited concurrency\n- [More…](https://github.com/sindresorhus/promise-fun)\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "https://sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2018-06-14T17:44:20.143Z",
+    "7.1.0" : "2025-08-19T15:03:46.338Z",
+    "2.1.0" : "2018-12-25T14:16:18.049Z",
+    "7.1.1" : "2025-08-28T10:41:53.372Z",
+    "created" : "2016-10-21T07:59:41.638Z",
+    "7.0.0" : "2025-08-14T20:51:04.246Z",
+    "4.0.0" : "2021-08-12T23:58:23.464Z",
+    "2.2.2" : "2020-01-01T18:42:31.824Z",
+    "2.2.0" : "2019-03-02T19:21:13.574Z",
+    "2.2.1" : "2019-08-18T18:52:19.615Z",
+    "2.3.0" : "2020-04-05T15:40:45.137Z",
+    "1.3.0" : "2018-06-06T16:01:38.768Z",
+    "6.2.0" : "2024-12-19T15:46:38.158Z",
+    "3.0.0" : "2020-06-06T11:53:03.481Z",
+    "6.0.0" : "2024-07-04T11:55:53.803Z",
+    "6.1.0" : "2024-07-08T12:04:04.684Z",
+    "modified" : "2025-08-28T10:41:53.903Z",
+    "5.0.0" : "2023-11-01T06:31:04.353Z",
+    "3.0.1" : "2020-06-06T16:21:37.806Z",
+    "3.1.0" : "2020-11-25T07:42:37.364Z",
+    "1.0.0" : "2016-10-21T07:59:41.638Z",
+    "3.0.2" : "2020-07-12T13:39:53.636Z",
+    "1.1.0" : "2016-11-21T06:59:47.875Z",
+    "1.2.0" : "2018-01-04T00:24:17.334Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/p-limit.git"
+  },
+  "users" : {
+    "zhenguo.zhao" : true,
+    "yourtion" : true,
+    "kah" : true,
+    "flumpus-dev" : true,
+    "mcalavera81" : true,
+    "karuppiah7890" : true,
+    "knksmith57" : true,
+    "rocket0191" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/p-limit#readme",
+  "keywords" : [ "promise", "limit", "limited", "concurrency", "throttle", "throat", "rate", "batch", "ratelimit", "task", "queue", "async", "await", "promises", "bluebird" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/p-limit/issues"
+  },
+  "license" : "MIT"
+}

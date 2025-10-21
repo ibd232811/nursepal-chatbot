@@ -1,0 +1,1712 @@
+{
+  "_id" : "eslint-plugin-react-refresh",
+  "_rev" : "35-6d9241843e7a5a60a7786ca89d81e4b5",
+  "name" : "eslint-plugin-react-refresh",
+  "description" : "Validate that your components can safely be updated with Fast Refresh",
+  "dist-tags" : {
+    "latest" : "0.4.24"
+  },
+  "versions" : {
+    "0.3.3" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.3.3",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.3.3.tgz",
+        "shasum" : "62341ef0d4666223dee51ce4d151cd35094df5e0"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.3",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.3.3",
+      "gitHead" : "0ab4d91ca5f273a05834a63d7d09157116369184",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.3.3_1674962681541_0.4863651126660973",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.19.0"
+    },
+    "0.4.2" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.4.2",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.2.tgz",
+        "shasum" : "0c502828db7341ab9030195c352b09bd23a74d99"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.2",
+      "gitHead" : "dad0e9e4ab795ec2bdcab01e6143341197440537",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.2_1688837101372_0.637456182334768",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.1"
+    },
+    "0.3.4" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.3.4",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.3.4.tgz",
+        "shasum" : "586eeac5f4a95d2520824dba68511540e62c8491"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "9.2.0",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.3.4",
+      "gitHead" : "ac7ecec96a2a808829bfc839b150ce0624bd8af3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.3.4_1676034384732_0.8616894797955219",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "19.3.0"
+    },
+    "0.4.3" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.4.3",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.3.tgz",
+        "shasum" : "59dae8c00a119f06ea16b1d3e6891df3775947c7"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.3",
+      "gitHead" : "e92bee7ae32843d108e26b35241280b04271f8a2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.3_1688919631089_0.1382344104952018",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.1"
+    },
+    "0.3.1" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.3.1",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.3.1.tgz",
+        "shasum" : "714c62253b167335b394614dec152a98baa49cf4"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.3.1",
+      "gitHead" : "1fa35f4a46c81aeca999d3c54fb8233c9c7580b5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.3.1_1668506180316_0.6288714111552414",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.18.0"
+    },
+    "0.4.0" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.4.0",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.0.tgz",
+        "shasum" : "735b4201ed71cd31f0f98d17843ec0ceef0adc43"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.0",
+      "gitHead" : "9b17c324b45290297f7e43b1f5155d746c032a47",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.0_1682859531632_0.7017152241349631",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.0"
+    },
+    "0.3.2" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.3.2",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.3.2.tgz",
+        "shasum" : "3c133bad2802b72f302866e20f0e412f5d45b434"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.3.2",
+      "gitHead" : "e0d3e2842c3acb7f8daa39077351bab9a2c8dcd1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.3.2_1671054035431_0.8236542356693894",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "0.4.1" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.4.1",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.1.tgz",
+        "shasum" : "e61a1ee4e06180f07ab753fa6fd173b4d8df95ec"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.1",
+      "gitHead" : "c0d156b84bb79bc31b75dc525c2f1ae560563fb3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.1_1683067595625_0.6790743412944751",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.0"
+    },
+    "0.4.6" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.4.6",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.6.tgz",
+        "shasum" : "e8e8accab681861baed00c5c12da70267db0936f"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.6",
+      "gitHead" : "b7e61e73e368665a44fbc332356e8e5144e4c721",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.6_1710319924037_0.3435171906701371",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.4.7" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.4.7",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.7.tgz",
+        "shasum" : "1f597f9093b254f10ee0961c139a749acb19af7d"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.7",
+      "gitHead" : "70dcd5a4e3badb7a69aa811fd8e1354748ee1f92",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.7_1715253312796_0.714962901231226",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.3.5" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.3.5",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.3.5.tgz",
+        "shasum" : "0121e3f05f940250d3544bfaeff52e1c6adf4117"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.3.5",
+      "gitHead" : "ddb0dd292373aa7a7890fadf835881b46472cb8f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.3.5_1682585229155_0.8266003634825834",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.0"
+    },
+    "0.4.4" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.4.4",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.4.tgz",
+        "shasum" : "b74ed2a06ee998e4126cdf92f638a66f2cc82ecc"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.4",
+      "gitHead" : "14e01d9dcad68009255d7fb9379e0e52d79791de",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.4_1698600653061_0.5373479531080123",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.4.5" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.4.5",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.5.tgz",
+        "shasum" : "6b9b307bad3feba2244ef64a1a15485ac70a2d0f"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.5",
+      "gitHead" : "8b7268a7b9be20e3af0099ec10d5d5d72967e257",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.5_1701548543395_0.7474446826058785",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.2.0" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.2.0",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.2.0.tgz",
+        "shasum" : "278171f0d428581ac16ec71e0cd959f6843e60a5"
+      },
+      "devDependencies" : {
+        "eslint" : "^8.7.0",
+        "prettier" : "^2.5.1",
+        "typescript" : "^4.5.5",
+        "@types/node" : "^17.0.10",
+        "@types/eslint" : "^8.4.0",
+        "@typescript-eslint/experimental-utils" : "^5.10.0"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node src/tests.js",
+        "build" : "tsc",
+        "prettier" : "yarn prettier-ci --write",
+        "prettier-ci" : "prettier --check '**/*.{ts,json,md,yml}'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.2.0",
+      "gitHead" : "98aa03a8934d8c5c9af2435bca9917b71dcd2f63",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.2.0_1642967553015_0.35709615782702553",
+        "host" : "s3://npm-registry-packages"
+      },
+      "prettier" : {
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.2.1" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.2.1",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.2.1.tgz",
+        "shasum" : "740dc1ca36c59a29516c1b22699cffe3f11e69d8"
+      },
+      "devDependencies" : {
+        "eslint" : "^8.7.0",
+        "prettier" : "^2.5.1",
+        "typescript" : "^4.5.5",
+        "@types/node" : "^17.0.10",
+        "@types/eslint" : "^8.4.0",
+        "@typescript-eslint/experimental-utils" : "^5.10.0"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node src/tests.js",
+        "build" : "tsc",
+        "prettier" : "yarn prettier-ci --write",
+        "prettier-ci" : "prettier --check '**/*.{ts,json,md,yml}'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.2.1",
+      "gitHead" : "5553cbb8971e5dc3fa8b428589ec3fce40dc7b6a",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.2.1_1643307656869_0.6457209191484863",
+        "host" : "s3://npm-registry-packages"
+      },
+      "prettier" : {
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.3.0" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.3.0",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.3.0.tgz",
+        "shasum" : "79188e8a89441d98b35c8a9e4cd889c44aac3501"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.3.0",
+      "gitHead" : "2ccc3fd45af40a34490ef96a135c9aebbc64092d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.3.0_1668290882433_0.5143861459889858",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.18.0"
+    },
+    "0.1.0" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.1.0",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.1.0.tgz",
+        "shasum" : "2456fde503be49a04392b6ff04e06791daa5d546"
+      },
+      "devDependencies" : {
+        "eslint" : "^8.7.0",
+        "prettier" : "^2.5.1",
+        "typescript" : "^4.5.5",
+        "@types/node" : "^17.0.10",
+        "@types/eslint" : "^8.4.0",
+        "@typescript-eslint/experimental-utils" : "^5.10.0"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node src/tests.js",
+        "build" : "tsc"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.1.0",
+      "gitHead" : "7e0b0bc8ec3374da22e789645cd3ea7658645f76",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.1.0_1642952407261_0.321061473693381",
+        "host" : "s3://npm-registry-packages"
+      },
+      "prettier" : {
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.4.12" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.4.12",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.12.tgz",
+        "shasum" : "73d61c7fcbe3f7280edb6579380b4350d2f547ed"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.12",
+      "gitHead" : "9bc3db95aa8501939f132ccc68474e632fa674ed",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.12_1726308314118_0.8896263266157984",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.4.11" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.4.11",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.11.tgz",
+        "shasum" : "e450761a2bdb260aa10cfb73f846209a737827cb"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.11",
+      "gitHead" : "d327c3564eecfebe5f1aff44136cb84f0df7fac9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.11_1724321916538_0.7639964666247461",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.4.14" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.4.14",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.14.tgz",
+        "shasum" : "e3c611ead69bbf7436d01295c853d4abb8c59f68"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.14",
+      "gitHead" : "ba9bb7b8915e338749a68f3676f8d37defe4f87c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.14_1729793643289_0.13496208890115824",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.4.13" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.4.13",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.13.tgz",
+        "shasum" : "ed7330da09b6192e6fa9b1b217ad979afbc898bf"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.13",
+      "gitHead" : "268df3b82ae2e5937a2152baf6ce060db3bd9ea5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.13_1729378791371_0.8205015880622011",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.4.16" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with Fast Refresh",
+      "version" : "0.4.16",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.16.tgz",
+        "shasum" : "149dbc9279bd16942409f1c1d2f0dce3299430ef"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=8.40"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.16",
+      "gitHead" : "d939cc4bd483850c791c74d99b1b4962fa7f4275",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.16_1733139576361_0.44843840162487725",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.4.15" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with Fast Refresh",
+      "version" : "0.4.15",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.15.tgz",
+        "shasum" : "fbb7e08f6cfe19b197ef36acf98b8cbe5ca82283"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=8.40"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.15",
+      "gitHead" : "7d1709b06591dab298ca8dce57a4f9254959b826",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.15_1733132317096_0.7731331145180269",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.4.18" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with Fast Refresh",
+      "version" : "0.4.18",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.18.tgz",
+        "shasum" : "d2ae6dc8d48c87f7722f5304385b0cd8b3a32a54"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=8.40"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.18",
+      "gitHead" : "3d6251de43d1bb85868063faa444380f39c76a84",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.18_1736629947221_0.15984745526728283",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.4.17" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with Fast Refresh",
+      "version" : "0.4.17",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.17.tgz",
+        "shasum" : "5e4dd9ba40210ac0dd05a8ebca7b59670f084636"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=8.40"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.17",
+      "gitHead" : "47f25f07d9de73238fd4a96feaca87eaa1392099",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.17_1736626586710_0.1995879614835594",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.4.10" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.4.10",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.10.tgz",
+        "shasum" : "1fb514897ee3bdc37ac34446fa5f02b1ce9c7d3f"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.10",
+      "gitHead" : "7101b0970a9e43fb7e0cdd7b045c818655ae88d7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.10_1724179917783_0.37026976098084896",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.4.19" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with Fast Refresh",
+      "version" : "0.4.19",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.19.tgz",
+        "shasum" : "f15020c0caa58e33fc4efda27d328281ca74e53d"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=8.40"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.19",
+      "gitHead" : "b054ab4c1c2dd851f927f43024b4348c11a59325",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.19_1739060342792_0.5078921936212757",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.4.23" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with Fast Refresh",
+      "version" : "0.4.23",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.23.tgz",
+        "shasum" : "70f363a0a8f6cce5b01b62d5be8b3d45648733f1"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=8.40"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "11.6.1",
+      "_npmUser" : {
+        "name" : "GitHub Actions",
+        "email" : "npm-oidc-no-reply@github.com",
+        "trustedPublisher" : {
+          "id" : "github",
+          "oidcConfigId" : "oidc:5d70a6bb-fdf9-4e02-9f5b-157dfb6319ae"
+        }
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.23",
+      "gitHead" : "1d436ffd5ebc6127528cadb30057503720d8c9b1",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.23_1759355326436_0.7036762703578523",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "22.19.0"
+    },
+    "0.4.22" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with Fast Refresh",
+      "version" : "0.4.22",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.22.tgz",
+        "shasum" : "bc6c7e769d8a8fcfbaa2fd8af3ac63c8af0eae5e"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=8.40"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "11.6.1",
+      "_npmUser" : {
+        "name" : "GitHub Actions",
+        "email" : "npm-oidc-no-reply@github.com",
+        "trustedPublisher" : {
+          "id" : "github",
+          "oidcConfigId" : "oidc:5d70a6bb-fdf9-4e02-9f5b-157dfb6319ae"
+        }
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.22",
+      "gitHead" : "3395dda35d10105e4c7bbbfce92eac434c84a0b0",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.22_1758817378191_0.9604401397384756",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "22.19.0"
+    },
+    "0.4.24" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with Fast Refresh",
+      "version" : "0.4.24",
+      "author" : {
+        "name" : "Arnaud Barré",
+        "url" : "https://github.com/ArnaudBarre"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.24.tgz",
+        "shasum" : "6914e8757eb7d7ccc3efb9dbcc8a51feda71d89e"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=8.40"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "11.6.2",
+      "_npmUser" : {
+        "name" : "GitHub Actions",
+        "email" : "npm-oidc-no-reply@github.com",
+        "trustedPublisher" : {
+          "id" : "github",
+          "oidcConfigId" : "oidc:5d70a6bb-fdf9-4e02-9f5b-157dfb6319ae"
+        }
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.24",
+      "gitHead" : "63688159d0764cc6b71f9d0af54340775df1d5d7",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.24_1760518777640_0.02687682899916366"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "22.20.0"
+    },
+    "0.4.8" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.4.8",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.8.tgz",
+        "shasum" : "3b1db9188844101213ca637f181e84a016e36732"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.8",
+      "gitHead" : "a10b96b42214df55388b38e1672f58480c9be505",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.8_1720568008041_0.8279552958569274",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.4.9" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with fast refresh",
+      "version" : "0.4.9",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.9.tgz",
+        "shasum" : "bf870372b353b12e1e6fb7fc41b282d9cbc8d93d"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=7"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.9",
+      "gitHead" : "897a11d35b1478a7e2bd16e0293b0f3a39c5fb0b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.9_1721574635791_0.7127306213848827",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.4.21" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with Fast Refresh",
+      "version" : "0.4.21",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.21.tgz",
+        "shasum" : "37ec51d9ad261f12edd5758b17cc6a7e0fb6a893"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=8.40"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "11.6.0",
+      "_npmUser" : {
+        "name" : "GitHub Actions",
+        "email" : "npm-oidc-no-reply@github.com",
+        "trustedPublisher" : {
+          "id" : "github",
+          "oidcConfigId" : "oidc:5d70a6bb-fdf9-4e02-9f5b-157dfb6319ae"
+        }
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.21",
+      "gitHead" : "f50af23593a874d151dd173858b894f875d8faf5",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.21_1758581942087_0.4078055949427275",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "22.19.0"
+    },
+    "0.4.20" : {
+      "name" : "eslint-plugin-react-refresh",
+      "description" : "Validate that your components can safely be updated with Fast Refresh",
+      "version" : "0.4.20",
+      "author" : {
+        "url" : "https://github.com/ArnaudBarre",
+        "name" : "Arnaud Barré"
+      },
+      "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+      "repository" : {
+        "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.20.tgz",
+        "shasum" : "3bbfb5c8637e28d19ce3443686445e502ecd18ba"
+      },
+      "peerDependencies" : {
+        "eslint" : ">=8.40"
+      },
+      "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "arnaud-barre",
+        "email" : "arnaud.barre72@gmail.com"
+      },
+      "_id" : "eslint-plugin-react-refresh@0.4.20",
+      "gitHead" : "4ddbb1fff579c227b2036d4b0762afb2fe51399e",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslint-plugin-react-refresh_0.4.20_1745274319360_0.49405388645989956",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "16.20.2"
+    }
+  },
+  "readme" : "# eslint-plugin-react-refresh [![npm](https://img.shields.io/npm/v/eslint-plugin-react-refresh)](https://www.npmjs.com/package/eslint-plugin-react-refresh)\n\nValidate that your components can safely be updated with Fast Refresh.\n\n## Explainer\n\n\"Fast Refresh\", also known as \"hot reloading\", is a feature in many modern bundlers.\nIf you update some React component(s) on disk, then the bundler will know to update only the impacted parts of your page -- without a full page reload.\n\n`eslint-plugin-react-refresh` enforces that your components are structured in a way that integrations such as [react-refresh](https://www.npmjs.com/package/react-refresh) expect.\n\n### Limitations\n\n⚠️ To avoid false positives, by default this plugin is only applied on `tsx` & `jsx` files. See [Options](#options) to run on JS files. ⚠️\n\nThe plugin relies on naming conventions (i.e. use PascalCase for components, camelCase for util functions). This is why there are some limitations:\n\n- `export *` are not supported and will be reported as an error\n- Anonymous function are not supported (i.e `export default function() {}`)\n- Class components are not supported\n- All-uppercase function export is considered an error when not using direct named export (ex `const CMS = () => <></>; export { CMS }`)\n\n## Installation\n\n```sh\nnpm i -D eslint-plugin-react-refresh\n```\n\n## Usage\n\nThis plugin provides a single rule, `react-refresh/only-export-components`. There are multiple ways to enable it.\n\n### Recommended config\n\n```js\nimport { defineConfig } from \"eslint/config\";\nimport reactRefresh from \"eslint-plugin-react-refresh\";\n\nexport default defineConfig(\n  /* Main config */\n  reactRefresh.configs.recommended,\n);\n```\n\n### Vite config\n\nThis enables the `allowConstantExport` option which is supported by Vite React plugins.\n\n```js\nimport { defineConfig } from \"eslint/config\";\nimport reactRefresh from \"eslint-plugin-react-refresh\";\n\nexport default defineConfig(\n  /* Main config */\n  reactRefresh.configs.vite,\n);\n```\n\n### Next config <small>(v0.4.21)</small>\n\nThis allows exports like `fetchCache` and `revalidate` which are used in Page or Layout components and don't trigger a full page reload.\n\n```js\nimport { defineConfig } from \"eslint/config\";\nimport reactRefresh from \"eslint-plugin-react-refresh\";\n\nexport default defineConfig(\n  /* Main config */\n  reactRefresh.configs.next,\n);\n```\n\n### Without config\n\n```js\nimport { defineConfig } from \"eslint/config\";\nimport reactRefresh from \"eslint-plugin-react-refresh\";\n\nexport default defineConfig({\n  // in main config for TSX/JSX source files\n  plugins: {\n    \"react-refresh\": reactRefresh,\n  },\n  rules: {\n    \"react-refresh/only-export-components\": \"error\",\n  },\n});\n```\n\n### Legacy config\n\n```jsonc\n{\n  \"plugins\": [\"react-refresh\"],\n  \"rules\": {\n    \"react-refresh/only-export-components\": \"error\",\n  },\n}\n```\n\n## Examples\n\nThese examples are from enabling `react-refresh/only-exports-components`.\n\n### Fail\n\n```jsx\nexport const foo = () => {};\nexport const Bar = () => <></>;\n```\n\n```jsx\nexport default function () {}\nexport default compose()(MainComponent)\n```\n\n```jsx\nexport * from \"./foo\";\n```\n\n```jsx\nconst Tab = () => {};\nexport const tabs = [<Tab />, <Tab />];\n```\n\n```jsx\nconst App = () => {};\ncreateRoot(document.getElementById(\"root\")).render(<App />);\n```\n\n### Pass\n\n```jsx\nexport default function Foo() {\n  return <></>;\n}\n```\n\n```jsx\nconst foo = () => {};\nexport const Bar = () => <></>;\n```\n\n```jsx\nimport { App } from \"./App\";\ncreateRoot(document.getElementById(\"root\")).render(<App />);\n```\n\n## Options\n\nThese options are all present on `react-refresh/only-exports-components`.\n\n```ts\ninterface Options {\n  allowExportNames?: string[];\n  allowConstantExport?: boolean;\n  customHOCs?: string[];\n  checkJS?: boolean;\n}\n\nconst defaultOptions: Options = {\n  allowExportNames: [],\n  allowConstantExport: false,\n  customHOCs: [],\n  checkJS: false,\n};\n```\n\n### allowExportNames <small>(v0.4.4)</small>\n\n> Default: `[]`\n\nIf you use a framework that handles HMR of some specific exports, you can use this option to avoid warning for them.\n\nExample for [Remix](https://remix.run/docs/en/main/discussion/hot-module-replacement#supported-exports):\n\n```json\n{\n  \"react-refresh/only-export-components\": [\n    \"error\",\n    { \"allowExportNames\": [\"meta\", \"links\", \"headers\", \"loader\", \"action\"] }\n  ]\n}\n```\n\n### allowConstantExport <small>(v0.4.0)</small>\n\n> Default: `false` (`true` in `vite` config)\n\nDon't warn when a constant (string, number, boolean, templateLiteral) is exported aside one or more components.\n\nThis should be enabled if the fast refresh implementation correctly handles this case (HMR when the constant doesn't change, propagate update to importers when the constant changes.). Vite supports it, PR welcome if you notice other integrations works well.\n\n```json\n{\n  \"react-refresh/only-export-components\": [\n    \"error\",\n    { \"allowConstantExport\": true }\n  ]\n}\n```\n\nEnabling this option allows code such as the following:\n\n```jsx\nexport const CONSTANT = 3;\nexport const Foo = () => <></>;\n```\n\n### checkJS <small>(v0.3.3)</small>\n\n> Default: `false`\n\nIf you're using JSX inside `.js` files (which I don't recommend because it forces you to configure every tool you use to switch the parser), you can still use the plugin by enabling this option. To reduce the number of false positive, only files importing `react` are checked.\n\n```json\n{\n  \"react-refresh/only-export-components\": [\"error\", { \"checkJS\": true }]\n}\n```\n\n### customHOCs <small>(v0.4.15)</small>\n\nIf you're exporting a component wrapped in a custom HOC, you can use this option to avoid false positives.\n\n```json\n{\n  \"react-refresh/only-export-components\": [\n    \"error\",\n    { \"customHOCs\": [\"observer\", \"withAuth\"] }\n  ]\n}\n```\n",
+  "maintainers" : [ {
+    "name" : "arnaud-barre",
+    "email" : "arnaud.barre72@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Arnaud Barré",
+    "url" : "https://github.com/ArnaudBarre"
+  },
+  "time" : {
+    "0.3.3" : "2023-01-29T03:24:41.704Z",
+    "0.4.2" : "2023-07-08T17:25:01.556Z",
+    "0.3.4" : "2023-02-10T13:06:24.979Z",
+    "0.4.3" : "2023-07-09T16:20:31.228Z",
+    "0.3.1" : "2022-11-15T09:56:20.491Z",
+    "0.4.0" : "2023-04-30T12:58:51.817Z",
+    "0.3.2" : "2022-12-14T21:40:35.658Z",
+    "0.4.1" : "2023-05-02T22:46:35.798Z",
+    "0.4.6" : "2024-03-13T08:52:04.195Z",
+    "0.4.7" : "2024-05-09T11:15:12.959Z",
+    "0.3.5" : "2023-04-27T08:47:09.287Z",
+    "0.4.4" : "2023-10-29T17:30:53.224Z",
+    "0.4.5" : "2023-12-02T20:22:23.564Z",
+    "0.2.0" : "2022-01-23T19:52:33.177Z",
+    "0.2.1" : "2022-01-27T18:20:57.020Z",
+    "0.3.0" : "2022-11-12T22:08:02.594Z",
+    "0.1.0" : "2022-01-23T15:40:07.430Z",
+    "0.4.12" : "2024-09-14T10:05:14.254Z",
+    "0.4.11" : "2024-08-22T10:18:36.693Z",
+    "0.4.14" : "2024-10-24T18:14:03.462Z",
+    "0.4.13" : "2024-10-19T22:59:51.537Z",
+    "0.4.16" : "2024-12-02T11:39:36.540Z",
+    "0.4.15" : "2024-12-02T09:38:37.299Z",
+    "0.4.18" : "2025-01-11T21:12:27.394Z",
+    "0.4.17" : "2025-01-11T20:16:26.900Z",
+    "modified" : "2025-10-15T08:59:38.220Z",
+    "0.4.10" : "2024-08-20T18:51:57.916Z",
+    "created" : "2022-01-23T15:40:07.260Z",
+    "0.4.19" : "2025-02-09T00:19:03.005Z",
+    "0.4.23" : "2025-10-01T21:48:46.681Z",
+    "0.4.22" : "2025-09-25T16:22:58.398Z",
+    "0.4.24" : "2025-10-15T08:59:37.837Z",
+    "0.4.8" : "2024-07-09T23:33:28.183Z",
+    "0.4.9" : "2024-07-21T15:10:35.954Z",
+    "0.4.21" : "2025-09-22T22:59:02.267Z",
+    "0.4.20" : "2025-04-21T22:25:19.533Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme",
+  "keywords" : [ "eslint", "eslint-plugin", "react", "react-refresh", "fast refresh" ],
+  "bugs" : {
+    "url" : "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues"
+  },
+  "license" : "MIT"
+}

@@ -1,0 +1,4723 @@
+{
+  "_id" : "@esbuild/android-x64",
+  "_rev" : "101-25becac3875c4f74353e4330b1c5e0dc",
+  "name" : "@esbuild/android-x64",
+  "description" : "A WebAssembly shim for esbuild on Android x64.",
+  "dist-tags" : {
+    "latest" : "0.25.11"
+  },
+  "versions" : {
+    "0.20.2" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.20.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.20.2.tgz",
+        "shasum" : "3b1628029e5576249d2b2d766696e50768449f98"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.20.2",
+      "gitHead" : "617eddaa32b7649ad23ddd15257816df3f0f544c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.20.2_1710445788264_0.8653045945794686",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.24.0" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.24.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.24.0.tgz",
+        "shasum" : "e8f8b196cfdfdd5aeaebbdb0110983460440e705"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.24.0",
+      "gitHead" : "d34e79e2a998c21bb71d57b92b0017ca11756912",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.24.0_1726970787888_0.8038817294162786",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.24.1" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.24.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.24.1.tgz",
+        "shasum" : "033ad3a8ee7c2277df2f6022e7fd5c46b74ace19"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.24.1",
+      "gitHead" : "de9598f42dc3ffc395e3fd3672a4804f6b4e5c09",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.24.1_1734673280194_0.5086800133128913",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.24.2" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.24.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.24.2.tgz",
+        "shasum" : "9a7713504d5f04792f33be9c197a882b2d88febb"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.24.2",
+      "gitHead" : "745abd9f0c06f73ca40fbe198546a9bc36c23b81",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.24.2_1734717393133_0.45891605921568956",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.19.10" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.19.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.19.10.tgz",
+        "shasum" : "df6a4e6d6eb8da5595cfce16d4e3f6bc24464707"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.19.10",
+      "gitHead" : "55e1127a49db0c26f1abd97f1b180bbc728aa95a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.19.10_1702945303707_0.7741696591433105",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.12" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.19.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.19.12.tgz",
+        "shasum" : "cb13e2211282012194d89bf3bfe7721273473b3d"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.19.12",
+      "gitHead" : "d7fd1ad35715cda76eb33343b7c07b275e402a2e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.19.12_1706031636679_0.30494890612810654",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.19.11" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.19.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.19.11.tgz",
+        "shasum" : "bfc01e91740b82011ef503c48f548950824922b2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.19.11",
+      "gitHead" : "6ee82255bdfdffef2de60827e9d35a425a7cbff6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.19.11_1703881926263_0.6825789072993018",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.16.2" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.2.tgz",
+        "shasum" : "544d96e13f9551365b360d1139bed3c1da5cd575"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.2",
+      "gitHead" : "0829d74c0b3a913c0cf6d3f59902871bf63e0d16",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.2_1670482796079_0.3914986664943749",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.1" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.1.tgz",
+        "shasum" : "8d8cddad9accf599518207b03ee4a17d23caf250"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.1",
+      "gitHead" : "3b62a3680cdd1c9d76bed3e2e60841e371670c35",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.1_1670388498716_0.07790155657208708",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.0" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.0.tgz",
+        "shasum" : "07e2eac7bdf8bed938c5feb3c20f98e41a65c9ec"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.0",
+      "gitHead" : "6c8d15d404874fd939d7f4062cc6a660dffdabcb",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.0_1670385310431_0.32433239153099236",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.17" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.17.tgz",
+        "shasum" : "c820e0fef982f99a85c4b8bfdd582835f04cd96e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.17",
+      "gitHead" : "d751dfb82002d332aa4dbfa89c74d25203d28123",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.17_1673474287774_0.09955430806589849",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.16" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.16.tgz",
+        "shasum" : "ffa09f04c0ffea5b594ab7655fc9ca1220365e9b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.16",
+      "gitHead" : "edede3c49ad6adddc6ea5b3c78c6ea7507e03020",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.16_1673217836928_0.9598943606601265",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.9" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.9.tgz",
+        "shasum" : "1cd75e8ed7d6d7eb5f9896f623df63882bd8e887"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.9",
+      "gitHead" : "29ae56a2ca081ed980ac9c73fcced1fdbc479f90",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.9_1671337893147_0.7164311909600716",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.8" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.8.tgz",
+        "shasum" : "fb625a45f3f73f153e2497bcfdf42f62225851a4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.8",
+      "gitHead" : "0ddb995d7d9bbcefa8e74c5a29c700111427bf18",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.8_1671233929885_0.6049446371347675",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.7" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.7.tgz",
+        "shasum" : "cb34b7d666bf52266061cfb1a19c1d788b6c5ac1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.7",
+      "gitHead" : "be16d813dfaca257af7ba99e458f54d1abdc31a4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.7_1671058025733_0.5922911118999634",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.6" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.6.tgz",
+        "shasum" : "d62788083113d54456c79d8aefb4a8f922ff9100"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.6",
+      "gitHead" : "ee8e0ddc78114b73836ee1c520d255fd28c1ab1a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.6_1670995401413_0.5839165850378725",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.5" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.5.tgz",
+        "shasum" : "c5237c582bb038a9403afe5ad7e451cc79187505"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.5",
+      "gitHead" : "bb9639c3e1f57a3fdfaadf073a35d87020253f70",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.5_1670953670767_0.5259195239191827",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.4" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.4.tgz",
+        "shasum" : "62ccab8ac1d3e6ef1df3fa2e1974bc2b8528d74a"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.4",
+      "gitHead" : "643af8ed12345b3a249f1d4c7643c261d95c098c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.4_1670644242115_0.08935224321346569",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.3" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.3.tgz",
+        "shasum" : "a6d749c58b022d371dc40d50ac1bb4aebd1eb953"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.3",
+      "gitHead" : "8ef19fefc9bfdd28fab95dec3783d3f100f25e3e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.3_1670530392656_0.9559908768656331",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.13" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.13.tgz",
+        "shasum" : "c34826c4bdc57c60cbfb8d5bbd2306a89225626a"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.13",
+      "gitHead" : "0db0b46399de81fb29f6fcb65dfb5fad3638b6d8",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.13_1672700245823_0.7098501116504112",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.12" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.12.tgz",
+        "shasum" : "3b0ddaf59fdf94e8e9fcb2aa6537cbab93d5fe22"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.12",
+      "gitHead" : "ddda86edaae10abdc759601da6198b33e61c1220",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.12_1672193271406_0.24222686599635157",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.15" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.15.tgz",
+        "shasum" : "94b0589b6bec5eaf7e8ea2fe6368427899676f21"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.15",
+      "gitHead" : "33a515951c626e56addc1dd4c6561a1514559fd0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.15_1673065149597_0.33083270003869814",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.14" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.14.tgz",
+        "shasum" : "1173e706cf57c0d4dbf069d18e5d50ae6a5b0871"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.14",
+      "gitHead" : "93328af7dcf842f750c3e782bd83997e4f817e8d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.14_1672863189366_0.7460426196420531",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.11" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.11.tgz",
+        "shasum" : "7fb80f8238f7f5565ba116247546278c3b04ea5d"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.11",
+      "gitHead" : "17555921cbe672f6327f49a2436df1a69124623b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.11_1672105154743_0.2012882426771141",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.10" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.16.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.16.10.tgz",
+        "shasum" : "648cacbb13a5047380a038e5d6d895015e31b525"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.16.10",
+      "gitHead" : "0fea6aea59845d1c0bef9dc16dfff636c3f721d4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.16.10_1671492402835_0.2695554367710733",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.23.0" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.23.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.23.0.tgz",
+        "shasum" : "1e51af9a6ac1f7143769f7ee58df5b274ed202e6"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.23.0",
+      "gitHead" : "9d506806bdd963b02b3d6edf45e717e03dcba785",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.23.0_1719891229374_0.6029523260586662",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.23.1" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.23.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.23.1.tgz",
+        "shasum" : "ae19d665d2f06f0f48a6ac9a224b3f672e65d517"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.23.1",
+      "gitHead" : "332727499e62315cff4ecaff9fa8b86336555e46",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.23.1_1723846402287_0.9059250798538978",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.18.20" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.20",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.20.tgz",
+        "shasum" : "35cf419c4cfc8babe8893d296cd990e9e9f756f2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.20",
+      "gitHead" : "22f0818cf81024b63752d815c51fe737612b43ec",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.20_1691468109774_0.40869395454651825",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.18" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.18.tgz",
+        "shasum" : "6e8a7b41fc80265849e0a1de928fe162b27990c7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.18",
+      "gitHead" : "e8e43ad19359f0b29d84607c89c6aa95a4d1637d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.18_1691255193505_0.8038899616829427",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.19" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.19",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.19.tgz",
+        "shasum" : "d9f35722701a97a2ef69c7a84f1ee2aef2a306a7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.19",
+      "gitHead" : "e08ee8990905f24b987a7ddffde89e20cbf3cf6a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.19_1691376684918_0.08778086795822926",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.7" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.19.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.19.7.tgz",
+        "shasum" : "fa294ed5214d88219d519e0ab1bbb0253a89b864"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.19.7",
+      "gitHead" : "a7773b340bb216d053df91b7479b5aa2a152b0de",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.19.7_1700528468924_0.10732880359318231",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.6" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.19.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.19.6.tgz",
+        "shasum" : "51a0ab83680dedc6dd1ae26133def26b178ed3a1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.19.6",
+      "gitHead" : "6073a3a9a02909d54cedbaf9c06f5fa501f9f337",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.19.6_1700377900500_0.06221028576941379",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.5" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.19.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.19.5.tgz",
+        "shasum" : "21a3d11cd4613d2d3c5ccb9e746c254eb9265b0a"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.19.5",
+      "gitHead" : "a7fcc43fdb6b6edc58f781fe96328f4867f4b33e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.19.5_1697519440910_0.11590106550922519",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.4" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.19.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.19.4.tgz",
+        "shasum" : "6c9ee03d1488973d928618100048b75b147e0426"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.19.4",
+      "gitHead" : "a75b16ec09e76a050cea8ad43588172dc297784d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.19.4_1695865639122_0.39458185030155657",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.3" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.19.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.19.3.tgz",
+        "shasum" : "b1dffec99ed5505fc57561e8758b449dba4924fe"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.19.3",
+      "gitHead" : "673ad10ff752486aa90749b63ebeb952c29106a1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.19.3_1694653948064_0.6658510128449295",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.2" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.19.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.19.2.tgz",
+        "shasum" : "2dcdd6e6f1f2d82ea1b746abd8da5b284960f35a"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.19.2",
+      "gitHead" : "09a100124e9daef9e0be57d21cc7729c6f3516e7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.19.2_1691978306579_0.659507287017133",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.1" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.19.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.19.1.tgz",
+        "shasum" : "d8b5aa54142c04d2fa8dfdd7781929cf50f0246a"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.19.1",
+      "gitHead" : "49801f761347d53bd1f6a88767bb79e257f9fbb9",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.19.1_1691769460541_0.10593100817239542",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.0" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.19.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.19.0.tgz",
+        "shasum" : "99f154f71f5b92e778468bcf0f425d166c17bf20"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.19.0",
+      "gitHead" : "c337498cdad8cac87517ec49c923441b2dc67bf2",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.19.0_1691509958597_0.9521767378578587",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.9" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.19.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.19.9.tgz",
+        "shasum" : "e2d7674bc025ddc8699f0cc76cb97823bb63c252"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.19.9",
+      "gitHead" : "9edc9d44c3d0480c27f68a71365f18e688b6184a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.19.9_1702184972561_0.8678910980713812",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.8" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.19.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.19.8.tgz",
+        "shasum" : "a13db9441b5a4f4e4fec4a6f8ffacfea07888db7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.19.8",
+      "gitHead" : "e97bd6706c7aaddb3770ae31b164d7ccaec8056c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.19.8_1701040092865_0.325039547544584",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.16" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.16.tgz",
+        "shasum" : "ed7444cb17542932c67b15e20528686853239cfd"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.16",
+      "gitHead" : "22920366954b4d18aed77dfc2b5961f339d4e318",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.16_1690087692339_0.9935040605586987",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.17" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.17.tgz",
+        "shasum" : "c2bd0469b04ded352de011fae34a7a1d4dcecb79"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.17",
+      "gitHead" : "1771c7109f7f5d17d96543d6b17a6ab12d9d38d0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.17_1690335663838_0.1433141578913859",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.14" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.14.tgz",
+        "shasum" : "e01b387f1db3dd2596a44e8c577aa2609750bc82"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.14",
+      "gitHead" : "af0fe32eaea8112de45e17cb8d0ad487b2123132",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.14_1689656426807_0.990216388052588",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.15" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.15.tgz",
+        "shasum" : "cdd886a58748b1584ad72d960c446fa958c11ab3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.15",
+      "gitHead" : "daf64732be2e05d1258023b5b7d5389e08e291a9",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.15_1689857603580_0.6513179574496419",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.12" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.12.tgz",
+        "shasum" : "26c97fa3e70adeab859dc08a6814c0502d3d8e16"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.12",
+      "gitHead" : "d196e4c4898fc46dc553124e28b1b29829ef7f7d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.12_1689212057492_0.06813445204603075",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.13" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.13.tgz",
+        "shasum" : "473d589219e1c06e305cf61ca77b8f69d9b6ffab"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.13",
+      "gitHead" : "12a8a25b4ca8b650d7c96046b8a3e76491a119f5",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.13_1689388642180_0.43248725826014134",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.10" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.10.tgz",
+        "shasum" : "f3b1f52fd6bfdf79d5b9b5965798ff3a8afa584d"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.10",
+      "gitHead" : "cdb6c7ce3f9419e51bd855fd61d07d2c615fb30e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.10_1687814434688_0.7644935837881486",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.11" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.11.tgz",
+        "shasum" : "0e58360bbc789ad0d68174d32ba20e678c2a16b6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.11",
+      "gitHead" : "2703f90d47fd96f425fedcfd2a5c318a43b04d45",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.11_1688191442165_0.4605434779305564",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.15.18" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.15.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.15.18.tgz",
+        "shasum" : "ae4cf10aaf5eca43e211982c14bd1d942f97345e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.15.18",
+      "gitHead" : "07e607164c880e03e13f86aa50a58cd6d44ec084",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.15.18_1670283548605_0.2591714863046497",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.22.0" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.22.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.22.0.tgz",
+        "shasum" : "f02771a20be264ccc22478dcc7de8f2bde858af8"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.22.0",
+      "gitHead" : "80c6e6ea094a71691ab1644ab61494cc67729365",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.22.0_1719779873156_0.6913290411591579",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.18.0" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.0.tgz",
+        "shasum" : "f6be1abb59ee824c2d4c40a46c2e993704d00eda"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.0",
+      "gitHead" : "4dda49d4ea86afcbe715bdca5e8f4b13659e0c2f",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.0_1686345866507_0.8569395696828024",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.8" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.8.tgz",
+        "shasum" : "80ac5057712c69b9a373dbc21749f4b450ac9aba"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.8",
+      "gitHead" : "9b233a4f670a73173dcc7e83ebf7648d0007b082",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.8_1687663159144_0.0973489463868078",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.7" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.7.tgz",
+        "shasum" : "3295674459a520bf6a8fe1cb0e8261adf3cd5690"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.7",
+      "gitHead" : "adb8d19b56d2ae2d65128305c875b577476fac93",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.7_1687574791433_0.606752742188309",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.6" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.6.tgz",
+        "shasum" : "67340bed315fa200900ad26d58ff47564e9c6f74"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.6",
+      "gitHead" : "f0b5803694c3d74c1d84851a518e3e25916ec005",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.6_1687303499941_0.3413692322932014",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.5" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.5.tgz",
+        "shasum" : "8ee86339e2433e97ca79b2b2725154bd835c6575"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.5",
+      "gitHead" : "931be1b9b2312609c5214812671b0d2a21cfe92b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.5_1687222368437_0.6535759217653403",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.4" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.4.tgz",
+        "shasum" : "2f79c625c4524a4310b1c96038dba7e3245789d6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.4",
+      "gitHead" : "bfc5a0fe07b6f6855ff3ff11a91894066378c5dd",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.4_1686929923122_0.726250813138462",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.3" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.3.tgz",
+        "shasum" : "824c4abb0f2ebeeee97a9a992ab7ac002cffc959"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.3",
+      "gitHead" : "9224cce93632b0fc6db8767676211fb44ac642a7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.3_1686831672131_0.14895241804255188",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.2" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.2.tgz",
+        "shasum" : "a2117d1c4484c02071ebcd9580f216fc4519198d"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.2",
+      "gitHead" : "a7a909605b1387b5c74d1bd0217af3fb4a843461",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.2_1686624038724_0.281240306487035",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.1" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.1.tgz",
+        "shasum" : "fc52ffc3ff6139957138eea0fa2d58e82b4a29ab"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.1",
+      "gitHead" : "3aa3ec2da489dad64d90aa965c9782984defc904",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.1_1686545512790_0.40704616277210404",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.9" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.18.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.18.9.tgz",
+        "shasum" : "d047bbe7f3e046650e46394132ca8553e4e4d4a6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.18.9",
+      "gitHead" : "d568ff038d012a7894a9d4334b75f8559bf2532e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.18.9_1687757292314_0.428725949686944",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.21.0" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.21.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.21.0.tgz",
+        "shasum" : "c3979b3fb365308000353720a3b56f0bb4d551bd"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.21.0",
+      "gitHead" : "c6da2c3aa2b1321be3fdacd1e53566c5f24ee702",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.21.0_1715050352789_0.038313276030576215",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.25.5" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.25.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.25.5.tgz",
+        "shasum" : "40c11d9cbca4f2406548c8a9895d321bc3b35eff"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.25.5",
+      "gitHead" : "ea453bf687c8e5cf3c5f11aae372c5ca33be0c98",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.25.5_1748315573782_0.1891224851445199",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.6" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.25.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.25.6.tgz",
+        "shasum" : "ad4f280057622c25fe985c08999443a195dc63a8"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "actor" : {
+          "name" : "evanw",
+          "type" : "user",
+          "email" : "evan.exe@gmail.com"
+        },
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.25.6",
+      "gitHead" : "d38c1f0bc580b4a8a93f23559d0cd9085d7ba31f",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.25.6_1751907549248_0.4991222424802291",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.7" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.25.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.25.7.tgz",
+        "shasum" : "7a55c3613875d11ab42eb9365bd0b147d992e4c0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.25.7",
+      "gitHead" : "9b42f68f9b1fecf16e72dbcfc5c46504239d6fe6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.25.7_1752879053527_0.42446474768151865",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.8" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.25.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.25.8.tgz",
+        "shasum" : "a3a626c4fec4a024a9fa8c7679c39996e92916f0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.25.8",
+      "gitHead" : "8c71947edbe5a158fec3a6d1cbfea1e8d5cdee70",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.25.8_1752952971327_0.69340487084219",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.17.19" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.19",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.19.tgz",
+        "shasum" : "658368ef92067866d95fb268719f98f363d13ae1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.19",
+      "gitHead" : "d47ab43980c457db27d2671ab618cd5c40a618a7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.19_1683936400848_0.930094145065415",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.25.9" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.25.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.25.9.tgz",
+        "shasum" : "5278836e3c7ae75761626962f902a0d55352e683"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.25.9",
+      "gitHead" : "195e05c16f03a341390feef38b8ebf17d3075e14",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.25.9_1755041180695_0.8726331145613884",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.17.17" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.17.tgz",
+        "shasum" : "6781527e3c4ea4de532b149d18a2167f06783e7f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.17",
+      "gitHead" : "0776a4be2bb80980482b123a9a05dbf55cc35683",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.17_1681680226581_0.05626661746523287",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.18" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.18.tgz",
+        "shasum" : "1dcd13f201997c9fe0b204189d3a0da4eb4eb9b6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.18",
+      "gitHead" : "ee646b4ed8d3b9567e1a0ce2e478241b68a2a2e4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.18_1682196092871_0.7806251593817237",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.21.1" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.21.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.21.1.tgz",
+        "shasum" : "80cbfa35412299edefbc4ab78064f0b66e448008"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.21.1",
+      "gitHead" : "e87639417e47ba5db160f105785dc10bde0999cf",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.21.1_1715100913555_0.6310484026892058",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.21.2" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.21.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.21.2.tgz",
+        "shasum" : "5039e8d0b2ed03ca75d77e581ead591b1d87826f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.21.2",
+      "gitHead" : "b24180e4fbd07504e91cb922948870d5467072e0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.21.2_1715545979581_0.6801016392070205",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.21.3" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.21.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.21.3.tgz",
+        "shasum" : "625d139bde81b81f54ff493b1381ca0f540200f3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.21.3",
+      "gitHead" : "efa3dd2d8e895f7f9a9bef0d588560bbae7d776e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.21.3_1715806358629_0.4928835786492247",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.21.4" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.21.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.21.4.tgz",
+        "shasum" : "14a8ae3c35702d882086efb5a8f8d7b0038d8d35"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.21.4",
+      "gitHead" : "67cbf87a4909d87a902ca8c3b69ab5330defab0a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.21.4_1716603054832_0.8345894292359506",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.25.0" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.25.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.25.0.tgz",
+        "shasum" : "e765ea753bac442dfc9cb53652ce8bd39d33e163"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.25.0",
+      "gitHead" : "e9174d671b1882758cd32ac5e146200f5bee3e45",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.25.0_1738983743241_0.49696775758074074",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.21.5" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.21.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.21.5.tgz",
+        "shasum" : "29918ec2db754cedcb6c1b04de8cd6547af6461e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.21.5",
+      "gitHead" : "fc37c2fa9de2ad77476a6d4a8f1516196b90187e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.21.5_1717967824002_0.25954020491984586",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.25.1" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.25.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.25.1.tgz",
+        "shasum" : "58337bee3bc6d78d10425e5500bd11370cfdfbed"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.25.1",
+      "gitHead" : "6bfc1c13b4d986b86e8bc2035f00c337b0c1d007",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.25.1_1741578332610_0.8876238015032365",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.2" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.25.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.25.2.tgz",
+        "shasum" : "8a00147780016aff59e04f1036e7cb1b683859e2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.25.2",
+      "gitHead" : "4475787eef4c4923b92b9fa37ebba1c88b9e1d9b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.25.2_1743355980596_0.47192823108768445",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.3" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.25.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.25.3.tgz",
+        "shasum" : "e2ab182d1fd06da9bef0784a13c28a7602d78009"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.25.3",
+      "gitHead" : "677910b073194b64d5ae01aefd7a7465bbf5b27b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.25.3_1745380572338_0.2970492541672285",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.4" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.25.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.25.4.tgz",
+        "shasum" : "18ddde705bf984e8cd9efec54e199ac18bc7bee1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.25.4",
+      "gitHead" : "218d29e9da018d60cf87b8fb496bb8167936ff54",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.25.4_1746491451832_0.7669236306339113",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.17.15" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.15.tgz",
+        "shasum" : "d2d12a7676b2589864281b2274355200916540bc"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.15",
+      "gitHead" : "ef912892181e27386205d110c622c55c4c1df856",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.15_1680388016696_0.8545938915803966",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.16" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.16.tgz",
+        "shasum" : "8686a6e98359071ffd5312046551943e7244c51a"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.16",
+      "gitHead" : "f0704baa38ef9a808b7e34cac75aa4ac285bb087",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.16_1681101309226_0.44756292313677815",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.13" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.13.tgz",
+        "shasum" : "4228fef54b7c9c0167693f634301648a9a35d7e4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.13",
+      "gitHead" : "8dbb85531a9971058f4d8739cb52e98fa43b40a1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.13_1679684234375_0.2870701992089779",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.14" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.14.tgz",
+        "shasum" : "f002fbc08d5e939d8314bd23bcfb1e95d029491f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.14",
+      "gitHead" : "b2b897870564a6b8e8bc802a140c55bf602de31b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.14_1679798870637_0.8546615016260153",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.11" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.11.tgz",
+        "shasum" : "443ed47771a7e917e4282469ba350d117473550c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.11",
+      "gitHead" : "38cfd53020d9e0454bae0956e549546c55a66aed",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.11_1677883221481_0.8702270448588236",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.12" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.12.tgz",
+        "shasum" : "b292729eef4e0060ae1941f6a021c4d2542a3521"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.12",
+      "gitHead" : "495216dbea685cd0e10172a866eeb8ca4764a0bf",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.12_1679033835068_0.7375032159940722",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.10" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.10.tgz",
+        "shasum" : "751d5d8ae9ece1efa9627b689c888eb85b102360"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.10",
+      "gitHead" : "996d400a7ab25b67b80122e2d4a8515575918e79",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.10_1676915704446_0.2524411245190896",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.1" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.1.tgz",
+        "shasum" : "9de479c2775cdadd1836dc57923eabcb36b90493"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.1",
+      "gitHead" : "002ef9522a4103132cefb075aee3e09b0e4fa3f1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.1_1673892348023_0.33167084958868864",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.0" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.0.tgz",
+        "shasum" : "b0c124e434cec1a6551b400850458c860a30ecb4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.0",
+      "gitHead" : "2a18b3d6ab3d1003afbcfcb4a6ffca61e04fcb57",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.0_1673670970825_0.19173229084609322",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.9" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.9.tgz",
+        "shasum" : "9c4994df308a4f0ef753d5933871213d974d2e42"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.9",
+      "gitHead" : "3765e880ed0a55b8e62bfa17b7e004e656eaf914",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.9_1676828727410_0.4191064892817582",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.8" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.8.tgz",
+        "shasum" : "080fa67c29be77f5a3ca5ee4cc78d5bf927e3a3b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.8",
+      "gitHead" : "5e0b1cd2ce6297cf31b132e413134ffe2576c668",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.8_1676270148293_0.09142431739468027",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.7" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.7.tgz",
+        "shasum" : "34a1af914510ec821246859f8ae7d8fe843dd37b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.7",
+      "gitHead" : "e345b13687bc3ac86f18f4a266a162653544ad31",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.7_1675981608733_0.2228710697883367",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.6" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.6.tgz",
+        "shasum" : "18c48bf949046638fc209409ff684c6bb35a5462"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.6",
+      "gitHead" : "e1143a75dd5e7d9fb8591096edfa123f6eedbe44",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.6_1675702852970_0.7096366357908475",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.5" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.5.tgz",
+        "shasum" : "145fc61f810400e65a56b275280d1422a102c2ef"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.5",
+      "gitHead" : "a8b660d85a0a57087a0f188857519f194f52b84c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.5_1674837474537_0.8505120430563153",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.4" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.4.tgz",
+        "shasum" : "6ae1056f6ecf1963c1d076cf5f0109b52d8049f6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.4",
+      "gitHead" : "3c83a84d01e22664923b543998b5c03c0c5d8654",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.4_1674368025971_0.3879099476674859",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.3" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.3.tgz",
+        "shasum" : "a1928cd681e4055103384103c8bd34df7b9c7b19"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.3",
+      "gitHead" : "acc5becf4d4e81473761091fc340efe16325da4a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.3_1674069279387_0.07714679529219337",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.25.11" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.25.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.25.11.tgz",
+        "shasum" : "8a3bf5cae6c560c7ececa3150b2bde76e0fb81e6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.25.11",
+      "gitHead" : "6b7c4f2dcbcaa1238bca0f7a4a1d95918296c82e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/android-x64_0.25.11_1760494329768_0.02513977172987314"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.17.2" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.17.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.17.2.tgz",
+        "shasum" : "58cb40ea9502a619551dab8145ec19de3192f3d8"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.17.2",
+      "gitHead" : "a98870a2fa9f7af7024be24cb6833e638aa71da3",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.17.2_1673937589260_0.21607959743680927",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.25.10" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.25.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.25.10.tgz",
+        "shasum" : "e3e96516b2d50d74105bb92594c473e30ddc16b1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.25.10",
+      "gitHead" : "d6b668f96fb00d6a6d035f058e38b6bd2507beb6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.25.10_1758125913285_0.4706490732364417",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.20.0" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.20.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.20.0.tgz",
+        "shasum" : "2b615abefb50dc0a70ac313971102f4ce2fdb3ca"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.20.0",
+      "gitHead" : "2af5ccf478812d2d7226ad4435d46fbbb3419a8c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.20.0_1706374179268_0.7279600087833165",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.20.1" : {
+      "name" : "@esbuild/android-x64",
+      "description" : "A WebAssembly shim for esbuild on Android x64.",
+      "version" : "0.20.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/android-x64/-/android-x64-0.20.1.tgz",
+        "shasum" : "93f6190ce997b313669c20edbf3645fc6c8d8f22"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "android" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/android-x64@0.20.1",
+      "gitHead" : "9f9e4f85e6e28a58727531458663afd157b8b415",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/android-x64_0.20.1_1708324700296_0.724288594949565",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    }
+  },
+  "readme" : "# esbuild\n\nThis is a WebAssembly shim for esbuild on Android x64. See https://github.com/evanw/esbuild for details.\n",
+  "maintainers" : [ {
+    "name" : "evanw",
+    "email" : "evan.exe@gmail.com"
+  }, {
+    "name" : "esbuild",
+    "email" : "evan.exe+esbuild@gmail.com"
+  } ],
+  "time" : {
+    "0.20.2" : "2024-03-14T19:49:48.523Z",
+    "0.24.0" : "2024-09-22T02:06:28.171Z",
+    "0.24.1" : "2024-12-20T05:41:20.517Z",
+    "0.24.2" : "2024-12-20T17:56:33.357Z",
+    "0.19.10" : "2023-12-19T00:21:44.105Z",
+    "0.19.12" : "2024-01-23T17:40:36.906Z",
+    "0.19.11" : "2023-12-29T20:32:06.583Z",
+    "0.16.2" : "2022-12-08T06:59:56.319Z",
+    "0.16.1" : "2022-12-07T04:48:18.989Z",
+    "0.16.0" : "2022-12-07T03:55:10.650Z",
+    "0.16.17" : "2023-01-11T21:58:08.149Z",
+    "0.16.16" : "2023-01-08T22:43:57.147Z",
+    "0.16.9" : "2022-12-18T04:31:33.396Z",
+    "0.16.8" : "2022-12-16T23:38:50.144Z",
+    "0.16.7" : "2022-12-14T22:47:05.944Z",
+    "0.16.6" : "2022-12-14T05:23:21.666Z",
+    "0.16.5" : "2022-12-13T17:47:51.078Z",
+    "0.16.4" : "2022-12-10T03:50:42.505Z",
+    "0.16.3" : "2022-12-08T20:13:13.037Z",
+    "0.16.13" : "2023-01-02T22:57:26.068Z",
+    "0.16.12" : "2022-12-28T02:07:51.721Z",
+    "0.16.15" : "2023-01-07T04:19:09.877Z",
+    "0.16.14" : "2023-01-04T20:13:09.584Z",
+    "0.16.11" : "2022-12-27T01:39:15.009Z",
+    "0.16.10" : "2022-12-19T23:26:43.114Z",
+    "0.23.0" : "2024-07-02T03:33:49.704Z",
+    "0.23.1" : "2024-08-16T22:13:22.783Z",
+    "0.18.20" : "2023-08-08T04:15:10.005Z",
+    "0.18.18" : "2023-08-05T17:06:33.837Z",
+    "0.18.19" : "2023-08-07T02:51:25.157Z",
+    "0.19.7" : "2023-11-21T01:01:09.232Z",
+    "0.19.6" : "2023-11-19T07:11:40.914Z",
+    "0.19.5" : "2023-10-17T05:10:41.396Z",
+    "0.19.4" : "2023-09-28T01:47:19.522Z",
+    "0.19.3" : "2023-09-14T01:12:28.477Z",
+    "0.19.2" : "2023-08-14T01:58:26.830Z",
+    "0.19.1" : "2023-08-11T15:57:40.857Z",
+    "0.19.0" : "2023-08-08T15:52:38.851Z",
+    "0.19.9" : "2023-12-10T05:09:32.873Z",
+    "0.19.8" : "2023-11-26T23:08:13.223Z",
+    "0.18.16" : "2023-07-23T04:48:12.613Z",
+    "0.18.17" : "2023-07-26T01:41:04.132Z",
+    "0.18.14" : "2023-07-18T05:00:27.052Z",
+    "0.18.15" : "2023-07-20T12:53:23.909Z",
+    "0.18.12" : "2023-07-13T01:34:17.791Z",
+    "0.18.13" : "2023-07-15T02:37:22.467Z",
+    "0.18.10" : "2023-06-26T21:20:34.992Z",
+    "0.18.11" : "2023-07-01T06:04:02.477Z",
+    "0.15.18" : "2022-12-05T23:39:08.843Z",
+    "0.22.0" : "2024-06-30T20:37:53.368Z",
+    "modified" : "2025-10-15T02:12:10.279Z",
+    "0.18.0" : "2023-06-09T21:24:26.831Z",
+    "created" : "2022-12-05T23:39:08.538Z",
+    "0.18.8" : "2023-06-25T03:19:19.405Z",
+    "0.18.7" : "2023-06-24T02:46:31.778Z",
+    "0.18.6" : "2023-06-20T23:25:00.309Z",
+    "0.18.5" : "2023-06-20T00:52:48.777Z",
+    "0.18.4" : "2023-06-16T15:38:43.366Z",
+    "0.18.3" : "2023-06-15T12:21:12.403Z",
+    "0.18.2" : "2023-06-13T02:40:39.030Z",
+    "0.18.1" : "2023-06-12T04:51:53.021Z",
+    "0.18.9" : "2023-06-26T05:28:12.633Z",
+    "0.21.0" : "2024-05-07T02:52:33.043Z",
+    "0.25.5" : "2025-05-27T03:12:54.095Z",
+    "0.25.6" : "2025-07-07T16:59:09.519Z",
+    "0.25.7" : "2025-07-18T22:50:53.783Z",
+    "0.25.8" : "2025-07-19T19:22:51.602Z",
+    "0.17.19" : "2023-05-13T00:06:41.159Z",
+    "0.25.9" : "2025-08-12T23:26:20.969Z",
+    "0.17.17" : "2023-04-16T21:23:46.827Z",
+    "0.17.18" : "2023-04-22T20:41:33.169Z",
+    "0.21.1" : "2024-05-07T16:55:13.841Z",
+    "0.21.2" : "2024-05-12T20:32:59.823Z",
+    "0.21.3" : "2024-05-15T20:52:38.897Z",
+    "0.21.4" : "2024-05-25T02:10:55.202Z",
+    "0.25.0" : "2025-02-08T03:02:23.540Z",
+    "0.21.5" : "2024-06-09T21:17:04.297Z",
+    "0.25.1" : "2025-03-10T03:45:32.847Z",
+    "0.25.2" : "2025-03-30T17:33:00.884Z",
+    "0.25.3" : "2025-04-23T03:56:12.622Z",
+    "0.25.4" : "2025-05-06T00:30:52.146Z",
+    "0.17.15" : "2023-04-01T22:26:56.941Z",
+    "0.17.16" : "2023-04-10T04:35:09.495Z",
+    "0.17.13" : "2023-03-24T18:57:14.681Z",
+    "0.17.14" : "2023-03-26T02:47:50.833Z",
+    "0.17.11" : "2023-03-03T22:40:21.724Z",
+    "0.17.12" : "2023-03-17T06:17:15.386Z",
+    "0.17.10" : "2023-02-20T17:55:04.785Z",
+    "0.17.1" : "2023-01-16T18:05:48.277Z",
+    "0.17.0" : "2023-01-14T04:36:11.038Z",
+    "0.17.9" : "2023-02-19T17:45:27.745Z",
+    "0.17.8" : "2023-02-13T06:35:48.584Z",
+    "0.17.7" : "2023-02-09T22:26:49.048Z",
+    "0.17.6" : "2023-02-06T17:00:53.352Z",
+    "0.17.5" : "2023-01-27T16:37:54.778Z",
+    "0.17.4" : "2023-01-22T06:13:46.304Z",
+    "0.17.3" : "2023-01-18T19:14:39.655Z",
+    "0.25.11" : "2025-10-15T02:12:10.076Z",
+    "0.17.2" : "2023-01-17T06:39:49.478Z",
+    "0.25.10" : "2025-09-17T16:18:33.568Z",
+    "0.20.0" : "2024-01-27T16:49:39.475Z",
+    "0.20.1" : "2024-02-19T06:38:20.615Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/evanw/esbuild.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/evanw/esbuild#readme",
+  "bugs" : {
+    "url" : "https://github.com/evanw/esbuild/issues"
+  },
+  "license" : "MIT"
+}

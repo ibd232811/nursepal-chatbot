@@ -1,0 +1,4146 @@
+{
+  "_id" : "@jridgewell/trace-mapping",
+  "_rev" : "47-61fd2161060529a255efc174ad3aae3d",
+  "name" : "@jridgewell/trace-mapping",
+  "description" : "Trace the original position through a source map",
+  "dist-tags" : {
+    "latest" : "0.3.31"
+  },
+  "versions" : {
+    "0.2.4" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.2.4",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.2.4.tgz",
+        "shasum" : "9c3a1f8e260fe59003bac7b0e355fe04ca875389"
+      },
+      "dependencies" : {
+        "sourcemap-codec" : "1.4.8",
+        "@jridgewell/resolve-uri" : "^3.0.3"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "tslib" : "2.3.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.2.4",
+      "gitHead" : "3dcd7a20225f742874ab63b7b7298be9dc77ab1f",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.2.4_1643875127697_0.3465336654417408",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.3.3" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.3",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.3.tgz",
+        "shasum" : "bedec2a5309fdc2233648e4aa316b568faba06e1"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:only",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.3",
+      "gitHead" : "8c3c1934777f0d71542dde77205c60fbaed47cef",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.3_1644380289673_0.9404167500459861",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.2.5" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.2.5",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.2.5.tgz",
+        "shasum" : "d5061cc513fd3a0a949feb56b8073989865b1abe"
+      },
+      "dependencies" : {
+        "sourcemap-codec" : "1.4.8",
+        "@jridgewell/resolve-uri" : "^3.0.3"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "tslib" : "2.3.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.2.5",
+      "gitHead" : "5a9f93035db8f7547f9761128166d9683655e421",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.2.5_1643884525608_0.7980007732865717",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.3.4" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.4",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.4.tgz",
+        "shasum" : "f6a0832dffd5b8a6aaa633b7d9f8e8e94c83a0c3"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:only",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.4",
+      "gitHead" : "8d0e5039c0d77051de4de688712ff71954845fb9",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.4_1644384468931_0.48666837077732805",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.2.2" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.2.2",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.2.2.tgz",
+        "shasum" : "77510cc2f6f3b92e78c78de216d42de631b1d7fb"
+      },
+      "dependencies" : {
+        "sourcemap-codec" : "1.4.8",
+        "@jridgewell/resolve-uri" : "^3.0.3"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "tslib" : "2.3.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint 'test:only -- --no-cache'",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.2.2",
+      "gitHead" : "71520980517754d097b13cbb6da7d01db3d47f7c",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.2.2_1643438742894_0.41866531559411935",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.3.1" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.1",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.1.tgz",
+        "shasum" : "bc3713b7f4c09c4d8aab808568d01eb30a0dbc88"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.9"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:only",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.1",
+      "gitHead" : "75382dca402fd876890f5eae98d9ad3f56220b9e",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.1_1644057894389_0.36341754911098234",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.2.3" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.2.3",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.2.3.tgz",
+        "shasum" : "9d5e49d132e837b88df06e5d535a5aac47eb3051"
+      },
+      "dependencies" : {
+        "sourcemap-codec" : "1.4.8",
+        "@jridgewell/resolve-uri" : "^3.0.3"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "tslib" : "2.3.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.2.3",
+      "gitHead" : "c75b83f3c5e3d758f2a1f53eae7ed4df209df8c3",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.2.3_1643865179656_0.7354102897507293",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.3.2" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.2",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.2.tgz",
+        "shasum" : "e051581782a770c30ba219634f2019241c5d3cde"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:only",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.2",
+      "gitHead" : "684391936705e8232d4765bacafee5ed1ba9e113",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.2_1644061100297_0.9723212018366925",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.3.7" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.7",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.7.tgz",
+        "shasum" : "941982134e9b7fad031c857ccfc4a0634fc6a471"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.7.0",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.7",
+      "gitHead" : "d547d1806e1ede056e08ba756975f2a977db43d0",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.7_1650428006039_0.7596395872415624",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.14.0"
+    },
+    "0.3.8" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.8",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.8.tgz",
+        "shasum" : "46d8fb0910529a72f01388b424463015ea78b449"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.7.0",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.8",
+      "gitHead" : "8db5df070b15e2a669277b710a9d69ad0676524d",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.8_1650466207737_0.6606619814908998",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.14.0"
+    },
+    "0.2.6" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.2.6",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.2.6.tgz",
+        "shasum" : "5eac4bea1b56e073471c6f021582bdb986c4b8b7"
+      },
+      "dependencies" : {
+        "sourcemap-codec" : "1.4.8",
+        "@jridgewell/resolve-uri" : "^3.0.3"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "tslib" : "2.3.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:only",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.2.6",
+      "gitHead" : "b646620e8689048838807f63676a4f9b8eb63e72",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.2.6_1643959441664_0.5193458297321394",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.3.5" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.5",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.5.tgz",
+        "shasum" : "c2a1004a82b074d47e6ffeb4f11aed076c915509"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.7.0",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.5",
+      "gitHead" : "d9e245ca97adf105e92b9ca82009493eab5f9adf",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "deprecated" : "https://github.com/jridgewell/trace-mapping/issues/4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.5_1650417897590_0.3793288660629355",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.14.0"
+    },
+    "0.2.7" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.2.7",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.2.7.tgz",
+        "shasum" : "d45be64544788e32c7ea5c8faa16a7000d840b5b"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.9"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:only",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.2.7",
+      "gitHead" : "e958540011fe2bd3e0701057769234bcaa97eb4f",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.2.7_1644039466004_0.36044515998447135",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.3.6" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.6",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.6.tgz",
+        "shasum" : "40fa58bc2f33044ae9c642068f6a6a4ac2d7642d"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.7.0",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.6",
+      "gitHead" : "bcbd2de3291f4320152cf607ae22ca5291965935",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "deprecated" : "https://github.com/jridgewell/trace-mapping/issues/4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.6_1650426114045_0.12704304458500593",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.14.0"
+    },
+    "0.3.18" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.18",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.18.tgz",
+        "shasum" : "25783b2086daf6ff1dcb53c9249ae480e4dd4cd6"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "3.1.0",
+        "@jridgewell/sourcemap-codec" : "1.4.14"
+      },
+      "devDependencies" : {
+        "c8" : "7.12.0",
+        "ava" : "4.3.3",
+        "tsx" : "3.10.1",
+        "eslint" : "8.25.0",
+        "rollup" : "2.79.1",
+        "esbuild" : "0.15.10",
+        "prettier" : "2.7.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.8.4",
+        "npm-run-all" : "4.1.5",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.5.0",
+        "@typescript-eslint/parser" : "5.39.0",
+        "eslint-plugin-no-only-tests" : "3.0.0",
+        "@typescript-eslint/eslint-plugin" : "5.39.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "9.5.0",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.18",
+      "gitHead" : "8af9820e129906ca7ef29e58a7fe196e1d671c6d",
+      "types" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/trace-mapping.d.ts",
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.18_1680835376707_0.3432155343565999",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.15.0"
+    },
+    "0.3.19" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.19",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.19.tgz",
+        "shasum" : "f8a3249862f91be48d3127c3cfe992f79b4b8811"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.1.0",
+        "@jridgewell/sourcemap-codec" : "^1.4.14"
+      },
+      "devDependencies" : {
+        "c8" : "7.12.0",
+        "ava" : "4.3.3",
+        "tsx" : "3.10.1",
+        "eslint" : "8.25.0",
+        "rollup" : "2.79.1",
+        "esbuild" : "0.15.10",
+        "prettier" : "2.7.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.8.4",
+        "npm-run-all" : "4.1.5",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.5.0",
+        "@typescript-eslint/parser" : "5.39.0",
+        "eslint-plugin-no-only-tests" : "3.0.0",
+        "@typescript-eslint/eslint-plugin" : "5.39.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "9.5.0",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.19",
+      "gitHead" : "5ccfcfeeee9dfa3b13567bb0f95260ea32f2c269",
+      "types" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/trace-mapping.d.ts",
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.19_1691424550013_0.9094575367572624",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.15.0"
+    },
+    "0.1.1" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.1.1.tgz",
+        "shasum" : "7487abe68aeaea826f7562bf5dd6ef8b42f8326a"
+      },
+      "dependencies" : {
+        "sourcemap-codec" : "1.4.8",
+        "@jridgewell/resolve-uri" : "^3.0.3"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "tslib" : "2.3.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.11",
+        "prettier" : "2.5.1",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint 'test:only -- --no-cache'",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.1.1",
+      "gitHead" : "92e919048f8d4d0202cf70203fa9c62f6a7508ff",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.1.1_1643089098089_0.6943715545060996",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.2.0" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.2.0.tgz",
+        "shasum" : "f3e941b37c6080506d7ec26b0991072964aea5ad"
+      },
+      "dependencies" : {
+        "sourcemap-codec" : "1.4.8",
+        "@jridgewell/resolve-uri" : "^3.0.3"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "tslib" : "2.3.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.11",
+        "prettier" : "2.5.1",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint 'test:only -- --no-cache'",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.2.0",
+      "gitHead" : "4bc2e8b30c2d783bee4beb0b9771841e9723d479",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.2.0_1643190588275_0.9404271614170585",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.2.1" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.2.1.tgz",
+        "shasum" : "9e0a2ae258370bbb3aedbe45e26bc49e020f60a9"
+      },
+      "dependencies" : {
+        "sourcemap-codec" : "1.4.8",
+        "@jridgewell/resolve-uri" : "^3.0.3"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "tslib" : "2.3.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint 'test:only -- --no-cache'",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.2.1",
+      "gitHead" : "e74fa6ae8656b8f099198850b7f1d063ac80eedf",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.2.1_1643349820647_0.8036953064840084",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.3.0" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.0.tgz",
+        "shasum" : "8a727289cc0808485a86658c28cb4fc3a9231f40"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.9"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:only",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.0",
+      "gitHead" : "1efd03eccb170d05f1b10b6f987790452e3089c7",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.0_1644055809466_0.07004716227432328",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.0.1" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.0.1.tgz",
+        "shasum" : "e9300276ecc974109347a046f0cd21563a1e5cba"
+      },
+      "dependencies" : {
+        "sourcemap-codec" : "1.4.8",
+        "@jridgewell/resolve-uri" : "2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "4.0.1",
+        "tslib" : "2.3.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.11",
+        "prettier" : "2.5.1",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "esbuild-node-loader" : "antfu-esbuild-node-loader-f031299d.tar.gz-art-external",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@rollup/plugin-node-resolve" : "13.1.3",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint 'test:only -- --no-cache'",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.0.1",
+      "gitHead" : "3b65bc179972ff6cc36a8dc5ef871559432efa77",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.0.1_1642497740747_0.20268763303687032",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.1.0" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.1.0.tgz",
+        "shasum" : "dcf8267068b4ff4b387a813d6ed48ae4985e8d12"
+      },
+      "dependencies" : {
+        "sourcemap-codec" : "1.4.8",
+        "@jridgewell/resolve-uri" : "2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "4.0.1",
+        "eslint" : "8.7.0",
+        "rimraf" : "3.0.2",
+        "esbuild" : "0.14.11",
+        "prettier" : "2.5.1",
+        "typescript" : "4.5.4",
+        "@babel/core" : "7.16.7",
+        "npm-run-all" : "4.1.5",
+        "@babel/preset-env" : "7.16.8",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint 'test:only -- --no-cache'",
+        "build" : "run-s -n clean build:*",
+        "clean" : "rimraf dist",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "build:esbuild" : "node esbuild.mjs",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.1.0",
+      "gitHead" : "eb1419bbf1662e40400334ae8d84f955ffebd3ef",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.1.0_1642585693418_0.44571277062580394",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "0.3.21" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.21",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.21.tgz",
+        "shasum" : "5dc1df7b3dc4a6209e503a924e1ca56097a2bb15"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.1.0",
+        "@jridgewell/sourcemap-codec" : "^1.4.14"
+      },
+      "devDependencies" : {
+        "c8" : "9.0.0",
+        "ava" : "6.0.1",
+        "tsx" : "4.7.0",
+        "eslint" : "8.56.0",
+        "rollup" : "4.9.4",
+        "esbuild" : "0.19.11",
+        "prettier" : "3.1.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "5.3.3",
+        "npm-run-all" : "4.1.5",
+        "eslint-config-prettier" : "9.1.0",
+        "@rollup/plugin-typescript" : "11.1.6",
+        "@typescript-eslint/parser" : "6.18.1",
+        "eslint-plugin-no-only-tests" : "3.1.0",
+        "@typescript-eslint/eslint-plugin" : "6.18.1"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.mjs",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.21",
+      "gitHead" : "b7599b353100238648d7f480e6dafec3420b02e1",
+      "types" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/trace-mapping.d.ts",
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.21_1705031436286_0.9521179022797102",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.3.22" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.22",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.22.tgz",
+        "shasum" : "72a621e5de59f5f1ef792d0793a82ee20f645e4c"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.1.0",
+        "@jridgewell/sourcemap-codec" : "^1.4.14"
+      },
+      "devDependencies" : {
+        "c8" : "9.0.0",
+        "ava" : "6.0.1",
+        "tsx" : "4.7.0",
+        "eslint" : "8.56.0",
+        "rollup" : "4.9.4",
+        "esbuild" : "0.19.11",
+        "prettier" : "3.1.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "5.3.3",
+        "npm-run-all" : "4.1.5",
+        "eslint-config-prettier" : "9.1.0",
+        "@rollup/plugin-typescript" : "11.1.6",
+        "@typescript-eslint/parser" : "6.18.1",
+        "eslint-plugin-no-only-tests" : "3.1.0",
+        "@typescript-eslint/eslint-plugin" : "6.18.1"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.mjs",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "8.19.4",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.22",
+      "gitHead" : "238e80970dd286f5ac930614aa9bef5fbf3ff323",
+      "types" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/trace-mapping.d.ts",
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.22_1705686977502_0.17246779555264702",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.20.2"
+    },
+    "0.3.23" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.23",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.23.tgz",
+        "shasum" : "afc96847f3f07841477f303eed687707a5aacd80"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.1.0",
+        "@jridgewell/sourcemap-codec" : "^1.4.14"
+      },
+      "devDependencies" : {
+        "c8" : "9.0.0",
+        "tsx" : "4.7.0",
+        "mocha" : "10.3.0",
+        "eslint" : "8.56.0",
+        "rollup" : "4.9.4",
+        "esbuild" : "0.19.11",
+        "prettier" : "3.1.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "5.3.3",
+        "@types/node" : "20.11.20",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "10.0.6",
+        "eslint-config-prettier" : "9.1.0",
+        "@rollup/plugin-typescript" : "11.1.6",
+        "@typescript-eslint/parser" : "6.18.1",
+        "eslint-plugin-no-only-tests" : "3.1.0",
+        "@typescript-eslint/eslint-plugin" : "6.18.1"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.mjs",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.23",
+      "gitHead" : "2c7bf531d923eb304a4b647148baecd4aae1130f",
+      "types" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/trace-mapping.d.ts",
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.23_1708762636060_0.4478464365363459",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.3.24" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.24",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.24.tgz",
+        "shasum" : "e5640be1cab4085e4012a94c132ae86138f90f48"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.1.0",
+        "@jridgewell/sourcemap-codec" : "^1.4.14"
+      },
+      "devDependencies" : {
+        "c8" : "9.0.0",
+        "tsx" : "4.7.0",
+        "mocha" : "10.3.0",
+        "eslint" : "8.56.0",
+        "rollup" : "4.9.4",
+        "esbuild" : "0.19.11",
+        "prettier" : "3.1.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "5.3.3",
+        "@types/node" : "20.11.20",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "10.0.6",
+        "eslint-config-prettier" : "9.1.0",
+        "@rollup/plugin-typescript" : "11.1.6",
+        "@typescript-eslint/parser" : "6.18.1",
+        "eslint-plugin-no-only-tests" : "3.1.0",
+        "@typescript-eslint/eslint-plugin" : "6.18.1"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.mjs",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.24",
+      "gitHead" : "0af64433cb47bbd1273519b742e5ed2976479027",
+      "types" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/trace-mapping.d.ts",
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.24_1709274649669_0.6175509698691608",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.3.25" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.25",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.25.tgz",
+        "shasum" : "15f190e98895f3fc23276ee14bc76b675c2e50f0"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.1.0",
+        "@jridgewell/sourcemap-codec" : "^1.4.14"
+      },
+      "devDependencies" : {
+        "c8" : "9.0.0",
+        "tsx" : "4.7.0",
+        "mocha" : "10.3.0",
+        "eslint" : "8.56.0",
+        "rollup" : "4.9.4",
+        "esbuild" : "0.19.11",
+        "prettier" : "3.1.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "5.3.3",
+        "@types/node" : "20.11.20",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "10.0.6",
+        "eslint-config-prettier" : "9.1.0",
+        "@rollup/plugin-typescript" : "11.1.6",
+        "@typescript-eslint/parser" : "6.18.1",
+        "eslint-plugin-no-only-tests" : "3.1.0",
+        "@typescript-eslint/eslint-plugin" : "6.18.1"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.mjs",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.25",
+      "gitHead" : "8ee48a950fb730823fc6bc661390444437e4ef98",
+      "types" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/trace-mapping.d.ts",
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.25_1709362371753_0.6800693702465692",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.3.26" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.26",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/trace-mapping",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "type" : "git",
+        "directory" : "packages/trace-mapping"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.26.tgz",
+        "shasum" : "c337086fa5c013466b988141e00b0d67c8091a8e"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.1.0",
+        "@jridgewell/sourcemap-codec" : "^1.4.14"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:types lint:format",
+        "test" : "run-s -n test:types test:only test:format",
+        "build" : "run-s -n build:code build:types",
+        "clean" : "run-s -n clean:code clean:types",
+        "benchmark" : "run-s build:code benchmark:*",
+        "test:only" : "mocha",
+        "build:code" : "node ../../esbuild.mjs trace-mapping.ts",
+        "clean:code" : "tsc --build --clean tsconfig.build.json",
+        "lint:types" : "npm run test:types -- --fix",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "build:types" : "run-s build:types:force build:types:emit build:types:mts",
+        "clean:types" : "rimraf dist types",
+        "lint:format" : "npm run test:format -- --write",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run-s -n build test",
+        "build:types:mts" : "node ../../mts-types.mjs",
+        "build:types:emit" : "tsc --project tsconfig.build.json",
+        "benchmark:install" : "cd benchmark && npm install",
+        "build:types:force" : "rimraf tsconfig.build.tsbuildinfo"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "actor" : {
+          "name" : "jridgewell",
+          "type" : "user",
+          "email" : "justin+npm@ridgewell.name"
+        },
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.26",
+      "gitHead" : "90648758f7150574cf6cfd073acadb86f37cf24f",
+      "types" : "types/trace-mapping.d.cts",
+      "exports" : {
+        "." : [ {
+          "import" : {
+            "types" : "./types/trace-mapping.d.mts",
+            "default" : "./dist/trace-mapping.mjs"
+          },
+          "browser" : {
+            "types" : "./types/trace-mapping.d.cts",
+            "default" : "./dist/trace-mapping.umd.js"
+          },
+          "require" : {
+            "types" : "./types/trace-mapping.d.cts",
+            "default" : "./dist/trace-mapping.umd.js"
+          },
+          "module-sync" : {
+            "types" : "./types/trace-mapping.d.mts",
+            "default" : "./dist/trace-mapping.mjs"
+          }
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.26_1751233571154_0.7050876949401101",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.3.27" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.27",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/trace-mapping",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "type" : "git",
+        "directory" : "packages/trace-mapping"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.27.tgz",
+        "shasum" : "3139cfeafce3aa9918454cce8b219eee39fd7df2"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.1.0",
+        "@jridgewell/sourcemap-codec" : "^1.4.14"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:types lint:format",
+        "test" : "run-s -n test:types test:only test:format",
+        "build" : "run-s -n build:code build:types",
+        "clean" : "run-s -n clean:code clean:types",
+        "benchmark" : "run-s build:code benchmark:*",
+        "test:only" : "mocha",
+        "build:code" : "node ../../esbuild.mjs trace-mapping.ts",
+        "clean:code" : "tsc --build --clean tsconfig.build.json",
+        "lint:types" : "npm run test:types -- --fix",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "build:types" : "run-s build:types:force build:types:emit build:types:mts",
+        "clean:types" : "rimraf dist types",
+        "lint:format" : "npm run test:format -- --write",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run-s -n build test",
+        "build:types:mts" : "node ../../mts-types.mjs",
+        "build:types:emit" : "tsc --project tsconfig.build.json",
+        "benchmark:install" : "cd benchmark && npm install",
+        "build:types:force" : "rimraf tsconfig.build.tsbuildinfo"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "actor" : {
+          "name" : "jridgewell",
+          "type" : "user",
+          "email" : "justin+npm@ridgewell.name"
+        },
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.27",
+      "gitHead" : "dad47801cf1793389c88aeea2b2f688e98113eaa",
+      "types" : "types/trace-mapping.d.cts",
+      "exports" : {
+        "." : [ {
+          "import" : {
+            "types" : "./types/trace-mapping.d.mts",
+            "default" : "./dist/trace-mapping.mjs"
+          },
+          "browser" : {
+            "types" : "./types/trace-mapping.d.cts",
+            "default" : "./dist/trace-mapping.umd.js"
+          },
+          "require" : {
+            "types" : "./types/trace-mapping.d.cts",
+            "default" : "./dist/trace-mapping.umd.js"
+          }
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.27_1751259808988_0.4184421757201173",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.3.28" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.28",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/trace-mapping",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "type" : "git",
+        "directory" : "packages/trace-mapping"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.28.tgz",
+        "shasum" : "655017f73353f1e0eb1a0ecbd5edec01438c5e18"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.1.0",
+        "@jridgewell/sourcemap-codec" : "^1.4.14"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:types lint:format",
+        "test" : "run-s -n test:types test:only test:format",
+        "build" : "run-s -n build:code build:types",
+        "clean" : "run-s -n clean:code clean:types",
+        "benchmark" : "run-s build:code benchmark:*",
+        "test:only" : "mocha",
+        "build:code" : "node ../../esbuild.mjs trace-mapping.ts",
+        "clean:code" : "tsc --build --clean tsconfig.build.json",
+        "lint:types" : "npm run test:types -- --fix",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "build:types" : "run-s build:types:force build:types:emit build:types:mts",
+        "clean:types" : "rimraf dist types",
+        "lint:format" : "npm run test:format -- --write",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run-s -n build test",
+        "build:types:mts" : "node ../../mts-types.mjs",
+        "build:types:emit" : "tsc --project tsconfig.build.json",
+        "benchmark:install" : "cd benchmark && npm install",
+        "build:types:force" : "rimraf tsconfig.build.tsbuildinfo"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "actor" : {
+          "name" : "jridgewell",
+          "type" : "user",
+          "email" : "justin+npm@ridgewell.name"
+        },
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.28",
+      "gitHead" : "d2578bd71829135bee7f510e62f898bcde97e80a",
+      "types" : "types/trace-mapping.d.cts",
+      "exports" : {
+        "." : [ {
+          "import" : {
+            "types" : "./types/trace-mapping.d.mts",
+            "default" : "./dist/trace-mapping.mjs"
+          },
+          "browser" : {
+            "types" : "./types/trace-mapping.d.cts",
+            "default" : "./dist/trace-mapping.umd.js"
+          },
+          "require" : {
+            "types" : "./types/trace-mapping.d.cts",
+            "default" : "./dist/trace-mapping.umd.js"
+          }
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.28_1751306832194_0.07046403805182133",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.3.20" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.20",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.20.tgz",
+        "shasum" : "72e45707cf240fa6b081d0366f8265b0cd10197f"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.1.0",
+        "@jridgewell/sourcemap-codec" : "^1.4.14"
+      },
+      "devDependencies" : {
+        "c8" : "7.12.0",
+        "ava" : "4.3.3",
+        "tsx" : "3.10.1",
+        "eslint" : "8.25.0",
+        "rollup" : "2.79.1",
+        "esbuild" : "0.15.10",
+        "prettier" : "2.7.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.8.4",
+        "npm-run-all" : "4.1.5",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.5.0",
+        "@typescript-eslint/parser" : "5.39.0",
+        "eslint-plugin-no-only-tests" : "3.0.0",
+        "@typescript-eslint/eslint-plugin" : "5.39.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "9.5.0",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.20",
+      "gitHead" : "503c16057632e3b13beab64de3fa5d5bbe3824d5",
+      "types" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/trace-mapping.d.ts",
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.20_1697573704903_0.01594470097158096",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.15.0"
+    },
+    "0.3.29" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.29",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/trace-mapping",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "type" : "git",
+        "directory" : "packages/trace-mapping"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.29.tgz",
+        "shasum" : "a58d31eaadaf92c6695680b2e1d464a9b8fbf7fc"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.1.0",
+        "@jridgewell/sourcemap-codec" : "^1.4.14"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:types lint:format",
+        "test" : "run-s -n test:types test:only test:format",
+        "build" : "run-s -n build:code build:types",
+        "clean" : "run-s -n clean:code clean:types",
+        "benchmark" : "run-s build:code benchmark:*",
+        "test:only" : "mocha",
+        "build:code" : "node ../../esbuild.mjs trace-mapping.ts",
+        "clean:code" : "tsc --build --clean tsconfig.build.json",
+        "lint:types" : "npm run test:types -- --fix",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "build:types" : "run-s build:types:force build:types:emit build:types:mts",
+        "clean:types" : "rimraf dist types",
+        "lint:format" : "npm run test:format -- --write",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run-s -n build test",
+        "build:types:mts" : "node ../../mts-types.mjs",
+        "build:types:emit" : "tsc --project tsconfig.build.json",
+        "benchmark:install" : "cd benchmark && npm install",
+        "build:types:force" : "rimraf tsconfig.build.tsbuildinfo"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "actor" : {
+          "name" : "jridgewell",
+          "type" : "user",
+          "email" : "justin+npm@ridgewell.name"
+        },
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.29",
+      "gitHead" : "3c6286e949d58c2bc6e27334385349c6a83c6d7d",
+      "types" : "types/trace-mapping.d.cts",
+      "exports" : {
+        "." : [ {
+          "import" : {
+            "types" : "./types/trace-mapping.d.mts",
+            "default" : "./dist/trace-mapping.mjs"
+          },
+          "browser" : {
+            "types" : "./types/trace-mapping.d.cts",
+            "default" : "./dist/trace-mapping.umd.js"
+          },
+          "require" : {
+            "types" : "./types/trace-mapping.d.cts",
+            "default" : "./dist/trace-mapping.umd.js"
+          }
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.29_1751393811897_0.6555709529885683",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.3.10" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.10",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.10.tgz",
+        "shasum" : "db436f0917d655393851bc258918c00226c9b183"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "eslint-plugin-no-only-tests" : "2.6.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "8.5.1",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.10",
+      "gitHead" : "10c574ec8e288a862ae6b00a0878bcfb6665f2a0",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./dist/types/trace-mapping.d.ts",
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.10_1651787535391_0.7564513854314725",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "17.6.0"
+    },
+    "0.3.11" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.11",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.11.tgz",
+        "shasum" : "eb2e124521f27673493030d02dffedf60e56553f"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "eslint-plugin-no-only-tests" : "2.6.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "8.5.1",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.11",
+      "gitHead" : "d83d5a9946c2984a3989c8af16a9ed61dce88fae",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./dist/types/trace-mapping.d.ts",
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.11_1652191930937_0.9065975847414045",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "17.6.0"
+    },
+    "0.3.12" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.12",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.12.tgz",
+        "shasum" : "ccd8cd83ad894bae98a79eecd6a885b211bfe217"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "ava" : "4.2.0",
+        "eslint" : "8.15.0",
+        "rollup" : "2.72.1",
+        "esbuild" : "0.14.38",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.4",
+        "npm-run-all" : "4.1.5",
+        "esbuild-node-loader" : "0.8.0",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.23.0",
+        "eslint-plugin-no-only-tests" : "2.6.0",
+        "@typescript-eslint/eslint-plugin" : "5.23.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "8.6.0",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.12",
+      "gitHead" : "2672087274e8e489ce6b68222eb97b31b63eec27",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./dist/types/trace-mapping.d.ts",
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.12_1652278543669_0.8955406132128003",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.0.0"
+    },
+    "0.3.13" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.13",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.13.tgz",
+        "shasum" : "dcfe3e95f224c8fe97a87a5235defec999aa92ea"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "ava" : "4.2.0",
+        "eslint" : "8.15.0",
+        "rollup" : "2.72.1",
+        "esbuild" : "0.14.38",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.4",
+        "npm-run-all" : "4.1.5",
+        "esbuild-node-loader" : "0.8.0",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.23.0",
+        "eslint-plugin-no-only-tests" : "2.6.0",
+        "@typescript-eslint/eslint-plugin" : "5.23.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "8.5.1",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.13",
+      "gitHead" : "be6f23bf5f481229c72975ba7660fc27aaf9d33b",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./dist/types/trace-mapping.d.ts",
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.13_1652287105806_0.5987437073439184",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "17.6.0"
+    },
+    "0.3.14" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.14",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.14.tgz",
+        "shasum" : "b231a081d8f66796e475ad588a1ef473112701ed"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "ava" : "4.2.0",
+        "eslint" : "8.15.0",
+        "rollup" : "2.72.1",
+        "esbuild" : "0.14.38",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.4",
+        "npm-run-all" : "4.1.5",
+        "esbuild-node-loader" : "0.8.0",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.23.0",
+        "eslint-plugin-no-only-tests" : "2.6.0",
+        "@typescript-eslint/eslint-plugin" : "5.23.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "8.5.1",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.14",
+      "gitHead" : "2e67c1669f9222b78a34334efa55a3694893fc5d",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/trace-mapping.d.ts",
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.14_1656258448225_0.9604735947843628",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "17.6.0"
+    },
+    "0.3.15" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.15",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.15.tgz",
+        "shasum" : "aba35c48a38d3fd84b37e66c9c0423f9744f9774"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "ava" : "4.2.0",
+        "eslint" : "8.15.0",
+        "rollup" : "2.72.1",
+        "esbuild" : "0.14.38",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.4",
+        "npm-run-all" : "4.1.5",
+        "esbuild-node-loader" : "0.8.0",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.23.0",
+        "eslint-plugin-no-only-tests" : "2.6.0",
+        "@typescript-eslint/eslint-plugin" : "5.23.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "8.12.1",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.15",
+      "gitHead" : "0cef9743cc3c8338c7f1287c63dd6e6afb2013a1",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/trace-mapping.d.ts",
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.15_1660250947420_0.9012153463264752",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.5.0"
+    },
+    "0.3.16" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.16",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.16.tgz",
+        "shasum" : "a7982f16c18cae02be36274365433e5b49d7b23f"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "3.1.0",
+        "@jridgewell/sourcemap-codec" : "1.4.14"
+      },
+      "devDependencies" : {
+        "c8" : "7.12.0",
+        "ava" : "4.3.3",
+        "tsx" : "3.10.1",
+        "eslint" : "8.25.0",
+        "rollup" : "2.79.1",
+        "esbuild" : "0.15.10",
+        "prettier" : "2.7.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.8.4",
+        "npm-run-all" : "4.1.5",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.5.0",
+        "@typescript-eslint/parser" : "5.39.0",
+        "eslint-plugin-no-only-tests" : "3.0.0",
+        "@typescript-eslint/eslint-plugin" : "5.39.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "8.14.0",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.16",
+      "gitHead" : "1614656d9c45dea718786927d9aaca63dbee76b2",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/trace-mapping.d.ts",
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.16_1665189869412_0.027276859095791472",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.14.2"
+    },
+    "0.3.17" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.17",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.17.tgz",
+        "shasum" : "793041277af9073b0951a7fe0f0d8c4c98c36985"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "3.1.0",
+        "@jridgewell/sourcemap-codec" : "1.4.14"
+      },
+      "devDependencies" : {
+        "c8" : "7.12.0",
+        "ava" : "4.3.3",
+        "tsx" : "3.10.1",
+        "eslint" : "8.25.0",
+        "rollup" : "2.79.1",
+        "esbuild" : "0.15.10",
+        "prettier" : "2.7.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.8.4",
+        "npm-run-all" : "4.1.5",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.5.0",
+        "@typescript-eslint/parser" : "5.39.0",
+        "eslint-plugin-no-only-tests" : "3.0.0",
+        "@typescript-eslint/eslint-plugin" : "5.39.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "8.12.1",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.17",
+      "gitHead" : "23ab4a29244444d825044ff8fb9a8d57f41837fa",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/trace-mapping.d.ts",
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.17_1665713233474_0.9707060894701511",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.5.0"
+    },
+    "0.3.9" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.9",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/trace-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/trace-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/trace-mapping/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz",
+        "shasum" : "6534fd5933a53ba7cbf3a17615e273a0d1273ff9"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.0.3",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "ava" : "4.0.1",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "esbuild" : "0.14.14",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.5.4",
+        "npm-run-all" : "4.1.5",
+        "esbuild-node-loader" : "0.6.4",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 ava",
+        "preversion" : "run-s test build",
+        "test:debug" : "ava debug",
+        "test:watch" : "ava --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts' '**/*.md'"
+      },
+      "_npmVersion" : "8.7.0",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.9",
+      "gitHead" : "c9dbb54ca2de28d864cf47459aa34328d94fc915",
+      "typings" : "dist/types/trace-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/trace-mapping.mjs",
+          "browser" : "./dist/trace-mapping.umd.js",
+          "require" : "./dist/trace-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.9_1650490959146_0.71921856522336",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.14.0"
+    },
+    "0.3.30" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.30",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/trace-mapping",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "type" : "git",
+        "directory" : "packages/trace-mapping"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.30.tgz",
+        "shasum" : "4a76c4daeee5df09f5d3940e087442fb36ce2b99"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.1.0",
+        "@jridgewell/sourcemap-codec" : "^1.4.14"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:types lint:format",
+        "test" : "run-s -n test:types test:only test:format",
+        "build" : "run-s -n build:code build:types",
+        "clean" : "run-s -n clean:code clean:types",
+        "benchmark" : "run-s build:code benchmark:*",
+        "test:only" : "mocha",
+        "build:code" : "node ../../esbuild.mjs trace-mapping.ts",
+        "clean:code" : "tsc --build --clean tsconfig.build.json",
+        "lint:types" : "npm run test:types -- --fix",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "build:types" : "run-s build:types:force build:types:emit build:types:mts",
+        "clean:types" : "rimraf dist types",
+        "lint:format" : "npm run test:format -- --write",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run-s -n build test",
+        "build:types:mts" : "node ../../mts-types.mjs",
+        "build:types:emit" : "tsc --project tsconfig.build.json",
+        "benchmark:install" : "cd benchmark && npm install",
+        "build:types:force" : "rimraf tsconfig.build.tsbuildinfo"
+      },
+      "_npmVersion" : "11.4.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.30",
+      "gitHead" : "095a5825c482003597a30aa380b50159219f3618",
+      "types" : "types/trace-mapping.d.cts",
+      "exports" : {
+        "." : [ {
+          "import" : {
+            "types" : "./types/trace-mapping.d.mts",
+            "default" : "./dist/trace-mapping.mjs"
+          },
+          "default" : {
+            "types" : "./types/trace-mapping.d.cts",
+            "default" : "./dist/trace-mapping.umd.js"
+          }
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/trace-mapping_0.3.30_1754981048250_0.8473895365674506",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "24.4.1"
+    },
+    "0.3.31" : {
+      "name" : "@jridgewell/trace-mapping",
+      "description" : "Trace the original position through a source map",
+      "version" : "0.3.31",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/trace-mapping",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "directory" : "packages/trace-mapping"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/trace-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz",
+        "shasum" : "db15d6781c931f3a251a3dac39501c98a6082fd0"
+      },
+      "dependencies" : {
+        "@jridgewell/resolve-uri" : "^3.1.0",
+        "@jridgewell/sourcemap-codec" : "^1.4.14"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "benchmark" : "run-s build:code benchmark:*",
+        "benchmark:install" : "cd benchmark && npm install",
+        "benchmark:only" : "node --expose-gc benchmark/index.mjs",
+        "build" : "run-s -n build:code build:types",
+        "build:code" : "node ../../esbuild.mjs trace-mapping.ts",
+        "build:types" : "run-s build:types:force build:types:emit build:types:mts",
+        "build:types:force" : "rimraf tsconfig.build.tsbuildinfo",
+        "build:types:emit" : "tsc --project tsconfig.build.json",
+        "build:types:mts" : "node ../../mts-types.mjs",
+        "clean" : "run-s -n clean:code clean:types",
+        "clean:code" : "tsc --build --clean tsconfig.build.json",
+        "clean:types" : "rimraf dist types",
+        "test" : "run-s -n test:types test:only test:format",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "test:only" : "mocha",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "lint" : "run-s -n lint:types lint:format",
+        "lint:format" : "npm run test:format -- --write",
+        "lint:types" : "npm run test:types -- --fix",
+        "prepublishOnly" : "npm run-s -n build test"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/trace-mapping@0.3.31",
+      "gitHead" : "74fc8e11d30641b82e3ca3532cd89477671afeab",
+      "types" : "types/trace-mapping.d.cts",
+      "exports" : {
+        "." : [ {
+          "import" : {
+            "types" : "./types/trace-mapping.d.mts",
+            "default" : "./dist/trace-mapping.mjs"
+          },
+          "default" : {
+            "types" : "./types/trace-mapping.d.cts",
+            "default" : "./dist/trace-mapping.umd.js"
+          }
+        }, "./dist/trace-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/trace-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/trace-mapping_0.3.31_1757535169262_0.3481793426434441"
+      },
+      "_nodeVersion" : "20.10.0"
+    }
+  },
+  "readme" : "# @jridgewell/trace-mapping\n\n> Trace the original position through a source map\n\n`trace-mapping` allows you to take the line and column of an output file and trace it to the\noriginal location in the source file through a source map.\n\nYou may already be familiar with the [`source-map`][source-map] package's `SourceMapConsumer`. This\nprovides the same `originalPositionFor` and `generatedPositionFor` API, without requiring WASM.\n\n## Installation\n\n```sh\nnpm install @jridgewell/trace-mapping\n```\n\n## Usage\n\n```typescript\nimport {\n  TraceMap,\n  originalPositionFor,\n  generatedPositionFor,\n  sourceContentFor,\n  isIgnored,\n} from '@jridgewell/trace-mapping';\n\nconst tracer = new TraceMap({\n  version: 3,\n  sources: ['input.js'],\n  sourcesContent: ['content of input.js'],\n  names: ['foo'],\n  mappings: 'KAyCIA',\n  ignoreList: [],\n});\n\n// Lines start at line 1, columns at column 0.\nconst traced = originalPositionFor(tracer, { line: 1, column: 5 });\nassert.deepEqual(traced, {\n  source: 'input.js',\n  line: 42,\n  column: 4,\n  name: 'foo',\n});\n\nconst content = sourceContentFor(tracer, traced.source);\nassert.strictEqual(content, 'content for input.js');\n\nconst generated = generatedPositionFor(tracer, {\n  source: 'input.js',\n  line: 42,\n  column: 4,\n});\nassert.deepEqual(generated, {\n  line: 1,\n  column: 5,\n});\n\nconst ignored = isIgnored(tracer, 'input.js');\nassert.equal(ignored, false);\n```\n\nWe also provide a lower level API to get the actual segment that matches our line and column. Unlike\n`originalPositionFor`, `traceSegment` uses a 0-base for `line`:\n\n```typescript\nimport { traceSegment } from '@jridgewell/trace-mapping';\n\n// line is 0-base.\nconst traced = traceSegment(tracer, /* line */ 0, /* column */ 5);\n\n// Segments are [outputColumn, sourcesIndex, sourceLine, sourceColumn, namesIndex]\n// Again, line is 0-base and so is sourceLine\nassert.deepEqual(traced, [5, 0, 41, 4, 0]);\n```\n\n### SectionedSourceMaps\n\nThe sourcemap spec defines a special `sections` field that's designed to handle concatenation of\noutput code with associated sourcemaps. This type of sourcemap is rarely used (no major build tool\nproduces it), but if you are hand coding a concatenation you may need it. We provide an `AnyMap`\nhelper that can receive either a regular sourcemap or a `SectionedSourceMap` and returns a\n`TraceMap` instance:\n\n```typescript\nimport { AnyMap } from '@jridgewell/trace-mapping';\nconst fooOutput = 'foo';\nconst barOutput = 'bar';\nconst output = [fooOutput, barOutput].join('\\n');\n\nconst sectioned = new AnyMap({\n  version: 3,\n  sections: [\n    {\n      // 0-base line and column\n      offset: { line: 0, column: 0 },\n      // fooOutput's sourcemap\n      map: {\n        version: 3,\n        sources: ['foo.js'],\n        names: ['foo'],\n        mappings: 'AAAAA',\n      },\n    },\n    {\n      // barOutput's sourcemap will not affect the first line, only the second\n      offset: { line: 1, column: 0 },\n      map: {\n        version: 3,\n        sources: ['bar.js'],\n        names: ['bar'],\n        mappings: 'AAAAA',\n      },\n    },\n  ],\n});\n\nconst traced = originalPositionFor(sectioned, {\n  line: 2,\n  column: 0,\n});\n\nassert.deepEqual(traced, {\n  source: 'bar.js',\n  line: 1,\n  column: 0,\n  name: 'bar',\n});\n```\n\n## Benchmarks\n\n```\nnode v20.10.0\n\namp.js.map - 45120 segments\n\nMemory Usage:\ntrace-mapping decoded         414164 bytes\ntrace-mapping encoded        6274352 bytes\nsource-map-js               10968904 bytes\nsource-map-0.6.1            17587160 bytes\nsource-map-0.8.0             8812155 bytes\nChrome dev tools             8672912 bytes\nSmallest memory usage is trace-mapping decoded\n\nInit speed:\ntrace-mapping:    decoded JSON input x 205 ops/sec ±0.19% (88 runs sampled)\ntrace-mapping:    encoded JSON input x 405 ops/sec ±1.47% (88 runs sampled)\ntrace-mapping:    decoded Object input x 4,645 ops/sec ±0.15% (98 runs sampled)\ntrace-mapping:    encoded Object input x 458 ops/sec ±1.63% (91 runs sampled)\nsource-map-js:    encoded Object input x 75.48 ops/sec ±1.64% (67 runs sampled)\nsource-map-0.6.1: encoded Object input x 39.37 ops/sec ±1.44% (53 runs sampled)\nChrome dev tools: encoded Object input x 150 ops/sec ±1.76% (79 runs sampled)\nFastest is trace-mapping:    decoded Object input\n\nTrace speed (random):\ntrace-mapping:    decoded originalPositionFor x 44,946 ops/sec ±0.16% (99 runs sampled)\ntrace-mapping:    encoded originalPositionFor x 37,995 ops/sec ±1.81% (89 runs sampled)\nsource-map-js:    encoded originalPositionFor x 9,230 ops/sec ±1.36% (93 runs sampled)\nsource-map-0.6.1: encoded originalPositionFor x 8,057 ops/sec ±0.84% (96 runs sampled)\nsource-map-0.8.0: encoded originalPositionFor x 28,198 ops/sec ±1.12% (91 runs sampled)\nChrome dev tools: encoded originalPositionFor x 46,276 ops/sec ±1.35% (95 runs sampled)\nFastest is Chrome dev tools: encoded originalPositionFor\n\nTrace speed (ascending):\ntrace-mapping:    decoded originalPositionFor x 204,406 ops/sec ±0.19% (97 runs sampled)\ntrace-mapping:    encoded originalPositionFor x 196,695 ops/sec ±0.24% (99 runs sampled)\nsource-map-js:    encoded originalPositionFor x 11,948 ops/sec ±0.94% (99 runs sampled)\nsource-map-0.6.1: encoded originalPositionFor x 10,730 ops/sec ±0.36% (100 runs sampled)\nsource-map-0.8.0: encoded originalPositionFor x 51,427 ops/sec ±0.21% (98 runs sampled)\nChrome dev tools: encoded originalPositionFor x 162,615 ops/sec ±0.18% (98 runs sampled)\nFastest is trace-mapping:    decoded originalPositionFor\n\n\n***\n\n\nbabel.min.js.map - 347793 segments\n\nMemory Usage:\ntrace-mapping decoded          18504 bytes\ntrace-mapping encoded       35428008 bytes\nsource-map-js               51676808 bytes\nsource-map-0.6.1            63367136 bytes\nsource-map-0.8.0            43158400 bytes\nChrome dev tools            50721552 bytes\nSmallest memory usage is trace-mapping decoded\n\nInit speed:\ntrace-mapping:    decoded JSON input x 17.82 ops/sec ±6.35% (35 runs sampled)\ntrace-mapping:    encoded JSON input x 31.57 ops/sec ±7.50% (43 runs sampled)\ntrace-mapping:    decoded Object input x 867 ops/sec ±0.74% (94 runs sampled)\ntrace-mapping:    encoded Object input x 33.83 ops/sec ±7.66% (46 runs sampled)\nsource-map-js:    encoded Object input x 6.58 ops/sec ±3.31% (20 runs sampled)\nsource-map-0.6.1: encoded Object input x 4.23 ops/sec ±3.43% (15 runs sampled)\nChrome dev tools: encoded Object input x 22.14 ops/sec ±3.79% (41 runs sampled)\nFastest is trace-mapping:    decoded Object input\n\nTrace speed (random):\ntrace-mapping:    decoded originalPositionFor x 78,234 ops/sec ±1.48% (29 runs sampled)\ntrace-mapping:    encoded originalPositionFor x 60,761 ops/sec ±1.35% (21 runs sampled)\nsource-map-js:    encoded originalPositionFor x 51,448 ops/sec ±2.17% (89 runs sampled)\nsource-map-0.6.1: encoded originalPositionFor x 47,221 ops/sec ±1.99% (15 runs sampled)\nsource-map-0.8.0: encoded originalPositionFor x 84,002 ops/sec ±1.45% (27 runs sampled)\nChrome dev tools: encoded originalPositionFor x 106,457 ops/sec ±1.38% (37 runs sampled)\nFastest is Chrome dev tools: encoded originalPositionFor\n\nTrace speed (ascending):\ntrace-mapping:    decoded originalPositionFor x 930,943 ops/sec ±0.25% (99 runs sampled)\ntrace-mapping:    encoded originalPositionFor x 843,545 ops/sec ±0.34% (97 runs sampled)\nsource-map-js:    encoded originalPositionFor x 114,510 ops/sec ±1.37% (36 runs sampled)\nsource-map-0.6.1: encoded originalPositionFor x 87,412 ops/sec ±0.72% (92 runs sampled)\nsource-map-0.8.0: encoded originalPositionFor x 197,709 ops/sec ±0.89% (59 runs sampled)\nChrome dev tools: encoded originalPositionFor x 688,983 ops/sec ±0.33% (98 runs sampled)\nFastest is trace-mapping:    decoded originalPositionFor\n\n\n***\n\n\npreact.js.map - 1992 segments\n\nMemory Usage:\ntrace-mapping decoded          33136 bytes\ntrace-mapping encoded         254240 bytes\nsource-map-js                 837488 bytes\nsource-map-0.6.1              961928 bytes\nsource-map-0.8.0               54384 bytes\nChrome dev tools              709680 bytes\nSmallest memory usage is trace-mapping decoded\n\nInit speed:\ntrace-mapping:    decoded JSON input x 3,709 ops/sec ±0.13% (99 runs sampled)\ntrace-mapping:    encoded JSON input x 6,447 ops/sec ±0.22% (101 runs sampled)\ntrace-mapping:    decoded Object input x 83,062 ops/sec ±0.23% (100 runs sampled)\ntrace-mapping:    encoded Object input x 14,980 ops/sec ±0.28% (100 runs sampled)\nsource-map-js:    encoded Object input x 2,544 ops/sec ±0.16% (99 runs sampled)\nsource-map-0.6.1: encoded Object input x 1,221 ops/sec ±0.37% (97 runs sampled)\nChrome dev tools: encoded Object input x 4,241 ops/sec ±0.39% (93 runs sampled)\nFastest is trace-mapping:    decoded Object input\n\nTrace speed (random):\ntrace-mapping:    decoded originalPositionFor x 91,028 ops/sec ±0.14% (94 runs sampled)\ntrace-mapping:    encoded originalPositionFor x 84,348 ops/sec ±0.26% (98 runs sampled)\nsource-map-js:    encoded originalPositionFor x 26,998 ops/sec ±0.23% (98 runs sampled)\nsource-map-0.6.1: encoded originalPositionFor x 18,049 ops/sec ±0.26% (100 runs sampled)\nsource-map-0.8.0: encoded originalPositionFor x 41,916 ops/sec ±0.28% (98 runs sampled)\nChrome dev tools: encoded originalPositionFor x 88,616 ops/sec ±0.14% (98 runs sampled)\nFastest is trace-mapping:    decoded originalPositionFor\n\nTrace speed (ascending):\ntrace-mapping:    decoded originalPositionFor x 319,960 ops/sec ±0.16% (100 runs sampled)\ntrace-mapping:    encoded originalPositionFor x 302,153 ops/sec ±0.18% (100 runs sampled)\nsource-map-js:    encoded originalPositionFor x 35,574 ops/sec ±0.19% (100 runs sampled)\nsource-map-0.6.1: encoded originalPositionFor x 19,943 ops/sec ±0.12% (101 runs sampled)\nsource-map-0.8.0: encoded originalPositionFor x 54,648 ops/sec ±0.20% (99 runs sampled)\nChrome dev tools: encoded originalPositionFor x 278,319 ops/sec ±0.17% (102 runs sampled)\nFastest is trace-mapping:    decoded originalPositionFor\n\n\n***\n\n\nreact.js.map - 5726 segments\n\nMemory Usage:\ntrace-mapping decoded          10872 bytes\ntrace-mapping encoded         681512 bytes\nsource-map-js                2563944 bytes\nsource-map-0.6.1             2150864 bytes\nsource-map-0.8.0               88680 bytes\nChrome dev tools             1149576 bytes\nSmallest memory usage is trace-mapping decoded\n\nInit speed:\ntrace-mapping:    decoded JSON input x 1,887 ops/sec ±0.28% (99 runs sampled)\ntrace-mapping:    encoded JSON input x 4,749 ops/sec ±0.48% (97 runs sampled)\ntrace-mapping:    decoded Object input x 74,236 ops/sec ±0.11% (99 runs sampled)\ntrace-mapping:    encoded Object input x 5,752 ops/sec ±0.38% (100 runs sampled)\nsource-map-js:    encoded Object input x 806 ops/sec ±0.19% (97 runs sampled)\nsource-map-0.6.1: encoded Object input x 418 ops/sec ±0.33% (94 runs sampled)\nChrome dev tools: encoded Object input x 1,524 ops/sec ±0.57% (92 runs sampled)\nFastest is trace-mapping:    decoded Object input\n\nTrace speed (random):\ntrace-mapping:    decoded originalPositionFor x 620,201 ops/sec ±0.33% (96 runs sampled)\ntrace-mapping:    encoded originalPositionFor x 579,548 ops/sec ±0.35% (97 runs sampled)\nsource-map-js:    encoded originalPositionFor x 230,983 ops/sec ±0.62% (54 runs sampled)\nsource-map-0.6.1: encoded originalPositionFor x 158,145 ops/sec ±0.80% (46 runs sampled)\nsource-map-0.8.0: encoded originalPositionFor x 343,801 ops/sec ±0.55% (96 runs sampled)\nChrome dev tools: encoded originalPositionFor x 659,649 ops/sec ±0.49% (98 runs sampled)\nFastest is Chrome dev tools: encoded originalPositionFor\n\nTrace speed (ascending):\ntrace-mapping:    decoded originalPositionFor x 2,368,079 ops/sec ±0.32% (98 runs sampled)\ntrace-mapping:    encoded originalPositionFor x 2,134,039 ops/sec ±2.72% (87 runs sampled)\nsource-map-js:    encoded originalPositionFor x 290,120 ops/sec ±2.49% (82 runs sampled)\nsource-map-0.6.1: encoded originalPositionFor x 187,613 ops/sec ±0.86% (49 runs sampled)\nsource-map-0.8.0: encoded originalPositionFor x 479,569 ops/sec ±0.65% (96 runs sampled)\nChrome dev tools: encoded originalPositionFor x 2,048,414 ops/sec ±0.24% (98 runs sampled)\nFastest is trace-mapping:    decoded originalPositionFor\n\n\n***\n\n\nvscode.map - 2141001 segments\n\nMemory Usage:\ntrace-mapping decoded        5206584 bytes\ntrace-mapping encoded      208370336 bytes\nsource-map-js              278493008 bytes\nsource-map-0.6.1           391564048 bytes\nsource-map-0.8.0           257508787 bytes\nChrome dev tools           291053000 bytes\nSmallest memory usage is trace-mapping decoded\n\nInit speed:\ntrace-mapping:    decoded JSON input x 1.63 ops/sec ±33.88% (9 runs sampled)\ntrace-mapping:    encoded JSON input x 3.29 ops/sec ±36.13% (13 runs sampled)\ntrace-mapping:    decoded Object input x 103 ops/sec ±0.93% (77 runs sampled)\ntrace-mapping:    encoded Object input x 5.42 ops/sec ±28.54% (19 runs sampled)\nsource-map-js:    encoded Object input x 1.07 ops/sec ±13.84% (7 runs sampled)\nsource-map-0.6.1: encoded Object input x 0.60 ops/sec ±2.43% (6 runs sampled)\nChrome dev tools: encoded Object input x 2.61 ops/sec ±22.00% (11 runs sampled)\nFastest is trace-mapping:    decoded Object input\n\nTrace speed (random):\ntrace-mapping:    decoded originalPositionFor x 257,019 ops/sec ±0.97% (93 runs sampled)\ntrace-mapping:    encoded originalPositionFor x 179,163 ops/sec ±0.83% (92 runs sampled)\nsource-map-js:    encoded originalPositionFor x 73,337 ops/sec ±1.35% (87 runs sampled)\nsource-map-0.6.1: encoded originalPositionFor x 38,797 ops/sec ±1.66% (88 runs sampled)\nsource-map-0.8.0: encoded originalPositionFor x 107,758 ops/sec ±1.94% (45 runs sampled)\nChrome dev tools: encoded originalPositionFor x 188,550 ops/sec ±1.85% (79 runs sampled)\nFastest is trace-mapping:    decoded originalPositionFor\n\nTrace speed (ascending):\ntrace-mapping:    decoded originalPositionFor x 447,621 ops/sec ±3.64% (94 runs sampled)\ntrace-mapping:    encoded originalPositionFor x 323,698 ops/sec ±5.20% (88 runs sampled)\nsource-map-js:    encoded originalPositionFor x 78,387 ops/sec ±1.69% (89 runs sampled)\nsource-map-0.6.1: encoded originalPositionFor x 41,016 ops/sec ±3.01% (25 runs sampled)\nsource-map-0.8.0: encoded originalPositionFor x 124,204 ops/sec ±0.90% (92 runs sampled)\nChrome dev tools: encoded originalPositionFor x 230,087 ops/sec ±2.61% (93 runs sampled)\nFastest is trace-mapping:    decoded originalPositionFor\n```\n\n[source-map]: https://www.npmjs.com/package/source-map\n",
+  "maintainers" : [ {
+    "name" : "jridgewell",
+    "email" : "justin+npm@ridgewell.name"
+  } ],
+  "author" : {
+    "name" : "Justin Ridgewell",
+    "email" : "justin@ridgewell.name"
+  },
+  "time" : {
+    "0.2.4" : "2022-02-03T07:58:47.897Z",
+    "0.3.3" : "2022-02-09T04:18:09.911Z",
+    "0.2.5" : "2022-02-03T10:35:25.734Z",
+    "0.3.4" : "2022-02-09T05:27:49.110Z",
+    "0.2.2" : "2022-01-29T06:45:43.030Z",
+    "0.3.1" : "2022-02-05T10:44:54.537Z",
+    "0.2.3" : "2022-02-03T05:12:59.839Z",
+    "0.3.2" : "2022-02-05T11:38:20.537Z",
+    "0.3.7" : "2022-04-20T04:13:26.242Z",
+    "0.3.8" : "2022-04-20T14:50:07.940Z",
+    "0.2.6" : "2022-02-04T07:24:02.032Z",
+    "0.3.5" : "2022-04-20T01:24:57.757Z",
+    "0.2.7" : "2022-02-05T05:37:46.216Z",
+    "0.3.6" : "2022-04-20T03:41:54.199Z",
+    "0.3.18" : "2023-04-07T02:42:56.964Z",
+    "0.3.19" : "2023-08-07T16:09:10.266Z",
+    "0.1.1" : "2022-01-25T05:38:18.433Z",
+    "0.2.0" : "2022-01-26T09:49:48.427Z",
+    "0.2.1" : "2022-01-28T06:03:40.787Z",
+    "0.3.0" : "2022-02-05T10:10:09.691Z",
+    "0.0.1" : "2022-01-18T09:22:20.870Z",
+    "0.1.0" : "2022-01-19T09:48:13.584Z",
+    "0.3.21" : "2024-01-12T03:50:36.467Z",
+    "0.3.22" : "2024-01-19T17:56:17.695Z",
+    "0.3.23" : "2024-02-24T08:17:16.263Z",
+    "0.3.24" : "2024-03-01T06:30:49.845Z",
+    "0.3.25" : "2024-03-02T06:52:51.917Z",
+    "0.3.26" : "2025-06-29T21:46:11.328Z",
+    "0.3.27" : "2025-06-30T05:03:29.167Z",
+    "0.3.28" : "2025-06-30T18:07:12.367Z",
+    "modified" : "2025-09-10T20:12:49.655Z",
+    "0.3.20" : "2023-10-17T20:15:05.167Z",
+    "created" : "2022-01-18T09:22:20.699Z",
+    "0.3.29" : "2025-07-01T18:16:52.074Z",
+    "0.3.10" : "2022-05-05T21:52:15.559Z",
+    "0.3.11" : "2022-05-10T14:12:11.088Z",
+    "0.3.12" : "2022-05-11T14:15:43.952Z",
+    "0.3.13" : "2022-05-11T16:38:26.000Z",
+    "0.3.14" : "2022-06-26T15:47:28.446Z",
+    "0.3.15" : "2022-08-11T20:49:07.651Z",
+    "0.3.16" : "2022-10-08T00:44:29.611Z",
+    "0.3.17" : "2022-10-14T02:07:13.671Z",
+    "0.3.9" : "2022-04-20T21:42:39.301Z",
+    "0.3.30" : "2025-08-12T06:44:08.414Z",
+    "0.3.31" : "2025-09-10T20:12:49.468Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+    "directory" : "packages/trace-mapping"
+  },
+  "users" : {
+    "flumpus-dev" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/trace-mapping",
+  "keywords" : [ "source", "map" ],
+  "bugs" : {
+    "url" : "https://github.com/jridgewell/sourcemaps/issues"
+  },
+  "license" : "MIT"
+}

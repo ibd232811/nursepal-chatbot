@@ -1,0 +1,583 @@
+{
+  "_id" : "callsites",
+  "_rev" : "21-3d9ad942ea50ae35202e7c71e5b7cd52",
+  "name" : "callsites",
+  "description" : "Get callsites from the V8 stack trace API",
+  "dist-tags" : {
+    "latest" : "4.2.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "callsites",
+      "description" : "Get callsites from the V8 stack trace API",
+      "version" : "2.0.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/callsites#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/callsites.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/callsites/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/callsites/-/callsites-2.0.0.tgz",
+        "shasum" : "06eb84f00eea413da86affefacbffb36093b3c50"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*"
+      },
+      "keywords" : [ "stacktrace", "v8", "callsite", "callsites", "stack", "trace", "function", "file", "line", "debug" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "callsites@2.0.0",
+      "gitHead" : "76081d07c93d0ec3657d2be3c300bb21f45cf9db",
+      "xo" : {
+        "esnext" : true
+      },
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/callsites-2.0.0.tgz_1472344208744_0.7568928482942283",
+        "host" : "packages-12-west.internal.npmjs.com"
+      },
+      "_shasum" : "06eb84f00eea413da86affefacbffb36093b3c50",
+      "_nodeVersion" : "4.5.0"
+    },
+    "3.0.0" : {
+      "name" : "callsites",
+      "description" : "Get callsites from the V8 stack trace API",
+      "version" : "3.0.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/callsites#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/callsites.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/callsites/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/callsites/-/callsites-3.0.0.tgz",
+        "shasum" : "fb7eb569b72ad7a45812f93fd9430a3e410b3dd3"
+      },
+      "devDependencies" : {
+        "xo" : "^0.23.0",
+        "ava" : "^0.25.0",
+        "tsd-check" : "^0.2.1"
+      },
+      "keywords" : [ "stacktrace", "v8", "callsite", "callsites", "stack", "trace", "function", "file", "line", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd-check"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "callsites@3.0.0",
+      "gitHead" : "3bc8adc7a7a9d3c4c54ec935c8890c31db165fb1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/callsites_3.0.0_1542649008789_0.5312700033194684",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "4.2.0" : {
+      "name" : "callsites",
+      "description" : "Get callsites from the V8 stack trace API",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "https://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/callsites#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/callsites.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/callsites/issues"
+      },
+      "engines" : {
+        "node" : ">=12.20"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/callsites/-/callsites-4.2.0.tgz",
+        "shasum" : "98761d5be3ce092e4b9c92f7fb8c8eb9b83cadc8"
+      },
+      "devDependencies" : {
+        "ava" : "^3.15.0",
+        "tsd" : "^0.17.0",
+        "xo" : "^0.44.0"
+      },
+      "keywords" : [ "stacktrace", "v8", "callsite", "callsites", "stack", "trace", "function", "file", "line", "debug" ],
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "10.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "callsites@4.2.0",
+      "gitHead" : "d782915ed4ef09a5cf44dddff7a55765cfb865c6",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "types" : "./index.d.ts",
+      "exports" : "./index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/callsites_4.2.0_1719668784407_0.26992061774254306"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "18.20.2"
+    },
+    "4.0.0" : {
+      "name" : "callsites",
+      "description" : "Get callsites from the V8 stack trace API",
+      "version" : "4.0.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/callsites#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/callsites.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/callsites/issues"
+      },
+      "engines" : {
+        "node" : ">=12.20"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/callsites/-/callsites-4.0.0.tgz",
+        "shasum" : "8014cea4fedfe681a30e2f7d2d557dd95808a92a"
+      },
+      "devDependencies" : {
+        "xo" : "^0.44.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.17.0"
+      },
+      "keywords" : [ "stacktrace", "v8", "callsite", "callsites", "stack", "trace", "function", "file", "line", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "7.10.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "callsites@4.0.0",
+      "gitHead" : "467c1de91e4e4d6f4c540c1ab99a7d47ee565471",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "exports" : "./index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/callsites_4.0.0_1628464631967_0.9082832754794896",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "12.22.1"
+    },
+    "4.1.0" : {
+      "name" : "callsites",
+      "description" : "Get callsites from the V8 stack trace API",
+      "version" : "4.1.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/callsites#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/callsites.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/callsites/issues"
+      },
+      "engines" : {
+        "node" : ">=12.20"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/callsites/-/callsites-4.1.0.tgz",
+        "shasum" : "de72b98612eed4e1e2564c952498677faa9d86c2"
+      },
+      "devDependencies" : {
+        "xo" : "^0.44.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.17.0"
+      },
+      "keywords" : [ "stacktrace", "v8", "callsite", "callsites", "stack", "trace", "function", "file", "line", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "9.2.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "callsites@4.1.0",
+      "gitHead" : "6bd2cc07b0710d6ef9e0b09122745b1c275797f9",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "exports" : "./index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/callsites_4.1.0_1691850487630_0.5614972985982614",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.20.0"
+    },
+    "0.2.0" : {
+      "name" : "callsites",
+      "description" : "Get callsites from the V8 stack trace API",
+      "version" : "0.2.0",
+      "author" : {
+        "url" : "http://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/callsites",
+      "repository" : {
+        "url" : "git://github.com/sindresorhus/callsites",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/callsites/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/callsites/-/callsites-0.2.0.tgz",
+        "shasum" : "afab96262910a7f33c19a5775825c69f34e350ca"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "callsites", "callsite", "v8", "stacktrace", "stack", "trace", "function", "file", "line", "debug" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "callsites@0.2.0"
+    },
+    "3.1.0" : {
+      "name" : "callsites",
+      "description" : "Get callsites from the V8 stack trace API",
+      "version" : "3.1.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/callsites#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/callsites.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/callsites/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/callsites/-/callsites-3.1.0.tgz",
+        "shasum" : "b3630abd8943432f54b3f0519238e33cd7df2f73"
+      },
+      "devDependencies" : {
+        "xo" : "^0.24.0",
+        "ava" : "^1.4.1",
+        "tsd" : "^0.7.2"
+      },
+      "keywords" : [ "stacktrace", "v8", "callsite", "callsites", "stack", "trace", "function", "file", "line", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "callsites@3.1.0",
+      "gitHead" : "f89815af2e0255094283c86977f1e679a8fb411b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/callsites_3.1.0_1554551850429_0.3545214734540718",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "1.0.0" : {
+      "name" : "callsites",
+      "description" : "Get callsites from the V8 stack trace API",
+      "version" : "1.0.0",
+      "author" : {
+        "url" : "http://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/callsites",
+      "repository" : {
+        "url" : "git://github.com/sindresorhus/callsites",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/callsites/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/callsites/-/callsites-1.0.0.tgz",
+        "shasum" : "02563b10ed31f2ebd95893a776f0b3d95a6b15b8"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "callsites", "callsite", "v8", "stacktrace", "stack", "trace", "function", "file", "line", "debug" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "callsites@1.0.0",
+      "gitHead" : "a5f41b0b95a6b8763cb392def8e07e7a88670b02",
+      "_shasum" : "02563b10ed31f2ebd95893a776f0b3d95a6b15b8"
+    },
+    "1.0.1" : {
+      "name" : "callsites",
+      "description" : "Get callsites from the V8 stack trace API",
+      "version" : "1.0.1",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/callsites#readme",
+      "repository" : {
+        "url" : "git+https://github.com/sindresorhus/callsites.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/callsites/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/callsites/-/callsites-1.0.1.tgz",
+        "shasum" : "c14c24188ce8e1d6a030b4c3c942e6ba895b6a1a"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*"
+      },
+      "keywords" : [ "stacktrace", "v8", "callsite", "callsites", "stack", "trace", "function", "file", "line", "debug" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "callsites@1.0.1",
+      "gitHead" : "c18e4ce8ce38fb0e628f9a423471c9bac991e42a",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/callsites-1.0.1.tgz_1462973676632_0.5280761285685003",
+        "host" : "packages-16-east.internal.npmjs.com"
+      },
+      "_shasum" : "c14c24188ce8e1d6a030b4c3c942e6ba895b6a1a",
+      "_nodeVersion" : "4.4.2"
+    },
+    "0.1.0" : {
+      "name" : "callsites",
+      "description" : "Get callsites from the V8 stack trace API",
+      "version" : "0.1.0",
+      "author" : {
+        "url" : "http://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/callsites",
+      "repository" : {
+        "url" : "git://github.com/sindresorhus/callsites",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/callsites/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/callsites/-/callsites-0.1.0.tgz",
+        "shasum" : "2b856278a6948e4afe55f2600d05f89bd88b492a"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "callsites", "callsite", "v8", "stacktrace", "stack", "trace", "function", "file", "line", "debug" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "callsites@0.1.0"
+    }
+  },
+  "readme" : "# callsites\n\n> Get callsites from the [V8 stack trace API](https://v8.dev/docs/stack-trace-api)\n\n## Install\n\n```sh\nnpm install callsites\n```\n\n## Usage\n\n```js\nimport callsites from 'callsites';\n\nfunction unicorn() {\n\tconsole.log(callsites()[0].getFileName());\n\t//=> '/Users/sindresorhus/dev/callsites/test.js'\n}\n\nunicorn();\n```\n\n## API\n\nReturns an array of callsite objects with the following methods:\n\n- `getThis`: Returns the value of `this`.\n- `getTypeName`: Returns the type of `this` as a string. This is the name of the function stored in the constructor field of `this`, if available, otherwise the object's `[[Class]]` internal property.\n- `getFunction`: Returns the current function.\n- `getFunctionName`: Returns the name of the current function, typically its `name` property. If a name property is not available an attempt will be made to try to infer a name from the function's context.\n- `getMethodName`: Returns the name of the property of `this` or one of its prototypes that holds the current function.\n- `getFileName`: If this function was defined in a script returns the name of the script.\n- `getLineNumber`: If this function was defined in a script returns the current line number.\n- `getColumnNumber`: If this function was defined in a script returns the current column number\n- `getEvalOrigin`: If this function was created using a call to `eval` returns a string representing the location where `eval` was called.\n- `isToplevel`: Returns `true` if this is a top-level invocation, that is, if it's a global object.\n- `isEval`: Returns `true` if this call takes place in code defined by a call to `eval`.\n- `isNative`: Returns `true` if this call is in native V8 code.\n- `isConstructor`: Returns `true` if this is a constructor call.\n- `isAsync()`: \tReturns `true` if this call is asynchronous (i.e. `await`, `Promise.all()`, or `Promise.any()`).\n- `isPromiseAll()`: Returns `true` if this is an asynchronous call to `Promise.all()`.\n- `getPromiseIndex()`: Returns the index of the promise element that was followed in `Promise.all()` or `Promise.any()` for async stack traces, or `null` if the `CallSite` is not an asynchronous `Promise.all()` or `Promise.any()` call.\n",
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "https://sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2016-08-28T00:30:10.498Z",
+    "3.0.0" : "2018-11-19T17:36:49.033Z",
+    "created" : "2014-04-19T10:11:43.316Z",
+    "4.2.0" : "2024-06-29T13:46:24.572Z",
+    "modified" : "2024-06-29T13:46:24.735Z",
+    "4.0.0" : "2021-08-08T23:17:12.301Z",
+    "4.1.0" : "2023-08-12T14:28:07.954Z",
+    "0.2.0" : "2014-04-19T10:12:18.747Z",
+    "3.1.0" : "2019-04-06T11:57:30.657Z",
+    "1.0.0" : "2014-08-17T18:47:35.372Z",
+    "1.0.1" : "2016-05-11T13:34:39.471Z",
+    "0.1.0" : "2014-04-19T10:11:43.316Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/callsites.git"
+  },
+  "users" : {
+    "servel333" : true,
+    "flumpus-dev" : true,
+    "wangnan0610" : true,
+    "alvis" : true,
+    "zuojiang" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/callsites#readme",
+  "keywords" : [ "stacktrace", "v8", "callsite", "callsites", "stack", "trace", "function", "file", "line", "debug" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/callsites/issues"
+  },
+  "license" : "MIT"
+}

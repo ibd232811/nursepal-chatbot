@@ -1,0 +1,514 @@
+{
+  "_id" : "picocolors",
+  "_rev" : "13-58fe5f16d1f02728e1d3449e7c45aa95",
+  "name" : "picocolors",
+  "description" : "The tiniest and the fastest library for terminal output formatting with ANSI colors",
+  "dist-tags" : {
+    "latest" : "1.1.1"
+  },
+  "versions" : {
+    "0.2.0" : {
+      "name" : "picocolors",
+      "description" : "The tiniest and the fastest coloring library ever",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Alexey Raspopov"
+      },
+      "homepage" : "https://github.com/alexeyraspopov/picocolors#readme",
+      "repository" : {
+        "url" : "git+https://github.com/alexeyraspopov/picocolors.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexeyraspopov/picocolors/issues"
+      },
+      "main" : "./picocolors.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picocolors/-/picocolors-0.2.0.tgz",
+        "shasum" : "acaed2addf94979a88a88937be5c0ee383ff5fc8"
+      },
+      "keywords" : [ "terminal", "colors", "formatting", "cli", "console" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "7.24.0",
+      "_npmUser" : {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      },
+      "_id" : "picocolors@0.2.0",
+      "gitHead" : "e55798dd0f103aa819f5d6b49a06b0eb1721bb68",
+      "types" : "./picocolors.d.ts",
+      "browser" : {
+        "./picocolors.js" : "./picocolors.browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picocolors_0.2.0_1633231838357_0.9170208672045521",
+        "host" : "s3://npm-registry-packages"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "16.10.0"
+    },
+    "0.2.1" : {
+      "name" : "picocolors",
+      "description" : "The tiniest and the fastest coloring library ever",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "Alexey Raspopov"
+      },
+      "homepage" : "https://github.com/alexeyraspopov/picocolors#readme",
+      "repository" : {
+        "url" : "git+https://github.com/alexeyraspopov/picocolors.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexeyraspopov/picocolors/issues"
+      },
+      "main" : "./picocolors.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picocolors/-/picocolors-0.2.1.tgz",
+        "shasum" : "570670f793646851d1ba135996962abad587859f"
+      },
+      "keywords" : [ "terminal", "colors", "formatting", "cli", "console" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "7.24.0",
+      "_npmUser" : {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      },
+      "_id" : "picocolors@0.2.1",
+      "gitHead" : "aaf57e14b250112c6ad4fbeff08ad78cafc6c887",
+      "types" : "./picocolors.d.ts",
+      "browser" : {
+        "./picocolors.js" : "./picocolors.browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picocolors_0.2.1_1633362735585_0.028342782810027556",
+        "host" : "s3://npm-registry-packages"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "16.10.0"
+    },
+    "1.0.0" : {
+      "name" : "picocolors",
+      "description" : "The tiniest and the fastest library for terminal output formatting with ANSI colors",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Alexey Raspopov"
+      },
+      "homepage" : "https://github.com/alexeyraspopov/picocolors#readme",
+      "repository" : {
+        "url" : "git+https://github.com/alexeyraspopov/picocolors.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexeyraspopov/picocolors/issues"
+      },
+      "main" : "./picocolors.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picocolors/-/picocolors-1.0.0.tgz",
+        "shasum" : "cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
+      },
+      "keywords" : [ "terminal", "colors", "formatting", "cli", "console" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "7.24.0",
+      "_npmUser" : {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      },
+      "_id" : "picocolors@1.0.0",
+      "gitHead" : "228cea3fa726857785b8c069cccc58e9743cd71d",
+      "types" : "./picocolors.d.ts",
+      "browser" : {
+        "./picocolors.js" : "./picocolors.browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picocolors_1.0.0_1634093321958_0.004333165104213554",
+        "host" : "s3://npm-registry-packages"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "16.10.0"
+    },
+    "0.0.0" : {
+      "name" : "picocolors",
+      "description" : "npm install picocolors",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "Alexey Raspopov"
+      },
+      "main" : "picocolors.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picocolors/-/picocolors-0.0.0.tgz",
+        "shasum" : "49a918ed3d7b45b6eb66ece846ff633d4a8ca998"
+      },
+      "devDependencies" : {
+        "prettier" : "^2.4.1"
+      },
+      "keywords" : [ ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_npmVersion" : "7.24.0",
+      "_npmUser" : {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      },
+      "_id" : "picocolors@0.0.0",
+      "types" : "./picocolors.d.ts",
+      "exports" : "picocolors.js",
+      "module" : "picocolors.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picocolors_0.0.0_1632702821501_0.20486214350583465",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "prettier" : {
+        "printWidth" : 100
+      },
+      "_nodeVersion" : "16.1.0"
+    },
+    "1.0.1" : {
+      "name" : "picocolors",
+      "description" : "The tiniest and the fastest library for terminal output formatting with ANSI colors",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Alexey Raspopov"
+      },
+      "homepage" : "https://github.com/alexeyraspopov/picocolors#readme",
+      "repository" : {
+        "url" : "git+https://github.com/alexeyraspopov/picocolors.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexeyraspopov/picocolors/issues"
+      },
+      "main" : "./picocolors.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picocolors/-/picocolors-1.0.1.tgz",
+        "shasum" : "a8ad579b571952f0e5d25892de5445bcfe25aaa1"
+      },
+      "keywords" : [ "terminal", "colors", "formatting", "cli", "console" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "10.5.0",
+      "_npmUser" : {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      },
+      "_id" : "picocolors@1.0.1",
+      "gitHead" : "a014200ab27c654a40072d671654b1a898a0940b",
+      "types" : "./picocolors.d.ts",
+      "browser" : {
+        "./picocolors.js" : "./picocolors.browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picocolors_1.0.1_1715654655866_0.39768819945887346",
+        "host" : "s3://npm-registry-packages"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "21.7.1"
+    },
+    "1.1.0" : {
+      "name" : "picocolors",
+      "description" : "The tiniest and the fastest library for terminal output formatting with ANSI colors",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Alexey Raspopov"
+      },
+      "homepage" : "https://github.com/alexeyraspopov/picocolors#readme",
+      "repository" : {
+        "url" : "git+https://github.com/alexeyraspopov/picocolors.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexeyraspopov/picocolors/issues"
+      },
+      "main" : "./picocolors.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picocolors/-/picocolors-1.1.0.tgz",
+        "shasum" : "5358b76a78cde483ba5cef6a9dc9671440b27d59"
+      },
+      "devDependencies" : {
+        "chalk" : "^4.1.2",
+        "kleur" : "^4.1.4",
+        "prettier" : "^2.4.1",
+        "benchmark" : "^2.1.4",
+        "cli-color" : "^2.0.0",
+        "colorette" : "^2.0.12",
+        "nanocolors" : "^0.2.12",
+        "ansi-colors" : "^4.1.1",
+        "clean-publish" : "^3.0.3"
+      },
+      "keywords" : [ "terminal", "colors", "formatting", "cli", "console" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node tests/test.js"
+      },
+      "_npmVersion" : "10.8.1",
+      "_npmUser" : {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      },
+      "_id" : "picocolors@1.1.0",
+      "gitHead" : "6f6011182c0f16cf119019ca9bef1fadbe86b913",
+      "types" : "./picocolors.d.ts",
+      "browser" : {
+        "./picocolors.js" : "./picocolors.browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picocolors_1.1.0_1725320790830_0.6018633231704895",
+        "host" : "s3://npm-registry-packages"
+      },
+      "clean-publish" : {
+        "cleanDocs" : true
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "semi" : false,
+        "useTabs" : true,
+        "tabWidth" : 2,
+        "printWidth" : 100,
+        "arrowParens" : "avoid"
+      },
+      "_nodeVersion" : "22.4.1"
+    },
+    "0.0.1" : {
+      "name" : "picocolors",
+      "description" : "The tiniest and the fastest coloring library ever",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Alexey Raspopov"
+      },
+      "homepage" : "https://github.com/alexeyraspopov/picocolors#readme",
+      "repository" : {
+        "url" : "git+https://github.com/alexeyraspopov/picocolors.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexeyraspopov/picocolors/issues"
+      },
+      "main" : "picocolors.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picocolors/-/picocolors-0.0.1.tgz",
+        "shasum" : "bf72dffc7f5865238d4ca0b5b454426318e5f317"
+      },
+      "devDependencies" : {
+        "prettier" : "^2.4.1"
+      },
+      "keywords" : [ "terminal", "colors", "formatting", "cli", "console" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_npmVersion" : "7.24.0",
+      "_npmUser" : {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      },
+      "_id" : "picocolors@0.0.1",
+      "types" : "./picocolors.d.ts",
+      "exports" : "picocolors.js",
+      "module" : "picocolors.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picocolors_0.0.1_1632716840457_0.9972960427570001",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "prettier" : {
+        "printWidth" : 100
+      },
+      "_nodeVersion" : "16.1.0"
+    },
+    "0.1.0" : {
+      "name" : "picocolors",
+      "description" : "The tiniest and the fastest coloring library ever",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Alexey Raspopov"
+      },
+      "homepage" : "https://github.com/alexeyraspopov/picocolors#readme",
+      "repository" : {
+        "url" : "git+https://github.com/alexeyraspopov/picocolors.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexeyraspopov/picocolors/issues"
+      },
+      "main" : "./picocolors.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picocolors/-/picocolors-0.1.0.tgz",
+        "shasum" : "e10d446a03ca5f127e9680865fbfe80ee5148266"
+      },
+      "keywords" : [ "terminal", "colors", "formatting", "cli", "console" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "7.24.0",
+      "_npmUser" : {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      },
+      "_id" : "picocolors@0.1.0",
+      "gitHead" : "5e8b0ecdd4c957efa9e5d754ede84e0074b3a11f",
+      "types" : "./picocolors.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./picocolors.js",
+          "default" : "./picocolors.js",
+          "require" : "./picocolors.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "./picocolors.js",
+      "browser" : {
+        "./picocolors.js" : "./picocolors.browser.js",
+        "./picocolors.cjs" : "./picocolors.browser.cjs"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/picocolors_0.1.0_1632762597116_0.6149763019653798",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "sideEffects" : false,
+      "_nodeVersion" : "16.10.0"
+    },
+    "1.1.1" : {
+      "name" : "picocolors",
+      "description" : "The tiniest and the fastest library for terminal output formatting with ANSI colors",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Alexey Raspopov"
+      },
+      "homepage" : "https://github.com/alexeyraspopov/picocolors#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/alexeyraspopov/picocolors.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexeyraspopov/picocolors/issues"
+      },
+      "main" : "./picocolors.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/picocolors/-/picocolors-1.1.1.tgz",
+        "shasum" : "3d321af3eab939b083c8f929a1d12cda81c26b6b"
+      },
+      "keywords" : [ "terminal", "colors", "formatting", "cli", "console" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "10.8.3",
+      "_npmUser" : {
+        "name" : "alexeyraspopov",
+        "email" : "oleksii.raspopov@gmail.com"
+      },
+      "_id" : "picocolors@1.1.1",
+      "gitHead" : "6f0a4638348ed20633d623ee973f9c9a96f65104",
+      "types" : "./picocolors.d.ts",
+      "browser" : {
+        "./picocolors.js" : "./picocolors.browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/picocolors_1.1.1_1729102803686_0.7395028803649382"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "22.9.0"
+    }
+  },
+  "readme" : "# picocolors\n\nThe tiniest and the fastest library for terminal output formatting with ANSI colors.\n\n```javascript\nimport pc from \"picocolors\"\n\nconsole.log(\n  pc.green(`How are ${pc.italic(`you`)} doing?`)\n)\n```\n\n- **No dependencies.**\n- **14 times** smaller and **2 times** faster than chalk.\n- Used by popular tools like PostCSS, SVGO, Stylelint, and Browserslist.\n- Node.js v6+ & browsers support. Support for both CJS and ESM projects.\n- TypeScript type declarations included.\n- [`NO_COLOR`](https://no-color.org/) friendly.\n\n## Docs\nRead **[full docs](https://github.com/alexeyraspopov/picocolors#readme)** on GitHub.\n",
+  "maintainers" : [ {
+    "name" : "alexeyraspopov",
+    "email" : "oleksii.raspopov@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Alexey Raspopov"
+  },
+  "time" : {
+    "created" : "2021-09-27T00:33:41.501Z",
+    "modified" : "2024-10-16T18:20:04.161Z",
+    "0.2.0" : "2021-10-03T03:30:38.511Z",
+    "0.2.1" : "2021-10-04T15:52:15.750Z",
+    "1.0.0" : "2021-10-13T02:48:42.115Z",
+    "0.0.0" : "2021-09-27T00:33:41.649Z",
+    "1.0.1" : "2024-05-14T02:44:16.014Z",
+    "1.1.0" : "2024-09-02T23:46:31.018Z",
+    "0.0.1" : "2021-09-27T04:27:20.577Z",
+    "0.1.0" : "2021-09-27T17:09:57.265Z",
+    "1.1.1" : "2024-10-16T18:20:03.921Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/alexeyraspopov/picocolors.git"
+  },
+  "users" : {
+    "flumpus-dev" : true,
+    "yang.shao" : true,
+    "supan_20220713" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/alexeyraspopov/picocolors#readme",
+  "keywords" : [ "terminal", "colors", "formatting", "cli", "console" ],
+  "bugs" : {
+    "url" : "https://github.com/alexeyraspopov/picocolors/issues"
+  },
+  "license" : "ISC"
+}

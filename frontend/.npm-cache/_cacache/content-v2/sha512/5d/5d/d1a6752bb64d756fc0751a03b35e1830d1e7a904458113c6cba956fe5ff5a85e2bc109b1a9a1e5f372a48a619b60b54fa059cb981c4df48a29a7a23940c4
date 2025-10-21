@@ -1,0 +1,4723 @@
+{
+  "_id" : "@esbuild/sunos-x64",
+  "_rev" : "101-09e4804be482d8a7bd4314a35743ba9d",
+  "name" : "@esbuild/sunos-x64",
+  "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+  "dist-tags" : {
+    "latest" : "0.25.11"
+  },
+  "versions" : {
+    "0.20.2" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.20.2.tgz",
+        "shasum" : "7df23b61a497b8ac189def6e25a95673caedb03f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.20.2",
+      "gitHead" : "617eddaa32b7649ad23ddd15257816df3f0f544c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.20.2_1710445762633_0.4871010609540971",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.24.0" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.24.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.24.0.tgz",
+        "shasum" : "8ddc35a0ea38575fa44eda30a5ee01ae2fa54dd4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.24.0",
+      "gitHead" : "d34e79e2a998c21bb71d57b92b0017ca11756912",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.24.0_1726970820411_0.863140334862067",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.24.1" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.24.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.24.1.tgz",
+        "shasum" : "a6e3b3ff72ab74555626a2f44e27ce300f6a2d5e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.24.1",
+      "gitHead" : "de9598f42dc3ffc395e3fd3672a4804f6b4e5c09",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.24.1_1734673333970_0.1321319767307232",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.24.2" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.24.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.24.2.tgz",
+        "shasum" : "8b7aa895e07828d36c422a4404cc2ecf27fb15c6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.24.2",
+      "gitHead" : "745abd9f0c06f73ca40fbe198546a9bc36c23b81",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.24.2_1734717453998_0.06966588091369652",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.19.10" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.19.10.tgz",
+        "shasum" : "c16ee1c167f903eaaa6acf7372bee42d5a89c9bc"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.19.10",
+      "gitHead" : "55e1127a49db0c26f1abd97f1b180bbc728aa95a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.19.10_1702945273517_0.4957210489927184",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.12" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.19.12.tgz",
+        "shasum" : "0933eaab9af8b9b2c930236f62aae3fc593faf30"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.19.12",
+      "gitHead" : "d7fd1ad35715cda76eb33343b7c07b275e402a2e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.19.12_1706031596631_0.3436268173622117",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.19.11" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.19.11.tgz",
+        "shasum" : "e320636f00bb9f4fdf3a80e548cb743370d41767"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.19.11",
+      "gitHead" : "6ee82255bdfdffef2de60827e9d35a425a7cbff6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.19.11_1703881895961_0.20169644477621862",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.16.2" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.2.tgz",
+        "shasum" : "d57d9b3121b028dcee8d7ec556b514a0545872c9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.2",
+      "gitHead" : "0829d74c0b3a913c0cf6d3f59902871bf63e0d16",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.2_1670482773548_0.8986918013860115",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.1" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.1.tgz",
+        "shasum" : "c8d84eb61f66d3811051b9b5c4b63e9ee126217c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.1",
+      "gitHead" : "3b62a3680cdd1c9d76bed3e2e60841e371670c35",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.1_1670388477892_0.6435911235029401",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.0" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.0.tgz",
+        "shasum" : "19fab3e80b2882c7d0a3231cd9ef12bc31838ae8"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.0",
+      "gitHead" : "6c8d15d404874fd939d7f4062cc6a660dffdabcb",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.0_1670385285000_0.3282850943937541",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.17" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.17.tgz",
+        "shasum" : "abc60e7c4abf8b89fb7a4fe69a1484132238022c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.17",
+      "gitHead" : "d751dfb82002d332aa4dbfa89c74d25203d28123",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.17_1673474263875_0.20341875005581023",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.16" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.16.tgz",
+        "shasum" : "996bcd2603cd345733c3aa5f52bfd5b8fa7d1d36"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.16",
+      "gitHead" : "edede3c49ad6adddc6ea5b3c78c6ea7507e03020",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.16_1673217817485_0.8782161336363754",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.9" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.9.tgz",
+        "shasum" : "c132603a19ef79c0d7bd95afb09f41618ea8dda2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.9",
+      "gitHead" : "29ae56a2ca081ed980ac9c73fcced1fdbc479f90",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.9_1671337867744_0.6074611891608739",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.8" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.8.tgz",
+        "shasum" : "463cb5d29997216391eaeaca25ed8549dd464f8e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.8",
+      "gitHead" : "0ddb995d7d9bbcefa8e74c5a29c700111427bf18",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.8_1671233900530_0.8676032754670526",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.7" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.7.tgz",
+        "shasum" : "11c4cd341be1de93cb5e3bf096f3b63ae1497626"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.7",
+      "gitHead" : "be16d813dfaca257af7ba99e458f54d1abdc31a4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.7_1671058003467_0.4812691784731056",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.6" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.6.tgz",
+        "shasum" : "3ac4275f948653a56d52eca7483f8d683bdd14ca"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.6",
+      "gitHead" : "ee8e0ddc78114b73836ee1c520d255fd28c1ab1a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.6_1670995378522_0.18692877130837537",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.5" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.5.tgz",
+        "shasum" : "9f0da4e9c594bdbe92c27fe1d3d1effb8f036ad3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.5",
+      "gitHead" : "bb9639c3e1f57a3fdfaadf073a35d87020253f70",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.5_1670953648492_0.30630918957020814",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.4" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.4.tgz",
+        "shasum" : "0b50e941cd44f069e9f2573321aec984244ec228"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.4",
+      "gitHead" : "643af8ed12345b3a249f1d4c7643c261d95c098c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.4_1670644216205_0.5871634705581514",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.3" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.3.tgz",
+        "shasum" : "a838f247867380f0ae25ce1936dc5ab6f57b7734"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.3",
+      "gitHead" : "8ef19fefc9bfdd28fab95dec3783d3f100f25e3e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.3_1670530354120_0.4416489489232609",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.13" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.13.tgz",
+        "shasum" : "592caacab6b2c7669cd869b51f66dc354da03fc2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.13",
+      "gitHead" : "0db0b46399de81fb29f6fcb65dfb5fad3638b6d8",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.13_1672700228334_0.9806139076530236",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.12" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.12.tgz",
+        "shasum" : "3ee120008cc759d604825dd25501152071ef30f0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.12",
+      "gitHead" : "ddda86edaae10abdc759601da6198b33e61c1220",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.12_1672193072140_0.11696301547579302",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.15" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.15.tgz",
+        "shasum" : "91174f7058dfc6cfafdf2251330f6767506db7a7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.15",
+      "gitHead" : "33a515951c626e56addc1dd4c6561a1514559fd0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.15_1673065102988_0.06437296482700416",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.14" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.14.tgz",
+        "shasum" : "41e046bb0849ae59702a5cfa8be300431a61ee3a"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.14",
+      "gitHead" : "93328af7dcf842f750c3e782bd83997e4f817e8d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.14_1672863162608_0.4919999674843101",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.11" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.11.tgz",
+        "shasum" : "9c83b5335ad9146d0f424ed75b2615b6e414cbd7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.11",
+      "gitHead" : "17555921cbe672f6327f49a2436df1a69124623b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.11_1672105128216_0.7042413835687371",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.10" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.16.10.tgz",
+        "shasum" : "31e5e4b814ef43d300e26511e486a4716a390d5f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.16.10",
+      "gitHead" : "0fea6aea59845d1c0bef9dc16dfff636c3f721d4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.16.10_1671492375941_0.9839357950903886",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.23.0" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.23.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.23.0.tgz",
+        "shasum" : "58f0d5e55b9b21a086bfafaa29f62a3eb3470ad8"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.23.0",
+      "gitHead" : "9d506806bdd963b02b3d6edf45e717e03dcba785",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.23.0_1719891259597_0.2940797135909361",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.23.1" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.23.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.23.1.tgz",
+        "shasum" : "adb022b959d18d3389ac70769cef5a03d3abd403"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.23.1",
+      "gitHead" : "332727499e62315cff4ecaff9fa8b86336555e46",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.23.1_1723846433465_0.6086191049112413",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.18.20" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.20",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.20.tgz",
+        "shasum" : "d5c275c3b4e73c9b0ecd38d1ca62c020f887ab9d"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.20",
+      "gitHead" : "22f0818cf81024b63752d815c51fe737612b43ec",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.20_1691468078526_0.06531010212464827",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.18" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.18.tgz",
+        "shasum" : "277b2f5727119fe3004e673eb9f6ead0b4ff0738"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.18",
+      "gitHead" : "e8e43ad19359f0b29d84607c89c6aa95a4d1637d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.18_1691255175293_0.8141858875267176",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.19" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.19",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.19.tgz",
+        "shasum" : "e2de98bd961e04f76f6acf5970263efc7051def5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.19",
+      "gitHead" : "e08ee8990905f24b987a7ddffde89e20cbf3cf6a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.19_1691376663539_0.5410995289509601",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.7" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.19.7.tgz",
+        "shasum" : "1650d40dd88412ecc11490119cd23cbaf661a591"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.19.7",
+      "gitHead" : "a7773b340bb216d053df91b7479b5aa2a152b0de",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.19.7_1700528434119_0.9840870105489143",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.6" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.19.6.tgz",
+        "shasum" : "b51b648cea77c62b1934a4fdcfee7aaa9de174cb"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.19.6",
+      "gitHead" : "6073a3a9a02909d54cedbaf9c06f5fa501f9f337",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.19.6_1700377877465_0.003961058830196151",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.5" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.19.5.tgz",
+        "shasum" : "9efc4eb9539a7be7d5a05ada52ee43cda0d8e2dd"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.19.5",
+      "gitHead" : "a7fcc43fdb6b6edc58f781fe96328f4867f4b33e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.19.5_1697519419166_0.735987689059802",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.4" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.19.4.tgz",
+        "shasum" : "f63f5841ba8c8c1a1c840d073afc99b53e8ce740"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.19.4",
+      "gitHead" : "a75b16ec09e76a050cea8ad43588172dc297784d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.19.4_1695865591572_0.25030251992454233",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.3" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.19.3.tgz",
+        "shasum" : "b2b8ba7d27907c7245f6e57dc62f3b88693f84b0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.19.3",
+      "gitHead" : "673ad10ff752486aa90749b63ebeb952c29106a1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.19.3_1694653929715_0.7358411014225477",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.2" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.19.2.tgz",
+        "shasum" : "52a2ac8ac6284c02d25df22bb4cfde26fbddd68d"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.19.2",
+      "gitHead" : "09a100124e9daef9e0be57d21cc7729c6f3516e7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.19.2_1691978287346_0.02254703120004331",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.1" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.19.1.tgz",
+        "shasum" : "ee66c195f07527eb098d72e3a298398513128f67"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.19.1",
+      "gitHead" : "49801f761347d53bd1f6a88767bb79e257f9fbb9",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.19.1_1691769435002_0.03470805963138712",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.0" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.19.0.tgz",
+        "shasum" : "8de27de2563cb3eb6c1af066b6d7fcb1229fe3d4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.19.0",
+      "gitHead" : "c337498cdad8cac87517ec49c923441b2dc67bf2",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.19.0_1691509869806_0.25938566021486475",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.9" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.19.9.tgz",
+        "shasum" : "116be6adbd2c7479edeeb5f6ea0441002ab4cb9c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.19.9",
+      "gitHead" : "9edc9d44c3d0480c27f68a71365f18e688b6184a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.19.9_1702184950873_0.07764216894697928",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.8" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.19.8.tgz",
+        "shasum" : "2a697e1f77926ff09fcc457d8f29916d6cd48fb1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.19.8",
+      "gitHead" : "e97bd6706c7aaddb3770ae31b164d7ccaec8056c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.19.8_1701040059857_0.32814556853193255",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.16" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.16.tgz",
+        "shasum" : "998efe8a58374b7351ac710455051639a6ce6a05"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.16",
+      "gitHead" : "22920366954b4d18aed77dfc2b5961f339d4e318",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.16_1690087666965_0.741260897926314",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.17" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.17.tgz",
+        "shasum" : "74a45fe1db8ea96898f1a9bb401dcf1dadfc8371"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.17",
+      "gitHead" : "1771c7109f7f5d17d96543d6b17a6ab12d9d38d0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.17_1690335640245_0.0835112306869994",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.14" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.14.tgz",
+        "shasum" : "a50721d47b93586249bd63250bd4b7496fc9957b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.14",
+      "gitHead" : "af0fe32eaea8112de45e17cb8d0ad487b2123132",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.14_1689656405155_0.3368975431748109",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.15" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.15.tgz",
+        "shasum" : "dbbebf641957a54b77f39ca9b10b0b38586799ba"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.15",
+      "gitHead" : "daf64732be2e05d1258023b5b7d5389e08e291a9",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.15_1689857581473_0.2580805257508152",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.12" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.12.tgz",
+        "shasum" : "4d91cf84062dd0db5e9f8484dcaaff6443557839"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.12",
+      "gitHead" : "d196e4c4898fc46dc553124e28b1b29829ef7f7d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.12_1689212028969_0.2700434791759818",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.13" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.13.tgz",
+        "shasum" : "b368080f42dbb5ae926d0567c02bcd68a34c5efd"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.13",
+      "gitHead" : "12a8a25b4ca8b650d7c96046b8a3e76491a119f5",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.13_1689388619056_0.6402246094542074",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.10" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.10.tgz",
+        "shasum" : "2ad291b87225f82490d3ffd7c8b643e45fe0d616"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.10",
+      "gitHead" : "cdb6c7ce3f9419e51bd855fd61d07d2c615fb30e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.10_1687814415445_0.12264607664089433",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.11" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.11.tgz",
+        "shasum" : "ae47a550b0cd395de03606ecfba03cc96c7c19e2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.11",
+      "gitHead" : "2703f90d47fd96f425fedcfd2a5c318a43b04d45",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.11_1688191420881_0.9299738860806093",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.15.18" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.15.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.15.18.tgz",
+        "shasum" : "1e82804e8e3b6467287c77a509053a2d894bc0ac"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.15.18",
+      "gitHead" : "07e607164c880e03e13f86aa50a58cd6d44ec084",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.15.18_1670284680260_0.13775520307881073",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.22.0" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.22.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.22.0.tgz",
+        "shasum" : "2be9d2459ae181ebedb6470e4469349a27c4f060"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.22.0",
+      "gitHead" : "80c6e6ea094a71691ab1644ab61494cc67729365",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.22.0_1719779906031_0.6131281574061613",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.18.0" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.0.tgz",
+        "shasum" : "1f3ff9aaf941b13cfabbc93f3e213a8d38a0c50f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.0",
+      "gitHead" : "4dda49d4ea86afcbe715bdca5e8f4b13659e0c2f",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.0_1686345848140_0.29816322758863323",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.8" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.8.tgz",
+        "shasum" : "c1de112a361ee14cf37f2e4606be88fc27d9c23c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.8",
+      "gitHead" : "9b233a4f670a73173dcc7e83ebf7648d0007b082",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.8_1687663136075_0.5964214268407455",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.7" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.7.tgz",
+        "shasum" : "a79c5f91896cf787e8ee4c11787c148482a18531"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.7",
+      "gitHead" : "adb8d19b56d2ae2d65128305c875b577476fac93",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.7_1687574772622_0.8469454379995691",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.6" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.6.tgz",
+        "shasum" : "2962c270d457b5f8ec2fc4ad1afacc7efe913fef"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.6",
+      "gitHead" : "f0b5803694c3d74c1d84851a518e3e25916ec005",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.6_1687303480221_0.38165129796747044",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.5" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.5.tgz",
+        "shasum" : "ff5b4b98b93a46eb45f648331a5303ffe38bc2fd"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.5",
+      "gitHead" : "931be1b9b2312609c5214812671b0d2a21cfe92b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.5_1687222340589_0.6353486584740731",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.4" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.4.tgz",
+        "shasum" : "f0aa5f8c3929a49e721faca4e7491865324a6bb5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.4",
+      "gitHead" : "bfc5a0fe07b6f6855ff3ff11a91894066378c5dd",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.4_1686929859512_0.28427680973634706",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.3" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.3.tgz",
+        "shasum" : "9e85422620b8972f02489ec04329492dd04dae13"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.3",
+      "gitHead" : "9224cce93632b0fc6db8767676211fb44ac642a7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.3_1686831638790_0.9501960334197412",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.2" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.2.tgz",
+        "shasum" : "7c2d98f4d23d251a02ad01f6e2fe887c899ac8c6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.2",
+      "gitHead" : "a7a909605b1387b5c74d1bd0217af3fb4a843461",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.2_1686624011678_0.2241133822050143",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.1" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.1.tgz",
+        "shasum" : "e3f5e5b7347af74e9ae2a16ca045d737c077a987"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.1",
+      "gitHead" : "3aa3ec2da489dad64d90aa965c9782984defc904",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.1_1686545493893_0.5210122185843256",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.9" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.18.9.tgz",
+        "shasum" : "9442369e234d7eb53d06fb385ad3a745af365790"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.18.9",
+      "gitHead" : "d568ff038d012a7894a9d4334b75f8559bf2532e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.18.9_1687757260171_0.4886124202486142",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.21.0" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.21.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.21.0.tgz",
+        "shasum" : "c77ce1d31d5fd3827da9d0634a0f2673611c6254"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.21.0",
+      "gitHead" : "c6da2c3aa2b1321be3fdacd1e53566c5f24ee702",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.21.0_1715050330164_0.44285463139635595",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.25.5" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.25.5.tgz",
+        "shasum" : "a28164f5b997e8247d407e36c90d3fd5ddbe0dc5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.25.5",
+      "gitHead" : "ea453bf687c8e5cf3c5f11aae372c5ca33be0c98",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.25.5_1748315620124_0.3866071790055907",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.6" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.25.6.tgz",
+        "shasum" : "56531f861723ea0dc6283a2bb8837304223cb736"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "actor" : {
+          "name" : "evanw",
+          "type" : "user",
+          "email" : "evan.exe@gmail.com"
+        },
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.25.6",
+      "gitHead" : "d38c1f0bc580b4a8a93f23559d0cd9085d7ba31f",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.25.6_1751907592691_0.9532192234101216",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.7" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.25.7.tgz",
+        "shasum" : "72818972a744dfc71d67300e3329c8f26ba7aea8"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.25.7",
+      "gitHead" : "9b42f68f9b1fecf16e72dbcfc5c46504239d6fe6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.25.7_1752879087819_0.3118606522513083",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.8" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.25.8.tgz",
+        "shasum" : "07046c977985a3334667f19e6ab3a01a80862afb"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.25.8",
+      "gitHead" : "8c71947edbe5a158fec3a6d1cbfea1e8d5cdee70",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.25.8_1752953056004_0.8572214325711129",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.17.19" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.19",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.19.tgz",
+        "shasum" : "722eaf057b83c2575937d3ffe5aeb16540da7273"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.19",
+      "gitHead" : "d47ab43980c457db27d2671ab618cd5c40a618a7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.19_1683936375669_0.9756244418818607",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.25.9" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.25.9.tgz",
+        "shasum" : "69b99a9b5bd226c9eb9c6a73f990fddd497d732e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.25.9",
+      "gitHead" : "195e05c16f03a341390feef38b8ebf17d3075e14",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.25.9_1755041216708_0.3836690250785211",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.17.17" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.17.tgz",
+        "shasum" : "10603474866f64986c0370a2d4fe5a2bb7fee4f5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.17",
+      "gitHead" : "0776a4be2bb80980482b123a9a05dbf55cc35683",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.17_1681680202067_0.30075180876124175",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.18" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.18.tgz",
+        "shasum" : "ecad0736aa7dae07901ba273db9ef3d3e93df31f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.18",
+      "gitHead" : "ee646b4ed8d3b9567e1a0ce2e478241b68a2a2e4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.18_1682196071528_0.6684294759823632",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.21.1" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.21.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.21.1.tgz",
+        "shasum" : "f53cb1cdcbf05b3320e147ddb85ec2b1cf2b6cfc"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.21.1",
+      "gitHead" : "e87639417e47ba5db160f105785dc10bde0999cf",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.21.1_1715100879625_0.22273189467314736",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.21.2" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.21.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.21.2.tgz",
+        "shasum" : "fc7dd917ffcb2ebab4f22728a23ece3dd36c2979"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.21.2",
+      "gitHead" : "b24180e4fbd07504e91cb922948870d5467072e0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.21.2_1715545963542_0.8178303393994748",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.21.3" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.21.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.21.3.tgz",
+        "shasum" : "a1f7f98b85bd221fe0f545d01abc0e6123ae60dc"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.21.3",
+      "gitHead" : "efa3dd2d8e895f7f9a9bef0d588560bbae7d776e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.21.3_1715806335599_0.17695015573333883",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.21.4" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.21.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.21.4.tgz",
+        "shasum" : "8d838a8ac80e211536490108b72fb0091a811626"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.21.4",
+      "gitHead" : "67cbf87a4909d87a902ca8c3b69ab5330defab0a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.21.4_1716603038442_0.568434892658022",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.25.0" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.25.0.tgz",
+        "shasum" : "86ff9075d77962b60dd26203d7352f92684c8c92"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.25.0",
+      "gitHead" : "e9174d671b1882758cd32ac5e146200f5bee3e45",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.25.0_1738983779351_0.9151934836874591",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.21.5" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.21.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.21.5.tgz",
+        "shasum" : "08741512c10d529566baba837b4fe052c8f3487b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.21.5",
+      "gitHead" : "fc37c2fa9de2ad77476a6d4a8f1516196b90187e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.21.5_1717967803949_0.24702344088270367",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "0.25.1" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.25.1.tgz",
+        "shasum" : "89aac24a4b4115959b3f790192cf130396696c27"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.25.1",
+      "gitHead" : "6bfc1c13b4d986b86e8bc2035f00c337b0c1d007",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.25.1_1741578373546_0.5102427965246954",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.2" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.25.2.tgz",
+        "shasum" : "49b437ed63fe333b92137b7a0c65a65852031afb"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.25.2",
+      "gitHead" : "4475787eef4c4923b92b9fa37ebba1c88b9e1d9b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.25.2_1743356022323_0.004430748671030882",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.3" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.25.3.tgz",
+        "shasum" : "03765eb6d4214ff27e5230af779e80790d1ee09f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.25.3",
+      "gitHead" : "677910b073194b64d5ae01aefd7a7465bbf5b27b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.25.3_1745380627054_0.3732236228899568",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.25.4" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.25.4.tgz",
+        "shasum" : "cd596fa65a67b3b7adc5ecd52d9f5733832e1abd"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.25.4",
+      "gitHead" : "218d29e9da018d60cf87b8fb496bb8167936ff54",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.25.4_1746491489248_0.3300985225473825",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.17.15" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.15.tgz",
+        "shasum" : "6694ebe4e16e5cd7dab6505ff7c28f9c1c695ce5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.15",
+      "gitHead" : "ef912892181e27386205d110c622c55c4c1df856",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.15_1680387993025_0.6750753570552399",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.16" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.16.tgz",
+        "shasum" : "16338ecab854cb2d831cc9ee9cc21ef69566e1f3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.16",
+      "gitHead" : "f0704baa38ef9a808b7e34cac75aa4ac285bb087",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.16_1681101287421_0.9117500954752624",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.13" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.13.tgz",
+        "shasum" : "716382743f17c080b17a782346c33c976e10345e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.13",
+      "gitHead" : "8dbb85531a9971058f4d8739cb52e98fa43b40a1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.13_1679684212316_0.7567637110470506",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.14" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.14.tgz",
+        "shasum" : "5c7d1c7203781d86c2a9b2ff77bd2f8036d24cfa"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.14",
+      "gitHead" : "b2b897870564a6b8e8bc802a140c55bf602de31b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.14_1679798846041_0.42282011073471093",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.11" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.11.tgz",
+        "shasum" : "2ea47fb592e68406e5025a7696dc714fc6a115dc"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.11",
+      "gitHead" : "38cfd53020d9e0454bae0956e549546c55a66aed",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.11_1677883193959_0.15995276445150663",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.12" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.12.tgz",
+        "shasum" : "cf3862521600e4eb6c440ec3bad31ed40fb87ef3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.12",
+      "gitHead" : "495216dbea685cd0e10172a866eeb8ca4764a0bf",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.12_1679033770311_0.9336618927769262",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.10" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.10.tgz",
+        "shasum" : "8deabd6dfec6256f80bb101bc59d29dbae99c69b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.10",
+      "gitHead" : "996d400a7ab25b67b80122e2d4a8515575918e79",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.10_1676915680644_0.5747526531326528",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.1" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.1.tgz",
+        "shasum" : "c9fa2ff0ff368092c82c6e5dc133882b43f96568"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.1",
+      "gitHead" : "002ef9522a4103132cefb075aee3e09b0e4fa3f1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.1_1673892322473_0.35637097109118643",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.0" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.0.tgz",
+        "shasum" : "4a77dbf1691ce2fd9aba69f58248d46f3e28f98b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.0",
+      "gitHead" : "2a18b3d6ab3d1003afbcfcb4a6ffca61e04fcb57",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.0_1673670805083_0.4728561400202107",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.9" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.9.tgz",
+        "shasum" : "fa0e4b67b6213423c7a57f2d4ecec19c6f4c3012"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.9",
+      "gitHead" : "3765e880ed0a55b8e62bfa17b7e004e656eaf914",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.9_1676828707241_0.7030239996729026",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.8" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.8.tgz",
+        "shasum" : "2cfb8126e079b2c00fd1bf095541e9f5c47877e4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.8",
+      "gitHead" : "5e0b1cd2ce6297cf31b132e413134ffe2576c668",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.8_1676270130179_0.19189562731889653",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.7" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.7.tgz",
+        "shasum" : "ef97445672deec50e3b3549af2ee6d42fbc04250"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.7",
+      "gitHead" : "e345b13687bc3ac86f18f4a266a162653544ad31",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.7_1675981591695_0.8595871420154402",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.6" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.6.tgz",
+        "shasum" : "a6838e246079b24d962b9dcb8d208a3785210a73"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.6",
+      "gitHead" : "e1143a75dd5e7d9fb8591096edfa123f6eedbe44",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.6_1675702830286_0.979344816792338",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.5" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.5.tgz",
+        "shasum" : "b83c080a2147662599a5d18b2ff47f07c93e03a0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.5",
+      "gitHead" : "a8b660d85a0a57087a0f188857519f194f52b84c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.5_1674837450807_0.8997450728948964",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.4" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.4.tgz",
+        "shasum" : "4c6d2290f8bf39ab9284f5a1b9a2210858e2d6e6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.4",
+      "gitHead" : "3c83a84d01e22664923b543998b5c03c0c5d8654",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.4_1674368006906_0.5397854286538342",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.3" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.3.tgz",
+        "shasum" : "f1385b092000c662d360775f3fad80943d2169c4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.3",
+      "gitHead" : "acc5becf4d4e81473761091fc340efe16325da4a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.3_1674069250712_0.10066492773003155",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.25.11" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.25.11.tgz",
+        "shasum" : "9fbea1febe8778927804828883ec0f6dd80eb244"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.25.11",
+      "gitHead" : "6b7c4f2dcbcaa1238bca0f7a4a1d95918296c82e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/sunos-x64_0.25.11_1760494403745_0.06229112742900944"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.17.2" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.17.2.tgz",
+        "shasum" : "c45c5b6fa406af451e3ebe2ba610bfaad106d20b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.17.2",
+      "gitHead" : "a98870a2fa9f7af7024be24cb6833e638aa71da3",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.17.2_1673937570163_0.33496916152828526",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.25.10" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.25.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.25.10.tgz",
+        "shasum" : "3a18f590e36cb78ae7397976b760b2b8c74407f4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.25.10",
+      "gitHead" : "d6b668f96fb00d6a6d035f058e38b6bd2507beb6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.25.10_1758125949772_0.5350804595198104",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.14.0"
+    },
+    "0.20.0" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.20.0.tgz",
+        "shasum" : "ea4cd0639bf294ad51bc08ffbb2dac297e9b4706"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.20.0",
+      "gitHead" : "2af5ccf478812d2d7226ad4435d46fbbb3419a8c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.20.0_1706374155435_0.8135516518889183",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.20.1" : {
+      "name" : "@esbuild/sunos-x64",
+      "description" : "The illumos 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "url" : "git+https://github.com/evanw/esbuild.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@esbuild/sunos-x64/-/sunos-x64-0.20.1.tgz",
+        "shasum" : "402a441cdac2eee98d8be378c7bc23e00c1861c5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "os" : [ "sunos" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/sunos-x64@0.20.1",
+      "gitHead" : "9f9e4f85e6e28a58727531458663afd157b8b415",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sunos-x64_0.20.1_1708324665123_0.0300732344202157",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    }
+  },
+  "readme" : "# esbuild\n\nThis is the illumos 64-bit binary for esbuild, a JavaScript bundler and minifier. See https://github.com/evanw/esbuild for details.\n",
+  "maintainers" : [ {
+    "name" : "evanw",
+    "email" : "evan.exe@gmail.com"
+  }, {
+    "name" : "esbuild",
+    "email" : "evan.exe+esbuild@gmail.com"
+  } ],
+  "time" : {
+    "0.20.2" : "2024-03-14T19:49:22.932Z",
+    "0.24.0" : "2024-09-22T02:07:00.724Z",
+    "0.24.1" : "2024-12-20T05:42:14.265Z",
+    "0.24.2" : "2024-12-20T17:57:34.319Z",
+    "0.19.10" : "2023-12-19T00:21:13.898Z",
+    "0.19.12" : "2024-01-23T17:39:56.847Z",
+    "0.19.11" : "2023-12-29T20:31:36.214Z",
+    "0.16.2" : "2022-12-08T06:59:33.817Z",
+    "0.16.1" : "2022-12-07T04:47:58.219Z",
+    "0.16.0" : "2022-12-07T03:54:45.317Z",
+    "0.16.17" : "2023-01-11T21:57:44.121Z",
+    "0.16.16" : "2023-01-08T22:43:37.724Z",
+    "0.16.9" : "2022-12-18T04:31:08.069Z",
+    "0.16.8" : "2022-12-16T23:38:20.821Z",
+    "0.16.7" : "2022-12-14T22:46:43.724Z",
+    "0.16.6" : "2022-12-14T05:22:58.827Z",
+    "0.16.5" : "2022-12-13T17:47:28.822Z",
+    "0.16.4" : "2022-12-10T03:50:16.518Z",
+    "0.16.3" : "2022-12-08T20:12:34.416Z",
+    "0.16.13" : "2023-01-02T22:57:08.592Z",
+    "0.16.12" : "2022-12-28T02:04:32.416Z",
+    "0.16.15" : "2023-01-07T04:18:23.238Z",
+    "0.16.14" : "2023-01-04T20:12:42.863Z",
+    "0.16.11" : "2022-12-27T01:38:48.505Z",
+    "0.16.10" : "2022-12-19T23:26:16.244Z",
+    "0.23.0" : "2024-07-02T03:34:19.896Z",
+    "0.23.1" : "2024-08-16T22:13:53.720Z",
+    "0.18.20" : "2023-08-08T04:14:38.788Z",
+    "0.18.18" : "2023-08-05T17:06:15.545Z",
+    "0.18.19" : "2023-08-07T02:51:03.766Z",
+    "0.19.7" : "2023-11-21T01:00:34.401Z",
+    "0.19.6" : "2023-11-19T07:11:17.797Z",
+    "0.19.5" : "2023-10-17T05:10:19.385Z",
+    "0.19.4" : "2023-09-28T01:46:31.884Z",
+    "0.19.3" : "2023-09-14T01:12:10.058Z",
+    "0.19.2" : "2023-08-14T01:58:07.606Z",
+    "0.19.1" : "2023-08-11T15:57:15.308Z",
+    "0.19.0" : "2023-08-08T15:51:10.092Z",
+    "0.19.9" : "2023-12-10T05:09:11.185Z",
+    "0.19.8" : "2023-11-26T23:07:40.191Z",
+    "0.18.16" : "2023-07-23T04:47:47.182Z",
+    "0.18.17" : "2023-07-26T01:40:40.529Z",
+    "0.18.14" : "2023-07-18T05:00:05.358Z",
+    "0.18.15" : "2023-07-20T12:53:01.756Z",
+    "0.18.12" : "2023-07-13T01:33:49.264Z",
+    "0.18.13" : "2023-07-15T02:36:59.309Z",
+    "0.18.10" : "2023-06-26T21:20:15.710Z",
+    "0.18.11" : "2023-07-01T06:03:41.159Z",
+    "0.15.18" : "2022-12-05T23:58:00.625Z",
+    "0.22.0" : "2024-06-30T20:38:26.319Z",
+    "modified" : "2025-10-15T02:13:24.198Z",
+    "0.18.0" : "2023-06-09T21:24:08.436Z",
+    "created" : "2022-12-05T23:58:00.183Z",
+    "0.18.8" : "2023-06-25T03:18:56.382Z",
+    "0.18.7" : "2023-06-24T02:46:12.885Z",
+    "0.18.6" : "2023-06-20T23:24:40.437Z",
+    "0.18.5" : "2023-06-20T00:52:20.840Z",
+    "0.18.4" : "2023-06-16T15:37:39.774Z",
+    "0.18.3" : "2023-06-15T12:20:39.030Z",
+    "0.18.2" : "2023-06-13T02:40:11.934Z",
+    "0.18.1" : "2023-06-12T04:51:34.161Z",
+    "0.18.9" : "2023-06-26T05:27:40.363Z",
+    "0.21.0" : "2024-05-07T02:52:10.446Z",
+    "0.25.5" : "2025-05-27T03:13:40.366Z",
+    "0.25.6" : "2025-07-07T16:59:52.913Z",
+    "0.25.7" : "2025-07-18T22:51:28.052Z",
+    "0.25.8" : "2025-07-19T19:24:16.253Z",
+    "0.17.19" : "2023-05-13T00:06:15.917Z",
+    "0.25.9" : "2025-08-12T23:26:57.256Z",
+    "0.17.17" : "2023-04-16T21:23:22.312Z",
+    "0.17.18" : "2023-04-22T20:41:11.824Z",
+    "0.21.1" : "2024-05-07T16:54:39.832Z",
+    "0.21.2" : "2024-05-12T20:32:43.757Z",
+    "0.21.3" : "2024-05-15T20:52:15.891Z",
+    "0.21.4" : "2024-05-25T02:10:38.659Z",
+    "0.25.0" : "2025-02-08T03:02:59.573Z",
+    "0.21.5" : "2024-06-09T21:16:44.204Z",
+    "0.25.1" : "2025-03-10T03:46:13.815Z",
+    "0.25.2" : "2025-03-30T17:33:42.587Z",
+    "0.25.3" : "2025-04-23T03:57:07.256Z",
+    "0.25.4" : "2025-05-06T00:31:29.640Z",
+    "0.17.15" : "2023-04-01T22:26:33.347Z",
+    "0.17.16" : "2023-04-10T04:34:47.684Z",
+    "0.17.13" : "2023-03-24T18:56:52.639Z",
+    "0.17.14" : "2023-03-26T02:47:26.273Z",
+    "0.17.11" : "2023-03-03T22:39:54.208Z",
+    "0.17.12" : "2023-03-17T06:16:10.611Z",
+    "0.17.10" : "2023-02-20T17:54:40.929Z",
+    "0.17.1" : "2023-01-16T18:05:22.719Z",
+    "0.17.0" : "2023-01-14T04:33:25.375Z",
+    "0.17.9" : "2023-02-19T17:45:07.465Z",
+    "0.17.8" : "2023-02-13T06:35:30.456Z",
+    "0.17.7" : "2023-02-09T22:26:32.028Z",
+    "0.17.6" : "2023-02-06T17:00:30.542Z",
+    "0.17.5" : "2023-01-27T16:37:31.070Z",
+    "0.17.4" : "2023-01-22T06:13:27.164Z",
+    "0.17.3" : "2023-01-18T19:14:10.996Z",
+    "0.25.11" : "2025-10-15T02:13:24.002Z",
+    "0.17.2" : "2023-01-17T06:39:30.439Z",
+    "0.25.10" : "2025-09-17T16:19:09.997Z",
+    "0.20.0" : "2024-01-27T16:49:15.690Z",
+    "0.20.1" : "2024-02-19T06:37:45.395Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/evanw/esbuild.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/evanw/esbuild#readme",
+  "bugs" : {
+    "url" : "https://github.com/evanw/esbuild/issues"
+  },
+  "license" : "MIT"
+}

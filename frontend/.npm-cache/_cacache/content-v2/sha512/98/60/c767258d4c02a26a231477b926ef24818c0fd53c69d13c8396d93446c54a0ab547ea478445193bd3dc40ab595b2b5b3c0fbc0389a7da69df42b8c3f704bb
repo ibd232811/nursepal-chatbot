@@ -1,0 +1,1074 @@
+{
+  "_id" : "is-glob",
+  "_rev" : "41-c94270ad642115ef42f35b1479541b4a",
+  "name" : "is-glob",
+  "description" : "Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a bet",
+  "dist-tags" : {
+    "latest" : "4.0.3"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "is-glob",
+      "description" : "Returns `true` if the given string looks like a glob pattern.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/is-glob",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jonschlinkert/is-glob"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/is-glob/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/is-glob/-/is-glob-2.0.0.tgz",
+        "shasum" : "97fcea442d4cb45cfa79e7447b78cf1d48eee4f5"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "bash", "braces", "check", "exec", "extglob", "expression", "glob", "globbing", "globstar", "match", "matches", "pattern", "regex", "regular", "string", "test" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "is-glob@2.0.0",
+      "gitHead" : "722a6e9f14cb370aa8cc5976d1319bc5ce8dfdfe",
+      "_shasum" : "97fcea442d4cb45cfa79e7447b78cf1d48eee4f5",
+      "_nodeVersion" : "0.12.0"
+    },
+    "2.0.1" : {
+      "name" : "is-glob",
+      "description" : "Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a bet",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/is-glob",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/is-glob.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/is-glob/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/is-glob/-/is-glob-2.0.1.tgz",
+        "shasum" : "d096f926a3ded5600f3fdfd91198cb0888c2d863"
+      },
+      "dependencies" : {
+        "is-extglob" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "bash", "braces", "check", "exec", "extglob", "expression", "glob", "globbing", "globstar", "match", "matches", "pattern", "regex", "regular", "string", "test" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "is-glob@2.0.1",
+      "gitHead" : "d7db1b2dd559b3d5a73f89dbe72d9e9f4d6587d7",
+      "verb" : {
+        "related" : {
+          "list" : [ "has-glob", "is-extglob", "is-posix-bracket", "is-valid-glob", "micromatch" ]
+        }
+      },
+      "_shasum" : "d096f926a3ded5600f3fdfd91198cb0888c2d863",
+      "_nodeVersion" : "0.12.4"
+    },
+    "4.0.2" : {
+      "name" : "is-glob",
+      "description" : "Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a bet",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/is-glob",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/micromatch/is-glob.git"
+      },
+      "contributors" : [ {
+        "name" : "Brian Woodward",
+        "url" : "https://twitter.com/doowb"
+      }, {
+        "name" : "Daniel Perez",
+        "url" : "https://tuvistavie.com"
+      }, {
+        "name" : "Jon Schlinkert",
+        "url" : "http://twitter.com/jonschlinkert"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/micromatch/is-glob/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/is-glob/-/is-glob-4.0.2.tgz",
+        "shasum" : "859fc2e731e58c902f99fcabccb75a7dd07d29d8"
+      },
+      "dependencies" : {
+        "is-extglob" : "^2.1.1"
+      },
+      "devDependencies" : {
+        "gulp-format-md" : "^0.1.10",
+        "mocha" : "^3.0.2"
+      },
+      "keywords" : [ "bash", "braces", "check", "exec", "expression", "extglob", "glob", "globbing", "globstar", "is", "match", "matches", "pattern", "regex", "regular", "string", "test" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_npmVersion" : "7.21.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "is-glob@4.0.2",
+      "gitHead" : "7a612a300ac87724ce3cc036aff60b2a8c8130a0",
+      "verb" : {
+        "layout" : "default",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "assemble", "base", "update", "verb" ]
+        },
+        "reflinks" : [ "assemble", "bach", "base", "composer", "gulp", "has-glob", "is-valid-glob", "micromatch", "npm", "scaffold", "verb", "vinyl" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-glob_4.0.2_1632695857500_0.3544434838902879"
+      },
+      "_nodeVersion" : "16.9.1"
+    },
+    "4.0.3" : {
+      "name" : "is-glob",
+      "description" : "Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a bet",
+      "version" : "4.0.3",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/is-glob",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/micromatch/is-glob.git"
+      },
+      "contributors" : [ {
+        "name" : "Brian Woodward",
+        "url" : "https://twitter.com/doowb"
+      }, {
+        "name" : "Daniel Perez",
+        "url" : "https://tuvistavie.com"
+      }, {
+        "name" : "Jon Schlinkert",
+        "url" : "http://twitter.com/jonschlinkert"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/micromatch/is-glob/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/is-glob/-/is-glob-4.0.3.tgz",
+        "shasum" : "64f61e42cbbb2eec2071a9dac0b28ba1e65d5084"
+      },
+      "dependencies" : {
+        "is-extglob" : "^2.1.1"
+      },
+      "devDependencies" : {
+        "gulp-format-md" : "^0.1.10",
+        "mocha" : "^3.0.2"
+      },
+      "keywords" : [ "bash", "braces", "check", "exec", "expression", "extglob", "glob", "globbing", "globstar", "is", "match", "matches", "pattern", "regex", "regular", "string", "test" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha && node benchmark.js"
+      },
+      "_npmVersion" : "7.24.1",
+      "_npmUser" : {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      },
+      "_id" : "is-glob@4.0.3",
+      "gitHead" : "627ca7e552c69e8d62d620b4715a2658267b3d17",
+      "verb" : {
+        "layout" : "default",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "assemble", "base", "update", "verb" ]
+        },
+        "reflinks" : [ "assemble", "bach", "base", "composer", "gulp", "has-glob", "is-valid-glob", "micromatch", "npm", "scaffold", "verb", "vinyl" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-glob_4.0.3_1632934367848_0.19558596932963068"
+      },
+      "_nodeVersion" : "14.18.0"
+    },
+    "4.0.0" : {
+      "name" : "is-glob",
+      "description" : "Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a bet",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/is-glob",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/is-glob.git"
+      },
+      "contributors" : [ {
+        "name" : "Brian Woodward",
+        "url" : "https://twitter.com/doowb"
+      }, {
+        "name" : "Daniel Perez",
+        "url" : "https://tuvistavie.com"
+      }, {
+        "name" : "Jon Schlinkert",
+        "url" : "http://twitter.com/jonschlinkert"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/is-glob/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/is-glob/-/is-glob-4.0.0.tgz",
+        "shasum" : "9521c76845cc2610a85203ddf080a958c2ffabc0"
+      },
+      "dependencies" : {
+        "is-extglob" : "^2.1.1"
+      },
+      "devDependencies" : {
+        "gulp-format-md" : "^0.1.10",
+        "mocha" : "^3.0.2"
+      },
+      "keywords" : [ "bash", "braces", "check", "exec", "expression", "extglob", "glob", "globbing", "globstar", "is", "match", "matches", "pattern", "regex", "regular", "string", "test" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.6.1",
+      "_npmUser" : {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      },
+      "_id" : "is-glob@4.0.0",
+      "gitHead" : "490b1a22f7a0d054d5fa3485160d331a705ef152",
+      "verb" : {
+        "layout" : "default",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "assemble", "base", "update", "verb" ]
+        },
+        "reflinks" : [ "assemble", "bach", "base", "composer", "gulp", "has-glob", "is-valid-glob", "micromatch", "npm", "scaffold", "verb", "vinyl" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-glob-4.0.0.tgz_1502139259462_0.8305888224858791"
+      },
+      "_shasum" : "9521c76845cc2610a85203ddf080a958c2ffabc0",
+      "_nodeVersion" : "6.10.1"
+    },
+    "4.0.1" : {
+      "name" : "is-glob",
+      "description" : "Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a bet",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/is-glob",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/micromatch/is-glob.git"
+      },
+      "contributors" : [ {
+        "name" : "Brian Woodward",
+        "url" : "https://twitter.com/doowb"
+      }, {
+        "name" : "Daniel Perez",
+        "url" : "https://tuvistavie.com"
+      }, {
+        "name" : "Jon Schlinkert",
+        "url" : "http://twitter.com/jonschlinkert"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/micromatch/is-glob/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/is-glob/-/is-glob-4.0.1.tgz",
+        "shasum" : "7567dbe9f2f5e2467bc77ab83c4a29482407a5dc"
+      },
+      "dependencies" : {
+        "is-extglob" : "^2.1.1"
+      },
+      "devDependencies" : {
+        "gulp-format-md" : "^0.1.10",
+        "mocha" : "^3.0.2"
+      },
+      "keywords" : [ "bash", "braces", "check", "exec", "expression", "extglob", "glob", "globbing", "globstar", "is", "match", "matches", "pattern", "regex", "regular", "string", "test" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "brian.woodward@gmail.com",
+        "name" : "doowb"
+      }, {
+        "email" : "github@sellside.com",
+        "name" : "jonschlinkert"
+      }, {
+        "email" : "blaine.bublitz@gmail.com",
+        "name" : "phated"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      },
+      "_id" : "is-glob@4.0.1",
+      "gitHead" : "4ac6a0cb019fa39141457946c2d455f281f73659",
+      "verb" : {
+        "layout" : "default",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "assemble", "base", "update", "verb" ]
+        },
+        "reflinks" : [ "assemble", "bach", "base", "composer", "gulp", "has-glob", "is-valid-glob", "micromatch", "npm", "scaffold", "verb", "vinyl" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-glob_4.0.1_1553725595739_0.7795574194293109"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "0.2.0" : {
+      "name" : "is-glob",
+      "description" : "Returns `true` if the given string looks like a glob pattern.",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/is-glob",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jonschlinkert/is-glob.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/is-glob/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/is-glob/-/is-glob-0.2.0.tgz",
+        "shasum" : "96c0f79ac570ac428ae1460f97dd63a55d8b43d4"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "exec", "expression", "glob", "match", "matches", "pattern", "re", "regex", "regular", "string", "test" ],
+      "license" : {
+        "type" : "MIT",
+        "url" : "https://github.com/jonschlinkert/is-glob/blob/master/LICENSE-MIT"
+      },
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "is-glob@0.2.0",
+      "gitHead" : "fa474583adbc4c16bd7508d54a5d23627ef7a8d6",
+      "_shasum" : "96c0f79ac570ac428ae1460f97dd63a55d8b43d4"
+    },
+    "0.3.0" : {
+      "name" : "is-glob",
+      "description" : "Returns `true` if the given string looks like a glob pattern.",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/is-glob",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jonschlinkert/is-glob.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/is-glob/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/is-glob/-/is-glob-0.3.0.tgz",
+        "shasum" : "36f358abccfb33836406c44075b121a58736a382"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "exec", "expression", "glob", "match", "matches", "pattern", "re", "regex", "regular", "string", "test" ],
+      "license" : {
+        "type" : "MIT",
+        "url" : "https://github.com/jonschlinkert/is-glob/blob/master/LICENSE-MIT"
+      },
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "is-glob@0.3.0",
+      "gitHead" : "1a9b2d4dacc0057fdce173eaf344d1cb72583fc6",
+      "_shasum" : "36f358abccfb33836406c44075b121a58736a382"
+    },
+    "0.1.0" : {
+      "name" : "is-glob",
+      "description" : "Returns `true` if the given string looks like a glob pattern.",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/is-glob",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jonschlinkert/is-glob.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/is-glob/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/is-glob/-/is-glob-0.1.0.tgz",
+        "shasum" : "d93dae5cf98c8c26bbedd591eee9dfb791be8bf6"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "exec", "expression", "glob", "match", "matches", "pattern", "re", "regex", "regular", "string", "test" ],
+      "license" : {
+        "type" : "MIT",
+        "url" : "https://github.com/jonschlinkert/is-glob/blob/master/LICENSE-MIT"
+      },
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "is-glob@0.1.0",
+      "_shasum" : "d93dae5cf98c8c26bbedd591eee9dfb791be8bf6"
+    },
+    "1.1.2" : {
+      "name" : "is-glob",
+      "description" : "Returns `true` if the given string looks like a glob pattern.",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/is-glob",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jonschlinkert/is-glob"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/is-glob/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/is-glob/-/is-glob-1.1.2.tgz",
+        "shasum" : "2d3ea960a5af26ab6d136adb5dc8d6f99e4dc0f6"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "bash", "braces", "check", "exec", "extglob", "expression", "glob", "globbing", "globstar", "match", "matches", "pattern", "regex", "regular", "string", "test" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "is-glob@1.1.2",
+      "gitHead" : "dbfdb6a271cc0fc46168d23dc0603739ff287e01",
+      "_shasum" : "2d3ea960a5af26ab6d136adb5dc8d6f99e4dc0f6",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.1.3" : {
+      "name" : "is-glob",
+      "description" : "Returns `true` if the given string looks like a glob pattern.",
+      "version" : "1.1.3",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/is-glob",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jonschlinkert/is-glob"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/is-glob/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/is-glob/-/is-glob-1.1.3.tgz",
+        "shasum" : "b4c64b8303d39114492a460d364ccfb0d3c0a045"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "bash", "braces", "check", "exec", "extglob", "expression", "glob", "globbing", "globstar", "match", "matches", "pattern", "regex", "regular", "string", "test" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "is-glob@1.1.3",
+      "gitHead" : "dbfdb6a271cc0fc46168d23dc0603739ff287e01",
+      "_shasum" : "b4c64b8303d39114492a460d364ccfb0d3c0a045",
+      "_nodeVersion" : "0.12.0"
+    },
+    "3.0.0" : {
+      "name" : "is-glob",
+      "description" : "Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a bet",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/is-glob",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/is-glob.git"
+      },
+      "contributors" : [ {
+        "name" : "Daniel Perez",
+        "email" : "daniel@claudetech.com",
+        "url" : "http://tuvistavie.com"
+      }, {
+        "name" : "Jon Schlinkert",
+        "email" : "jon.schlinkert@sellside.com",
+        "url" : "http://twitter.com/jonschlinkert"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/is-glob/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/is-glob/-/is-glob-3.0.0.tgz",
+        "shasum" : "e433c222db9d77844084d72db1eff047845985c1"
+      },
+      "dependencies" : {
+        "is-extglob" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "gulp-format-md" : "^0.1.10",
+        "mocha" : "^3.0.2"
+      },
+      "keywords" : [ "bash", "braces", "check", "exec", "expression", "extglob", "glob", "globbing", "globstar", "is", "match", "matches", "pattern", "regex", "regular", "string", "test" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE", "README.md" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "is-glob@3.0.0",
+      "gitHead" : "57657ef7749e447571b01ea6b068e8288ed539a4",
+      "verb" : {
+        "layout" : "default",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "assemble", "base", "update", "verb" ]
+        },
+        "reflinks" : [ "assemble", "bach", "base", "composer", "gulp", "has-glob", "is-valid-glob", "micromatch", "npm", "scaffold", "verb", "vinyl" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/is-glob-3.0.0.tgz_1472932646404_0.7158155627548695"
+      },
+      "_shasum" : "e433c222db9d77844084d72db1eff047845985c1",
+      "_nodeVersion" : "6.3.0"
+    },
+    "3.1.0" : {
+      "name" : "is-glob",
+      "description" : "Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a bet",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/is-glob",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/is-glob.git"
+      },
+      "contributors" : [ {
+        "name" : "Daniel Perez",
+        "email" : "daniel@claudetech.com",
+        "url" : "http://tuvistavie.com"
+      }, {
+        "name" : "Jon Schlinkert",
+        "email" : "jon.schlinkert@sellside.com",
+        "url" : "http://twitter.com/jonschlinkert"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/is-glob/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/is-glob/-/is-glob-3.1.0.tgz",
+        "shasum" : "7ba5ae24217804ac70707b96922567486cc3e84a"
+      },
+      "dependencies" : {
+        "is-extglob" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "gulp-format-md" : "^0.1.10",
+        "mocha" : "^3.0.2"
+      },
+      "keywords" : [ "bash", "braces", "check", "exec", "expression", "extglob", "glob", "globbing", "globstar", "is", "match", "matches", "pattern", "regex", "regular", "string", "test" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "is-glob@3.1.0",
+      "gitHead" : "4537576b5747e03db2f78235c98ec27755ace63c",
+      "verb" : {
+        "layout" : "default",
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "assemble", "base", "update", "verb" ]
+        },
+        "reflinks" : [ "assemble", "bach", "base", "composer", "gulp", "has-glob", "is-valid-glob", "micromatch", "npm", "scaffold", "verb", "vinyl" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/is-glob-3.1.0.tgz_1476311825972_0.002021018648520112"
+      },
+      "_shasum" : "7ba5ae24217804ac70707b96922567486cc3e84a",
+      "_nodeVersion" : "6.7.0"
+    },
+    "1.0.0" : {
+      "name" : "is-glob",
+      "description" : "Returns `true` if the given string looks like a glob pattern.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/is-glob",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jonschlinkert/is-glob.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/is-glob/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/is-glob/-/is-glob-1.0.0.tgz",
+        "shasum" : "50c5011672a505b1c772bc02cccc078110e47da9"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "exec", "expression", "glob", "match", "matches", "pattern", "re", "regex", "regular", "string", "test" ],
+      "license" : {
+        "type" : "MIT",
+        "url" : "https://github.com/jonschlinkert/is-glob/blob/master/LICENSE"
+      },
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "is-glob@1.0.0",
+      "gitHead" : "d068608972a863d853dee5e75c73b95838e301e4",
+      "_shasum" : "50c5011672a505b1c772bc02cccc078110e47da9"
+    },
+    "1.1.0" : {
+      "name" : "is-glob",
+      "description" : "Returns `true` if the given string looks like a glob pattern.",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/is-glob",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jonschlinkert/is-glob.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/is-glob/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/is-glob/-/is-glob-1.1.0.tgz",
+        "shasum" : "e1970788df44c826dbdf8a79b4cf4e951219bd63"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "bash", "braces", "check", "exec", "expression", "glob", "globstar", "match", "matches", "pattern", "regex", "regular", "string", "test" ],
+      "license" : {
+        "type" : "MIT",
+        "url" : "https://github.com/jonschlinkert/is-glob/blob/master/LICENSE"
+      },
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "is-glob@1.1.0",
+      "gitHead" : "01054073f4326c63afe61d84b75aee6914e03546",
+      "_shasum" : "e1970788df44c826dbdf8a79b4cf4e951219bd63"
+    },
+    "1.1.1" : {
+      "name" : "is-glob",
+      "description" : "Returns `true` if the given string looks like a glob pattern.",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/is-glob",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jonschlinkert/is-glob"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/is-glob/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/is-glob/-/is-glob-1.1.1.tgz",
+        "shasum" : "06801ba469d88bc46778ef1aa8e265f6acda9856"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "bash", "braces", "check", "exec", "extglob", "expression", "glob", "globbing", "globstar", "match", "matches", "pattern", "regex", "regular", "string", "test" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "is-glob@1.1.1",
+      "gitHead" : "f3527a1072e036d007ac3f971d79bcc2f83c36f3",
+      "_shasum" : "06801ba469d88bc46778ef1aa8e265f6acda9856",
+      "_nodeVersion" : "0.12.0"
+    }
+  },
+  "readme" : "# is-glob [![NPM version](https://img.shields.io/npm/v/is-glob.svg?style=flat)](https://www.npmjs.com/package/is-glob) [![NPM monthly downloads](https://img.shields.io/npm/dm/is-glob.svg?style=flat)](https://npmjs.org/package/is-glob) [![NPM total downloads](https://img.shields.io/npm/dt/is-glob.svg?style=flat)](https://npmjs.org/package/is-glob) [![Build Status](https://img.shields.io/github/workflow/status/micromatch/is-glob/dev)](https://github.com/micromatch/is-glob/actions)\n\n> Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience.\n\nPlease consider following this project's author, [Jon Schlinkert](https://github.com/jonschlinkert), and consider starring the project to show your :heart: and support.\n\n## Install\n\nInstall with [npm](https://www.npmjs.com/):\n\n```sh\n$ npm install --save is-glob\n```\n\nYou might also be interested in [is-valid-glob](https://github.com/jonschlinkert/is-valid-glob) and [has-glob](https://github.com/jonschlinkert/has-glob).\n\n## Usage\n\n```js\nvar isGlob = require('is-glob');\n```\n\n### Default behavior\n\n**True**\n\nPatterns that have glob characters or regex patterns will return `true`:\n\n```js\nisGlob('!foo.js');\nisGlob('*.js');\nisGlob('**/abc.js');\nisGlob('abc/*.js');\nisGlob('abc/(aaa|bbb).js');\nisGlob('abc/[a-z].js');\nisGlob('abc/{a,b}.js');\n//=> true\n```\n\nExtglobs\n\n```js\nisGlob('abc/@(a).js');\nisGlob('abc/!(a).js');\nisGlob('abc/+(a).js');\nisGlob('abc/*(a).js');\nisGlob('abc/?(a).js');\n//=> true\n```\n\n**False**\n\nEscaped globs or extglobs return `false`:\n\n```js\nisGlob('abc/\\\\@(a).js');\nisGlob('abc/\\\\!(a).js');\nisGlob('abc/\\\\+(a).js');\nisGlob('abc/\\\\*(a).js');\nisGlob('abc/\\\\?(a).js');\nisGlob('\\\\!foo.js');\nisGlob('\\\\*.js');\nisGlob('\\\\*\\\\*/abc.js');\nisGlob('abc/\\\\*.js');\nisGlob('abc/\\\\(aaa|bbb).js');\nisGlob('abc/\\\\[a-z].js');\nisGlob('abc/\\\\{a,b}.js');\n//=> false\n```\n\nPatterns that do not have glob patterns return `false`:\n\n```js\nisGlob('abc.js');\nisGlob('abc/def/ghi.js');\nisGlob('foo.js');\nisGlob('abc/@.js');\nisGlob('abc/+.js');\nisGlob('abc/?.js');\nisGlob();\nisGlob(null);\n//=> false\n```\n\nArrays are also `false` (If you want to check if an array has a glob pattern, use [has-glob](https://github.com/jonschlinkert/has-glob)):\n\n```js\nisGlob(['**/*.js']);\nisGlob(['foo.js']);\n//=> false\n```\n\n### Option strict\n\nWhen `options.strict === false` the behavior is less strict in determining if a pattern is a glob. Meaning that\nsome patterns that would return `false` may return `true`. This is done so that matching libraries like [micromatch](https://github.com/micromatch/micromatch) have a chance at determining if the pattern is a glob or not.\n\n**True**\n\nPatterns that have glob characters or regex patterns will return `true`:\n\n```js\nisGlob('!foo.js', {strict: false});\nisGlob('*.js', {strict: false});\nisGlob('**/abc.js', {strict: false});\nisGlob('abc/*.js', {strict: false});\nisGlob('abc/(aaa|bbb).js', {strict: false});\nisGlob('abc/[a-z].js', {strict: false});\nisGlob('abc/{a,b}.js', {strict: false});\n//=> true\n```\n\nExtglobs\n\n```js\nisGlob('abc/@(a).js', {strict: false});\nisGlob('abc/!(a).js', {strict: false});\nisGlob('abc/+(a).js', {strict: false});\nisGlob('abc/*(a).js', {strict: false});\nisGlob('abc/?(a).js', {strict: false});\n//=> true\n```\n\n**False**\n\nEscaped globs or extglobs return `false`:\n\n```js\nisGlob('\\\\!foo.js', {strict: false});\nisGlob('\\\\*.js', {strict: false});\nisGlob('\\\\*\\\\*/abc.js', {strict: false});\nisGlob('abc/\\\\*.js', {strict: false});\nisGlob('abc/\\\\(aaa|bbb).js', {strict: false});\nisGlob('abc/\\\\[a-z].js', {strict: false});\nisGlob('abc/\\\\{a,b}.js', {strict: false});\n//=> false\n```\n\n## About\n\n<details>\n<summary><strong>Contributing</strong></summary>\n\nPull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).\n\n</details>\n\n<details>\n<summary><strong>Running Tests</strong></summary>\n\nRunning and reviewing unit tests is a great way to get familiarized with a library and its API. You can install dependencies and run tests with the following command:\n\n```sh\n$ npm install && npm test\n```\n\n</details>\n\n<details>\n<summary><strong>Building docs</strong></summary>\n\n_(This project's readme.md is generated by [verb](https://github.com/verbose/verb-generate-readme), please don't edit the readme directly. Any changes to the readme must be made in the [.verb.md](.verb.md) readme template.)_\n\nTo generate the readme, run the following command:\n\n```sh\n$ npm install -g verbose/verb#dev verb-generate-readme && verb\n```\n\n</details>\n\n### Related projects\n\nYou might also be interested in these projects:\n\n* [assemble](https://www.npmjs.com/package/assemble): Get the rocks out of your socks! Assemble makes you fast at creating web projects… [more](https://github.com/assemble/assemble) | [homepage](https://github.com/assemble/assemble \"Get the rocks out of your socks! Assemble makes you fast at creating web projects. Assemble is used by thousands of projects for rapid prototyping, creating themes, scaffolds, boilerplates, e-books, UI components, API documentation, blogs, building websit\")\n* [base](https://www.npmjs.com/package/base): Framework for rapidly creating high quality, server-side node.js applications, using plugins like building blocks | [homepage](https://github.com/node-base/base \"Framework for rapidly creating high quality, server-side node.js applications, using plugins like building blocks\")\n* [update](https://www.npmjs.com/package/update): Be scalable! Update is a new, open source developer framework and CLI for automating updates… [more](https://github.com/update/update) | [homepage](https://github.com/update/update \"Be scalable! Update is a new, open source developer framework and CLI for automating updates of any kind in code projects.\")\n* [verb](https://www.npmjs.com/package/verb): Documentation generator for GitHub projects. Verb is extremely powerful, easy to use, and is used… [more](https://github.com/verbose/verb) | [homepage](https://github.com/verbose/verb \"Documentation generator for GitHub projects. Verb is extremely powerful, easy to use, and is used on hundreds of projects of all sizes to generate everything from API docs to readmes.\")\n\n### Contributors\n\n| **Commits** | **Contributor** |  \n| --- | --- |  \n| 47 | [jonschlinkert](https://github.com/jonschlinkert) |  \n| 5  | [doowb](https://github.com/doowb) |  \n| 1  | [phated](https://github.com/phated) |  \n| 1  | [danhper](https://github.com/danhper) |  \n| 1  | [paulmillr](https://github.com/paulmillr) |  \n\n### Author\n\n**Jon Schlinkert**\n\n* [GitHub Profile](https://github.com/jonschlinkert)\n* [Twitter Profile](https://twitter.com/jonschlinkert)\n* [LinkedIn Profile](https://linkedin.com/in/jonschlinkert)\n\n### License\n\nCopyright © 2019, [Jon Schlinkert](https://github.com/jonschlinkert).\nReleased under the [MIT License](LICENSE).\n\n***\n\n_This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.8.0, on March 27, 2019._",
+  "maintainers" : [ {
+    "name" : "phated",
+    "email" : "blaine.bublitz@gmail.com"
+  }, {
+    "name" : "jonschlinkert",
+    "email" : "github@sellside.com"
+  }, {
+    "name" : "doowb",
+    "email" : "brian.woodward@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Jon Schlinkert",
+    "url" : "https://github.com/jonschlinkert"
+  },
+  "time" : {
+    "2.0.0" : "2015-05-06T10:46:05.019Z",
+    "2.0.1" : "2015-10-02T04:34:41.446Z",
+    "created" : "2014-12-18T10:42:32.979Z",
+    "4.0.2" : "2021-09-26T22:37:37.622Z",
+    "4.0.3" : "2021-09-29T16:52:47.977Z",
+    "4.0.0" : "2017-08-07T20:54:20.412Z",
+    "4.0.1" : "2019-03-27T22:26:35.952Z",
+    "0.2.0" : "2014-12-18T18:59:26.170Z",
+    "0.3.0" : "2014-12-24T01:37:47.313Z",
+    "0.1.0" : "2014-12-18T10:42:32.979Z",
+    "1.1.2" : "2015-03-04T20:11:05.448Z",
+    "1.1.3" : "2015-03-04T20:11:47.875Z",
+    "3.0.0" : "2016-09-03T19:57:28.446Z",
+    "modified" : "2023-06-22T16:32:26.552Z",
+    "3.1.0" : "2016-10-12T22:37:07.741Z",
+    "1.0.0" : "2015-01-13T10:48:33.051Z",
+    "1.1.0" : "2015-01-16T10:38:04.362Z",
+    "1.1.1" : "2015-02-20T11:25:17.297Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/micromatch/is-glob.git"
+  },
+  "users" : {
+    "ninozhang" : true,
+    "flumpus-dev" : true,
+    "jonschlinkert" : true,
+    "laomu" : true,
+    "youstrive" : true,
+    "chrisyipw" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/micromatch/is-glob",
+  "keywords" : [ "bash", "braces", "check", "exec", "expression", "extglob", "glob", "globbing", "globstar", "is", "match", "matches", "pattern", "regex", "regular", "string", "test" ],
+  "contributors" : [ {
+    "name" : "Brian Woodward",
+    "url" : "https://twitter.com/doowb"
+  }, {
+    "name" : "Daniel Perez",
+    "url" : "https://tuvistavie.com"
+  }, {
+    "name" : "Jon Schlinkert",
+    "url" : "http://twitter.com/jonschlinkert"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/micromatch/is-glob/issues"
+  },
+  "license" : "MIT"
+}

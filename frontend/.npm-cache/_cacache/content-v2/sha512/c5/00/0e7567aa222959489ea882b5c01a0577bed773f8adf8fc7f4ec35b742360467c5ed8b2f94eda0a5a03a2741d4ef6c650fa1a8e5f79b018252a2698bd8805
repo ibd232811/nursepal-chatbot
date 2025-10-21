@@ -1,0 +1,1336 @@
+{
+  "_id" : "@jridgewell/sourcemap-codec",
+  "_rev" : "15-158519c3ec0ad85f4c0dec46e1a484ae",
+  "name" : "@jridgewell/sourcemap-codec",
+  "description" : "Encode/decode sourcemap mappings",
+  "dist-tags" : {
+    "beta" : "1.4.16-beta.0",
+    "latest" : "1.5.5"
+  },
+  "versions" : {
+    "1.4.14" : {
+      "name" : "@jridgewell/sourcemap-codec",
+      "description" : "Encode/decode sourcemap mappings",
+      "version" : "1.4.14",
+      "author" : {
+        "name" : "Rich Harris"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemap-codec#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemap-codec.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemap-codec/issues"
+      },
+      "main" : "dist/sourcemap-codec.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.14.tgz",
+        "shasum" : "add4c98d341472a289190b424efbdb096991bb24"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "mocha" : "9.2.0",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "@types/node" : "17.0.15",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "sourcemap-codec" : "1.4.8",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "sourcemap", "vlq" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "pretest" : "run-s build:rollup",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "test:coverage" : "c8 mocha",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.5.1",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/sourcemap-codec@1.4.14",
+      "gitHead" : "802e17965c9b5694b338412618a1b32bd07af166",
+      "typings" : "dist/types/sourcemap-codec.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/sourcemap-codec.d.ts",
+          "import" : "./dist/sourcemap-codec.mjs",
+          "browser" : "./dist/sourcemap-codec.umd.js",
+          "require" : "./dist/sourcemap-codec.umd.js"
+        }, "./dist/sourcemap-codec.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/sourcemap-codec.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sourcemap-codec_1.4.14_1656262415475_0.6095138931654185",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "17.6.0"
+    },
+    "1.4.15" : {
+      "name" : "@jridgewell/sourcemap-codec",
+      "description" : "Encode/decode sourcemap mappings",
+      "version" : "1.4.15",
+      "author" : {
+        "name" : "Rich Harris"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemap-codec#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemap-codec.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemap-codec/issues"
+      },
+      "main" : "dist/sourcemap-codec.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz",
+        "shasum" : "d7c6e6755c78567a951e04ab52ef0fd26de59f32"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "mocha" : "9.2.0",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "@types/node" : "17.0.15",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "sourcemap-codec" : "1.4.8",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "sourcemap", "vlq" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "pretest" : "run-s build:rollup",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "test:coverage" : "c8 mocha",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "9.5.0",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/sourcemap-codec@1.4.15",
+      "gitHead" : "f3d95b857d24fc3f1692dec4d1ed724fe12488a3",
+      "types" : "dist/types/sourcemap-codec.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/sourcemap-codec.d.ts",
+          "import" : "./dist/sourcemap-codec.mjs",
+          "browser" : "./dist/sourcemap-codec.umd.js",
+          "require" : "./dist/sourcemap-codec.umd.js"
+        }, "./dist/sourcemap-codec.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/sourcemap-codec.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sourcemap-codec_1.4.15_1680835381487_0.14823397894902168",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.15.0"
+    },
+    "1.4.12" : {
+      "name" : "@jridgewell/sourcemap-codec",
+      "description" : "Encode/decode sourcemap mappings",
+      "version" : "1.4.12",
+      "author" : {
+        "name" : "Rich Harris"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemap-codec#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemap-codec.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemap-codec/issues"
+      },
+      "main" : "dist/sourcemap-codec.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.12.tgz",
+        "shasum" : "7ed98f6fa525ffb7c56a2cbecb5f7bb91abd2baf"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "mocha" : "9.2.0",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "@types/node" : "17.0.15",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "sourcemap-codec" : "1.4.8",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "sourcemap", "vlq" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "pretest" : "run-s build:rollup",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "test:coverage" : "c8 mocha",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.6.0",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/sourcemap-codec@1.4.12",
+      "gitHead" : "1407758616bf08ad8807c0c6380fda85567a158d",
+      "typings" : "dist/types/sourcemap-codec.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/sourcemap-codec.mjs",
+          "browser" : "./dist/sourcemap-codec.umd.js",
+          "require" : "./dist/sourcemap-codec.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/sourcemap-codec.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sourcemap-codec_1.4.12_1651526023647_0.29960361655136225",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.0.0"
+    },
+    "1.4.13" : {
+      "name" : "@jridgewell/sourcemap-codec",
+      "description" : "Encode/decode sourcemap mappings",
+      "version" : "1.4.13",
+      "author" : {
+        "name" : "Rich Harris"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemap-codec#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemap-codec.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemap-codec/issues"
+      },
+      "main" : "dist/sourcemap-codec.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.13.tgz",
+        "shasum" : "b6461fb0c2964356c469e115f504c95ad97ab88c"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "mocha" : "9.2.0",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "@types/node" : "17.0.15",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "sourcemap-codec" : "1.4.8",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "sourcemap", "vlq" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "pretest" : "run-s build:rollup",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "test:coverage" : "c8 mocha",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.5.1",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/sourcemap-codec@1.4.13",
+      "gitHead" : "3090a00f554f0d83110e3de232eeac3109634a0f",
+      "typings" : "dist/types/sourcemap-codec.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./dist/types/sourcemap-codec.d.ts",
+          "import" : "./dist/sourcemap-codec.mjs",
+          "browser" : "./dist/sourcemap-codec.umd.js",
+          "require" : "./dist/sourcemap-codec.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/sourcemap-codec.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sourcemap-codec_1.4.13_1651786712646_0.9068072624866026",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "17.6.0"
+    },
+    "1.4.10" : {
+      "name" : "@jridgewell/sourcemap-codec",
+      "description" : "Encode/decode sourcemap mappings",
+      "version" : "1.4.10",
+      "author" : {
+        "name" : "Rich Harris"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemap-codec#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemap-codec.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemap-codec/issues"
+      },
+      "main" : "dist/sourcemap-codec.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.10.tgz",
+        "shasum" : "baf57b4e2a690d4f38560171f91783656b7f8186"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "mocha" : "9.2.0",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "@types/node" : "17.0.15",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "sourcemap-codec" : "1.4.8",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "sourcemap", "vlq" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "pretest" : "run-s build:rollup",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:only",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "test:coverage" : "c8 mocha",
+        "benchmark:only" : "node benchmark/index.js",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/sourcemap-codec@1.4.10",
+      "gitHead" : "2464a2b0da325a4c918ebc6e5668d2104fbac624",
+      "typings" : "dist/types/sourcemap-codec.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/sourcemap-codec.mjs",
+          "browser" : "./dist/sourcemap-codec.umd.js",
+          "require" : "./dist/sourcemap-codec.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/sourcemap-codec.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sourcemap-codec_1.4.10_1644060897901_0.6871697945298141",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "1.4.11" : {
+      "name" : "@jridgewell/sourcemap-codec",
+      "description" : "Encode/decode sourcemap mappings",
+      "version" : "1.4.11",
+      "author" : {
+        "name" : "Rich Harris"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemap-codec#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemap-codec.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemap-codec/issues"
+      },
+      "main" : "dist/sourcemap-codec.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.11.tgz",
+        "shasum" : "771a1d8d744eeb71b6adb35808e1a6c7b9b8c8ec"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "mocha" : "9.2.0",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "@types/node" : "17.0.15",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "sourcemap-codec" : "1.4.8",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "sourcemap", "vlq" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "pretest" : "run-s build:rollup",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:only",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "test:coverage" : "c8 mocha",
+        "benchmark:only" : "node benchmark/index.js",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/sourcemap-codec@1.4.11",
+      "gitHead" : "2e11c3357477c5715fbb139687b9b38da1310b0a",
+      "typings" : "dist/types/sourcemap-codec.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/sourcemap-codec.mjs",
+          "browser" : "./dist/sourcemap-codec.umd.js",
+          "require" : "./dist/sourcemap-codec.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/sourcemap-codec.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sourcemap-codec_1.4.11_1644568780215_0.44314274303373513",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.13.2"
+    },
+    "1.4.9" : {
+      "name" : "@jridgewell/sourcemap-codec",
+      "description" : "Encode/decode sourcemap mappings",
+      "version" : "1.4.9",
+      "author" : {
+        "name" : "Rich Harris"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemap-codec#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemap-codec.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemap-codec/issues"
+      },
+      "main" : "dist/sourcemap-codec.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.9.tgz",
+        "shasum" : "6963babca1e1b8a8dc1c379bd4bd2bf9c21c356a"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "mocha" : "9.2.0",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "@types/node" : "17.0.15",
+        "npm-run-all" : "4.1.5",
+        "source-map-js" : "1.0.2",
+        "sourcemap-codec" : "1.4.8",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "sourcemap", "vlq" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "pretest" : "run-s build:rollup",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:only",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "test:coverage" : "c8 mocha",
+        "benchmark:only" : "node benchmark/index.js",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "6.14.15",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/sourcemap-codec@1.4.9",
+      "gitHead" : "6e2f9e80f7ba29ad1856f0862ab4ae834be88045",
+      "typings" : "dist/types/sourcemap-codec.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/sourcemap-codec.mjs",
+          "browser" : "./dist/sourcemap-codec.umd.js",
+          "require" : "./dist/sourcemap-codec.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/sourcemap-codec.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sourcemap-codec_1.4.9_1644036679758_0.8290789718945382",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "14.18.3"
+    },
+    "1.5.0" : {
+      "name" : "@jridgewell/sourcemap-codec",
+      "description" : "Encode/decode sourcemap mappings",
+      "version" : "1.5.0",
+      "author" : {
+        "name" : "Rich Harris"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemap-codec#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemap-codec.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemap-codec/issues"
+      },
+      "main" : "dist/sourcemap-codec.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.0.tgz",
+        "shasum" : "3188bcb273a414b0d215fd22a58540b989b9409a"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "tsx" : "4.7.1",
+        "mocha" : "9.2.0",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "@types/node" : "17.0.15",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "10.0.6",
+        "source-map-js" : "1.0.2",
+        "sourcemap-codec" : "1.4.8",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "sourcemap", "vlq" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "test:coverage" : "c8 mocha",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/sourcemap-codec@1.5.0",
+      "gitHead" : "d8dc7fc3f7602043f56f3efa801569f983d756ec",
+      "types" : "dist/types/sourcemap-codec.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/sourcemap-codec.d.ts",
+          "import" : "./dist/sourcemap-codec.mjs",
+          "browser" : "./dist/sourcemap-codec.umd.js",
+          "require" : "./dist/sourcemap-codec.umd.js"
+        }, "./dist/sourcemap-codec.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/sourcemap-codec.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sourcemap-codec_1.5.0_1720553291759_0.7026135378332499",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "1.5.1" : {
+      "name" : "@jridgewell/sourcemap-codec",
+      "description" : "Encode/decode sourcemap mappings",
+      "version" : "1.5.1",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/sourcemap-codec",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "type" : "git",
+        "directory" : "packages/sourcemap-codec"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/sourcemap-codec.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.1.tgz",
+        "shasum" : "92bc8eb57aea47c13291476e4d2d246928487720"
+      },
+      "keywords" : [ "sourcemap", "vlq" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:types lint:format",
+        "test" : "run-s -n test:types test:only test:format",
+        "build" : "run-s -n build:code build:types",
+        "clean" : "run-s -n clean:code clean:types",
+        "benchmark" : "run-s build:code benchmark:*",
+        "test:only" : "mocha",
+        "build:code" : "node ../../esbuild.mjs sourcemap-codec.ts",
+        "clean:code" : "tsc --build --clean tsconfig.build.json",
+        "lint:types" : "npm run test:types -- --fix",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "build:types" : "run-s build:types:force build:types:emit build:types:mts",
+        "clean:types" : "rimraf dist types",
+        "lint:format" : "npm run test:format -- --write",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run-s -n build test",
+        "build:types:mts" : "node ../../mts-types.mjs",
+        "build:types:emit" : "tsc --project tsconfig.build.json",
+        "benchmark:install" : "cd benchmark && npm install",
+        "build:types:force" : "rimraf tsconfig.build.tsbuildinfo"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "actor" : {
+          "name" : "jridgewell",
+          "type" : "user",
+          "email" : "justin+npm@ridgewell.name"
+        },
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/sourcemap-codec@1.5.1",
+      "gitHead" : "90648758f7150574cf6cfd073acadb86f37cf24f",
+      "types" : "types/sourcemap-codec.d.cts",
+      "exports" : {
+        "." : [ {
+          "import" : {
+            "types" : "./types/sourcemap-codec.d.mts",
+            "default" : "./dist/sourcemap-codec.mjs"
+          },
+          "browser" : {
+            "types" : "./types/sourcemap-codec.d.cts",
+            "default" : "./dist/sourcemap-codec.umd.js"
+          },
+          "require" : {
+            "types" : "./types/sourcemap-codec.d.cts",
+            "default" : "./dist/sourcemap-codec.umd.js"
+          },
+          "module-sync" : {
+            "types" : "./types/sourcemap-codec.d.mts",
+            "default" : "./dist/sourcemap-codec.mjs"
+          }
+        }, "./dist/sourcemap-codec.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/sourcemap-codec.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sourcemap-codec_1.5.1_1751233556855_0.5418348554207144",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "1.5.2" : {
+      "name" : "@jridgewell/sourcemap-codec",
+      "description" : "Encode/decode sourcemap mappings",
+      "version" : "1.5.2",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/sourcemap-codec",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "type" : "git",
+        "directory" : "packages/sourcemap-codec"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/sourcemap-codec.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.2.tgz",
+        "shasum" : "4f25c8f17f28ccf70ed16e03f8fbf6d3998cb8fd"
+      },
+      "keywords" : [ "sourcemap", "vlq" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:types lint:format",
+        "test" : "run-s -n test:types test:only test:format",
+        "build" : "run-s -n build:code build:types",
+        "clean" : "run-s -n clean:code clean:types",
+        "benchmark" : "run-s build:code benchmark:*",
+        "test:only" : "mocha",
+        "build:code" : "node ../../esbuild.mjs sourcemap-codec.ts",
+        "clean:code" : "tsc --build --clean tsconfig.build.json",
+        "lint:types" : "npm run test:types -- --fix",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "build:types" : "run-s build:types:force build:types:emit build:types:mts",
+        "clean:types" : "rimraf dist types",
+        "lint:format" : "npm run test:format -- --write",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run-s -n build test",
+        "build:types:mts" : "node ../../mts-types.mjs",
+        "build:types:emit" : "tsc --project tsconfig.build.json",
+        "benchmark:install" : "cd benchmark && npm install",
+        "build:types:force" : "rimraf tsconfig.build.tsbuildinfo"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "actor" : {
+          "name" : "jridgewell",
+          "type" : "user",
+          "email" : "justin+npm@ridgewell.name"
+        },
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/sourcemap-codec@1.5.2",
+      "gitHead" : "dad47801cf1793389c88aeea2b2f688e98113eaa",
+      "types" : "types/sourcemap-codec.d.cts",
+      "exports" : {
+        "." : [ {
+          "import" : {
+            "types" : "./types/sourcemap-codec.d.mts",
+            "default" : "./dist/sourcemap-codec.mjs"
+          },
+          "browser" : {
+            "types" : "./types/sourcemap-codec.d.cts",
+            "default" : "./dist/sourcemap-codec.umd.js"
+          },
+          "require" : {
+            "types" : "./types/sourcemap-codec.d.cts",
+            "default" : "./dist/sourcemap-codec.umd.js"
+          }
+        }, "./dist/sourcemap-codec.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/sourcemap-codec.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sourcemap-codec_1.5.2_1751259851888_0.0876677820350904",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "1.5.3" : {
+      "name" : "@jridgewell/sourcemap-codec",
+      "description" : "Encode/decode sourcemap mappings",
+      "version" : "1.5.3",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/sourcemap-codec",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "type" : "git",
+        "directory" : "packages/sourcemap-codec"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/sourcemap-codec.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.3.tgz",
+        "shasum" : "2d7bbc63fdfe4e4fa6b3478f651ec3844e284c1b"
+      },
+      "keywords" : [ "sourcemap", "vlq" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:types lint:format",
+        "test" : "run-s -n test:types test:only test:format",
+        "build" : "run-s -n build:code build:types",
+        "clean" : "run-s -n clean:code clean:types",
+        "benchmark" : "run-s build:code benchmark:*",
+        "test:only" : "mocha",
+        "build:code" : "node ../../esbuild.mjs sourcemap-codec.ts",
+        "clean:code" : "tsc --build --clean tsconfig.build.json",
+        "lint:types" : "npm run test:types -- --fix",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "build:types" : "run-s build:types:force build:types:emit build:types:mts",
+        "clean:types" : "rimraf dist types",
+        "lint:format" : "npm run test:format -- --write",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run-s -n build test",
+        "build:types:mts" : "node ../../mts-types.mjs",
+        "build:types:emit" : "tsc --project tsconfig.build.json",
+        "benchmark:install" : "cd benchmark && npm install",
+        "build:types:force" : "rimraf tsconfig.build.tsbuildinfo"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "actor" : {
+          "name" : "jridgewell",
+          "type" : "user",
+          "email" : "justin+npm@ridgewell.name"
+        },
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/sourcemap-codec@1.5.3",
+      "gitHead" : "d2578bd71829135bee7f510e62f898bcde97e80a",
+      "types" : "types/sourcemap-codec.d.cts",
+      "exports" : {
+        "." : [ {
+          "import" : {
+            "types" : "./types/sourcemap-codec.d.mts",
+            "default" : "./dist/sourcemap-codec.mjs"
+          },
+          "browser" : {
+            "types" : "./types/sourcemap-codec.d.cts",
+            "default" : "./dist/sourcemap-codec.umd.js"
+          },
+          "require" : {
+            "types" : "./types/sourcemap-codec.d.cts",
+            "default" : "./dist/sourcemap-codec.umd.js"
+          }
+        }, "./dist/sourcemap-codec.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/sourcemap-codec.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sourcemap-codec_1.5.3_1751306846972_0.201434557942896",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "1.5.4" : {
+      "name" : "@jridgewell/sourcemap-codec",
+      "description" : "Encode/decode sourcemap mappings",
+      "version" : "1.5.4",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/sourcemap-codec",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "type" : "git",
+        "directory" : "packages/sourcemap-codec"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/sourcemap-codec.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.4.tgz",
+        "shasum" : "7358043433b2e5da569aa02cbc4c121da3af27d7"
+      },
+      "keywords" : [ "sourcemap", "vlq" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:types lint:format",
+        "test" : "run-s -n test:types test:only test:format",
+        "build" : "run-s -n build:code build:types",
+        "clean" : "run-s -n clean:code clean:types",
+        "benchmark" : "run-s build:code benchmark:*",
+        "test:only" : "mocha",
+        "build:code" : "node ../../esbuild.mjs sourcemap-codec.ts",
+        "clean:code" : "tsc --build --clean tsconfig.build.json",
+        "lint:types" : "npm run test:types -- --fix",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "build:types" : "run-s build:types:force build:types:emit build:types:mts",
+        "clean:types" : "rimraf dist types",
+        "lint:format" : "npm run test:format -- --write",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run-s -n build test",
+        "build:types:mts" : "node ../../mts-types.mjs",
+        "build:types:emit" : "tsc --project tsconfig.build.json",
+        "benchmark:install" : "cd benchmark && npm install",
+        "build:types:force" : "rimraf tsconfig.build.tsbuildinfo"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "actor" : {
+          "name" : "jridgewell",
+          "type" : "user",
+          "email" : "justin+npm@ridgewell.name"
+        },
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/sourcemap-codec@1.5.4",
+      "gitHead" : "3c6286e949d58c2bc6e27334385349c6a83c6d7d",
+      "types" : "types/sourcemap-codec.d.cts",
+      "exports" : {
+        "." : [ {
+          "import" : {
+            "types" : "./types/sourcemap-codec.d.mts",
+            "default" : "./dist/sourcemap-codec.mjs"
+          },
+          "browser" : {
+            "types" : "./types/sourcemap-codec.d.cts",
+            "default" : "./dist/sourcemap-codec.umd.js"
+          },
+          "require" : {
+            "types" : "./types/sourcemap-codec.d.cts",
+            "default" : "./dist/sourcemap-codec.umd.js"
+          }
+        }, "./dist/sourcemap-codec.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/sourcemap-codec.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sourcemap-codec_1.5.4_1751393896927_0.7656312829476808",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "1.5.5" : {
+      "name" : "@jridgewell/sourcemap-codec",
+      "description" : "Encode/decode sourcemap mappings",
+      "version" : "1.5.5",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/sourcemap-codec",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "directory" : "packages/sourcemap-codec"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/sourcemap-codec.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz",
+        "shasum" : "6912b00d2c631c0d15ce1a7ab57cd657f2a8f8ba"
+      },
+      "keywords" : [ "sourcemap", "vlq" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "benchmark" : "run-s build:code benchmark:*",
+        "benchmark:install" : "cd benchmark && npm install",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "build" : "run-s -n build:code build:types",
+        "build:code" : "node ../../esbuild.mjs sourcemap-codec.ts",
+        "build:types" : "run-s build:types:force build:types:emit build:types:mts",
+        "build:types:force" : "rimraf tsconfig.build.tsbuildinfo",
+        "build:types:emit" : "tsc --project tsconfig.build.json",
+        "build:types:mts" : "node ../../mts-types.mjs",
+        "clean" : "run-s -n clean:code clean:types",
+        "clean:code" : "tsc --build --clean tsconfig.build.json",
+        "clean:types" : "rimraf dist types",
+        "test" : "run-s -n test:types test:only test:format",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "test:only" : "mocha",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "lint" : "run-s -n lint:types lint:format",
+        "lint:format" : "npm run test:format -- --write",
+        "lint:types" : "npm run test:types -- --fix",
+        "prepublishOnly" : "npm run-s -n build test"
+      },
+      "_npmVersion" : "11.4.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/sourcemap-codec@1.5.5",
+      "gitHead" : "095a5825c482003597a30aa380b50159219f3618",
+      "types" : "types/sourcemap-codec.d.cts",
+      "exports" : {
+        "." : [ {
+          "import" : {
+            "types" : "./types/sourcemap-codec.d.mts",
+            "default" : "./dist/sourcemap-codec.mjs"
+          },
+          "default" : {
+            "types" : "./types/sourcemap-codec.d.cts",
+            "default" : "./dist/sourcemap-codec.umd.js"
+          }
+        }, "./dist/sourcemap-codec.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/sourcemap-codec.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/sourcemap-codec_1.5.5_1754981038970_0.8309998126431679"
+      },
+      "_nodeVersion" : "24.4.1"
+    },
+    "1.4.16-beta.0" : {
+      "name" : "@jridgewell/sourcemap-codec",
+      "description" : "Encode/decode sourcemap mappings",
+      "version" : "1.4.16-beta.0",
+      "author" : {
+        "name" : "Rich Harris"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemap-codec#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemap-codec.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemap-codec/issues"
+      },
+      "main" : "dist/sourcemap-codec.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.16-beta.0.tgz",
+        "shasum" : "5037f25018ca5d896fa438886b75616bcaa8bdbe"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "tsx" : "4.7.1",
+        "mocha" : "9.2.0",
+        "eslint" : "8.7.0",
+        "rollup" : "2.64.0",
+        "prettier" : "2.5.1",
+        "benchmark" : "2.1.4",
+        "source-map" : "0.6.1",
+        "typescript" : "4.5.4",
+        "@types/node" : "17.0.15",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "10.0.6",
+        "source-map-js" : "1.0.2",
+        "sourcemap-codec" : "1.4.8",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "sourcemap", "vlq" ],
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "test:coverage" : "c8 mocha",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/sourcemap-codec@1.4.16-beta.0",
+      "gitHead" : "593c7e33afa2b5e069d8254282e64d21c1c0c4d3",
+      "types" : "dist/types/sourcemap-codec.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/sourcemap-codec.d.ts",
+          "import" : "./dist/sourcemap-codec.mjs",
+          "browser" : "./dist/sourcemap-codec.umd.js",
+          "require" : "./dist/sourcemap-codec.umd.js"
+        }, "./dist/sourcemap-codec.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/sourcemap-codec.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sourcemap-codec_1.4.16-beta.0_1719307099776_0.38140518466058504",
+        "host" : "s3://npm-registry-packages"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.10.0"
+    }
+  },
+  "readme" : "# @jridgewell/sourcemap-codec\n\nEncode/decode the `mappings` property of a [sourcemap](https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k/edit).\n\n\n## Why?\n\nSourcemaps are difficult to generate and manipulate, because the `mappings` property – the part that actually links the generated code back to the original source – is encoded using an obscure method called [Variable-length quantity](https://en.wikipedia.org/wiki/Variable-length_quantity). On top of that, each segment in the mapping contains offsets rather than absolute indices, which means that you can't look at a segment in isolation – you have to understand the whole sourcemap.\n\nThis package makes the process slightly easier.\n\n\n## Installation\n\n```bash\nnpm install @jridgewell/sourcemap-codec\n```\n\n\n## Usage\n\n```js\nimport { encode, decode } from '@jridgewell/sourcemap-codec';\n\nvar decoded = decode( ';EAEEA,EAAE,EAAC,CAAE;ECQY,UACC' );\n\nassert.deepEqual( decoded, [\n\t// the first line (of the generated code) has no mappings,\n\t// as shown by the starting semi-colon (which separates lines)\n\t[],\n\n\t// the second line contains four (comma-separated) segments\n\t[\n\t\t// segments are encoded as you'd expect:\n\t\t// [ generatedCodeColumn, sourceIndex, sourceCodeLine, sourceCodeColumn, nameIndex ]\n\n\t\t// i.e. the first segment begins at column 2, and maps back to the second column\n\t\t// of the second line (both zero-based) of the 0th source, and uses the 0th\n\t\t// name in the `map.names` array\n\t\t[ 2, 0, 2, 2, 0 ],\n\n\t\t// the remaining segments are 4-length rather than 5-length,\n\t\t// because they don't map a name\n\t\t[ 4, 0, 2, 4 ],\n\t\t[ 6, 0, 2, 5 ],\n\t\t[ 7, 0, 2, 7 ]\n\t],\n\n\t// the final line contains two segments\n\t[\n\t\t[ 2, 1, 10, 19 ],\n\t\t[ 12, 1, 11, 20 ]\n\t]\n]);\n\nvar encoded = encode( decoded );\nassert.equal( encoded, ';EAEEA,EAAE,EAAC,CAAE;ECQY,UACC' );\n```\n\n## Benchmarks\n\n```\nnode v20.10.0\n\namp.js.map - 45120 segments\n\nDecode Memory Usage:\nlocal code                             5815135 bytes\n@jridgewell/sourcemap-codec 1.4.15     5868160 bytes\nsourcemap-codec                        5492584 bytes\nsource-map-0.6.1                      13569984 bytes\nsource-map-0.8.0                       6390584 bytes\nchrome dev tools                       8011136 bytes\nSmallest memory usage is sourcemap-codec\n\nDecode speed:\ndecode: local code x 492 ops/sec ±1.22% (90 runs sampled)\ndecode: @jridgewell/sourcemap-codec 1.4.15 x 499 ops/sec ±1.16% (89 runs sampled)\ndecode: sourcemap-codec x 376 ops/sec ±1.66% (89 runs sampled)\ndecode: source-map-0.6.1 x 34.99 ops/sec ±0.94% (48 runs sampled)\ndecode: source-map-0.8.0 x 351 ops/sec ±0.07% (95 runs sampled)\nchrome dev tools x 165 ops/sec ±0.91% (86 runs sampled)\nFastest is decode: @jridgewell/sourcemap-codec 1.4.15\n\nEncode Memory Usage:\nlocal code                              444248 bytes\n@jridgewell/sourcemap-codec 1.4.15      623024 bytes\nsourcemap-codec                        8696280 bytes\nsource-map-0.6.1                       8745176 bytes\nsource-map-0.8.0                       8736624 bytes\nSmallest memory usage is local code\n\nEncode speed:\nencode: local code x 796 ops/sec ±0.11% (97 runs sampled)\nencode: @jridgewell/sourcemap-codec 1.4.15 x 795 ops/sec ±0.25% (98 runs sampled)\nencode: sourcemap-codec x 231 ops/sec ±0.83% (86 runs sampled)\nencode: source-map-0.6.1 x 166 ops/sec ±0.57% (86 runs sampled)\nencode: source-map-0.8.0 x 203 ops/sec ±0.45% (88 runs sampled)\nFastest is encode: local code,encode: @jridgewell/sourcemap-codec 1.4.15\n\n\n***\n\n\nbabel.min.js.map - 347793 segments\n\nDecode Memory Usage:\nlocal code                            35424960 bytes\n@jridgewell/sourcemap-codec 1.4.15    35424696 bytes\nsourcemap-codec                       36033464 bytes\nsource-map-0.6.1                      62253704 bytes\nsource-map-0.8.0                      43843920 bytes\nchrome dev tools                      45111400 bytes\nSmallest memory usage is @jridgewell/sourcemap-codec 1.4.15\n\nDecode speed:\ndecode: local code x 38.18 ops/sec ±5.44% (52 runs sampled)\ndecode: @jridgewell/sourcemap-codec 1.4.15 x 38.36 ops/sec ±5.02% (52 runs sampled)\ndecode: sourcemap-codec x 34.05 ops/sec ±4.45% (47 runs sampled)\ndecode: source-map-0.6.1 x 4.31 ops/sec ±2.76% (15 runs sampled)\ndecode: source-map-0.8.0 x 55.60 ops/sec ±0.13% (73 runs sampled)\nchrome dev tools x 16.94 ops/sec ±3.78% (46 runs sampled)\nFastest is decode: source-map-0.8.0\n\nEncode Memory Usage:\nlocal code                             2606016 bytes\n@jridgewell/sourcemap-codec 1.4.15     2626440 bytes\nsourcemap-codec                       21152576 bytes\nsource-map-0.6.1                      25023928 bytes\nsource-map-0.8.0                      25256448 bytes\nSmallest memory usage is local code\n\nEncode speed:\nencode: local code x 127 ops/sec ±0.18% (83 runs sampled)\nencode: @jridgewell/sourcemap-codec 1.4.15 x 128 ops/sec ±0.26% (83 runs sampled)\nencode: sourcemap-codec x 29.31 ops/sec ±2.55% (53 runs sampled)\nencode: source-map-0.6.1 x 18.85 ops/sec ±3.19% (36 runs sampled)\nencode: source-map-0.8.0 x 19.34 ops/sec ±1.97% (36 runs sampled)\nFastest is encode: @jridgewell/sourcemap-codec 1.4.15\n\n\n***\n\n\npreact.js.map - 1992 segments\n\nDecode Memory Usage:\nlocal code                              261696 bytes\n@jridgewell/sourcemap-codec 1.4.15      244296 bytes\nsourcemap-codec                         302816 bytes\nsource-map-0.6.1                        939176 bytes\nsource-map-0.8.0                           336 bytes\nchrome dev tools                        587368 bytes\nSmallest memory usage is source-map-0.8.0\n\nDecode speed:\ndecode: local code x 17,782 ops/sec ±0.32% (97 runs sampled)\ndecode: @jridgewell/sourcemap-codec 1.4.15 x 17,863 ops/sec ±0.40% (100 runs sampled)\ndecode: sourcemap-codec x 12,453 ops/sec ±0.27% (101 runs sampled)\ndecode: source-map-0.6.1 x 1,288 ops/sec ±1.05% (96 runs sampled)\ndecode: source-map-0.8.0 x 9,289 ops/sec ±0.27% (101 runs sampled)\nchrome dev tools x 4,769 ops/sec ±0.18% (100 runs sampled)\nFastest is decode: @jridgewell/sourcemap-codec 1.4.15\n\nEncode Memory Usage:\nlocal code                              262944 bytes\n@jridgewell/sourcemap-codec 1.4.15       25544 bytes\nsourcemap-codec                         323048 bytes\nsource-map-0.6.1                        507808 bytes\nsource-map-0.8.0                        507480 bytes\nSmallest memory usage is @jridgewell/sourcemap-codec 1.4.15\n\nEncode speed:\nencode: local code x 24,207 ops/sec ±0.79% (95 runs sampled)\nencode: @jridgewell/sourcemap-codec 1.4.15 x 24,288 ops/sec ±0.48% (96 runs sampled)\nencode: sourcemap-codec x 6,761 ops/sec ±0.21% (100 runs sampled)\nencode: source-map-0.6.1 x 5,374 ops/sec ±0.17% (99 runs sampled)\nencode: source-map-0.8.0 x 5,633 ops/sec ±0.32% (99 runs sampled)\nFastest is encode: @jridgewell/sourcemap-codec 1.4.15,encode: local code\n\n\n***\n\n\nreact.js.map - 5726 segments\n\nDecode Memory Usage:\nlocal code                              678816 bytes\n@jridgewell/sourcemap-codec 1.4.15      678816 bytes\nsourcemap-codec                         816400 bytes\nsource-map-0.6.1                       2288864 bytes\nsource-map-0.8.0                        721360 bytes\nchrome dev tools                       1012512 bytes\nSmallest memory usage is local code\n\nDecode speed:\ndecode: local code x 6,178 ops/sec ±0.19% (98 runs sampled)\ndecode: @jridgewell/sourcemap-codec 1.4.15 x 6,261 ops/sec ±0.22% (100 runs sampled)\ndecode: sourcemap-codec x 4,472 ops/sec ±0.90% (99 runs sampled)\ndecode: source-map-0.6.1 x 449 ops/sec ±0.31% (95 runs sampled)\ndecode: source-map-0.8.0 x 3,219 ops/sec ±0.13% (100 runs sampled)\nchrome dev tools x 1,743 ops/sec ±0.20% (99 runs sampled)\nFastest is decode: @jridgewell/sourcemap-codec 1.4.15\n\nEncode Memory Usage:\nlocal code                              140960 bytes\n@jridgewell/sourcemap-codec 1.4.15      159808 bytes\nsourcemap-codec                         969304 bytes\nsource-map-0.6.1                        930520 bytes\nsource-map-0.8.0                        930248 bytes\nSmallest memory usage is local code\n\nEncode speed:\nencode: local code x 8,013 ops/sec ±0.19% (100 runs sampled)\nencode: @jridgewell/sourcemap-codec 1.4.15 x 7,989 ops/sec ±0.20% (101 runs sampled)\nencode: sourcemap-codec x 2,472 ops/sec ±0.21% (99 runs sampled)\nencode: source-map-0.6.1 x 2,200 ops/sec ±0.17% (99 runs sampled)\nencode: source-map-0.8.0 x 2,220 ops/sec ±0.37% (99 runs sampled)\nFastest is encode: local code\n\n\n***\n\n\nvscode.map - 2141001 segments\n\nDecode Memory Usage:\nlocal code                           198955264 bytes\n@jridgewell/sourcemap-codec 1.4.15   199175352 bytes\nsourcemap-codec                      199102688 bytes\nsource-map-0.6.1                     386323432 bytes\nsource-map-0.8.0                     244116432 bytes\nchrome dev tools                     293734280 bytes\nSmallest memory usage is local code\n\nDecode speed:\ndecode: local code x 3.90 ops/sec ±22.21% (15 runs sampled)\ndecode: @jridgewell/sourcemap-codec 1.4.15 x 3.95 ops/sec ±23.53% (15 runs sampled)\ndecode: sourcemap-codec x 3.82 ops/sec ±17.94% (14 runs sampled)\ndecode: source-map-0.6.1 x 0.61 ops/sec ±7.81% (6 runs sampled)\ndecode: source-map-0.8.0 x 9.54 ops/sec ±0.28% (28 runs sampled)\nchrome dev tools x 2.18 ops/sec ±10.58% (10 runs sampled)\nFastest is decode: source-map-0.8.0\n\nEncode Memory Usage:\nlocal code                            13509880 bytes\n@jridgewell/sourcemap-codec 1.4.15    13537648 bytes\nsourcemap-codec                       32540104 bytes\nsource-map-0.6.1                     127531040 bytes\nsource-map-0.8.0                     127535312 bytes\nSmallest memory usage is local code\n\nEncode speed:\nencode: local code x 20.10 ops/sec ±0.19% (38 runs sampled)\nencode: @jridgewell/sourcemap-codec 1.4.15 x 20.26 ops/sec ±0.32% (38 runs sampled)\nencode: sourcemap-codec x 5.44 ops/sec ±1.64% (18 runs sampled)\nencode: source-map-0.6.1 x 2.30 ops/sec ±4.79% (10 runs sampled)\nencode: source-map-0.8.0 x 2.46 ops/sec ±6.53% (10 runs sampled)\nFastest is encode: @jridgewell/sourcemap-codec 1.4.15\n```\n\n# License\n\nMIT\n",
+  "maintainers" : [ {
+    "name" : "jridgewell",
+    "email" : "justin+npm@ridgewell.name"
+  } ],
+  "author" : {
+    "name" : "Justin Ridgewell",
+    "email" : "justin@ridgewell.name"
+  },
+  "time" : {
+    "1.4.14" : "2022-06-26T16:53:35.725Z",
+    "1.4.15" : "2023-04-07T02:43:01.666Z",
+    "created" : "2022-02-05T04:51:19.696Z",
+    "1.4.12" : "2022-05-02T21:13:43.832Z",
+    "1.4.13" : "2022-05-05T21:38:32.817Z",
+    "1.4.10" : "2022-02-05T11:34:58.044Z",
+    "1.4.11" : "2022-02-11T08:39:40.389Z",
+    "1.4.9" : "2022-02-05T04:51:19.912Z",
+    "1.5.0" : "2024-07-09T19:28:12.902Z",
+    "1.5.1" : "2025-06-29T21:45:57.019Z",
+    "1.5.2" : "2025-06-30T05:04:12.051Z",
+    "1.5.3" : "2025-06-30T18:07:27.130Z",
+    "1.5.4" : "2025-07-01T18:18:17.094Z",
+    "1.5.5" : "2025-08-12T06:43:59.139Z",
+    "modified" : "2025-08-12T06:43:59.328Z",
+    "1.4.16-beta.0" : "2024-06-25T09:18:19.950Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+    "directory" : "packages/sourcemap-codec"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/sourcemap-codec",
+  "keywords" : [ "sourcemap", "vlq" ],
+  "bugs" : {
+    "url" : "https://github.com/jridgewell/sourcemaps/issues"
+  },
+  "license" : "MIT"
+}

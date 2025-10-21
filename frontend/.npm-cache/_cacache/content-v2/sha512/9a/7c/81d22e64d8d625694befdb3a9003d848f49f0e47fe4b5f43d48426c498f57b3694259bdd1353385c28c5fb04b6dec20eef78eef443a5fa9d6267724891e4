@@ -1,0 +1,4464 @@
+{
+  "_id" : "@eslint/eslintrc",
+  "_rev" : "50-70fc32b72436167b072893e5229f66b7",
+  "name" : "@eslint/eslintrc",
+  "description" : "The legacy ESLintRC config file format for ESLint",
+  "dist-tags" : {
+    "latest" : "3.3.1"
+  },
+  "versions" : {
+    "0.4.2" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "0.4.2",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^10.12.0 || >=12.0.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-0.4.2.tgz",
+        "shasum" : "f63d0ef06f5c0c57d76c4ab5f63d3835c51b0179"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.1.1",
+        "espree" : "^7.3.0",
+        "ignore" : "^4.0.6",
+        "globals" : "^13.9.0",
+        "js-yaml" : "^3.13.1",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.2.0",
+        "mocha" : "^8.1.1",
+        "sinon" : "^9.2.0",
+        "eslint" : "^7.21.0",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.0",
+        "eslint-release" : "^3.1.2",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^32.2.0",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/**/*.js'",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@0.4.2",
+      "gitHead" : "af96cc5494962c9d3961c0da0f97bfb3e8b81c59",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_0.4.2_1622843738648_0.006039587947243907",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.19.0"
+    },
+    "0.4.3" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "0.4.3",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^10.12.0 || >=12.0.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-0.4.3.tgz",
+        "shasum" : "9e42981ef035beb3dd49add17acb96e8ff6f394c"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.1.1",
+        "espree" : "^7.3.0",
+        "ignore" : "^4.0.6",
+        "globals" : "^13.9.0",
+        "js-yaml" : "^3.13.1",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.2.0",
+        "mocha" : "^8.1.1",
+        "sinon" : "^9.2.0",
+        "eslint" : "^7.21.0",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "0.1.1",
+        "eslint-release" : "^3.1.2",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^32.2.0",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/**/*.js'",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@0.4.3",
+      "gitHead" : "9bf2ba12e6c0bfe7296774531fd79dea23d4c805",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_0.4.3_1626557013505_0.43731211838475836",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.19.0"
+    },
+    "0.1.3" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "0.1.3",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^10.12.0 || >=12.0.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-0.1.3.tgz",
+        "shasum" : "7d1a2b2358552cc04834c0979bd4275362e37085"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.1.1",
+        "espree" : "^7.3.0",
+        "ignore" : "^4.0.6",
+        "lodash" : "^4.17.19",
+        "globals" : "^12.1.0",
+        "js-yaml" : "^3.13.1",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.2.0",
+        "mocha" : "^8.1.1",
+        "eslint" : "^7.7.0",
+        "eslint-release" : "^3.1.2",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^22.1.0",
+        "eslint-config-eslint" : "^6.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "test" : "mocha tests/lib/shared",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@0.1.3",
+      "gitHead" : "ef43698685ae5f6a83c467b10ca2e40d0920d1ad",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_0.1.3_1598986323357_0.18392491261583443",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.18.3"
+    },
+    "0.2.2" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "0.2.2",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^10.12.0 || >=12.0.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-0.2.2.tgz",
+        "shasum" : "d01fc791e2fc33e88a29d6f3dc7e93d0cd784b76"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.1.1",
+        "espree" : "^7.3.0",
+        "ignore" : "^4.0.6",
+        "lodash" : "^4.17.19",
+        "globals" : "^12.1.0",
+        "js-yaml" : "^3.13.1",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.2.0",
+        "mocha" : "^8.1.1",
+        "sinon" : "^9.2.0",
+        "eslint" : "^7.7.0",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.0",
+        "eslint-release" : "^3.1.2",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^22.1.0",
+        "eslint-config-eslint" : "^6.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "test" : "mocha -R progress -c 'tests/lib/**/*.js'",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@0.2.2",
+      "gitHead" : "b86d0c24b6fc3e941913469355ba77fccb8a47bc",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_0.2.2_1607145579075_0.6278673903716865",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.19.0"
+    },
+    "0.4.0" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "0.4.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^10.12.0 || >=12.0.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-0.4.0.tgz",
+        "shasum" : "99cc0a0584d72f1df38b900fb062ba995f395547"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.1.1",
+        "espree" : "^7.3.0",
+        "ignore" : "^4.0.6",
+        "globals" : "^12.1.0",
+        "js-yaml" : "^3.13.1",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.2.0",
+        "mocha" : "^8.1.1",
+        "sinon" : "^9.2.0",
+        "eslint" : "^7.7.0",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.0",
+        "eslint-release" : "^3.1.2",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^22.1.0",
+        "eslint-config-eslint" : "^6.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "test" : "mocha -R progress -c 'tests/lib/**/*.js'",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@0.4.0",
+      "gitHead" : "5ade86b58a99aa1518a4961af3a3f4c2a5573948",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_0.4.0_1614461044453_0.5244989185754623",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.19.0"
+    },
+    "0.4.1" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "0.4.1",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^10.12.0 || >=12.0.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-0.4.1.tgz",
+        "shasum" : "442763b88cecbe3ee0ec7ca6d6dd6168550cbf14"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.1.1",
+        "espree" : "^7.3.0",
+        "ignore" : "^4.0.6",
+        "globals" : "^12.1.0",
+        "js-yaml" : "^3.13.1",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.2.0",
+        "mocha" : "^8.1.1",
+        "sinon" : "^9.2.0",
+        "eslint" : "^7.21.0",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.0",
+        "eslint-release" : "^3.1.2",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^32.2.0",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/**/*.js'",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@0.4.1",
+      "gitHead" : "88569c0990e51c5b88d3eb035aae288b7078c337",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_0.4.1_1620433526293_0.5772150568469603",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.19.0"
+    },
+    "0.1.1" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^10.12.0 || >=12.0.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-0.1.1.tgz",
+        "shasum" : "6716db56f07ee3bbad0194b1692bcc2a880af91f"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.1.1",
+        "espree" : "^7.3.0",
+        "ignore" : "^4.0.6",
+        "lodash" : "^4.17.19",
+        "globals" : "^12.1.0",
+        "js-yaml" : "^3.13.1",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.2.0",
+        "mocha" : "^8.1.1",
+        "eslint" : "^7.7.0",
+        "eslint-release" : "^3.1.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^22.1.0",
+        "eslint-config-eslint" : "^6.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "test" : "mocha tests/lib/shared",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@0.1.1",
+      "gitHead" : "23b49c8cd83e1a22f2fff9b2e343421e5346cfe7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_0.1.1_1598984669712_0.14574610587080317",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.18.3"
+    },
+    "0.2.0" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^10.12.0 || >=12.0.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-0.2.0.tgz",
+        "shasum" : "bc7e3c4304d4c8720968ccaee793087dfb5fe6b4"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.1.1",
+        "espree" : "^7.3.0",
+        "ignore" : "^4.0.6",
+        "lodash" : "^4.17.19",
+        "globals" : "^12.1.0",
+        "js-yaml" : "^3.13.1",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.2.0",
+        "mocha" : "^8.1.1",
+        "eslint" : "^7.7.0",
+        "eslint-release" : "^3.1.2",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^22.1.0",
+        "eslint-config-eslint" : "^6.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "test" : "mocha -R progress -c tests/lib/shared",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@0.2.0",
+      "gitHead" : "b347ca00f93bfb12144ef1e6cea25607e07a5b3c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_0.2.0_1602870461738_0.5125421687377878",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.18.3"
+    },
+    "0.1.2" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^10.12.0 || >=12.0.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-0.1.2.tgz",
+        "shasum" : "c889b4f710d4e48cf499dd64888d691143c2fe86"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.1.1",
+        "espree" : "^7.3.0",
+        "ignore" : "^4.0.6",
+        "lodash" : "^4.17.19",
+        "globals" : "^12.1.0",
+        "js-yaml" : "^3.13.1",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.2.0",
+        "mocha" : "^8.1.1",
+        "eslint" : "^7.7.0",
+        "eslint-release" : "^3.1.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^22.1.0",
+        "eslint-config-eslint" : "^6.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "test" : "mocha tests/lib/shared",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@0.1.2",
+      "gitHead" : "374bfff271660fa753fc2e76013a04617cdd3366",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_0.1.2_1598985382555_0.44169507829357846",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.18.3"
+    },
+    "0.2.1" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^10.12.0 || >=12.0.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-0.2.1.tgz",
+        "shasum" : "f72069c330461a06684d119384435e12a5d76e3c"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.1.1",
+        "espree" : "^7.3.0",
+        "ignore" : "^4.0.6",
+        "lodash" : "^4.17.19",
+        "globals" : "^12.1.0",
+        "js-yaml" : "^3.13.1",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.2.0",
+        "mocha" : "^8.1.1",
+        "eslint" : "^7.7.0",
+        "eslint-release" : "^3.1.2",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^22.1.0",
+        "eslint-config-eslint" : "^6.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "test" : "mocha -R progress -c tests/lib/shared",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@0.2.1",
+      "gitHead" : "62e7738e45a3c0aae83b931e89fcc11012b5c046",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_0.2.1_1603768122879_0.6702795420457808",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.18.3"
+    },
+    "0.3.0" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^10.12.0 || >=12.0.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-0.3.0.tgz",
+        "shasum" : "d736d6963d7003b6514e6324bec9c602ac340318"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.1.1",
+        "espree" : "^7.3.0",
+        "ignore" : "^4.0.6",
+        "lodash" : "^4.17.20",
+        "globals" : "^12.1.0",
+        "js-yaml" : "^3.13.1",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.2.0",
+        "mocha" : "^8.1.1",
+        "sinon" : "^9.2.0",
+        "eslint" : "^7.7.0",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.0",
+        "eslint-release" : "^3.1.2",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^22.1.0",
+        "eslint-config-eslint" : "^6.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "test" : "mocha -R progress -c 'tests/lib/**/*.js'",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@0.3.0",
+      "gitHead" : "cccaad4b3fb14e272aa4aa42a5b60750e03f80ea",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_0.3.0_1610748673507_0.5883894755524104",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.19.0"
+    },
+    "0.1.0" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-0.1.0.tgz",
+        "shasum" : "3d1f19fb797d42fb1c85458c1c73541eeb1d9e76"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.1.1",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.2.0",
+        "mocha" : "^8.1.1",
+        "eslint" : "^7.7.0",
+        "eslint-release" : "^3.1.0",
+        "eslint-config-eslint" : "^6.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha tests/lib/shared",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@0.1.0",
+      "gitHead" : "c82eccb9e853abe2fc39afb91998d34e821b9631",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_0.1.0_1598295615938_0.7813228950708895",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.18.3"
+    },
+    "0.0.1" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^10.12.0 || >=12.0.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-0.0.1.tgz",
+        "shasum" : "594bc720e271fc9f0ddd472f3770e1f66d68bd9b"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.1.1",
+        "espree" : "^7.3.0",
+        "ignore" : "^4.0.6",
+        "lodash" : "^4.17.19",
+        "globals" : "^12.1.0",
+        "js-yaml" : "^3.13.1",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.2.0",
+        "mocha" : "^8.1.1",
+        "eslint" : "^7.7.0",
+        "eslint-release" : "^3.1.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^22.1.0",
+        "eslint-config-eslint" : "^6.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "test" : "mocha tests/lib/shared",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@0.0.1",
+      "gitHead" : "05743abde5843bf36d10bdef75b8385ff3935c8e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_0.0.1_1598983359516_0.17142753292008672",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.18.3"
+    },
+    "3.0.0" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-3.0.0.tgz",
+        "shasum" : "eac0198d2dd82d11356e5bbb8a9bf0fda08d5ea0"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.6.0",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.19.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "lint:fix" : "npm run lint -- --fix",
+        "release:publish" : "eslint-publish-release",
+        "release:generate:rc" : "eslint-generate-prerelease rc",
+        "release:generate:beta" : "eslint-generate-prerelease beta",
+        "release:generate:alpha" : "eslint-generate-prerelease alpha",
+        "release:generate:latest" : "eslint-generate-release"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@3.0.0",
+      "gitHead" : "0b7b6a594c38434a76dfc0ff943d3f070aacdd1e",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_3.0.0_1703700012653_0.2823319301953877",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.10.0"
+    },
+    "3.0.1" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-3.0.1.tgz",
+        "shasum" : "ee628808e945cd7782df05ce50eece525cb48e7a"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^10.0.1",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.19.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "lint:fix" : "npm run lint -- --fix",
+        "release:publish" : "eslint-publish-release",
+        "release:generate:rc" : "eslint-generate-prerelease rc",
+        "release:generate:beta" : "eslint-generate-prerelease beta",
+        "release:generate:alpha" : "eslint-generate-prerelease alpha",
+        "release:generate:latest" : "eslint-generate-release"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.2.4",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@3.0.1",
+      "gitHead" : "52d63e32c0bc2b5e81b390be236447fd5e7f9878",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_3.0.1_1707520232617_0.5656010994072134",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.11.0"
+    },
+    "3.1.0" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-3.1.0.tgz",
+        "shasum" : "dbd3482bfd91efa663cbe7aa1f506839868207b6"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^10.0.1",
+        "ignore" : "^5.2.0",
+        "globals" : "^14.0.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.5",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "lint:fix" : "npm run lint -- --fix",
+        "release:publish" : "eslint-publish-release",
+        "release:generate:rc" : "eslint-generate-prerelease rc",
+        "release:generate:beta" : "eslint-generate-prerelease beta",
+        "release:generate:alpha" : "eslint-generate-prerelease alpha",
+        "release:generate:latest" : "eslint-generate-release"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.5.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@3.1.0",
+      "gitHead" : "5c93cc828d7cc6dfae7c97aa5081d6fb56516ce9",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_3.1.0_1715976521752_0.8675391861481301",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.13.1"
+    },
+    "3.0.2" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "3.0.2",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-3.0.2.tgz",
+        "shasum" : "36180f8e85bf34d2fe3ccc2261e8e204a411ab4e"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^10.0.1",
+        "ignore" : "^5.2.0",
+        "globals" : "^14.0.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "lint:fix" : "npm run lint -- --fix",
+        "release:publish" : "eslint-publish-release",
+        "release:generate:rc" : "eslint-generate-prerelease rc",
+        "release:generate:beta" : "eslint-generate-prerelease beta",
+        "release:generate:alpha" : "eslint-generate-prerelease alpha",
+        "release:generate:latest" : "eslint-generate-release"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.2.4",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@3.0.2",
+      "gitHead" : "fb8d7ffbb27214686318a07e16ac8878aaafc805",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_3.0.2_1708723355417_0.3562103345267289",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.11.1"
+    },
+    "3.2.0" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-3.2.0.tgz",
+        "shasum" : "57470ac4e2e283a6bf76044d63281196e370542c"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^10.0.1",
+        "ignore" : "^5.2.0",
+        "globals" : "^14.0.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.5",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "lint:fix" : "npm run lint -- --fix",
+        "release:publish" : "eslint-publish-release",
+        "release:generate:rc" : "eslint-generate-prerelease rc",
+        "release:generate:beta" : "eslint-generate-prerelease beta",
+        "release:generate:alpha" : "eslint-generate-prerelease alpha",
+        "release:generate:latest" : "eslint-generate-release"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.9.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      },
+      "_id" : "@eslint/eslintrc@3.2.0",
+      "gitHead" : "f05aea7eeca2b99eae6310954cb25d3a904cc605",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_3.2.0_1731688498352_0.20476424755903166",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "22.11.0"
+    },
+    "3.3.0" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "3.3.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-3.3.0.tgz",
+        "shasum" : "96a558f45842989cca7ea1ecd785ad5491193846"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^10.0.1",
+        "ignore" : "^5.2.0",
+        "globals" : "^14.0.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^9.20.1",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.5",
+        "temp-dir" : "^2.0.0",
+        "typescript" : "^5.7.3",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-config-eslint" : "^11.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c && node -e \"fs.copyFileSync('./lib/types/index.d.ts', './dist/eslintrc.d.cts')\"",
+        "prepare" : "npm run build",
+        "lint:fix" : "npm run lint -- --fix",
+        "test:types" : "tsc -p tests/lib/types/tsconfig.json",
+        "release:publish" : "eslint-publish-release",
+        "release:generate:rc" : "eslint-generate-prerelease rc",
+        "release:generate:beta" : "eslint-generate-prerelease beta",
+        "release:generate:alpha" : "eslint-generate-prerelease alpha",
+        "release:generate:latest" : "eslint-generate-release"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas@eslint.org"
+      },
+      "_id" : "@eslint/eslintrc@3.3.0",
+      "gitHead" : "6a8814ccaec9ce6b59f388527ba56c25d759042d",
+      "types" : "./dist/eslintrc.d.ts",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "types" : "./lib/types/index.d.ts",
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_3.3.0_1740171838672_0.8201652884309725",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "_nodeVersion" : "22.13.1"
+    },
+    "3.3.1" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "3.3.1",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslintrc.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-3.3.1.tgz",
+        "shasum" : "e55f7f1dd400600dd066dbba349c4c0bac916964"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^10.0.1",
+        "globals" : "^14.0.0",
+        "ignore" : "^5.2.0",
+        "import-fresh" : "^3.2.1",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "eslint" : "^9.20.1",
+        "eslint-config-eslint" : "^11.0.0",
+        "eslint-release" : "^3.2.0",
+        "fs-teardown" : "^0.1.3",
+        "mocha" : "^9.0.3",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.5",
+        "sinon" : "^11.1.2",
+        "temp-dir" : "^2.0.0",
+        "typescript" : "^5.7.3"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "contact@eslint.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rollup -c && node -e \"fs.copyFileSync('./lib/types/index.d.ts', './dist/eslintrc.d.cts')\"",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "lint:fix" : "npm run lint -- --fix",
+        "prepare" : "npm run build",
+        "release:generate:latest" : "eslint-generate-release",
+        "release:generate:alpha" : "eslint-generate-prerelease alpha",
+        "release:generate:beta" : "eslint-generate-prerelease beta",
+        "release:generate:rc" : "eslint-generate-prerelease rc",
+        "release:publish" : "eslint-publish-release",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "test:types" : "tsc -p tests/lib/types/tsconfig.json"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "contact@eslint.org"
+      },
+      "_id" : "@eslint/eslintrc@3.3.1",
+      "gitHead" : "556e80029f01d07758ab1f5801bc9421bca4b072",
+      "types" : "./dist/eslintrc.d.cts",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs",
+          "types" : "./lib/types/index.d.ts"
+        },
+        "./package.json" : "./package.json",
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/eslintrc_3.3.1_1742587674433_0.665031272667042"
+      },
+      "type" : "module",
+      "_nodeVersion" : "22.14.0"
+    },
+    "2.0.0" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-2.0.0.tgz",
+        "shasum" : "943309d8697c52fc82c076e90c1c74fbbe69dbff"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.4.0",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.19.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@2.0.0",
+      "gitHead" : "b3a7658a84ce3a67d540ebe551acaab65a6a2c0c",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_2.0.0_1677371678034_0.06657040819800875",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.18.1"
+    },
+    "2.0.1" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-2.0.1.tgz",
+        "shasum" : "7888fe7ec8f21bc26d646dbd2c11cd776e21192d"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.5.0",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.19.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@2.0.1",
+      "gitHead" : "bd17b5a39b4b81467e6ad2850eab8f63a46afa8a",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_2.0.1_1678482913020_0.31821447049929485",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.18.1"
+    },
+    "2.1.0" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-2.1.0.tgz",
+        "shasum" : "82256f164cc9e0b59669efc19d57f8092706841d"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.6.0",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.19.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@2.1.0",
+      "gitHead" : "289653be93bb3c0768d9a2d1b3f039b900c44e45",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_2.1.0_1688162587304_0.5844165332114202",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "18.16.1"
+    },
+    "2.1.3" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "2.1.3",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-2.1.3.tgz",
+        "shasum" : "797470a75fe0fbd5a53350ee715e85e87baff22d"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.6.0",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.19.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "lint:fix" : "npm run lint -- --fix",
+        "release:publish" : "eslint-publish-release",
+        "release:generate:rc" : "eslint-generate-prerelease rc",
+        "release:generate:beta" : "eslint-generate-prerelease beta",
+        "release:generate:alpha" : "eslint-generate-prerelease alpha",
+        "release:generate:latest" : "eslint-generate-release"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.1.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@2.1.3",
+      "gitHead" : "af564ff562bd4f8c40163b8a44ed9d4989adff6a",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_2.1.3_1699044389344_0.6175580778367349",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.9.0"
+    },
+    "2.1.4" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "2.1.4",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-2.1.4.tgz",
+        "shasum" : "388a269f0f25c1b6adc317b5a2c55714894c70ad"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.6.0",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.19.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "lint:fix" : "npm run lint -- --fix",
+        "release:publish" : "eslint-publish-release",
+        "release:generate:rc" : "eslint-generate-prerelease rc",
+        "release:generate:beta" : "eslint-generate-prerelease beta",
+        "release:generate:alpha" : "eslint-generate-prerelease alpha",
+        "release:generate:latest" : "eslint-generate-release"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@2.1.4",
+      "gitHead" : "01db002fdc8d6c9df3a922f701fc626da342cb97",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_2.1.4_1701464592798_0.8795632028396012",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "20.10.0"
+    },
+    "2.0.2" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-2.0.2.tgz",
+        "shasum" : "01575e38707add677cf73ca1589abba8da899a02"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.5.1",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.19.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@2.0.2",
+      "gitHead" : "86f2f8d84f9a925c49a7de6b15f5b50e312dbd96",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_2.0.2_1680039248271_0.13307994032371329",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.18.1"
+    },
+    "2.1.1" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-2.1.1.tgz",
+        "shasum" : "18d635e24ad35f7276e8a49d135c7d3ca6a46f93"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.6.0",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.19.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@2.1.1",
+      "gitHead" : "5179c63211b6da42e8b63e2ff056f18063f7fafe",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_2.1.1_1690558168486_0.7867066960557481",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "18.17.0"
+    },
+    "2.0.3" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-2.0.3.tgz",
+        "shasum" : "4910db5505f4d503f27774bf356e3704818a0331"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.5.2",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.19.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@2.0.3",
+      "gitHead" : "66bc3bc32d0486de7ae5c426b0cfd90035478d4b",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_2.0.3_1683315269190_0.9576296496963315",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "18.16.0"
+    },
+    "2.1.2" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "2.1.2",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-2.1.2.tgz",
+        "shasum" : "c6936b4b328c64496692f76944e755738be62396"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.6.0",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.19.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "lint:fix" : "npm run lint -- --fix",
+        "release:publish" : "eslint-publish-release",
+        "release:generate:rc" : "eslint-generate-prerelease rc",
+        "release:generate:beta" : "eslint-generate-prerelease beta",
+        "release:generate:alpha" : "eslint-generate-prerelease alpha",
+        "release:generate:latest" : "eslint-generate-release"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@2.1.2",
+      "gitHead" : "242d569020dfe4f561e4503787b99ec016337457",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_2.1.2_1691765439262_0.13271629489345682",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "18.17.0"
+    },
+    "1.0.3" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.0.3.tgz",
+        "shasum" : "41f08c597025605f672251dcc4e8be66b5ed7366"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.0.0",
+        "ignore" : "^4.0.6",
+        "globals" : "^13.9.0",
+        "js-yaml" : "^3.13.1",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.54.0",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.1.2",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "7.20.3",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.0.3",
+      "gitHead" : "7ddb2e66654a07f56385de4eb74545b50351402e",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.0.3_1634177483407_0.29764000976448113",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.6.1"
+    },
+    "1.2.1" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.2.1",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.2.1.tgz",
+        "shasum" : "8b5e1c49f4077235516bc9ec7d41378c0f69b8c6"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.3.1",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.9.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.54.0",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.2.1",
+      "gitHead" : "4dbeaffe38c16160daf5559227b62c1736bdb36e",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.2.1_1647035406301_0.3473753532204895",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.13.1"
+    },
+    "1.3.0" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.3.0.tgz",
+        "shasum" : "29f92c30bb3e771e4a2048c95fa6855392dfac4f"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.3.2",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.15.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.3.0",
+      "gitHead" : "a57d60877c12601a7f012710a0be2bda8088a947",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.3.0_1653082184871_0.4581624616517428",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.13.1"
+    },
+    "1.0.4" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.0.4",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.0.4.tgz",
+        "shasum" : "dfe0ff7ba270848d10c5add0715e04964c034b31"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.0.0",
+        "ignore" : "^4.0.6",
+        "globals" : "^13.9.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.54.0",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "7.20.3",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.0.4",
+      "gitHead" : "e0852eed84b8128a0e3e8abb3f6b39c543110d48",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.0.4_1636146738027_0.7169617115590754",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.6.1"
+    },
+    "1.2.2" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.2.2",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.2.2.tgz",
+        "shasum" : "4989b9e8c0216747ee7cca314ae73791bb281aae"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.3.1",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.9.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.2.2",
+      "gitHead" : "1f2b153e012b6bcd08925a3c378436ca32838ea4",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.2.2_1650657758903_0.7354193087411216",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.13.1"
+    },
+    "1.3.1" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.3.1",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.3.1.tgz",
+        "shasum" : "de0807bfeffc37b964a7d0400e0c348ce5a2543d"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.4.0",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.15.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.3.1",
+      "gitHead" : "99adbac4fec25a50e466946833677351eb8794b9",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.3.1_1661551297093_0.5282068910494833",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.13.1"
+    },
+    "1.4.0" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.4.0.tgz",
+        "shasum" : "8ec64e0df3e7a1971ee1ff5158da87389f167a63"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.4.0",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.19.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.4.0",
+      "gitHead" : "5d8f9c94d6a6f1afa16dce46a0edd0d3c987c964",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.4.0_1671230920820_0.8066245628447093",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.18.1"
+    },
+    "1.0.5" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.0.5",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.0.5.tgz",
+        "shasum" : "33f1b838dbf1f923bfa517e008362b78ddbbf318"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.2.0",
+        "ignore" : "^4.0.6",
+        "globals" : "^13.9.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.54.0",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "7.20.3",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.0.5",
+      "gitHead" : "0187c0459d31b13b2d647ef22d24b115381f90a3",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.0.5_1638583546035_0.6916498301525542",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.6.1"
+    },
+    "1.2.3" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.2.3",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.2.3.tgz",
+        "shasum" : "fcaa2bcef39e13d6e9e7f6271f4cc7cae1174886"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.3.2",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.9.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.2.3",
+      "gitHead" : "68be5f10b396532159bf170c66b76174637f8058",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.2.3_1651869428710_0.026982886479569368",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.13.1"
+    },
+    "1.3.2" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.3.2",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.3.2.tgz",
+        "shasum" : "58b69582f3b7271d8fa67fe5251767a5b38ea356"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.4.0",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.15.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.3.2",
+      "gitHead" : "9e1d1b324dba199492a7cccb56d873c1d4fa0730",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.3.2_1662958724860_0.46699229734267367",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.13.1"
+    },
+    "1.4.1" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.4.1",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.4.1.tgz",
+        "shasum" : "af58772019a2d271b7e2d4c23ff4ddcba3ccfb3e"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.4.0",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.19.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.4.1",
+      "gitHead" : "41efba80452ee0934ab60e4f5afbafac477ac3e7",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.4.1_1672462099310_0.0032557077535533274",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.18.1"
+    },
+    "1.3.3" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.3.3",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.3.3.tgz",
+        "shasum" : "2b044ab39fdfa75b4688184f9e573ce3c5b0ff95"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.4.0",
+        "ignore" : "^5.2.0",
+        "globals" : "^13.15.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.1.2",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.70.1",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.3.3",
+      "gitHead" : "438e8d7c522f4d5e04cb34f02e0ce232932a70e0",
+      "funding" : "https://opencollective.com/eslint",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.3.3_1665179200487_0.6721470985495359",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.13.1"
+    },
+    "1.0.0" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.0.0.tgz",
+        "shasum" : "08309b915051dbfcfea8c3cdfc832375303396c9"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^8.0.0",
+        "ignore" : "^4.0.6",
+        "globals" : "^13.9.0",
+        "js-yaml" : "^3.13.1",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.54.0",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.1.2",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "7.20.3",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.0.0",
+      "gitHead" : "be0f70dacaa3ea1f0f606d240e5f63435b34810e",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.0.0_1628296375595_0.40670483482909603",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.6.1"
+    },
+    "1.0.1" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.0.1.tgz",
+        "shasum" : "13a610699a1c5b2d03eddb8cca3d84275aa833aa"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.0.0",
+        "ignore" : "^4.0.6",
+        "globals" : "^13.9.0",
+        "js-yaml" : "^3.13.1",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.54.0",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.1.2",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "7.20.3",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.0.1",
+      "gitHead" : "e051f50fd1e843537531392b492173ad82f6abc1",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.0.1_1631309419837_0.46539376997399406",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.6.1"
+    },
+    "1.1.0" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.1.0.tgz",
+        "shasum" : "583d12dbec5d4f22f333f9669f7d0b7c7815b4d3"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.3.1",
+        "ignore" : "^4.0.6",
+        "globals" : "^13.9.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.54.0",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.1.0",
+      "gitHead" : "8761efbb1b263f63bcc34a3765ce092c7494b251",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.1.0_1644622542418_0.0799141003792252",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.13.1"
+    },
+    "1.0.2" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.0.2.tgz",
+        "shasum" : "6044884f7f93c4ecc2d1694c7486cce91ef8f746"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.0.0",
+        "ignore" : "^4.0.6",
+        "globals" : "^13.9.0",
+        "js-yaml" : "^3.13.1",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.54.0",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.1.2",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "7.20.3",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.0.2",
+      "gitHead" : "69e1840536c115f45559081cf76c69c7a9591c33",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.0.2_1633810163779_0.9029041892727063",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.6.1"
+    },
+    "1.2.0" : {
+      "name" : "@eslint/eslintrc",
+      "description" : "The legacy ESLintRC config file format for ESLint",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Nicholas C. Zakas"
+      },
+      "homepage" : "https://github.com/eslint/eslintrc#readme",
+      "repository" : {
+        "url" : "git+https://github.com/eslint/eslintrc.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslintrc/issues"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./dist/eslintrc.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@eslint/eslintrc/-/eslintrc-1.2.0.tgz",
+        "shasum" : "7ce1547a5c46dfe56e1e45c3c9ed18038c721c6a"
+      },
+      "dependencies" : {
+        "ajv" : "^6.12.4",
+        "debug" : "^4.3.2",
+        "espree" : "^9.3.1",
+        "ignore" : "^4.0.6",
+        "globals" : "^13.9.0",
+        "js-yaml" : "^4.1.0",
+        "minimatch" : "^3.0.4",
+        "import-fresh" : "^3.2.1",
+        "strip-json-comments" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "c8" : "^7.7.3",
+        "chai" : "^4.3.4",
+        "mocha" : "^9.0.3",
+        "sinon" : "^11.1.2",
+        "eslint" : "^7.31.0",
+        "rollup" : "^2.54.0",
+        "shelljs" : "^0.8.4",
+        "temp-dir" : "^2.0.0",
+        "fs-teardown" : "^0.1.3",
+        "eslint-release" : "^3.2.0",
+        "eslint-plugin-node" : "^11.1.0",
+        "eslint-plugin-jsdoc" : "^35.4.1",
+        "eslint-config-eslint" : "^7.0.0"
+      },
+      "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fix" : "npm run lint -- --fix",
+        "lint" : "eslint . --report-unused-disable-directives",
+        "test" : "mocha -R progress -c 'tests/lib/*.cjs' && c8 mocha -R progress -c 'tests/lib/**/*.js'",
+        "build" : "rollup -c",
+        "prepare" : "npm run build",
+        "publish-release" : "eslint-publish-release",
+        "generate-release" : "eslint-generate-release",
+        "generate-rcrelease" : "eslint-generate-prerelease rc",
+        "generate-betarelease" : "eslint-generate-prerelease beta",
+        "generate-alpharelease" : "eslint-generate-prerelease alpha"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.1.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/eslintrc@1.2.0",
+      "gitHead" : "67a7d5a6b96ecabf32d64242c1bc9cc016ab9bae",
+      "exports" : {
+        "." : {
+          "import" : "./lib/index.js",
+          "require" : "./dist/eslintrc.cjs"
+        },
+        "./universal" : {
+          "import" : "./lib/index-universal.js",
+          "require" : "./dist/eslintrc-universal.cjs"
+        },
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/eslintrc_1.2.0_1645826805396_0.15693084808002378",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.13.1"
+    }
+  },
+  "readme" : "# ESLintRC Library\n\nThis repository contains the legacy ESLintRC configuration file format for ESLint. This package is not intended for use outside of the ESLint ecosystem. It is ESLint-specific and not intended for use in other programs.\n\n**Note:** This package is frozen except for critical bug fixes as ESLint moves to a new config system.\n\n## Installation\n\nYou can install the package as follows:\n\n```shell\nnpm install @eslint/eslintrc -D\n# or\nyarn add @eslint/eslintrc -D\n# or\npnpm install @eslint/eslintrc -D\n# or\nbun install @eslint/eslintrc -D\n```\n\n## Usage (ESM)\n\nThe primary class in this package is `FlatCompat`, which is a utility to translate ESLintRC-style configs into flat configs. Here's how you use it inside of your `eslint.config.js` file:\n\n```js\nimport { FlatCompat } from \"@eslint/eslintrc\";\nimport js from \"@eslint/js\";\nimport path from \"path\";\nimport { fileURLToPath } from \"url\";\n\n// mimic CommonJS variables -- not needed if using CommonJS\nconst __filename = fileURLToPath(import.meta.url);\nconst __dirname = path.dirname(__filename);\n\nconst compat = new FlatCompat({\n    baseDirectory: __dirname,                  // optional; default: process.cwd()\n    resolvePluginsRelativeTo: __dirname,       // optional\n    recommendedConfig: js.configs.recommended, // optional unless you're using \"eslint:recommended\"\n    allConfig: js.configs.all,                 // optional unless you're using \"eslint:all\"\n});\n\nexport default [\n\n    // mimic ESLintRC-style extends\n    ...compat.extends(\"standard\", \"example\", \"plugin:react/recommended\"),\n\n    // mimic environments\n    ...compat.env({\n        es2020: true,\n        node: true\n    }),\n\n    // mimic plugins\n    ...compat.plugins(\"jsx-a11y\", \"react\"),\n\n    // translate an entire config\n    ...compat.config({\n        plugins: [\"jsx-a11y\", \"react\"],\n        extends: \"standard\",\n        env: {\n            es2020: true,\n            node: true\n        },\n        rules: {\n            semi: \"error\"\n        }\n    })\n];\n```\n\n## Usage (CommonJS)\n\nUsing `FlatCompat` in CommonJS files is similar to ESM, but you'll use `require()` and `module.exports` instead of `import` and `export`. Here's how you use it inside of your `eslint.config.js` CommonJS file:\n\n```js\nconst { FlatCompat } = require(\"@eslint/eslintrc\");\nconst js = require(\"@eslint/js\");\n\nconst compat = new FlatCompat({\n    baseDirectory: __dirname,                  // optional; default: process.cwd()\n    resolvePluginsRelativeTo: __dirname,       // optional\n    recommendedConfig: js.configs.recommended, // optional unless using \"eslint:recommended\"\n    allConfig: js.configs.all,                 // optional unless using \"eslint:all\"\n});\n\nmodule.exports = [\n\n    // mimic ESLintRC-style extends\n    ...compat.extends(\"standard\", \"example\", \"plugin:react/recommended\"),\n\n    // mimic environments\n    ...compat.env({\n        es2020: true,\n        node: true\n    }),\n\n    // mimic plugins\n    ...compat.plugins(\"jsx-a11y\", \"react\"),\n\n    // translate an entire config\n    ...compat.config({\n        plugins: [\"jsx-a11y\", \"react\"],\n        extends: \"standard\",\n        env: {\n            es2020: true,\n            node: true\n        },\n        rules: {\n            semi: \"error\"\n        }\n    })\n];\n```\n\n## Troubleshooting\n\n**TypeError: Missing parameter 'recommendedConfig' in FlatCompat constructor**\n\nThe `recommendedConfig` option is required when any config uses `eslint:recommended`, including any config in an `extends` clause. To fix this, follow the example above using `@eslint/js` to provide the `eslint:recommended` config.\n\n**TypeError: Missing parameter 'allConfig' in FlatCompat constructor**\n\nThe `allConfig` option is required when any config uses `eslint:all`, including any config in an `extends` clause. To fix this, follow the example above using `@eslint/js` to provide the `eslint:all` config.\n\n\n## License\n\nMIT License\n",
+  "maintainers" : [ {
+    "name" : "openjsfoundation",
+    "email" : "npm@openjsf.org"
+  }, {
+    "name" : "eslintbot",
+    "email" : "contact@eslint.org"
+  } ],
+  "author" : {
+    "name" : "Nicholas C. Zakas"
+  },
+  "time" : {
+    "0.4.2" : "2021-06-04T21:55:38.818Z",
+    "0.4.3" : "2021-07-17T21:23:33.692Z",
+    "0.1.3" : "2020-09-01T18:52:03.491Z",
+    "0.2.2" : "2020-12-05T05:19:39.191Z",
+    "0.4.0" : "2021-02-27T21:24:04.605Z",
+    "0.4.1" : "2021-05-08T00:25:26.482Z",
+    "0.1.1" : "2020-09-01T18:24:29.876Z",
+    "0.2.0" : "2020-10-16T17:47:42.178Z",
+    "0.1.2" : "2020-09-01T18:36:22.937Z",
+    "0.2.1" : "2020-10-27T03:08:43.063Z",
+    "0.3.0" : "2021-01-15T22:11:13.613Z",
+    "0.1.0" : "2020-08-24T19:00:16.089Z",
+    "0.0.1" : "2020-09-01T18:02:39.682Z",
+    "3.0.0" : "2023-12-27T18:00:12.842Z",
+    "modified" : "2025-03-21T20:07:55.125Z",
+    "3.0.1" : "2024-02-09T23:10:32.780Z",
+    "3.1.0" : "2024-05-17T20:08:41.976Z",
+    "3.0.2" : "2024-02-23T21:22:35.583Z",
+    "3.2.0" : "2024-11-15T16:34:58.562Z",
+    "3.3.0" : "2025-02-21T21:03:58.860Z",
+    "3.3.1" : "2025-03-21T20:07:54.663Z",
+    "2.0.0" : "2023-02-26T00:34:38.217Z",
+    "2.0.1" : "2023-03-10T21:15:13.207Z",
+    "2.1.0" : "2023-06-30T22:03:07.544Z",
+    "created" : "2020-08-24T19:00:15.734Z",
+    "2.1.3" : "2023-11-03T20:46:29.640Z",
+    "2.1.4" : "2023-12-01T21:03:13.123Z",
+    "2.0.2" : "2023-03-28T21:34:08.446Z",
+    "2.1.1" : "2023-07-28T15:29:28.685Z",
+    "2.0.3" : "2023-05-05T19:34:29.430Z",
+    "2.1.2" : "2023-08-11T14:50:39.509Z",
+    "1.0.3" : "2021-10-14T02:11:23.588Z",
+    "1.2.1" : "2022-03-11T21:50:06.438Z",
+    "1.3.0" : "2022-05-20T21:29:45.012Z",
+    "1.0.4" : "2021-11-05T21:12:18.196Z",
+    "1.2.2" : "2022-04-22T20:02:39.072Z",
+    "1.3.1" : "2022-08-26T22:01:37.354Z",
+    "1.4.0" : "2022-12-16T22:48:41.000Z",
+    "1.0.5" : "2021-12-04T02:05:46.173Z",
+    "1.2.3" : "2022-05-06T20:37:08.932Z",
+    "1.3.2" : "2022-09-12T04:58:45.038Z",
+    "1.4.1" : "2022-12-31T04:48:19.520Z",
+    "1.3.3" : "2022-10-07T21:46:41.243Z",
+    "1.0.0" : "2021-08-07T00:32:55.768Z",
+    "1.0.1" : "2021-09-10T21:30:20.032Z",
+    "1.1.0" : "2022-02-11T23:35:42.581Z",
+    "1.0.2" : "2021-10-09T20:09:23.930Z",
+    "1.2.0" : "2022-02-25T22:06:45.582Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/eslint/eslintrc.git"
+  },
+  "users" : {
+    "flumpus-dev" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/eslint/eslintrc#readme",
+  "keywords" : [ "ESLint", "ESLintRC", "Configuration" ],
+  "bugs" : {
+    "url" : "https://github.com/eslint/eslintrc/issues"
+  },
+  "license" : "MIT"
+}

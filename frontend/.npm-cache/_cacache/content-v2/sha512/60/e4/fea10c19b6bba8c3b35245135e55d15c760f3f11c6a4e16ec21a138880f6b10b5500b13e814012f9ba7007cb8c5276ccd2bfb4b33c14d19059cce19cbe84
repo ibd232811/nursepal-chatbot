@@ -1,0 +1,1387 @@
+{
+  "_id" : "sugarss",
+  "_rev" : "31-bca204cf23a6018b097f588d05d44860",
+  "name" : "sugarss",
+  "description" : "Indent-based CSS syntax for PostCSS",
+  "dist-tags" : {
+    "latest" : "5.0.1"
+  },
+  "versions" : {
+    "0.1.5" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "0.1.5",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-0.1.5.tgz",
+        "shasum" : "c0c25bc0941678504237e806aecd160a30a94eea"
+      },
+      "dependencies" : {
+        "postcss" : "^5.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "0.15.2",
+        "eslint" : "3.1.1",
+        "babel-cli" : "6.11.4",
+        "babel-core" : "6.11.4",
+        "babel-eslint" : "6.1.2",
+        "babel-preset-stage-0" : "6.5.0",
+        "postcss-parser-tests" : "5.0.9",
+        "eslint-config-postcss" : "2.0.2",
+        "babel-preset-es2015-loose" : "7.0.0",
+        "babel-plugin-add-module-exports" : "0.2.1",
+        "babel-plugin-precompile-charcodes" : "1.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.es6 test/*.js",
+        "test" : "npm run build && ava && npm run lint",
+        "build" : "npm run clean && babel -s inline -d ./ *.es6",
+        "clean" : "rm *.js || echo 'Already cleaned'",
+        "prepublish" : "npm run build"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@0.1.5",
+      "gitHead" : "4dc5c18742af3988a0287009fcd2d5da1ba463d7",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss-0.1.5.tgz_1469278585745_0.10302902827970684",
+        "host" : "packages-16-east.internal.npmjs.com"
+      },
+      "_shasum" : "c0c25bc0941678504237e806aecd160a30a94eea",
+      "_nodeVersion" : "6.3.0"
+    },
+    "2.0.0" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-2.0.0.tgz",
+        "shasum" : "ddd76e0124b297d40bf3cca31c8b22ecb43bc61d"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.2.0",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@2.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss_2.0.0_1533959779336_0.6646467809699204",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.8.0"
+    },
+    "0.1.6" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "0.1.6",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-0.1.6.tgz",
+        "shasum" : "fe3ac0e1e07282aef1de84a80b72386ff4e7ea37"
+      },
+      "dependencies" : {
+        "postcss" : "^5.2.0"
+      },
+      "devDependencies" : {
+        "ava" : "0.16.0",
+        "eslint" : "3.4.0",
+        "babel-cli" : "6.14.0",
+        "babel-core" : "6.14.0",
+        "pre-commit" : "1.1.3",
+        "lint-staged" : "2.0.3",
+        "babel-eslint" : "6.1.2",
+        "babel-preset-stage-0" : "6.5.0",
+        "postcss-parser-tests" : "5.0.10",
+        "eslint-config-postcss" : "2.0.2",
+        "babel-preset-es2015-loose" : "7.0.0",
+        "babel-plugin-add-module-exports" : "0.2.1",
+        "babel-plugin-precompile-charcodes" : "1.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.es6 test/*.js",
+        "test" : "npm run build && ava && npm run lint",
+        "build" : "npm run clean && babel -s inline -d ./ *.es6",
+        "clean" : "rm *.js || echo 'Already cleaned'",
+        "prepublish" : "npm run build",
+        "lint-staged" : "lint-staged"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@0.1.6",
+      "lint-staged" : {
+        "*.es6" : "eslint",
+        "test/*.js" : "eslint"
+      },
+      "gitHead" : "399a098e0ec09079eeb8c4d30ca6c8abbc2f9f2c",
+      "pre-commit" : [ "lint-staged" ],
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss-0.1.6.tgz_1473304421438_0.9350021921563894",
+        "host" : "packages-12-west.internal.npmjs.com"
+      },
+      "_shasum" : "fe3ac0e1e07282aef1de84a80b72386ff4e7ea37",
+      "_nodeVersion" : "6.5.0"
+    },
+    "0.1.3" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "0.1.3",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-0.1.3.tgz",
+        "shasum" : "c3b0955c04346622064c8d674ce46ad40dcbea82"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.19"
+      },
+      "devDependencies" : {
+        "ava" : "0.14.0",
+        "eslint" : "2.8.0",
+        "babel-cli" : "6.7.7",
+        "babel-core" : "6.7.7",
+        "babel-eslint" : "6.0.3",
+        "babel-preset-stage-0" : "6.5.0",
+        "postcss-parser-tests" : "5.0.6",
+        "eslint-config-postcss" : "2.0.2",
+        "babel-preset-es2015-loose" : "7.0.0",
+        "babel-plugin-add-module-exports" : "0.1.2",
+        "babel-plugin-precompile-charcodes" : "1.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.es6 test/*.js",
+        "test" : "npm run build && ava && npm run lint",
+        "build" : "npm run clean && babel -s inline -d ./ *.es6",
+        "clean" : "rm *.js || echo 'Already cleaned'",
+        "prepublish" : "npm run build"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.3",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@0.1.3",
+      "gitHead" : "869fa4df28c9d438f9289c072f33f741e7be4473",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss-0.1.3.tgz_1461397568542_0.04163599107414484",
+        "host" : "packages-16-east.internal.npmjs.com"
+      },
+      "_shasum" : "c3b0955c04346622064c8d674ce46ad40dcbea82",
+      "_nodeVersion" : "5.10.1"
+    },
+    "0.1.4" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "0.1.4",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-0.1.4.tgz",
+        "shasum" : "0b1e5027232d305c14bcee90a46e2a3bc4817322"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.21"
+      },
+      "devDependencies" : {
+        "ava" : "0.15.1",
+        "eslint" : "2.11.0",
+        "babel-cli" : "6.9.0",
+        "babel-core" : "6.9.1",
+        "babel-eslint" : "6.0.4",
+        "babel-preset-stage-0" : "6.5.0",
+        "postcss-parser-tests" : "5.0.7",
+        "eslint-config-postcss" : "2.0.2",
+        "babel-preset-es2015-loose" : "7.0.0",
+        "babel-plugin-add-module-exports" : "0.2.1",
+        "babel-plugin-precompile-charcodes" : "1.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.es6 test/*.js",
+        "test" : "npm run build && ava && npm run lint",
+        "build" : "npm run clean && babel -s inline -d ./ *.es6",
+        "clean" : "rm *.js || echo 'Already cleaned'",
+        "prepublish" : "npm run build"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.9",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@0.1.4",
+      "gitHead" : "a869c18506168bea1429c9628d142b9011fbe986",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss-0.1.4.tgz_1464626427902_0.720276698935777",
+        "host" : "packages-12-west.internal.npmjs.com"
+      },
+      "_shasum" : "0b1e5027232d305c14bcee90a46e2a3bc4817322",
+      "_nodeVersion" : "6.2.0"
+    },
+    "4.0.0" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "engines" : {
+        "node" : ">=12.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-4.0.0.tgz",
+        "shasum" : "f27cd3581a629f5945308bba2cff4c0ec3f48559"
+      },
+      "peerDependencies" : {
+        "postcss" : "^8.3.3"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "7.15.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@4.0.0",
+      "funding" : {
+        "url" : "https://opencollective.com/postcss/",
+        "type" : "opencollective"
+      },
+      "exports" : {
+        "." : {
+          "import" : "./index.mjs",
+          "require" : "./index.js"
+        },
+        "./parse" : "./parse.js",
+        "./tokenize" : "./tokenize.js",
+        "./stringify" : "./stringify.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss_4.0.0_1623650151449_0.9584451023609482",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.3.0"
+    },
+    "4.0.1" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "engines" : {
+        "node" : ">=12.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-4.0.1.tgz",
+        "shasum" : "128a783ed71ee0fc3b489ce1f7d5a89bc1e24383"
+      },
+      "peerDependencies" : {
+        "postcss" : "^8.3.3"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "7.15.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@4.0.1",
+      "funding" : {
+        "url" : "https://opencollective.com/postcss/",
+        "type" : "opencollective"
+      },
+      "exports" : {
+        "." : {
+          "import" : "./index.mjs",
+          "require" : "./index.js"
+        },
+        "./parse" : "./parse.js",
+        "./tokenize" : "./tokenize.js",
+        "./stringify" : "./stringify.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss_4.0.1_1623650659682_0.45044453889318103",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "16.3.0"
+    },
+    "0.1.1" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-0.1.1.tgz",
+        "shasum" : "18901fe7be8d93629abdd915e23e2dedbe241ce9"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.19"
+      },
+      "devDependencies" : {
+        "ava" : "0.13.0",
+        "eslint" : "2.4.0",
+        "babel-cli" : "6.6.5",
+        "babel-core" : "6.7.2",
+        "babel-eslint" : "6.0.0-beta.6",
+        "babel-preset-stage-0" : "6.5.0",
+        "postcss-parser-tests" : "5.0.6",
+        "eslint-config-postcss" : "2.0.2",
+        "babel-preset-es2015-loose" : "7.0.0",
+        "babel-plugin-add-module-exports" : "0.1.2",
+        "babel-plugin-precompile-charcodes" : "1.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.es6 test/*.js",
+        "test" : "npm run build && ava && npm run lint",
+        "build" : "npm run clean && babel -s inline -d ./ *.es6",
+        "clean" : "rm *.js || echo 'Already cleaned'",
+        "prepublish" : "npm run build"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.3",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@0.1.1",
+      "gitHead" : "b89292ebf74ed0098717cd435639da4bea2b2513",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss-0.1.1.tgz_1458059650433_0.43776392634026706",
+        "host" : "packages-13-west.internal.npmjs.com"
+      },
+      "_shasum" : "18901fe7be8d93629abdd915e23e2dedbe241ce9",
+      "_nodeVersion" : "5.8.0"
+    },
+    "0.2.0" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-0.2.0.tgz",
+        "shasum" : "ac34237563327c6ff897b64742bf6aec190ad39e"
+      },
+      "dependencies" : {
+        "postcss" : "^5.2.4"
+      },
+      "devDependencies" : {
+        "ava" : "0.16.0",
+        "eslint" : "3.7.1",
+        "babel-cli" : "6.16.0",
+        "babel-core" : "6.17.0",
+        "pre-commit" : "1.1.3",
+        "lint-staged" : "3.0.3",
+        "babel-eslint" : "7.0.0",
+        "babel-preset-es2015" : "6.16.0",
+        "babel-preset-stage-0" : "6.16.0",
+        "postcss-parser-tests" : "5.0.10",
+        "eslint-config-postcss" : "2.0.2",
+        "babel-plugin-add-module-exports" : "0.2.1",
+        "babel-plugin-precompile-charcodes" : "1.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.es6 test/*.js",
+        "test" : "npm run build && ava && npm run lint",
+        "build" : "npm run clean && babel -s inline -d ./ *.es6",
+        "clean" : "rm *.js || echo 'Already cleaned'",
+        "prepublish" : "npm run build",
+        "lint-staged" : "lint-staged"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@0.2.0",
+      "lint-staged" : {
+        "*.es6" : "eslint",
+        "test/*.js" : "eslint"
+      },
+      "gitHead" : "ded261e3d6cbb2ba779f8152efc9cfd69990c34f",
+      "pre-commit" : [ "lint-staged" ],
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss-0.2.0.tgz_1475852527678_0.7048247170168906",
+        "host" : "packages-16-east.internal.npmjs.com"
+      },
+      "_shasum" : "ac34237563327c6ff897b64742bf6aec190ad39e",
+      "_nodeVersion" : "6.7.0"
+    },
+    "0.1.2" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-0.1.2.tgz",
+        "shasum" : "d3c630ac59a9686354e0c5282cb2566fc64d48b3"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.19"
+      },
+      "devDependencies" : {
+        "ava" : "0.13.0",
+        "eslint" : "2.4.0",
+        "babel-cli" : "6.6.5",
+        "babel-core" : "6.7.2",
+        "babel-eslint" : "6.0.0-beta.6",
+        "babel-preset-stage-0" : "6.5.0",
+        "postcss-parser-tests" : "5.0.6",
+        "eslint-config-postcss" : "2.0.2",
+        "babel-preset-es2015-loose" : "7.0.0",
+        "babel-plugin-add-module-exports" : "0.1.2",
+        "babel-plugin-precompile-charcodes" : "1.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.es6 test/*.js",
+        "test" : "npm run build && ava && npm run lint",
+        "build" : "npm run clean && babel -s inline -d ./ *.es6",
+        "clean" : "rm *.js || echo 'Already cleaned'",
+        "prepublish" : "npm run build"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.3",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@0.1.2",
+      "gitHead" : "2871c8eedbe254fbfab87715166336df7f068765",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss-0.1.2.tgz_1458195375274_0.7997586966957897",
+        "host" : "packages-12-west.internal.npmjs.com"
+      },
+      "_shasum" : "d3c630ac59a9686354e0c5282cb2566fc64d48b3",
+      "_nodeVersion" : "5.8.0"
+    },
+    "0.0.1" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-0.0.1.tgz",
+        "shasum" : "93155f94b0b99ef49daf5d646afeb8a178eb7ae1"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.19"
+      },
+      "devDependencies" : {
+        "ava" : "0.12.0",
+        "eslint" : "2.2.0",
+        "babel-cli" : "6.6.5",
+        "babel-core" : "6.6.5",
+        "babel-eslint" : "6.0.0-beta.2",
+        "babel-preset-stage-0" : "6.5.0",
+        "postcss-parser-tests" : "5.0.6",
+        "eslint-config-postcss" : "2.0.2",
+        "babel-preset-es2015-loose" : "7.0.0",
+        "babel-plugin-add-module-exports" : "0.1.2",
+        "babel-plugin-precompile-charcodes" : "1.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.es6 test/*.js",
+        "test" : "npm run build && ava && npm run lint",
+        "build" : "npm run clean && babel -s inline -d ./ *.es6",
+        "clean" : "rm *.js || echo 'Already cleaned'",
+        "prepublish" : "npm run build"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.6.0",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@0.0.1",
+      "gitHead" : "8048452089706c9dc012db85cb9ea030579e2049",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss-0.0.1.tgz_1457425450443_0.07879688148386776",
+        "host" : "packages-13-west.internal.npmjs.com"
+      },
+      "_shasum" : "93155f94b0b99ef49daf5d646afeb8a178eb7ae1",
+      "_nodeVersion" : "5.7.1"
+    },
+    "0.1.0" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-0.1.0.tgz",
+        "shasum" : "10418201e8d38ed5e0f32fcf1f880dadaa08651d"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.19"
+      },
+      "devDependencies" : {
+        "ava" : "0.12.0",
+        "eslint" : "2.2.0",
+        "babel-cli" : "6.6.5",
+        "babel-core" : "6.6.5",
+        "babel-eslint" : "6.0.0-beta.2",
+        "babel-preset-stage-0" : "6.5.0",
+        "postcss-parser-tests" : "5.0.6",
+        "eslint-config-postcss" : "2.0.2",
+        "babel-preset-es2015-loose" : "7.0.0",
+        "babel-plugin-add-module-exports" : "0.1.2",
+        "babel-plugin-precompile-charcodes" : "1.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.es6 test/*.js",
+        "test" : "npm run build && ava && npm run lint",
+        "build" : "npm run clean && babel -s inline -d ./ *.es6",
+        "clean" : "rm *.js || echo 'Already cleaned'",
+        "prepublish" : "npm run build"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.6.0",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@0.1.0",
+      "gitHead" : "97ad86ce7d2e117cfa9c75921ef2c0cf998070fd",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss-0.1.0.tgz_1457483769374_0.5579545076470822",
+        "host" : "packages-13-west.internal.npmjs.com"
+      },
+      "_shasum" : "10418201e8d38ed5e0f32fcf1f880dadaa08651d",
+      "_nodeVersion" : "5.7.1"
+    },
+    "3.0.0" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "engines" : {
+        "node" : ">=10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-3.0.0.tgz",
+        "shasum" : "fb490f9d6f5f60e0a14209a7c8e611d2ddbde489"
+      },
+      "dependencies" : {
+        "postcss" : "^8.0.2"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@3.0.0",
+      "exports" : {
+        "." : {
+          "import" : "./index.mjs",
+          "require" : "./index.js"
+        },
+        "./" : "./"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss_3.0.0_1600189524211_0.08362728410000697",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "14.10.1"
+    },
+    "5.0.0" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "engines" : {
+        "node" : ">=18.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-5.0.0.tgz",
+        "shasum" : "a97ddc1b5a1598ba283a10b8d73da56a3848fe36"
+      },
+      "peerDependencies" : {
+        "postcss" : "^8.3.3"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "10.9.0",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@5.0.0",
+      "gitHead" : "0b7a62c59d4c9e2e37a4043437dd13c97ab8ed9e",
+      "funding" : [ {
+        "url" : "https://opencollective.com/postcss/",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://github.com/sponsors/ai",
+        "type" : "github"
+      } ],
+      "exports" : {
+        "." : {
+          "import" : "./index.mjs",
+          "require" : "./index.js"
+        },
+        "./parse" : "./parse.js",
+        "./tokenize" : "./tokenize.js",
+        "./stringify" : "./stringify.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss_5.0.0_1732099078536_0.6054581045290888",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.11.0"
+    },
+    "5.0.1" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "5.0.1",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/sugarss.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "engines" : {
+        "node" : ">=18.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-5.0.1.tgz",
+        "shasum" : "55589d1b997cdb1f0d84a94ed7f002e708f909bc"
+      },
+      "peerDependencies" : {
+        "postcss" : "^8.3.3"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@5.0.1",
+      "gitHead" : "6ba62e45254d2c90d2b0888103313d75beee1964",
+      "funding" : [ {
+        "type" : "opencollective",
+        "url" : "https://opencollective.com/postcss/"
+      }, {
+        "type" : "github",
+        "url" : "https://github.com/sponsors/ai"
+      } ],
+      "exports" : {
+        "." : {
+          "require" : "./index.js",
+          "import" : "./index.mjs"
+        },
+        "./parse" : "./parse.js",
+        "./stringify" : "./stringify.js",
+        "./tokenize" : "./tokenize.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/sugarss_5.0.1_1753879945319_0.6627043093659395"
+      },
+      "_nodeVersion" : "22.17.1"
+    },
+    "3.0.1" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "engines" : {
+        "node" : ">=10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-3.0.1.tgz",
+        "shasum" : "1e4e315b3b321eec477ef9617c8964bcf3833b0c"
+      },
+      "dependencies" : {
+        "postcss" : "^8.1.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@3.0.1",
+      "funding" : {
+        "url" : "https://opencollective.com/postcss/",
+        "type" : "opencollective"
+      },
+      "exports" : {
+        "." : {
+          "import" : "./index.mjs",
+          "require" : "./index.js"
+        },
+        "./" : "./"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss_3.0.1_1601166671638_0.4259563227125567",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "14.12.0"
+    },
+    "1.0.0" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-1.0.0.tgz",
+        "shasum" : "65e51b3958432fb70d5451a68bb33e32d0cf1ef7"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "jest" : "^20.0.0",
+        "eslint" : "^3.19.0",
+        "babel-cli" : "^6.24.1",
+        "babel-core" : "^6.24.1",
+        "pre-commit" : "^1.2.2",
+        "lint-staged" : "^3.4.1",
+        "babel-eslint" : "^7.2.3",
+        "babel-preset-env" : "^1.4.0",
+        "babel-preset-stage-0" : "^6.24.1",
+        "postcss-parser-tests" : "^6.0.0",
+        "eslint-config-postcss" : "^2.0.2",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-plugin-precompile-charcodes" : "^1.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.es6 test/*.js",
+        "test" : "npm run build && jest && npm run lint",
+        "build" : "npm run clean && babel -s inline -d ./ *.es6",
+        "clean" : "rm *.js || echo 'Already cleaned'",
+        "prepublish" : "npm run build",
+        "lint-staged" : "lint-staged"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@1.0.0",
+      "lint-staged" : {
+        "*.es6" : "eslint",
+        "test/*.js" : "eslint"
+      },
+      "gitHead" : "92b0b207bf89fb610fae89bba0b859e5b0e4e8a7",
+      "babel" : {
+        "plugins" : [ "add-module-exports", "precompile-charcodes" ],
+        "presets" : [ [ "env", {
+          "loose" : true,
+          "targets" : {
+            "node" : 4,
+            "browsers" : "last 1 version"
+          }
+        } ], "stage-0" ]
+      },
+      "pre-commit" : [ "lint-staged" ],
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss-1.0.0.tgz_1494154209435_0.4844046556390822",
+        "host" : "packages-12-west.internal.npmjs.com"
+      },
+      "_shasum" : "65e51b3958432fb70d5451a68bb33e32d0cf1ef7",
+      "eslintConfig" : {
+        "env" : {
+          "jest" : true
+        },
+        "rules" : {
+          "complexity" : "off",
+          "key-spacing" : [ "error", {
+            "align" : "value"
+          } ]
+        },
+        "parser" : "babel-eslint",
+        "extends" : "eslint-config-postcss"
+      },
+      "_nodeVersion" : "7.10.0"
+    },
+    "3.0.2" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "3.0.2",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "engines" : {
+        "node" : ">=10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-3.0.2.tgz",
+        "shasum" : "1665ef9ade10acc2ef04e014dead03c4bcc29b90"
+      },
+      "dependencies" : {
+        "postcss" : "^8.1.5"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@3.0.2",
+      "funding" : {
+        "url" : "https://opencollective.com/postcss/",
+        "type" : "opencollective"
+      },
+      "exports" : {
+        "." : {
+          "import" : "./index.mjs",
+          "require" : "./index.js"
+        },
+        "./*" : "./*"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss_3.0.2_1604592868507_0.6130340186248449",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "14.15.0"
+    },
+    "1.0.1" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-1.0.1.tgz",
+        "shasum" : "be826d9003e0f247735f92365dc3fd7f1bae9e44"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.14"
+      },
+      "devDependencies" : {
+        "jest" : "^21.2.1",
+        "eslint" : "^4.10.0",
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.0",
+        "pre-commit" : "^1.2.2",
+        "lint-staged" : "^4.3.0",
+        "babel-eslint" : "^8.0.1",
+        "babel-preset-env" : "^1.6.1",
+        "babel-preset-stage-0" : "^6.24.1",
+        "postcss-parser-tests" : "^6.1.0",
+        "eslint-config-postcss" : "^2.0.2",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-plugin-precompile-charcodes" : "^1.1.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.es6 test/*.js",
+        "test" : "npm run build && jest && npm run lint",
+        "build" : "npm run clean && babel -s inline -d ./ *.es6",
+        "clean" : "rm *.js || echo 'Already cleaned'",
+        "prepack" : "npm run build",
+        "lint-staged" : "lint-staged"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@1.0.1",
+      "lint-staged" : {
+        "*.es6" : "eslint",
+        "test/*.js" : "eslint"
+      },
+      "gitHead" : "a5fcc84ed0bae3e257a0f1ce0a6c5360c699b634",
+      "babel" : {
+        "plugins" : [ "add-module-exports", "precompile-charcodes" ],
+        "presets" : [ [ "env", {
+          "loose" : true,
+          "targets" : {
+            "node" : 4,
+            "browsers" : "last 1 version"
+          }
+        } ], "stage-0" ]
+      },
+      "pre-commit" : [ "lint-staged" ],
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss-1.0.1.tgz_1509907406533_0.5031481094192713",
+        "host" : "s3://npm-registry-packages"
+      },
+      "eslintConfig" : {
+        "env" : {
+          "jest" : true
+        },
+        "rules" : {
+          "complexity" : "off",
+          "key-spacing" : [ "error", {
+            "align" : "value"
+          } ]
+        },
+        "parser" : "babel-eslint",
+        "extends" : "eslint-config-postcss"
+      },
+      "_nodeVersion" : "9.0.0"
+    },
+    "3.0.3" : {
+      "name" : "sugarss",
+      "description" : "Indent-based CSS syntax for PostCSS",
+      "version" : "3.0.3",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/postcss/sugarss#readme",
+      "repository" : {
+        "url" : "git+https://github.com/postcss/sugarss.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/sugarss/issues"
+      },
+      "engines" : {
+        "node" : ">=10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/sugarss/-/sugarss-3.0.3.tgz",
+        "shasum" : "bb2489961b98fbd15e4e35d6b9f4f2ee5547a6cb"
+      },
+      "dependencies" : {
+        "postcss" : "^8.1.6"
+      },
+      "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "sugarss@3.0.3",
+      "funding" : {
+        "url" : "https://opencollective.com/postcss/",
+        "type" : "opencollective"
+      },
+      "exports" : {
+        "." : {
+          "import" : "./index.mjs",
+          "require" : "./index.js"
+        },
+        "./" : "./"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/sugarss_3.0.3_1604594446355_0.17258071795762442",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "14.15.0"
+    }
+  },
+  "readme" : "# SugarSS\n\n<img align=\"right\" width=\"120\" height=\"155\"\n     title=\"SugarSS logo by Maria Keller\"\n     src=\"http://postcss.github.io/sugarss/logo.svg\">\n\nIndent-based CSS syntax for [PostCSS].\n\n```sass\na\n  color: blue\n\n.multiline,\n.selector\n  box-shadow: 1px 0 9px rgba(0, 0, 0, .4),\n              1px 0 3px rgba(0, 0, 0, .6)\n\n// Mobile\n@media (max-width: 400px)\n  .body\n    padding: 0 10px\n```\n\nAs any PostCSS custom syntax, SugarSS has source map, [stylelint]\nand [postcss-sorting] support out-of-box.\n\nIt was designed to be used with [postcss-simple-vars] and [postcss-nested].\nBut you can use it with any PostCSS plugins\nor use it without any PostCSS plugins.\nWith [postcss-mixins] you can use `@mixin` syntax as in Sass.\n\n<a href=\"https://evilmartians.com/?utm_source=sugarss\">\n  <img src=\"https://evilmartians.com/badges/sponsored-by-evil-martians.svg\"\n       alt=\"Sponsored by Evil Martians\" width=\"236\" height=\"54\">\n</a>\n\n[postcss-mixins]:              https://github.com/postcss/postcss-mixins\n[postcss-nested]:              https://github.com/postcss/postcss-nested\n[postcss-simple-vars]:         https://github.com/postcss/postcss-simple-vars\n[postcss-sorting]:             https://github.com/hudochenkov/postcss-sorting\n[stylelint]:                   http://stylelint.io/\n[PostCSS]:                     https://github.com/postcss/postcss\n\n\n## Docs\nRead full docs **[here](https://github.com/postcss/sugarss#readme)**.\n",
+  "maintainers" : [ {
+    "name" : "ai",
+    "email" : "andrey@sitnik.ru"
+  } ],
+  "author" : {
+    "name" : "Andrey Sitnik",
+    "email" : "andrey@sitnik.ru"
+  },
+  "time" : {
+    "0.1.5" : "2016-07-23T12:56:27.758Z",
+    "2.0.0" : "2018-08-11T03:56:19.490Z",
+    "0.1.6" : "2016-09-08T03:13:41.695Z",
+    "0.1.3" : "2016-04-23T07:46:11.580Z",
+    "0.1.4" : "2016-05-30T16:40:30.399Z",
+    "created" : "2016-03-08T08:24:12.388Z",
+    "4.0.0" : "2021-06-14T05:55:51.569Z",
+    "4.0.1" : "2021-06-14T06:04:19.874Z",
+    "0.1.1" : "2016-03-15T16:34:12.909Z",
+    "0.2.0" : "2016-10-07T15:02:10.426Z",
+    "0.1.2" : "2016-03-17T06:16:17.826Z",
+    "0.0.1" : "2016-03-08T08:24:12.388Z",
+    "0.1.0" : "2016-03-09T00:36:12.200Z",
+    "3.0.0" : "2020-09-15T17:05:24.349Z",
+    "modified" : "2025-07-30T12:52:25.726Z",
+    "5.0.0" : "2024-11-20T10:37:58.702Z",
+    "5.0.1" : "2025-07-30T12:52:25.558Z",
+    "3.0.1" : "2020-09-27T00:31:11.781Z",
+    "1.0.0" : "2017-05-07T10:50:11.416Z",
+    "3.0.2" : "2020-11-05T16:14:28.667Z",
+    "1.0.1" : "2017-11-05T18:43:26.608Z",
+    "3.0.3" : "2020-11-05T16:40:46.495Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/postcss/sugarss.git"
+  },
+  "users" : {
+    "ungurys" : true,
+    "jmsherry" : true,
+    "ridermansb" : true,
+    "spacerockzero" : true,
+    "fpigeon" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/postcss/sugarss#readme",
+  "keywords" : [ "css", "postcss", "postcss-syntax", "syntax", "indent", "parser" ],
+  "bugs" : {
+    "url" : "https://github.com/postcss/sugarss/issues"
+  },
+  "license" : "MIT"
+}

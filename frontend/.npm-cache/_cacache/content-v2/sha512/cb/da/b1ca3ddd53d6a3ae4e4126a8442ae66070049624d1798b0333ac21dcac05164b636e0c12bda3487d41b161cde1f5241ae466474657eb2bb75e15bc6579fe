@@ -1,0 +1,594 @@
+{
+  "_id" : "@types/babel__template",
+  "_rev" : "416-75d7adeaea936c02b0c76932aa30463e",
+  "name" : "@types/babel__template",
+  "description" : "TypeScript definitions for @babel/template",
+  "dist-tags" : {
+    "ts3.1" : "7.0.2",
+    "ts4.0" : "7.4.1",
+    "ts3.0" : "7.0.2",
+    "ts3.9" : "7.4.1",
+    "ts5.7" : "7.4.4",
+    "ts4.8" : "7.4.4",
+    "ts2.9" : "7.0.2",
+    "ts3.8" : "7.4.1",
+    "ts4.7" : "7.4.4",
+    "ts5.6" : "7.4.4",
+    "ts2.8" : "7.0.0",
+    "ts3.7" : "7.4.1",
+    "ts4.6" : "7.4.4",
+    "ts5.5" : "7.4.4",
+    "ts3.6" : "7.4.1",
+    "ts4.5" : "7.4.4",
+    "ts5.4" : "7.4.4",
+    "ts3.5" : "7.4.0",
+    "ts4.4" : "7.4.1",
+    "ts5.3" : "7.4.4",
+    "ts3.4" : "7.4.0",
+    "ts4.3" : "7.4.1",
+    "ts5.2" : "7.4.4",
+    "ts3.3" : "7.4.0",
+    "ts4.2" : "7.4.1",
+    "ts5.1" : "7.4.4",
+    "ts6.0" : "7.4.4",
+    "ts3.2" : "7.4.0",
+    "ts4.1" : "7.4.1",
+    "ts5.0" : "7.4.4",
+    "latest" : "7.4.4",
+    "ts5.9" : "7.4.4",
+    "ts5.8" : "7.4.4",
+    "ts4.9" : "7.4.4"
+  },
+  "versions" : {
+    "7.0.1" : {
+      "name" : "@types/babel__template",
+      "description" : "TypeScript definitions for @babel/template",
+      "version" : "7.0.1",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/marvinhagemeister",
+        "name" : "Marvin Hagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__template/-/babel__template-7.0.1.tgz",
+        "shasum" : "8de6effa729bf0b0f65eb72399b629a3998a7f10"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0",
+        "@babel/parser" : "^7.1.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__template@7.0.1",
+      "types" : "index",
+      "typeScriptVersion" : "2.9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__template_7.0.1_1542322750115_0.8764705622047486",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "1d6f0a524fa97caf360f980c3df6834454a13b2789d8ea78798ad1ba8c65fe1f"
+    },
+    "7.0.2" : {
+      "name" : "@types/babel__template",
+      "description" : "TypeScript definitions for @babel/template",
+      "version" : "7.0.2",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/marvinhagemeister",
+        "name" : "Marvin Hagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__template/-/babel__template-7.0.2.tgz",
+        "shasum" : "4ff63d6b52eddac1de7b975a5223ed32ecea9307"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0",
+        "@babel/parser" : "^7.1.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__template@7.0.2",
+      "types" : "index",
+      "typeScriptVersion" : "2.9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__template_7.0.2_1550092100247_0.3488108213996364",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "fd665ffdd94e184259796e85ff1a8e8626a23fb0eeefd6cfb9f77a316eda2624"
+    },
+    "7.0.3" : {
+      "name" : "@types/babel__template",
+      "description" : "TypeScript definitions for @babel/template",
+      "version" : "7.0.3",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git",
+        "directory" : "types/babel__template"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/marvinhagemeister",
+        "name" : "Marvin Hagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__template/-/babel__template-7.0.3.tgz",
+        "shasum" : "b8aaeba0a45caca7b56a5de9459872dde3727214"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0",
+        "@babel/parser" : "^7.1.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__template@7.0.3",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__template_7.0.3_1600980602420_0.8397350230052223",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "726cb6c3eb7a24a445b718bb55b7b52198a7818b525a717728b7eb3d741bdb79"
+    },
+    "7.4.0" : {
+      "name" : "@types/babel__template",
+      "description" : "TypeScript definitions for @babel/template",
+      "version" : "7.4.0",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git",
+        "directory" : "types/babel__template"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/marvinhagemeister",
+        "name" : "Marvin Hagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "url" : "https://github.com/ExE-Boss",
+        "name" : "ExE Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__template/-/babel__template-7.4.0.tgz",
+        "shasum" : "0c888dd70b3ee9eebb6e4f200e809da0076262be"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0",
+        "@babel/parser" : "^7.1.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__template@7.4.0",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__template_7.4.0_1605214295737_0.6822348310324713",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "dd8063acb40cd7a72bf4860b78c6c992da2e8af35742f5d50e0a13ddbf1520c0"
+    },
+    "7.0.0" : {
+      "name" : "@types/babel__template",
+      "description" : "TypeScript definitions for @babel/template",
+      "version" : "7.0.0",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/marvinhagemeister",
+        "name" : "Marvin Hagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__template/-/babel__template-7.0.0.tgz",
+        "shasum" : "747b9dd9d0065879e46b5e53c95fd2cfd65c3fea"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0-beta.54"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__template@7.0.0",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__template_7.0.0_1532557817696_0.26370957267610695",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "ba77852ea1c9492043082a357998ace19ddc359e9a5aa480656ef47411514c33"
+    },
+    "7.4.1" : {
+      "name" : "@types/babel__template",
+      "description" : "TypeScript definitions for @babel/template",
+      "version" : "7.4.1",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__template",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git",
+        "directory" : "types/babel__template"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/marvinhagemeister",
+        "name" : "Marvin Hagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "url" : "https://github.com/ExE-Boss",
+        "name" : "ExE Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__template/-/babel__template-7.4.1.tgz",
+        "shasum" : "3d1a48fd9d6c0edfd56f2ff578daed48f36c8969"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0",
+        "@babel/parser" : "^7.1.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__template@7.4.1",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__template_7.4.1_1625595404945_0.7468772542698352",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "8b488d3b882af8da43e3bb35fc9efcf3bd5fdaec465b98ed620d47b2231b62ed"
+    },
+    "7.4.2" : {
+      "name" : "@types/babel__template",
+      "description" : "TypeScript definitions for @babel/template",
+      "version" : "7.4.2",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__template",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git",
+        "directory" : "types/babel__template"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/marvinhagemeister",
+        "name" : "Marvin Hagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "url" : "https://github.com/ExE-Boss",
+        "name" : "ExE Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__template/-/babel__template-7.4.2.tgz",
+        "shasum" : "843e9f1f47c957553b0c374481dc4772921d6a6b"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0",
+        "@babel/parser" : "^7.1.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__template@7.4.2",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "4.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__template_7.4.2_1694805067538_0.9061198808640576",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "32ae250e9a81299d0f3e3bbfe6208be500757c5e8e710617048ed4dbf12419c9"
+    },
+    "7.4.3" : {
+      "name" : "@types/babel__template",
+      "description" : "TypeScript definitions for @babel/template",
+      "version" : "7.4.3",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__template",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git",
+        "directory" : "types/babel__template"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/marvinhagemeister",
+        "name" : "Marvin Hagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "url" : "https://github.com/ExE-Boss",
+        "name" : "ExE Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__template/-/babel__template-7.4.3.tgz",
+        "shasum" : "db9ac539a2fe05cfe9e168b24f360701bde41f5f"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0",
+        "@babel/parser" : "^7.1.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__template@7.4.3",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "4.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__template_7.4.3_1697583393776_0.7542681317203301",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "d654f1c99271fbe2033507014b69ebb24941982683f3f92e85f5c3180017dd13"
+    },
+    "7.4.4" : {
+      "name" : "@types/babel__template",
+      "description" : "TypeScript definitions for @babel/template",
+      "version" : "7.4.4",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__template",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git",
+        "directory" : "types/babel__template"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/marvinhagemeister",
+        "name" : "Marvin Hagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "url" : "https://github.com/ExE-Boss",
+        "name" : "ExE Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__template/-/babel__template-7.4.4.tgz",
+        "shasum" : "5672513701c1b2199bc6dad636a9d7491586766f"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0",
+        "@babel/parser" : "^7.1.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__template@7.4.4",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "4.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__template_7.4.4_1699314008394_0.27733975118215004",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "5730d754b4d1fcd41676b093f9e32b340c749c4d37b126dfa312e394467e86c6"
+    }
+  },
+  "readme" : "[object Object]",
+  "maintainers" : [ {
+    "name" : "types",
+    "email" : "ts-npm-types@microsoft.com"
+  } ],
+  "time" : {
+    "7.0.1" : "2018-11-15T22:59:10.282Z",
+    "7.0.2" : "2019-02-13T21:08:20.448Z",
+    "7.0.3" : "2020-09-24T20:50:02.605Z",
+    "7.4.0" : "2020-11-12T20:51:35.867Z",
+    "created" : "2018-07-25T22:30:17.471Z",
+    "7.0.0" : "2018-07-25T22:30:18.240Z",
+    "modified" : "2025-08-03T06:25:56.885Z",
+    "7.4.1" : "2021-07-06T18:16:45.084Z",
+    "7.4.2" : "2023-09-15T19:11:07.690Z",
+    "7.4.3" : "2023-10-17T22:56:34.002Z",
+    "7.4.4" : "2023-11-06T23:40:08.640Z"
+  },
+  "repository" : {
+    "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "type" : "git",
+    "directory" : "types/babel__template"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__template",
+  "contributors" : [ {
+    "url" : "https://github.com/yortus",
+    "name" : "Troy Gerwien",
+    "githubUsername" : "yortus"
+  }, {
+    "url" : "https://github.com/marvinhagemeister",
+    "name" : "Marvin Hagemeister",
+    "githubUsername" : "marvinhagemeister"
+  }, {
+    "url" : "https://github.com/mgroenhoff",
+    "name" : "Melvin Groenhoff",
+    "githubUsername" : "mgroenhoff"
+  }, {
+    "url" : "https://github.com/ExE-Boss",
+    "name" : "ExE Boss",
+    "githubUsername" : "ExE-Boss"
+  } ],
+  "license" : "MIT"
+}

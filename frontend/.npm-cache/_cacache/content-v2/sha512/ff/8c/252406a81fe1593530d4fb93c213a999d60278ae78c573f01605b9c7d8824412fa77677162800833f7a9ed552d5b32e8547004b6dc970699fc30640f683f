@@ -1,0 +1,3519 @@
+{
+  "_id" : "supports-color",
+  "_rev" : "108-81e567f7ffa58ebbbcf9710a2ec935c2",
+  "name" : "supports-color",
+  "description" : "Detect whether a terminal supports color",
+  "dist-tags" : {
+    "latest" : "10.2.2"
+  },
+  "versions" : {
+    "9.0.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "9.0.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-9.0.0.tgz",
+        "shasum" : "201a80bcefe03598cd2439f7a2ab9a855ab15570"
+      },
+      "dependencies" : {
+        "has-flag" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.38.2",
+        "ava" : "^3.15.0",
+        "import-fresh" : "^3.3.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo",
+        "//test" : "xo && ava"
+      },
+      "_npmVersion" : "6.14.10",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@9.0.0",
+      "gitHead" : "42ea2e023331227c1e426e836bf34656abf61d7e",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "default" : "./browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_9.0.0_1618560938406_0.2886363554639708",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "14.16.1"
+    },
+    "9.0.1" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "9.0.1",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-9.0.1.tgz",
+        "shasum" : "bcc43ff901cb8088d680144ac0b6553d242abd26"
+      },
+      "dependencies" : {
+        "has-flag" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.38.2",
+        "ava" : "^3.15.0",
+        "import-fresh" : "^3.3.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo",
+        "//test" : "xo && ava"
+      },
+      "_npmVersion" : "7.10.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@9.0.1",
+      "gitHead" : "9cc1842f4f7a114099a872eba4437624481b9bcd",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "default" : "./browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_9.0.1_1622293563820_0.5912679722726126",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "12.22.1"
+    },
+    "9.0.2" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "9.0.2",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-9.0.2.tgz",
+        "shasum" : "50f082888e4b0a4e2ccd2d0b4f9ef4efcd332485"
+      },
+      "dependencies" : {
+        "has-flag" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.38.2",
+        "ava" : "^3.15.0",
+        "import-fresh" : "^3.3.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo",
+        "//test" : "xo && ava"
+      },
+      "_npmVersion" : "7.10.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@9.0.2",
+      "gitHead" : "d247f9d96b3d49e303deb277ff2206b47ff6b370",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "default" : "./browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_9.0.2_1626703297109_0.8805003712177977",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "14.16.1"
+    },
+    "9.2.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "9.2.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-9.2.0.tgz",
+        "shasum" : "6b52184e8c10166bb004eff6c430112092ef30fa"
+      },
+      "devDependencies" : {
+        "xo" : "^0.44.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.18.0",
+        "typescript" : "^4.4.3",
+        "@types/node" : "^16.11.7",
+        "import-fresh" : "^3.3.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsd",
+        "//test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@9.2.0",
+      "gitHead" : "b20d768ca8d2b91f74c5110cb1168fea5b5b1faa",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "default" : "./browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_9.2.0_1637918061848_0.10822172638383698",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "14.17.5"
+    },
+    "4.3.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "4.3.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-4.3.0.tgz",
+        "shasum" : "0fa3755bb961136cf75ff2ee3eb775822c04a31b"
+      },
+      "dependencies" : {
+        "has-flag" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "import-fresh" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@4.3.0",
+      "gitHead" : "61008fe6ad344e798a7ca98f0d88509b622414a3",
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color-4.3.0.tgz_1504147213885_0.055988931097090244",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "4.1.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "4.1.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-4.1.0.tgz",
+        "shasum" : "92cc14bb3dad8928ca5656c33e19a19f20af5c7a"
+      },
+      "dependencies" : {
+        "has-flag" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "import-fresh" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@4.1.0",
+      "gitHead" : "6dd97922ddc812df56faa666d7100521445f7d8c",
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color-4.1.0.tgz_1498849027534_0.3442862711381167",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_shasum" : "92cc14bb3dad8928ca5656c33e19a19f20af5c7a",
+      "_nodeVersion" : "6.11.0"
+    },
+    "0.2.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "0.2.0",
+      "author" : {
+        "url" : "http://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/supports-color",
+      "repository" : {
+        "url" : "git://github.com/sindresorhus/supports-color",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-0.2.0.tgz",
+        "shasum" : "d92de2694eb3f67323973d7ae3d8b55b4c22190a"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli", "bin", "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "supports-color" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@0.2.0",
+      "_shasum" : "d92de2694eb3f67323973d7ae3d8b55b4c22190a"
+    },
+    "4.5.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "4.5.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-4.5.0.tgz",
+        "shasum" : "be7a0de484dec5c5cddf8b3d59125044912f635b"
+      },
+      "dependencies" : {
+        "has-flag" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "import-fresh" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@4.5.0",
+      "gitHead" : "6c024379de76a36bb96feceb02d709eba5fd01c6",
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color-4.5.0.tgz_1508306144616_0.24811995681375265",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_shasum" : "be7a0de484dec5c5cddf8b3d59125044912f635b",
+      "_nodeVersion" : "4.8.4"
+    },
+    "8.0.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "8.0.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-8.0.0.tgz",
+        "shasum" : "51fc88b5f0b8c47a64fcc54941f41a0ff9e695e3"
+      },
+      "dependencies" : {
+        "has-flag" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.35.0",
+        "ava" : "^2.4.0",
+        "import-fresh" : "^3.2.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "6.14.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@8.0.0",
+      "gitHead" : "b163c2c2615b69da396690f9c6586c0a2dc44511",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "default" : "./browser.js"
+      },
+      "browser" : "browser.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_8.0.0_1606206754093_0.7391455025505089",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.22.1"
+    },
+    "3.1.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "3.1.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color",
+      "repository" : {
+        "url" : "https://github.com/chalk/supports-color",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-3.1.0.tgz",
+        "shasum" : "71b1e2116bf51d24208768c9afa2e5f118d8ef61"
+      },
+      "dependencies" : {
+        "has-flag" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m", "million" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@3.1.0",
+      "gitHead" : "1f42c42e6f131dcbbd791600ef27a9363064d076",
+      "browser" : "browser.js",
+      "_shasum" : "71b1e2116bf51d24208768c9afa2e5f118d8ef61",
+      "_nodeVersion" : "0.12.5"
+    },
+    "3.1.1" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "3.1.1",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color",
+      "repository" : {
+        "url" : "https://github.com/chalk/supports-color",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-3.1.1.tgz",
+        "shasum" : "10b730ea2c36e9f3790a035f71b007259260ec4b"
+      },
+      "dependencies" : {
+        "has-flag" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "mocha" : "*",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m", "million" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && mocha",
+        "travis" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@3.1.1",
+      "gitHead" : "9434c93918301a6b47faa01999482adfbf1b715c",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "browser" : "browser.js",
+      "_shasum" : "10b730ea2c36e9f3790a035f71b007259260ec4b",
+      "_nodeVersion" : "0.12.7"
+    },
+    "3.1.2" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "3.1.2",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color",
+      "repository" : {
+        "url" : "https://github.com/chalk/supports-color",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-3.1.2.tgz",
+        "shasum" : "72a262894d9d408b956ca05ff37b2ed8a6e2a2d5"
+      },
+      "dependencies" : {
+        "has-flag" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "mocha" : "*",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m", "million" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && mocha",
+        "travis" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@3.1.2",
+      "gitHead" : "d9e363732f48ad2bc6b936357246b55e136aa989",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "browser" : "browser.js",
+      "_shasum" : "72a262894d9d408b956ca05ff37b2ed8a6e2a2d5",
+      "_nodeVersion" : "4.1.1"
+    },
+    "7.2.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "7.2.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-7.2.0.tgz",
+        "shasum" : "1b7dcdcb32b8138801b3e478ba6a51caa89648da"
+      },
+      "dependencies" : {
+        "has-flag" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.24.0",
+        "ava" : "^1.4.1",
+        "import-fresh" : "^3.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@7.2.0",
+      "gitHead" : "c5edf46896d1fc1826cb1183a60d61eecb65d749",
+      "browser" : "browser.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_7.2.0_1598613454691_0.19388472696485715",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.18.2"
+    },
+    "7.0.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "7.0.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-7.0.0.tgz",
+        "shasum" : "f2392c50ab35bb3cae7beebf24d254a19f880c06"
+      },
+      "dependencies" : {
+        "has-flag" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.24.0",
+        "ava" : "^1.4.1",
+        "import-fresh" : "^3.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@7.0.0",
+      "gitHead" : "a4140d78478abca47a2015e300d283ea3d1e75ae",
+      "browser" : "browser.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_7.0.0_1560275153919_0.12974547935836633",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.16.0"
+    },
+    "1.3.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "1.3.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/supports-color",
+      "repository" : {
+        "url" : "https://github.com/sindresorhus/supports-color",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-1.3.0.tgz",
+        "shasum" : "ca7def134d8bf8163e1c92905a49a2e4439b72a0"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "cli", "bin", "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "supports-color" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@1.3.0",
+      "gitHead" : "6977091035fc1634eace9470a35e21262d84356a",
+      "_shasum" : "ca7def134d8bf8163e1c92905a49a2e4439b72a0",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.3.1" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "1.3.1",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/supports-color",
+      "repository" : {
+        "url" : "https://github.com/sindresorhus/supports-color",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-1.3.1.tgz",
+        "shasum" : "15758df09d8ff3b4acc307539fabe27095e1042d"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "cli", "bin", "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "supports-color" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@1.3.1",
+      "gitHead" : "09f1b4c336cee7269b4c8b3a8880054a23fcb35e",
+      "_shasum" : "15758df09d8ff3b4acc307539fabe27095e1042d",
+      "_nodeVersion" : "0.12.0"
+    },
+    "10.1.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "10.1.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-10.1.0.tgz",
+        "shasum" : "78416c8bf60b8d34e0ac73046d991374cce1425f"
+      },
+      "devDependencies" : {
+        "xo" : "^0.60.0",
+        "ava" : "^6.2.0",
+        "tsd" : "^0.31.2",
+        "@types/node" : "^22.10.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "npm@josh.junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@10.1.0",
+      "gitHead" : "7caa4be4026b86bc3756d4a8899466cc835d22d5",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "types" : "./index.d.ts",
+        "default" : "./browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_10.1.0_1754263626144_0.903264608489426",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "ava" : {
+        "serial" : true,
+        "workerThreads" : false
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "20.19.1"
+    },
+    "6.0.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "6.0.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-6.0.0.tgz",
+        "shasum" : "76cfe742cf1f41bb9b1c29ad03068c05b4c0e40a"
+      },
+      "dependencies" : {
+        "has-flag" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.23.0",
+        "ava" : "^0.25.0",
+        "import-fresh" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@6.0.0",
+      "gitHead" : "bfbe6692d549b423230292946756f3fdd79a808e",
+      "browser" : "browser.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_6.0.0_1545401665913_0.7646690775984246",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "9.3.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "9.3.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-9.3.0.tgz",
+        "shasum" : "cce566c5ad562eece4dfe5a4502a58efc54986a9"
+      },
+      "devDependencies" : {
+        "xo" : "^0.44.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.18.0",
+        "typescript" : "^4.4.3",
+        "@types/node" : "^16.11.7",
+        "import-fresh" : "^3.3.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsd",
+        "//test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@9.3.0",
+      "gitHead" : "a02ef43a6af71ca20f597a56dd45978a67732bfb",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "default" : "./browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_9.3.0_1670416962766_0.6730221372598995",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "14.21.1"
+    },
+    "5.0.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "5.0.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-5.0.0.tgz",
+        "shasum" : "1db26229f6ae02f9acdb5410907c36ce2e362b13"
+      },
+      "dependencies" : {
+        "has-flag" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "import-fresh" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@5.0.0",
+      "gitHead" : "ff840645b8fe1f5c32a3f3befc19e4a8726cdcd0",
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color-5.0.0.tgz_1508306744766_0.07775744306854904",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_shasum" : "1db26229f6ae02f9acdb5410907c36ce2e362b13",
+      "_nodeVersion" : "4.8.4"
+    },
+    "9.3.1" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "9.3.1",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-9.3.1.tgz",
+        "shasum" : "34e4ad3c71c9a39dae3254ecc46c9b74e89e15a6"
+      },
+      "devDependencies" : {
+        "xo" : "^0.49.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.18.0",
+        "typescript" : "^4.4.3",
+        "@types/node" : "^16.11.7",
+        "import-fresh" : "^3.3.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsd",
+        "//test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@9.3.1",
+      "gitHead" : "e06f284193939fbc1c75992871cda2b8192557ec",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "default" : "./browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_9.3.1_1671103748714_0.9074505954504217",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "14.21.1"
+    },
+    "5.0.1" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "5.0.1",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-5.0.1.tgz",
+        "shasum" : "1c5331f22250c84202805b2f17adf16699f3a39a"
+      },
+      "dependencies" : {
+        "has-flag" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "import-fresh" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@5.0.1",
+      "gitHead" : "46d2378ef368caa0fbf2506a8690123f55318e2d",
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color-5.0.1.tgz_1511866497274_0.013081022072583437",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.9.0"
+    },
+    "5.2.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "5.2.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-5.2.0.tgz",
+        "shasum" : "b0d5333b1184dd3666cbe5aa0b45c5ac7ac17a4a"
+      },
+      "dependencies" : {
+        "has-flag" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "import-fresh" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@5.2.0",
+      "gitHead" : "1a6f8b2746e8ca3f3c2663d503e1c1a7329f7c47",
+      "browser" : "browser.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_5.2.0_1518353485685_0.8623635956973359",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "5.4.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "5.4.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-5.4.0.tgz",
+        "shasum" : "1c6b337402c2137605efe19f10fec390f6faab54"
+      },
+      "dependencies" : {
+        "has-flag" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "import-fresh" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@5.4.0",
+      "gitHead" : "bcd82c998094535f3462a3e37856852938ccbb37",
+      "browser" : "browser.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_5.4.0_1523937461670_0.5515855155919032",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "1.1.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "1.1.0",
+      "author" : {
+        "url" : "http://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/supports-color",
+      "repository" : {
+        "url" : "https://github.com/sindresorhus/supports-color",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-1.1.0.tgz",
+        "shasum" : "fdc4b1a210121071505a2d1ef4d9f5d8fba7ef82"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "cli", "bin", "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "supports-color" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@1.1.0",
+      "gitHead" : "892801bea69ac9658e46378c06d069752aad9b83",
+      "_shasum" : "fdc4b1a210121071505a2d1ef4d9f5d8fba7ef82"
+    },
+    "9.1.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "9.1.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-9.1.0.tgz",
+        "shasum" : "558963681dafeff41ed68220488cbf438d29f351"
+      },
+      "devDependencies" : {
+        "xo" : "^0.44.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.18.0",
+        "typescript" : "^4.4.3",
+        "@types/node" : "^16.11.7",
+        "import-fresh" : "^3.3.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsd",
+        "//test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@9.1.0",
+      "gitHead" : "260829c927d68a624bb2dd51d9cda59985bca979",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "default" : "./browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_9.1.0_1637258677865_0.5103532076858013",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "17.0.1"
+    },
+    "4.2.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "4.2.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-4.2.0.tgz",
+        "shasum" : "ad986dc7eb2315d009b4d77c8169c2231a684037"
+      },
+      "dependencies" : {
+        "has-flag" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "import-fresh" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      },
+      "_id" : "supports-color@4.2.0",
+      "gitHead" : "23ac4529ba7a647a7d6410d990682e6d9892d660",
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color-4.2.0.tgz_1499397642650_0.3750420247670263",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.1.3"
+    },
+    "4.2.1" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "4.2.1",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-4.2.1.tgz",
+        "shasum" : "65a4bb2631e90e02420dba5554c375a4754bb836"
+      },
+      "dependencies" : {
+        "has-flag" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "import-fresh" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@4.2.1",
+      "gitHead" : "d5261a24bcfb6670a7574b318b6d93bf2f4dce0c",
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color-4.2.1.tgz_1500721497271_0.5450081420131028",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "4.0.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "4.0.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-4.0.0.tgz",
+        "shasum" : "33a7c680aa512c9d03ef929cacbb974d203d2790"
+      },
+      "dependencies" : {
+        "has-flag" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "import-fresh" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "dthree",
+        "email" : "threedeecee@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@4.0.0",
+      "gitHead" : "315d72712d78aff42503949725078354032d0e6b",
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color-4.0.0.tgz_1497986555161_0.6528980613220483",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_shasum" : "33a7c680aa512c9d03ef929cacbb974d203d2790",
+      "_nodeVersion" : "4.8.3"
+    },
+    "4.4.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "4.4.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-4.4.0.tgz",
+        "shasum" : "883f7ddabc165142b2a61427f3352ded195d1a3e"
+      },
+      "dependencies" : {
+        "has-flag" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "import-fresh" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@4.4.0",
+      "gitHead" : "d2e32f77030ddf583b95b79bc3f6417241472980",
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color-4.4.0.tgz_1504162477210_0.36436482798308134",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "3.0.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "3.0.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color",
+      "repository" : {
+        "url" : "https://github.com/chalk/supports-color",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-3.0.0.tgz",
+        "shasum" : "15f7652e0a478b18405800d9a3dab21a26e91b65"
+      },
+      "dependencies" : {
+        "has-flag" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@3.0.0",
+      "gitHead" : "5649000513a10f050abe8740760aabdfa0053d44",
+      "_shasum" : "15f7652e0a478b18405800d9a3dab21a26e91b65",
+      "_nodeVersion" : "0.12.5"
+    },
+    "8.1.1" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "8.1.1",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-8.1.1.tgz",
+        "shasum" : "cd6fc17e28500cff56c1b86c0a7fd4a54a73005c"
+      },
+      "dependencies" : {
+        "has-flag" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.35.0",
+        "ava" : "^2.4.0",
+        "import-fresh" : "^3.2.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "6.14.10",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@8.1.1",
+      "gitHead" : "1e7f117cda1284e741c3cbcd661c21412bf169eb",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "default" : "./browser.js"
+      },
+      "browser" : "browser.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_8.1.1_1611393696226_0.3763411060511064",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "12.20.1"
+    },
+    "8.1.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "8.1.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-8.1.0.tgz",
+        "shasum" : "7f8e6d289ded5a27b7f1b76f6a68cf7ad48cdf0e"
+      },
+      "dependencies" : {
+        "has-flag" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.35.0",
+        "ava" : "^2.4.0",
+        "import-fresh" : "^3.2.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "6.14.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@8.1.0",
+      "gitHead" : "760ce24f5c087ac14e39c72974c2b7f5d633f48f",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "default" : "./browser.js"
+      },
+      "browser" : "browser.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_8.1.0_1607962579102_0.6544583456572908",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.22.1"
+    },
+    "3.2.3" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "3.2.3",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-3.2.3.tgz",
+        "shasum" : "65ac0504b3954171d8a64946b2ae3cbb8a5f54f6"
+      },
+      "dependencies" : {
+        "has-flag" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "mocha" : "*",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m", "million" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && mocha",
+        "travis" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.9",
+      "_npmUser" : {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      },
+      "_id" : "supports-color@3.2.3",
+      "gitHead" : "c2394c1f77a0f64c4b2d0db33a3df3b841e6fc15",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color-3.2.3.tgz_1484526472497_0.7697830176912248",
+        "host" : "packages-12-west.internal.npmjs.com"
+      },
+      "_shasum" : "65ac0504b3954171d8a64946b2ae3cbb8a5f54f6",
+      "_nodeVersion" : "7.2.0"
+    },
+    "3.0.1" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "3.0.1",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color",
+      "repository" : {
+        "url" : "https://github.com/chalk/supports-color",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-3.0.1.tgz",
+        "shasum" : "5044ef794ba979154745dfb77970c53e9b17908a"
+      },
+      "dependencies" : {
+        "has-flag" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m", "million" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@3.0.1",
+      "gitHead" : "10b2124bf28a5775d82e93f686d4ccae38921045",
+      "_shasum" : "5044ef794ba979154745dfb77970c53e9b17908a",
+      "_nodeVersion" : "0.12.5"
+    },
+    "3.2.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "3.2.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-3.2.0.tgz",
+        "shasum" : "c4c385da44edcf152136bfa7f3125aee9b0a4f16"
+      },
+      "dependencies" : {
+        "has-flag" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "mocha" : "*",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m", "million" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && mocha",
+        "travis" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.9",
+      "_npmUser" : {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      },
+      "_id" : "supports-color@3.2.0",
+      "gitHead" : "4b5e52409dde2286f9c5fc1ea513d700d4172a11",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color-3.2.0.tgz_1484524692724_0.9873743725474924",
+        "host" : "packages-12-west.internal.npmjs.com"
+      },
+      "_shasum" : "c4c385da44edcf152136bfa7f3125aee9b0a4f16",
+      "_nodeVersion" : "7.2.0"
+    },
+    "3.2.1" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "3.2.1",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-3.2.1.tgz",
+        "shasum" : "f15108573f33717782a5eaf7d1b4ce1cd2f2e693"
+      },
+      "dependencies" : {
+        "has-flag" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "mocha" : "*",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m", "million" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && mocha",
+        "travis" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.9",
+      "_npmUser" : {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      },
+      "_id" : "supports-color@3.2.1",
+      "gitHead" : "4de3ce5a43fdb15615f9b7055124b21c6b59f5a3",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color-3.2.1.tgz_1484525436130_0.994121718686074",
+        "host" : "packages-12-west.internal.npmjs.com"
+      },
+      "_shasum" : "f15108573f33717782a5eaf7d1b4ce1cd2f2e693",
+      "_nodeVersion" : "7.2.0"
+    },
+    "3.2.2" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "3.2.2",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-3.2.2.tgz",
+        "shasum" : "c3eb919f3aed5fb659538822e7a42393a78e85b4"
+      },
+      "dependencies" : {
+        "has-flag" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "mocha" : "*",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m", "million" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && mocha",
+        "travis" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.9",
+      "_npmUser" : {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      },
+      "_id" : "supports-color@3.2.2",
+      "gitHead" : "e2f8b6b7137dedcec6c3c58194d09730df659395",
+      "xo" : {
+        "envs" : [ "node", "mocha" ]
+      },
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color-3.2.2.tgz_1484525960843_0.01745234290137887",
+        "host" : "packages-12-west.internal.npmjs.com"
+      },
+      "_shasum" : "c3eb919f3aed5fb659538822e7a42393a78e85b4",
+      "_nodeVersion" : "7.2.0"
+    },
+    "2.0.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "2.0.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color",
+      "repository" : {
+        "url" : "https://github.com/chalk/supports-color",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-2.0.0.tgz",
+        "shasum" : "535d045ce6b6363fa40117084629995e9df324c7"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@2.0.0",
+      "gitHead" : "8400d98ade32b2adffd50902c06d9e725a5c6588",
+      "_shasum" : "535d045ce6b6363fa40117084629995e9df324c7",
+      "_nodeVersion" : "0.12.5"
+    },
+    "7.1.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "7.1.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-7.1.0.tgz",
+        "shasum" : "68e32591df73e25ad1c4b49108a2ec507962bfd1"
+      },
+      "dependencies" : {
+        "has-flag" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.24.0",
+        "ava" : "^1.4.1",
+        "import-fresh" : "^3.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@7.1.0",
+      "gitHead" : "8a40054cdbcd3f42b4f68eaefb41c3064835b991",
+      "browser" : "browser.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_7.1.0_1569557222639_0.7307909884215651",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.16.1"
+    },
+    "1.2.1" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "1.2.1",
+      "author" : {
+        "url" : "http://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/supports-color",
+      "repository" : {
+        "url" : "https://github.com/sindresorhus/supports-color",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-1.2.1.tgz",
+        "shasum" : "12ee21507086cd98c1058d9ec0f4ac476b7af3b2"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "cli", "bin", "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "supports-color" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.16",
+      "_npmUser" : {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      },
+      "_id" : "supports-color@1.2.1",
+      "gitHead" : "ffe5e224bd24dc0410787b94e192d240be025aec",
+      "_shasum" : "12ee21507086cd98c1058d9ec0f4ac476b7af3b2",
+      "_nodeVersion" : "0.10.35"
+    },
+    "10.2.2" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "10.2.2",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-10.2.2.tgz",
+        "shasum" : "466c2978cc5cd0052d542a0b576461c2b802ebb4"
+      },
+      "devDependencies" : {
+        "xo" : "^0.60.0",
+        "ava" : "^6.2.0",
+        "tsd" : "^0.31.2",
+        "@types/node" : "^22.10.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@10.2.2",
+      "gitHead" : "d4068e70f02d9bf3813fc877bdad7360d8e51d71",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "types" : "./index.d.ts",
+        "default" : "./browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_10.2.2_1757342995283_0.4887066964638811",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "ava" : {
+        "serial" : true,
+        "workerThreads" : false
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "22.12.0"
+    },
+    "10.2.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "10.2.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-10.2.0.tgz",
+        "shasum" : "4e2ff2704883c99d95ba659ac5e702f06e12e8ed"
+      },
+      "devDependencies" : {
+        "xo" : "^0.60.0",
+        "ava" : "^6.2.0",
+        "tsd" : "^0.31.2",
+        "@types/node" : "^22.10.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "npm@josh.junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@10.2.0",
+      "gitHead" : "f6845d63898bd0c96120cfba69fc66a92c48ce03",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "types" : "./index.d.ts",
+        "default" : "./browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_10.2.0_1755415736365_0.738929653075078",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "ava" : {
+        "serial" : true,
+        "workerThreads" : false
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "20.19.1"
+    },
+    "10.0.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "10.0.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=18"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-10.0.0.tgz",
+        "shasum" : "32000d5e49f1ae70b2645d47701004644a1d7b90"
+      },
+      "devDependencies" : {
+        "xo" : "^0.60.0",
+        "ava" : "^6.2.0",
+        "tsd" : "^0.31.2",
+        "@types/node" : "^22.10.2"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "npm@josh.junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "10.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@10.0.0",
+      "gitHead" : "ae809ecabd5965d0685e7fc121efe98c47ad8724",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "types" : "./index.d.ts",
+        "default" : "./browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_10.0.0_1734544527422_0.23175929176824273",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "type" : "module",
+      "ava" : {
+        "serial" : true,
+        "workerThreads" : false
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "23.3.0"
+    },
+    "6.1.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "6.1.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-6.1.0.tgz",
+        "shasum" : "0764abc69c63d5ac842dd4867e8d025e880df8f3"
+      },
+      "dependencies" : {
+        "has-flag" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.23.0",
+        "ava" : "^0.25.0",
+        "import-fresh" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@6.1.0",
+      "gitHead" : "8c160ebbf4c8fb3c244295b17972b6a1bf80425f",
+      "browser" : "browser.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_6.1.0_1547190573796_0.9365106270641614",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "9.2.1" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "9.2.1",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-9.2.1.tgz",
+        "shasum" : "599dc9d45acf74c6176e0d880bab1d7d718fe891"
+      },
+      "devDependencies" : {
+        "xo" : "^0.44.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.18.0",
+        "typescript" : "^4.4.3",
+        "@types/node" : "^16.11.7",
+        "import-fresh" : "^3.3.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsd",
+        "//test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@9.2.1",
+      "gitHead" : "4f459ee311817cfad1332731a2c1060e07b2015e",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "default" : "./browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_9.2.1_1637919205211_0.7868146192318419",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "14.17.5"
+    },
+    "9.2.2" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "9.2.2",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-9.2.2.tgz",
+        "shasum" : "502acaf82f2b7ee78eb7c83dcac0f89694e5a7bb"
+      },
+      "devDependencies" : {
+        "xo" : "^0.44.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.18.0",
+        "typescript" : "^4.4.3",
+        "@types/node" : "^16.11.7",
+        "import-fresh" : "^3.3.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsd",
+        "//test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "8.3.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@9.2.2",
+      "gitHead" : "ee88ebcfca649233bb35c9b0db226059883a77b8",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "default" : "./browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_9.2.2_1648464245832_0.022669141733941967",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.14.0"
+    },
+    "9.4.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "9.4.0",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-9.4.0.tgz",
+        "shasum" : "17bfcf686288f531db3dea3215510621ccb55954"
+      },
+      "devDependencies" : {
+        "xo" : "^0.54.2",
+        "ava" : "^5.3.1",
+        "tsd" : "^0.18.0",
+        "@types/node" : "^20.3.2",
+        "import-fresh" : "^3.3.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsd",
+        "//test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "9.2.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@9.4.0",
+      "gitHead" : "d4f413efaf8da045c5ab440ed418ef02dbb28bf1",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "default" : "./browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_9.4.0_1687960332195_0.3715605037478784",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "16.20.0"
+    },
+    "5.1.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "5.1.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-5.1.0.tgz",
+        "shasum" : "058a021d1b619f7ddf3980d712ea3590ce7de3d5"
+      },
+      "dependencies" : {
+        "has-flag" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "import-fresh" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@5.1.0",
+      "gitHead" : "c6f994cf48ef4a1036c677f9b6853fcb050e05d8",
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color-5.1.0.tgz_1513022197750_0.3715452023316175",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.9.0"
+    },
+    "9.2.3" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "9.2.3",
+      "author" : {
+        "url" : "https://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-9.2.3.tgz",
+        "shasum" : "a6e2c97fc20c80abecd69e50aebe4783ff77d45a"
+      },
+      "devDependencies" : {
+        "xo" : "^0.44.0",
+        "ava" : "^3.15.0",
+        "tsd" : "^0.18.0",
+        "typescript" : "^4.4.3",
+        "@types/node" : "^16.11.7",
+        "import-fresh" : "^3.3.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "josh@junon.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsd",
+        "//test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "8.3.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@9.2.3",
+      "gitHead" : "600e5dc8dd973b49c3a712f9d334ca29dc03ce2f",
+      "types" : "./index.d.ts",
+      "funding" : "https://github.com/chalk/supports-color?sponsor=1",
+      "exports" : {
+        "node" : "./index.js",
+        "default" : "./browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_9.2.3_1662567935306_0.17475207619620092",
+        "host" : "s3://npm-registry-packages"
+      },
+      "type" : "module",
+      "_nodeVersion" : "14.19.3"
+    },
+    "5.3.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "5.3.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-5.3.0.tgz",
+        "shasum" : "5b24ac15db80fa927cf5227a4a33fd3c4c7676c0"
+      },
+      "dependencies" : {
+        "has-flag" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "*",
+        "ava" : "*",
+        "import-fresh" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@5.3.0",
+      "gitHead" : "bf4d4c685423906300d4368795a0b1dd0462d5f8",
+      "browser" : "browser.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_5.3.0_1519981679160_0.5273916728314325",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "1.0.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "1.0.0",
+      "author" : {
+        "url" : "http://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/supports-color",
+      "repository" : {
+        "url" : "git://github.com/sindresorhus/supports-color",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-1.0.0.tgz",
+        "shasum" : "5e27d62fddbc2963b160e245c1445f966b0e79d5"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "cli", "bin", "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "supports-color" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@1.0.0",
+      "gitHead" : "95036ad1622e0c973ce9c09b93af8a6ebda6a56b",
+      "_shasum" : "5e27d62fddbc2963b160e245c1445f966b0e79d5"
+    },
+    "5.5.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "5.5.0",
+      "author" : {
+        "url" : "sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/chalk/supports-color#readme",
+      "repository" : {
+        "url" : "git+https://github.com/chalk/supports-color.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-5.5.0.tgz",
+        "shasum" : "e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
+      },
+      "dependencies" : {
+        "has-flag" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "xo" : "^0.20.0",
+        "ava" : "^0.25.0",
+        "import-fresh" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@5.5.0",
+      "gitHead" : "7759fc135b1be07cb7411178d7b1ac33d367fec8",
+      "browser" : "browser.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/supports-color_5.5.0_1534739857211_0.09573189686372618",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "1.2.0" : {
+      "name" : "supports-color",
+      "description" : "Detect whether a terminal supports color",
+      "version" : "1.2.0",
+      "author" : {
+        "url" : "http://sindresorhus.com",
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/supports-color",
+      "repository" : {
+        "url" : "https://github.com/sindresorhus/supports-color",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/supports-color/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/supports-color/-/supports-color-1.2.0.tgz",
+        "shasum" : "ff1ed1e61169d06b3cf2d588e188b18d8847e17e"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "require-uncached" : "^1.0.2"
+      },
+      "keywords" : [ "cli", "bin", "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "supports-color" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "supports-color@1.2.0",
+      "gitHead" : "e1815a472ebb59612e485096ae31a394e47d3c93",
+      "_shasum" : "ff1ed1e61169d06b3cf2d588e188b18d8847e17e",
+      "_nodeVersion" : "0.10.32"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "url" : "https://sindresorhus.com",
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com"
+  },
+  "time" : {
+    "9.0.0" : "2021-04-16T08:15:38.522Z",
+    "9.0.1" : "2021-05-29T13:06:03.949Z",
+    "9.0.2" : "2021-07-19T14:01:37.227Z",
+    "9.2.0" : "2021-11-26T09:14:21.970Z",
+    "4.3.0" : "2017-08-31T02:40:14.004Z",
+    "4.1.0" : "2017-06-30T18:57:08.483Z",
+    "0.2.0" : "2014-06-14T01:45:57.033Z",
+    "4.5.0" : "2017-10-18T05:55:44.764Z",
+    "8.0.0" : "2020-11-24T08:32:34.341Z",
+    "modified" : "2025-09-08T17:16:23.348Z",
+    "3.1.0" : "2015-07-18T14:26:04.931Z",
+    "3.1.1" : "2015-09-02T19:04:25.188Z",
+    "3.1.2" : "2015-10-13T11:20:54.814Z",
+    "7.2.0" : "2020-08-28T11:17:34.870Z",
+    "created" : "2014-06-14T01:45:57.033Z",
+    "7.0.0" : "2019-06-11T17:45:54.069Z",
+    "1.3.0" : "2015-02-23T06:58:50.877Z",
+    "1.3.1" : "2015-03-16T10:58:24.112Z",
+    "10.1.0" : "2025-08-03T23:27:06.324Z",
+    "6.0.0" : "2018-12-21T14:14:26.021Z",
+    "9.3.0" : "2022-12-07T12:42:42.978Z",
+    "5.0.0" : "2017-10-18T06:05:45.239Z",
+    "9.3.1" : "2022-12-15T11:29:08.889Z",
+    "5.0.1" : "2017-11-28T10:54:57.328Z",
+    "5.2.0" : "2018-02-11T12:51:25.740Z",
+    "5.4.0" : "2018-04-17T03:57:41.760Z",
+    "1.1.0" : "2014-08-19T23:31:57.814Z",
+    "9.1.0" : "2021-11-18T18:04:38.053Z",
+    "4.2.0" : "2017-07-07T03:20:42.740Z",
+    "4.2.1" : "2017-07-22T11:04:58.322Z",
+    "4.0.0" : "2017-06-20T19:22:36.244Z",
+    "4.4.0" : "2017-08-31T06:54:37.308Z",
+    "3.0.0" : "2015-07-15T23:40:25.242Z",
+    "8.1.1" : "2021-01-23T09:21:36.393Z",
+    "8.1.0" : "2020-12-14T16:16:19.236Z",
+    "3.2.3" : "2017-01-16T00:27:52.732Z",
+    "3.0.1" : "2015-07-16T20:43:38.209Z",
+    "3.2.0" : "2017-01-15T23:58:12.939Z",
+    "3.2.1" : "2017-01-16T00:10:36.346Z",
+    "3.2.2" : "2017-01-16T00:19:21.083Z",
+    "2.0.0" : "2015-06-30T22:58:34.955Z",
+    "7.1.0" : "2019-09-27T04:07:02.795Z",
+    "1.2.1" : "2015-02-22T09:28:35.164Z",
+    "10.2.2" : "2025-09-08T14:49:55.476Z",
+    "10.2.1" : "2025-09-08T13:13:28.154Z",
+    "10.2.0" : "2025-08-17T07:28:56.534Z",
+    "10.0.0" : "2024-12-18T17:55:27.599Z",
+    "6.1.0" : "2019-01-11T07:09:33.987Z",
+    "9.2.1" : "2021-11-26T09:33:25.398Z",
+    "9.2.2" : "2022-03-28T10:44:05.981Z",
+    "9.4.0" : "2023-06-28T13:52:12.350Z",
+    "5.1.0" : "2017-12-11T19:56:38.670Z",
+    "9.2.3" : "2022-09-07T16:25:35.450Z",
+    "5.3.0" : "2018-03-02T09:07:59.696Z",
+    "1.0.0" : "2014-08-13T16:35:11.503Z",
+    "5.5.0" : "2018-08-20T04:37:37.309Z",
+    "1.2.0" : "2014-10-12T21:36:25.330Z"
+  },
+  "repository" : {
+    "url" : "git+https://github.com/chalk/supports-color.git",
+    "type" : "git"
+  },
+  "users" : {
+    "usex" : true,
+    "michalskuza" : true,
+    "j3kz" : true,
+    "soenkekluth" : true,
+    "diegorbaquero" : true,
+    "shuoshubao" : true,
+    "aim97" : true,
+    "edwardxyt" : true,
+    "ahmed-dinar" : true,
+    "arcticicestudio" : true,
+    "aleclarson" : true,
+    "itonyyo" : true,
+    "flumpus-dev" : true,
+    "tomgao365" : true,
+    "dyakovk" : true,
+    "morogasper" : true,
+    "mojaray2k" : true,
+    "jbnicolai" : true
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://github.com/chalk/supports-color#readme",
+  "keywords" : [ "color", "colour", "colors", "terminal", "console", "cli", "ansi", "styles", "tty", "rgb", "256", "shell", "xterm", "command-line", "support", "supports", "capability", "detect", "truecolor", "16m" ],
+  "bugs" : {
+    "url" : "https://github.com/chalk/supports-color/issues"
+  },
+  "license" : "MIT"
+}

@@ -1,0 +1,2 @@
+
+624239bfc8080796846ec10e6bd73a418a48c653	{"key":"make-fetch-happen:request-cache:https://repo.socrata.com/artifactory/api/npm/npm-virtual/chalk","integrity":"sha512-TCk64peevY42oDTUVccqTAywWtGibI1wiS/DQFhEDaz4uiyFYrkSlapPIbDvc1HE6JgMAMEShOg56HopgXXIVw==","time":1760820425413,"size":130190,"metadata":{"time":1760820425328,"url":"https://repo.socrata.com/artifactory/api/npm/npm-virtual/chalk","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-encoding":"gzip","content-type":"application/json","date":"Sat, 18 Oct 2025 20:47:05 GMT"},"options":{"compress":true}}}

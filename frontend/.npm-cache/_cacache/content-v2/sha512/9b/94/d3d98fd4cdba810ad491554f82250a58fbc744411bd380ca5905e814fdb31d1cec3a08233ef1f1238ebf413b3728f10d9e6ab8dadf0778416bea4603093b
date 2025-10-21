@@ -1,0 +1,2159 @@
+{
+  "_id" : "@jridgewell/gen-mapping",
+  "_rev" : "25-37554eb22633681412787b1f267915b7",
+  "name" : "@jridgewell/gen-mapping",
+  "description" : "Generate source maps",
+  "dist-tags" : {
+    "beta" : "0.3.6-beta.4",
+    "latest" : "0.3.13"
+  },
+  "versions" : {
+    "0.3.3" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.3",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/gen-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/gen-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/gen-mapping/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz",
+        "shasum" : "7e02e6eb5df901aaedb08514203b096614024098"
+      },
+      "dependencies" : {
+        "@jridgewell/set-array" : "^1.0.1",
+        "@jridgewell/trace-mapping" : "^0.3.9",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "mocha" : "9.2.2",
+        "eslint" : "8.14.0",
+        "rollup" : "2.70.2",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.3",
+        "@types/node" : "17.0.29",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "9.1.1",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.21.0",
+        "@typescript-eslint/eslint-plugin" : "5.21.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:coverage",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "pretest" : "run-s build:rollup",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "run-p 'build:rollup -- --watch' 'test:only -- --watch'",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "test:coverage" : "c8 mocha",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "9.5.0",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.3",
+      "gitHead" : "7626d310002df682012dc29bdfa4d674027f1538",
+      "types" : "dist/types/gen-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/gen-mapping.d.ts",
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.3_1680835367395_0.5518499539233093",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.15.0"
+    },
+    "0.3.4" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.4",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/gen-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/gen-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/gen-mapping/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.4.tgz",
+        "shasum" : "9b18145d26cf33d08576cf4c7665b28554480ed7"
+      },
+      "dependencies" : {
+        "@jridgewell/set-array" : "^1.0.1",
+        "@jridgewell/trace-mapping" : "^0.3.9",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "tsx" : "4.7.1",
+        "mocha" : "9.2.2",
+        "eslint" : "8.14.0",
+        "rollup" : "2.70.2",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.3",
+        "@types/node" : "17.0.29",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "9.1.1",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.21.0",
+        "@typescript-eslint/eslint-plugin" : "5.21.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.4",
+      "gitHead" : "b9d92dc2036d9bcb20ecddc6d81f76bdbe3745e4",
+      "types" : "dist/types/gen-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/gen-mapping.d.ts",
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.4_1708766676013_0.4063755897520389",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.3.1" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.1",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/gen-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/gen-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/gen-mapping/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.1.tgz",
+        "shasum" : "cf92a983c83466b8c0ce9124fadeaf09f7c66ea9"
+      },
+      "dependencies" : {
+        "@jridgewell/set-array" : "^1.0.0",
+        "@jridgewell/trace-mapping" : "^0.3.9",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "mocha" : "9.2.2",
+        "eslint" : "8.14.0",
+        "rollup" : "2.70.2",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.3",
+        "@types/node" : "17.0.29",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "9.1.1",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.21.0",
+        "@typescript-eslint/eslint-plugin" : "5.21.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:coverage",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "pretest" : "run-s build:rollup",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "run-p 'build:rollup -- --watch' 'test:only -- --watch'",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "test:coverage" : "c8 mocha",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.5.1",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.1",
+      "gitHead" : "b6aa06065065960be0465bcc6d2a586a7251c519",
+      "typings" : "dist/types/gen-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./dist/types/gen-mapping.d.ts",
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.1_1651787971397_0.35654190154543586",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "17.6.0"
+    },
+    "0.3.2" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.2",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/gen-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/gen-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/gen-mapping/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.2.tgz",
+        "shasum" : "c1aedc61e853f2bb9f5dfe6d4442d3b565b253b9"
+      },
+      "dependencies" : {
+        "@jridgewell/set-array" : "^1.0.1",
+        "@jridgewell/trace-mapping" : "^0.3.9",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "mocha" : "9.2.2",
+        "eslint" : "8.14.0",
+        "rollup" : "2.70.2",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.3",
+        "@types/node" : "17.0.29",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "9.1.1",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.21.0",
+        "@typescript-eslint/eslint-plugin" : "5.21.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:coverage",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "pretest" : "run-s build:rollup",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "run-p 'build:rollup -- --watch' 'test:only -- --watch'",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "test:coverage" : "c8 mocha",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.5.1",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.2",
+      "gitHead" : "a44a71dd0aa2c4eac4a8577f3e150dbc3aafdb80",
+      "typings" : "dist/types/gen-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/gen-mapping.d.ts",
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.2_1656258593635_0.1210398085343849",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "17.6.0"
+    },
+    "0.3.7" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.7",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "type" : "git",
+        "directory" : "packages/gen-mapping"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.7.tgz",
+        "shasum" : "724ecf7ce7bb6aca0b4bf8d15ec40fb435162ef3"
+      },
+      "dependencies" : {
+        "@jridgewell/trace-mapping" : "^0.3.24",
+        "@jridgewell/sourcemap-codec" : "1.4.16-beta.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:types lint:format",
+        "test" : "run-s -n test:types test:only test:format",
+        "build" : "run-s -n build:code build:types",
+        "benchmark" : "run-s build:code benchmark:*",
+        "test:only" : "mocha",
+        "build:code" : "UMD=sourcemapCodec node ../../esbuild.mjs gen-mapping.ts",
+        "lint:types" : "npm run test:types -- --fix",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "build:types" : "tsc --project tsconfig.build.json",
+        "lint:format" : "npm run test:format -- --write",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run-s -n build test",
+        "benchmark:install" : "cd benchmark && npm install"
+      },
+      "_npmVersion" : "10.9.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.7",
+      "gitHead" : "9fd42d6cfa8c80540d5b08621cd23957f128d866",
+      "types" : "types/gen-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./types/gen-mapping.d.ts",
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "deprecated" : "newer syntax features were not transpiled",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.7_1733819098815_0.025692396914250848",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.6.1"
+    },
+    "0.3.8" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.8",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/gen-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/gen-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/gen-mapping/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.8.tgz",
+        "shasum" : "4f0e06362e01362f823d348f1872b08f666d8142"
+      },
+      "dependencies" : {
+        "@jridgewell/set-array" : "^1.2.1",
+        "@jridgewell/trace-mapping" : "^0.3.24",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "tsx" : "4.7.1",
+        "mocha" : "9.2.2",
+        "eslint" : "8.14.0",
+        "rollup" : "2.70.2",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.3",
+        "@types/node" : "17.0.29",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "9.1.1",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.21.0",
+        "@typescript-eslint/eslint-plugin" : "5.21.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.8",
+      "gitHead" : "0719ff4756b9f1c6c66c244a2ef29e0229e8dcd9",
+      "types" : "dist/types/gen-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/gen-mapping.d.ts",
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.8_1733944203485_0.0024117644006400596",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.3.5" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.5",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/gen-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/gen-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/gen-mapping/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.5.tgz",
+        "shasum" : "dcce6aff74bdf6dad1a95802b69b04a2fcb1fb36"
+      },
+      "dependencies" : {
+        "@jridgewell/set-array" : "^1.2.1",
+        "@jridgewell/trace-mapping" : "^0.3.24",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "tsx" : "4.7.1",
+        "mocha" : "9.2.2",
+        "eslint" : "8.14.0",
+        "rollup" : "2.70.2",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.3",
+        "@types/node" : "17.0.29",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "9.1.1",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.21.0",
+        "@typescript-eslint/eslint-plugin" : "5.21.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.5",
+      "gitHead" : "75eff9d01ef5da5477e316ec0f4f917ebe08dd96",
+      "types" : "dist/types/gen-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/gen-mapping.d.ts",
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.5_1709278747728_0.2539192790874143",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.3.6" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.6",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "type" : "git",
+        "directory" : "packages/gen-mapping"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.6.tgz",
+        "shasum" : "9c3ced7fc4ceee01fbd5f8cd257310aa71341a0b"
+      },
+      "dependencies" : {
+        "@jridgewell/trace-mapping" : "^0.3.24",
+        "@jridgewell/sourcemap-codec" : "1.4.16-beta.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:types lint:format",
+        "test" : "run-s -n test:types test:only test:format",
+        "build" : "run-s -n build:code build:types",
+        "benchmark" : "run-s build:code benchmark:*",
+        "test:only" : "mocha",
+        "build:code" : "UMD=sourcemapCodec node ../../esbuild.mjs gen-mapping.ts",
+        "lint:types" : "npm run test:types -- --fix",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "build:types" : "tsc --project tsconfig.build.json",
+        "lint:format" : "npm run test:format -- --write",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "benchmark:install" : "cd benchmark && npm install"
+      },
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.6",
+      "gitHead" : "7575b63bc3f70388c2cafc33efc8b47254ff4b4c",
+      "types" : "types/gen-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./types/gen-mapping.d.ts",
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "deprecated" : "publish failed to build the dist directory",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.6_1733813967026_0.27991118928926717",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.6.1"
+    },
+    "0.3.6-beta.2" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.6-beta.2",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/gen-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/gen-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/gen-mapping/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.6-beta.2.tgz",
+        "shasum" : "91ce86a2c8566073e3a8e559ce6bc13ae3fb9b25"
+      },
+      "dependencies" : {
+        "@jridgewell/set-array" : "^1.2.1",
+        "@jridgewell/trace-mapping" : "^0.3.24",
+        "@jridgewell/sourcemap-codec" : "1.4.16-beta.0"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "tsx" : "4.7.1",
+        "mocha" : "9.2.2",
+        "eslint" : "8.14.0",
+        "rollup" : "2.70.2",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.3",
+        "@types/node" : "17.0.29",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "9.1.1",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.21.0",
+        "@typescript-eslint/eslint-plugin" : "5.21.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.6-beta.2",
+      "gitHead" : "c993c593381443829c896f5c6ae3d570e2970530",
+      "types" : "dist/types/gen-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/gen-mapping.d.ts",
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.6-beta.2_1719316594544_0.0994689048244548",
+        "host" : "s3://npm-registry-packages"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.3.6-beta.3" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.6-beta.3",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/gen-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/gen-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/gen-mapping/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.6-beta.3.tgz",
+        "shasum" : "7f97480a8d83a7c5f06a9a1a70b4e9b1808d526b"
+      },
+      "dependencies" : {
+        "@jridgewell/set-array" : "^1.2.1",
+        "@jridgewell/trace-mapping" : "^0.3.24",
+        "@jridgewell/sourcemap-codec" : "1.4.16-beta.0"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "tsx" : "4.7.1",
+        "mocha" : "9.2.2",
+        "eslint" : "8.14.0",
+        "rollup" : "2.70.2",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.3",
+        "@types/node" : "17.0.29",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "9.1.1",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.21.0",
+        "@typescript-eslint/eslint-plugin" : "5.21.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.6-beta.3",
+      "gitHead" : "a51a9aead18dc1e04549805705e429d1fe5e80b9",
+      "types" : "dist/types/gen-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/gen-mapping.d.ts",
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.6-beta.3_1719317634094_0.45938265899156105",
+        "host" : "s3://npm-registry-packages"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.3.6-beta.4" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.6-beta.4",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/gen-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/gen-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/gen-mapping/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.6-beta.4.tgz",
+        "shasum" : "b63fec0ead8041a154f157dc20b20809cd55d89f"
+      },
+      "dependencies" : {
+        "@jridgewell/set-array" : "^1.2.1",
+        "@jridgewell/trace-mapping" : "^0.3.24",
+        "@jridgewell/sourcemap-codec" : "1.4.16-beta.0"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "tsx" : "4.7.1",
+        "mocha" : "9.2.2",
+        "eslint" : "8.14.0",
+        "rollup" : "2.70.2",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.3",
+        "@types/node" : "17.0.29",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "9.1.1",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.21.0",
+        "@typescript-eslint/eslint-plugin" : "5.21.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.6-beta.4",
+      "gitHead" : "6c86691e35e7c75c83a33d689b25459663929322",
+      "types" : "dist/types/gen-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/gen-mapping.d.ts",
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.6-beta.4_1719317859801_0.1375146075334459",
+        "host" : "s3://npm-registry-packages"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.1.1" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/gen-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/gen-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/gen-mapping/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz",
+        "shasum" : "e5d2e450306a9491e3bd77e323e38d7aff315996"
+      },
+      "dependencies" : {
+        "@jridgewell/set-array" : "^1.0.0",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "mocha" : "9.2.2",
+        "eslint" : "8.14.0",
+        "rollup" : "2.70.2",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.3",
+        "@types/node" : "17.0.29",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "9.1.1",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.21.0",
+        "@typescript-eslint/eslint-plugin" : "5.21.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:coverage",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "pretest" : "run-s build:rollup",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "run-p 'build:rollup -- --watch' 'test:only -- --watch'",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "test:coverage" : "c8 mocha",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.5.1",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.1.1",
+      "gitHead" : "2464c6cbd4b98bbbd6d97bbf1889edd1a647adcc",
+      "typings" : "dist/types/gen-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.1.1_1651070108663_0.687055510323439",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "17.6.0"
+    },
+    "0.2.0" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/gen-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/gen-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/gen-mapping/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.2.0.tgz",
+        "shasum" : "8b4d9da3c3a75e06187d1e926f8f8b7a4fab12d0"
+      },
+      "dependencies" : {
+        "@jridgewell/set-array" : "^1.0.0",
+        "@jridgewell/trace-mapping" : "^0.3.9",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "mocha" : "9.2.2",
+        "eslint" : "8.14.0",
+        "rollup" : "2.70.2",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.3",
+        "@types/node" : "17.0.29",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "9.1.1",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.21.0",
+        "@typescript-eslint/eslint-plugin" : "5.21.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:coverage",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "pretest" : "run-s build:rollup",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "run-p 'build:rollup -- --watch' 'test:only -- --watch'",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "test:coverage" : "c8 mocha",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.6.0",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.2.0",
+      "gitHead" : "89f096a56f878be21ddd83d5a2fdae17c6e7c09d",
+      "typings" : "dist/types/gen-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.2.0_1651085634968_0.5773922306947608",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.0.0"
+    },
+    "0.3.0" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/gen-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/gen-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/gen-mapping/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.0.tgz",
+        "shasum" : "62d7a390ad9f98be6af7daddb327174a3f295acc"
+      },
+      "dependencies" : {
+        "@jridgewell/set-array" : "^1.0.0",
+        "@jridgewell/trace-mapping" : "^0.3.9",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "mocha" : "9.2.2",
+        "eslint" : "8.14.0",
+        "rollup" : "2.70.2",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.3",
+        "@types/node" : "17.0.29",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "9.1.1",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.21.0",
+        "@typescript-eslint/eslint-plugin" : "5.21.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:coverage",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "pretest" : "run-s build:rollup",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "run-p 'build:rollup -- --watch' 'test:only -- --watch'",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "test:coverage" : "c8 mocha",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.6.0",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.0",
+      "gitHead" : "55e0a5877c310746ec94172ff6cb26dd408c1bcf",
+      "typings" : "dist/types/gen-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.0_1651292787138_0.8645226309239749",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.0.0"
+    },
+    "0.3.6-beta.0" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.6-beta.0",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/gen-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/gen-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/gen-mapping/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.6-beta.0.tgz",
+        "shasum" : "a86ab183cd73712d7a13ee481de343aa13ee4bdf"
+      },
+      "dependencies" : {
+        "@jridgewell/set-array" : "^1.2.1",
+        "@jridgewell/trace-mapping" : "^0.3.24",
+        "@jridgewell/sourcemap-codec" : "1.4.16-beta.0"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "tsx" : "4.7.1",
+        "mocha" : "9.2.2",
+        "eslint" : "8.14.0",
+        "rollup" : "2.70.2",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.3",
+        "@types/node" : "17.0.29",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "9.1.1",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.21.0",
+        "@typescript-eslint/eslint-plugin" : "5.21.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.6-beta.0",
+      "gitHead" : "948d6438995b664c031cb45bd6046d82284567fe",
+      "types" : "dist/types/gen-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/gen-mapping.d.ts",
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.6-beta.0_1719314950686_0.09059741030028734",
+        "host" : "s3://npm-registry-packages"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.1.0" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/gen-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/gen-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/gen-mapping/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.1.0.tgz",
+        "shasum" : "b30fd66b5426bb7f44bb6043ab127b20ee404063"
+      },
+      "dependencies" : {
+        "@jridgewell/set-array" : "1.0.0",
+        "@jridgewell/sourcemap-codec" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.0",
+        "mocha" : "9.2.0",
+        "eslint" : "8.7.0",
+        "rollup" : "2.66.0",
+        "prettier" : "2.5.1",
+        "typescript" : "4.5.5",
+        "@types/node" : "17.0.28",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "9.1.1",
+        "eslint-config-prettier" : "8.3.0",
+        "@rollup/plugin-typescript" : "8.3.0",
+        "@typescript-eslint/parser" : "5.10.0",
+        "@typescript-eslint/eslint-plugin" : "5.10.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:coverage",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "pretest" : "run-s build:rollup",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "run-p 'build:rollup -- --watch' 'test:only -- --watch'",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "test:coverage" : "c8 mocha",
+        "prepublishOnly" : "npm run preversion",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "8.5.1",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.1.0",
+      "gitHead" : "22ef3ca68112cbf8780ae9f5b73a65061d6da26c",
+      "typings" : "dist/types/gen-mapping.d.ts",
+      "exports" : {
+        "." : {
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        },
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.1.0_1651021272687_0.49895110307354074",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "17.6.0"
+    },
+    "0.3.6-beta.1" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.6-beta.1",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/gen-mapping#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/gen-mapping.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/gen-mapping/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.6-beta.1.tgz",
+        "shasum" : "585cea7c2d3ec86824f7643168e9b1b8da6bcdda"
+      },
+      "dependencies" : {
+        "@jridgewell/set-array" : "^1.2.1",
+        "@jridgewell/trace-mapping" : "^0.3.24",
+        "@jridgewell/sourcemap-codec" : "1.4.16-beta.0"
+      },
+      "devDependencies" : {
+        "c8" : "7.11.2",
+        "tsx" : "4.7.1",
+        "mocha" : "9.2.2",
+        "eslint" : "8.14.0",
+        "rollup" : "2.70.2",
+        "prettier" : "2.6.2",
+        "benchmark" : "2.1.4",
+        "typescript" : "4.6.3",
+        "@types/node" : "17.0.29",
+        "npm-run-all" : "4.1.5",
+        "@types/mocha" : "9.1.1",
+        "eslint-config-prettier" : "8.5.0",
+        "@rollup/plugin-typescript" : "8.3.2",
+        "@typescript-eslint/parser" : "5.21.0",
+        "@typescript-eslint/eslint-plugin" : "5.21.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:*",
+        "test" : "run-s -n test:lint test:only",
+        "build" : "run-s -n build:*",
+        "lint:ts" : "npm run test:lint:ts -- --fix",
+        "build:ts" : "tsc --project tsconfig.build.json",
+        "prebuild" : "rm -rf dist",
+        "benchmark" : "run-s build:rollup benchmark:*",
+        "test:lint" : "run-s -n test:lint:*",
+        "test:only" : "c8 mocha",
+        "preversion" : "run-s test build",
+        "test:debug" : "mocha --inspect-brk",
+        "test:watch" : "mocha --watch",
+        "build:rollup" : "rollup -c rollup.config.js",
+        "test:lint:ts" : "eslint '{src,test}/**/*.ts'",
+        "lint:prettier" : "npm run test:lint:prettier -- --write",
+        "benchmark:only" : "node benchmark/index.mjs",
+        "prepublishOnly" : "npm run preversion",
+        "benchmark:install" : "cd benchmark && npm install",
+        "test:lint:prettier" : "prettier --check '{src,test}/**/*.ts'"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.6-beta.1",
+      "gitHead" : "47b0caab89668a033ace103cd9041f453dcdcd2b",
+      "types" : "dist/types/gen-mapping.d.ts",
+      "exports" : {
+        "." : [ {
+          "types" : "./dist/types/gen-mapping.d.ts",
+          "import" : "./dist/gen-mapping.mjs",
+          "browser" : "./dist/gen-mapping.umd.js",
+          "require" : "./dist/gen-mapping.umd.js"
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.6-beta.1_1719316201242_0.4713812959851873",
+        "host" : "s3://npm-registry-packages"
+      },
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.3.10" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.10",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/gen-mapping",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "type" : "git",
+        "directory" : "packages/gen-mapping"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.10.tgz",
+        "shasum" : "1cad974c8478e644c5cbce2a4b738137bb64bd4f"
+      },
+      "dependencies" : {
+        "@jridgewell/trace-mapping" : "^0.3.24",
+        "@jridgewell/sourcemap-codec" : "^1.5.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:types lint:format",
+        "test" : "run-s -n test:types test:only test:format",
+        "build" : "run-s -n build:code build:types",
+        "clean" : "run-s -n clean:code clean:types",
+        "benchmark" : "run-s build:code benchmark:*",
+        "test:only" : "mocha",
+        "build:code" : "node ../../esbuild.mjs gen-mapping.ts",
+        "clean:code" : "tsc --build --clean tsconfig.build.json",
+        "lint:types" : "npm run test:types -- --fix",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "build:types" : "run-s build:types:force build:types:emit build:types:mts",
+        "clean:types" : "rimraf dist types",
+        "lint:format" : "npm run test:format -- --write",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run-s -n build test",
+        "build:types:mts" : "node ../../mts-types.mjs",
+        "build:types:emit" : "tsc --project tsconfig.build.json",
+        "benchmark:install" : "cd benchmark && npm install",
+        "build:types:force" : "rimraf tsconfig.build.tsbuildinfo"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "actor" : {
+          "name" : "jridgewell",
+          "type" : "user",
+          "email" : "justin+npm@ridgewell.name"
+        },
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.10",
+      "gitHead" : "dad47801cf1793389c88aeea2b2f688e98113eaa",
+      "types" : "types/gen-mapping.d.cts",
+      "exports" : {
+        "." : [ {
+          "import" : {
+            "types" : "./types/gen-mapping.d.mts",
+            "default" : "./dist/gen-mapping.mjs"
+          },
+          "browser" : {
+            "types" : "./types/gen-mapping.d.cts",
+            "default" : "./dist/gen-mapping.umd.js"
+          },
+          "require" : {
+            "types" : "./types/gen-mapping.d.cts",
+            "default" : "./dist/gen-mapping.umd.js"
+          }
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.10_1751259823080_0.21640380582872254",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.3.11" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.11",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/gen-mapping",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "type" : "git",
+        "directory" : "packages/gen-mapping"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.11.tgz",
+        "shasum" : "02faf35e82eb08a465704d501f60cd073f8d1715"
+      },
+      "dependencies" : {
+        "@jridgewell/trace-mapping" : "^0.3.24",
+        "@jridgewell/sourcemap-codec" : "^1.5.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:types lint:format",
+        "test" : "run-s -n test:types test:only test:format",
+        "build" : "run-s -n build:code build:types",
+        "clean" : "run-s -n clean:code clean:types",
+        "benchmark" : "run-s build:code benchmark:*",
+        "test:only" : "mocha",
+        "build:code" : "node ../../esbuild.mjs gen-mapping.ts",
+        "clean:code" : "tsc --build --clean tsconfig.build.json",
+        "lint:types" : "npm run test:types -- --fix",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "build:types" : "run-s build:types:force build:types:emit build:types:mts",
+        "clean:types" : "rimraf dist types",
+        "lint:format" : "npm run test:format -- --write",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run-s -n build test",
+        "build:types:mts" : "node ../../mts-types.mjs",
+        "build:types:emit" : "tsc --project tsconfig.build.json",
+        "benchmark:install" : "cd benchmark && npm install",
+        "build:types:force" : "rimraf tsconfig.build.tsbuildinfo"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "actor" : {
+          "name" : "jridgewell",
+          "type" : "user",
+          "email" : "justin+npm@ridgewell.name"
+        },
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.11",
+      "gitHead" : "d2578bd71829135bee7f510e62f898bcde97e80a",
+      "types" : "types/gen-mapping.d.cts",
+      "exports" : {
+        "." : [ {
+          "import" : {
+            "types" : "./types/gen-mapping.d.mts",
+            "default" : "./dist/gen-mapping.mjs"
+          },
+          "browser" : {
+            "types" : "./types/gen-mapping.d.cts",
+            "default" : "./dist/gen-mapping.umd.js"
+          },
+          "require" : {
+            "types" : "./types/gen-mapping.d.cts",
+            "default" : "./dist/gen-mapping.umd.js"
+          }
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.11_1751306911920_0.30827863124480803",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.3.12" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.12",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/gen-mapping",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "type" : "git",
+        "directory" : "packages/gen-mapping"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.12.tgz",
+        "shasum" : "2234ce26c62889f03db3d7fea43c1932ab3e927b"
+      },
+      "dependencies" : {
+        "@jridgewell/trace-mapping" : "^0.3.24",
+        "@jridgewell/sourcemap-codec" : "^1.5.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:types lint:format",
+        "test" : "run-s -n test:types test:only test:format",
+        "build" : "run-s -n build:code build:types",
+        "clean" : "run-s -n clean:code clean:types",
+        "benchmark" : "run-s build:code benchmark:*",
+        "test:only" : "mocha",
+        "build:code" : "node ../../esbuild.mjs gen-mapping.ts",
+        "clean:code" : "tsc --build --clean tsconfig.build.json",
+        "lint:types" : "npm run test:types -- --fix",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "build:types" : "run-s build:types:force build:types:emit build:types:mts",
+        "clean:types" : "rimraf dist types",
+        "lint:format" : "npm run test:format -- --write",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run-s -n build test",
+        "build:types:mts" : "node ../../mts-types.mjs",
+        "build:types:emit" : "tsc --project tsconfig.build.json",
+        "benchmark:install" : "cd benchmark && npm install",
+        "build:types:force" : "rimraf tsconfig.build.tsbuildinfo"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "actor" : {
+          "name" : "jridgewell",
+          "type" : "user",
+          "email" : "justin+npm@ridgewell.name"
+        },
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.12",
+      "gitHead" : "3c6286e949d58c2bc6e27334385349c6a83c6d7d",
+      "types" : "types/gen-mapping.d.cts",
+      "exports" : {
+        "." : [ {
+          "import" : {
+            "types" : "./types/gen-mapping.d.mts",
+            "default" : "./dist/gen-mapping.mjs"
+          },
+          "browser" : {
+            "types" : "./types/gen-mapping.d.cts",
+            "default" : "./dist/gen-mapping.umd.js"
+          },
+          "require" : {
+            "types" : "./types/gen-mapping.d.cts",
+            "default" : "./dist/gen-mapping.umd.js"
+          }
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.12_1751393934111_0.5562253790474305",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.3.13" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.13",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/gen-mapping",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "directory" : "packages/gen-mapping"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz",
+        "shasum" : "6342a19f44347518c93e43b1ac69deb3c4656a1f"
+      },
+      "dependencies" : {
+        "@jridgewell/sourcemap-codec" : "^1.5.0",
+        "@jridgewell/trace-mapping" : "^0.3.24"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "benchmark" : "run-s build:code benchmark:*",
+        "benchmark:install" : "cd benchmark && npm install",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "build" : "run-s -n build:code build:types",
+        "build:code" : "node ../../esbuild.mjs gen-mapping.ts",
+        "build:types" : "run-s build:types:force build:types:emit build:types:mts",
+        "build:types:force" : "rimraf tsconfig.build.tsbuildinfo",
+        "build:types:emit" : "tsc --project tsconfig.build.json",
+        "build:types:mts" : "node ../../mts-types.mjs",
+        "clean" : "run-s -n clean:code clean:types",
+        "clean:code" : "tsc --build --clean tsconfig.build.json",
+        "clean:types" : "rimraf dist types",
+        "test" : "run-s -n test:types test:only test:format",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "test:only" : "mocha",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "lint" : "run-s -n lint:types lint:format",
+        "lint:format" : "npm run test:format -- --write",
+        "lint:types" : "npm run test:types -- --fix",
+        "prepublishOnly" : "npm run-s -n build test"
+      },
+      "_npmVersion" : "11.4.2",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.13",
+      "gitHead" : "095a5825c482003597a30aa380b50159219f3618",
+      "types" : "types/gen-mapping.d.cts",
+      "exports" : {
+        "." : [ {
+          "import" : {
+            "types" : "./types/gen-mapping.d.mts",
+            "default" : "./dist/gen-mapping.mjs"
+          },
+          "default" : {
+            "types" : "./types/gen-mapping.d.cts",
+            "default" : "./dist/gen-mapping.umd.js"
+          }
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/gen-mapping_0.3.13_1754981000958_0.7113082944711056"
+      },
+      "_nodeVersion" : "24.4.1"
+    },
+    "0.3.9" : {
+      "name" : "@jridgewell/gen-mapping",
+      "description" : "Generate source maps",
+      "version" : "0.3.9",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "homepage" : "https://github.com/jridgewell/sourcemaps#readme",
+      "repository" : {
+        "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+        "type" : "git",
+        "directory" : "packages/gen-mapping"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jridgewell/sourcemaps/issues"
+      },
+      "main" : "dist/gen-mapping.umd.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@jridgewell/gen-mapping/-/gen-mapping-0.3.9.tgz",
+        "shasum" : "6651c7afca59e19abd00cd40346d13e225026c83"
+      },
+      "dependencies" : {
+        "@jridgewell/trace-mapping" : "^0.3.24",
+        "@jridgewell/sourcemap-codec" : "^1.5.0"
+      },
+      "keywords" : [ "source", "map" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jridgewell",
+        "email" : "justin+npm@ridgewell.name"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "run-s -n lint:types lint:format",
+        "test" : "run-s -n test:types test:only test:format",
+        "build" : "run-s -n build:code build:types",
+        "clean" : "run-s -n clean:code clean:types",
+        "benchmark" : "run-s build:code benchmark:*",
+        "test:only" : "mocha",
+        "build:code" : "node ../../esbuild.mjs gen-mapping.ts",
+        "clean:code" : "tsc --build --clean tsconfig.build.json",
+        "lint:types" : "npm run test:types -- --fix",
+        "test:types" : "eslint '{src,test}/**/*.ts'",
+        "build:types" : "run-s build:types:force build:types:emit build:types:mts",
+        "clean:types" : "rimraf dist types",
+        "lint:format" : "npm run test:format -- --write",
+        "test:format" : "prettier --check '{src,test}/**/*.ts'",
+        "benchmark:only" : "node --expose-gc benchmark/index.js",
+        "prepublishOnly" : "npm run-s -n build test",
+        "build:types:mts" : "node ../../mts-types.mjs",
+        "build:types:emit" : "tsc --project tsconfig.build.json",
+        "benchmark:install" : "cd benchmark && npm install",
+        "build:types:force" : "rimraf tsconfig.build.tsbuildinfo"
+      },
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "jridgewell",
+        "actor" : {
+          "name" : "jridgewell",
+          "type" : "user",
+          "email" : "justin+npm@ridgewell.name"
+        },
+        "email" : "justin+npm@ridgewell.name"
+      },
+      "_id" : "@jridgewell/gen-mapping@0.3.9",
+      "gitHead" : "eddb11752fcd9cd752a986c5b5c4ae836e3d6662",
+      "types" : "types/gen-mapping.d.cts",
+      "exports" : {
+        "." : [ {
+          "import" : {
+            "types" : "./types/gen-mapping.d.mts",
+            "default" : "./dist/gen-mapping.mjs"
+          },
+          "browser" : {
+            "types" : "./types/gen-mapping.d.cts",
+            "default" : "./dist/gen-mapping.umd.js"
+          },
+          "require" : {
+            "types" : "./types/gen-mapping.d.cts",
+            "default" : "./dist/gen-mapping.umd.js"
+          },
+          "module-sync" : {
+            "types" : "./types/gen-mapping.d.mts",
+            "default" : "./dist/gen-mapping.mjs"
+          }
+        }, "./dist/gen-mapping.umd.js" ],
+        "./package.json" : "./package.json"
+      },
+      "module" : "dist/gen-mapping.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/gen-mapping_0.3.9_1751232492051_0.18922720989367803",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "20.10.0"
+    }
+  },
+  "readme" : "# @jridgewell/gen-mapping\n\n> Generate source maps\n\n`gen-mapping` allows you to generate a source map during transpilation or minification.\nWith a source map, you're able to trace the original location in the source file, either in Chrome's\nDevTools or using a library like [`@jridgewell/trace-mapping`][trace-mapping].\n\nYou may already be familiar with the [`source-map`][source-map] package's `SourceMapGenerator`. This\nprovides the same `addMapping` and `setSourceContent` API.\n\n## Installation\n\n```sh\nnpm install @jridgewell/gen-mapping\n```\n\n## Usage\n\n```typescript\nimport { GenMapping, addMapping, setSourceContent, toEncodedMap, toDecodedMap } from '@jridgewell/gen-mapping';\n\nconst map = new GenMapping({\n  file: 'output.js',\n  sourceRoot: 'https://example.com/',\n});\n\nsetSourceContent(map, 'input.js', `function foo() {}`);\n\naddMapping(map, {\n  // Lines start at line 1, columns at column 0.\n  generated: { line: 1, column: 0 },\n  source: 'input.js',\n  original: { line: 1, column: 0 },\n});\n\naddMapping(map, {\n  generated: { line: 1, column: 9 },\n  source: 'input.js',\n  original: { line: 1, column: 9 },\n  name: 'foo',\n});\n\nassert.deepEqual(toDecodedMap(map), {\n  version: 3,\n  file: 'output.js',\n  names: ['foo'],\n  sourceRoot: 'https://example.com/',\n  sources: ['input.js'],\n  sourcesContent: ['function foo() {}'],\n  mappings: [\n    [ [0, 0, 0, 0], [9, 0, 0, 9, 0] ]\n  ],\n});\n\nassert.deepEqual(toEncodedMap(map), {\n  version: 3,\n  file: 'output.js',\n  names: ['foo'],\n  sourceRoot: 'https://example.com/',\n  sources: ['input.js'],\n  sourcesContent: ['function foo() {}'],\n  mappings: 'AAAA,SAASA',\n});\n```\n\n### Smaller Sourcemaps\n\nNot everything needs to be added to a sourcemap, and needless markings can cause signficantly\nlarger file sizes. `gen-mapping` exposes `maybeAddSegment`/`maybeAddMapping` APIs that will\nintelligently determine if this marking adds useful information. If not, the marking will be\nskipped.\n\n```typescript\nimport { maybeAddMapping } from '@jridgewell/gen-mapping';\n\nconst map = new GenMapping();\n\n// Adding a sourceless marking at the beginning of a line isn't useful.\nmaybeAddMapping(map, {\n  generated: { line: 1, column: 0 },\n});\n\n// Adding a new source marking is useful.\nmaybeAddMapping(map, {\n  generated: { line: 1, column: 0 },\n  source: 'input.js',\n  original: { line: 1, column: 0 },\n});\n\n// But adding another marking pointing to the exact same original location isn't, even if the\n// generated column changed.\nmaybeAddMapping(map, {\n  generated: { line: 1, column: 9 },\n  source: 'input.js',\n  original: { line: 1, column: 0 },\n});\n\nassert.deepEqual(toEncodedMap(map), {\n  version: 3,\n  names: [],\n  sources: ['input.js'],\n  sourcesContent: [null],\n  mappings: 'AAAA',\n});\n```\n\n## Benchmarks\n\n```\nnode v18.0.0\n\namp.js.map\nMemory Usage:\ngen-mapping: addSegment      5852872 bytes\ngen-mapping: addMapping      7716042 bytes\nsource-map-js                6143250 bytes\nsource-map-0.6.1             6124102 bytes\nsource-map-0.8.0             6121173 bytes\nSmallest memory usage is gen-mapping: addSegment\n\nAdding speed:\ngen-mapping:      addSegment x 441 ops/sec ±2.07% (90 runs sampled)\ngen-mapping:      addMapping x 350 ops/sec ±2.40% (86 runs sampled)\nsource-map-js:    addMapping x 169 ops/sec ±2.42% (80 runs sampled)\nsource-map-0.6.1: addMapping x 167 ops/sec ±2.56% (80 runs sampled)\nsource-map-0.8.0: addMapping x 168 ops/sec ±2.52% (80 runs sampled)\nFastest is gen-mapping:      addSegment\n\nGenerate speed:\ngen-mapping:      decoded output x 150,824,370 ops/sec ±0.07% (102 runs sampled)\ngen-mapping:      encoded output x 663 ops/sec ±0.22% (98 runs sampled)\nsource-map-js:    encoded output x 197 ops/sec ±0.45% (84 runs sampled)\nsource-map-0.6.1: encoded output x 198 ops/sec ±0.33% (85 runs sampled)\nsource-map-0.8.0: encoded output x 197 ops/sec ±0.06% (93 runs sampled)\nFastest is gen-mapping:      decoded output\n\n\n***\n\n\nbabel.min.js.map\nMemory Usage:\ngen-mapping: addSegment     37578063 bytes\ngen-mapping: addMapping     37212897 bytes\nsource-map-js               47638527 bytes\nsource-map-0.6.1            47690503 bytes\nsource-map-0.8.0            47470188 bytes\nSmallest memory usage is gen-mapping: addMapping\n\nAdding speed:\ngen-mapping:      addSegment x 31.05 ops/sec ±8.31% (43 runs sampled)\ngen-mapping:      addMapping x 29.83 ops/sec ±7.36% (51 runs sampled)\nsource-map-js:    addMapping x 20.73 ops/sec ±6.22% (38 runs sampled)\nsource-map-0.6.1: addMapping x 20.03 ops/sec ±10.51% (38 runs sampled)\nsource-map-0.8.0: addMapping x 19.30 ops/sec ±8.27% (37 runs sampled)\nFastest is gen-mapping:      addSegment\n\nGenerate speed:\ngen-mapping:      decoded output x 381,379,234 ops/sec ±0.29% (96 runs sampled)\ngen-mapping:      encoded output x 95.15 ops/sec ±2.98% (72 runs sampled)\nsource-map-js:    encoded output x 15.20 ops/sec ±7.41% (33 runs sampled)\nsource-map-0.6.1: encoded output x 16.36 ops/sec ±10.46% (31 runs sampled)\nsource-map-0.8.0: encoded output x 16.06 ops/sec ±6.45% (31 runs sampled)\nFastest is gen-mapping:      decoded output\n\n\n***\n\n\npreact.js.map\nMemory Usage:\ngen-mapping: addSegment       416247 bytes\ngen-mapping: addMapping       419824 bytes\nsource-map-js                1024619 bytes\nsource-map-0.6.1             1146004 bytes\nsource-map-0.8.0             1113250 bytes\nSmallest memory usage is gen-mapping: addSegment\n\nAdding speed:\ngen-mapping:      addSegment x 13,755 ops/sec ±0.15% (98 runs sampled)\ngen-mapping:      addMapping x 13,013 ops/sec ±0.11% (101 runs sampled)\nsource-map-js:    addMapping x 4,564 ops/sec ±0.21% (98 runs sampled)\nsource-map-0.6.1: addMapping x 4,562 ops/sec ±0.11% (99 runs sampled)\nsource-map-0.8.0: addMapping x 4,593 ops/sec ±0.11% (100 runs sampled)\nFastest is gen-mapping:      addSegment\n\nGenerate speed:\ngen-mapping:      decoded output x 379,864,020 ops/sec ±0.23% (93 runs sampled)\ngen-mapping:      encoded output x 14,368 ops/sec ±4.07% (82 runs sampled)\nsource-map-js:    encoded output x 5,261 ops/sec ±0.21% (99 runs sampled)\nsource-map-0.6.1: encoded output x 5,124 ops/sec ±0.58% (99 runs sampled)\nsource-map-0.8.0: encoded output x 5,434 ops/sec ±0.33% (96 runs sampled)\nFastest is gen-mapping:      decoded output\n\n\n***\n\n\nreact.js.map\nMemory Usage:\ngen-mapping: addSegment       975096 bytes\ngen-mapping: addMapping      1102981 bytes\nsource-map-js                2918836 bytes\nsource-map-0.6.1             2885435 bytes\nsource-map-0.8.0             2874336 bytes\nSmallest memory usage is gen-mapping: addSegment\n\nAdding speed:\ngen-mapping:      addSegment x 4,772 ops/sec ±0.15% (100 runs sampled)\ngen-mapping:      addMapping x 4,456 ops/sec ±0.13% (97 runs sampled)\nsource-map-js:    addMapping x 1,618 ops/sec ±0.24% (97 runs sampled)\nsource-map-0.6.1: addMapping x 1,622 ops/sec ±0.12% (99 runs sampled)\nsource-map-0.8.0: addMapping x 1,631 ops/sec ±0.12% (100 runs sampled)\nFastest is gen-mapping:      addSegment\n\nGenerate speed:\ngen-mapping:      decoded output x 379,107,695 ops/sec ±0.07% (99 runs sampled)\ngen-mapping:      encoded output x 5,421 ops/sec ±1.60% (89 runs sampled)\nsource-map-js:    encoded output x 2,113 ops/sec ±1.81% (98 runs sampled)\nsource-map-0.6.1: encoded output x 2,126 ops/sec ±0.10% (100 runs sampled)\nsource-map-0.8.0: encoded output x 2,176 ops/sec ±0.39% (98 runs sampled)\nFastest is gen-mapping:      decoded output\n```\n\n[source-map]: https://www.npmjs.com/package/source-map\n[trace-mapping]: https://github.com/jridgewell/sourcemaps/tree/main/packages/trace-mapping\n",
+  "maintainers" : [ {
+    "name" : "jridgewell",
+    "email" : "justin+npm@ridgewell.name"
+  } ],
+  "author" : {
+    "name" : "Justin Ridgewell",
+    "email" : "justin@ridgewell.name"
+  },
+  "time" : {
+    "0.3.3" : "2023-04-07T02:42:47.543Z",
+    "0.3.4" : "2024-02-24T09:24:36.219Z",
+    "0.3.1" : "2022-05-05T21:59:31.553Z",
+    "0.3.2" : "2022-06-26T15:49:53.823Z",
+    "0.3.7" : "2024-12-10T08:24:59.035Z",
+    "0.3.8" : "2024-12-11T19:10:03.689Z",
+    "created" : "2022-04-27T01:01:12.594Z",
+    "0.3.5" : "2024-03-01T07:39:07.918Z",
+    "0.3.6" : "2024-12-10T06:59:27.174Z",
+    "0.3.6-beta.2" : "2024-06-25T11:56:34.815Z",
+    "0.3.6-beta.3" : "2024-06-25T12:13:54.254Z",
+    "0.3.6-beta.4" : "2024-06-25T12:17:39.973Z",
+    "0.1.1" : "2022-04-27T14:35:08.800Z",
+    "0.2.0" : "2022-04-27T18:53:55.146Z",
+    "0.3.0" : "2022-04-30T04:26:27.301Z",
+    "0.3.6-beta.0" : "2024-06-25T11:29:10.917Z",
+    "0.1.0" : "2022-04-27T01:01:12.843Z",
+    "0.3.6-beta.1" : "2024-06-25T11:50:01.420Z",
+    "0.3.10" : "2025-06-30T05:03:43.261Z",
+    "0.3.11" : "2025-06-30T18:08:32.100Z",
+    "0.3.12" : "2025-07-01T18:18:54.284Z",
+    "0.3.13" : "2025-08-12T06:43:21.134Z",
+    "modified" : "2025-08-12T06:43:21.272Z",
+    "0.3.9" : "2025-06-29T21:28:12.225Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/jridgewell/sourcemaps.git",
+    "directory" : "packages/gen-mapping"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/jridgewell/sourcemaps/tree/main/packages/gen-mapping",
+  "keywords" : [ "source", "map" ],
+  "bugs" : {
+    "url" : "https://github.com/jridgewell/sourcemaps/issues"
+  },
+  "license" : "MIT"
+}

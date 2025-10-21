@@ -1,0 +1,1423 @@
+{
+  "_id" : "update-browserslist-db",
+  "_rev" : "20-037d461dbfe5a2179d70e970353b4f26",
+  "name" : "update-browserslist-db",
+  "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+  "dist-tags" : {
+    "latest" : "1.1.3"
+  },
+  "versions" : {
+    "1.0.12" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.12",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.12.tgz",
+        "shasum" : "868ce670ac09b4a4d4c86b608701c0dee2dc41cd"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.1",
+        "picocolors" : "^1.0.0"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "update-browserslist-db" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "10.1.0",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.12",
+      "gitHead" : "d44d38023e5168a42cc462b8bc3488a3ddd4a917",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      }, {
+        "url" : "https://github.com/sponsors/ai",
+        "type" : "github"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.12_1695237559257_0.762138335387043",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.7.0"
+    },
+    "1.0.13" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.13",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.13.tgz",
+        "shasum" : "3c5e4f5c083661bd38ef64b6328c26ed6c8248c4"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.1",
+        "picocolors" : "^1.0.0"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "update-browserslist-db" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "10.1.0",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.13",
+      "gitHead" : "a727d276a0a0f0b6a8432221a6014dc524502ad1",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      }, {
+        "url" : "https://github.com/sponsors/ai",
+        "type" : "github"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.13_1695305432459_0.2569614501441022",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.7.0"
+    },
+    "1.0.14" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.14",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.14.tgz",
+        "shasum" : "46a9367c323f8ade9a9dddb7f3ae7814b3a0b31c"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.2",
+        "picocolors" : "^1.0.0"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "update-browserslist-db" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "10.5.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.14",
+      "gitHead" : "39a5f635cefe192b36b0b4a604919056e33d350c",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      }, {
+        "url" : "https://github.com/sponsors/ai",
+        "type" : "github"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.14_1714570536787_0.17920921288368086",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.0.0"
+    },
+    "1.0.15" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.15",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.15.tgz",
+        "shasum" : "60ed9f8cba4a728b7ecf7356f641a31e3a691d97"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.2",
+        "picocolors" : "^1.0.0"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "update-browserslist-db" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "10.7.0",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.15",
+      "gitHead" : "eff40597e6d9b5487203f7d5a789b894675bac40",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      }, {
+        "url" : "https://github.com/sponsors/ai",
+        "type" : "github"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.15_1714771066775_0.3616066604016148",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "22.1.0"
+    },
+    "1.0.10" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.10",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.10.tgz",
+        "shasum" : "0f54b876545726f17d00cd9a2561e6dade943ff3"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.1",
+        "picocolors" : "^1.0.0"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "browserslist-lint" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.10",
+      "gitHead" : "597c6d12268e9c55368c754269872786662fe4b0",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.10_1664989191557_0.4333030178359685",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.10.0"
+    },
+    "1.0.11" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.11",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.11.tgz",
+        "shasum" : "9a2a641ad2907ae7b3616506f4b977851db5b940"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.1",
+        "picocolors" : "^1.0.0"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "update-browserslist-db" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.11",
+      "gitHead" : "7ec485b186d8ae53dd4536fc0605a5073e6ee5c0",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      }, {
+        "url" : "https://github.com/sponsors/ai",
+        "type" : "github"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.11_1681584500398_0.8863628228607172",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "19.8.1"
+    },
+    "1.0.3" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.3.tgz",
+        "shasum" : "6c47cb996f34afb363e924748e2f6e4d983c6fc1"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.1",
+        "picocolors" : "^1.0.0"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "browserslist-lint" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.12.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.3",
+      "gitHead" : "e783cc0214d29caae4e2921dc9df46d3a378cad6",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.3_1655833216238_0.8225166537941184",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.4.0"
+    },
+    "1.1.2" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.1.2.tgz",
+        "shasum" : "97e9c96ab0ae7bcac08e9ae5151d26e6bc6b5580"
+      },
+      "dependencies" : {
+        "escalade" : "^3.2.0",
+        "picocolors" : "^1.1.1"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "update-browserslist-db" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "10.9.0",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.1.2",
+      "gitHead" : "4cc93a0474bf69971343c97f78e3b366eccf4920",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      }, {
+        "url" : "https://github.com/sponsors/ai",
+        "type" : "github"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.1.2_1736335220155_0.17666754124491524",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "_nodeVersion" : "22.11.0"
+    },
+    "1.0.4" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.4",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.4.tgz",
+        "shasum" : "dbfc5a789caa26b1db8990796c2c8ebbce304824"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.1",
+        "picocolors" : "^1.0.0"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "browserslist-lint" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.12.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.4",
+      "gitHead" : "f38f55fa32600df93738f9cb40de876d5a18db15",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.4_1655990521558_0.6721344951234394",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.4.0"
+    },
+    "1.1.3" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.1.3",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/browserslist/update-db.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.1.3.tgz",
+        "shasum" : "348377dd245216f9e7060ff50b15a1b740b75420"
+      },
+      "dependencies" : {
+        "escalade" : "^3.2.0",
+        "picocolors" : "^1.1.1"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "update-browserslist-db" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "10.9.0",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.1.3",
+      "gitHead" : "91ed867ed84c84685d9b788d31f7fd9390f08d81",
+      "funding" : [ {
+        "type" : "opencollective",
+        "url" : "https://opencollective.com/browserslist"
+      }, {
+        "type" : "tidelift",
+        "url" : "https://tidelift.com/funding/github/npm/browserslist"
+      }, {
+        "type" : "github",
+        "url" : "https://github.com/sponsors/ai"
+      } ],
+      "types" : "./index.d.ts",
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages-npm-production",
+        "tmp" : "tmp/update-browserslist-db_1.1.3_1740591162778_0.3299264878336139"
+      },
+      "_nodeVersion" : "22.11.0"
+    },
+    "1.0.5" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.5",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.5.tgz",
+        "shasum" : "be06a5eedd62f107b7c19eb5bcefb194411abf38"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.1",
+        "picocolors" : "^1.0.0"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "browserslist-lint" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.13.2",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.5",
+      "gitHead" : "75e7cf7303e286dec4e3f1841765855650a34abc",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.5_1658165220312_0.7676966784005661",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.6.0"
+    },
+    "1.0.6" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.6",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.6.tgz",
+        "shasum" : "044fddb5c26989628da5cff7a82ce1472152bce6"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.1",
+        "picocolors" : "^1.0.0"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "browserslist-lint" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.18.0",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.6",
+      "gitHead" : "caece66aeb955d87d636dfa4fb589b93e4a1e61c",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.6_1662063448584_0.11298894680764793",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.8.0"
+    },
+    "1.0.7" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.7",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.7.tgz",
+        "shasum" : "16279639cff1d0f800b14792de43d97df2d11b7d"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.1",
+        "picocolors" : "^1.0.0"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "browserslist-lint" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.18.0",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.7",
+      "gitHead" : "c9a2ef544b1b145a40733f7619e67a2f064a42cd",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.7_1662113705020_0.9788954300993493",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.8.0"
+    },
+    "1.0.8" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.8",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.8.tgz",
+        "shasum" : "2f0b711327668eee01bbecddcf4a7c7954a7f8e2"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.1",
+        "picocolors" : "^1.0.0"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "browserslist-lint" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.8",
+      "gitHead" : "8c84e0bbb3f4215cb46e81d11c9d5b52a565e671",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.8_1662995097152_0.48643929551889187",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.9.0"
+    },
+    "1.0.9" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.9",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.9.tgz",
+        "shasum" : "2924d3927367a38d5c555413a7ce138fc95fcb18"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.1",
+        "picocolors" : "^1.0.0"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "browserslist-lint" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.19.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.9",
+      "gitHead" : "dd50e379d141a0bf4c259a2bc07d3bc1e68705f7",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.9_1663070610804_0.4097355980665436",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.9.0"
+    },
+    "1.0.16" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.16",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.16.tgz",
+        "shasum" : "f6d489ed90fb2f07d67784eb3f53d7891f736356"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.2",
+        "picocolors" : "^1.0.1"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "update-browserslist-db" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "10.5.0",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.16",
+      "gitHead" : "f85ac35d3930d1f9c9919649becf29ba6cb06713",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      }, {
+        "url" : "https://github.com/sponsors/ai",
+        "type" : "github"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.16_1715688042611_0.5119956006134896",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.12.2"
+    },
+    "1.0.0" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.0.tgz",
+        "shasum" : "b40e6d558e0b39ec4b1638532e54b8659a86d467"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.1",
+        "picocolors" : "^1.0.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "browserslist-lint" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.12.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.0",
+      "gitHead" : "5da23192ceccfa436353b6b6790b72f2c4970357",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.0_1655825989596_0.499179932053452",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.4.0"
+    },
+    "1.0.1" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.1.tgz",
+        "shasum" : "a0351feafc34b84536269b2a488c1694a0c07933"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.1",
+        "picocolors" : "^1.0.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "browserslist-lint" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.12.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.1",
+      "gitHead" : "4e20da30a320d6bee7888d9ca89ef352c4e3634f",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.1_1655830715497_0.41053555494996896",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.4.0"
+    },
+    "1.1.0" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.1.0.tgz",
+        "shasum" : "7ca61c0d8650766090728046e416a8cde682859e"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.2",
+        "picocolors" : "^1.0.1"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "update-browserslist-db" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "10.5.0",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.1.0",
+      "gitHead" : "8b08f0071cc68f484106222d907c422756dd71bc",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      }, {
+        "url" : "https://github.com/sponsors/ai",
+        "type" : "github"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.1.0_1719959881203_0.4636199592497239",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.12.2"
+    },
+    "1.0.2" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.0.2.tgz",
+        "shasum" : "2c7c0efce9fc6b247fad11a0c83a77f561a0b1e5"
+      },
+      "dependencies" : {
+        "escalade" : "^3.1.1",
+        "picocolors" : "^1.0.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "browserslist-lint" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "8.12.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.0.2",
+      "gitHead" : "dec329bc47797f79914c1bb09e29a83c7a9cbcf5",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.0.2_1655832994441_0.1966459744004725",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "18.4.0"
+    },
+    "1.1.1" : {
+      "name" : "update-browserslist-db",
+      "description" : "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Andrey Sitnik",
+        "email" : "andrey@sitnik.ru"
+      },
+      "homepage" : "https://github.com/browserslist/update-db#readme",
+      "repository" : {
+        "url" : "git+https://github.com/browserslist/update-db.git",
+        "type" : "git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/browserslist/update-db/issues"
+      },
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/update-browserslist-db/-/update-browserslist-db-1.1.1.tgz",
+        "shasum" : "80846fba1d79e82547fb661f8d141e0945755fe5"
+      },
+      "dependencies" : {
+        "escalade" : "^3.2.0",
+        "picocolors" : "^1.1.0"
+      },
+      "peerDependencies" : {
+        "browserslist" : ">= 4.21.0"
+      },
+      "keywords" : [ "caniuse", "browsers", "target" ],
+      "license" : "MIT",
+      "bin" : {
+        "update-browserslist-db" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "10.8.2",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "update-browserslist-db@1.1.1",
+      "gitHead" : "85c8186412d5b9ff9bc77804f041add6934238cf",
+      "types" : "./index.d.ts",
+      "funding" : [ {
+        "url" : "https://opencollective.com/browserslist",
+        "type" : "opencollective"
+      }, {
+        "url" : "https://tidelift.com/funding/github/npm/browserslist",
+        "type" : "tidelift"
+      }, {
+        "url" : "https://github.com/sponsors/ai",
+        "type" : "github"
+      } ],
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/update-browserslist-db_1.1.1_1727429554702_0.4513317129007315",
+        "host" : "s3://npm-registry-packages"
+      },
+      "_nodeVersion" : "20.17.0"
+    }
+  },
+  "readme" : "# Update Browserslist DB\n\n<img width=\"120\" height=\"120\" alt=\"Browserslist logo by Anton Popov\"\n     src=\"https://browsersl.ist/logo.svg\" align=\"right\">\n\nCLI tool to update `caniuse-lite` with browsers DB\nfrom [Browserslist](https://github.com/browserslist/browserslist/) config.\n\nSome queries like `last 2 versions` or `>1%` depend on actual data\nfrom `caniuse-lite`.\n\n```sh\nnpx update-browserslist-db@latest\n```\n\n<a href=\"https://evilmartians.com/?utm_source=update-browserslist-db\">\n  <img src=\"https://evilmartians.com/badges/sponsored-by-evil-martians.svg\"\n       alt=\"Sponsored by Evil Martians\" width=\"236\" height=\"54\">\n</a>\n\n## Docs\nRead full docs **[here](https://github.com/browserslist/update-db#readme)**.\n",
+  "maintainers" : [ {
+    "name" : "ai",
+    "email" : "andrey@sitnik.ru"
+  } ],
+  "author" : {
+    "name" : "Andrey Sitnik",
+    "email" : "andrey@sitnik.ru"
+  },
+  "time" : {
+    "1.0.12" : "2023-09-20T19:19:19.425Z",
+    "1.0.13" : "2023-09-21T14:10:32.629Z",
+    "1.0.14" : "2024-05-01T13:35:36.985Z",
+    "1.0.15" : "2024-05-03T21:17:46.943Z",
+    "created" : "2022-06-21T15:39:49.595Z",
+    "1.0.10" : "2022-10-05T16:59:51.694Z",
+    "1.0.11" : "2023-04-15T18:48:20.627Z",
+    "1.0.3" : "2022-06-21T17:40:16.387Z",
+    "1.1.2" : "2025-01-08T11:20:20.310Z",
+    "1.0.4" : "2022-06-23T13:22:01.780Z",
+    "1.1.3" : "2025-02-26T17:32:43.009Z",
+    "1.0.5" : "2022-07-18T17:27:00.512Z",
+    "1.0.6" : "2022-09-01T20:17:28.779Z",
+    "1.0.7" : "2022-09-02T10:15:05.243Z",
+    "1.0.8" : "2022-09-12T15:04:57.302Z",
+    "1.0.9" : "2022-09-13T12:03:30.980Z",
+    "modified" : "2025-02-26T17:32:43.209Z",
+    "1.0.16" : "2024-05-14T12:00:42.759Z",
+    "1.0.0" : "2022-06-21T15:39:49.759Z",
+    "1.0.1" : "2022-06-21T16:58:35.722Z",
+    "1.1.0" : "2024-07-02T22:38:01.363Z",
+    "1.0.2" : "2022-06-21T17:36:34.765Z",
+    "1.1.1" : "2024-09-27T09:32:34.873Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/browserslist/update-db.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/browserslist/update-db#readme",
+  "keywords" : [ "caniuse", "browsers", "target" ],
+  "bugs" : {
+    "url" : "https://github.com/browserslist/update-db/issues"
+  },
+  "license" : "MIT"
+}

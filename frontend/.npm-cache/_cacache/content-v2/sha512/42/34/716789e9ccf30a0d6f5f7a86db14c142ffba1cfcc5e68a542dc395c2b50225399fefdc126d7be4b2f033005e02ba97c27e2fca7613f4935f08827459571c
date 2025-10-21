@@ -1,0 +1,1967 @@
+{
+  "_id" : "convert-source-map",
+  "_rev" : "70-7096ac6f222acceccb45b55057b7f094",
+  "name" : "convert-source-map",
+  "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+  "dist-tags" : {
+    "latest" : "2.0.0"
+  },
+  "versions" : {
+    "0.2.4" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.2.4",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "main" : "convert-source-map.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.2.4.tgz",
+        "shasum" : "e55b8abdc2221d45114f51a192bea0b8d2448cd1"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "trap" : "~0.4.2",
+        "inline-source-map" : "~0.2.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node-trap test/*.js"
+      },
+      "_npmVersion" : "1.1.69",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.2.4",
+      "engine" : {
+        "node" : ">=0.6"
+      }
+    },
+    "0.3.3" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.3.3",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.3.3.tgz",
+        "shasum" : "f77f130ded4e611d313a1bcf78f988990831c69b"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.0",
+        "tap" : "~0.4.3"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.17",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.3.3",
+      "engine" : {
+        "node" : ">=0.6"
+      }
+    },
+    "0.5.1" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.5.1",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.5.1.tgz",
+        "shasum" : "beb80f3b22de05fd4591410f494bcebe634a057e"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.1",
+        "tap" : "~0.4.13"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.4.1",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.5.1",
+      "gitHead" : "60a9fef81c18fffd0c17445e1e973c0664db7bd8",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_shasum" : "beb80f3b22de05fd4591410f494bcebe634a057e",
+      "_nodeVersion" : "1.1.0"
+    },
+    "0.6.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.6.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.6.0.tgz",
+        "shasum" : "2abc67e334c717549afa2f6f6dd96ebe1a3e208a"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.1",
+        "tap" : "~0.4.13"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.4.1",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.6.0",
+      "gitHead" : "64c4a3c70c5f86a22d4661a9ab440572abf611d7",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_shasum" : "2abc67e334c717549afa2f6f6dd96ebe1a3e208a",
+      "_nodeVersion" : "1.1.0"
+    },
+    "0.2.5" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.2.5",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "main" : "convert-source-map.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.2.5.tgz",
+        "shasum" : "bcbcb50f1fba6c9acd0e7c2b5e1bf168b1e41bd4"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "trap" : "~0.4.2",
+        "inline-source-map" : "~0.2.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node-trap test/*.js"
+      },
+      "_npmVersion" : "1.1.69",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.2.5",
+      "engine" : {
+        "node" : ">=0.6"
+      }
+    },
+    "0.3.4" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.3.4",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.3.4.tgz",
+        "shasum" : "9bfff1d4a21b9be94da60271ea2b5e6b5a761572"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.0",
+        "tap" : "~0.4.3"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.3.4",
+      "engine" : {
+        "node" : ">=0.6"
+      }
+    },
+    "0.7.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.7.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.7.0.tgz",
+        "shasum" : "a30ca7327a7546a9c521a71471923cedf884b6d7"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.1",
+        "tap" : "~0.4.13"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.4.1",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.7.0",
+      "gitHead" : "e09271eb92af9c22fdda2bf066af8ae1f842ffa8",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_shasum" : "a30ca7327a7546a9c521a71471923cedf884b6d7",
+      "_nodeVersion" : "1.1.0"
+    },
+    "0.2.2" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.2.2",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "main" : "convert-source-map.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.2.2.tgz",
+        "shasum" : "1a3a4a30bcc007d967247e16f387969d4fac7d2f"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "trap" : "~0.4.2",
+        "inline-source-map" : "~0.2.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node-trap test/*.js"
+      },
+      "_npmVersion" : "1.1.69",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.2.2",
+      "engine" : {
+        "node" : ">=0.6"
+      }
+    },
+    "0.3.1" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.3.1",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.3.1.tgz",
+        "shasum" : "734824d8ebcf8f0b0ba8e02d876d9c9f88734b2a"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.0",
+        "tap" : "~0.4.3"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.11",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.3.1",
+      "engine" : {
+        "node" : ">=0.6"
+      }
+    },
+    "0.4.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.4.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.4.0.tgz",
+        "shasum" : "f9c076f7b5abd98d5a1e9bbf6dabeab1b9d6b7a4"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.0",
+        "tap" : "~0.4.3"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.4.0",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_shasum" : "f9c076f7b5abd98d5a1e9bbf6dabeab1b9d6b7a4"
+    },
+    "0.2.3" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.2.3",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "main" : "convert-source-map.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.2.3.tgz",
+        "shasum" : "55936f8ca2a8dcbdbc7e38e3c01d5d1f57bd96ff"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "trap" : "~0.4.2",
+        "inline-source-map" : "~0.2.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node-trap test/*.js"
+      },
+      "_npmVersion" : "1.1.69",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.2.3",
+      "engine" : {
+        "node" : ">=0.6"
+      }
+    },
+    "0.3.2" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.3.2",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.3.2.tgz",
+        "shasum" : "d0a61bc5d15c19beaa5cbe5e11b1b2eddc6ca0ab"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.0",
+        "tap" : "~0.4.3"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.14",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.3.2",
+      "engine" : {
+        "node" : ">=0.6"
+      }
+    },
+    "0.4.1" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.4.1",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.4.1.tgz",
+        "shasum" : "f919a0099fe31f80fc5a1d0eb303161b394070c7"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.0",
+        "tap" : "~0.4.3"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.4.1",
+      "gitHead" : "725b2347a83b42011da465d00678e45605361012",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_shasum" : "f919a0099fe31f80fc5a1d0eb303161b394070c7"
+    },
+    "0.5.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.5.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.5.0.tgz",
+        "shasum" : "8c7890c0874b93e1384cd7abca5b09d6600841fb"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.1",
+        "tap" : "~0.4.13"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.4.1",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.5.0",
+      "gitHead" : "02f59f9cfe4ff21728c0998ddeff048d8705e4cb",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_shasum" : "8c7890c0874b93e1384cd7abca5b09d6600841fb",
+      "_nodeVersion" : "1.1.0"
+    },
+    "0.2.6" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.2.6",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.2.6.tgz",
+        "shasum" : "ae0ed736e8a6344a58b50a894723de5c851de2d4"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.2.1",
+        "tap" : "~0.4.3"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.32",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.2.6",
+      "engine" : {
+        "node" : ">=0.6"
+      }
+    },
+    "0.3.5" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.3.5",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.3.5.tgz",
+        "shasum" : "f1d802950af7dd2631a1febe0596550c86ab3190"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.0",
+        "tap" : "~0.4.3"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.3.5",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_shasum" : "f1d802950af7dd2631a1febe0596550c86ab3190"
+    },
+    "0.7.1" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.7.1",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.7.1.tgz",
+        "shasum" : "384fb0ba3c285163073b0dc7fcf4311683259a8e"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.1",
+        "tap" : "~0.4.13"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.4.1",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.7.1",
+      "gitHead" : "a5f95e4f573357d6cd124bd535a5ccf0a28cb168",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_shasum" : "384fb0ba3c285163073b0dc7fcf4311683259a8e",
+      "_nodeVersion" : "1.1.0"
+    },
+    "0.2.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "main" : "convert-source-map.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.2.0.tgz",
+        "shasum" : "937055b61a651d82643ffef124911e89479865f7"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "trap" : "~0.4.2",
+        "inline-source-map" : "~0.2.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node-trap test/*.js"
+      },
+      "_npmVersion" : "1.1.69",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.2.0",
+      "engine" : {
+        "node" : ">=0.6"
+      }
+    },
+    "0.2.1" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "main" : "convert-source-map.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.2.1.tgz",
+        "shasum" : "0b048825eb8fe1580c672ce52367c530c26ff4f8"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "trap" : "~0.4.2",
+        "inline-source-map" : "~0.2.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node-trap test/*.js"
+      },
+      "_npmVersion" : "1.1.69",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.2.1",
+      "engine" : {
+        "node" : ">=0.6"
+      }
+    },
+    "0.3.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.3.0.tgz",
+        "shasum" : "3c8f201683f9c8419f2402fb18ef14c42b10b366"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.0",
+        "tap" : "~0.4.3"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.11",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.3.0",
+      "engine" : {
+        "node" : ">=0.6"
+      }
+    },
+    "0.1.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "main" : "convert-source-map.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-0.1.0.tgz",
+        "shasum" : "2629a7e43340d6ebdcdcccf20283ee1f827c5c07"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "trap" : "~0.4.2",
+        "inline-source-map" : "~0.2.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node-trap test/*.js"
+      },
+      "_npmVersion" : "1.1.69",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@0.1.0",
+      "engine" : {
+        "node" : ">=0.6"
+      }
+    },
+    "2.0.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-2.0.0.tgz",
+        "shasum" : "4b560f649fc4e918dd0ab75cf4961e8bc882d82a"
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.6.2",
+        "tap" : "~9.0.0"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      }, {
+        "name" : "thlorenz",
+        "email" : "thlorenz10@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --color"
+      },
+      "_npmVersion" : "8.11.0",
+      "_npmUser" : {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      },
+      "_id" : "convert-source-map@2.0.0",
+      "gitHead" : "f1ed815b4edacfa9c3c5552dd342e71a3cffbb0a",
+      "engine" : {
+        "node" : ">=4"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/convert-source-map_2.0.0_1666044408412_0.7257967589172576"
+      },
+      "_nodeVersion" : "16.14.2"
+    },
+    "1.1.2" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-1.1.2.tgz",
+        "shasum" : "8266378831073907fa384f0b2aecab0ba0586693"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.1",
+        "tap" : "~0.4.13"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@1.1.2",
+      "gitHead" : "3e08e13e87d46f302621668de6d8163d73dd3ad1",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_shasum" : "8266378831073907fa384f0b2aecab0ba0586693",
+      "_nodeVersion" : "4.1.2"
+    },
+    "1.3.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-1.3.0.tgz",
+        "shasum" : "e9f3e9c6e2728efc2676696a70eb382f73106a67"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.1",
+        "tap" : "~0.4.13"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.6",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@1.3.0",
+      "gitHead" : "5c47421526c0bce727ed158773a4e97b979b7d64",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/convert-source-map-1.3.0.tgz_1469205991012_0.9049546665046364"
+      },
+      "_shasum" : "e9f3e9c6e2728efc2676696a70eb382f73106a67",
+      "_nodeVersion" : "4.4.6"
+    },
+    "1.1.3" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "1.1.3",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-1.1.3.tgz",
+        "shasum" : "4829c877e9fe49b3161f3bf3673888e204699860"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.1",
+        "tap" : "~0.4.13"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.15",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@1.1.3",
+      "gitHead" : "5b208c76f8fd0aaa6dcaeeb07abc83187cf513f5",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_shasum" : "4829c877e9fe49b3161f3bf3673888e204699860",
+      "_nodeVersion" : "4.2.4"
+    },
+    "1.4.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-1.4.0.tgz",
+        "shasum" : "e3dad195bf61bfe13a7a3c73e9876ec14a0268f3"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.6.2",
+        "tap" : "~9.0.0"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --color"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@1.4.0",
+      "gitHead" : "fbd66527ab7972eff199a712d8e14ebb07957865",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/convert-source-map-1.4.0.tgz_1487019816877_0.5536009217612445"
+      },
+      "_shasum" : "e3dad195bf61bfe13a7a3c73e9876ec14a0268f3",
+      "_nodeVersion" : "6.7.0"
+    },
+    "1.5.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "1.5.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-1.5.0.tgz",
+        "shasum" : "9acd70851c6d5dfdd93d9282e5edf94a03ff46b5"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.6.2",
+        "tap" : "~9.0.0"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --color"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@1.5.0",
+      "gitHead" : "0d7a26b124913e29f073c18253942a7429608e8e",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/convert-source-map-1.5.0.tgz_1490692105417_0.5890450305305421"
+      },
+      "_shasum" : "9acd70851c6d5dfdd93d9282e5edf94a03ff46b5",
+      "_nodeVersion" : "6.7.0"
+    },
+    "1.5.1" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "1.5.1",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-1.5.1.tgz",
+        "shasum" : "b8278097b9bc229365de5c62cf5fcaed8b5599e5"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.6.2",
+        "tap" : "~9.0.0"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --color"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.12",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@1.5.1",
+      "gitHead" : "0771098071f3b7c48ec6604291cad28b3b679d02",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/convert-source-map-1.5.1.tgz_1511432397773_0.3238030842039734"
+      },
+      "_shasum" : "b8278097b9bc229365de5c62cf5fcaed8b5599e5",
+      "_nodeVersion" : "8.9.1"
+    },
+    "1.6.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "1.6.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-1.6.0.tgz",
+        "shasum" : "51b537a8c43e0f04dec1993bffcdd504e758ac20"
+      },
+      "dependencies" : {
+        "safe-buffer" : "~5.1.1"
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.6.2",
+        "tap" : "~9.0.0"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --color"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.12",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@1.6.0",
+      "gitHead" : "ad25a3e4373c641a2241cf1470b81ae123e4c23d",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/convert-source-map_1.6.0_1536081177902_0.5004075426608254"
+      },
+      "_shasum" : "51b537a8c43e0f04dec1993bffcdd504e758ac20",
+      "_nodeVersion" : "10.9.0"
+    },
+    "1.7.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "1.7.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-1.7.0.tgz",
+        "shasum" : "17a2cb882d7f77d3490585e2ce6c524424a3a442"
+      },
+      "dependencies" : {
+        "safe-buffer" : "~5.1.1"
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.6.2",
+        "tap" : "~9.0.0"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --color"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@1.7.0",
+      "gitHead" : "9e9a7a9b652c30878c9c9aa591d861a9fdf61a7e",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "browser" : {
+        "fs" : false
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/convert-source-map_1.7.0_1573003730089_0.8701997948117217"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "1.8.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "1.8.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-1.8.0.tgz",
+        "shasum" : "f3373c32d21b4d780dd8004514684fb791ca4369"
+      },
+      "dependencies" : {
+        "safe-buffer" : "~5.1.1"
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.6.2",
+        "tap" : "~9.0.0"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz10@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --color"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz10@gmail.com"
+      },
+      "_id" : "convert-source-map@1.8.0",
+      "gitHead" : "df4deb60fcdc20ec2dcaff7fc284bfb139d1b2fc",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "browser" : {
+        "fs" : false
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/convert-source-map_1.8.0_1624045283543_0.5264343335308019"
+      },
+      "_nodeVersion" : "14.16.0"
+    },
+    "1.9.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "1.9.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-1.9.0.tgz",
+        "shasum" : "7faae62353fb4213366d0ca98358d22e8368b05f"
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.6.2",
+        "tap" : "~9.0.0"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz10@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --color"
+      },
+      "_npmVersion" : "8.12.2",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz10@gmail.com"
+      },
+      "_id" : "convert-source-map@1.9.0",
+      "gitHead" : "46c2b78aa56d25a77d3ea237051aeb5d9e7f750c",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "browser" : {
+        "fs" : false
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/convert-source-map_1.9.0_1665435476737_0.6916273441644709"
+      },
+      "_nodeVersion" : "16.14.2"
+    },
+    "1.0.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-1.0.0.tgz",
+        "shasum" : "dbdcb69523d3af582f7b5c94b3c25ecf2f3b7355"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.1",
+        "tap" : "~0.4.13"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.4.1",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@1.0.0",
+      "gitHead" : "155fc6044a00428b6bc74ddabb299e4b27727d59",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_shasum" : "dbdcb69523d3af582f7b5c94b3c25ecf2f3b7355",
+      "_nodeVersion" : "1.1.0"
+    },
+    "1.1.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-1.1.0.tgz",
+        "shasum" : "ef95227d050665d5c2b29dd70d7945ea0c9895e6"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.1",
+        "tap" : "~0.4.13"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.8.3",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@1.1.0",
+      "gitHead" : "2ba9fa53177e87538acd35b6b2d2c929438a2ff5",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_shasum" : "ef95227d050665d5c2b29dd70d7945ea0c9895e6",
+      "_nodeVersion" : "1.8.1"
+    },
+    "1.1.1" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-1.1.1.tgz",
+        "shasum" : "74e5182473058413b090dd73777acbc4a0fff3cc"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.1",
+        "tap" : "~0.4.13"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.0",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@1.1.1",
+      "gitHead" : "727a2e2ebf3cd3b6c0238a0d3c6359b9058a4e3d",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_shasum" : "74e5182473058413b090dd73777acbc4a0fff3cc",
+      "_nodeVersion" : "2.0.2"
+    },
+    "1.2.0" : {
+      "name" : "convert-source-map",
+      "description" : "Converts a source-map from/to  different formats and allows adding/changing properties.",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "http://thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/convert-source-map",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/convert-source-map.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/convert-source-map/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/convert-source-map/-/convert-source-map-1.2.0.tgz",
+        "shasum" : "44c08c2506f10fb3ca6fd888d5a3444cf8d6a669"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "inline-source-map" : "~0.3.1",
+        "tap" : "~0.4.13"
+      },
+      "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.15",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "convert-source-map@1.2.0",
+      "gitHead" : "c840d5ab5a1cfa4c8eb902283cac3fb120a6f466",
+      "engine" : {
+        "node" : ">=0.6"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-5-east.internal.npmjs.com",
+        "tmp" : "tmp/convert-source-map-1.2.0.tgz_1456506734770_0.5290673428680748"
+      },
+      "_shasum" : "44c08c2506f10fb3ca6fd888d5a3444cf8d6a669",
+      "_nodeVersion" : "4.3.1-rc.2"
+    }
+  },
+  "readme" : "# convert-source-map [![Build Status][ci-image]][ci-url]\n\nConverts a source-map from/to  different formats and allows adding/changing properties.\n\n```js\nvar convert = require('convert-source-map');\n\nvar json = convert\n  .fromComment('//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYnVpbGQvZm9vLm1pbi5qcyIsInNvdXJjZXMiOlsic3JjL2Zvby5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIvIn0=')\n  .toJSON();\n\nvar modified = convert\n  .fromComment('//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYnVpbGQvZm9vLm1pbi5qcyIsInNvdXJjZXMiOlsic3JjL2Zvby5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIvIn0=')\n  .setProperty('sources', [ 'SRC/FOO.JS' ])\n  .toJSON();\n\nconsole.log(json);\nconsole.log(modified);\n```\n\n```json\n{\"version\":3,\"file\":\"build/foo.min.js\",\"sources\":[\"src/foo.js\"],\"names\":[],\"mappings\":\"AAAA\",\"sourceRoot\":\"/\"}\n{\"version\":3,\"file\":\"build/foo.min.js\",\"sources\":[\"SRC/FOO.JS\"],\"names\":[],\"mappings\":\"AAAA\",\"sourceRoot\":\"/\"}\n```\n\n## Upgrading\n\nPrior to v2.0.0, the `fromMapFileComment` and `fromMapFileSource` functions took a String directory path and used that to resolve & read the source map file from the filesystem. However, this made the library limited to nodejs environments and broke on sources with querystrings.\n\nIn v2.0.0, you now need to pass a function that does the file reading. It will receive the source filename as a String that you can resolve to a filesystem path, URL, or anything else.\n\nIf you are using `convert-source-map` in nodejs and want the previous behavior, you'll use a function like such:\n\n```diff\n+ var fs = require('fs'); // Import the fs module to read a file\n+ var path = require('path'); // Import the path module to resolve a path against your directory\n- var conv = convert.fromMapFileSource(css, '../my-dir');\n+ var conv = convert.fromMapFileSource(css, function (filename) {\n+   return fs.readFileSync(path.resolve('../my-dir', filename), 'utf-8');\n+ });\n```\n\n## API\n\n### fromObject(obj)\n\nReturns source map converter from given object.\n\n### fromJSON(json)\n\nReturns source map converter from given json string.\n\n### fromURI(uri)\n\nReturns source map converter from given uri encoded json string.\n\n### fromBase64(base64)\n\nReturns source map converter from given base64 encoded json string.\n\n### fromComment(comment)\n\nReturns source map converter from given base64 or uri encoded json string prefixed with `//# sourceMappingURL=...`.\n\n### fromMapFileComment(comment, readMap)\n\nReturns source map converter from given `filename` by parsing `//# sourceMappingURL=filename`.\n\n`readMap` must be a function which receives the source map filename and returns either a String or Buffer of the source map (if read synchronously), or a `Promise` containing a String or Buffer of the source map (if read asynchronously).\n\nIf `readMap` doesn't return a `Promise`, `fromMapFileComment` will return a source map converter synchronously.\n\nIf `readMap` returns a `Promise`, `fromMapFileComment` will also return `Promise`. The `Promise` will be either resolved with the source map converter or rejected with an error.\n\n#### Examples\n\n**Synchronous read in Node.js:**\n\n```js\nvar convert = require('convert-source-map');\nvar fs = require('fs');\n\nfunction readMap(filename) {\n  return fs.readFileSync(filename, 'utf8');\n}\n\nvar json = convert\n  .fromMapFileComment('//# sourceMappingURL=map-file-comment.css.map', readMap)\n  .toJSON();\nconsole.log(json);\n```\n\n\n**Asynchronous read in Node.js:**\n\n```js\nvar convert = require('convert-source-map');\nvar { promises: fs } = require('fs'); // Notice the `promises` import\n\nfunction readMap(filename) {\n  return fs.readFile(filename, 'utf8');\n}\n\nvar converter = await convert.fromMapFileComment('//# sourceMappingURL=map-file-comment.css.map', readMap)\nvar json = converter.toJSON();\nconsole.log(json);\n```\n\n**Asynchronous read in the browser:**\n\n```js\nvar convert = require('convert-source-map');\n\nasync function readMap(url) {\n  const res = await fetch(url);\n  return res.text();\n}\n\nconst converter = await convert.fromMapFileComment('//# sourceMappingURL=map-file-comment.css.map', readMap)\nvar json = converter.toJSON();\nconsole.log(json);\n```\n\n### fromSource(source)\n\nFinds last sourcemap comment in file and returns source map converter or returns `null` if no source map comment was found.\n\n### fromMapFileSource(source, readMap)\n\nFinds last sourcemap comment in file and returns source map converter or returns `null` if no source map comment was found.\n\n`readMap` must be a function which receives the source map filename and returns either a String or Buffer of the source map (if read synchronously), or a `Promise` containing a String or Buffer of the source map (if read asynchronously).\n\nIf `readMap` doesn't return a `Promise`, `fromMapFileSource` will return a source map converter synchronously.\n\nIf `readMap` returns a `Promise`, `fromMapFileSource` will also return `Promise`. The `Promise` will be either resolved with the source map converter or rejected with an error.\n\n### toObject()\n\nReturns a copy of the underlying source map.\n\n### toJSON([space])\n\nConverts source map to json string. If `space` is given (optional), this will be passed to\n[JSON.stringify](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/JSON/stringify) when the\nJSON string is generated.\n\n### toURI()\n\nConverts source map to uri encoded json string.\n\n### toBase64()\n\nConverts source map to base64 encoded json string.\n\n### toComment([options])\n\nConverts source map to an inline comment that can be appended to the source-file.\n\nBy default, the comment is formatted like: `//# sourceMappingURL=...`, which you would\nnormally see in a JS source file.\n\nWhen `options.encoding == 'uri'`, the data will be uri encoded, otherwise they will be base64 encoded.\n\nWhen `options.multiline == true`, the comment is formatted like: `/*# sourceMappingURL=... */`, which you would find in a CSS source file.\n\n### addProperty(key, value)\n\nAdds given property to the source map. Throws an error if property already exists.\n\n### setProperty(key, value)\n\nSets given property to the source map. If property doesn't exist it is added, otherwise its value is updated.\n\n### getProperty(key)\n\nGets given property of the source map.\n\n### removeComments(src)\n\nReturns `src` with all source map comments removed\n\n### removeMapFileComments(src)\n\nReturns `src` with all source map comments pointing to map files removed.\n\n### commentRegex\n\nProvides __a fresh__ RegExp each time it is accessed. Can be used to find source map comments.\n\nBreaks down a source map comment into groups: Groups: 1: media type, 2: MIME type, 3: charset, 4: encoding, 5: data.\n\n### mapFileCommentRegex\n\nProvides __a fresh__ RegExp each time it is accessed. Can be used to find source map comments pointing to map files.\n\n### generateMapFileComment(file, [options])\n\nReturns a comment that links to an external source map via `file`.\n\nBy default, the comment is formatted like: `//# sourceMappingURL=...`, which you would normally see in a JS source file.\n\nWhen `options.multiline == true`, the comment is formatted like: `/*# sourceMappingURL=... */`, which you would find in a CSS source file.\n\n[ci-url]: https://github.com/thlorenz/convert-source-map/actions?query=workflow:ci\n[ci-image]: https://img.shields.io/github/workflow/status/thlorenz/convert-source-map/CI?style=flat-square\n",
+  "maintainers" : [ {
+    "name" : "phated",
+    "email" : "blaine.bublitz@gmail.com"
+  }, {
+    "name" : "thlorenz",
+    "email" : "thlorenz10@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Thorsten Lorenz",
+    "email" : "thlorenz@gmx.de",
+    "url" : "http://thlorenz.com"
+  },
+  "time" : {
+    "0.2.4" : "2013-03-18T11:49:15.946Z",
+    "0.3.3" : "2013-12-15T22:50:10.683Z",
+    "0.5.1" : "2015-03-11T16:15:42.765Z",
+    "0.6.0" : "2015-03-11T20:27:48.527Z",
+    "0.2.5" : "2013-03-19T11:55:55.574Z",
+    "0.3.4" : "2014-05-22T19:08:44.832Z",
+    "0.7.0" : "2015-03-11T22:46:03.616Z",
+    "0.2.2" : "2013-03-15T12:06:55.116Z",
+    "0.3.1" : "2013-11-05T20:59:09.837Z",
+    "0.4.0" : "2014-07-18T05:13:07.896Z",
+    "0.2.3" : "2013-03-15T12:47:41.045Z",
+    "0.3.2" : "2013-12-12T02:59:08.710Z",
+    "0.4.1" : "2014-08-04T17:15:01.070Z",
+    "0.5.0" : "2015-02-19T15:09:45.124Z",
+    "0.2.6" : "2013-07-06T01:41:52.758Z",
+    "0.3.5" : "2014-07-12T23:25:09.214Z",
+    "0.7.1" : "2015-03-11T23:02:17.919Z",
+    "0.2.0" : "2013-03-14T11:48:12.606Z",
+    "0.2.1" : "2013-03-14T12:05:01.793Z",
+    "0.3.0" : "2013-11-05T17:36:34.143Z",
+    "0.1.0" : "2013-03-13T13:03:58.308Z",
+    "modified" : "2023-07-09T22:05:41.150Z",
+    "2.0.0" : "2022-10-17T22:06:48.628Z",
+    "created" : "2013-03-13T13:03:57.455Z",
+    "1.1.2" : "2015-11-11T19:00:20.834Z",
+    "1.3.0" : "2016-07-22T16:46:32.976Z",
+    "1.1.3" : "2015-12-31T16:46:57.946Z",
+    "1.4.0" : "2017-02-13T21:03:38.755Z",
+    "1.5.0" : "2017-03-28T09:08:26.038Z",
+    "1.5.1" : "2017-11-23T10:19:57.895Z",
+    "1.6.0" : "2018-09-04T17:12:58.115Z",
+    "1.7.0" : "2019-11-06T01:28:50.792Z",
+    "1.8.0" : "2021-06-18T19:41:23.647Z",
+    "1.9.0" : "2022-10-10T20:57:57.001Z",
+    "1.0.0" : "2015-03-13T16:11:01.456Z",
+    "1.1.0" : "2015-04-22T19:34:33.275Z",
+    "1.1.1" : "2015-05-18T06:45:22.018Z",
+    "1.2.0" : "2016-02-26T17:12:16.052Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/thlorenz/convert-source-map.git"
+  },
+  "users" : {
+    "zhenguo.zhao" : true,
+    "shanewholloway" : true,
+    "flumpus-dev" : true,
+    "nelix" : true,
+    "hualei" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/thlorenz/convert-source-map",
+  "keywords" : [ "convert", "sourcemap", "source", "map", "browser", "debug" ],
+  "bugs" : {
+    "url" : "https://github.com/thlorenz/convert-source-map/issues"
+  },
+  "license" : "MIT"
+}

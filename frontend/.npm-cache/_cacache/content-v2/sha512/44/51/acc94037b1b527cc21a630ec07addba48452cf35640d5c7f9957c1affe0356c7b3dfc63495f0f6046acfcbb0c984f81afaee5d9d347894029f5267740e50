@@ -1,0 +1,207 @@
+{
+  "_id" : "@humanwhocodes/module-importer",
+  "_rev" : "2-3775cd05133408b4f7eee4539167a0d3",
+  "name" : "@humanwhocodes/module-importer",
+  "description" : "Universal module importer for Node.js",
+  "dist-tags" : {
+    "latest" : "1.0.1"
+  },
+  "versions" : {
+    "1.0.0" : {
+      "name" : "@humanwhocodes/module-importer",
+      "description" : "Universal module importer for Node.js",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Nicholas C. Zaks"
+      },
+      "homepage" : "https://github.com/humanwhocodes/module-importer#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/humanwhocodes/module-importer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/humanwhocodes/module-importer/issues"
+      },
+      "engines" : {
+        "node" : ">=12.22"
+      },
+      "main" : "dist/module-importer.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@humanwhocodes/module-importer/-/module-importer-1.0.0.tgz",
+        "shasum" : "6ef4759409cad2de4c9c183d6265e177bf0b41a5"
+      },
+      "devDependencies" : {
+        "@types/node" : "^18.7.6",
+        "c8" : "7.12.0",
+        "chai" : "4.3.6",
+        "eslint" : "8.21.0",
+        "lint-staged" : "13.0.3",
+        "mocha" : "9.2.2",
+        "rollup" : "2.77.2",
+        "typescript" : "4.7.4",
+        "yorkie" : "2.0.0"
+      },
+      "keywords" : [ "modules", "esm", "commonjs" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "nzakas",
+        "email" : "nicholas@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rollup -c && tsc",
+        "prepare" : "npm run build",
+        "lint" : "eslint src/ tests/",
+        "test:unit" : "c8 mocha tests/module-importer.test.js",
+        "test:build" : "node tests/pkg.test.cjs && node tests/pkg.test.mjs",
+        "test" : "npm run test:unit && npm run test:build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.16",
+      "_npmUser" : {
+        "name" : "nzakas",
+        "email" : "nicholas@nczconsulting.com"
+      },
+      "_id" : "@humanwhocodes/module-importer@1.0.0",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix" ]
+      },
+      "gitHead" : "91f5618add91a50cb7be18d1c83737a625194178",
+      "types" : "dist/module-importer.d.ts",
+      "funding" : {
+        "type" : "github",
+        "url" : "https://github.com/sponsors/nzakas"
+      },
+      "exports" : {
+        "require" : "./dist/module-importer.cjs",
+        "import" : "./dist/module-importer.js"
+      },
+      "module" : "dist/module-importer.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/module-importer_1.0.0_1660764258334_0.17120274713911354"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "type" : "module",
+      "_nodeVersion" : "12.22.12"
+    },
+    "1.0.1" : {
+      "name" : "@humanwhocodes/module-importer",
+      "description" : "Universal module importer for Node.js",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Nicholas C. Zaks"
+      },
+      "homepage" : "https://github.com/humanwhocodes/module-importer#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/humanwhocodes/module-importer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/humanwhocodes/module-importer/issues"
+      },
+      "engines" : {
+        "node" : ">=12.22"
+      },
+      "main" : "src/module-importer.cjs",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@humanwhocodes/module-importer/-/module-importer-1.0.1.tgz",
+        "shasum" : "af5b2691a22b44be847b0ca81641c5fb6ad0172c"
+      },
+      "devDependencies" : {
+        "@types/node" : "^18.7.6",
+        "c8" : "7.12.0",
+        "chai" : "4.3.6",
+        "eslint" : "8.22.0",
+        "lint-staged" : "13.0.3",
+        "mocha" : "9.2.2",
+        "rollup" : "2.78.0",
+        "typescript" : "4.7.4",
+        "yorkie" : "2.0.0"
+      },
+      "keywords" : [ "modules", "esm", "commonjs" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "nzakas",
+        "email" : "nicholas@nczconsulting.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rollup -c && tsc",
+        "prepare" : "npm run build",
+        "lint" : "eslint src/ tests/",
+        "test:unit" : "c8 mocha tests/module-importer.test.js",
+        "test:build" : "node tests/pkg.test.cjs && node tests/pkg.test.mjs",
+        "test" : "npm run test:unit && npm run test:build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.16",
+      "_npmUser" : {
+        "name" : "nzakas",
+        "email" : "nicholas@nczconsulting.com"
+      },
+      "_id" : "@humanwhocodes/module-importer@1.0.1",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix" ]
+      },
+      "gitHead" : "3cffc3ea6238f08be710a406908b1eeb1d230c9f",
+      "types" : "dist/module-importer.d.ts",
+      "funding" : {
+        "type" : "github",
+        "url" : "https://github.com/sponsors/nzakas"
+      },
+      "exports" : {
+        "require" : "./src/module-importer.cjs",
+        "import" : "./src/module-importer.js"
+      },
+      "module" : "src/module-importer.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/module-importer_1.0.1_1660845350879_0.0746999354770519"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "type" : "module",
+      "_nodeVersion" : "12.22.12"
+    }
+  },
+  "readme" : "# ModuleImporter\n\nby [Nicholas C. Zakas](https://humanwhocodes.com)\n\nIf you find this useful, please consider supporting my work with a [donation](https://humanwhocodes.com/donate).\n\n## Description\n\nA utility for seamlessly importing modules in Node.js regardless if they are CommonJS or ESM format. Under the hood, this uses `import()` and relies on Node.js's CommonJS compatibility to work correctly. This ensures that the correct locations and formats are used for CommonJS so you can call one method and not worry about any compatibility issues.\n\nThe problem with the default `import()` is that it always resolves relative to the file location in which it is called. If you want to resolve from a different location, you need to jump through a few hoops to achieve that. This package makes it easy to both resolve and import modules from any directory.\n\n## Usage\n\n### Node.js\n\nInstall using [npm][npm] or [yarn][yarn]:\n\n```\nnpm install @humanwhocodes/module-importer\n\n# or\n\nyarn add @humanwhocodes/module-importer\n```\n\nImport into your Node.js project:\n\n```js\n// CommonJS\nconst { ModuleImporter } = require(\"@humanwhocodes/module-importer\");\n\n// ESM\nimport { ModuleImporter } from \"@humanwhocodes/module-importer\";\n```\n\n### Bun\n\nInstall using this command:\n\n```\nbun add @humanwhocodes/module-importer\n```\n\nImport into your Bun project:\n\n```js\nimport { ModuleImporter } from \"@humanwhocodes/module-importer\";\n```\n\n## API\n\nAfter importing, create a new instance of `ModuleImporter` to start emitting events:\n\n```js\n// cwd can be omitted to use process.cwd()\nconst importer = new ModuleImporter(cwd);\n\n// you can resolve the location of any package\nconst location = importer.resolve(\"./some-file.cjs\");\n\n// you can also import directly\nconst module = importer.import(\"./some-file.cjs\");\n```\n\nFor both `resolve()` and `import()`, you can pass in package names and filenames.\n\n## Developer Setup\n\n1. Fork the repository\n2. Clone your fork\n3. Run `npm install` to setup dependencies\n4. Run `npm test` to run tests\n\n## License\n\nApache 2.0\n\n[npm]: https://npmjs.com/\n[yarn]: https://yarnpkg.com/\n",
+  "maintainers" : [ {
+    "name" : "nzakas",
+    "email" : "nicholas@nczconsulting.com"
+  } ],
+  "author" : {
+    "name" : "Nicholas C. Zaks"
+  },
+  "time" : {
+    "created" : "2022-08-17T19:24:18.260Z",
+    "modified" : "2023-06-22T16:31:11.465Z",
+    "1.0.0" : "2022-08-17T19:24:18.503Z",
+    "1.0.1" : "2022-08-18T17:55:51.038Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/humanwhocodes/module-importer.git"
+  },
+  "users" : {
+    "flumpus-dev" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/humanwhocodes/module-importer#readme",
+  "keywords" : [ "modules", "esm", "commonjs" ],
+  "bugs" : {
+    "url" : "https://github.com/humanwhocodes/module-importer/issues"
+  },
+  "license" : "Apache-2.0"
+}

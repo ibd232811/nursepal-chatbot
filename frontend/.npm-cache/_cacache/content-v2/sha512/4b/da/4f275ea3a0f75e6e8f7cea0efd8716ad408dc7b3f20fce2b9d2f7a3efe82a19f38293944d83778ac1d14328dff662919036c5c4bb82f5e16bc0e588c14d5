@@ -1,0 +1,839 @@
+{
+  "_id" : "@types/babel__generator",
+  "_rev" : "456-15d6bf073e1284913ccd15cdce2a0873",
+  "name" : "@types/babel__generator",
+  "description" : "TypeScript definitions for @babel/generator",
+  "dist-tags" : {
+    "ts3.1" : "7.6.1",
+    "ts4.0" : "7.6.4",
+    "ts3.0" : "7.6.1",
+    "ts3.9" : "7.6.4",
+    "ts4.8" : "7.6.8",
+    "ts5.7" : "7.27.0",
+    "ts2.9" : "7.6.1",
+    "ts3.8" : "7.6.4",
+    "ts4.7" : "7.6.8",
+    "ts5.6" : "7.27.0",
+    "ts2.8" : "7.0.0",
+    "ts3.7" : "7.6.3",
+    "ts4.6" : "7.6.8",
+    "ts5.5" : "7.27.0",
+    "ts3.6" : "7.6.3",
+    "ts4.5" : "7.6.7",
+    "ts5.4" : "7.27.0",
+    "ts3.5" : "7.6.2",
+    "ts4.4" : "7.6.4",
+    "ts5.3" : "7.27.0",
+    "ts3.4" : "7.6.2",
+    "ts4.3" : "7.6.4",
+    "ts5.2" : "7.27.0",
+    "ts3.3" : "7.6.2",
+    "ts4.2" : "7.6.4",
+    "ts5.1" : "7.27.0",
+    "ts6.0" : "7.27.0",
+    "ts3.2" : "7.6.2",
+    "ts4.1" : "7.6.4",
+    "ts5.0" : "7.6.8",
+    "latest" : "7.27.0",
+    "ts5.9" : "7.27.0",
+    "ts4.9" : "7.6.8",
+    "ts5.8" : "7.27.0"
+  },
+  "versions" : {
+    "7.0.1" : {
+      "name" : "@types/babel__generator",
+      "description" : "TypeScript definitions for @babel/generator",
+      "version" : "7.0.1",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/johnnyestilles",
+        "name" : "Johnny Estilles",
+        "githubUsername" : "johnnyestilles"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__generator/-/babel__generator-7.0.1.tgz",
+        "shasum" : "533bd37e7be8af27ebf8fcc0a053cfa4c03f4c5c"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__generator@7.0.1",
+      "types" : "index",
+      "typeScriptVersion" : "2.9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__generator_7.0.1_1542322744049_0.6543913803852046",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "715aab5e03ec0f1437c2ac4e3f9f1f541d0aae5ed246c9ec21109f533695c363"
+    },
+    "7.0.2" : {
+      "name" : "@types/babel__generator",
+      "description" : "TypeScript definitions for @babel/generator",
+      "version" : "7.0.2",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/johnnyestilles",
+        "name" : "Johnny Estilles",
+        "githubUsername" : "johnnyestilles"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__generator/-/babel__generator-7.0.2.tgz",
+        "shasum" : "d2112a6b21fad600d7674274293c85dce0cb47fc"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__generator@7.0.2",
+      "types" : "index",
+      "typeScriptVersion" : "2.9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__generator_7.0.2_1550092086293_0.5873284833210808",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "12b47650c77333060b8da231a33c95326cb124929b12d19cd41d9c2dae936d80"
+    },
+    "7.27.0" : {
+      "name" : "@types/babel__generator",
+      "description" : "TypeScript definitions for @babel/generator",
+      "version" : "7.27.0",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__generator",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git",
+        "directory" : "types/babel__generator"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "url" : "https://github.com/khell",
+        "name" : "Cameron Yan",
+        "githubUsername" : "khell"
+      }, {
+        "url" : "https://github.com/Lyanbin",
+        "name" : "Lyanbin",
+        "githubUsername" : "Lyanbin"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__generator/-/babel__generator-7.27.0.tgz",
+        "shasum" : "b5819294c51179957afaec341442f9341e4108a9"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0"
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__generator@7.27.0",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "5.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__generator_7.27.0_1743696162307_0.7723026552429384",
+        "host" : "s3://npm-registry-packages-npm-production"
+      },
+      "typesPublisherContentHash" : "b5c7deac65dbd6ab9b313d1d71c86afe4383b881dcb4e3b3ac51dab07b8f95fb"
+    },
+    "7.0.0" : {
+      "name" : "@types/babel__generator",
+      "description" : "TypeScript definitions for @babel/generator",
+      "version" : "7.0.0",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/johnnyestilles",
+        "name" : "Johnny Estilles",
+        "githubUsername" : "johnnyestilles"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__generator/-/babel__generator-7.0.0.tgz",
+        "shasum" : "5f561a83712e52ac86a1b6f53509aa511e6efa4e"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0-beta.54"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__generator@7.0.0",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__generator_7.0.0_1532557807634_0.5483741902110189",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "48fcc61e32bc32c03dda8cf1e23e8177eefaa1d40aa5a6ffe428e3d086ec5752"
+    },
+    "7.6.7" : {
+      "name" : "@types/babel__generator",
+      "description" : "TypeScript definitions for @babel/generator",
+      "version" : "7.6.7",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__generator",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git",
+        "directory" : "types/babel__generator"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "url" : "https://github.com/khell",
+        "name" : "Cameron Yan",
+        "githubUsername" : "khell"
+      }, {
+        "url" : "https://github.com/Lyanbin",
+        "name" : "Lyanbin",
+        "githubUsername" : "Lyanbin"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__generator/-/babel__generator-7.6.7.tgz",
+        "shasum" : "a7aebf15c7bc0eb9abd638bdb5c0b8700399c9d0"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__generator@7.6.7",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "4.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__generator_7.6.7_1699313955728_0.9836068042477062",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "14a9bd1c93bc86df5f80b93e31a93d8d7266f831aa8eeb8bcd8f61e43f6eb315"
+    },
+    "7.6.8" : {
+      "name" : "@types/babel__generator",
+      "description" : "TypeScript definitions for @babel/generator",
+      "version" : "7.6.8",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__generator",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git",
+        "directory" : "types/babel__generator"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "url" : "https://github.com/khell",
+        "name" : "Cameron Yan",
+        "githubUsername" : "khell"
+      }, {
+        "url" : "https://github.com/Lyanbin",
+        "name" : "Lyanbin",
+        "githubUsername" : "Lyanbin"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__generator/-/babel__generator-7.6.8.tgz",
+        "shasum" : "f836c61f48b1346e7d2b0d93c6dacc5b9535d3ab"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__generator@7.6.8",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "4.6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__generator_7.6.8_1702717606983_0.5395824403384706",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "23a97216c53cccf235c3fada4d15919d739c41570c91168dda0ad57cafd4ed4f"
+    },
+    "7.6.3" : {
+      "name" : "@types/babel__generator",
+      "description" : "TypeScript definitions for @babel/generator",
+      "version" : "7.6.3",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__generator",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git",
+        "directory" : "types/babel__generator"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/johnnyestilles",
+        "name" : "Johnny Estilles",
+        "githubUsername" : "johnnyestilles"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "url" : "https://github.com/khell",
+        "name" : "Cameron Yan",
+        "githubUsername" : "khell"
+      }, {
+        "url" : "https://github.com/Lyanbin",
+        "name" : "Lyanbin",
+        "githubUsername" : "Lyanbin"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__generator/-/babel__generator-7.6.3.tgz",
+        "shasum" : "f456b4b2ce79137f768aa130d2423d2f0ccfaba5"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__generator@7.6.3",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__generator_7.6.3_1625595365868_0.9612914981090726",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "5d63022fd7a5ff8a46344ce18d64ce05c4bf5fa887a0e3f10ab40314531a5369"
+    },
+    "7.6.4" : {
+      "name" : "@types/babel__generator",
+      "description" : "TypeScript definitions for @babel/generator",
+      "version" : "7.6.4",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__generator",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git",
+        "directory" : "types/babel__generator"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "url" : "https://github.com/khell",
+        "name" : "Cameron Yan",
+        "githubUsername" : "khell"
+      }, {
+        "url" : "https://github.com/Lyanbin",
+        "name" : "Lyanbin",
+        "githubUsername" : "Lyanbin"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__generator/-/babel__generator-7.6.4.tgz",
+        "shasum" : "1f20ce4c5b1990b37900b63f050182d28c2439b7"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__generator@7.6.4",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__generator_7.6.4_1640302766400_0.6183045688254041",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "3f90df54610a10acd1ae9557d6d384b0e50a8e0f80cf0490c5d182461f9fbeb6"
+    },
+    "7.6.5" : {
+      "name" : "@types/babel__generator",
+      "description" : "TypeScript definitions for @babel/generator",
+      "version" : "7.6.5",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__generator",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git",
+        "directory" : "types/babel__generator"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "url" : "https://github.com/khell",
+        "name" : "Cameron Yan",
+        "githubUsername" : "khell"
+      }, {
+        "url" : "https://github.com/Lyanbin",
+        "name" : "Lyanbin",
+        "githubUsername" : "Lyanbin"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__generator/-/babel__generator-7.6.5.tgz",
+        "shasum" : "281f4764bcbbbc51fdded0f25aa587b4ce14da95"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__generator@7.6.5",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "4.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__generator_7.6.5_1694805021698_0.9072213879247979",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "dcc3612d81219f6babd5a1c1663d2f3a602f5d3f54ede996832f73c6669bbf9e"
+    },
+    "7.6.6" : {
+      "name" : "@types/babel__generator",
+      "description" : "TypeScript definitions for @babel/generator",
+      "version" : "7.6.6",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__generator",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git",
+        "directory" : "types/babel__generator"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "url" : "https://github.com/khell",
+        "name" : "Cameron Yan",
+        "githubUsername" : "khell"
+      }, {
+        "url" : "https://github.com/Lyanbin",
+        "name" : "Lyanbin",
+        "githubUsername" : "Lyanbin"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__generator/-/babel__generator-7.6.6.tgz",
+        "shasum" : "676f89f67dc8ddaae923f70ebc5f1fa800c031a8"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__generator@7.6.6",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "4.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__generator_7.6.6_1697583331162_0.9594013327456234",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "ebf35175d3d4708593a102462fa31c7954be9521e50ffea86e46a1b34b55a2ff"
+    },
+    "7.6.0" : {
+      "name" : "@types/babel__generator",
+      "description" : "TypeScript definitions for @babel/generator",
+      "version" : "7.6.0",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git",
+        "directory" : "types/babel__generator"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/johnnyestilles",
+        "name" : "Johnny Estilles",
+        "githubUsername" : "johnnyestilles"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "url" : "https://github.com/khell",
+        "name" : "Cameron Yan",
+        "githubUsername" : "khell"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__generator/-/babel__generator-7.6.0.tgz",
+        "shasum" : "f1ec1c104d1bb463556ecb724018ab788d0c172a"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__generator@7.6.0",
+      "types" : "index",
+      "typeScriptVersion" : "2.9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__generator_7.6.0_1569345490919_0.3827926061205853",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "dfa67637cd47499ff534300526632280d98604e8587e28d1e8a38c371a7e33ca"
+    },
+    "7.6.1" : {
+      "name" : "@types/babel__generator",
+      "description" : "TypeScript definitions for @babel/generator",
+      "version" : "7.6.1",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git",
+        "directory" : "types/babel__generator"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/johnnyestilles",
+        "name" : "Johnny Estilles",
+        "githubUsername" : "johnnyestilles"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "url" : "https://github.com/khell",
+        "name" : "Cameron Yan",
+        "githubUsername" : "khell"
+      }, {
+        "url" : "https://github.com/Lyanbin",
+        "name" : "Lyanbin",
+        "githubUsername" : "Lyanbin"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__generator/-/babel__generator-7.6.1.tgz",
+        "shasum" : "4901767b397e8711aeb99df8d396d7ba7b7f0e04"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__generator@7.6.1",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "2.9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__generator_7.6.1_1576006292326_0.5404274801096429",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "d1a4de97751188457302802e3b6924105e2c9ac7830e22111f9d46abbc57908c"
+    },
+    "7.6.2" : {
+      "name" : "@types/babel__generator",
+      "description" : "TypeScript definitions for @babel/generator",
+      "version" : "7.6.2",
+      "repository" : {
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type" : "git",
+        "directory" : "types/babel__generator"
+      },
+      "contributors" : [ {
+        "url" : "https://github.com/yortus",
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus"
+      }, {
+        "url" : "https://github.com/johnnyestilles",
+        "name" : "Johnny Estilles",
+        "githubUsername" : "johnnyestilles"
+      }, {
+        "url" : "https://github.com/mgroenhoff",
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "url" : "https://github.com/khell",
+        "name" : "Cameron Yan",
+        "githubUsername" : "khell"
+      }, {
+        "url" : "https://github.com/Lyanbin",
+        "name" : "Lyanbin",
+        "githubUsername" : "Lyanbin"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://repo.socrata.com:443/artifactory/api/npm/npm-virtual/@types/babel__generator/-/babel__generator-7.6.2.tgz",
+        "shasum" : "f3d71178e187858f7c45e30380f8f1b7415a12d8"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__generator@7.6.2",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "tmp" : "tmp/babel__generator_7.6.2_1601078328097_0.5693790641455314",
+        "host" : "s3://npm-registry-packages"
+      },
+      "typesPublisherContentHash" : "b23ad006c397e6417890cc76037c6e1480aeaf879b2c2e81a3f401fac68c48f4"
+    }
+  },
+  "readme" : "[object Object]",
+  "maintainers" : [ {
+    "name" : "types",
+    "email" : "ts-npm-types@microsoft.com"
+  } ],
+  "time" : {
+    "7.0.1" : "2018-11-15T22:59:04.174Z",
+    "7.0.2" : "2019-02-13T21:08:06.487Z",
+    "7.27.0" : "2025-04-03T16:02:42.530Z",
+    "created" : "2018-07-25T22:30:07.385Z",
+    "7.0.0" : "2018-07-25T22:30:07.703Z",
+    "7.6.7" : "2023-11-06T23:39:15.934Z",
+    "7.6.8" : "2023-12-16T09:06:47.182Z",
+    "7.6.3" : "2021-07-06T18:16:06.010Z",
+    "modified" : "2025-08-03T06:25:51.120Z",
+    "7.6.4" : "2021-12-23T23:39:26.548Z",
+    "7.6.5" : "2023-09-15T19:10:21.917Z",
+    "7.6.6" : "2023-10-17T22:55:31.490Z",
+    "7.6.0" : "2019-09-24T17:18:11.087Z",
+    "7.6.1" : "2019-12-10T19:31:32.474Z",
+    "7.6.2" : "2020-09-25T23:58:48.238Z"
+  },
+  "repository" : {
+    "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "type" : "git",
+    "directory" : "types/babel__generator"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__generator",
+  "contributors" : [ {
+    "url" : "https://github.com/yortus",
+    "name" : "Troy Gerwien",
+    "githubUsername" : "yortus"
+  }, {
+    "url" : "https://github.com/mgroenhoff",
+    "name" : "Melvin Groenhoff",
+    "githubUsername" : "mgroenhoff"
+  }, {
+    "url" : "https://github.com/khell",
+    "name" : "Cameron Yan",
+    "githubUsername" : "khell"
+  }, {
+    "url" : "https://github.com/Lyanbin",
+    "name" : "Lyanbin",
+    "githubUsername" : "Lyanbin"
+  } ],
+  "license" : "MIT"
+}
