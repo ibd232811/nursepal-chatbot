@@ -114,7 +114,8 @@ async def startup_event():
     """Initialize services on startup"""
     global db_service, openai_processor, forecasting_service, cache_service
 
-    print("🚀 Starting Healthcare Staffing Intelligence Chatbot...")
+    print("🚀 Starting AVA - AI Virtual Assistant...")
+    print("   Your Healthcare Staffing Intelligence Partner")
 
     # Initialize cache service (300 seconds = 5 minutes TTL)
     cache_service = CacheService(default_ttl=300)
