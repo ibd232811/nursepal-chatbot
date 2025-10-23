@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Streaming Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 800px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 14px;
+        }
+
+        .chat-area {
+            padding: 30px;
+            min-height: 400px;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        .input-area {
+            padding: 20px 30px 30px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 12px;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 14px 18px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 15px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 14px 32px;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .message {
+            margin-bottom: 20px;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message.user {
+            text-align: right;
+        }
+
+        .message-content {
+            display: inline-block;
+            padding: 12px 18px;
+            border-radius: 12px;
+            max-width: 70%;
+            word-wrap: break-word;
+        }
+
+        .message.user .message-content {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .message.bot .message-content {
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        .status-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 18px;
+            background: #f0f4ff;
+            border-radius: 12px;
+            color: #667eea;
+            font-size: 14px;
+            margin-bottom: 20px;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        .spinner {
+            width: 20px;
+            height: 20px;
+            border: 3px solid #e0e0e0;
+            border-top-color: #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 4px;
+            background: #e0e0e0;
+            border-radius: 2px;
+            overflow: hidden;
+            margin-top: 8px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.3s ease;
+        }
+
+        .examples {
+            padding: 20px 30px;
+            background: #f9f9f9;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .examples h3 {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 12px;
+        }
+
+        .example-queries {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .example-query {
+            background: white;
+            border: 1px solid #e0e0e0;
+            padding: 8px 14px;
+            border-radius: 6px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .example-query:hover {
+            border-color: #667eea;
+            color: #667eea;
+            background: #f0f4ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Healthcare Staffing Intelligence Chatbot</h1>
+            <p>Ask about rates, forecasts, and market opportunities</p>
+        </div>
+
+        <div class="chat-area" id="chatArea"></div>
+
+        <div class="examples">
+            <h3>Try these example queries:</h3>
+            <div class="example-queries">
+                <div class="example-query" onclick="setQuery('What are ICU rates in California?')">ICU rates in CA</div>
+                <div class="example-query" onclick="setQuery('Forecast ED rates for next quarter in Texas')">Forecast ED rates</div>
+                <div class="example-query" onclick="setQuery('Compare ICU rates in NY vs CA')">Compare markets</div>
+                <div class="example-query" onclick="setQuery('Show me the highest paying ICU jobs')">Top paying jobs</div>
+            </div>
+        </div>
+
+        <div class="input-area">
+            <div class="input-group">
+                <input
+                    type="text"
+                    id="messageInput"
+                    placeholder="Ask about rates, forecasts, or opportunities..."
+                    onkeypress="handleKeyPress(event)"
+                >
+                <button id="sendButton" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = 'http://127.0.0.1:8000';
+        let currentStatusElement = null;
+
+        function setQuery(query) {
+            document.getElementById('messageInput').value = query;
+            document.getElementById('messageInput').focus();
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        function addMessage(content, isUser = false) {
+            const chatArea = document.getElementById('chatArea');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${isUser ? 'user' : 'bot'}`;
+
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            contentDiv.textContent = content;
+
+            messageDiv.appendChild(contentDiv);
+            chatArea.appendChild(messageDiv);
+            chatArea.scrollTop = chatArea.scrollHeight;
+
+            return messageDiv;
+        }
+
+        function addStatusIndicator(message, progress = 0) {
+            const chatArea = document.getElementById('chatArea');
+
+            // Remove previous status indicator if exists
+            if (currentStatusElement) {
+                currentStatusElement.remove();
+            }
+
+            const statusDiv = document.createElement('div');
+            statusDiv.className = 'status-indicator';
+            statusDiv.innerHTML = `
+                <div class="spinner"></div>
+                <div>
+                    <div>${message}</div>
+                    ${progress > 0 ? `
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: ${progress}%"></div>
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+
+            chatArea.appendChild(statusDiv);
+            chatArea.scrollTop = chatArea.scrollHeight;
+            currentStatusElement = statusDiv;
+
+            return statusDiv;
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const sendButton = document.getElementById('sendButton');
+            const message = input.value.trim();
+
+            if (!message) return;
+
+            // Add user message
+            addMessage(message, true);
+
+            // Clear input and disable button
+            input.value = '';
+            sendButton.disabled = true;
+
+            try {
+                // Use streaming endpoint
+                const response = await fetch(`${API_URL}/chat/stream`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        message: message,
+                        conversation_history: [],
+                        user_role: null
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+
+                while (true) {
+                    const { value, done } = await reader.read();
+                    if (done) break;
+
+                    const chunk = decoder.decode(value);
+                    const lines = chunk.split('\n');
+
+                    for (const line of lines) {
+                        if (line.startsWith('data: ')) {
+                            const data = JSON.parse(line.substring(6));
+
+                            if (data.status === 'processing') {
+                                addStatusIndicator(data.message, data.progress || 0);
+                            } else if (data.status === 'complete') {
+                                // Remove status indicator
+                                if (currentStatusElement) {
+                                    currentStatusElement.remove();
+                                    currentStatusElement = null;
+                                }
+
+                                // Add bot response
+                                if (data.data && data.data.response) {
+                                    addMessage(data.data.response, false);
+                                }
+                            } else if (data.status === 'error') {
+                                // Remove status indicator
+                                if (currentStatusElement) {
+                                    currentStatusElement.remove();
+                                    currentStatusElement = null;
+                                }
+
+                                addMessage('Error: ' + data.message, false);
+                            }
+                        }
+                    }
+                }
+            } catch (error) {
+                console.error('Error:', error);
+
+                // Remove status indicator
+                if (currentStatusElement) {
+                    currentStatusElement.remove();
+                    currentStatusElement = null;
+                }
+
+                addMessage('Error: Unable to connect to the chatbot. Make sure the server is running on ' + API_URL, false);
+            } finally {
+                sendButton.disabled = false;
+                input.focus();
+            }
+        }
+
+        // Add welcome message
+        window.addEventListener('load', () => {
+            addMessage('Hello! I\'m your Healthcare Staffing Intelligence assistant. Ask me about rates, forecasts, or market opportunities.', false);
+        });
+    </script>
+</body>
+</html>

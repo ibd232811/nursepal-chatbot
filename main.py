@@ -5,12 +5,15 @@ Main FastAPI Application
 
 import os
 import sys
-from typing import Optional, List, Dict, Any
+from typing import Optional, List, Dict, Any, AsyncGenerator
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from dotenv import load_dotenv
 import asyncio
+import json
+import time
 
 # Load environment variables (override=True ensures .env takes precedence)
 load_dotenv(override=True)
@@ -95,6 +98,12 @@ class ChatResponse(BaseModel):
     extracted_parameters: Optional[Dict[str, Any]] = None
     requires_data: bool = False
     user_role_detected: Optional[str] = None
+
+class StatusUpdate(BaseModel):
+    status: str  # "processing", "complete", "error"
+    message: str
+    progress: Optional[int] = None  # 0-100 percentage
+    data: Optional[Dict[str, Any]] = None
 
 # Global service instances
 db_service: Optional[DatabaseService] = None
@@ -197,6 +206,153 @@ async def health_check():
         "openai": "enabled" if openai_processor else "disabled",
         "forecasting": "configured" if forecasting_service else "not configured"
     }
+
+@app.post("/chat/stream")
+async def chat_stream_endpoint(query: ChatQuery):
+    """
+    Streaming chat endpoint that provides real-time status updates
+
+    Returns Server-Sent Events (SSE) stream with status updates and final response
+    """
+    async def generate_status_stream() -> AsyncGenerator[str, None]:
+        try:
+            # Send initial status
+            yield f"data: {json.dumps({'status': 'processing', 'message': 'Analyzing your query...', 'progress': 10})}\n\n"
+            await asyncio.sleep(0.1)
+
+            if not openai_processor:
+                yield f"data: {json.dumps({'status': 'error', 'message': 'OpenAI processor not initialized. Check OPENAI_API_KEY.'})}\n\n"
+                return
+
+            # Extract parameters
+            yield f"data: {json.dumps({'status': 'processing', 'message': 'Understanding your request...', 'progress': 20})}\n\n"
+            await asyncio.sleep(0.1)
+
+            parameters = await openai_processor.extract_parameters(
+                query.message,
+                query.conversation_history,
+                query.user_role
+            )
+
+            # Context merging logic (same as original endpoint)
+            if query.conversation_history and len(query.conversation_history) >= 2:
+                current_msg_words = query.message.lower().strip().split()
+                if len(current_msg_words) <= 5:
+                    last_assistant_msg = None
+                    last_user_params = None
+                    for i in range(len(query.conversation_history) - 1, -1, -1):
+                        msg = query.conversation_history[i]
+                        if msg.get('role') == 'assistant' and not last_assistant_msg:
+                            last_assistant_msg = msg.get('content', '')
+                        elif msg.get('role') == 'user' and i < len(query.conversation_history) - 1:
+                            try:
+                                last_user_params = await openai_processor.extract_parameters(
+                                    msg.get('content', ''), None, query.user_role
+                                )
+                            except Exception:
+                                pass
+                            break
+
+                    if last_assistant_msg and last_user_params:
+                        asking_for_specialty = 'specialty' in last_assistant_msg.lower() and 'interested' in last_assistant_msg.lower()
+                        asking_for_rate_type = 'rate type' in last_assistant_msg.lower() and 'compare' in last_assistant_msg.lower()
+                        asking_for_state = 'which state' in last_assistant_msg.lower()
+                        asking_for_time_frame = 'time frame' in last_assistant_msg.lower() and 'forecast' in last_assistant_msg.lower()
+                        asking_for_forecast_location = 'which state would you like to forecast' in last_assistant_msg.lower()
+
+                        if asking_for_specialty and not parameters.specialty and parameters.query_type in ['general', 'rate_recommendation', 'forecast_analysis']:
+                            if not parameters.location_list and last_user_params.location_list:
+                                parameters.location_list = last_user_params.location_list
+                            if not parameters.rate_type and last_user_params.rate_type:
+                                parameters.rate_type = last_user_params.rate_type
+                            if not parameters.location and last_user_params.location:
+                                parameters.location = last_user_params.location
+                            if not parameters.city and last_user_params.city:
+                                parameters.city = last_user_params.city
+                            if not parameters.state and last_user_params.state:
+                                parameters.state = last_user_params.state
+                            if not parameters.time_horizon and last_user_params.time_horizon:
+                                parameters.time_horizon = last_user_params.time_horizon
+                            if not parameters.query_type or parameters.query_type == 'general':
+                                parameters.query_type = last_user_params.query_type
+                        elif asking_for_rate_type and not parameters.rate_type:
+                            if not parameters.specialty and last_user_params.specialty:
+                                parameters.specialty = last_user_params.specialty
+                            if not parameters.location_list and last_user_params.location_list:
+                                parameters.location_list = last_user_params.location_list
+                            if not parameters.query_type or parameters.query_type == 'general':
+                                parameters.query_type = last_user_params.query_type
+                        elif asking_for_time_frame and parameters.time_horizon:
+                            if not parameters.specialty and last_user_params.specialty:
+                                parameters.specialty = last_user_params.specialty
+                            if not parameters.location and last_user_params.location:
+                                parameters.location = last_user_params.location
+                            if not parameters.city and last_user_params.city:
+                                parameters.city = last_user_params.city
+                            if not parameters.state and last_user_params.state:
+                                parameters.state = last_user_params.state
+                            if not parameters.rate_type and last_user_params.rate_type:
+                                parameters.rate_type = last_user_params.rate_type
+                            if not parameters.query_type or parameters.query_type == 'general':
+                                parameters.query_type = last_user_params.query_type
+                        elif asking_for_forecast_location and (parameters.state or parameters.location):
+                            if not parameters.specialty and last_user_params.specialty:
+                                parameters.specialty = last_user_params.specialty
+                            if not parameters.time_horizon and last_user_params.time_horizon:
+                                parameters.time_horizon = last_user_params.time_horizon
+                            if not parameters.rate_type and last_user_params.rate_type:
+                                parameters.rate_type = last_user_params.rate_type
+                            if not parameters.query_type or parameters.query_type == 'general':
+                                parameters.query_type = last_user_params.query_type
+                        elif asking_for_state:
+                            if not parameters.specialty and last_user_params.specialty:
+                                parameters.specialty = last_user_params.specialty
+                            if not parameters.rate_type and last_user_params.rate_type:
+                                parameters.rate_type = last_user_params.rate_type
+                            if not parameters.time_horizon and last_user_params.time_horizon:
+                                parameters.time_horizon = last_user_params.time_horizon
+                            if not parameters.query_type or parameters.query_type == 'general':
+                                parameters.query_type = last_user_params.query_type
+                            if last_user_params.location_list and 'and' in query.message.lower():
+                                pass
+                            elif last_user_params.location_list:
+                                if not parameters.location_list:
+                                    parameters.location_list = last_user_params.location_list
+
+            query_type = parameters.query_type
+
+            # Route to appropriate handler based on query type
+            if query_type == "forecast_analysis":
+                yield f"data: {json.dumps({'status': 'processing', 'message': 'Generating forecast analysis...', 'progress': 40})}\n\n"
+            elif query_type == "rate_recommendation" or query_type == "competitive_analysis":
+                yield f"data: {json.dumps({'status': 'processing', 'message': 'Fetching current market data...', 'progress': 40})}\n\n"
+            elif query_type == "market_comparison":
+                yield f"data: {json.dumps({'status': 'processing', 'message': 'Comparing markets...', 'progress': 40})}\n\n"
+            elif query_type == "client_search":
+                yield f"data: {json.dumps({'status': 'processing', 'message': 'Searching for clients...', 'progress': 40})}\n\n"
+            elif query_type == "forecast_comparison":
+                yield f"data: {json.dumps({'status': 'processing', 'message': 'Comparing current vs future rates...', 'progress': 40})}\n\n"
+            elif query_type == "rate_comparison":
+                yield f"data: {json.dumps({'status': 'processing', 'message': 'Analyzing your proposed rate...', 'progress': 40})}\n\n"
+            elif query_type == "vendor_location":
+                yield f"data: {json.dumps({'status': 'processing', 'message': 'Finding vendors at this location...', 'progress': 40})}\n\n"
+            else:
+                yield f"data: {json.dumps({'status': 'processing', 'message': 'Processing your request...', 'progress': 40})}\n\n"
+
+            await asyncio.sleep(0.1)
+
+            # Call the main chat endpoint to get the response
+            yield f"data: {json.dumps({'status': 'processing', 'message': 'Finalizing response...', 'progress': 70})}\n\n"
+            response = await chat_endpoint(query)
+
+            # Final response
+            yield f"data: {json.dumps({'status': 'complete', 'message': 'Done!', 'progress': 100, 'data': response.dict()})}\n\n"
+
+        except Exception as e:
+            error_msg = f"Error processing query: {str(e)}"
+            yield f"data: {json.dumps({'status': 'error', 'message': error_msg})}\n\n"
+
+    return StreamingResponse(generate_status_stream(), media_type="text/event-stream")
 
 @app.post("/chat", response_model=ChatResponse)
 async def chat_endpoint(query: ChatQuery):
