@@ -270,6 +270,20 @@ function App() {
             {messages.map((message) => (
               <MessageBubble key={message.id} message={message} />
             ))}
+            {isLoading && (
+              <div className="message-row bot">
+                <div className="avatar">
+                  <Bot size={18} />
+                </div>
+                <div className="message-bubble bot loading">
+                  <div className="typing-indicator">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            )}
             <div ref={messagesEndRef} />
           </div>
 
