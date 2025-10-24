@@ -1,0 +1,53 @@
+name: Deploy Chatbot to Production
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Sync code to deployment directory
+        run: |
+          rsync -av --exclude='.git' --exclude='.venv' --exclude='node_modules' --exclude='__pycache__' --exclude='*.pyc' ./ /var/www/nursepal/nursepal-chatbot/
+
+      - name: Install dependencies
+        run: |
+          cd /var/www/nursepal/nursepal-chatbot
+          .venv/bin/pip install --upgrade pip
+          .venv/bin/pip install -r requirements.txt
+
+      - name: Run tests (if any)
+        run: |
+          cd /var/www/nursepal/nursepal-chatbot
+          # Add test commands here when tests are available
+          echo "No tests configured yet"
+
+      - name: Restart chatbot service
+        run: |
+          sudo systemctl restart nursepal-chatbot.service
+
+      - name: Check service status
+        run: |
+          sleep 3
+          sudo systemctl is-active nursepal-chatbot.service
+
+      - name: Verify deployment
+        run: |
+          curl -f http://127.0.0.1:9000/health || exit 1
+
+      - name: Deployment notification
+        if: always()
+        run: |
+          if [ ${{ job.status }} == 'success' ]; then
+            echo "✅ Chatbot deployed successfully to chatbot.nursepal.com"
+          else
+            echo "❌ Deployment failed"
+          fi
