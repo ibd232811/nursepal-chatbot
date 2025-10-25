@@ -19,6 +19,32 @@ class DatabaseService:
         self.port = port
         self.pool: Optional[asyncpg.Pool] = None
 
+    def _get_profession_filter(self, profession: Optional[str]) -> str:
+        """Generate SQL WHERE clause for profession filtering"""
+        if profession:
+            return f' AND "newProfession" = \'{profession}\''
+        return ''
+
+    def _normalize_specialty_for_query(self, specialty: str) -> str:
+        """
+        Normalize specialty to handle variations in database.
+
+        For example, CRNA can appear as:
+        - "APRN - CRNA" (Advanced Practice RN)
+        - "Certified Nurse Anesthetist (CRNA)" (CRNA subprofession)
+
+        Returns a regex pattern that matches all variations.
+        """
+        specialty_upper = specialty.upper().strip()
+
+        # Special handling for CRNA - match both variations
+        if specialty_upper == "CRNA":
+            # Match "APRN - CRNA" OR "Certified Nurse Anesthetist" OR just "CRNA"
+            return "(APRN - CRNA|Certified Nurse Anesthetist|\\bCRNA\\b)"
+
+        # For other specialties, return as-is for regex matching
+        return specialty
+
     async def connect(self):
         """Establish database connection pool"""
         try:
@@ -77,6 +103,7 @@ class DatabaseService:
             city = getattr(parameters, 'city', None)
             state = getattr(parameters, 'state', None)
             rate_type = getattr(parameters, 'rate_type', None)
+            profession = getattr(parameters, 'profession', None)
 
             # Map rate_type to appropriate column
             if rate_type == 'hourly_pay':
@@ -90,7 +117,15 @@ class DatabaseService:
                 rate_column = '"billRate"'
                 rate_label = 'bill rate'
 
-            print(f"🔍 Database query: specialty='{specialty}', city='{city}', state='{state}', location='{location}', rate_type='{rate_column}'")
+            # Build profession filter clause
+            profession_filter = self._get_profession_filter(profession)
+            if profession:
+                print(f"🎯 Profession filter active: {profession}")
+
+            # Normalize specialty to handle database variations (e.g., CRNA)
+            normalized_specialty = self._normalize_specialty_for_query(specialty) if specialty else None
+
+            print(f"🔍 Database query: specialty='{specialty}' (normalized: '{normalized_specialty}'), city='{city}', state='{state}', location='{location}', rate_type='{rate_column}'")
 
             if not specialty:
                 return None
@@ -115,7 +150,7 @@ class DatabaseService:
                 print(f"  Trying city-level query: {city}, {state}")
                 query = f"""
                     SELECT
-                        specialty,
+                        "newSpecialty" as specialty,
                         city,
                         state as location,
                         AVG({rate_column}) * 0.975 as recommended_min,
@@ -127,20 +162,21 @@ class DatabaseService:
                         AVG("billRate") as avg_bill_rate,
                         COUNT(*) as sample_size
                     FROM vmsrawscrape_prod
-                    WHERE specialty ~ ('(^|\\s|-)' || $1 || '($|\\s)')
+                    WHERE "newSpecialty" ~ $1
                         AND LOWER(city) = LOWER($2)
                         AND LOWER(state) = LOWER($3)
                         AND {rate_column} IS NOT NULL
-                        AND "billRate" BETWEEN 30 AND 250
-                        AND "weeklyPay" BETWEEN 1200 AND 5000
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
                         AND "hourlyPay" BETWEEN 10 AND 250
                         AND "startDate" >= NOW() - INTERVAL '3 months'
-                    GROUP BY specialty, city, state
+                        {profession_filter}
+                    GROUP BY "newSpecialty", city, state
                     HAVING COUNT(*) >= 5
                     ORDER BY COUNT(*) DESC
                     LIMIT 1
                 """
-                result = await self.execute_one(query, specialty, city, state)
+                result = await self.execute_one(query, normalized_specialty, city, state)
 
                 if result:
                     print(f"  ✅ Found {result.get('sample_size')} records for {city}, {state}")
@@ -153,7 +189,7 @@ class DatabaseService:
                 print(f"  Trying state-level query: {state_code}")
                 query = f"""
                     SELECT
-                        specialty,
+                        "newSpecialty" as specialty,
                         state as location,
                         AVG({rate_column}) * 0.975 as recommended_min,
                         AVG({rate_column}) * 1.025 as recommended_max,
@@ -164,28 +200,30 @@ class DatabaseService:
                         AVG("billRate") as avg_bill_rate,
                         COUNT(*) as sample_size
                     FROM vmsrawscrape_prod
-                    WHERE specialty ~ ('(^|\\s|-)' || $1 || '($|\\s)')
+                    WHERE "newSpecialty" ~ $1
                         AND LOWER(state) = LOWER($2)
                         AND {rate_column} IS NOT NULL
-                        AND "billRate" BETWEEN 30 AND 250
-                        AND "weeklyPay" BETWEEN 1200 AND 5000
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
                         AND "hourlyPay" BETWEEN 10 AND 250
                         AND "startDate" >= NOW() - INTERVAL '3 months'
-                    GROUP BY specialty, state
+                        {profession_filter}
+                    GROUP BY "newSpecialty", state
                     ORDER BY COUNT(*) DESC
                     LIMIT 1
                 """
-                result = await self.execute_one(query, specialty, state_code)
+                result = await self.execute_one(query, normalized_specialty, state_code)
 
                 if result:
                     print(f"  ✅ Found {result.get('sample_size')} records for state {state_code}")
 
-            # If still no result, try national
+            # If still no result, try national (aggregate across ALL states)
             if not result:
+                print(f"  Trying national-level query (all states aggregated)")
                 query = f"""
                     SELECT
-                        specialty,
-                        state as location,
+                        "newSpecialty" as specialty,
+                        'National' as location,
                         AVG({rate_column}) * 0.975 as recommended_min,
                         AVG({rate_column}) * 1.025 as recommended_max,
                         PERCENTILE_CONT({floor_percentile}) WITHIN GROUP (ORDER BY {rate_column}) as competitive_floor,
@@ -195,17 +233,20 @@ class DatabaseService:
                         AVG("billRate") as avg_bill_rate,
                         COUNT(*) as sample_size
                     FROM vmsrawscrape_prod
-                    WHERE specialty ~ ('(^|\\s|-)' || $1 || '($|\\s)')
+                    WHERE "newSpecialty" ~ $1
                         AND {rate_column} IS NOT NULL
-                        AND "billRate" BETWEEN 30 AND 250
-                        AND "weeklyPay" BETWEEN 1200 AND 5000
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
                         AND "hourlyPay" BETWEEN 10 AND 250
                         AND "startDate" >= NOW() - INTERVAL '3 months'
-                    GROUP BY specialty, state
-                    ORDER BY COUNT(*) DESC
-                    LIMIT 1
+                        {profession_filter}
+                    GROUP BY "newSpecialty"
+                    HAVING COUNT(*) >= 5
                 """
-                result = await self.execute_one(query, specialty)
+                result = await self.execute_one(query, normalized_specialty)
+
+                if result:
+                    print(f"  ✅ Found {result.get('sample_size')} records nationally")
 
             print(f"📊 Query result: {result}")
 
@@ -264,8 +305,8 @@ class DatabaseService:
                     WHERE specialty ~ ('(^|\\s|-)' || $1 || '($|\\s)')
                         AND LOWER(state) = LOWER($2)
                         AND "billRate" IS NOT NULL
-                        AND "billRate" BETWEEN 30 AND 250
-                        AND "weeklyPay" BETWEEN 1200 AND 5000
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
                         AND "hourlyPay" BETWEEN 10 AND 250
                         AND "startDate" >= NOW() - INTERVAL '3 months'
                     ORDER BY "billRate" DESC, "startDate" DESC
@@ -284,8 +325,8 @@ class DatabaseService:
                     FROM vmsrawscrape_prod
                     WHERE specialty ~ ('(^|\\s|-)' || $1 || '($|\\s)')
                         AND "billRate" IS NOT NULL
-                        AND "billRate" BETWEEN 30 AND 250
-                        AND "weeklyPay" BETWEEN 1200 AND 5000
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
                         AND "hourlyPay" BETWEEN 10 AND 250
                         AND "startDate" >= NOW() - INTERVAL '3 months'
                     ORDER BY "billRate" DESC, "startDate" DESC
@@ -304,8 +345,8 @@ class DatabaseService:
                     FROM vmsrawscrape_prod
                     WHERE LOWER(state) = LOWER($1)
                         AND "billRate" IS NOT NULL
-                        AND "billRate" BETWEEN 30 AND 250
-                        AND "weeklyPay" BETWEEN 1200 AND 5000
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
                         AND "hourlyPay" BETWEEN 10 AND 250
                         AND "startDate" >= NOW() - INTERVAL '3 months'
                     ORDER BY "billRate" DESC, "startDate" DESC
@@ -323,8 +364,8 @@ class DatabaseService:
                         "billRate" as urgency_score
                     FROM vmsrawscrape_prod
                     WHERE "billRate" IS NOT NULL
-                    AND "billRate" BETWEEN 30 AND 250
-                    AND "weeklyPay" BETWEEN 1200 AND 5000
+                    AND "billRate" BETWEEN 30 AND 800
+                    AND "weeklyPay" BETWEEN 1200 AND 15000
                     AND "hourlyPay" BETWEEN 10 AND 250
                         AND "startDate" >= NOW() - INTERVAL '3 months'
                     ORDER BY "billRate" DESC, "startDate" DESC

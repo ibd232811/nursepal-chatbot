@@ -440,6 +440,22 @@
   box-shadow: 0 2px 4px rgba(239, 68, 68, 0.2);
 }
 
+.forecast-divider {
+  padding: 0.75rem 0;
+  border-top: 2px dashed rgba(139, 92, 246, 0.3);
+  margin-top: 0.5rem;
+}
+
+.forecast-divider h5 {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
 .forecast-stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));

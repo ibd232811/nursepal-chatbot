@@ -45,6 +45,7 @@ class ChatQuery(BaseModel):
     message: str
     conversation_history: Optional[List[Dict[str, str]]] = None
     user_role: Optional[str] = None  # "sales", "recruiter", "operations", "finance"
+    profession: Optional[str] = None  # "Nursing", "Allied", "Locum/Tenens", "Therapy"
 
 class RateRecommendation(BaseModel):
     specialty: str
@@ -395,6 +396,11 @@ async def chat_endpoint(query: ChatQuery):
             query.conversation_history,
             query.user_role
         )
+
+        # Set profession filter if provided by frontend
+        if query.profession:
+            parameters.profession = query.profession
+            print(f"🎯 Profession filter: {query.profession}")
 
         # Check if this is a follow-up answer to a clarification question
         # If the current message is very short and the previous response asked a question,
@@ -1143,6 +1149,23 @@ Consider conducting candidate surveys to understand why offers are being decline
                     )
 
             # Parse locations and validate they have state info
+            # Full state names to abbreviations
+            state_name_to_abbr = {
+                "alabama": "AL", "alaska": "AK", "arizona": "AZ", "arkansas": "AR",
+                "california": "CA", "colorado": "CO", "connecticut": "CT", "delaware": "DE",
+                "florida": "FL", "georgia": "GA", "hawaii": "HI", "idaho": "ID",
+                "illinois": "IL", "indiana": "IN", "iowa": "IA", "kansas": "KS",
+                "kentucky": "KY", "louisiana": "LA", "maine": "ME", "maryland": "MD",
+                "massachusetts": "MA", "michigan": "MI", "minnesota": "MN", "mississippi": "MS",
+                "missouri": "MO", "montana": "MT", "nebraska": "NE", "nevada": "NV",
+                "new hampshire": "NH", "new jersey": "NJ", "new mexico": "NM", "new york": "NY",
+                "north carolina": "NC", "north dakota": "ND", "ohio": "OH", "oklahoma": "OK",
+                "oregon": "OR", "pennsylvania": "PA", "rhode island": "RI", "south carolina": "SC",
+                "south dakota": "SD", "tennessee": "TN", "texas": "TX", "utah": "UT",
+                "vermont": "VT", "virginia": "VA", "washington": "WA", "west virginia": "WV",
+                "wisconsin": "WI", "wyoming": "WY"
+            }
+
             # Common major cities that don't need clarification
             obvious_cities = {
                 "new york city": "NY", "nyc": "NY", "manhattan": "NY",
@@ -1173,6 +1196,12 @@ Consider conducting candidate surveys to understand why offers are being decline
                 # Check if it's a 2-letter state code
                 if len(loc_clean) == 2 and loc_clean.isalpha():
                     parsed_locations.append({'city': None, 'state': loc_clean.upper(), 'display': loc_clean.upper()})
+                    continue
+
+                # Check if it's a full state name
+                if loc_clean.lower() in state_name_to_abbr:
+                    state_abbr = state_name_to_abbr[loc_clean.lower()]
+                    parsed_locations.append({'city': None, 'state': state_abbr, 'display': loc_clean.title()})
                     continue
 
                 # Check if it's an obvious major city
@@ -1346,17 +1375,26 @@ Consider conducting candidate surveys to understand why offers are being decline
                 )
 
             # Check if we have enough context to proceed
+            # Check if user explicitly asked for national/all-states data
+            message_lower = query.message.lower()
+            is_national_query = any(keyword in message_lower for keyword in ['nationally', 'national', 'nationwide', 'all states', 'across the us', 'entire us'])
+
             missing_info = []
             if not parameters.specialty:
                 missing_info.append("specialty (e.g., ICU, ED, OR, Med/Surg)")
-            if not parameters.location and not parameters.city and not parameters.state:
+            # Only require location if NOT a national query
+            if not is_national_query and not parameters.location and not parameters.city and not parameters.state:
                 missing_info.append("location (city and/or state)")
 
             if missing_info:
+                examples = "\n\nFor example: 'What clients in Texas have the highest ICU rates?' or 'Show me facilities with low ED rates in California'"
+                if is_national_query:
+                    examples = "\n\nFor example: 'What clients nationally have the highest ICU rates?' or 'Show me facilities with the best CRNA rates nationwide'"
+
                 return ChatResponse(
                     response=f"To search for clients, I need:\n\n" +
                              "\n".join([f"• **{info}**" for info in missing_info]) +
-                             "\n\nFor example: 'What clients in Texas have the highest ICU rates?' or 'Show me facilities with low ED rates in California'",
+                             examples,
                     requires_data=False,
                     extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {}
                 )

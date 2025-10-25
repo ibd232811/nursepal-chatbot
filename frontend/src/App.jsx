@@ -12,6 +12,14 @@ const roleOptions = [
   { value: 'finance', label: 'Finance' },
 ]
 
+const professionOptions = [
+  { value: 'all', label: 'All Professions' },
+  { value: 'Nursing', label: 'Nursing' },
+  { value: 'Allied', label: 'Allied' },
+  { value: 'Locum/Tenens', label: 'Locum/Tenens' },
+  { value: 'Therapy', label: 'Therapy' },
+]
+
 const formatCurrency = (value) => {
   if (typeof value !== 'number' || Number.isNaN(value)) return '—'
   return new Intl.NumberFormat('en-US', {
@@ -24,7 +32,14 @@ const formatCurrency = (value) => {
 const ForecastInsightCard = memo(({ analysis }) => {
   if (!analysis?.forecast_insights) return null
 
-  const { forecast_insights: insights, business_recommendations: recommendations = {}, location, specialty } = analysis
+  const {
+    forecast_insights: insights,
+    national_forecast_insights: nationalInsights,
+    business_recommendations: recommendations = {},
+    location,
+    specialty,
+    dual_forecast: hasDualForecast = false
+  } = analysis
 
   // Memoize expensive computations to avoid recalculating on every render
   const orderedForecastEntries = useMemo(() => {
@@ -44,10 +59,11 @@ const ForecastInsightCard = memo(({ analysis }) => {
     <div className="forecast-card">
       <header>
         <div>
-          <h4>Forecast Analysis</h4>
+          <h4>Forecast Analysis {hasDualForecast && '(State + National)'}</h4>
           <p>
             {specialty || 'Market'} &bull; {location || 'National'} &bull; Model:{' '}
             {insights.model_used || 'Unknown'}
+            {hasDualForecast && ' &bull; Limited state data - showing national for comparison'}
           </p>
         </div>
         <span className={`trend ${insights.trend_direction ?? 'stable'}`}>
@@ -91,6 +107,41 @@ const ForecastInsightCard = memo(({ analysis }) => {
           <strong>{insights.processing_time ? `${insights.processing_time}s` : '—'}</strong>
         </div>
       </section>
+
+      {hasDualForecast && nationalInsights && (
+        <>
+          <section className="forecast-divider">
+            <h5>National Forecast (For Comparison)</h5>
+          </section>
+
+          <section className="forecast-stats">
+            <div>
+              <span>Current (National)</span>
+              <strong>{formatCurrency(nationalInsights.current_value)}</strong>
+              <small>{(nationalInsights.target_metric || '').replaceAll('_', ' ')}</small>
+            </div>
+            {Object.entries(nationalInsights.forecasts || {})
+              .sort(([a], [b]) => {
+                const order = { '4_weeks': 1, '12_weeks': 2, '26_weeks': 3, '52_weeks': 4 }
+                return (order[a] || 99) - (order[b] || 99)
+              })
+              .map(([period, value]) => {
+                const growthValue = nationalInsights.growth_rates?.[period]
+                const formattedGrowth =
+                  typeof growthValue === 'number'
+                    ? `${growthValue > 0 ? '+' : ''}${growthValue.toFixed(1)}%`
+                    : '—'
+                return (
+                  <div key={`national-${period}`}>
+                    <span>{period.replaceAll('_', ' ')}</span>
+                    <strong>{formatCurrency(value)}</strong>
+                    <small>{formattedGrowth}</small>
+                  </div>
+                )
+              })}
+          </section>
+        </>
+      )}
 
       {Object.keys(recommendations).length > 0 && (
         <section className="forecast-recommendations">
@@ -143,12 +194,20 @@ function App() {
       id: 1,
       type: 'bot',
       content:
-        'Hi! I can help with healthcare staffing analytics, including market forecasts. Ask about current rates, future trends, or lead opportunities.',
+        'Hi! I\'m **AVA** (AI Virtual Assistant), your healthcare staffing intelligence expert.\n\n' +
+        'I can help you with:\n\n' +
+        '• **Rate Insights** - "What\'s the bill rate for ICU nurses in Texas?"\n' +
+        '• **Market Forecasts** - "Will CRNA rates increase in California next quarter?"\n' +
+        '• **High-Paying Jobs** - "Show me the highest paying RN positions in Ohio"\n' +
+        '• **Client Analysis** - "Which facilities pay the best for ED nurses nationwide?"\n' +
+        '• **Rate Comparisons** - "Compare ICU rates in New York vs Florida"\n\n' +
+        'What would you like to know?',
       timestamp: new Date(),
     },
   ])
   const [inputValue, setInputValue] = useState('')
   const [selectedRole, setSelectedRole] = useState('general')
+  const [selectedProfession, setSelectedProfession] = useState('all')
   const [isLoading, setIsLoading] = useState(false)
   const [conversationHistory, setConversationHistory] = useState([])
   const [errorBanner, setErrorBanner] = useState('')
@@ -190,6 +249,7 @@ function App() {
         body: JSON.stringify({
           message: trimmed,
           user_role: selectedRole !== 'general' ? selectedRole : null,
+          profession: selectedProfession !== 'all' ? selectedProfession : null,
           conversation_history: updatedHistory,
         }),
       })
@@ -230,7 +290,7 @@ function App() {
     } finally {
       setIsLoading(false)
     }
-  }, [inputValue, isLoading, selectedRole, conversationHistory])
+  }, [inputValue, isLoading, selectedRole, selectedProfession, conversationHistory])
 
   const handleKeyDown = useCallback((event) => {
     if (event.key === 'Enter' && !event.shiftKey) {
@@ -242,10 +302,9 @@ function App() {
   return (
     <div className="app">
       <header className="hero">
-        <h1>Healthcare Staffing Intelligence</h1>
+        <h1>AVA - AI Virtual Assistant</h1>
         <p>
-          Real-time market insights, future rate forecasts, and strategic recommendations tailored to
-          your role.
+          Your healthcare staffing intelligence expert. Real-time market insights, future rate forecasts, and strategic recommendations tailored to your role.
         </p>
         <div className="controls">
           <label htmlFor="role-select">Perspective</label>
@@ -257,6 +316,19 @@ function App() {
             {roleOptions.map((role) => (
               <option key={role.value} value={role.value}>
                 {role.label}
+              </option>
+            ))}
+          </select>
+
+          <label htmlFor="profession-select">Profession</label>
+          <select
+            id="profession-select"
+            value={selectedProfession}
+            onChange={(event) => setSelectedProfession(event.target.value)}
+          >
+            {professionOptions.map((profession) => (
+              <option key={profession.value} value={profession.value}>
+                {profession.label}
               </option>
             ))}
           </select>

@@ -25,6 +25,7 @@ class QueryParameters:
     rate_type: Optional[str] = None  # "bill_rate", "hourly_pay", or "weekly_pay"
     rate_filter: Optional[str] = None  # "highest", "lowest", or "similar"
     proposed_rate: Optional[float] = None  # User's proposed/suggested rate for comparison
+    profession: Optional[str] = None  # "Nursing", "Allied", "Locum/Tenens", "Therapy"
 
 
 class OpenAIProcessor:
@@ -83,9 +84,18 @@ Analyze the user's message and extract:
    - "general" - ONLY if none of the above match
 
 2. specialty: Nursing specialty (ICU, ED, OR, Med/Surg, Telemetry, PACU, CVOR, Cath Lab, etc.) or null
+   CRITICAL: Do NOT confuse state abbreviations with specialties:
+   - "CA" = California (state), NOT CRNA specialty
+   - "OR" = Oregon (state) when used alone, or Operating Room when with "nurse" context
+   - "PA" = Pennsylvania (state), NOT Physician Assistant
+   - If user says just "CA", "TX", "NY", "FL" etc. alone, it's a STATE not a specialty
 3. location: US state abbreviation (CA, TX, NY, FL, etc.) or city name, or null
+   - CRITICAL: If user says "nationally", "national", "across the US", "all states", "nationwide" → set location=null, state=null, city=null
+   - This indicates a national/all-states query with no geographic filter
 3a. city: City name if mentioned (Buffalo, NYC, Los Angeles, etc.) or null
-3b. state: State abbreviation if mentioned (NY, CA, TX, etc.) or null
+3b. state: State abbreviation if mentioned (NY, CA, TX, FL, etc.) or null
+   - CRITICAL: Single 2-letter codes like "CA", "NY", "TX" should go in state field, NOT specialty
+   - If user says "nationally", "national", "across the US" → set state=null (no state filter)
 3c. client_name: Hospital or facility name if mentioned (Memorial Hospital, Cleveland Clinic, etc.) or null
 3d. location_list: For market_comparison queries, extract array of locations being compared:
    - Extract full location names with city and state if provided (e.g., ["Cincinnati, OH", "Buffalo, NY"] or ["Buffalo", "Ithaca"])
@@ -142,6 +152,11 @@ CRITICAL RULES:
 - If user asks "why can't I fill", "position not filling", "having trouble", "nurses demanding more" → query_type = "unfilled_position"
 - If user asks "what vendors at", "which agencies at Memorial", "who has nurses at this hospital" → query_type = "vendor_location"
 - Always extract specialty if mentioned (ICU, ED, OR, etc.)
+- CRITICAL STATE ABBREVIATIONS: When user types ONLY a 2-letter code (CA, NY, TX, FL, PA, etc.), treat as state, NOT specialty:
+  * "CA" alone → state="CA", specialty=null (NOT specialty="CRNA")
+  * "PA" alone → state="PA", specialty=null (NOT specialty="PA" or "Physician Assistant")
+  * "OR" alone → state="OR", specialty=null (NOT specialty="OR" or "Operating Room")
+  * Only extract specialty if there's additional context like "ICU", "ED", "nurse", etc.
 - For vendor_location queries, extract the hospital/facility name into client_name parameter
 - For follow-up questions like "what about [city/state]", "what about for [location]" → query_type = "rate_recommendation" (NOT rate_comparison)
 - For "comparable jobs" queries, use conversation history to extract the location and rate range from previous rate recommendation
@@ -303,6 +318,23 @@ Example BAD response:
 
         role_guidance = self._get_role_guidance(parameters.user_perspective)
 
+        # Check if we have dual forecast (state + national)
+        has_dual_forecast = forecast_data.get("dual_forecast", False)
+        dual_forecast_note = ""
+
+        if has_dual_forecast:
+            dual_forecast_note = """
+DUAL FORECAST DATA AVAILABLE:
+- You have BOTH state-specific AND national forecast data
+- The state data has limited sample size (< 3 records), so national data is provided as context
+- Present BOTH forecasts to the user:
+  * State forecast: from 'forecast_insights'
+  * National forecast: from 'national_forecast_insights'
+- Explain: "Due to limited {state} data for this specialty, I'm showing both {state} and national trends for comparison"
+- Highlight any differences between state and national trends
+- Recommend using the national data for broader context while noting state-specific nuances
+"""
+
         system_prompt = f"""You are an AI assistant specializing in healthcare staffing market forecasts.
 
 Your role: Translate forecast data into strategic business intelligence.
@@ -316,6 +348,8 @@ Forecast response guidelines:
 - Include confidence level context
 - Give role-specific strategic recommendations
 - Use clear, decisive language for business decisions
+
+{dual_forecast_note}
 
 CRITICAL RULES FOR FORECAST DATA:
 - ONLY use the forecast values provided in the data (4_weeks, 12_weeks, 26_weeks, 52_weeks)

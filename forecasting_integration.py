@@ -286,7 +286,11 @@ class ChatbotForecastIntegration:
                 # Fallback to bill_rate as default
                 target_metric = "bill_rate"
             
-            # Get forecast from your service
+            # Check profession to determine if we should fetch national data as backup
+            profession = getattr(parameters, "profession", None)
+            should_include_national = profession in ["Locum/Tenens", "Allied", "Therapy"]
+
+            # Get forecast from your service (state-level)
             forecast_data = await self.forecasting_service.get_rate_forecast(
                 specialties=[parameters.specialty],
                 states=[normalized_state] if normalized_state else [],
@@ -302,23 +306,64 @@ class ChatbotForecastIntegration:
                 formatted_specialty,
                 location_key
             )
-            
+
             if "error" in insights:
                 return insights
-            
+
+            # Check if we have sufficient state data, and fetch national if needed
+            state_sample_size = len(insights.get("forecast", {}).get("historical", [])) if isinstance(insights.get("forecast"), dict) else 0
+            national_insights = None
+
+            # For Locum/Tenens, Allied, Therapy: fetch national data if state data is sparse (< 3 samples)
+            if should_include_national and normalized_state and state_sample_size < 3:
+                print(f"📊 State data sparse ({state_sample_size} samples) for {profession}, fetching national data as supplement...")
+
+                try:
+                    # Get national forecast (no state filter)
+                    national_forecast_data = await self.forecasting_service.get_rate_forecast(
+                        specialties=[parameters.specialty],
+                        states=[],  # Empty = national
+                        target=target_metric,
+                        model="prophet"
+                    )
+
+                    national_insights = self.forecasting_service.extract_forecast_insights(
+                        national_forecast_data,
+                        formatted_specialty,
+                        "national"
+                    )
+
+                    if "error" not in national_insights:
+                        print("✅ Successfully fetched national forecast data")
+                    else:
+                        national_insights = None
+
+                except Exception as e:
+                    print(f"⚠️ Could not fetch national data: {e}")
+                    national_insights = None
+
             # Generate business recommendations based on forecast
             recommendations = self._generate_forecast_recommendations(insights, parameters)
-            
+
             selected_horizon = getattr(parameters, "time_horizon", None) or "12_weeks"
 
-            return {
+            result = {
                 "forecast_insights": insights,
                 "business_recommendations": recommendations,
                 "data_source": "prophet_model",
                 "location": location_key,
                 "specialty": parameters.specialty,
-                "time_horizon": selected_horizon
+                "time_horizon": selected_horizon,
+                "has_limited_state_data": state_sample_size < 3 if normalized_state else False
             }
+
+            # Include national insights if we fetched them
+            if national_insights:
+                result["national_forecast_insights"] = national_insights
+                result["dual_forecast"] = True
+                print(f"🌍 Returning dual forecast: {location_key} + national")
+
+            return result
             
         except Exception as e:
             return {"error": f"Forecast analysis failed: {str(e)}"}
