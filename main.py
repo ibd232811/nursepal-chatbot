@@ -1320,7 +1320,7 @@ Consider conducting candidate surveys to understand why offers are being decline
 
             # Check if user explicitly asked for national/all-states data
             message_lower = query.message.lower()
-            is_national_query = any(keyword in message_lower for keyword in ['nationally', 'national', 'nationwide', 'all states', 'across the us', 'entire us'])
+            is_national_query = any(keyword in message_lower for keyword in ['nationally', 'national', 'nationwide', 'all states', 'across the us', 'entire us', 'in the us', 'the us', ' us ', ' us?', ' us.'])
 
             # Check if we have enough context to proceed
             missing_info = []
@@ -1386,7 +1386,7 @@ Consider conducting candidate surveys to understand why offers are being decline
             # Check if we have enough context to proceed
             # Check if user explicitly asked for national/all-states data
             message_lower = query.message.lower()
-            is_national_query = any(keyword in message_lower for keyword in ['nationally', 'national', 'nationwide', 'all states', 'across the us', 'entire us'])
+            is_national_query = any(keyword in message_lower for keyword in ['nationally', 'national', 'nationwide', 'all states', 'across the us', 'entire us', 'in the us', 'the us', ' us ', ' us?', ' us.'])
 
             missing_info = []
             if not parameters.specialty:

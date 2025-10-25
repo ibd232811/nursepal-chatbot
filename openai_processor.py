@@ -90,12 +90,12 @@ Analyze the user's message and extract:
    - "PA" = Pennsylvania (state), NOT Physician Assistant
    - If user says just "CA", "TX", "NY", "FL" etc. alone, it's a STATE not a specialty
 3. location: US state abbreviation (CA, TX, NY, FL, etc.) or city name, or null
-   - CRITICAL: If user says "nationally", "national", "across the US", "all states", "nationwide" → set location=null, state=null, city=null
+   - CRITICAL: If user says "nationally", "national", "across the US", "all states", "nationwide", "in the US", "the US" → set location=null, state=null, city=null
    - This indicates a national/all-states query with no geographic filter
 3a. city: City name if mentioned (Buffalo, NYC, Los Angeles, etc.) or null
 3b. state: State abbreviation if mentioned (NY, CA, TX, FL, etc.) or null
    - CRITICAL: Single 2-letter codes like "CA", "NY", "TX" should go in state field, NOT specialty
-   - If user says "nationally", "national", "across the US" → set state=null (no state filter)
+   - If user says "nationally", "national", "across the US", "in the US", "the US" → set state=null (no state filter)
 3c. client_name: Hospital or facility name if mentioned (Memorial Hospital, Cleveland Clinic, etc.) or null
 3d. location_list: For market_comparison queries, extract array of locations being compared:
    - Extract full location names with city and state if provided (e.g., ["Cincinnati, OH", "Buffalo, NY"] or ["Buffalo", "Ithaca"])
