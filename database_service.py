@@ -34,6 +34,7 @@ class DatabaseService:
         - "Certified Nurse Anesthetist (CRNA)" (CRNA subprofession)
 
         Returns a regex pattern that matches all variations.
+        Uses word boundaries to prevent false matches (e.g., ICU shouldn't match NICU)
         """
         specialty_upper = specialty.upper().strip()
 
@@ -42,8 +43,11 @@ class DatabaseService:
             # Match "APRN - CRNA" OR "Certified Nurse Anesthetist" OR just "CRNA"
             return "(APRN - CRNA|Certified Nurse Anesthetist|\\bCRNA\\b)"
 
-        # For other specialties, return as-is for regex matching
-        return specialty
+        # For other specialties, use word boundaries to prevent substring matches
+        # Example: "ICU" should match "RN - ICU" but NOT "RN - NICU"
+        # Pattern: (^|\\s|-)specialty($|\\s|-)
+        # This matches specialty at word boundaries (start/end of string, space, or dash)
+        return f"(^|\\s|-){specialty}($|\\s|-)"
 
     async def connect(self):
         """Establish database connection pool"""

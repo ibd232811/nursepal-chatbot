@@ -33,7 +33,7 @@ if [ ! -f ".env" ]; then
 fi
 
 # Check if dependencies are installed
-if ! python -c "import fastapi" 2>/dev/null; then
+if ! python3 -c "import fastapi" 2>/dev/null; then
     echo "📥 Installing dependencies..."
     pip install -r requirements.txt
 fi
@@ -48,4 +48,4 @@ echo ""
 export WATCHFILES_FORCE_POLLING=1
 export UVICORN_RELOAD=false
 export HOST=127.0.0.1
-python main.py
+python3 main.py

@@ -1318,18 +1318,27 @@ Consider conducting candidate surveys to understand why offers are being decline
                     requires_data=False
                 )
 
+            # Check if user explicitly asked for national/all-states data
+            message_lower = query.message.lower()
+            is_national_query = any(keyword in message_lower for keyword in ['nationally', 'national', 'nationwide', 'all states', 'across the us', 'entire us'])
+
             # Check if we have enough context to proceed
             missing_info = []
             if not parameters.specialty:
                 missing_info.append("specialty (e.g., ICU, ED, OR, Med/Surg, Telemetry)")
-            if not parameters.location and not parameters.city and not parameters.state:
+            # Only require location if NOT a national query
+            if not is_national_query and not parameters.location and not parameters.city and not parameters.state:
                 missing_info.append("location (city and/or state)")
 
             if missing_info:
+                examples = "\n\nFor example: 'What's the bill rate for ICU in Texas?' or 'Suggest a rate for ED nurses in Buffalo, NY'"
+                if is_national_query:
+                    examples = "\n\nFor example: 'What's the bill rate for ICU nationally?' or 'National average for CRNA rates'"
+
                 return ChatResponse(
                     response=f"I'd be happy to help with rate information! I need a bit more details:\n\n" +
                              "\n".join([f"• **{info}**" for info in missing_info]) +
-                             "\n\nFor example: 'What's the bill rate for ICU in Texas?' or 'Suggest a rate for ED nurses in Buffalo, NY'",
+                             examples,
                     requires_data=False,
                     extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {}
                 )
