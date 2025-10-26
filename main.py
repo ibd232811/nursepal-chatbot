@@ -1656,6 +1656,76 @@ Consider conducting candidate surveys to understand why offers are being decline
 
             return chat_response
 
+        elif parameters.query_type == 'rate_trends':
+            # Handle rate trends analysis - which states have rising/falling rates
+            print(f"📈 Rate Trends Query - Specialty: {parameters.specialty}, Direction: {parameters.trend_direction}")
+
+            if not parameters.specialty:
+                return ChatResponse(
+                    response="I'd be happy to show you rate trends! Which specialty would you like to analyze? For example: ICU, ED, OR, CRNA, etc.",
+                    extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {},
+                    requires_data=False
+                )
+
+            # Determine trend direction (default to rising if not specified)
+            trend_direction = parameters.trend_direction if hasattr(parameters, 'trend_direction') and parameters.trend_direction else 'rising'
+
+            # Get rate trends from database
+            trends_data = await db_service.get_rate_trends_by_state(
+                parameters,
+                trend_direction=trend_direction,
+                limit=5
+            )
+
+            if not trends_data:
+                return ChatResponse(
+                    response=f"I don't have enough recent data to analyze rate trends for {parameters.specialty}. Rate trend analysis requires at least 3 samples in multiple states over the past 90 days.",
+                    extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {},
+                    requires_data=False
+                )
+
+            # Format the response with AI
+            rate_type_label = {
+                'bill_rate': 'bill rates',
+                'hourly_pay': 'hourly pay',
+                'weekly_pay': 'weekly pay'
+            }.get(parameters.rate_type or 'bill_rate', 'bill rates')
+
+            direction_word = "rising" if trend_direction == "rising" else "falling"
+
+            # Build a detailed context for the AI
+            trends_list = trends_data.get('trends', [])
+            trends_summary = f"Top 5 states where {parameters.specialty} {rate_type_label} are {direction_word}:\n\n"
+            for i, trend in enumerate(trends_list[:5], 1):
+                state = trend.get('state', 'Unknown')
+                recent_rate = trend.get('recent_rate', 0)
+                older_rate = trend.get('older_rate', 0)
+                percent_change = trend.get('percent_change', 0)
+                recent_samples = trend.get('recent_sample_size', 0)
+
+                change_symbol = "📈" if percent_change > 0 else "📉"
+                trends_summary += f"{i}. **{state}** {change_symbol}\n"
+                trends_summary += f"   - Recent (30 days): ${recent_rate:,.2f}\n"
+                trends_summary += f"   - Previous (60 days): ${older_rate:,.2f}\n"
+                trends_summary += f"   - Change: {percent_change:+.1f}%\n"
+                trends_summary += f"   - Sample size: {recent_samples} positions\n\n"
+
+            # Generate AI response
+            ai_prompt = f"User asked: {query.message}\n\nHere are the rate trends:\n{trends_summary}\n\nProvide a helpful analysis of these trends and what they mean for the user."
+
+            ai_response = await openai_processor.generate_response(
+                {'rate_trends': trends_data},
+                ai_prompt,
+                parameters
+            )
+
+            return ChatResponse(
+                response=ai_response,
+                extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {},
+                requires_data=True,
+                user_role_detected=parameters.user_perspective if hasattr(parameters, 'user_perspective') else None
+            )
+
         elif parameters.query_type == 'conversational':
             # Handle conversational responses (thank you, hello, etc.)
             conversational_responses = {

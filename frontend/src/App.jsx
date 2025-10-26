@@ -196,11 +196,11 @@ function App() {
       content:
         'Hi! I\'m **AVA** (AI Virtual Assistant), your healthcare staffing intelligence expert.\n\n' +
         'I can help you with:\n\n' +
-        '• **Rate Insights** - "What\'s the bill rate for ICU nurses in Texas?"\n' +
-        '• **Market Forecasts** - "Will CRNA rates increase in California next quarter?"\n' +
-        '• **High-Paying Jobs** - "Show me the highest paying RN positions in Ohio"\n' +
-        '• **Client Analysis** - "Which facilities pay the best for ED nurses nationwide?"\n' +
-        '• **Rate Comparisons** - "Compare ICU rates in New York vs Florida"\n\n' +
+        '• **Rate Insights** - "What\'s the bill rate for CRNAs in Texas?"\n' +
+        '• **Market Forecasts** - "Will Emergency Room Doctor rates increase in California next quarter?"\n' +
+        '• **High-Paying Jobs** - "Show me the highest paying FNP positions in Ohio"\n' +
+        '• **Client Analysis** - "Which facilities pay the best for PAs nationwide?"\n' +
+        '• **Rate Comparisons** - "Compare CRNA rates in New York vs Florida"\n\n' +
         'What would you like to know?',
       timestamp: new Date(),
     },
@@ -303,6 +303,7 @@ function App() {
     <div className="app">
       <header className="hero">
         <h1>AVA - AI Virtual Assistant</h1>
+        <p className="powered-by">Powered by LocumPal</p>
         <p>
           Your healthcare staffing intelligence expert. Real-time market insights, future rate forecasts, and strategic recommendations tailored to your role.
         </p>

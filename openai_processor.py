@@ -26,6 +26,7 @@ class QueryParameters:
     rate_filter: Optional[str] = None  # "highest", "lowest", or "similar"
     proposed_rate: Optional[float] = None  # User's proposed/suggested rate for comparison
     profession: Optional[str] = None  # "Nursing", "Allied", "Locum/Tenens", "Therapy"
+    trend_direction: Optional[str] = None  # "rising" or "falling" for rate_trends queries
 
 
 class OpenAIProcessor:
@@ -79,6 +80,7 @@ Analyze the user's message and extract:
    - "competitive_analysis" - comparing to competitors, "how do we compare", "competitive position"
    - "forecast_analysis" - asking about FUTURE rates or trends (detect time references like "next quarter", "will be", "forecast")
    - "forecast_comparison" - comparing current rates to future forecasted rates, "compare current to future", "should I lock in now or wait", "will rates go up", "better now or in 6 months", "current vs projected"
+   - "rate_trends" - asking where rates are rising, falling, increasing, decreasing, growing, "where are rates rising", "which states have increasing rates", "where are ICU rates going up", "states with falling rates", "where are rates dropping"
    - "vendor_info" - asking about specific vendors by name
    - "conversational" - casual conversation like "thank you", "thanks", "this is great", "awesome", "perfect", "appreciate it", "hello", "hi"
    - "general" - ONLY if none of the above match
@@ -141,6 +143,10 @@ Analyze the user's message and extract:
    - CRITICAL: DO NOT carry forward rates from conversation history when user asks about a different location
    - Only carry forward if it's clearly the same rate being discussed (e.g., "is this competitive in another city?")
    - null if no specific rate mentioned in the current message
+10. trend_direction: For rate_trends queries, determine direction:
+   - "rising" - if asking about "rising", "increasing", "going up", "growing", "climbing", "higher"
+   - "falling" - if asking about "falling", "decreasing", "going down", "dropping", "declining", "lower"
+   - null - if not a rate_trends query (default to "rising" if unclear)
 
 CRITICAL RULES:
 - If user asks "what's the rate for X" or "how much for X" → query_type = "rate_recommendation"
@@ -151,6 +157,7 @@ CRITICAL RULES:
 - If user asks "if I drop/lower/raise the rate", "can we fill at $X", "will we struggle", "impact of changing" → query_type = "rate_impact"
 - If user asks "why can't I fill", "position not filling", "having trouble", "nurses demanding more" → query_type = "unfilled_position"
 - If user asks "what vendors at", "which agencies at Memorial", "who has nurses at this hospital" → query_type = "vendor_location"
+- If user asks "where are rates rising", "which states have increasing rates", "where are rates going up", "states with falling rates", "where are rates dropping", "show me rising/falling rates", "where are X rates climbing" → query_type = "rate_trends"
 - Always extract specialty if mentioned (ICU, ED, OR, etc.)
 - CRITICAL STATE ABBREVIATIONS: When user types ONLY a 2-letter code (CA, NY, TX, FL, PA, etc.), treat as state, NOT specialty:
   * "CA" alone → state="CA", specialty=null (NOT specialty="CRNA")
@@ -204,7 +211,9 @@ Return ONLY valid JSON with these exact keys."""
                 is_temporal_query=result.get('is_temporal_query', False),
                 rate_type=result.get('rate_type'),
                 rate_filter=result.get('rate_filter'),
-                proposed_rate=result.get('proposed_rate')
+                proposed_rate=result.get('proposed_rate'),
+                profession=result.get('profession'),
+                trend_direction=result.get('trend_direction')
             )
 
         except Exception as e:

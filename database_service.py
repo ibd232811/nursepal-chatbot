@@ -1053,6 +1053,128 @@ class DatabaseService:
             print(f"Error getting vendor info: {e}")
             return None
 
+    async def get_rate_trends_by_state(self, parameters, trend_direction: str = 'rising', limit: int = 5) -> Optional[Dict[str, Any]]:
+        """
+        Get states where rates are rising or falling for a specialty
+
+        Compares recent 30 days vs previous 60 days to identify trends
+
+        Args:
+            parameters: Query parameters with specialty and rate_type
+            trend_direction: 'rising' or 'falling'
+            limit: Number of states to return (default 5)
+        """
+        try:
+            if not self.pool:
+                print("❌ Database pool not initialized")
+                return None
+
+            specialty = getattr(parameters, 'specialty', None)
+            rate_type = getattr(parameters, 'rate_type', None)
+            profession = getattr(parameters, 'profession', None)
+
+            if not specialty:
+                return None
+
+            # Map rate_type to column
+            if rate_type == 'hourly_pay':
+                rate_column = '"hourlyPay"'
+                rate_label = 'hourly pay'
+            elif rate_type == 'weekly_pay':
+                rate_column = '"weeklyPay"'
+                rate_label = 'weekly pay'
+            else:
+                rate_column = '"billRate"'
+                rate_label = 'bill rate'
+
+            # Normalize specialty
+            normalized_specialty = self._normalize_specialty_for_query(specialty) if specialty else None
+            profession_filter = self._get_profession_filter(profession)
+
+            print(f"🔍 Analyzing rate trends: specialty='{specialty}', rate_type='{rate_label}', direction='{trend_direction}'")
+
+            # Query to compare recent vs older rates by state
+            order = "DESC" if trend_direction == 'rising' else "ASC"
+            # Filter direction: rising = positive changes, falling = negative changes
+            direction_filter = "> 0" if trend_direction == 'rising' else "< 0"
+
+            query = f"""
+                WITH recent_rates AS (
+                    SELECT
+                        state,
+                        AVG({rate_column}) as avg_rate,
+                        COUNT(*) as sample_size
+                    FROM vmsrawscrape_prod
+                    WHERE "newSpecialty" ~ $1
+                        AND {rate_column} IS NOT NULL
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
+                        AND "startDate" >= NOW() - INTERVAL '30 days'
+                        {profession_filter}
+                    GROUP BY state
+                    HAVING COUNT(*) >= 2
+                ),
+                older_rates AS (
+                    SELECT
+                        state,
+                        AVG({rate_column}) as avg_rate,
+                        COUNT(*) as sample_size
+                    FROM vmsrawscrape_prod
+                    WHERE "newSpecialty" ~ $1
+                        AND {rate_column} IS NOT NULL
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
+                        AND "startDate" >= NOW() - INTERVAL '90 days'
+                        AND "startDate" < NOW() - INTERVAL '30 days'
+                        {profession_filter}
+                    GROUP BY state
+                    HAVING COUNT(*) >= 2
+                )
+                SELECT
+                    r.state,
+                    r.avg_rate as recent_rate,
+                    o.avg_rate as older_rate,
+                    ((r.avg_rate - o.avg_rate) / o.avg_rate * 100) as percent_change,
+                    r.sample_size as recent_sample_size,
+                    o.sample_size as older_sample_size
+                FROM recent_rates r
+                JOIN older_rates o ON r.state = o.state
+                WHERE ((r.avg_rate - o.avg_rate) / o.avg_rate * 100) {direction_filter}
+                    AND ABS((r.avg_rate - o.avg_rate) / o.avg_rate * 100) >= 1.0
+                ORDER BY percent_change {order}
+                LIMIT $2
+            """
+
+            results = await self.execute_query(query, normalized_specialty, limit)
+
+            if results:
+                trends = []
+                for row in results:
+                    trends.append({
+                        "state": row.get('state'),
+                        "recent_rate": float(row.get('recent_rate', 0)),
+                        "older_rate": float(row.get('older_rate', 0)),
+                        "percent_change": float(row.get('percent_change', 0)),
+                        "recent_sample_size": int(row.get('recent_sample_size', 0)),
+                        "older_sample_size": int(row.get('older_sample_size', 0))
+                    })
+
+                return {
+                    "trends": trends,
+                    "specialty": specialty,
+                    "rate_type_label": rate_label,
+                    "trend_direction": trend_direction,
+                    "total_states": len(trends)
+                }
+
+            return None
+
+        except Exception as e:
+            print(f"Error getting rate trends: {e}")
+            return None
+
     async def test_connection(self) -> bool:
         """Test database connectivity"""
         try:

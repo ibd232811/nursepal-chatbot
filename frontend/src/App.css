@@ -68,6 +68,15 @@
   line-height: 1.2;
 }
 
+.hero .powered-by {
+  margin: -0.5rem 0 0 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary-600);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
 .hero p {
   margin: 0;
   max-width: 720px;
