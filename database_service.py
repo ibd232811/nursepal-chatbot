@@ -174,6 +174,9 @@ class DatabaseService:
                         AND "weeklyPay" BETWEEN 1200 AND 15000
                         AND "hourlyPay" BETWEEN 10 AND 250
                         AND "startDate" >= NOW() - INTERVAL '3 months'
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                         {profession_filter}
                     GROUP BY "newSpecialty", city, state
                     HAVING COUNT(*) >= 5
@@ -211,6 +214,9 @@ class DatabaseService:
                         AND "weeklyPay" BETWEEN 1200 AND 15000
                         AND "hourlyPay" BETWEEN 10 AND 250
                         AND "startDate" >= NOW() - INTERVAL '3 months'
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                         {profession_filter}
                     GROUP BY "newSpecialty", state
                     ORDER BY COUNT(*) DESC
@@ -243,6 +249,9 @@ class DatabaseService:
                         AND "weeklyPay" BETWEEN 1200 AND 15000
                         AND "hourlyPay" BETWEEN 10 AND 250
                         AND "startDate" >= NOW() - INTERVAL '3 months'
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                         {profession_filter}
                     GROUP BY "newSpecialty"
                     HAVING COUNT(*) >= 5
@@ -313,6 +322,9 @@ class DatabaseService:
                         AND "weeklyPay" BETWEEN 1200 AND 15000
                         AND "hourlyPay" BETWEEN 10 AND 250
                         AND "startDate" >= NOW() - INTERVAL '3 months'
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                     ORDER BY "billRate" DESC, "startDate" DESC
                     LIMIT 10
                 """
@@ -333,6 +345,9 @@ class DatabaseService:
                         AND "weeklyPay" BETWEEN 1200 AND 15000
                         AND "hourlyPay" BETWEEN 10 AND 250
                         AND "startDate" >= NOW() - INTERVAL '3 months'
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                     ORDER BY "billRate" DESC, "startDate" DESC
                     LIMIT 10
                 """
@@ -353,6 +368,9 @@ class DatabaseService:
                         AND "weeklyPay" BETWEEN 1200 AND 15000
                         AND "hourlyPay" BETWEEN 10 AND 250
                         AND "startDate" >= NOW() - INTERVAL '3 months'
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                     ORDER BY "billRate" DESC, "startDate" DESC
                     LIMIT 10
                 """
@@ -372,6 +390,9 @@ class DatabaseService:
                     AND "weeklyPay" BETWEEN 1200 AND 15000
                     AND "hourlyPay" BETWEEN 10 AND 250
                         AND "startDate" >= NOW() - INTERVAL '3 months'
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                     ORDER BY "billRate" DESC, "startDate" DESC
                     LIMIT 10
                 """
@@ -459,7 +480,13 @@ class DatabaseService:
                         WHERE specialty ~ ('(^|\\s|-)' || $1 || '($|\\s)')
                             AND LOWER(state) = LOWER($2)
                             AND {rate_column} IS NOT NULL
+                            AND "billRate" BETWEEN 30 AND 800
+                            AND "weeklyPay" BETWEEN 1200 AND 15000
+                            AND "hourlyPay" BETWEEN 10 AND 250
                             AND "startDate" >= CURRENT_DATE
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                             AND "clientName" IS NOT NULL
                         GROUP BY "clientName", city, state, specialty
                         ORDER BY avg_rate {order_direction}
@@ -479,7 +506,13 @@ class DatabaseService:
                         FROM vmsrawscrape_prod
                         WHERE specialty ~ ('(^|\\s|-)' || $1 || '($|\\s)')
                             AND {rate_column} IS NOT NULL
+                            AND "billRate" BETWEEN 30 AND 800
+                            AND "weeklyPay" BETWEEN 1200 AND 15000
+                            AND "hourlyPay" BETWEEN 10 AND 250
                             AND "startDate" >= CURRENT_DATE
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                             AND "clientName" IS NOT NULL
                         GROUP BY "clientName", city, state, specialty
                         ORDER BY avg_rate {order_direction}
@@ -499,7 +532,13 @@ class DatabaseService:
                         FROM vmsrawscrape_prod
                         WHERE LOWER(state) = LOWER($1)
                             AND {rate_column} IS NOT NULL
+                            AND "billRate" BETWEEN 30 AND 800
+                            AND "weeklyPay" BETWEEN 1200 AND 15000
+                            AND "hourlyPay" BETWEEN 10 AND 250
                             AND "startDate" >= CURRENT_DATE
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                             AND "clientName" IS NOT NULL
                         GROUP BY "clientName", city, state, specialty
                         ORDER BY avg_rate {order_direction}
@@ -519,6 +558,9 @@ class DatabaseService:
                         WHERE specialty ~ ('(^|\\s|-)' || $1 || '($|\\s)')
                             AND {rate_column} IS NOT NULL
                             AND "startDate" >= CURRENT_DATE
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                     """
                     if location:
                         avg_query += " AND LOWER(state) = LOWER($2)"
@@ -552,6 +594,9 @@ class DatabaseService:
                             AND {rate_column} BETWEEN $3 AND $4
                             AND {rate_column} IS NOT NULL
                             AND "startDate" >= CURRENT_DATE
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                             AND "clientName" IS NOT NULL
                         GROUP BY "clientName", city, state, specialty
                         ORDER BY assignment_count DESC, avg_rate DESC
@@ -573,6 +618,9 @@ class DatabaseService:
                             AND {rate_column} BETWEEN $2 AND $3
                             AND {rate_column} IS NOT NULL
                             AND "startDate" >= CURRENT_DATE
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                             AND "clientName" IS NOT NULL
                         GROUP BY "clientName", city, state, specialty
                         ORDER BY assignment_count DESC, avg_rate DESC
@@ -685,6 +733,9 @@ class DatabaseService:
                         AND {rate_column} BETWEEN $4 AND $5
                         AND {rate_column} IS NOT NULL
                         AND "startDate" >= CURRENT_DATE
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                         AND "clientName" IS NOT NULL
                     ORDER BY "startDate" ASC
                     LIMIT 20
@@ -710,6 +761,9 @@ class DatabaseService:
                         AND {rate_column} BETWEEN $3 AND $4
                         AND {rate_column} IS NOT NULL
                         AND "startDate" >= CURRENT_DATE
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                         AND "clientName" IS NOT NULL
                     ORDER BY "startDate" ASC
                     LIMIT 20
@@ -797,6 +851,9 @@ class DatabaseService:
                         AND LOWER(state) = LOWER($3)
                         AND {rate_column} IS NOT NULL
                         AND "startDate" >= NOW() - INTERVAL '3 months'
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                     HAVING COUNT(*) >= 5
                 """
                 result = await self.execute_one(query, specialty, city, state)
@@ -817,6 +874,9 @@ class DatabaseService:
                         AND LOWER(state) = LOWER($2)
                         AND {rate_column} IS NOT NULL
                         AND "startDate" >= NOW() - INTERVAL '3 months'
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                     GROUP BY specialty
                 """
                 result = await self.execute_one(query, specialty, state_code)
@@ -905,6 +965,9 @@ class DatabaseService:
                 WHERE {where_clause}
                     AND "vendorName" IS NOT NULL
                     AND "startDate" >= NOW() - INTERVAL '6 months'
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                 GROUP BY "vendorName", "clientName", city, state, specialty
                 ORDER BY assignment_count DESC, most_recent DESC
                 LIMIT 20
@@ -966,6 +1029,9 @@ class DatabaseService:
                 WHERE "vendorName" = $1
                     AND ($2 IS NULL OR specialty = $2)
                     AND "startDate" > NOW() - INTERVAL '180 days'
+                        AND "billRate" BETWEEN 30 AND 800
+                        AND "weeklyPay" BETWEEN 1200 AND 15000
+                        AND "hourlyPay" BETWEEN 10 AND 250
                 GROUP BY "vendorName", specialty, state
                 LIMIT 1
             """
