@@ -31,27 +31,36 @@ class ForecastingService:
     
     async def get_rate_forecast(self, specialties: List[str], states: List[str] = None,
                                target: str = "weekly_pay", model: str = "prophet",
-                               timeout: int = 90) -> Dict:
+                               timeout: int = 90, profession: str = None) -> Dict:
         """
         Get rate forecasts from your forecasting service
 
         Args:
-            specialties: List of nursing specialties (e.g., ["ICU", "ED"])
+            specialties: List of nursing specialties (e.g., ["ICU", "ED", "CRNA"])
             states: List of states (e.g., ["CA", "TX"]) - optional for national
             target: "weekly_pay", "bill_rate", or "hourly_pay"
             model: "ensemble", "prophet", "xgboost", or "random_forest"
             timeout: Request timeout in seconds (default: 30)
+            profession: Profession filter from frontend ("Nursing", "Locum/Tenens", "Allied", "Therapy")
         """
 
         session = await self.get_session()
 
-        # Format specialties with "RN - " prefix if not already present
+        # Locum/Tenens specialties that should NOT get "RN - " prefix
+        locum_specialties = ["CRNA", "CAA", "PA", "NP", "FNP", "AGACNP", "PMHNP"]
+
+        # Format specialties - only add "RN - " prefix for Nursing specialties
         formatted_specialties = []
         for spec in specialties:
-            if not spec.startswith("RN - "):
-                formatted_specialties.append(f"RN - {spec}")
-            else:
+            # Don't add prefix if already has one
+            if spec.startswith("RN - ") or spec.startswith("PA - ") or spec.startswith("NP - "):
                 formatted_specialties.append(spec)
+            # Don't add "RN -" to Locum/Tenens specialties or if profession is Locum/Tenens
+            elif spec in locum_specialties or profession == "Locum/Tenens":
+                formatted_specialties.append(spec)
+            else:
+                # Default: add "RN - " for regular nursing specialties
+                formatted_specialties.append(f"RN - {spec}")
 
         payload = {
             "specialties": formatted_specialties,
@@ -295,11 +304,18 @@ class ChatbotForecastIntegration:
                 specialties=[parameters.specialty],
                 states=[normalized_state] if normalized_state else [],
                 target=target_metric,
-                model="prophet"  # Use prophet model as default
+                model="prophet",  # Use prophet model as default
+                profession=profession  # Pass profession filter
             )
 
-            # Extract insights - use "RN - " prefix to match API response format
-            formatted_specialty = f"RN - {parameters.specialty}" if not parameters.specialty.startswith("RN - ") else parameters.specialty
+            # Determine formatted specialty based on profession
+            locum_specialties = ["CRNA", "CAA", "PA", "NP", "FNP", "AGACNP", "PMHNP"]
+            if parameters.specialty in locum_specialties or profession == "Locum/Tenens":
+                formatted_specialty = parameters.specialty
+            elif not parameters.specialty.startswith("RN - "):
+                formatted_specialty = f"RN - {parameters.specialty}"
+            else:
+                formatted_specialty = parameters.specialty
             location_key = normalized_state if normalized_state else "national"
             insights = self.forecasting_service.extract_forecast_insights(
                 forecast_data,
@@ -324,7 +340,8 @@ class ChatbotForecastIntegration:
                         specialties=[parameters.specialty],
                         states=[],  # Empty = national
                         target=target_metric,
-                        model="prophet"
+                        model="prophet",
+                        profession=profession  # Pass profession filter
                     )
 
                     national_insights = self.forecasting_service.extract_forecast_insights(

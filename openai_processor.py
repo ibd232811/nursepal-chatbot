@@ -69,13 +69,13 @@ class OpenAIProcessor:
 Analyze the user's message and extract:
 1. query_type: One of:
    - "rate_recommendation" - asking about CURRENT rates, pricing, "what should I charge", "what's the rate", "how much", "bill rate", "pay rate"
-   - "rate_comparison" - asking if a specific rate is too high/low, "is $120 too high", "should I charge $95", "is this rate competitive"
+   - "rate_comparison" - asking if a specific rate is too high/low, "is $120 too high", "should I charge $95", "is this rate competitive", "am I overpriced", "are my competitors billing more"
    - "market_comparison" - comparing rates between two locations, "how much higher is Buffalo than Ithaca", "compare ICU rates in Ohio and NY", "what's the difference between"
    - "rate_impact" - asking about impact of changing rates, "if I drop the rate", "can we still fill at $X", "what if I lower/raise the rate", "will we struggle to fill"
    - "unfilled_position" - asking why position isn't filling, "why can't I fill this", "position not filling", "having trouble filling", "nurses demanding higher wages", "can't get anyone"
    - "comparable_jobs" - asking about similar positions/jobs, "what are comparable jobs", "show me similar positions", "what other jobs", "comparable positions"
-   - "client_search" - asking about specific clients/facilities with certain rates, "what clients", "which facilities", "who pays", "facilities with rates"
-   - "vendor_location" - asking which vendors/agencies are at a specific hospital/location, "what vendors at Memorial", "which agencies work at this hospital", "who has nurses at", "what staffing agencies"
+   - "client_search" - asking about specific clients/facilities/hospitals with certain rates or jobs, "what clients", "which facilities", "who pays", "facilities with rates", "what hospital has", "highest-paying opening", "highest-paying job"
+   - "vendor_location" - asking which vendors/agencies/MSP are at a specific hospital/location, "what vendors at Memorial", "which agencies work at this hospital", "who has nurses at", "what staffing agencies", "who has the MSP", "what vendor has the MSP"
    - "lead_generation" - looking for sales opportunities, "best opportunities", "where should I sell", "hot markets"
    - "competitive_analysis" - comparing to competitors, "how do we compare", "competitive position"
    - "forecast_analysis" - asking about FUTURE rates or trends (detect time references like "next quarter", "will be", "forecast")
