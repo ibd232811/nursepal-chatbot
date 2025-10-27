@@ -74,13 +74,13 @@ Analyze the user's message and extract:
    - "rate_impact" - asking about impact of changing rates, "if I drop the rate", "can we still fill at $X", "what if I lower/raise the rate", "will we struggle to fill"
    - "unfilled_position" - asking why position isn't filling, "why can't I fill this", "position not filling", "having trouble filling", "nurses demanding higher wages", "can't get anyone"
    - "comparable_jobs" - asking about similar positions/jobs, "what are comparable jobs", "show me similar positions", "what other jobs", "comparable positions"
-   - "client_search" - asking about specific clients/facilities/hospitals with certain rates or jobs, "what clients", "which facilities", "who pays", "facilities with rates", "what hospital has", "highest-paying opening", "highest-paying job"
+   - "client_search" - asking about specific clients/facilities/hospitals with certain rates or jobs, "what clients", "which facilities", "who pays", "facilities with rates", "what hospital has", "what hospital pays", "highest-paying opening", "highest-paying job", "which hospital", "show me facilities", "show me hospitals", "show me clients"
    - "vendor_location" - asking which vendors/agencies/MSP are at a specific hospital/location, "what vendors at Memorial", "which agencies work at this hospital", "who has nurses at", "what staffing agencies", "who has the MSP", "what vendor has the MSP"
    - "lead_generation" - looking for sales opportunities, "best opportunities", "where should I sell", "hot markets"
    - "competitive_analysis" - comparing to competitors, "how do we compare", "competitive position"
    - "forecast_analysis" - asking about FUTURE rates or trends (detect time references like "next quarter", "will be", "forecast")
    - "forecast_comparison" - comparing current rates to future forecasted rates, "compare current to future", "should I lock in now or wait", "will rates go up", "better now or in 6 months", "current vs projected"
-   - "rate_trends" - asking where rates are rising, falling, increasing, decreasing, growing, "where are rates rising", "which states have increasing rates", "where are ICU rates going up", "states with falling rates", "where are rates dropping"
+   - "rate_trends" - asking where rates are rising, falling, increasing, decreasing, growing, OR asking which state/location has highest/lowest rates, "where are rates rising", "which states have increasing rates", "where are ICU rates going up", "states with falling rates", "where are rates dropping", "what state has the highest rates", "which state has the lowest rates", "where are rates highest", "where are rates lowest", "what location has the best rates"
    - "vendor_info" - asking about specific vendors by name
    - "conversational" - casual conversation like "thank you", "thanks", "this is great", "awesome", "perfect", "appreciate it", "hello", "hi"
    - "general" - ONLY if none of the above match
@@ -144,20 +144,21 @@ Analyze the user's message and extract:
    - Only carry forward if it's clearly the same rate being discussed (e.g., "is this competitive in another city?")
    - null if no specific rate mentioned in the current message
 10. trend_direction: For rate_trends queries, determine direction:
-   - "rising" - if asking about "rising", "increasing", "going up", "growing", "climbing", "higher"
-   - "falling" - if asking about "falling", "decreasing", "going down", "dropping", "declining", "lower"
+   - "rising" - if asking about "rising", "increasing", "going up", "growing", "climbing", "higher", "highest", "best rates", "top rates"
+   - "falling" - if asking about "falling", "decreasing", "going down", "dropping", "declining", "lower", "lowest", "cheapest rates"
    - null - if not a rate_trends query (default to "rising" if unclear)
+   - IMPORTANT: "what state has the highest rates" → trend_direction = "rising" (showing top states)
 
 CRITICAL RULES:
 - If user asks "what's the rate for X" or "how much for X" → query_type = "rate_recommendation"
-- If user asks "what clients", "which facilities", "who has rates like" → query_type = "client_search"
+- If user asks "what clients", "which facilities", "what hospital", "show me clients", "who has rates like" → query_type = "client_search"
 - If user asks "what will the rate be" or "future rates" → query_type = "forecast_analysis"
 - If user asks "compare [location1] to/and/vs [location2]", "how much higher/lower is X than Y", "difference between X and Y" → query_type = "market_comparison"
 - If user asks "comparable jobs", "similar positions", "what other jobs", "show me positions" → query_type = "comparable_jobs"
 - If user asks "if I drop/lower/raise the rate", "can we fill at $X", "will we struggle", "impact of changing" → query_type = "rate_impact"
 - If user asks "why can't I fill", "position not filling", "having trouble", "nurses demanding more" → query_type = "unfilled_position"
 - If user asks "what vendors at", "which agencies at Memorial", "who has nurses at this hospital" → query_type = "vendor_location"
-- If user asks "where are rates rising", "which states have increasing rates", "where are rates going up", "states with falling rates", "where are rates dropping", "show me rising/falling rates", "where are X rates climbing" → query_type = "rate_trends"
+- If user asks "where are rates rising", "which states have increasing rates", "where are rates going up", "states with falling rates", "where are rates dropping", "show me rising/falling rates", "where are X rates climbing", "what state has the highest rates", "which state has lowest rates" → query_type = "rate_trends"
 - Always extract specialty if mentioned (ICU, ED, OR, etc.)
 - CRITICAL STATE ABBREVIATIONS: When user types ONLY a 2-letter code (CA, NY, TX, FL, PA, etc.), treat as state, NOT specialty:
   * "CA" alone → state="CA", specialty=null (NOT specialty="CRNA")

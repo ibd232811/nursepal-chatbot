@@ -5,7 +5,7 @@ Main FastAPI Application
 
 import os
 import sys
-from typing import Optional, List, Dict, Any, AsyncGenerator
+from typing import Optional, List, Dict, Any, AsyncGenerator, Union
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
@@ -83,12 +83,16 @@ class ForecastInsight(BaseModel):
     target_metric: str
 
 class ForecastAnalysis(BaseModel):
-    forecast_insights: ForecastInsight
+    forecast_insights: Union[ForecastInsight, List[Dict[str, Any]]]  # Single state or multi-state
     business_recommendations: Dict[str, List[str]]  # Recommendations by role
     data_source: str
     location: str
     specialty: str
     time_horizon: str
+    is_multi_state_fallback: Optional[bool] = None  # True if showing multiple states
+    fallback_reason: Optional[str] = None  # Explanation for fallback
+    requested_location: Optional[str] = None  # Original requested location
+    multi_state_forecasts: Optional[List[Dict[str, Any]]] = None  # Full state data
 
 class ChatResponse(BaseModel):
     response: str
@@ -571,37 +575,21 @@ async def chat_endpoint(query: ChatQuery):
             message_lower = query.message.lower()
             is_national_query = any(keyword in message_lower for keyword in ['nationally', 'national', 'nationwide', 'all states', 'across the us', 'entire us', 'in the us', 'the us', ' us ', ' us?', ' us.'])
 
-            # Check if we have a location (state is required for forecasting, UNLESS it's a national query)
-            if not is_national_query and not parameters.state and not parameters.location:
-                specialty_context = f" for {parameters.specialty}" if parameters.specialty else ""
-                time_context = ""
-                if parameters.time_horizon:
-                    time_map = {
-                        "4_weeks": "in 4 weeks",
-                        "12_weeks": "in 3 months",
-                        "26_weeks": "in 6 months",
-                        "52_weeks": "next year"
-                    }
-                    time_context = f" {time_map.get(parameters.time_horizon, '')}"
+            # DEFAULT BEHAVIOR: If no state is specified, use national (all states)
+            # Only ask for clarification if the query seems ambiguous
+            if not parameters.state and not parameters.location and not is_national_query:
+                # Default to national forecast (aggregate all states)
+                parameters.location = None
+                parameters.state = None
+                parameters.city = None
+                print("💡 No state specified - defaulting to NATIONAL forecast (all states aggregate)")
 
-                return ChatResponse(
-                    response=f"Which state would you like to forecast{specialty_context}{time_context}?\n\n" +
-                            "For example:\n" +
-                            "• 'NY' or 'New York'\n" +
-                            "• 'CA' or 'California'\n" +
-                            "• 'TX' or 'Texas'\n" +
-                            "• Or for national data: 'nationally' or 'US'\n\n" +
-                            f"Try: 'Forecast {parameters.specialty or 'ICU'} rates{time_context} nationally'",
-                    requires_data=False,
-                    extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {}
-                )
-
-            # If it's a national query, set location to null to get national data
+            # If it's an explicit national query, ensure location is null
             if is_national_query:
                 parameters.location = None
                 parameters.state = None
                 parameters.city = None
-                print("💡 National forecast query detected - using nationwide data")
+                print("💡 National forecast query detected - using nationwide data (all states)")
 
             # Auto-detect if this is a nurse-focused query and default to weekly_pay
             # Override even if rate_type is set to bill_rate, since that's often the default
