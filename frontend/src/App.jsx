@@ -302,8 +302,16 @@ function App() {
   return (
     <div className="app">
       <header className="hero">
-        <h1>AVA - AI Virtual Assistant</h1>
-        <p className="powered-by">Powered by LocumPal</p>
+        <div className="header-top">
+          <div>
+            <h1>AVA - AI Virtual Assistant</h1>
+            <p className="powered-by">Powered by LocumPal</p>
+          </div>
+          <div className="status-indicator">
+            <span className="status-dot"></span>
+            <span className="status-text">Online</span>
+          </div>
+        </div>
         <p>
           Your healthcare staffing intelligence expert. Real-time market insights, future rate forecasts, and strategic recommendations tailored to your role.
         </p>
@@ -379,6 +387,46 @@ function App() {
                   <Send size={16} /> Send
                 </>
               )}
+            </button>
+          </div>
+
+          {/* Quick Reply Options */}
+          <div className="quick-replies">
+            <button
+              className="quick-reply-btn"
+              onClick={() => {
+                setInputValue("What's the bill rate for CRNAs in California?")
+              }}
+              disabled={isLoading}
+            >
+              💰 CRNA Rates in CA
+            </button>
+            <button
+              className="quick-reply-btn"
+              onClick={() => {
+                setInputValue("Show me the highest paying Emergency Room Doctor positions")
+              }}
+              disabled={isLoading}
+            >
+              🏥 Top ER Doctor Jobs
+            </button>
+            <button
+              className="quick-reply-btn"
+              onClick={() => {
+                setInputValue("Which states have rising FNP rates?")
+              }}
+              disabled={isLoading}
+            >
+              📈 FNP Rate Trends
+            </button>
+            <button
+              className="quick-reply-btn"
+              onClick={() => {
+                setInputValue("Compare PA rates in Texas vs Florida")
+              }}
+              disabled={isLoading}
+            >
+              🔍 Compare PA Rates
             </button>
           </div>
         </div>

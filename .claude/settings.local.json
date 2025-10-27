@@ -1,16 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git rm --cached .env)",
-      "Bash(git add .gitignore)",
-      "Bash(git commit -m \"$(cat <<''EOF''\nAdd .gitignore and remove .env from tracking\n\n- Add .gitignore to protect sensitive environment files\n- Remove .env from git tracking to prevent credential exposure\n- This prevents API keys and database credentials from being committed\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
-      "Bash(lsof -i :8000 -i :5173 -i :3000)",
-      "Bash(npm run dev)",
-      "Bash(lsof -i :5173 -i :3000)",
-      "Bash(lsof -ti:8000)",
-      "Bash(python3 main.py)",
-      "Bash(curl -s http://127.0.0.1:8000/health)",
-      "Bash(python3 fix_all_filters.py)"
+      "Bash(xargs kill -9)"
     ],
     "deny": [],
     "ask": []

@@ -56,6 +56,14 @@
   pointer-events: none;
 }
 
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
 .hero h1 {
   margin: 0;
   font-size: 2.75rem;
@@ -75,6 +83,45 @@
   color: var(--primary-600);
   letter-spacing: 0.02em;
   text-transform: uppercase;
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(5, 150, 105, 0.1) 100%);
+  border: 1.5px solid rgba(16, 185, 129, 0.3);
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.15);
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--success-500) 0%, var(--success-600) 100%);
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.6);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+}
+
+.status-text {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--success-600);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .hero p {
@@ -372,6 +419,47 @@
   cursor: not-allowed;
   transform: none;
   box-shadow: none;
+}
+
+/* Quick Reply Buttons */
+.quick-replies {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+  padding: 0 0.25rem;
+}
+
+.quick-reply-btn {
+  padding: 0.65rem 1.25rem;
+  background: linear-gradient(135deg, rgba(2, 132, 199, 0.08) 0%, rgba(16, 185, 129, 0.08) 100%);
+  border: 1.5px solid rgba(2, 132, 199, 0.2);
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--primary-700);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.quick-reply-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, rgba(2, 132, 199, 0.15) 0%, rgba(16, 185, 129, 0.15) 100%);
+  border-color: var(--primary-600);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.2);
+}
+
+.quick-reply-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.quick-reply-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .spin {
