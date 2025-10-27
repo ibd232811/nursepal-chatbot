@@ -165,9 +165,9 @@ class ForecastingService:
 
         try:
             url = f"{self.base_url}/forecast"
-            print(f"🔍 Forecasting API Request:")
+            print("🔍 Forecasting API Request:")
             print(f"   URL: {url}")
-            print(f"   Payload: {payload}")
+            print(f"   Payload: {json.dumps(payload, indent=2)}")
 
             timeout_obj = aiohttp.ClientTimeout(total=timeout)
             async with session.post(
