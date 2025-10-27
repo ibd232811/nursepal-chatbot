@@ -592,18 +592,35 @@ async def chat_endpoint(query: ChatQuery):
                 print("💡 National forecast query detected - using nationwide data (all states)")
 
             # Auto-detect if this is a nurse-focused query and default to weekly_pay
-            # Override even if rate_type is set to bill_rate, since that's often the default
+            # BUT: If user explicitly asks for "bill rate" or "hourly", respect that!
             message_lower = query.message.lower()
-            nurse_keywords = ['nurse', 'rn', 'job', 'jobs', 'work', 'pay', 'make', 'earn', 'salary', 'compensation', 'i want', 'should i']
-            is_nurse_query = any(keyword in message_lower for keyword in nurse_keywords)
 
-            if is_nurse_query and (not parameters.rate_type or parameters.rate_type == "bill_rate"):
-                # Default to weekly_pay for nurse forecast queries
-                parameters.rate_type = "weekly_pay"
-                print("💡 Auto-detected nurse forecast query, defaulting to weekly_pay")
-            elif not parameters.rate_type:
-                # Default to bill_rate for business queries
-                parameters.rate_type = "bill_rate"
+            # Check if user explicitly mentioned a rate type
+            explicitly_asked_bill_rate = 'bill rate' in message_lower or 'billing rate' in message_lower
+            explicitly_asked_hourly = 'hourly' in message_lower or 'per hour' in message_lower or '/hr' in message_lower
+
+            # Only auto-detect if user DIDN'T explicitly ask for a rate type
+            if not explicitly_asked_bill_rate and not explicitly_asked_hourly:
+                nurse_keywords = ['nurse', 'rn', 'job', 'jobs', 'work', 'pay', 'make', 'earn', 'salary', 'compensation', 'i want', 'should i']
+                is_nurse_query = any(keyword in message_lower for keyword in nurse_keywords)
+
+                if is_nurse_query and not parameters.rate_type:
+                    # Default to weekly_pay for nurse forecast queries
+                    parameters.rate_type = "weekly_pay"
+                    print("💡 Auto-detected nurse forecast query, defaulting to weekly_pay")
+                elif not parameters.rate_type:
+                    # Default to bill_rate for business queries
+                    parameters.rate_type = "bill_rate"
+            else:
+                # User explicitly asked for bill_rate or hourly_pay - use it!
+                if explicitly_asked_bill_rate and not parameters.rate_type:
+                    parameters.rate_type = "bill_rate"
+                    print("💡 User explicitly asked for bill rate")
+                elif explicitly_asked_hourly and not parameters.rate_type:
+                    parameters.rate_type = "hourly_pay"
+                    print("💡 User explicitly asked for hourly pay")
+                elif not parameters.rate_type:
+                    parameters.rate_type = "bill_rate"
 
             forecast_integration = ChatbotForecastIntegration(forecasting_service)
             forecast_data = await forecast_integration.generate_forecast_analysis(parameters)

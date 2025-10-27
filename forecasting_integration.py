@@ -456,6 +456,20 @@ class ChatbotForecastIntegration:
             if "error" in insights:
                 return insights
 
+            # Validate that we got the correct rate type
+            # Bill rates for Locum/Tenens should be $70-$800/hr, not $8000+ (that's weekly pay)
+            if target_metric == "bill_rate" and insights.get("current_value", 0) > 1000:
+                print(f"⚠️ WARNING: Bill rate value ${insights['current_value']:.2f} seems too high!")
+                print("   This looks like weekly_pay data, not bill_rate. Forecasting API may have returned wrong metric.")
+                print(f"   Requested: {target_metric}, but got values in weekly_pay range")
+
+                return {"error": f"Forecasting API returned incorrect rate type. Requested bill_rate but received data in weekly_pay range (${insights['current_value']:.2f}). Please check forecasting API configuration."}
+
+            # Validate hourly_pay range (should be $20-$200/hr typically)
+            if target_metric == "hourly_pay" and insights.get("current_value", 0) > 500:
+                print(f"⚠️ WARNING: Hourly pay value ${insights['current_value']:.2f} seems too high!")
+                return {"error": f"Forecasting API returned incorrect rate type. Requested hourly_pay but received data in weekly_pay range (${insights['current_value']:.2f})."}
+
             # Check if we have sufficient state data, and fetch national if needed
             state_sample_size = len(insights.get("forecast", {}).get("historical", [])) if isinstance(insights.get("forecast"), dict) else 0
             national_insights = None
