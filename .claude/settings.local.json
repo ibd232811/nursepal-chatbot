@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(xargs kill -9)"
+      "Bash(xargs kill -9)",
+      "Bash(find /Users/derekfields/Downloads/chatbot -type f ( -name \"*.png\" -o -name \"*.jpg\" -o -name \"*.jpeg\" -o -name \"*.svg\" -o -name \"*.figma\" ))"
     ],
     "deny": [],
     "ask": []

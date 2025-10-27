@@ -567,8 +567,12 @@ async def chat_endpoint(query: ChatQuery):
                     extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {}
                 )
 
-            # Check if we have a location (state is required for forecasting)
-            if not parameters.state and not parameters.location:
+            # Check if user explicitly asked for national/all-states data
+            message_lower = query.message.lower()
+            is_national_query = any(keyword in message_lower for keyword in ['nationally', 'national', 'nationwide', 'all states', 'across the us', 'entire us', 'in the us', 'the us', ' us ', ' us?', ' us.'])
+
+            # Check if we have a location (state is required for forecasting, UNLESS it's a national query)
+            if not is_national_query and not parameters.state and not parameters.location:
                 specialty_context = f" for {parameters.specialty}" if parameters.specialty else ""
                 time_context = ""
                 if parameters.time_horizon:
@@ -586,11 +590,18 @@ async def chat_endpoint(query: ChatQuery):
                             "• 'NY' or 'New York'\n" +
                             "• 'CA' or 'California'\n" +
                             "• 'TX' or 'Texas'\n" +
-                            "• Or multiple states: 'NY, CA, TX'\n\n" +
-                            f"Try: 'Forecast {parameters.specialty or 'ICU'} rates{time_context} in NY'",
+                            "• Or for national data: 'nationally' or 'US'\n\n" +
+                            f"Try: 'Forecast {parameters.specialty or 'ICU'} rates{time_context} nationally'",
                     requires_data=False,
                     extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {}
                 )
+
+            # If it's a national query, set location to null to get national data
+            if is_national_query:
+                parameters.location = None
+                parameters.state = None
+                parameters.city = None
+                print("💡 National forecast query detected - using nationwide data")
 
             # Auto-detect if this is a nurse-focused query and default to weekly_pay
             # Override even if rate_type is set to bill_rate, since that's often the default

@@ -259,21 +259,21 @@
 }
 
 .avatar {
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, var(--primary-600) 0%, var(--primary-700) 100%);
   color: #fff;
-  box-shadow: 0 4px 6px -1px rgba(2, 132, 199, 0.3);
+  box-shadow: 0 2px 8px rgba(2, 132, 199, 0.3);
   flex-shrink: 0;
 }
 
 .message-row.bot .avatar {
   background: linear-gradient(135deg, var(--success-500) 0%, var(--success-600) 100%);
-  box-shadow: 0 4px 6px -1px rgba(16, 185, 129, 0.3);
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
 }
 
 .message-bubble {
