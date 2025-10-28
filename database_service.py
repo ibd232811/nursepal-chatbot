@@ -1175,6 +1175,76 @@ class DatabaseService:
             print(f"Error getting rate trends: {e}")
             return None
 
+    async def get_vendor_for_client(self, client_name: str) -> Optional[Dict[str, Any]]:
+        """
+        Get the most common VMS/parentOrg for a given client
+
+        Args:
+            client_name: The client/hospital/facility name to search for
+
+        Returns:
+            Dict with vendor info including:
+            - vendor_name: Most common VMS or parentOrg
+            - occurrence_count: How many jobs have this vendor
+            - total_jobs: Total jobs for this client
+            - percentage: Percentage of jobs with this vendor
+            - client_name: Matched client name from database
+        """
+        try:
+            print(f"🔍 Looking up vendor/MSP for client: {client_name}")
+
+            # Query to find most common VMS/parentOrg for this client
+            # Using COALESCE to check both VMS and parentOrg columns
+            # Using ILIKE for case-insensitive fuzzy matching on client name
+            query = """
+                WITH client_vendors AS (
+                    SELECT
+                        "clientName",
+                        COALESCE(NULLIF(TRIM("VMS"), ''), NULLIF(TRIM("parentOrg"), '')) as vendor_name,
+                        COUNT(*) as job_count
+                    FROM vmsrawscrape_prod
+                    WHERE "clientName" ILIKE $1
+                        AND (
+                            ("VMS" IS NOT NULL AND TRIM("VMS") != '')
+                            OR ("parentOrg" IS NOT NULL AND TRIM("parentOrg") != '')
+                        )
+                    GROUP BY "clientName", vendor_name
+                ),
+                total_jobs AS (
+                    SELECT
+                        "clientName",
+                        COUNT(*) as total_count
+                    FROM vmsrawscrape_prod
+                    WHERE "clientName" ILIKE $1
+                    GROUP BY "clientName"
+                )
+                SELECT
+                    cv.vendor_name,
+                    cv."clientName" as client_name,
+                    cv.job_count as occurrence_count,
+                    tj.total_count as total_jobs,
+                    ROUND((cv.job_count::numeric / tj.total_count::numeric) * 100, 1) as percentage
+                FROM client_vendors cv
+                JOIN total_jobs tj ON cv."clientName" = tj."clientName"
+                ORDER BY cv.job_count DESC
+                LIMIT 1
+            """
+
+            # Use % wildcards for fuzzy matching
+            search_pattern = f"%{client_name}%"
+            result = await self.execute_one(query, search_pattern)
+
+            if result:
+                print(f"  ✅ Found vendor: {result['vendor_name']} ({result['occurrence_count']}/{result['total_jobs']} jobs, {result['percentage']}%)")
+                return result
+            else:
+                print(f"  ⚠️ No vendor data found for client matching '{client_name}'")
+                return None
+
+        except Exception as e:
+            print(f"❌ Error getting vendor for client: {e}")
+            return None
+
     async def test_connection(self) -> bool:
         """Test database connectivity"""
         try:

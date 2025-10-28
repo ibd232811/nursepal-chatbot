@@ -341,6 +341,8 @@ async def chat_stream_endpoint(query: ChatQuery):
                 yield f"data: {json.dumps({'status': 'processing', 'message': 'Analyzing your proposed rate...', 'progress': 40})}\n\n"
             elif query_type == "vendor_location":
                 yield f"data: {json.dumps({'status': 'processing', 'message': 'Finding vendors at this location...', 'progress': 40})}\n\n"
+            elif query_type == "vendor_contract":
+                yield f"data: {json.dumps({'status': 'processing', 'message': 'Looking up vendor/MSP contract...', 'progress': 40})}\n\n"
             else:
                 yield f"data: {json.dumps({'status': 'processing', 'message': 'Processing your request...', 'progress': 40})}\n\n"
 
@@ -1621,6 +1623,56 @@ Consider conducting candidate surveys to understand why offers are being decline
 
             chat_response = ChatResponse(
                 response=ai_response,
+                extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {},
+                requires_data=True,
+                user_role_detected=parameters.user_perspective if hasattr(parameters, 'user_perspective') else None
+            )
+
+            # Cache the response
+            if cache_service:
+                cache_service.set(cache_key, chat_response.dict())
+
+            return chat_response
+
+        elif parameters.query_type == 'vendor_contract':
+            # Handle vendor contract queries (e.g., "Who has the contract with Strong Memorial?")
+            if not db_service:
+                return ChatResponse(
+                    response="Database service is not available. I can't search for vendor contract information right now.",
+                    requires_data=False
+                )
+
+            if not parameters.client_name:
+                return ChatResponse(
+                    response="To find which vendor/MSP has a contract with a facility, please provide the hospital or facility name. For example: 'Who has the contract with Strong Memorial Hospital?' or 'What vendor works with Cleveland Clinic?'",
+                    requires_data=False,
+                    extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {}
+                )
+
+            # Get the most common vendor/MSP for this client
+            vendor_info = await db_service.get_vendor_for_client(parameters.client_name)
+
+            if not vendor_info:
+                return ChatResponse(
+                    response=f"I couldn't find any vendor or MSP information for '{parameters.client_name}'. This could mean:\n\n" +
+                            "• The facility name might be spelled differently in our system\n" +
+                            "• No recent job postings (with VMS/parentOrg data) for this client\n" +
+                            "• Try a partial name (e.g., 'Strong Memorial' instead of 'Strong Memorial Hospital')",
+                    requires_data=False,
+                    extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {}
+                )
+
+            # Generate natural language response
+            response_text = f"**{vendor_info['client_name']}** primarily works with **{vendor_info['vendor_name']}**.\n\n"
+            response_text += f"Based on {vendor_info['total_jobs']} job postings in our system, "
+            response_text += f"{vendor_info['vendor_name']} appears on {vendor_info['occurrence_count']} of them "
+            response_text += f"({vendor_info['percentage']}% of jobs)."
+
+            if vendor_info['percentage'] < 100:
+                response_text += f"\n\nNote: The remaining {100 - vendor_info['percentage']}% of jobs may be with other vendors or have no MSP/VMS listed."
+
+            chat_response = ChatResponse(
+                response=response_text,
                 extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {},
                 requires_data=True,
                 user_role_detected=parameters.user_perspective if hasattr(parameters, 'user_perspective') else None

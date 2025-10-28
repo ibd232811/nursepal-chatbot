@@ -75,7 +75,8 @@ Analyze the user's message and extract:
    - "unfilled_position" - asking why position isn't filling, "why can't I fill this", "position not filling", "having trouble filling", "nurses demanding higher wages", "can't get anyone"
    - "comparable_jobs" - asking about similar positions/jobs, "what are comparable jobs", "show me similar positions", "what other jobs", "comparable positions"
    - "client_search" - asking about specific clients/facilities/hospitals with certain rates or jobs, "what clients", "which facilities", "who pays", "facilities with rates", "what hospital has", "what hospital pays", "highest-paying opening", "highest-paying job", "which hospital", "show me facilities", "show me hospitals", "show me clients"
-   - "vendor_location" - asking which vendors/agencies/MSP are at a specific hospital/location, "what vendors at Memorial", "which agencies work at this hospital", "who has nurses at", "what staffing agencies", "who has the MSP", "what vendor has the MSP"
+   - "vendor_contract" - asking who has the contract/MSP/VMS with a specific client/hospital, "who has the contract with", "what vendor works with", "who is their MSP", "who do they work with", "what VMS", "who is the MSP for", "vendor for this hospital", "MSP at this facility"
+   - "vendor_location" - asking which vendors/agencies/MSP are at a specific hospital/location, "what vendors at Memorial", "which agencies work at this hospital", "who has nurses at", "what staffing agencies"
    - "lead_generation" - looking for sales opportunities, "best opportunities", "where should I sell", "hot markets"
    - "competitive_analysis" - comparing to competitors, "how do we compare", "competitive position"
    - "forecast_analysis" - asking about FUTURE rates or trends (detect time references like "next quarter", "will be", "forecast")
