@@ -65,16 +65,18 @@ class ForecastingService:
     def map_locum_specialty(self, specialty: str, profession: str = None) -> str:
         """
         Map user input specialty to database format for Locum/Tenens
+        Auto-detects Locum/Tenens specialties and maps them to full database names
 
         Args:
             specialty: User input specialty (e.g., "CRNA", "NP", "Hospitalist")
-            profession: Profession filter ("Locum/Tenens", "Nursing", etc.)
+            profession: Optional profession filter (kept for backward compatibility)
 
         Returns:
-            Mapped specialty in database format
+            Mapped specialty in database format (e.g., "CRNA" → "Certified Nurse Anesthetist (CRNA)")
         """
-        # If profession is Locum/Tenens and specialty is in mapping, use mapped value
-        if profession == "Locum/Tenens" and specialty in self.locum_specialty_mapping:
+        # If specialty is in mapping, use mapped value
+        # This auto-detects Locum/Tenens specialties regardless of profession filter
+        if specialty in self.locum_specialty_mapping:
             return self.locum_specialty_mapping[specialty]
 
         # Otherwise return as-is
@@ -544,6 +546,9 @@ class ChatbotForecastIntegration:
 
                 for state in top_states:
                     try:
+                        print(f"\n🔄 Trying fallback state: {state}")
+                        print(f"   Requesting: specialty={parameters.specialty}, rate_type={target_metric}")
+
                         state_forecast = await self.forecasting_service.get_rate_forecast(
                             specialties=[parameters.specialty],
                             states=[state],
@@ -552,14 +557,29 @@ class ChatbotForecastIntegration:
                             profession=profession
                         )
 
-                        # Check if specialty is in locum list
-                        locum_specialties = ["CRNA", "CAA", "PA", "NP", "FNP", "AGACNP", "PMHNP"]
-                        if parameters.specialty in locum_specialties or profession == "Locum/Tenens":
-                            formatted_specialty_check = parameters.specialty
-                        elif not parameters.specialty.startswith("RN - "):
-                            formatted_specialty_check = f"RN - {parameters.specialty}"
+                        print(f"   API response keys: {list(state_forecast.keys())}")
+
+                        # Use the SAME mapped specialty logic as the main forecast
+                        # This ensures we look for the same key that the API returns
+                        fallback_mapped_specialty = self.forecasting_service.map_locum_specialty(parameters.specialty, profession)
+                        print(f"   Mapped specialty: '{parameters.specialty}' → '{fallback_mapped_specialty}'")
+
+                        locum_prefixes = ["APRN - ", "MD/DO - ", "PA - ", "CRNA - ", "Certified Nurse Anesthetist",
+                                         "Dentistry - ", "Behavioral Health - ", "Clinical ", "Psychologist",
+                                         "Pharmacist", "Physicist", "Optometrist", "Exercise Physiologist"]
+                        standalone_locum = ["PA", "CRNA", "Oncology", "Orthopedic", "Cardiology",
+                                           "General Practice", "Psychologist Assistant", "School Psychologist"]
+
+                        has_prefix = any(fallback_mapped_specialty.startswith(prefix) for prefix in ["RN - ", "APRN - ", "MD/DO - ", "PA - ", "CRNA - ", "Dentistry - ", "Behavioral Health - ", "Clinical "])
+                        is_locum_by_prefix = any(fallback_mapped_specialty.startswith(prefix) for prefix in locum_prefixes)
+                        is_locum_exact = fallback_mapped_specialty in standalone_locum
+
+                        if has_prefix or is_locum_by_prefix or is_locum_exact or profession == "Locum/Tenens":
+                            formatted_specialty_check = fallback_mapped_specialty
                         else:
-                            formatted_specialty_check = parameters.specialty
+                            formatted_specialty_check = f"RN - {fallback_mapped_specialty}"
+
+                        print(f"   Extracting with specialty key: '{formatted_specialty_check}'")
 
                         state_insights = self.forecasting_service.extract_forecast_insights(
                             state_forecast,
@@ -572,13 +592,16 @@ class ChatbotForecastIntegration:
                                 "state": state,
                                 "insights": state_insights
                             })
-                            print(f"   ✓ Got forecast for {state}")
+                            print(f"   ✅ SUCCESS! Got forecast for {state}")
+                            print(f"   Current value: ${state_insights.get('current_value', 'N/A')}")
 
                             if len(state_forecasts) >= 3:
                                 break  # Got enough states
+                        else:
+                            print(f"   ❌ SKIPPED {state}: {state_insights.get('error', 'Unknown error')}")
 
                     except Exception as state_error:
-                        print(f"   ✗ Failed to get forecast for {state}: {state_error}")
+                        print(f"   ❌ EXCEPTION for {state}: {state_error}")
                         continue
 
                 # If we got at least 2 states, return multi-state forecast
@@ -607,8 +630,11 @@ class ChatbotForecastIntegration:
                         "time_horizon": selected_horizon
                     }
 
-                # If fallback also failed, return original error
+                # If fallback also failed, return helpful error with what we tried
                 print("❌ Fallback to top states also failed")
+
+                if normalized_state:
+                    return {"error": f"Forecast analysis failed: Insufficient CRNA data in {normalized_state}. We also tried CA, TX, FL, NY, and PA but couldn't find enough data in those states either.\n\nThis may indicate:\n• The forecasting API needs the correct specialty name\n• The database needs more historical CRNA records\n• Try asking about national trends instead"}
 
             return {"error": f"Forecast analysis failed: {error_msg}"}
     

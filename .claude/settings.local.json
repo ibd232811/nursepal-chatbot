@@ -4,7 +4,11 @@
       "Bash(xargs kill -9)",
       "Bash(find /Users/derekfields/Downloads/chatbot -type f ( -name \"*.png\" -o -name \"*.jpg\" -o -name \"*.jpeg\" -o -name \"*.svg\" -o -name \"*.figma\" ))",
       "Bash(lsof -i :8002)",
-      "Read(//Users/derekfields/**)"
+      "Read(//Users/derekfields/**)",
+      "Bash(curl -X POST http://localhost:8002/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"message\"\"\"\": \"\"\"\"What''''s the bill rate forecast for CRNAs in CA for the next 6 months?\"\"\"\"}')",
+      "Bash(curl -X POST \"http://192.168.1.210:8001/forecast\" -H \"Content-Type: application/json\" -d '{\n    \"\"\"\"specialties\"\"\"\": [\"\"\"\"CRNA\"\"\"\"],\n    \"\"\"\"states\"\"\"\": [\"\"\"\"CA\"\"\"\"],\n    \"\"\"\"target\"\"\"\": \"\"\"\"bill_rate\"\"\"\",\n    \"\"\"\"model\"\"\"\": \"\"\"\"prophet\"\"\"\"\n  }')",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -X POST \"http://192.168.1.210:8001/forecast\" )"
     ],
     "deny": [],
     "ask": []
