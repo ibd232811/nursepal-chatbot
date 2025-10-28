@@ -305,7 +305,7 @@ function App() {
         <div className="header-top">
           <div>
             <h1>AVA - AI Virtual Assistant</h1>
-            <p className="powered-by">Powered by LocumPal</p>
+            <p className="powered-by">Powered by Tyler Tech - DI Division</p>
           </div>
           <div className="status-indicator">
             <span className="status-dot"></span>

@@ -1175,67 +1175,110 @@ class DatabaseService:
             print(f"Error getting rate trends: {e}")
             return None
 
-    async def get_vendor_for_client(self, client_name: str) -> Optional[Dict[str, Any]]:
+    async def get_vendor_for_client(self, client_name: str, city: str = None, state: str = None) -> Optional[Dict[str, Any]]:
         """
-        Get the most common VMS/parentOrg for a given client
+        Get the top 3 most common VMS vendors for a given client (for active/future jobs)
 
         Args:
             client_name: The client/hospital/facility name to search for
+            city: Optional city filter
+            state: Optional state filter
 
         Returns:
             Dict with vendor info including:
-            - vendor_name: Most common VMS or parentOrg
-            - occurrence_count: How many jobs have this vendor
-            - total_jobs: Total jobs for this client
-            - percentage: Percentage of jobs with this vendor
+            - vendors: List of top 3 vendors with their counts
+            - total_jobs: Total jobs matching the criteria
             - client_name: Matched client name from database
+            - city: City if filtered
+            - state: State if filtered
         """
         try:
             print(f"🔍 Looking up vendor/MSP for client: {client_name}")
+            if city:
+                print(f"   City filter: {city}")
+            if state:
+                print(f"   State filter: {state}")
 
-            # Query to find most common VMS/parentOrg for this client
-            # Using COALESCE to check both VMS and parentOrg columns
-            # Using ILIKE for case-insensitive fuzzy matching on client name
-            query = """
-                WITH client_vendors AS (
+            # Build WHERE clause with optional city/state filters
+            where_conditions = ['"clientName" ILIKE $1']
+            params = [f"%{client_name}%"]
+            param_count = 1
+
+            if city:
+                param_count += 1
+                where_conditions.append(f'city ILIKE ${param_count}')
+                params.append(f"%{city}%")
+
+            if state:
+                param_count += 1
+                where_conditions.append(f'state ILIKE ${param_count}')
+                params.append(f"%{state}%")
+
+            where_clause = " AND ".join(where_conditions)
+
+            # Query to find top 3 VMS vendors for active/future jobs
+            # Only look at vms column (lowercase, not quoted - not parentOrg)
+            # Filter for startDate >= CURRENT_DATE (active/future jobs only)
+            query = f"""
+                WITH vendor_counts AS (
                     SELECT
-                        "clientName",
-                        COALESCE(NULLIF(TRIM("VMS"), ''), NULLIF(TRIM("parentOrg"), '')) as vendor_name,
-                        COUNT(*) as job_count
+                        vms as vendor_name,
+                        COUNT(*) as vms_count
                     FROM vmsrawscrape_prod
-                    WHERE "clientName" ILIKE $1
-                        AND (
-                            ("VMS" IS NOT NULL AND TRIM("VMS") != '')
-                            OR ("parentOrg" IS NOT NULL AND TRIM("parentOrg") != '')
-                        )
-                    GROUP BY "clientName", vendor_name
+                    WHERE {where_clause}
+                        AND vms IS NOT NULL
+                        AND TRIM(vms) != ''
+                        AND "startDate" >= CURRENT_DATE
+                    GROUP BY vms
+                    ORDER BY vms_count DESC
+                    LIMIT 3
                 ),
                 total_jobs AS (
                     SELECT
+                        COUNT(*) as total_count,
                         "clientName",
-                        COUNT(*) as total_count
+                        city,
+                        state
                     FROM vmsrawscrape_prod
-                    WHERE "clientName" ILIKE $1
-                    GROUP BY "clientName"
+                    WHERE {where_clause}
+                        AND "startDate" >= CURRENT_DATE
+                    GROUP BY "clientName", city, state
+                    LIMIT 1
                 )
                 SELECT
-                    cv.vendor_name,
-                    cv."clientName" as client_name,
-                    cv.job_count as occurrence_count,
+                    json_agg(
+                        json_build_object(
+                            'vendor_name', vc.vendor_name,
+                            'vms_count', vc.vms_count,
+                            'percentage', ROUND((vc.vms_count::numeric / tj.total_count::numeric) * 100, 1)
+                        )
+                        ORDER BY vc.vms_count DESC
+                    ) as vendors,
                     tj.total_count as total_jobs,
-                    ROUND((cv.job_count::numeric / tj.total_count::numeric) * 100, 1) as percentage
-                FROM client_vendors cv
-                JOIN total_jobs tj ON cv."clientName" = tj."clientName"
-                ORDER BY cv.job_count DESC
-                LIMIT 1
+                    tj."clientName" as client_name,
+                    tj.city,
+                    tj.state
+                FROM vendor_counts vc
+                CROSS JOIN total_jobs tj
+                GROUP BY tj.total_count, tj."clientName", tj.city, tj.state
             """
 
-            # Use % wildcards for fuzzy matching
-            search_pattern = f"%{client_name}%"
-            result = await self.execute_one(query, search_pattern)
+            result = await self.execute_one(query, *params)
 
-            if result:
-                print(f"  ✅ Found vendor: {result['vendor_name']} ({result['occurrence_count']}/{result['total_jobs']} jobs, {result['percentage']}%)")
+            if result and result.get('vendors'):
+                # Parse vendors JSON if it's a string
+                import json
+                vendors = result['vendors']
+                if isinstance(vendors, str):
+                    vendors = json.loads(vendors)
+
+                print(f"  ✅ Found {len(vendors)} vendors:")
+                for v in vendors:
+                    print(f"     - {v['vendor_name']}: {v['vms_count']} jobs ({v['percentage']}%)")
+                print(f"  📊 Total active jobs: {result['total_jobs']}")
+
+                # Update result with parsed vendors
+                result['vendors'] = vendors
                 return result
             else:
                 print(f"  ⚠️ No vendor data found for client matching '{client_name}'")
@@ -1243,6 +1286,8 @@ class DatabaseService:
 
         except Exception as e:
             print(f"❌ Error getting vendor for client: {e}")
+            import traceback
+            traceback.print_exc()
             return None
 
     async def test_connection(self) -> bool:

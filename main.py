@@ -1649,27 +1649,48 @@ Consider conducting candidate surveys to understand why offers are being decline
                     extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {}
                 )
 
-            # Get the most common vendor/MSP for this client
-            vendor_info = await db_service.get_vendor_for_client(parameters.client_name)
+            # Get the top 3 vendors/MSPs for this client
+            vendor_info = await db_service.get_vendor_for_client(
+                parameters.client_name,
+                city=parameters.city,
+                state=parameters.state
+            )
 
             if not vendor_info:
+                location_str = ""
+                if parameters.city and parameters.state:
+                    location_str = f" in {parameters.city}, {parameters.state}"
+                elif parameters.city:
+                    location_str = f" in {parameters.city}"
+                elif parameters.state:
+                    location_str = f" in {parameters.state}"
+
                 return ChatResponse(
-                    response=f"I couldn't find any vendor or MSP information for '{parameters.client_name}'. This could mean:\n\n" +
+                    response=f"I couldn't find any vendor or MSP information for '{parameters.client_name}'{location_str}. This could mean:\n\n" +
                             "• The facility name might be spelled differently in our system\n" +
-                            "• No recent job postings (with VMS/parentOrg data) for this client\n" +
+                            "• No datapoints with VMS information for this client\n" +
                             "• Try a partial name (e.g., 'Strong Memorial' instead of 'Strong Memorial Hospital')",
                     requires_data=False,
                     extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {}
                 )
 
-            # Generate natural language response
-            response_text = f"**{vendor_info['client_name']}** primarily works with **{vendor_info['vendor_name']}**.\n\n"
-            response_text += f"Based on {vendor_info['total_jobs']} job postings in our system, "
-            response_text += f"{vendor_info['vendor_name']} appears on {vendor_info['occurrence_count']} of them "
-            response_text += f"({vendor_info['percentage']}% of jobs)."
+            # Generate natural language response for top 3 vendors
+            location_info = ""
+            if vendor_info.get('city') and vendor_info.get('state'):
+                location_info = f" in {vendor_info['city']}, {vendor_info['state']}"
+            elif vendor_info.get('state'):
+                location_info = f" in {vendor_info['state']}"
 
-            if vendor_info['percentage'] < 100:
-                response_text += f"\n\nNote: The remaining {100 - vendor_info['percentage']}% of jobs may be with other vendors or have no MSP/VMS listed."
+            response_text = f"**{vendor_info['client_name']}**{location_info} works with these MSP/VMS vendors:\n\n"
+
+            vendors = vendor_info['vendors']
+            for i, vendor in enumerate(vendors, 1):
+                response_text += f"{i}. **{vendor['vendor_name']}** - {vendor['vms_count']} datapoints ({vendor['percentage']}%)\n"
+
+            response_text += f"\n📊 Total datapoints: {vendor_info['total_jobs']}"
+
+            if len(vendors) == 1 and vendors[0]['percentage'] < 100:
+                response_text += f"\n\n*Note: The remaining {100 - vendors[0]['percentage']}% of datapoints may have no VMS listed or use other vendors.*"
 
             chat_response = ChatResponse(
                 response=response_text,
