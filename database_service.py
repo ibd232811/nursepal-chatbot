@@ -6,6 +6,38 @@ Handles PostgreSQL connections and queries
 import asyncpg
 from typing import Optional, Dict, Any, List
 import os
+import math
+
+
+def calculate_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+    """
+    Calculate the distance between two points using the Haversine formula.
+
+    Args:
+        lat1, lon1: Latitude and longitude of first point
+        lat2, lon2: Latitude and longitude of second point
+
+    Returns:
+        Distance in miles
+    """
+    # Radius of Earth in miles
+    R = 3959.0
+
+    # Convert latitude and longitude from degrees to radians
+    lat1_rad = math.radians(lat1)
+    lon1_rad = math.radians(lon1)
+    lat2_rad = math.radians(lat2)
+    lon2_rad = math.radians(lon2)
+
+    # Haversine formula
+    dlat = lat2_rad - lat1_rad
+    dlon = lon2_rad - lon1_rad
+
+    a = math.sin(dlat / 2)**2 + math.cos(lat1_rad) * math.cos(lat2_rad) * math.sin(dlon / 2)**2
+    c = 2 * math.asin(math.sqrt(a))
+
+    distance = R * c
+    return distance
 
 
 class DatabaseService:
@@ -1286,6 +1318,128 @@ class DatabaseService:
 
         except Exception as e:
             print(f"❌ Error getting vendor for client: {e}")
+            import traceback
+            traceback.print_exc()
+            return None
+
+    async def find_nearby_jobs(
+        self,
+        center_lat: float,
+        center_lon: float,
+        radius_miles: float = 50,
+        specialty: str = None,
+        rate_type: str = "billRate",
+        min_rate: float = None,
+        profession: str = None,
+        limit: int = 20
+    ) -> Optional[List[Dict[str, Any]]]:
+        """
+        Find jobs within a certain radius of a given location
+
+        Args:
+            center_lat: Center point latitude
+            center_lon: Center point longitude
+            radius_miles: Search radius in miles (default: 50)
+            specialty: Optional specialty filter
+            rate_type: billRate, weeklyPay, or hourlyPay (default: billRate)
+            min_rate: Optional minimum rate filter
+            profession: Optional profession filter
+            limit: Maximum number of results (default: 20)
+
+        Returns:
+            List of jobs with distance information, sorted by distance
+        """
+        try:
+            print(f"🔍 Finding jobs within {radius_miles} miles of ({center_lat}, {center_lon})")
+
+            # Build WHERE conditions
+            where_conditions = [
+                'latitude IS NOT NULL',
+                'longitude IS NOT NULL',
+                '"startDate" >= CURRENT_DATE'  # Only future/active jobs
+            ]
+
+            params = []
+            param_count = 0
+
+            if specialty:
+                normalized_specialty = self._normalize_specialty_for_query(specialty)
+                param_count += 1
+                where_conditions.append(f'"newSpecialty" ~ ${param_count}')
+                params.append(normalized_specialty)
+
+            if profession:
+                param_count += 1
+                where_conditions.append(f'"newProfession" = ${param_count}')
+                params.append(profession)
+
+            # Map rate_type to column name
+            rate_column_map = {
+                "billRate": "billRate",
+                "bill_rate": "billRate",
+                "weeklyPay": "weeklyPay",
+                "weekly_pay": "weeklyPay",
+                "hourlyPay": "hourlyPay",
+                "hourly_pay": "hourlyPay"
+            }
+            rate_column = rate_column_map.get(rate_type, "billRate")
+            where_conditions.append(f'"{rate_column}" IS NOT NULL')
+
+            if min_rate:
+                param_count += 1
+                where_conditions.append(f'"{rate_column}" >= ${param_count}')
+                params.append(min_rate)
+
+            where_clause = " AND ".join(where_conditions)
+
+            # PostgreSQL query using the Haversine formula directly in SQL for efficiency
+            # This calculates distance in the database rather than in Python
+            query = f"""
+                SELECT
+                    "clientName",
+                    city,
+                    state,
+                    "newSpecialty",
+                    "newProfession",
+                    "{rate_column}" as rate,
+                    "startDate",
+                    "shiftType",
+                    vms,
+                    latitude,
+                    longitude,
+                    (
+                        3959 * acos(
+                            cos(radians({center_lat})) * cos(radians(latitude)) *
+                            cos(radians(longitude) - radians({center_lon})) +
+                            sin(radians({center_lat})) * sin(radians(latitude))
+                        )
+                    ) AS distance_miles
+                FROM vmsrawscrape_prod
+                WHERE {where_clause}
+                    AND (
+                        3959 * acos(
+                            cos(radians({center_lat})) * cos(radians(latitude)) *
+                            cos(radians(longitude) - radians({center_lon})) +
+                            sin(radians({center_lat})) * sin(radians(latitude))
+                        )
+                    ) <= {radius_miles}
+                ORDER BY distance_miles ASC
+                LIMIT {limit}
+            """
+
+            results = await self.execute_query(query, *params)
+
+            if results:
+                print(f"  ✅ Found {len(results)} jobs within {radius_miles} miles")
+                for i, job in enumerate(results[:3], 1):
+                    print(f"     {i}. {job['clientName']} - {job['newSpecialty']} - {job['distance_miles']:.1f} mi - ${job['rate']:.0f}")
+            else:
+                print(f"  ⚠️ No jobs found within {radius_miles} miles")
+
+            return results
+
+        except Exception as e:
+            print(f"❌ Error finding nearby jobs: {e}")
             import traceback
             traceback.print_exc()
             return None
