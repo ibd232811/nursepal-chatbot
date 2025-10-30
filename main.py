@@ -1203,29 +1203,34 @@ Consider conducting candidate surveys to understand why offers are being decline
             for loc in locations:
                 loc_clean = loc.strip()
 
+                # Check if it's "National" or "nationally" (no state filter)
+                if loc_clean.lower() in ['national', 'nationally', 'nationwide', 'us', 'usa', 'united states']:
+                    parsed_locations.append({'city': None, 'state': None, 'display': 'National', 'is_national': True})
+                    continue
+
                 # Check if it's already "City, State" format
                 if ',' in loc_clean:
                     parts = [p.strip() for p in loc_clean.split(',')]
                     if len(parts) == 2:
                         city, state = parts
-                        parsed_locations.append({'city': city, 'state': state, 'display': loc_clean})
+                        parsed_locations.append({'city': city, 'state': state, 'display': loc_clean, 'is_national': False})
                         continue
 
                 # Check if it's a 2-letter state code
                 if len(loc_clean) == 2 and loc_clean.isalpha():
-                    parsed_locations.append({'city': None, 'state': loc_clean.upper(), 'display': loc_clean.upper()})
+                    parsed_locations.append({'city': None, 'state': loc_clean.upper(), 'display': loc_clean.upper(), 'is_national': False})
                     continue
 
                 # Check if it's a full state name
                 if loc_clean.lower() in state_name_to_abbr:
                     state_abbr = state_name_to_abbr[loc_clean.lower()]
-                    parsed_locations.append({'city': None, 'state': state_abbr, 'display': loc_clean.title()})
+                    parsed_locations.append({'city': None, 'state': state_abbr, 'display': loc_clean.title(), 'is_national': False})
                     continue
 
                 # Check if it's an obvious major city
                 if loc_clean.lower() in obvious_cities:
                     state = obvious_cities[loc_clean.lower()]
-                    parsed_locations.append({'city': loc_clean, 'state': state, 'display': f"{loc_clean}, {state}"})
+                    parsed_locations.append({'city': loc_clean, 'state': state, 'display': f"{loc_clean}, {state}", 'is_national': False})
                     continue
 
                 # Otherwise, it's ambiguous - need clarification
@@ -1555,6 +1560,183 @@ Consider conducting candidate surveys to understand why offers are being decline
             # Generate AI response with job listings
             ai_response = await openai_processor.generate_response(
                 {'comparable_jobs': jobs_results},
+                query.message,
+                parameters
+            )
+
+            chat_response = ChatResponse(
+                response=ai_response,
+                extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {},
+                requires_data=True,
+                user_role_detected=parameters.user_perspective if hasattr(parameters, 'user_perspective') else None
+            )
+
+            # Cache the response
+            if cache_service:
+                cache_service.set(cache_key, chat_response.dict())
+
+            return chat_response
+
+        elif parameters.query_type == 'nearby_jobs':
+            # Handle nearby jobs queries (e.g., "Show me all ICU jobs within 50 miles of Cincinnati OH")
+            if not db_service:
+                return ChatResponse(
+                    response="Database service is not available. I can't search for jobs right now.",
+                    requires_data=False
+                )
+
+            # Check if we have city and state
+            if not parameters.city or not parameters.state:
+                return ChatResponse(
+                    response="To find nearby jobs, please specify both a city and state. For example: 'Show me ICU jobs within 50 miles of Cincinnati, OH'",
+                    requires_data=False,
+                    extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {}
+                )
+
+            # Import geocoding service
+            from geocoding_service import GeocodingService
+
+            geocoder = GeocodingService()
+            coords = geocoder.geocode(parameters.city, parameters.state)
+
+            if not coords:
+                return ChatResponse(
+                    response=f"I couldn't find coordinates for {parameters.city}, {parameters.state}. Please try a different city or check the spelling.",
+                    requires_data=False,
+                    extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {}
+                )
+
+            latitude, longitude = coords
+            radius = parameters.radius_miles or 50.0  # Default to 50 miles
+
+            print(f"🔍 Searching for jobs within {radius} miles of {parameters.city}, {parameters.state} ({latitude}, {longitude})")
+
+            # Call find_nearby_jobs
+            jobs_results = await db_service.find_nearby_jobs(
+                center_lat=latitude,
+                center_lon=longitude,
+                radius_miles=radius,
+                specialty=parameters.specialty,
+                rate_type=parameters.rate_type or "billRate",
+                profession=parameters.profession,
+                limit=20
+            )
+
+            # Fallback: If no results with lat/lon, try searching by state/city
+            if not jobs_results or len(jobs_results) == 0:
+                print(f"  ⚠️ No jobs found with coordinates. Falling back to city/state search...")
+
+                # Try get_comparable_jobs with city/state (without needing target_rate)
+                # This will search for jobs in the same city/state
+                fallback_params = parameters
+                fallback_params.rate_type = parameters.rate_type or "billRate"
+
+                # Get market average for this specialty/location
+                recommendation = await db_service.get_rate_recommendation(fallback_params)
+
+                if recommendation:
+                    target_rate = recommendation.get('market_average')
+                    # Use wider range since we're doing city search
+                    jobs_results_fallback = await db_service.get_comparable_jobs(
+                        fallback_params,
+                        target_rate=target_rate,
+                        rate_range=(target_rate * 0.7, target_rate * 1.3)  # ±30% range
+                    )
+
+                    if jobs_results_fallback and jobs_results_fallback.get('total_jobs', 0) > 0:
+                        jobs_list = jobs_results_fallback.get('jobs', [])
+
+                        # Build explanatory message for city-level fallback
+                        specialty_text = parameters.specialty if parameters.specialty else "positions"
+                        city_explanation_msg = (
+                            f"ℹ️ **Note**: Showing {specialty_text} in the {parameters.city}, {parameters.state} area. "
+                            f"(Exact distances from your location are not available in our data.)\n\n"
+                        )
+
+                        # Format as nearby jobs response but without distance
+                        ai_response = await openai_processor.generate_response(
+                            {
+                                'nearby_jobs': jobs_list,
+                                'search_center': f"{parameters.city}, {parameters.state}",
+                                'radius_miles': radius,
+                                'total_jobs': len(jobs_list),
+                                'city_level_search': True
+                            },
+                            query.message,
+                            parameters
+                        )
+
+                        # Prepend explanation
+                        full_response = city_explanation_msg + ai_response
+
+                        return ChatResponse(
+                            response=full_response,
+                            extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {},
+                            requires_data=True,
+                            user_role_detected=parameters.user_perspective if hasattr(parameters, 'user_perspective') else None
+                        )
+
+                # Try state-level search if city search failed
+                print(f"  ⚠️ No jobs found in city. Trying state-wide search for {parameters.state}...")
+
+                state_params = parameters
+                state_params.city = None  # Remove city filter to search entire state
+
+                recommendation_state = await db_service.get_rate_recommendation(state_params)
+
+                if recommendation_state:
+                    target_rate_state = recommendation_state.get('market_average')
+                    jobs_results_state = await db_service.get_comparable_jobs(
+                        state_params,
+                        target_rate=target_rate_state,
+                        rate_range=(target_rate_state * 0.7, target_rate_state * 1.3)
+                    )
+
+                    if jobs_results_state and jobs_results_state.get('total_jobs', 0) > 0:
+                        jobs_list_state = jobs_results_state.get('jobs', [])
+
+                        # Build explanatory message
+                        specialty_text = parameters.specialty if parameters.specialty else "positions"
+                        explanation_msg = (
+                            f"⚠️ **Note**: I couldn't find enough {specialty_text} within {radius} miles of {parameters.city}, {parameters.state}. "
+                            f"I've expanded the search to show available {specialty_text} throughout {parameters.state}.\n\n"
+                        )
+
+                        ai_response = await openai_processor.generate_response(
+                            {
+                                'nearby_jobs': jobs_list_state,
+                                'search_center': f"{parameters.city}, {parameters.state}",
+                                'radius_miles': radius,
+                                'total_jobs': len(jobs_list_state),
+                                'expanded_to_state': True,
+                                'state': parameters.state,
+                                'specialty': parameters.specialty
+                            },
+                            query.message,
+                            parameters
+                        )
+
+                        # Prepend the explanation to the AI response
+                        full_response = explanation_msg + ai_response
+
+                        return ChatResponse(
+                            response=full_response,
+                            extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {},
+                            requires_data=True,
+                            user_role_detected=parameters.user_perspective if hasattr(parameters, 'user_perspective') else None
+                        )
+
+                # No results at all
+                specialty_msg = f" {parameters.specialty}" if parameters.specialty else ""
+                return ChatResponse(
+                    response=f"I couldn't find any{specialty_msg} positions in {parameters.state}. Try searching for a different specialty or location.",
+                    requires_data=False,
+                    extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {}
+                )
+
+            # Generate AI response with job listings
+            ai_response = await openai_processor.generate_response(
+                {'nearby_jobs': jobs_results, 'search_center': f"{parameters.city}, {parameters.state}", 'radius_miles': radius, 'total_jobs': len(jobs_results)},
                 query.message,
                 parameters
             )

@@ -27,6 +27,7 @@ class QueryParameters:
     proposed_rate: Optional[float] = None  # User's proposed/suggested rate for comparison
     profession: Optional[str] = None  # "Nursing", "Allied", "Locum/Tenens", "Therapy"
     trend_direction: Optional[str] = None  # "rising" or "falling" for rate_trends queries
+    radius_miles: Optional[float] = None  # Search radius in miles for nearby_jobs queries
 
 
 class OpenAIProcessor:
@@ -73,6 +74,7 @@ Analyze the user's message and extract:
    - "market_comparison" - comparing rates between two locations, "how much higher is Buffalo than Ithaca", "compare ICU rates in Ohio and NY", "what's the difference between"
    - "rate_impact" - asking about impact of changing rates, "if I drop the rate", "can we still fill at $X", "what if I lower/raise the rate", "will we struggle to fill"
    - "unfilled_position" - asking why position isn't filling, "why can't I fill this", "position not filling", "having trouble filling", "nurses demanding higher wages", "can't get anyone"
+   - "nearby_jobs" - asking for jobs within a radius/distance of a location, "show me jobs within X miles", "jobs near Cincinnati", "within 50 miles of", "jobs around", "nearby positions", "open jobs within"
    - "comparable_jobs" - asking about similar positions/jobs, "what are comparable jobs", "show me similar positions", "what other jobs", "comparable positions"
    - "client_search" - asking about specific clients/facilities/hospitals with certain rates or jobs, "what clients", "which facilities", "who pays", "facilities with rates", "what hospital has", "what hospital pays", "highest-paying opening", "highest-paying job", "which hospital", "show me facilities", "show me hospitals", "show me clients"
    - "vendor_contract" - asking who has the contract/MSP/VMS with a specific client/hospital, "who has the contract with", "what vendor works with", "who is their MSP", "who do they work with", "what VMS", "who is the MSP for", "vendor for this hospital", "MSP at this facility"
@@ -104,9 +106,12 @@ Analyze the user's message and extract:
    - Extract full location names with city and state if provided (e.g., ["Cincinnati, OH", "Buffalo, NY"] or ["Buffalo", "Ithaca"])
    - Use city names if mentioned (e.g., "Cincinnati" and "Buffalo")
    - Use state abbreviations if only states mentioned (e.g., ["Ohio", "NY"] or ["OH", "NY"])
+   - CRITICAL: If comparing to "nationally", "national", "nationwide", "across the US", "the US", use "National" as the location string
    - Examples: "compare Cincinnati Ohio and Buffalo NY" → ["Cincinnati, OH", "Buffalo, NY"]
    - Examples: "Buffalo vs Ithaca" → ["Buffalo", "Ithaca"]
    - Examples: "Ohio vs NY" → ["OH", "NY"]
+   - Examples: "MI vs nationally" → ["MI", "National"]
+   - Examples: "CRNA jobs in MI versus nationally" → ["MI", "National"]
    - null if not a market_comparison query
 4. user_perspective: Inferred role - "sales", "recruiter", "operations", "finance", or null
 5. is_temporal_query: true if asking about future/predictions (contains: "will be", "next quarter", "forecast", "outlook", "predict", "trend", "2025", "2026", specific future months, etc.)
@@ -149,12 +154,19 @@ Analyze the user's message and extract:
    - "falling" - if asking about "falling", "decreasing", "going down", "dropping", "declining", "lower", "lowest", "cheapest rates"
    - null - if not a rate_trends query (default to "rising" if unclear)
    - IMPORTANT: "what state has the highest rates" → trend_direction = "rising" (showing top states)
+11. radius_miles: For nearby_jobs queries, extract the distance radius:
+   - Extract numeric value from phrases like "within 50 miles", "50 mile radius", "100 miles of", "near" (default 25 miles for "near")
+   - Examples: "within 50 miles" → 50.0, "100 mile radius" → 100.0, "near Cincinnati" → 25.0
+   - Return as float (e.g., 50.0, 100.0, 25.0)
+   - null if not a nearby_jobs query
 
 CRITICAL RULES:
 - If user asks "what's the rate for X" or "how much for X" → query_type = "rate_recommendation"
 - If user asks "what clients", "which facilities", "what hospital", "show me clients", "who has rates like" → query_type = "client_search"
 - If user asks "what will the rate be" or "future rates" → query_type = "forecast_analysis"
-- If user asks "compare [location1] to/and/vs [location2]", "how much higher/lower is X than Y", "difference between X and Y" → query_type = "market_comparison"
+- If user asks "compare [location1] to/and/vs [location2]", "how much higher/lower is X than Y", "difference between X and Y", "versus nationally", "vs national" → query_type = "market_comparison"
+- CRITICAL for market_comparison: If comparing to "nationally", "national", "nationwide" → use "National" in location_list (e.g., ["MI", "National"])
+- If user asks "show me jobs within X miles", "jobs near [city]", "within 50 miles of", "open positions around", "jobs in a X mile radius" → query_type = "nearby_jobs" (MUST extract city, state, and radius_miles)
 - If user asks "comparable jobs", "similar positions", "what other jobs", "show me positions" → query_type = "comparable_jobs"
 - If user asks "if I drop/lower/raise the rate", "can we fill at $X", "will we struggle", "impact of changing" → query_type = "rate_impact"
 - If user asks "why can't I fill", "position not filling", "having trouble", "nurses demanding more" → query_type = "unfilled_position"
@@ -215,7 +227,8 @@ Return ONLY valid JSON with these exact keys."""
                 rate_filter=result.get('rate_filter'),
                 proposed_rate=result.get('proposed_rate'),
                 profession=result.get('profession'),
-                trend_direction=result.get('trend_direction')
+                trend_direction=result.get('trend_direction'),
+                radius_miles=result.get('radius_miles')
             )
 
         except Exception as e:
@@ -285,8 +298,22 @@ Example good response for comparable jobs:
 
 Found 12 total positions. These are upcoming assignments with pay packages similar to the market average."
 
+Example good response for nearby jobs:
+"Here are ICU positions within 50 miles of Cincinnati, OH:
+
+1. **UC Health** - Cincinnati, OH (2.3 mi)
+   - Start: Feb 1, 2025 | Bill Rate: $98/hr | Weekly: $2,400
+
+2. **TriHealth Good Samaritan** - Cincinnati, OH (4.1 mi)
+   - Start: Feb 10, 2025 | Bill Rate: $95/hr | Weekly: $2,340
+
+3. **St. Elizabeth Healthcare** - Edgewood, KY (8.7 mi)
+   - Start: Feb 15, 2025 | Bill Rate: $92/hr | Weekly: $2,250
+
+Found 12 total positions within the search radius."
+
 Example BAD response:
-"Memorial Hospital pays $125/hr..." (MISSING dates even though available in data!)
+"Memorial Hospital pays $125/hr..." (MISSING dates and distances even though available in data!)
 """
 
         # Format the data for the prompt

@@ -1,0 +1,12 @@
+UPDATE public.vmsrawscrape_prod
+SET 
+    "newProfession" = 'Locum/Tenens',
+    "newSubprofession" = 'CRNA',
+    "newSpecialty" = 'Certified Nurse Anesthetist (CRNA)'
+WHERE 
+    profession ILIKE '%CRNA%'
+    OR specialty ILIKE '%CRNA%';
+
+
+
+    

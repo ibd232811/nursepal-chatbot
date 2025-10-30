@@ -1356,7 +1356,7 @@ class DatabaseService:
             where_conditions = [
                 'latitude IS NOT NULL',
                 'longitude IS NOT NULL',
-                '"startDate" >= CURRENT_DATE'  # Only future/active jobs
+                '"startDate" >= NOW() - INTERVAL \'3 months\''  # Recent jobs (last 3 months)
             ]
 
             params = []
