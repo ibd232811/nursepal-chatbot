@@ -1861,19 +1861,37 @@ Consider conducting candidate surveys to understand why offers are being decline
                     extracted_parameters=parameters.__dict__ if hasattr(parameters, '__dict__') else {}
                 )
 
-            # Generate natural language response for top 3 vendors
+            # Generate natural language response for the vendor
             location_info = ""
             if vendor_info.get('city') and vendor_info.get('state'):
                 location_info = f" in {vendor_info['city']}, {vendor_info['state']}"
             elif vendor_info.get('state'):
                 location_info = f" in {vendor_info['state']}"
 
-            response_text = f"**{vendor_info['client_name']}**{location_info} works with these MSP/VMS vendors:\n\n"
-
             vendors = vendor_info['vendors']
-            for i, vendor in enumerate(vendors, 1):
-                # Display vendor name only (which may include important details like "6%")
-                response_text += f"{i}. **{vendor['vendor_name']}**\n"
+            vendor = vendors[0]  # Get the top vendor
+            vendor_name = vendor['vendor_name']
+            rates = vendor.get('rates', [])
+
+            # Build response text
+            response_text = f"According to the most recent data, **{vendor_name}** is the MSP servicing **{vendor_info['client_name']}**{location_info}."
+
+            # If rates are available, display them
+            if rates and len(rates) > 0:
+                response_text += " Their most recent billing reflects that their VMS charge is "
+                rate_parts = []
+                for rate_info in rates[:2]:  # Top 2 rates only
+                    rate = rate_info.get('rate')
+                    datapoints = rate_info.get('datapoints')
+                    if rate:
+                        rate_parts.append(f"{rate} ({datapoints} datapoints)")
+
+                if len(rate_parts) == 1:
+                    response_text += f"{rate_parts[0]}."
+                elif len(rate_parts) == 2:
+                    response_text += f"{rate_parts[0]} and {rate_parts[1]}."
+            else:
+                response_text += ""
 
             chat_response = ChatResponse(
                 response=response_text,

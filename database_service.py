@@ -1248,22 +1248,63 @@ class DatabaseService:
 
             where_clause = " AND ".join(where_conditions)
 
-            # Query to find top 3 VMS vendors for active/future jobs
-            # Use parentOrg column which is standardized (instead of raw vms column)
-            # Filter for startDate >= CURRENT_DATE (active/future jobs only)
+            # Query to find VMS vendors for active/future jobs
+            # Use parentOrg for standardized vendor name
+            # Extract percentage rates from vms column (e.g., "Medical Solutions 6%" -> "6%")
+            # Return top 2 rates by datapoint count for each vendor
             query = f"""
-                WITH vendor_counts AS (
+                WITH vendor_rates AS (
                     SELECT
                         "parentOrg" as vendor_name,
-                        COUNT(*) as vms_count
+                        vms as vms_raw,
+                        -- Extract percentage from vms column using regex (e.g., "6%" from "Medical Solutions 6%")
+                        (REGEXP_MATCH(vms, '(\\d+(?:\\.\\d+)?%)'))[1] as rate_percentage,
+                        COUNT(*) as rate_count
                     FROM vmsrawscrape_prod
                     WHERE {where_clause}
                         AND "parentOrg" IS NOT NULL
                         AND TRIM("parentOrg") != ''
                         AND "startDate" >= CURRENT_DATE
-                    GROUP BY "parentOrg"
-                    ORDER BY vms_count DESC
-                    LIMIT 3
+                    GROUP BY "parentOrg", vms
+                ),
+                top_vendor AS (
+                    SELECT
+                        vendor_name,
+                        SUM(rate_count) as total_count
+                    FROM vendor_rates
+                    GROUP BY vendor_name
+                    ORDER BY total_count DESC
+                    LIMIT 1
+                ),
+                vendor_top_rates AS (
+                    SELECT
+                        vr.vendor_name,
+                        vr.rate_percentage,
+                        SUM(vr.rate_count) as rate_count
+                    FROM vendor_rates vr
+                    INNER JOIN top_vendor tv ON vr.vendor_name = tv.vendor_name
+                    WHERE vr.rate_percentage IS NOT NULL
+                    GROUP BY vr.vendor_name, vr.rate_percentage
+                    ORDER BY rate_count DESC
+                    LIMIT 2
+                ),
+                vendor_counts AS (
+                    SELECT
+                        tv.vendor_name,
+                        tv.total_count as vms_count,
+                        COALESCE(
+                            json_agg(
+                                json_build_object(
+                                    'rate', vtr.rate_percentage,
+                                    'datapoints', vtr.rate_count
+                                )
+                                ORDER BY vtr.rate_count DESC
+                            ) FILTER (WHERE vtr.rate_percentage IS NOT NULL),
+                            '[]'::json
+                        ) as rates
+                    FROM top_vendor tv
+                    LEFT JOIN vendor_top_rates vtr ON tv.vendor_name = vtr.vendor_name
+                    GROUP BY tv.vendor_name, tv.total_count
                 ),
                 total_jobs AS (
                     SELECT
@@ -1282,7 +1323,8 @@ class DatabaseService:
                         json_build_object(
                             'vendor_name', vc.vendor_name,
                             'vms_count', vc.vms_count,
-                            'percentage', ROUND((vc.vms_count::numeric / tj.total_count::numeric) * 100, 1)
+                            'percentage', ROUND((vc.vms_count::numeric / tj.total_count::numeric) * 100, 1),
+                            'rates', vc.rates
                         )
                         ORDER BY vc.vms_count DESC
                     ) as vendors,
