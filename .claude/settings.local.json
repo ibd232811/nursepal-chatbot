@@ -10,7 +10,9 @@
       "Bash(python3 -m json.tool)",
       "Bash(curl -X POST \"http://192.168.1.210:8001/forecast\" )",
       "Bash(curl -X POST http://localhost:8002/chat )",
-      "Bash(lsof:*)"
+      "Bash(lsof:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)"
     ],
     "deny": [],
     "ask": []
