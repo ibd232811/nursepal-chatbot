@@ -62,6 +62,108 @@ class ForecastingService:
         if self.session and not self.session.closed:
             await self.session.close()
 
+    def _blend_forecasts(self, prophet_data: Dict, xgboost_data: Dict,
+                        prophet_weight: float, xgboost_weight: float) -> Dict:
+        """
+        Blend two forecast results with specified weights
+
+        Args:
+            prophet_data: Forecast data from prophet model
+            xgboost_data: Forecast data from xgboost model
+            prophet_weight: Weight for prophet (e.g., 0.7 for 70%)
+            xgboost_weight: Weight for xgboost (e.g., 0.3 for 30%)
+
+        Returns:
+            Blended forecast data with weighted averages
+        """
+        blended = {}
+
+        # Copy metadata from prophet
+        if "_metadata" in prophet_data:
+            blended["_metadata"] = prophet_data["_metadata"].copy()
+            blended["_metadata"]["model"] = "blended (70% prophet + 30% xgboost)"
+
+        # Blend each specialty's data
+        for specialty_key in prophet_data.keys():
+            if specialty_key == "_metadata":
+                continue
+
+            prophet_specialty = prophet_data.get(specialty_key, {})
+            xgboost_specialty = xgboost_data.get(specialty_key, {})
+
+            if not isinstance(prophet_specialty, dict) or not isinstance(xgboost_specialty, dict):
+                blended[specialty_key] = prophet_specialty
+                continue
+
+            blended[specialty_key] = {}
+
+            # Blend each location's data
+            for location_key in prophet_specialty.keys():
+                prophet_location = prophet_specialty.get(location_key, {})
+                xgboost_location = xgboost_specialty.get(location_key, {})
+
+                if not isinstance(prophet_location, dict) or not isinstance(xgboost_location, dict):
+                    blended[specialty_key][location_key] = prophet_location
+                    continue
+
+                blended_location = {}
+
+                # Blend forecast points
+                prophet_forecast = prophet_location.get("forecast", [])
+                xgboost_forecast = xgboost_location.get("forecast", [])
+
+                if prophet_forecast and xgboost_forecast:
+                    blended_forecast = []
+                    min_len = min(len(prophet_forecast), len(xgboost_forecast))
+
+                    for i in range(min_len):
+                        prophet_point = prophet_forecast[i]
+                        xgboost_point = xgboost_forecast[i]
+
+                        blended_point = {
+                            "ds": prophet_point.get("ds"),
+                            "yhat": (prophet_point.get("yhat", 0) * prophet_weight +
+                                   xgboost_point.get("yhat", 0) * xgboost_weight)
+                        }
+
+                        # Blend confidence intervals if available
+                        if "yhat_lower" in prophet_point and "yhat_lower" in xgboost_point:
+                            blended_point["yhat_lower"] = (
+                                prophet_point.get("yhat_lower", 0) * prophet_weight +
+                                xgboost_point.get("yhat_lower", 0) * xgboost_weight
+                            )
+                        if "yhat_upper" in prophet_point and "yhat_upper" in xgboost_point:
+                            blended_point["yhat_upper"] = (
+                                prophet_point.get("yhat_upper", 0) * prophet_weight +
+                                xgboost_point.get("yhat_upper", 0) * xgboost_weight
+                            )
+
+                        blended_forecast.append(blended_point)
+
+                    blended_location["forecast"] = blended_forecast
+                else:
+                    blended_location["forecast"] = prophet_forecast
+
+                # Keep historical data from prophet
+                blended_location["historical"] = prophet_location.get("historical", [])
+
+                # Blend MAPE (weighted average)
+                prophet_mape = prophet_location.get("mape", 0)
+                xgboost_mape = xgboost_location.get("mape", 0)
+                blended_location["mape"] = prophet_mape * prophet_weight + xgboost_mape * xgboost_weight
+
+                # Set model name
+                blended_location["model"] = "blended"
+
+                # Keep other metadata from prophet
+                for key in ["projection", "data_points", "target"]:
+                    if key in prophet_location:
+                        blended_location[key] = prophet_location[key]
+
+                blended[specialty_key][location_key] = blended_location
+
+        return blended
+
     def map_locum_specialty(self, specialty: str, profession: str = None) -> str:
         """
         Map user input specialty to database format for Locum/Tenens
@@ -92,7 +194,7 @@ class ForecastingService:
             specialties: List of nursing specialties (e.g., ["ICU", "ED", "CRNA"])
             states: List of states (e.g., ["CA", "TX"]) - optional for national
             target: "weekly_pay", "bill_rate", or "hourly_pay"
-            model: "ensemble", "prophet", "xgboost", or "random_forest"
+            model: "ensemble", "prophet", "xgboost", "random_forest", or "blended" (70% prophet + 30% xgboost)
             timeout: Request timeout in seconds (default: 30)
             profession: Profession filter from frontend ("Nursing", "Locum/Tenens", "Allied", "Therapy")
 
@@ -164,6 +266,37 @@ class ForecastingService:
 
         if not states:
             print("   🌎 National query - forecasting API should aggregate ALL states")
+
+        # Handle blended model: 70% prophet + 30% xgboost
+        if model == "blended":
+            print("   🔀 Using blended model (70% prophet + 30% xgboost)")
+            try:
+                # Get both prophet and xgboost forecasts in parallel
+                prophet_payload = {**payload, "model": "prophet"}
+                xgboost_payload = {**payload, "model": "xgboost"}
+
+                url = f"{self.base_url}/forecast"
+                timeout_obj = aiohttp.ClientTimeout(total=timeout)
+
+                # Make both requests in parallel
+                async with session.post(url, json=prophet_payload, headers={"Content-Type": "application/json"}, timeout=timeout_obj) as prophet_response, \
+                           session.post(url, json=xgboost_payload, headers={"Content-Type": "application/json"}, timeout=timeout_obj) as xgboost_response:
+
+                    if prophet_response.status == 200 and xgboost_response.status == 200:
+                        prophet_data = await prophet_response.json()
+                        xgboost_data = await xgboost_response.json()
+
+                        # Blend the forecasts: 70% prophet + 30% xgboost
+                        blended_data = self._blend_forecasts(prophet_data, xgboost_data, 0.7, 0.3)
+                        print("   ✅ Successfully blended prophet and xgboost forecasts")
+                        return blended_data
+                    else:
+                        # If blending fails, fall back to prophet
+                        print(f"   ⚠️ Blending failed (prophet: {prophet_response.status}, xgboost: {xgboost_response.status}), falling back to prophet")
+                        payload["model"] = "prophet"
+            except Exception as e:
+                print(f"   ⚠️ Blending error: {e}, falling back to prophet")
+                payload["model"] = "prophet"
 
         try:
             url = f"{self.base_url}/forecast"
@@ -351,9 +484,14 @@ class ChatbotForecastIntegration:
             "confidence": "high" if is_temporal else "low"
         }
     
-    async def generate_forecast_analysis(self, parameters: 'QueryParameters') -> Dict[str, Any]:
-        """Generate forecast analysis for chatbot response"""
-        
+    async def generate_forecast_analysis(self, parameters: 'QueryParameters', model: str = "prophet") -> Dict[str, Any]:
+        """Generate forecast analysis for chatbot response
+
+        Args:
+            parameters: Query parameters with specialty, location, etc.
+            model: Forecasting model to use ("prophet", "xgboost", "blended", etc.)
+        """
+
         if not parameters.specialty:
             return {"error": "Specialty required for forecast analysis"}
         
@@ -424,7 +562,7 @@ class ChatbotForecastIntegration:
                 specialties=[parameters.specialty],  # Will be mapped inside get_rate_forecast
                 states=[normalized_state] if normalized_state else [],
                 target=target_metric,
-                model="prophet",  # Use prophet model as default
+                model=model,  # Use the specified model (prophet, xgboost, blended, etc.)
                 profession=profession  # Pass profession filter
             )
 
@@ -486,7 +624,7 @@ class ChatbotForecastIntegration:
                         specialties=[parameters.specialty],
                         states=[],  # Empty = national
                         target=target_metric,
-                        model="prophet",
+                        model=model,  # Use the same model as the main forecast
                         profession=profession  # Pass profession filter
                     )
 
@@ -553,7 +691,7 @@ class ChatbotForecastIntegration:
                             specialties=[parameters.specialty],
                             states=[state],
                             target=target_metric,
-                            model="prophet",
+                            model=model,  # Use the same model as the main forecast
                             profession=profession
                         )
 

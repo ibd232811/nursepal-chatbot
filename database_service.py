@@ -1251,17 +1251,34 @@ class DatabaseService:
             # Query to find top 3 VMS vendors for active/future jobs
             # Only look at vms column (lowercase, not quoted - not parentOrg)
             # Filter for startDate >= CURRENT_DATE (active/future jobs only)
+            # Normalize vendor names by removing spaces and special characters for grouping,
+            # but keep the original name with details like "6%" for display
             query = f"""
-                WITH vendor_counts AS (
+                WITH vendor_normalized AS (
                     SELECT
-                        vms as vendor_name,
-                        COUNT(*) as vms_count
+                        vms as original_name,
+                        -- Remove spaces, dashes, and convert to uppercase for comparison
+                        REGEXP_REPLACE(UPPER(vms), '[\\s\\-]', '', 'g') as normalized_name
                     FROM vmsrawscrape_prod
                     WHERE {where_clause}
                         AND vms IS NOT NULL
                         AND TRIM(vms) != ''
                         AND "startDate" >= CURRENT_DATE
-                    GROUP BY vms
+                ),
+                vendor_counts AS (
+                    SELECT
+                        -- Pick the name with the most useful info (prefer names with % or numbers)
+                        (ARRAY_AGG(original_name ORDER BY
+                            CASE
+                                WHEN original_name ~ '\\d+%' THEN 1  -- Prefer names with percentage
+                                WHEN LENGTH(original_name) > LENGTH(REGEXP_REPLACE(original_name, '[\\s\\-]', '', 'g')) THEN 2  -- Then prefer names with spaces/formatting
+                                ELSE 3
+                            END,
+                            LENGTH(original_name) DESC
+                        ))[1] as vendor_name,
+                        COUNT(*) as vms_count
+                    FROM vendor_normalized
+                    GROUP BY normalized_name
                     ORDER BY vms_count DESC
                     LIMIT 3
                 ),

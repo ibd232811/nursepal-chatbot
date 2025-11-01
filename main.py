@@ -46,6 +46,7 @@ class ChatQuery(BaseModel):
     conversation_history: Optional[List[Dict[str, str]]] = None
     user_role: Optional[str] = None  # "sales", "recruiter", "operations", "finance"
     profession: Optional[str] = None  # "Nursing", "Allied", "Locum/Tenens", "Therapy"
+    forecast_model: Optional[str] = None  # "prophet", "xgboost", "blended", "ensemble"
 
 class RateRecommendation(BaseModel):
     specialty: str
@@ -625,7 +626,9 @@ async def chat_endpoint(query: ChatQuery):
                     parameters.rate_type = "bill_rate"
 
             forecast_integration = ChatbotForecastIntegration(forecasting_service)
-            forecast_data = await forecast_integration.generate_forecast_analysis(parameters)
+            # Use the forecast model from the query, default to prophet
+            selected_model = query.forecast_model or "prophet"
+            forecast_data = await forecast_integration.generate_forecast_analysis(parameters, model=selected_model)
 
             if "error" in forecast_data:
                 error_response = f"I couldn't generate a forecast: {forecast_data['error']}"
@@ -735,7 +738,9 @@ async def chat_endpoint(query: ChatQuery):
 
             # Get forecast rates
             forecast_integration = ChatbotForecastIntegration(forecasting_service)
-            forecast_data = await forecast_integration.generate_forecast_analysis(parameters)
+            # Use the forecast model from the query, default to prophet
+            selected_model = query.forecast_model or "prophet"
+            forecast_data = await forecast_integration.generate_forecast_analysis(parameters, model=selected_model)
 
             if "error" in forecast_data:
                 return ChatResponse(
@@ -1867,12 +1872,8 @@ Consider conducting candidate surveys to understand why offers are being decline
 
             vendors = vendor_info['vendors']
             for i, vendor in enumerate(vendors, 1):
-                response_text += f"{i}. **{vendor['vendor_name']}** - {vendor['vms_count']} datapoints ({vendor['percentage']}%)\n"
-
-            response_text += f"\n📊 Total datapoints: {vendor_info['total_jobs']}"
-
-            if len(vendors) == 1 and vendors[0]['percentage'] < 100:
-                response_text += f"\n\n*Note: The remaining {100 - vendors[0]['percentage']}% of datapoints may have no VMS listed or use other vendors.*"
+                # Display vendor name only (which may include important details like "6%")
+                response_text += f"{i}. **{vendor['vendor_name']}**\n"
 
             chat_response = ChatResponse(
                 response=response_text,

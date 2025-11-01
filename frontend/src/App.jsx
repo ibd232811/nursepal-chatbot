@@ -20,6 +20,13 @@ const professionOptions = [
   { value: 'Therapy', label: 'Therapy' },
 ]
 
+const modelOptions = [
+  { value: 'prophet', label: 'Prophet (Time Series)' },
+  { value: 'xgboost', label: 'XGBoost (ML)' },
+  { value: 'blended', label: 'Blended (70% Prophet + 30% XGBoost)' },
+  { value: 'ensemble', label: 'Ensemble (All Models)' },
+]
+
 const formatCurrency = (value) => {
   if (typeof value !== 'number' || Number.isNaN(value)) return '—'
   return new Intl.NumberFormat('en-US', {
@@ -194,7 +201,7 @@ function App() {
       id: 1,
       type: 'bot',
       content:
-        'Hi! I\'m **AVA** (AI Virtual Assistant), your healthcare staffing intelligence expert.\n\n' +
+        'Hi! I\'m the **EERP forecasting assistant**, your healthcare staffing intelligence expert.\n\n' +
         'I can help you with:\n\n' +
         '• **Rate Insights** - "What\'s the bill rate for CRNAs in Texas?"\n' +
         '• **Market Forecasts** - "Will Emergency Room Doctor rates increase in California next quarter?"\n' +
@@ -208,6 +215,7 @@ function App() {
   const [inputValue, setInputValue] = useState('')
   const [selectedRole, setSelectedRole] = useState('general')
   const [selectedProfession, setSelectedProfession] = useState('all')
+  const [selectedModel, setSelectedModel] = useState('blended')
   const [isLoading, setIsLoading] = useState(false)
   const [conversationHistory, setConversationHistory] = useState([])
   const [errorBanner, setErrorBanner] = useState('')
@@ -250,6 +258,7 @@ function App() {
           message: trimmed,
           user_role: selectedRole !== 'general' ? selectedRole : null,
           profession: selectedProfession !== 'all' ? selectedProfession : null,
+          forecast_model: selectedModel,
           conversation_history: updatedHistory,
         }),
       })
@@ -290,7 +299,7 @@ function App() {
     } finally {
       setIsLoading(false)
     }
-  }, [inputValue, isLoading, selectedRole, selectedProfession, conversationHistory])
+  }, [inputValue, isLoading, selectedRole, selectedProfession, selectedModel, conversationHistory])
 
   const handleKeyDown = useCallback((event) => {
     if (event.key === 'Enter' && !event.shiftKey) {
@@ -304,7 +313,7 @@ function App() {
       <header className="hero">
         <div className="header-top">
           <div>
-            <h1>AVA - AI Virtual Assistant</h1>
+            <h1>EERP Forecasting Assistant</h1>
             <p className="powered-by">Powered by Tyler Tech - DI Division</p>
           </div>
           <div className="status-indicator">
@@ -338,6 +347,19 @@ function App() {
             {professionOptions.map((profession) => (
               <option key={profession.value} value={profession.value}>
                 {profession.label}
+              </option>
+            ))}
+          </select>
+
+          <label htmlFor="model-select">Forecast Model</label>
+          <select
+            id="model-select"
+            value={selectedModel}
+            onChange={(event) => setSelectedModel(event.target.value)}
+          >
+            {modelOptions.map((model) => (
+              <option key={model.value} value={model.value}>
+                {model.label}
               </option>
             ))}
           </select>

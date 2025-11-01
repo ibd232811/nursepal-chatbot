@@ -9,7 +9,8 @@
       "Bash(curl -X POST \"http://192.168.1.210:8001/forecast\" -H \"Content-Type: application/json\" -d '{\n    \"\"\"\"specialties\"\"\"\": [\"\"\"\"CRNA\"\"\"\"],\n    \"\"\"\"states\"\"\"\": [\"\"\"\"CA\"\"\"\"],\n    \"\"\"\"target\"\"\"\": \"\"\"\"bill_rate\"\"\"\",\n    \"\"\"\"model\"\"\"\": \"\"\"\"prophet\"\"\"\"\n  }')",
       "Bash(python3 -m json.tool)",
       "Bash(curl -X POST \"http://192.168.1.210:8001/forecast\" )",
-      "Bash(curl -X POST http://localhost:8002/chat )"
+      "Bash(curl -X POST http://localhost:8002/chat )",
+      "Bash(lsof:*)"
     ],
     "deny": [],
     "ask": []
